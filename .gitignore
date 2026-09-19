@@ -1,6 +1,22 @@
 
 *.bak
 
+# Local source reference indexing & caches (Never commit raw PDFs/indexes)
+_sources/
+_indexes/
+_cache/
+*.db
+*.db-journal
+*.db-wal
+.sources_index.db
+
+# Foundry Local Server, Config & Node (NEVER COMMIT)
+_foundry/
+foundryconfig.json
+node_modules/
+dist/
+*.zip
+
 pathfinders-guide-to-eberron-compendium/pathfinders-guide-to-eberron-compendium.lock
 
 # macOS
