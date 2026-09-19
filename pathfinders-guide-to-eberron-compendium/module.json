@@ -1,13 +1,14 @@
 {
   "title": "Pathfinder's Guide to Eberron",
   "description": "A set of Eberron compendiums and modifications to bring the world of Eberron to pathfinder 2e",
-  "version": "2.3.2",
+  "version": "2.4.0",
   "id": "pathfinders-guide-to-eberron-compendium",
   "url": "https://github.com/jschoudt/Pathfinder2eConversion",
   "manifest": "https://github.com/jschoudt/Pathfinder2eConversion/releases/latest/download/module.json",
   "download": "https://github.com/jschoudt/Pathfinder2eConversion/releases/latest/download/pathfinders-guide-to-eberron-compendium.zip",
   "bugs": "https://github.com/jschoudt/Pathfinder2eConversion/issues",
   "readme": "https://github.com/jschoudt/Pathfinder2eConversion/blob/main/README.md",
+  "changelog": "https://github.com/jschoudt/Pathfinder2eConversion/blob/main/pathfinders-guide-to-eberron-compendium/CHANGELOG.md",
   "authors": [
     {
       "name": "TNychka (Original Creator)",
@@ -32,15 +33,15 @@
         "id": "pf2e",
         "type": "system",
         "compatibility": {
-          "minimum": "5.0.0",
-          "verified": "5.7.4"
+          "minimum": "6.0.0",
+          "verified": "8.5.1"
         }
       }
     ]
   },
   "compatibility": {
-    "minimum": "11",
-    "verified": "11"
+    "minimum": "12",
+    "verified": "14"
   },
   "scripts": [
     "scripts/legal.js"
@@ -49,7 +50,7 @@
     {
       "name": "eberron-compendium-beta",
       "label": "Eberron Compendium Beta",
-      "path": "packs/eberron-compendium-beta.db",
+      "path": "packs/eberron-compendium-beta",
       "type": "Item",
       "system": "pf2e",
       "ownership": {
@@ -60,7 +61,7 @@
     {
       "name": "eberron-actions",
       "label": "Eberron Actions",
-      "path": "packs/eberron-actions.db",
+      "path": "packs/eberron-actions",
       "type": "Item",
       "system": "pf2e",
       "ownership": {
@@ -71,7 +72,7 @@
     {
       "name": "eberron-ancestries",
       "label": "Eberron Ancestries",
-      "path": "packs/eberron-ancestries.db",
+      "path": "packs/eberron-ancestries",
       "type": "Item",
       "system": "pf2e",
       "ownership": {
@@ -82,7 +83,7 @@
     {
       "name": "eberron-backgrounds",
       "label": "Eberron Backgrounds",
-      "path": "packs/eberron-backgrounds.db",
+      "path": "packs/eberron-backgrounds",
       "type": "Item",
       "system": "pf2e",
       "ownership": {
@@ -93,7 +94,7 @@
     {
       "name": "eberron-classes",
       "label": "Eberron Classes",
-      "path": "packs/eberron-classes.db",
+      "path": "packs/eberron-classes",
       "type": "Item",
       "system": "pf2e",
       "ownership": {
@@ -104,7 +105,7 @@
     {
       "name": "eberron-deities",
       "label": "Eberron Deities",
-      "path": "packs/eberron-deities.db",
+      "path": "packs/eberron-deities",
       "type": "Item",
       "system": "pf2e",
       "ownership": {
@@ -115,7 +116,7 @@
     {
       "name": "eberron-dragonmarks",
       "label": "Eberron Dragonmarks",
-      "path": "packs/eberron-dragonmarks.db",
+      "path": "packs/eberron-dragonmarks",
       "type": "Item",
       "system": "pf2e",
       "ownership": {
@@ -126,7 +127,7 @@
     {
       "name": "eberron-effects",
       "label": "Eberron Effects",
-      "path": "packs/eberron-effects.db",
+      "path": "packs/eberron-effects",
       "type": "Item",
       "system": "pf2e",
       "ownership": {
@@ -137,7 +138,7 @@
     {
       "name": "eberron-feats",
       "label": "Eberron Feats",
-      "path": "packs/eberron-feats.db",
+      "path": "packs/eberron-feats",
       "type": "Item",
       "system": "pf2e",
       "ownership": {
@@ -148,7 +149,7 @@
     {
       "name": "eberron-heritages",
       "label": "Eberron Heritages",
-      "path": "packs/eberron-heritages.db",
+      "path": "packs/eberron-heritages",
       "type": "Item",
       "system": "pf2e",
       "ownership": {
@@ -159,7 +160,7 @@
     {
       "name": "eberron-items",
       "label": "Eberron Items",
-      "path": "packs/eberron-items.db",
+      "path": "packs/eberron-items",
       "type": "Item",
       "system": "pf2e",
       "ownership": {
@@ -170,7 +171,7 @@
     {
       "name": "eberron-spells",
       "label": "Eberron Spells",
-      "path": "packs/eberron-spells.db",
+      "path": "packs/eberron-spells",
       "type": "Item",
       "system": "pf2e",
       "ownership": {
@@ -181,7 +182,7 @@
     {
       "name": "eberron-creatures",
       "label": "Eberron Creatures",
-      "path": "packs/eberron-creatures.db",
+      "path": "packs/eberron-creatures",
       "type": "Actor",
       "system": "pf2e",
       "ownership": {
