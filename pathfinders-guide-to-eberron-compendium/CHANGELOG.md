@@ -22,6 +22,8 @@ This format is optimized for both human reading and automated changelog tools (i
 - **Modern DialogV2:** Modernized license and community notice dialog in `legal.js` to use `foundry.applications.api.DialogV2.prompt` with fallback for legacy v11.
 - **Source-Controlled Compendiums:** Decompiled monolithic binary LevelDB packs into 582 individual, human-readable JSON files in `src/packs/` compiled on-demand using `@foundryvtt/foundryvtt-cli`.
 - **Packaging & Build System:** Added automated CLI scripts for building, linting, packaging, and testing compendium packs.
+- **Security & UPnP Enforcement:** Disabled UPnP in local server options and added automated startup/test validation guards preventing Foundry from running with UPnP enabled.
+- **D&D 2024 & Forge of the Artificer Extraction Pipeline:** Added `npm run extract:dnd2024` tool to extract installed 2024 core rules and *Forge of the Artificer* packs into private staging for mechanical conversion.
 
 ### Removed
 - Removed legacy bundled `.zip` file from the module source directory (now output to `dist/`).

@@ -32,12 +32,17 @@ Pathfinder's Guide to Eberron
     - Development of the pathbuilder JSON available on Github
 
 # Changelog
-**V 2.4.0 - 2026-03-03**
+**V 2.4.0 - 2026-09-19**
 - Updates terminology to align with Pathfinder remaster:
   - Positive/Negative -> Vitality/Void
   - Flat-footed -> Off-guard
   - Spell level -> Spell rank
   - Ability modifier -> Attribute modifier
+- Decompiles Foundry VTT compendiums to source-controlled JSON packs
+- Modernizes Foundry VTT module compatibility for Foundry v14 and PF2e system 8.5.1
+- Upgrades legal dialog to Foundry DialogV2
+- Adds Big Bad Module Manager (BBMM) and Foundry Core changelog integration
+- Integrates automated build, validation, and UPnP security enforcement tooling
 
 **V 2.3.0 - 2023-10-29**
 - Introduces the Pathbuilder module contributed by John Cox
