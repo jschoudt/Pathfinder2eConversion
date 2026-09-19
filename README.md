@@ -64,6 +64,14 @@ By contributing, you agree that your contributions will be licensed under the pr
 * **Contributors & Supporters:** Thank you to all the many people who have helped in large or small ways through feedback or suggestions:
   - John Cox (u/FranciscoBelaqua on Reddit and @franciscobelaqua on Discord) – Development of the Pathbuilder JSON
   - The Pathfinder2eCreations community, the Eberron Pathfinder2e discord community, and everyone else who contributed to both the upstream and fork repositories.
+
+## AI Assistance & Transparency Disclosure
+Artificial intelligence tools (such as large language models and generative image systems) are used to assist in the development of this conversion project:
+* **Mechanical Conversion & Balance:** AI assists with preliminary stat block transcription and mechanical brainstorming. All mechanics, numbers, action costs, and rules are manually reviewed, edited, and balanced by human contributors for Pathfinder 2e Remaster fidelity.
+* **Original Expression:** AI-generated text is audited against source materials to guarantee that no proprietary descriptions or flavor text from official sourcebooks are inadvertently reproduced.
+* **Artwork:** Any AI-generated visual assets are used exclusively for non-commercial visual accompaniment in accordance with US Copyright Office guidelines regarding machine-generated works.
+
+For full protocols, see the [AI Guidelines & Verification Protocol](ThirdPartyContentUsage.md#4-ai-assisted-content-guidelines--verification-protocol).
 ---
 # Legal
 *Pathfinder's Guide to Eberron is unofficial Fan Content permitted under the Wizards of the Coast Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.*

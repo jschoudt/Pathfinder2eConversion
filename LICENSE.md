@@ -24,6 +24,9 @@ Under the following mandatory terms:
 * **NonCommercial (NC):** You may not use the material for commercial purposes, charge for access, or put it behind a paywall.
 * **ShareAlike (SA):** If you remix, transform, or build upon the material, you must distribute your contributions under the same license (CC BY-NC-SA 4.0).
 
+### Notice Regarding AI-Generated Materials
+Under US Copyright Office guidance, raw machine-generated content (such as unedited AI-generated images) lacks human authorship and enters the public domain. The Creative Commons CC BY-NC-SA 4.0 license applies to all human-authored original writing, game balance, rule adaptations, curation, editing, and creative arrangements throughout this project.
+
 ---
 
 ## 2. Wizards of the Coast Fan Content Policy
