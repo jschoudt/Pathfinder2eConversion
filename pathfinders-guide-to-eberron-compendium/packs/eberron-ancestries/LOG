@@ -1,14 +1,14 @@
-2026/09/19-15:45:46.052341 1728d3000 Recovering log #58
-2026/09/19-15:45:46.053156 1728d3000 Delete type=0 #58
-2026/09/19-15:45:46.053187 1728d3000 Delete type=3 #56
-2026/09/19-15:45:46.054934 173977000 Level-0 table #64: started
-2026/09/19-15:45:46.055359 173977000 Level-0 table #64: 15710 bytes OK
-2026/09/19-15:45:46.055433 173977000 Delete type=0 #62
-2026/09/19-15:45:46.055492 173977000 Manual compaction at level-0 from '!items!2UM9v9Towl9wT1th' @ 72057594037927935 : 1 .. '!items!axOqZxs9V7XTg99i' @ 0 : 0; will stop at '!items!axOqZxs9V7XTg99i' @ 42 : 1
-2026/09/19-15:45:46.055498 173977000 Compacting 1@0 + 1@1 files
-2026/09/19-15:45:46.055752 173977000 Generated table #65@0: 5 keys, 15710 bytes
-2026/09/19-15:45:46.055756 173977000 Compacted 1@0 + 1@1 files => 15710 bytes
-2026/09/19-15:45:46.055790 173977000 compacted to: files[ 0 1 0 0 0 0 0 ]
-2026/09/19-15:45:46.055818 173977000 Delete type=2 #60
-2026/09/19-15:45:46.055859 173977000 Delete type=2 #64
-2026/09/19-15:45:46.055896 173977000 Manual compaction at level-0 from '!items!axOqZxs9V7XTg99i' @ 42 : 1 .. '!items!axOqZxs9V7XTg99i' @ 0 : 0; will stop at (end)
+2026/09/19-16:21:19.907858 16fdd3000 Recovering log #68
+2026/09/19-16:21:19.908571 16fdd3000 Delete type=0 #68
+2026/09/19-16:21:19.908597 16fdd3000 Delete type=3 #66
+2026/09/19-16:21:19.910423 17066b000 Level-0 table #74: started
+2026/09/19-16:21:19.910654 17066b000 Level-0 table #74: 15710 bytes OK
+2026/09/19-16:21:19.910710 17066b000 Delete type=0 #72
+2026/09/19-16:21:19.910750 17066b000 Manual compaction at level-0 from '!items!2UM9v9Towl9wT1th' @ 72057594037927935 : 1 .. '!items!axOqZxs9V7XTg99i' @ 0 : 0; will stop at '!items!axOqZxs9V7XTg99i' @ 52 : 1
+2026/09/19-16:21:19.910754 17066b000 Compacting 1@0 + 1@1 files
+2026/09/19-16:21:19.911012 17066b000 Generated table #75@0: 5 keys, 15710 bytes
+2026/09/19-16:21:19.911021 17066b000 Compacted 1@0 + 1@1 files => 15710 bytes
+2026/09/19-16:21:19.911068 17066b000 compacted to: files[ 0 1 0 0 0 0 0 ]
+2026/09/19-16:21:19.911103 17066b000 Delete type=2 #74
+2026/09/19-16:21:19.911155 17066b000 Delete type=2 #70
+2026/09/19-16:21:19.911205 17066b000 Manual compaction at level-0 from '!items!axOqZxs9V7XTg99i' @ 52 : 1 .. '!items!axOqZxs9V7XTg99i' @ 0 : 0; will stop at (end)
