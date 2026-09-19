@@ -14,7 +14,11 @@
     "extract:dnd2024": "node tools/extract_foundry_content.mjs",
     "package": "node tools/package_module.mjs",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "test:debug": "vitest run --inspect-brk --no-file-parallelism",
+    "test:failed": "node tools/run_failed_tests.mjs",
+    "test:failed:debug": "node tools/run_failed_tests.mjs --debug",
+    "test:name": "vitest run --no-file-parallelism -t"
   },
   "keywords": [
     "foundryvtt",

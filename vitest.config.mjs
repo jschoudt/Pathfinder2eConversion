@@ -5,6 +5,8 @@ export default defineConfig({
     include: ['tests/**/*.test.mjs'],
     testTimeout: 20000,
     globals: true,
-    environment: 'node'
+    environment: 'node',
+    reporters: ['default', 'json'],
+    outputFile: '.vitest/test-results.json'
   }
 });

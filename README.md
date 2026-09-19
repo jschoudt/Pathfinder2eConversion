@@ -45,6 +45,35 @@ With the arms race brought about by the last war, and the magic of dragonmarks, 
 ### Other
 This guide also provides details about running the world of Eberron to the full extent  are some what minor guides for building NPCs and PCs that fit the rich lore of the world.
 
+## Testing & Local Debugging
+
+The repository includes a comprehensive 325-test Vitest suite, headless Foundry v14 Document schema validators, and full local debugger support.
+
+### Running Tests via CLI
+
+| Command | Description |
+| :--- | :--- |
+| `npm test` | Runs the full 325-test Vitest suite across all 12 test files. |
+| `npm run test:watch` | Interactive watch mode. Press <kbd>t</kbd> to filter by test name, <kbd>p</kbd> to filter by file, or <kbd>f</kbd> to run only failed tests. |
+| `npm run test:name "<pattern>"` | Runs specific test cases matching a name, ID, or regex pattern (e.g. `npm run test:name "Warforged"`). |
+| `npm test -- -t "<pattern>"` | Standard Vitest filter flag for running specific test cases by substring/regex. |
+| `npm run test:failed` | Automatically re-runs only the test cases that failed during the last run. |
+| `npm run test:debug` | Starts the test suite with `--inspect-brk --no-file-parallelism` on port `9229` for Node/Chrome DevTools debugging. |
+| `npm run test:failed:debug` | Starts only the failed tests with `--inspect-brk` attached to the debugger. |
+| `npm run validate` | Runs headless Foundry v14 Document schema and PF2e rule element validation against all 582 source documents. |
+
+### Running & Debugging in the IDE (VS Code / Antigravity IDE)
+
+The repository provides ready-to-use launch configurations in `.vscode/launch.json`:
+
+1. **Debug Vitest: Current Test File:** Open any test file (e.g. `tests/ancestries.test.mjs`) and press <kbd>F5</kbd> (or select from the Run & Debug panel). It runs only that file under the debugger with full breakpoint support.
+2. **Debug Vitest: By Name / Filter:** Prompts you for a test name substring or regex pattern (e.g. `Aberrant Feedback` or `Warforged`), then runs and breaks at breakpoints only within matching tests.
+3. **Debug Vitest: Failed Tests (Last Run):** Automatically inspects `.vitest/test-results.json` and launches the debugger on only the tests that failed in the previous test execution.
+4. **Debug Vitest: All Tests:** Runs all 325 tests sequentially (`--no-file-parallelism`) under the debugger.
+5. **Debug Vitest: Interactive Watch Mode:** Starts Vitest in interactive watch mode under the debugger, allowing live breakpoint hits as you edit files or toggle filters with <kbd>t</kbd> and <kbd>f</kbd>.
+6. **Attach to Node Debugger (Port 9229):** Connects to any test run started from the terminal with `npm run test:debug` or `npm run test:failed:debug`.
+
+
 # Questions
 Your input is greatly appreciated! I want to make contributing to this project as easy as possible. If you have questions, ideas, or suggestions, please feel free to open a new issue for the maintainer to address.
 

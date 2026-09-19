@@ -16,6 +16,8 @@ foundryconfig.json
 node_modules/
 dist/
 *.zip
+.vitest/
+.vitest-cache/
 
 pathfinders-guide-to-eberron-compendium/pathfinders-guide-to-eberron-compendium.lock
 
