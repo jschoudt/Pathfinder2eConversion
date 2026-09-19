@@ -1,0 +1,30 @@
+{
+  "name": "pathfinders-guide-to-eberron",
+  "version": "2.4.0",
+  "description": "Pathfinder 2e Remaster conversion and compendiums for the Eberron Campaign Setting",
+  "main": "pathfinders-guide-to-eberron-compendium/scripts/legal.js",
+  "type": "module",
+  "scripts": {
+    "build": "node tools/build_packs.mjs",
+    "unpack": "node tools/unpack_packs.mjs",
+    "validate": "node tools/validate_packs.mjs",
+    "lint": "node tools/validate_packs.mjs",
+    "link:foundry": "node tools/link_foundry.mjs",
+    "foundry:start": "node ./_foundry/app/main.mjs --dataPath=./_foundry/data",
+    "extract:dnd2024": "node tools/extract_foundry_content.mjs",
+    "package": "node tools/package_module.mjs",
+    "test": "node tools/validate_packs.mjs"
+  },
+  "keywords": [
+    "foundryvtt",
+    "pf2e",
+    "eberron",
+    "pathfinder-2e"
+  ],
+  "author": "jschoudt",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^3.0.4",
+    "classic-level": "^1.4.1"
+  }
+}
