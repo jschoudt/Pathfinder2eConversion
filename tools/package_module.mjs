@@ -13,14 +13,18 @@ const DIST_DIR = path.resolve('dist');
 async function main() {
   console.log(`\nStarting release packaging...\n` + '='.repeat(50));
 
-  // 1. Build packs first
-  console.log('1. Building LevelDB packs from src/packs/...');
+  // 0. Validate packs against installed Foundry and PF2e
+  console.log('1. Validating source packs against Foundry v14 and PF2e...');
+  await execFileAsync('node', ['tools/validate_packs.mjs'], { stdio: 'inherit' });
+
+  // 1. Build packs
+  console.log('2. Building LevelDB packs from src/packs/...');
   await execFileAsync('node', ['tools/build_packs.mjs']);
 
   // 2. Validate manifest
   const manifestPath = path.join(MODULE_DIR, 'module.json');
   const manifest = JSON.parse(await readFile(manifestPath, 'utf-8'));
-  console.log(`2. Verified manifest for version v${manifest.version}`);
+  console.log(`3. Verified manifest for version v${manifest.version}`);
 
   // 3. Prepare dist
   await mkdir(DIST_DIR, { recursive: true });
