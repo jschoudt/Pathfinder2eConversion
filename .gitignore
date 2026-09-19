@@ -19,6 +19,8 @@ dist/
 .vitest/
 .vitest-cache/
 
+# Compiled Foundry module packs (LevelDB build artifacts generated from src/packs/)
+pathfinders-guide-to-eberron-compendium/packs/
 pathfinders-guide-to-eberron-compendium/pathfinders-guide-to-eberron-compendium.lock
 
 # macOS

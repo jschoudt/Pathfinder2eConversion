@@ -43,6 +43,14 @@ async function main() {
     await mkdir(targetModulesDir, { recursive: true });
   }
 
+  // Ensure LevelDB packs are built if not already present
+  const packsDir = path.resolve('pathfinders-guide-to-eberron-compendium/packs');
+  if (!existsSync(packsDir)) {
+    console.log('Compiled packs missing. Building LevelDB packs from src/packs/...');
+    const { execFileSync } = await import('node:child_process');
+    execFileSync('node', ['tools/build_packs.mjs'], { stdio: 'inherit' });
+  }
+
   console.log(`\nLinking Foundry modules into ${targetModulesDir}...`);
 
   for (const mod of MODULES_TO_LINK) {
