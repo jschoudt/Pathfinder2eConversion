@@ -23,8 +23,19 @@ This format is optimized for both human reading and automated changelog tools (i
 - **Source-Controlled Compendiums:** Decompiled monolithic binary LevelDB packs into 582 individual, human-readable JSON files in `src/packs/` compiled on-demand using `@foundryvtt/foundryvtt-cli`.
 - **Packaging & Build System:** Added automated CLI scripts for building, linting, packaging, and testing compendium packs.
 - **Automated Tier 1 Headless Schema & System Validation:** Integrated automated validation using Foundry v14's native `BaseItem`, `BaseActor`, `BaseJournalEntry`, and `BaseRollTable` Document schema engine alongside installed PF2e system `template.json`, validating 582 source documents, rule elements, and internal `@UUID` link integrity with zero schema errors.
-- **Expanded Vitest Test Suite:** Integrated Vitest as the primary test runner (`npm test`, `npm run test:watch`), executing 25 parallelized assertion suites across 8 test files covering core schemas, internal/external links, deep PF2e mechanics (Ancestries, Feats, Spells, Weapons, NPCs), Rule Elements (FlatModifier, RollOption, GrantItem, AELike, Sense), Remaster terms, and UPnP security in ~500ms.
+- **Massive Vitest Test Suite (325 Tests):** Integrated Vitest as the primary test runner (`npm test`, `npm run test:watch`), executing 325 granular assertion tests across 12 test files covering:
+  - Core Foundry v14 Document schemas and system templates (`schema.test.mjs`)
+  - Internal and external link/UUID integrity (`links.test.mjs`, `external-links.test.mjs`)
+  - Deep PF2e mechanics: Ancestries, Feats, Spells, Weapons, and NPCs (`mechanics.test.mjs`)
+  - PF2e Rule Elements: FlatModifier, RollOption, GrantItem, AELike, and Sense (`rule-elements.test.mjs`)
+  - Remaster terminology enforcement (`remaster.test.mjs`)
+  - Security & UPnP enforcement (`security.test.mjs`)
+  - Comprehensive Ancestry & Heritage specs for Warforged, Kalashtar, Shifter (all 4 heritages), Changeling, and Goblin (`ancestries.test.mjs`)
+  - Complete Eberron Pantheon & Cults specifications across all 22 deities covering weapons, divine font, domains, and cleric spells (`deities.test.mjs`)
+  - Dragonmark House feats, progression tiers (Least, Lesser, Greater, Siberys), and all 24 dragonshard commodities across Eberron, Khyber, and Siberys (`dragonmarks.test.mjs`)
+  - Parameterized unit tests over all 91 Eberron spells and focus cantrips (`spells.test.mjs`)
 - **Companion In-VTT Test Module:** Added `pathfinders-guide-to-eberron-tests` companion module (`tests/companion-module/`) for automated in-world verification inside test worlds (`pf2e-test`), keeping the release compendium module 100% clean of test code.
+- **Spell Action Normalization:** Standardized action cast time on `Dragonmarked Stormbringer` to `"-"` consistent with all dragonmark replication spells.
 - **Security & UPnP Enforcement:** Disabled UPnP in local server options and added automated startup/test validation guards preventing Foundry from running with UPnP enabled.
 - **D&D 2024 & Forge of the Artificer Extraction Pipeline:** Added `npm run extract:dnd2024` tool to extract installed 2024 core rules and *Forge of the Artificer* packs into private staging for mechanical conversion.
 
