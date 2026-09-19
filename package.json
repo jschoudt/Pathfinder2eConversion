@@ -10,7 +10,7 @@
     "validate": "node tools/validate_packs.mjs",
     "lint": "node tools/validate_packs.mjs",
     "link:foundry": "node tools/link_foundry.mjs",
-    "foundry:start": "node ./_foundry/app/main.mjs --dataPath=./_foundry/data",
+    "foundry:start": "node tools/start_foundry.mjs",
     "extract:dnd2024": "node tools/extract_foundry_content.mjs",
     "package": "node tools/package_module.mjs",
     "test": "node tools/validate_packs.mjs"

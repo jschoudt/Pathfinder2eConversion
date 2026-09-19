@@ -114,6 +114,21 @@ async function main() {
     }
   }
 
+  // Check Foundry options.json for UPnP security
+  const optionsFile = path.resolve('_foundry/data/Config/options.json');
+  if (existsSync(optionsFile)) {
+    try {
+      const opts = JSON.parse(await readFile(optionsFile, 'utf-8'));
+      if (opts.upnp === true) {
+        console.error(`\n❌ SECURITY ERROR: UPnP is ENABLED in _foundry/data/Config/options.json!`);
+        console.error(`   Foundry must not have UPnP enabled for local development. Set "upnp": false.`);
+        process.exit(1);
+      } else {
+        console.log(`🛡️  Foundry options check: UPnP is DISABLED.`);
+      }
+    } catch (e) {}
+  }
+
   if (parseErrors > 0 || schemaErrors > 0) {
     console.error(`\n❌ Validation failed due to syntax or schema errors.`);
     process.exit(1);
