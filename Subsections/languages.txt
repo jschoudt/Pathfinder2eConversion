@@ -38,7 +38,7 @@ Daan | Formians, lawful outsiders of Daanvi | Daan
 Daelkyr | Daelkyr, mind flayers, other aberrations, creatures of Xoriat | Daelkyr
 Ignan |	Fire-based creatures | Draconic
 Infernal | Devils of Shavarath | Infernal
-Irial | Ravids, positive energy users of Irian | Draconic
+Irial | Ravids, vitality users of Irian | Draconic
 Kythric | Slaadi, chaotic outsiders of Kythri | Daan
 Mabran | Nightshades, shadows, creatures of Mabar | Draconic
 Quori | Quori, the Inspired, kalashtar | Quori

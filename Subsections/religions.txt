@@ -241,7 +241,7 @@ The Blood of Vol is a religion that believe the only deity that should be worshi
 =
 # The Path of Light [NG] ((++The Path of Light))
 -
-The kalashtar of Adar revere a universal force of positive energy. This path of worship, is the path of light.
+The kalashtar of Adar revere a universal force of vitality. This path of worship, is the path of light.
  
 **Areas of Concern** Dreams, the path of light
 **Alignment** LN
@@ -265,7 +265,7 @@ The Tairnadal elves of Valenar and Northern Aerenal worship the spirits of their
 **Divine Skill** Athletics
 **Domains** Confidence, Might, Protection, Zeal
 **Cleric Spells** 1st: true strike, 2nd: enlarge, 4th: weapon storm
-**Edicts** Strive to uphold the ideals of your ancestor spirit, practice with a weapon every day, destroy the negative undead.
+**Edicts** Strive to uphold the ideals of your ancestor spirit, practice with a weapon every day, destroy the void undead.
 **Anathema** Become or create undead, fail to strive to uphold your ancestor spirit, dishonour yourself, parlay with oathbreakers.
 **Favoured Weapon** Double Scimitar
 |

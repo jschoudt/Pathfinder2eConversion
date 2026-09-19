@@ -55,7 +55,7 @@ Warforged do not have any established cultures or traditions, or any sort of dev
 =
 right(
 ## Living Body
-Your body is formed of both wood and steel which by the powers of the creation forge are granted life. This life energy flows through you much like the blood of humanoids. As a result, you are a living creature. You don't have the typical construct immunities, can be affected by effects that target a living creature, and can recover Hit Points normally via positive energy. Additionally, you are not destroyed when reduced to 0 Hit Points. Instead, your life energy attempts to keep you active even in dire straits; you are knocked out and begin dying when reduced to 0 Hit Points.
+Your body is formed of both wood and steel which by the powers of the creation forge are granted life. This life energy flows through you much like the blood of humanoids. As a result, you are a living creature. You don't have the typical construct immunities, can be affected by effects that target a living creature, and can recover Hit Points normally via vitality. Additionally, you are not destroyed when reduced to 0 Hit Points. Instead, your life energy attempts to keep you active even in dire straits; you are knocked out and begin dying when reduced to 0 Hit Points.
 
 ## Constructed Resistance
 Your constructed body has advantages and disadvantages that most humanoid creatures do not. You gain a +1 circumstance bonus to saving throws against diseases and poisons. However, you are considered to be a creature composed entirely of wood and metal for the purposes of magical or other effects regardless of your integrated armour type. Your integrated armour and physical composition do not violate anathemas - such as the druid's anathema - against metals.
@@ -113,7 +113,7 @@ You have nominal integrated armour and become trained in one lore and one common
 ## Living Wand Warforged heritage
 The Living Wand Warforged were an attempt at creating a warforged capable of innate spellcraft.
 
-You have nominal integrated armour, and gain one cantrip from the arcane spell list. You can cast this spell as an arcane innate spell at will. A cantrip is heightened to a spell level equal to half your level rounded up.
+You have nominal integrated armour, and gain one cantrip from the arcane spell list. You can cast this spell as an arcane innate spell at will. A cantrip is heightened to a spell rank equal to half your level rounded up.
 
 ## Prototype Warforged [Uncommon]
 Many prototype warforged throughout the war.
@@ -176,7 +176,7 @@ item(
 ## Feat 1
 -
 ; Warforged
-Though it is an extremely uncomfortable process - less painful but akin to a human replacing their skin - you can replace your integrated armour. You can remove the integrated armour that you are wearing, and replace it with any other set of armour. This activity takes 1 hour, and while you replace your armour you are considered unarmoured and flat-footed. When you complete the process, the new armour is incorporated into your body and has no bulk as a result. You can still never wear other armour on top of this armour, and can only have one integrated armour at a time. While this armour is integrated, you don't become fatigued from sleeping in it. As before, you can etch armour runes onto your armour while you are wearing it as normal. 
+Though it is an extremely uncomfortable process - less painful but akin to a human replacing their skin - you can replace your integrated armour. You can remove the integrated armour that you are wearing, and replace it with any other set of armour. This activity takes 1 hour, and while you replace your armour you are considered unarmoured and off-guard. When you complete the process, the new armour is incorporated into your body and has no bulk as a result. You can still never wear other armour on top of this armour, and can only have one integrated armour at a time. While this armour is integrated, you don't become fatigued from sleeping in it. As before, you can etch armour runes onto your armour while you are wearing it as normal.
 
 If you are removing the Integrated Armour from your Heritage, it is considered worthless scrap metal and can only be used as armour if you reincorporate it into your body.
 
@@ -241,7 +241,7 @@ The constructed nature of your body makes it difficult for outside magic to affe
 Your constructed magic protects you. You gain a +1 circumstance bonus to the triggering saving throw. Additionally, if the triggering effect is arcane, if you roll a success, you get a critical success instead.
 )
 item(
-**Enhancement** Your safeguards improve. When you Resist Magic, you gain a number of temporary Hit Points equal to the spell level of the triggering effect.
+**Enhancement** Your safeguards improve. When you Resist Magic, you gain a number of temporary Hit Points equal to the spell rank of the triggering effect.
 )
 item(
 # Disease Resistance

@@ -449,7 +449,7 @@ item(
 ## Feat 9
 -
 ; Shifter
-You have mastered how to hunt with your pack. If an enemy is within reach of you and at least two of your allies, that enemy is flat-footed against you.
+You have mastered how to hunt with your pack. If an enemy is within reach of you and at least two of your allies, that enemy is off-guard against you.
 )
 item(
 # Razorclaw Elite
@@ -467,7 +467,7 @@ item(
 ; Shifter
 **Prerequisites** Longstride shifter heritage
 -
-You can take advantage of the terrain to bypass foes’ defences. While in your hybrid form, non-shifter creatures in difficult terrain are flat-footed to you.
+You can take advantage of the terrain to bypass foes’ defences. While in your hybrid form, non-shifter creatures in difficult terrain are off-guard to you.
 )
 item(
 # Thick Skin

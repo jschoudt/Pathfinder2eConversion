@@ -79,16 +79,16 @@ You are trained to hold the line against any charge. You may take cover behind t
 )
 =
 ## Rhaan Clan
-Your clan is tied to the moon Rhaan - the Book. The Rhaan clan maintains the history of the clans through story and song, and you have a deeper connection to the Primal energies of the world. Choose one cantrip from the primal spell list. You can cast this spell as a primal innate spell at will. A cantrip is heightened to a spell level equal to half your level rounded up. You can change this cantrip to a different one from the same list once per day by meditating and connecting to the Primal energies of Eberron; this is a 10-minute activity that has the concentrate trait.
+Your clan is tied to the moon Rhaan - the Book. The Rhaan clan maintains the history of the clans through story and song, and you have a deeper connection to the Primal energies of the world. Choose one cantrip from the primal spell list. You can cast this spell as a primal innate spell at will. A cantrip is heightened to a spell rank equal to half your level rounded up. You can change this cantrip to a different one from the same list once per day by meditating and connecting to the Primal energies of Eberron; this is a 10-minute activity that has the concentrate trait.
 
 ## Sypheros Clan
-Your clan is tied to the moon Sypheros - the Shadow. You have a natural resilience to the dark manifestations of the world. You gain negative resistance equal to half your level (minimum 1). You also have Darkvision instead of Low-Light vision.
+Your clan is tied to the moon Sypheros - the Shadow. You have a natural resilience to the dark manifestations of the world. You gain void resistance equal to half your level (minimum 1). You also have Darkvision instead of Low-Light vision.
 
 ## Therendor Clan
 Your clan is tied to the moon Therendor - The Healer's Moon. You become trained in Medicine (or another skill if you were already trained in Medicine), and you gain the Battle Medicine skill feat. In addition, when you roll a medicine check to Administer First Aid a critical failure becomes a failure, and a failure becomes a success. 
 
 ## Vult Clan
-Your clan is tied to the moon Vult - the Warding Moon. You gain the Armor Proficiency general feat. In addition, you may cast the Shield cantrip as an innate occult spell at will. A cantrip is heightened to a spell level equal to half your level rounded up.
+Your clan is tied to the moon Vult - the Warding Moon. You gain the Armor Proficiency general feat. In addition, you may cast the Shield cantrip as an innate occult spell at will. A cantrip is heightened to a spell rank equal to half your level rounded up.
 
 ## Zarantyr Clan
 Your clan is tied to the moon Zarantyr - the Storm. You can take advantage of the chaos of battle, ripping and tearing through the enemy. You gain the Rampage reaction.
@@ -234,13 +234,13 @@ Your connection to the tribe and your moon is strong. You gain the bonus associa
 
 **Eyre** You can repair damaged weapons and armour on the field, and return companions to the fight swiftly. You gain a +1 circumstance bonus to Crafting checks to repair items, and you don’t need a repair kit for non-magical item repairs as long as you have any amount of junk, spare parts, or debris at your disposal. The gear you are repairing can be worn for the duration of the repair, but the wearer cannot do anything without interrupting the repair.
 
-**Lharvion** Once per day, you can cast Protection. At 7th level, the spell is heightened to 2nd level, and every 2 levels thereafter, the spell is heightened an additional spell level.
+**Lharvion** Once per day, you can cast Protection. At 7th level, the spell is heightened to 2nd level, and every 2 levels thereafter, the spell is heightened an additional spell rank.
 
 **Nymm** The frequency of bark orders becomes once per hour instead. Additionally, you may instead single out an ally to use their reaction to make a strike.
 
 **Olarune** The frequency of Rapid Cover becomes once per hour instead. In addition, when you use the shield block reaction you have resistance 10 to any damage over the shield's hardness.
 
-**Rhaan** Your connection to the primal energies of Eberron lets you reach the fey more easily. You gain the Summon Fey primal spell which you can cast once per day. At 7th level, the spell is heightened to 2nd level, and every 2 levels thereafter, the spell is heightened an additional spell level.
+**Rhaan** Your connection to the primal energies of Eberron lets you reach the fey more easily. You gain the Summon Fey primal spell which you can cast once per day. At 7th level, the spell is heightened to 2nd level, and every 2 levels thereafter, the spell is heightened an additional spell rank.
 )
 =
 item(
@@ -291,7 +291,7 @@ item(
 ; Gnoll
 **Prerequisites** Pack Attack
 -
-More than able to just hone in on vulnerabilities, an enemy is always vulnerable to you simply by the support of your pack. Any creature that’s within reach of you and at least one of your allies is flat-footed to you.
+More than able to just hone in on vulnerabilities, an enemy is always vulnerable to you simply by the support of your pack. Any creature that’s within reach of you and at least one of your allies is off-guard to you.
 )
 item(
 # Armoured Warrior
@@ -318,11 +318,11 @@ By the clan and the pact your powers are heightened, and your senses keen. You c
 item(
 **Barrakas** Your scent sense becomes a precise sense. Creatures under the effects of magic that would hide their passing or presence find it foiled by your keen smell unless accounted for. If you make a survival check to track a creature under the effects of Pass Without Trace, the DC has a -4 circumstance penalty (no lower than their regular survival DC).
 
-**Dravago** You gain the Terrain Stalker feat for snow and can move up to half your speed without attempting a Stealth check. In addition, you can translate your experience with the difficult terrain of the arctic to anywhere. Creatures in difficult terrain are flat-footed to you.
+**Dravago** You gain the Terrain Stalker feat for snow and can move up to half your speed without attempting a Stealth check. In addition, you can translate your experience with the difficult terrain of the arctic to anywhere. Creatures in difficult terrain are off-guard to you.
 
 **Eyre** You can sharpen weapons, polish armour, and apply special techniques to temporarily gain better effects from your armaments. By spending 1 hour working on a weapon or armour, you can grant it the effects of a +1 potency rune until your next daily preparations, gaining a +1 item bonus to attack rolls for a weapon or increasing armour’s item bonus to AC by 1. Once per day, you may choose one of these items to gain a bonus of 2 instead. This has no effect if the weapon or armour already had a potency rune.
 
-**Lharvion** Aberrations of the world are the speciality of your clan, and in particular, the series of blows to best fell one. You become trained in Aberration lore. In addition, if you succeed on a strike against an Aberration, it becomes flat-footed to you until the start of your next turn.
+**Lharvion** Aberrations of the world are the speciality of your clan, and in particular, the series of blows to best fell one. You become trained in Aberration lore. In addition, if you succeed on a strike against an Aberration, it becomes off-guard to you until the start of your next turn.
 
 **Nymm** Leadership is what keeps the Znir strong, and you have trained to maximize the potential of yourself and your allies. When you are adjacent to at least one ally, you and adjacent allies gain a +1 circumstance bonus to AC and saving throws. This bonus increases to +2 to Reflex saves against area effects.
 

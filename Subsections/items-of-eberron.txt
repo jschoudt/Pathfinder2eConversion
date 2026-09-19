@@ -340,7 +340,7 @@ item(
 
 **Activate** :a: interact; **Trigger** You cast a spell from the school of Necromancy
 -
-When used as a material component (adding the material component to the spell if it doesn't already have it) for a Necromancy spell, the covadish leaves heighten the spell level by 1 up to the maximum level you can cast.
+When used as a material component (adding the material component to the spell if it doesn't already have it) for a Necromancy spell, the covadish leaves heighten the spell rank by 1 up to the maximum rank you can cast.
 )
 |
 item(
@@ -433,7 +433,7 @@ item(
 
 **Activate** :a: interact; **Trigger** You cast a spell with the Darkness trait
 -
-When used as a material component (adding the material component to the spell if it doesn't already have it) for a spell with the Darkness trait, the Mabar Crystal automatically attempts to counteract any light effects in the area of the spell. This counteract effect is at the cast spell level + 1 and uses your casting DC.
+When used as a material component (adding the material component to the spell if it doesn't already have it) for a spell with the Darkness trait, the Mabar Crystal automatically attempts to counteract any light effects in the area of the spell. This counteract effect is at the cast spell rank + 1 and uses your casting DC.
 )
 |
 item(
@@ -460,7 +460,7 @@ item(
 
 **Activate** :a: interact; **Trigger** You cast a spell from the school of conjuration
 -
-When used as a material component (adding the material component to the spell if it doesn't already have it) for any conjuration spell, the Narstone heightens the spell level by 1 up to the maximum level you can cast.
+When used as a material component (adding the material component to the spell if it doesn't already have it) for any conjuration spell, the Narstone heightens the spell rank by 1 up to the maximum rank you can cast.
 )
 item(
 # Reath Leaves

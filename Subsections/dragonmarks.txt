@@ -12,7 +12,7 @@ With a flash from the Dragonmark of a Deneith heir, the swing of a blade is defl
 ### Dragonmark Spells
     When you select a Dragonmarked Heritage, you do not start with Dragonmark Spells. When you gain a Dragonmark, it will grant you Dragonmark Spells which are a type of focus spell. It costs 1 Focus Point to cast a focus spell, and the Dragonmark grants you a focus pool of 1 Focus Point. You refill your focus pool during your daily preparations, and you can regain 1 Focus Point by spending 10 minutes using the Refocus activity to restore the powers of your dragonmark.
     Focus spells are automatically heightened to half your level rounded up. Focus spells don't require spell slots, nor can you cast them using spell slots. Certain feats can give you more focus spells and increase the size of your focus pool, though your focus pool can never hold more than 3 Focus Points. The full rules for focus spells appear [here](https://2e.aonprd.com/Rules.aspx?ID=276).
-    All Dragonmark Focus Spells are considered to be of the arcane tradition, though use their own Dragonmark proficiency. When you gain a Dragonmark Focus Pool - while most dragonmarks use Charisma as their spellcasting ability modifier - you may choose to instead use either Intelligence or Wisdom. You may not change which spellcasting ability modifier you use once you have selected it.
+    All Dragonmark Focus Spells are considered to be of the arcane tradition, though use their own Dragonmark proficiency. When you gain a Dragonmark Focus Pool - while most dragonmarks use Charisma as their spellcasting attribute modifier - you may choose to instead use either Intelligence or Wisdom. You may not change which spellcasting attribute modifier you use once you have selected it.
     Dragonmarks are unique in that they provide arcane specialization in specific and limited areas, and originate directly from your Dragonmark. All Dragonmark Focus Spells require the Dragonmark component. This component is supplied by the dragonmark itself, and so long as nothing is interfering with the dragonmark's powers, the component is automatically provided for the casting of the spell. When the dragonmark component is provided, it is evidently visible as the dragonmark glows with a dim light and shifts about on the caster's skin. 
 =
 ## Dragonmark Traits ((+Dragonmark Traits))
@@ -69,7 +69,7 @@ You gain or increase your Focus Pool by 1 and select a new dragonmark Focus Spel
 
 When you gain new dragonmark focus spells, you may select from any focus spell with the Dragonmark trait and the same trait as your Mark (e.g. Mark of Detection). The spell you select may be up to half your level rounded up, but no more than 3rd level.
 
-You become trained in Dragonmark attack rolls and DCs, and you must select your spellcasting ability modifier for Dragonmark Spells from Intelligence, Wisdom, or Charisma. You gain the Dragonmark trait.
+You become trained in Dragonmark attack rolls and DCs, and you must select your spellcasting attribute modifier for Dragonmark Spells from Intelligence, Wisdom, or Charisma. You gain the Dragonmark trait.
 )
 #### 5th Level
 item(
@@ -400,7 +400,7 @@ item(
 ## Feat 11
 -
 ; Dragonmark, General, Mark of Detection
-Your dragonmark maintains your awareness of the world around you at all times, you gain a +1 status bonus to your perception. In addition, you are never flat-footed to hidden enemies.
+Your dragonmark maintains your awareness of the world around you at all times, you gain a +1 status bonus to your perception. In addition, you are never off-guard to hidden enemies.
 )
 item(
 # Dragonmarked Mastery :f:
@@ -520,7 +520,7 @@ item (
 
 **Duration** sustained up to 10 minutes
 -
-You call upon your dragonmark's power to forewarn your target of impending danger. When you cast the spell, the target gains a +1 status bonus to initiative rolls and isn't flat-footed against undetected creatures. This bonus remains as long as you Sustain the Spell. The target is temporarily immune to Detect Danger for 1 hour.
+You call upon your dragonmark's power to forewarn your target of impending danger. When you cast the spell, the target gains a +1 status bonus to initiative rolls and isn't off-guard against undetected creatures. This bonus remains as long as you Sustain the Spell. The target is temporarily immune to Detect Danger for 1 hour.
 -
 **Heightened (3rd)**  You do not need to sustain Detect Danger.
 
@@ -916,7 +916,7 @@ item (
 
 **Range** 30 feet; **Targets** 1 living creature
 -
-You call upon your dragonmark's power to heal the wounded. Your dragonmark channels a burst of positive energy, healing a living creature. If you use healing word on a living target, they restore 4 Hit Points.
+You call upon your dragonmark's power to heal the wounded. Your dragonmark channels a burst of vitality, healing a living creature. If you use healing word on a living target, they restore 4 Hit Points.
 -
 **Heightened (+1)** The amount of healing increases by 4. 
 )
@@ -1830,7 +1830,7 @@ item(
 
 **Saving Throw** basic Reflex
 -
-As an enemy strikes at you, the power of your mark strikes back - lightning arcs into the target. You deal electricity damage equal to 1d4 plus your spellcasting ability modifier. 
+As an enemy strikes at you, the power of your mark strikes back - lightning arcs into the target. You deal electricity damage equal to 1d4 plus your spellcasting attribute modifier. 
 -
 **Heightened (+1)**  The damage increases by 1d4.
 )
@@ -2138,7 +2138,7 @@ note(
 ## Building a spell list
 While Aberrant marks are generally chaotic and destructive, they tend to follow a theme. Some potential themes are Acid, Blood Bending, Plagues, Curses, Fire, Ice, Mental Assaults, or Vermin. When building your Corrupted Replication, you should pick spells that follow a general format - even if it might be suboptimal. Part of the balance of dragonmarks is that they don't always provide the strongest effect that they can at their level.
 
-When building the Heightened Level list, spells should be placed at the heightened level one higher than their base spell level. For example, Acid Storm, a 5th level spell should be placed at Heightened Level 6. Only rarely should the spell be placed at its actual level. You get one spell per level. Start with spells from the following list.
+When building the Heightened Rank list, spells should be placed at the heightened rank one higher than their base spell rank. For example, Acid Storm, a 5th rank spell should be placed at Heightened Rank 6. Only rarely should the spell be placed at its actual rank. You get one spell per rank. Start with spells from the following list.
 **Heightened Level** | **Spell**
 --- | :---
 2 | Acidic Burst, Agitate, Burning hands, Charm, Chilling Spray, Fear, Grease, Grim Tendrils, Noxious Vapors, Phantom Pain

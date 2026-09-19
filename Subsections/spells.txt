@@ -274,7 +274,7 @@ item(
 
 **Range** 180 feet; **Targets** 1 creature or object
 -
-You unleash a bolt of physical power at a creature or object within range. Make a spell attack roll. The blast deals force damage equal to 1d6 + your spellcasting ability modifier.
+You unleash a bolt of physical power at a creature or object within range. Make a spell attack roll. The blast deals force damage equal to 1d6 + your spellcasting attribute modifier.
 **Critical Success** You deal double damage.
 **Success** You deal full damage.
 -
@@ -376,7 +376,7 @@ item(
 
 **Saving Throw** Fortitude
 -
-Channelling your divine powers, you bring a blade of moonlight down onto a creature you can see. You deal 5d10 positive damage. The number of actions you spend when Casting this Spell determines its targets, range, area, and other parameters.
+Channelling your divine powers, you bring a blade of moonlight down onto a creature you can see. You deal 5d10 vitality damage. The number of actions you spend when Casting this Spell determines its targets, range, area, and other parameters.
 
 :a: (somatic) The spell has a range of touch.
 :aa: (somatic, verbal) The spell has a range of 30 feet.
@@ -445,7 +445,7 @@ item(
 
 **Requirements** A Greater or Siberys dragonmark
 -
-You summon a writhing mass of energy in a dragonlike form, a three-dimensional projection of your dragonmark. A living dragonmark appears where you designate within the spell’s range. Aberrant mark summons gains the Negative trait, while true mark summons gains the Positive trait.
+You summon a writhing mass of energy in a dragonlike form, a three-dimensional projection of your dragonmark. A living dragonmark appears where you designate within the spell’s range. Aberrant mark summons gains the void trait, while true mark summons gains the vitality trait.
 -
 **Heightened (+1)** the level of the Greater Living Dragonmark summoned increases by 2. Its AC, DCs, and Saves increase by the equivalent amount. 
 
@@ -479,7 +479,7 @@ item(
 
 **Ranged** :a: force bolt +21, **Damage** 2d8+11 force
 
-**Dragonmark Discharge** :aa: (arcane, evocation, positive/negative) The dragonmark discharges its energy in a blast that deals 12d6 positive or negative depending on the source dragonmark damage in a 40-foot cone (Dragonmark DC of the summoner basic Reflex save). The Greater Living Dragonmark is then destroyed.
+**Dragonmark Discharge** :aa: (arcane, evocation, vitality/void) The dragonmark discharges its energy in a blast that deals 12d6 vitality or void depending on the source dragonmark damage in a 40-foot cone (Dragonmark DC of the summoner basic Reflex save). The Greater Living Dragonmark is then destroyed.
 )
 =
 item(
@@ -509,7 +509,7 @@ item(
 
 **Ranged** :a: force bolt +27, **Damage** 3d8+14 force
 
-**Dragonmark Discharge** :aa: (arcane, evocation, positive/negative) The dragonmark discharges its energy in a blast that deals 15d6 positive or negative depending on the source dragonmark damage in a 40-foot cone (Dragonmark DC of the summoner basic Reflex save). The Siberys Living Dragonmark can't use Dragonmark Discharge again for 1d4 rounds.
+**Dragonmark Discharge** :aa: (arcane, evocation, vitality/void) The dragonmark discharges its energy in a blast that deals 15d6 vitality or void depending on the source dragonmark damage in a 40-foot cone (Dragonmark DC of the summoner basic Reflex save). The Siberys Living Dragonmark can't use Dragonmark Discharge again for 1d4 rounds.
 )
 |
 item(

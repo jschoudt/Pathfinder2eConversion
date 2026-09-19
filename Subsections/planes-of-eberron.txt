@@ -26,10 +26,10 @@ Daanvi | Nymm, the Crown | LN, Flowing, Immeasurable | The Perfect Order
 Dal Quor | Cyra (believe to be destroyed) | Subjective Gravity, Flowing, Metamorphic, Immeasurable | The Region of Dreams 
 Dolurrh | Aryth, the Gateway | Timeless, Immeasurable | The Realm of The Dead 
 Fernia | Eyre, the Anvil | Fire, Immeasurable | The Sea of Flame
-Irian | Barrakas, the Lantern | NG, Positive, Immeasurable | The Eternal Dawn 
+Irian | Barrakas, the Lantern | NG, Vitality, Immeasurable | The Eternal Dawn 
 Kythri | Zarantyr, the Storm | CN, Erratic, Metamorphic, Immeasurable | The Churning Chaos 
 Lamannia | Olarune, the Sentinel | Immeasurable |  The Twilight Forest 
-Mabar | Sypheros, the Shadow | NE, Negative, Shadow, Immeasurable | The Endless Night 
+Mabar | Sypheros, the Shadow | NE, Void, Shadow, Immeasurable | The Endless Night 
 Risia | Dravago, the Herder | Cold, Timeless, Immeasurable | The Plain of Ice 
 Shavarath | Vult, the Warder | Flowing, Immeasurable | The Battleground 
 Syrania | Therendor, the Healer | Air, Immeasurable |  The Azure Sky 
@@ -117,7 +117,7 @@ item(
 -
 **Eternal Ennui.** When a creature enters Dolurrh, its doomed condition immediately increases to a minimum of 1. While in Dolurrh, your doomed condition cannot be removed or reduced by rest or by any other means - though it can be suppressed. After leaving Dolurrh, the doomed condition fades as normal. Creatures native to Dolurrh are immune to this property’s effects.
 
-**Impeded Magic.** To use the Cast a Spell activity for a 1st level or higher spell, a creature must succeed on a flat check of DC 5 + spell level. On a failed check, the action fails and its spell slot is not expended, but the actions are still consumed.
+**Impeded Magic.** To use the Cast a Spell activity for a 1st level or higher spell, a creature must succeed on a flat check of DC 5 + spell rank. On a failed check, the action fails and its spell slot is not expended, but the actions are still consumed.
 
 **Inevitable Entrapment.** Every 24 hours a living creature spends in Dolurrh, it must make a DC 20 Will saving throw. On a failed save, it increases its doomed condition by 1. For every saving throw made, the DC increases by 1. Creatures native to Dolurrh are immune to this property’s effects.
 
@@ -177,7 +177,7 @@ item(
 
 **Deadly Heat.** All regions of Fernia are subject to temperatures of extreme heat (Core Rulebook page 517), though many regions reach temperatures of incredible heat. All creatures increase their resistance to cold damage by 5.
 
-**Empowered Fire.** Fire spells are enhanced, while cold and water spells are impeded (Gamemastery Guide page 136). When you Cast a Spell with the fire trait, that spell is automatically heightened 1 level, up to a level equal to the highest spell level you can cast.
+**Empowered Fire.** Fire spells are enhanced, while cold and water spells are impeded (Gamemastery Guide page 136). When you Cast a Spell with the fire trait, that spell is automatically heightened 1 rank, up to a rank equal to the highest spell rank you can cast.
 
 **Fire Energy Ley Line.** Fernia is attuned to fire energy, and by tapping into this source you can enhance fire spells using that energy’s power. The strength of this power varies throughout Fernia. (Secrets of Magic pg 214)
 
@@ -208,7 +208,7 @@ item(
 # Irian: The Eternal Dawn ((++Irian))
 ## Plane
 -
-; NG, Positive, Immeasurable
+; NG, Vitality, Immeasurable
 **Moon** Barrakas, the Lantern
 
 **Moon and Portal Colour** Bright Grey
@@ -217,9 +217,9 @@ item(
 # &nbsp;
 ## Planar Effects
 -
-**Positive Power.** Positive spells are enhanced, while negative spells are impeded (Gamemastery Guide page 136). When you Cast a Spell with the positive trait, that spell is automatically heightened 1 level, up to a level equal to the highest spell level you can cast.
+**Vitality Power.** Vitality spells are enhanced, while void spells are impeded (Gamemastery Guide page 136). When you Cast a Spell with the vitality trait, that spell is automatically heightened 1 rank, up to a rank equal to the highest spell rank you can cast.
 
-**Negative Void.** To Cast a Spell that deals negative damage, a creature must succeed on a flat check with a DC equal to 5 + the level of the spell. On a failed check, the spell is not cast and its spell slot is not expended, but the actions are lost.
+**Negative Void.** To Cast a Spell that deals void damage, a creature must succeed on a flat check with a DC equal to 5 + the rank of the spell. On a failed check, the spell is not cast and its spell slot is not expended, but the actions are lost.
 
 **Pure Light.** There is no darkness in Irian. Any spell, effect, or other situation that would usually create darkness instead only reduces the lighting to dim light.
 
@@ -227,7 +227,7 @@ item(
 
 **Undead Bane.** Creatures with the undead trait are sickened 2, they may not reduce this sickened value until they escape the effects of Irian. This does not affect undead creatures that are sustained by Irian, such as the deathless elves of Aerenal.
 
-**Positive Energy Ley Line.** Irian is attuned to positive energy, and by tapping into this source you can enhance positive spells using that energy’s power. The strength of this power varies throughout Irian. (Secrets of Magic pg 214)
+**Vitality Energy Ley Line.** Irian is attuned to vitality energy, and by tapping into this source you can enhance vitality spells using that energy’s power. The strength of this power varies throughout Irian. (Secrets of Magic pg 214)
 
 **Standard Time.** Time passes at the same pace as on the Material Plane and is consistent across its layers.
 |
@@ -238,11 +238,11 @@ An Irian manifest zone typically manifests one or two of the planar effects, tho
 
 **Restorative Springs** The waters of a spring hold curative powers - removing disease, healing wounds, even restoring lost senses.
 
-**Positive Crystals** Clusters of radiant crystals sprout from the earth. These crystals typically emanate the Positive Power planar effect, and some particularly potent crystals even replicate the Positive trait of the plane.
+**Vitality Crystals** Clusters of radiant crystals sprout from the earth. These crystals typically emanate the Vitality Power planar effect, and some particularly potent crystals even replicate the vitality trait of the plane.
 
 In addition to the above uncommon effects, all Irian manifest zones always have the following effects
 
-**Positive Influence** Plants and animals thrive in these zones, and people are less likely to dwell on negative emotions and find it easier to embrace hope and joy. 
+**Vitality Influence** Plants and animals thrive in these zones, and people are less likely to dwell on negative emotions and find it easier to embrace hope and joy. 
 
 **Healing Guidance** You gain a +1 status bonus to all Medicine checks.
 
@@ -250,7 +250,7 @@ In addition to the above uncommon effects, all Irian manifest zones always have 
 # &nbsp;
 ## Coterminous and Remote
 -
-While Irian is coterminous, the Positive Power and Upwelling of Life properties apply all across Eberron.
+While Irian is coterminous, the Vitality Power and Upwelling of Life properties apply all across Eberron.
 
 When Irian is remote, colours seem to fade and a sense of ennui pervades the world. All creatures take a -1 status penalty to saving throws against fear. In addition, any effect that restores hit points - including spells - only restores half the total.
 )
@@ -275,7 +275,7 @@ Kythri embodies chaos in all its forms.
 
 **Fluid in Form.** When a creature casts a transmutation spell, its range is doubled; if that spell has a duration of at least 1 minute but less than 24 hours, the duration is also doubled.
 
-**Embrace the Unknown.** To use the Cast a Spell activity for a 1st level or higher Divination spell, a creature must succeed on a flat check of DC 5 + spell level. On a failed check, the action fails and its spell slot is not expended, but the actions are still consumed. Divination spells cast on other planes can’t affect or target creatures, places, or objects on Kythri.
+**Embrace the Unknown.** To use the Cast a Spell activity for a 1st level or higher Divination spell, a creature must succeed on a flat check of DC 5 + spell rank. On a failed check, the action fails and its spell slot is not expended, but the actions are still consumed. Divination spells cast on other planes can’t affect or target creatures, places, or objects on Kythri.
 
 **The Odds Are Odd.** When you roll a check, you critically succeed if you beat the DC by 5 or more. If you fail the DC by 5 or more, you critically fail instead.
 
@@ -311,7 +311,7 @@ item(
 
 **Indomitable Beasts.** Creatures with the animals, beasts, or elemental trait gain a +2 status bonus to Fortitude and Will saves. Upon its arrival in Lamannia, any elemental or beast that’s under the effects of an enchantment spell or bound in any way may choose to immediately end the effect.
 
-**Primal Power.** When you Cast a Spell on the primal list, that spell is automatically heightened 1 level, up to a level equal to the highest spell level you can cast.
+**Primal Power.** When you Cast a Spell on the primal list, that spell is automatically heightened 1 rank, up to a rank equal to the highest spell rank you can cast.
 
 **The Land Provides.** You gain a +2 status bonus to all Survival checks.
 
@@ -335,7 +335,7 @@ item(
 # Mabar: The Endless Night ((++Mabar))
 ## Plane
 -
-; NE, Negative, Shadow, Immeasurable
+; NE, Void, Shadow, Immeasurable
 **Moon** Syperos, the Shadow
 
 **Moon and Portal Colour** Smoky grey and
@@ -345,32 +345,32 @@ shadowy
 # &nbsp;
 ## Planar Effects
 -
-**Negative Power.** Negative spells are enhanced, while positive spells are impeded (Gamemastery Guide page 136). When you Cast a Spell with the negative trait, that spell is automatically heightened 1 level, up to a level equal to the highest spell level you can cast.
+**Void Power.** Void spells are enhanced, while vitality spells are impeded (Gamemastery Guide page 136). When you Cast a Spell with the void trait, that spell is automatically heightened 1 rank, up to a rank equal to the highest spell rank you can cast.
 
-**Radiant Void.** To Cast a Spell that deals positive damage, a creature must succeed on a flat check with a DC equal to 5 + the level of the spell. On a failed check, the spell is not cast and its spell slot is not expended, but the actions are lost.
+**Radiant Void.** To Cast a Spell that deals vitality damage, a creature must succeed on a flat check with a DC equal to 5 + the rank of the spell. On a failed check, the spell is not cast and its spell slot is not expended, but the actions are lost.
 
 **Eternal Shadows.** There is no light in Mabar. Any spell, effect, or other situation that would usually create bright light instead only increases the lighting to dim light.
 
 **Death Triumphant.** Mabar consumes the life force of living things. Every round a living creature spends in
-Mabar, it takes 1d6 points of negative damage. If this damage reduces a creature to 0 hit points, it immediately dies and its body crumbles into ash. Natives of Mabar and creatures under the effects of a death ward spell are immune to the effects of this property.
+Mabar, it takes 1d6 points of void damage. If this damage reduces a creature to 0 hit points, it immediately dies and its body crumbles into ash. Natives of Mabar and creatures under the effects of a death ward spell are immune to the effects of this property.
 
 **Life Bane.** Creatures without the undead trait are sickened 2, they may not reduce this sickened value until they escape the effects of Mabar. This does not affect creatures that are sustained by Mabar.
 
-**Negative Energy Ley Line.** Mabar is attuned to negative energy, and by tapping into this source you can enhance negative spells using that energy’s power. The strength of this power varies throughout Mabar. (Secrets of Magic pg 214)
+**Void Energy Ley Line.** Mabar is attuned to void energy, and by tapping into this source you can enhance void spells using that energy’s power. The strength of this power varies throughout Mabar. (Secrets of Magic pg 214)
 
 **Standard Time.** Time passes at the same pace as on the Material Plane and is consistent across its layers.
 |
 # &nbsp;
 ## Manifest Zones
 -
-Mabar's manifest zones are often powerful sources of negative energy. Skeletons, zombies, and ghouls can all spontaneously rise in Mabaran manifest zones.
+Mabar's manifest zones are often powerful sources of void energy. Skeletons, zombies, and ghouls can all spontaneously rise in Mabaran manifest zones.
 
 # &nbsp;
 ## Coterminous and Remote
 -
 On nights when Mabar is coterminous, the Necrotic Power property encompasses the entire world, and the radius of all light sources is halved. 
 
-When Mabar is remote, all creatures increase their resistance to negative damage by 5. 
+When Mabar is remote, all creatures increase their resistance to void damage by 5. 
 )
 =
 item(
@@ -388,7 +388,7 @@ item(
 -
 **Lethal Cold.** All regions of Risia are subject to temperatures of extreme cold (Core Rulebook page 517), though some regions reach temperatures of incredible cold. All creatures increase their resistance to fire damage by 5.
 
-**Empowered Ice.** Cold spells are enhanced, while fire spells are impeded (Gamemastery Guide page 136). When you Cast a Spell with the cold trait, that spell is automatically heightened 1 level, up to a level equal to the highest spell level you can cast.
+**Empowered Ice.** Cold spells are enhanced, while fire spells are impeded (Gamemastery Guide page 136). When you Cast a Spell with the cold trait, that spell is automatically heightened 1 rank, up to a rank equal to the highest spell rank you can cast.
 
 **Preservation.** When a creature starts its turn with the dying condition, it loses the dying condition and remains unconscious at 0 hit points, increasing the wounded condition as normal. While unconscious at 0 hit points, you enter a state of suspended animation. If an unconscious creature at 0 hit points remains in contact with the ground for more than 1 minute, it’s drawn below the surface and encased in an ice-encrusted stasis. While encased in this way, time ceases to flow for the creature and it doesn’t grow older.
 
@@ -469,7 +469,7 @@ item(
 
 **Universal Understanding.** A creature can understand the literal meaning of any spoken language that it hears and can understand any written language that it can see. This doesn’t decode secret messages or reveal the meaning of symbols that aren’t part of a written language.
 
-**Absolute Peace.** To make an attack or cast a damaging spell, a creature must succeed on a flat check of DC 5 + spell level. On a failed check, the spell is not cast and its spell slot is not expended, but the actions are still consumed.
+**Absolute Peace.** To make an attack or cast a damaging spell, a creature must succeed on a flat check of DC 5 + spell rank. On a failed check, the spell is not cast and its spell slot is not expended, but the actions are still consumed.
 
 **Standard Time.** Time passes at the same pace as on the Material Plane and is consistent across its layers.
 
