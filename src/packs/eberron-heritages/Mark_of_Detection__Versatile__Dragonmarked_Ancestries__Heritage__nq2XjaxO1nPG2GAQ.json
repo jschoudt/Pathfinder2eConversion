@@ -1,6 +1,6 @@
 {
   "_id": "nq2XjaxO1nPG2GAQ",
-  "name": "Mark of Detection [Human Heritage]",
+  "name": "Mark of Detection [Versatile (Dragonmarked Ancestries) Heritage]",
   "type": "heritage",
   "img": "systems/pf2e/icons/features/ancestry/half-elf.webp",
   "effects": [],
@@ -24,13 +24,6 @@
       },
       {
         "add": [
-          "elf",
-          "half-elf"
-        ],
-        "key": "ActorTraits"
-      },
-      {
-        "add": [
           "hb_dragonmarked-heritage",
           "hb_mark-of-detection"
         ],
@@ -45,7 +38,6 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "half-elf",
         "hb_dragonmarked-heritage"
       ],
       "rarity": "common",
@@ -57,10 +49,7 @@
       "license": "OGL",
       "remaster": false
     },
-    "ancestry": {
-      "name": "Human",
-      "uuid": "Compendium.pf2e.ancestries.IiG7DgeLWYrSNXuX"
-    },
+    "ancestry": null,
     "source": {
       "value": "Pathfinder's Guide to Eberron"
     },

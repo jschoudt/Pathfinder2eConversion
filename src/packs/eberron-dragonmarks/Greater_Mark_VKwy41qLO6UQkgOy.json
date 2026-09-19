@@ -14,7 +14,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<blockquote>\n<p><strong>Foundry VTT Implementation Note</strong>:<strong> </strong>Dragonmark Spell Proficiency must be tracked by alternate means - no Dragonmark Spell Proficiency exists. Select a spell Tradition you do not have access to, and use that as a placeholder for your Dragonmark Spell Proficiency.</p>\n</blockquote>\n<p> </p>\n<p>You have gained a greater mark. You may select a new dragonmark Focus Spell, however, you do not increase your Focus Pool. </p>\n<p>When you gain new dragonmark focus spells, you may select from any focus spell with the Dragonmark trait and the same trait as your Mark (e.g. Mark of Detection). The spell you select may be up to half your level rounded up, but no more than 8th level.</p>\n<p>You become Master Proficiency in Dragonmark attack rolls and DCs.</p>"
+      "value": "<blockquote>\n<p><strong>Foundry VTT Implementation Note</strong>:<strong> </strong>Dragonmark Spell Proficiency must be tracked by alternate means - no Dragonmark Spell Proficiency exists. Select a spell Tradition you do not have access to, and use that as a placeholder for your Dragonmark Spell Proficiency.</p>\n</blockquote>\n<p>&nbsp;</p>\n<p>You have gained a greater mark. You may select a new dragonmark Focus Spell, however, you do not increase your Focus Pool.&nbsp;</p>\n<p>When you gain new dragonmark focus spells, you may select from any focus spell with the Dragonmark trait and the same trait as your Mark (e.g. Mark of Detection). The spell you select may be up to half your level rounded up, but no more than 8th rank.</p>\n<p>You become a master in Dragonmark attack rolls and DCs.</p>"
     },
     "rules": [],
     "slug": null,

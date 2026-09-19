@@ -30,8 +30,10 @@ Warforged | Common
 ##### Table 3-2: Versatile Heritage Rarity
 Heritage | Rarity
 --- | ---
-Aasimar | Uncommon
-Tieflings | Uncommon
+Dragonmarked Versatile Heritages | Uncommon
+Aberrant Mark | Uncommon
+Aasimar (Nephilim) | Uncommon
+Tieflings (Nephilim) | Uncommon
 **All others not noted here are Rare.
 
 # Core Ancestries ((++Core Ancestries))

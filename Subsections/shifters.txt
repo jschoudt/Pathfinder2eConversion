@@ -43,11 +43,11 @@ Uncommon
 Medium 
 ## Speed 
 25 feet
-## Ability Boosts
+## Attribute Boosts
 Dexterity
 Free
 Free
-## Ability Flaw
+## Attribute Flaw
 Charisma
 ## Languages 
 Common 

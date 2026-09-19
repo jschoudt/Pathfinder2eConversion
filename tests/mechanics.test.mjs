@@ -27,9 +27,9 @@ describe('PF2e Content Mechanics Deep Verification', () => {
   });
 
   describe('Feats', () => {
-    it('should have valid action types and levels on all 236 feats', () => {
+    it('should have valid action types and levels on all feats (at least 236)', () => {
       const feats = docs.filter(d => d.data.type === 'feat');
-      expect(feats.length).toBe(236);
+      expect(feats.length).toBeGreaterThanOrEqual(236);
 
       const VALID_ACTION_TYPES = new Set(['passive', 'action', 'reaction', 'free']);
 

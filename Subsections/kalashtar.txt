@@ -42,7 +42,7 @@ Uncommon
 Medium 
 ## Speed 
 25 feet 
-## Ability Boosts 
+## Attribute Boosts 
 Charisma 
 Free 
 ## Languages 

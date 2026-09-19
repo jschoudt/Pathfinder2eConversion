@@ -1,0 +1,80 @@
+{
+  "name": "Mark of Finding [Versatile (Dragonmarked Ancestries) Heritage]",
+  "type": "heritage",
+  "img": "systems/pf2e/icons/features/ancestry/half-orc.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.heritages.tLd8Qg82AwEbbmgX"
+    }
+  },
+  "_id": "PRKnsY8fKtf0rvtB",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A dragonmark can manifest on any ancestry carrying the bloodline or prophetic destiny of the Mark of Finding. You gain the Dragonmarked Heritage, and the Mark of Finding traits, in addition to the traits from your ancestry. In addition, you can pick from your base ancestry, Dragonmarked Heritage, and Mark of Finding feats whenever you gain an ancestry feat.</p>\n<p> </p>\n<p>As a member of the Mark of Finding, you may utilise the following focus spells. Some of these spells may belong to a class or archetype. If you select one of these focus spells, they lose the class and archetype traits if they have it, and gain the Dragonmark, and Mark of Finding traits. The tradition of the spell becomes Arcane. Note that rarity is maintained, and uncommon spells should still be verified with your GM. </p>\n<table style=\"width:100%;height:204px\">\n<thead>\n<tr style=\"height:17px\">\n<th style=\"width:15.601%;height:17px\">Level</th>\n<th style=\"width:84.399%;height:17px\">Focus Spell</th>\n</tr>\n</thead>\n<tbody>\n<tr style=\"height:17px\">\n<td style=\"width:15.601%;height:17px\">1</td>\n<td style=\"width:84.399%;height:17px\">@UUID[Compendium.pathfinders-guide-to-eberron-compendium.eberron-spells.kHnaDNJ6pyojfKMp]{Dragonmarked Guidance}*</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"width:15.601%;height:17px\">1</td>\n<td style=\"width:84.399%;height:17px\">@UUID[Compendium.pathfinders-guide-to-eberron-compendium.eberron-spells.V8OCVRuElVrMPqjq]{Hunter's Intuition}*</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"width:15.601%;height:17px\">1</td>\n<td style=\"width:84.399%;height:17px\">@UUID[Compendium.pf2e.spells.XhgMx9WC6NfXd9RP]{Hyperfocus}</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"width:15.601%;height:17px\">1</td>\n<td style=\"width:84.399%;height:17px\">@UUID[Compendium.pf2e.spells.Yrek2Yd4k3DPC2zV]{Zenith Star}</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"width:15.601%;height:17px\">2</td>\n<td style=\"width:84.399%;height:17px\">@UUID[Compendium.pathfinders-guide-to-eberron-compendium.eberron-spells.OwI3Eg4dCKRJYKFO]{Cantrip of Finding}*</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"width:15.601%;height:17px\">2</td>\n<td style=\"width:84.399%;height:17px\">@UUID[Compendium.pathfinders-guide-to-eberron-compendium.eberron-spells.FrJVb0UFNLt3X5i3]{Dragonmarked Hunter}*</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"width:15.601%;height:17px\">2</td>\n<td style=\"width:84.399%;height:17px\">@UUID[Compendium.pathfinders-guide-to-eberron-compendium.eberron-spells.oNmTXMxkw5UDdLz7]{Eyes of the finder}*</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"width:15.601%;height:17px\">2</td>\n<td style=\"width:84.399%;height:17px\">@UUID[Compendium.pf2e.spells.ou56ShiFH7GWF8hX]{Light of Revelation}</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"width:15.601%;height:17px\">3</td>\n<td style=\"width:84.399%;height:17px\">@UUID[Compendium.pf2e.spells.QpjHqxwTGdILLvjD]{Ephemeral Tracking}</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"width:15.601%;height:17px\">5</td>\n<td style=\"width:84.399%;height:17px\">@UUID[Compendium.pf2e.spells.tj86Rnq3QuQnDtG3]{Hunter's Vision}</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"width:15.601%;height:17px\">7</td>\n<td style=\"width:84.399%;height:17px\">@UUID[Compendium.pathfinders-guide-to-eberron-compendium.eberron-spells.yap5HoQvzWHZ5cT0]{Summon Living Dragonmark}*</td>\n</tr>\n</tbody>\n</table>\n*appears in the spell section of this document"
+    },
+    "rules": [
+      {
+        "key": "Sense",
+        "label": "PF2E.SensesLowLightVision",
+        "selector": "lowLightVision"
+      },
+      {
+        "add": [
+          "hb_dragonmarked-heritage",
+          "hb_mark-of-finding"
+        ],
+        "key": "ActorTraits"
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_dragonmarked-heritage"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "ancestry": null,
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:06.813-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    }
+  },
+  "ownership": {
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.4",
+    "coreVersion": "11.309",
+    "createdTime": 1672960327015,
+    "modifiedTime": 1698609901654,
+    "lastModifiedBy": "rB4S3QfOEBk0rdKx"
+  },
+  "_key": "!items!PRKnsY8fKtf0rvtB"
+}

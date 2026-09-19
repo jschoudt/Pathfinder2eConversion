@@ -1,0 +1,75 @@
+{
+  "name": "Mark of Sentinel [Versatile (Dragonmarked Ancestries) Heritage]",
+  "type": "heritage",
+  "img": "systems/pf2e/icons/features/ancestry/skilled-heritage.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.heritages.zVf0Hlp5xG0Q7kmc"
+    }
+  },
+  "_id": "Nj54x1jW42XMFRWJ",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A dragonmark can manifest on any ancestry carrying the bloodline or prophetic destiny of the Mark of Sentinel. You gain the Dragonmarked Heritage, and the Mark of Sentinel traits, in addition to the traits from your ancestry. In addition, you can pick from your base ancestry, Dragonmarked Heritage, and Mark of Sentinel feats whenever you gain an ancestry feat.</p>\n<p>As a member of the Mark of Sentinel, you may utilise the following focus spells. Some of these spells may belong to a class or archetype. If you select one of these focus spells, they lose the class and archetype traits if they have it, and gain the Dragonmark, and Mark of Sentinel traits. The tradition of the spell becomes Arcane. Note that rarity is maintained, and uncommon spells should still be verified with your GM. </p>\n<table style=\"width:100%;height:736px\">\n<thead>\n<tr style=\"height:19px\">\n<th style=\"width:15.6171%;height:19px\">Level</th>\n<th style=\"text-align:left;width:84.3829%;height:19px\">Focus Spell</th>\n</tr>\n</thead>\n<tbody>\n<tr style=\"height:57px\">\n<td style=\"width:15.6171%;height:57px\">1</td>\n<td style=\"text-align:left;width:84.3829%;height:57px\">@Compendium[pathfinders-guide-to-eberron-compendium.eberron-spells.kHnaDNJ6pyojfKMp]{Dragonmarked Guidance}*</td>\n</tr>\n<tr style=\"height:38px\">\n<td style=\"width:15.6171%;height:38px\">1</td>\n<td style=\"text-align:left;width:84.3829%;height:38px\">@Compendium[pf2e.spells-srd.rQYob0QMJ0I1U2sU]{Protector's Sacrifice}</td>\n</tr>\n<tr style=\"height:57px\">\n<td style=\"width:15.6171%;height:57px\">1</td>\n<td style=\"text-align:left;width:84.3829%;height:57px\">@Compendium[pathfinders-guide-to-eberron-compendium.eberron-spells.kempq9mMbDQZIT5Z]{Sentinel's Intuition}*</td>\n</tr>\n<tr style=\"height:57px\">\n<td style=\"width:15.6171%;height:57px\">1</td>\n<td style=\"text-align:left;width:84.3829%;height:57px\">@Compendium[pathfinders-guide-to-eberron-compendium.eberron-spells.Tf8MQ2cBoPt2szg4]{Warded Resilience}*</td>\n</tr>\n<tr style=\"height:57px\">\n<td style=\"width:15.6171%;height:57px\">2</td>\n<td style=\"text-align:left;width:84.3829%;height:57px\">@Compendium[pathfinders-guide-to-eberron-compendium.eberron-spells.w8r6h5yBDnQqocBa]{Cantrip of the Sentinel}*</td>\n</tr>\n<tr style=\"height:57px\">\n<td style=\"width:15.6171%;height:57px\">2</td>\n<td style=\"text-align:left;width:84.3829%;height:57px\">@Compendium[pathfinders-guide-to-eberron-compendium.eberron-spells.aWXQ4WA9VnZrwg2l]{Dragonmarked Sentinel}*</td>\n</tr>\n<tr style=\"height:38px\">\n<td style=\"width:15.6171%;height:38px\">2</td>\n<td style=\"text-align:left;width:84.3829%;height:38px\">@Compendium[pf2e.spells-srd.GQopUYTuhmtb7WMG]{Perfect Strike}</td>\n</tr>\n<tr style=\"height:71px\">\n<td style=\"width:15.6171%;height:71px\">2</td>\n<td style=\"text-align:left;width:84.3829%;height:71px\">\n<p>@Compendium[pathfinders-guide-to-eberron-compendium.eberron-spells.wkk3wgN5woxz5ALa]{Sentinel's Defense}*</p>\n</td>\n</tr>\n<tr style=\"height:38px\">\n<td style=\"width:15.6171%;height:38px\">3</td>\n<td style=\"text-align:left;width:84.3829%;height:38px\">@Compendium[pf2e.spells-srd.2jWVNdVlbJq84dfT]{Battlefield Persistence}</td>\n</tr>\n<tr style=\"height:38px\">\n<td style=\"width:15.6171%;height:38px\">4</td>\n<td style=\"text-align:left;width:84.3829%;height:38px\">@Compendium[pf2e.spells-srd.eG1fBodYwolaXK98]{Enduring Might}</td>\n</tr>\n<tr style=\"height:57px\">\n<td style=\"width:15.6171%;height:57px\">4</td>\n<td style=\"text-align:left;width:84.3829%;height:57px\">@Compendium[pathfinders-guide-to-eberron-compendium.eberron-spells.0hvF5tj3l8nlIqDr]{Spell Guard}*</td>\n</tr>\n<tr style=\"height:38px\">\n<td style=\"width:15.6171%;height:38px\">4</td>\n<td style=\"text-align:left;width:84.3829%;height:38px\">@Compendium[pf2e.spells-srd.tYLBjOTvBVn9JtRb]{Unity}</td>\n</tr>\n<tr style=\"height:57px\">\n<td style=\"width:15.6171%;height:57px\">7</td>\n<td style=\"text-align:left;width:84.3829%;height:57px\">@Compendium[pathfinders-guide-to-eberron-compendium.eberron-spells.yap5HoQvzWHZ5cT0]{Summon Living Dragonmark}*</td>\n</tr>\n<tr>\n<td style=\"width:15.6171%;height:57px\">10</td>\n<td style=\"text-align:left;width:84.3829%;height:57px\">@Compendium[pathfinders-guide-to-eberron-compendium.eberron-spells.NY9poTbM2kY7niDS]{Siberys' Sentinel}*</td>\n</tr>\n</tbody>\n</table>\n*appears in the spell section of this document"
+    },
+    "rules": [
+      {
+        "add": [
+          "hb_dragonmarked-heritage",
+          "hb_mark-of-sentinel"
+        ],
+        "key": "ActorTraits"
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_dragonmarked-heritage"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "ancestry": null,
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:06.784-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    }
+  },
+  "ownership": {
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.4",
+    "coreVersion": "11.309",
+    "createdTime": 1672960327013,
+    "modifiedTime": 1698609898457,
+    "lastModifiedBy": "rB4S3QfOEBk0rdKx"
+  },
+  "_key": "!items!Nj54x1jW42XMFRWJ"
+}

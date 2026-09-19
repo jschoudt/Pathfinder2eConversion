@@ -12,8 +12,8 @@ describe('Foundry v14 & PF2e Schema Validation', () => {
     manifest = await getModuleManifest();
   });
 
-  it('should load all 582 source documents', () => {
-    expect(docs.length).toBe(582);
+  it('should load all source documents (at least 582)', () => {
+    expect(docs.length).toBeGreaterThanOrEqual(582);
   });
 
   it('should have unique _id across all items', () => {

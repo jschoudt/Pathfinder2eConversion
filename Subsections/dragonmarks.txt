@@ -3,14 +3,14 @@ head(
 With a flash from the Dragonmark of a Deneith heir, the swing of a blade is deflected at the last moment. As a peace negotiation comes to a close, the glow of a Mark of Detection stops a hidden blade from ending it in war. Dragonmarks are powers that the heirs of twelve houses use to empower their skillset and specialize in their fields.
 -
 )
-    Dragonmarks are arcane symbols marked on the skin of seven of Khorvaire's common races. Dragonmarks are weaved of blue, green, and purple streaks so vivid, that they seem to glow even without producing light
-    As marks manifested on the peoples of Khorvaire, they did so exclusively in specific bloodlines. Each of these bloodlines has since joined with all other bloodlines of the same type of mark to form a dragonmarked house - gaining complete monopoly over the use of their mark in the world. With the power of their marks, these powerful houses now control large pieces of the economy of Khorvaire.
+    Dragonmarks are arcane symbols marked on the skin of Khorvaire's peoples. Dragonmarks are weaved of blue, green, and purple streaks so vivid, that they seem to glow even without producing light.
+    While true dragonmarks historically manifested exclusively along specific dynastic bloodlines, dragonmarks function as Versatile Heritages in Pathfinder 2e Remaster—allowing any base ancestry carrying the bloodline or prophetic destiny of a house to select a dragonmarked versatile heritage. Each of these bloodlines has formed a dragonmarked house—wielding immense influence and economic monopolies across Khorvaire.
 
 ## Dragonmarks ((+Dragonmarks))
-    Dragonmarks provide arcane power related to a specific and limited area of specialization. Depending on its type, a dragonmark will produce effects related to Detection, Finding, Handling, Healing, Hospitality, Making, Passage, Scribing, Sentinel, Storm, or Warding. The powers manifested by dragonmarks are spell-like effects, the variety and strength of these powers increase with your power, and the size of the dragonmark itself. These powers granted to you by your dragonmark, are in the form of Dragonmark Spells. 
+    Dragonmarks provide arcane power related to a specific and limited area of specialization. Depending on its type, a dragonmark will produce effects related to Detection, Finding, Handling, Healing, Hospitality, Making, Passage, Scribing, Sentinel, Storm, or Warding. The powers manifested by dragonmarks are spell-like effects; the variety and strength of these powers increase with your power, and the size of the dragonmark itself. These powers granted to you by your dragonmark are in the form of Dragonmark Spells. 
 
 ### Dragonmark Spells
-    When you select a Dragonmarked Heritage, you do not start with Dragonmark Spells. When you gain a Dragonmark, it will grant you Dragonmark Spells which are a type of focus spell. It costs 1 Focus Point to cast a focus spell, and the Dragonmark grants you a focus pool of 1 Focus Point. You refill your focus pool during your daily preparations, and you can regain 1 Focus Point by spending 10 minutes using the Refocus activity to restore the powers of your dragonmark.
+    When you select a Dragonmarked Heritage, you do not start with Dragonmark Spells. When you gain a Dragonmark, it will grant you Dragonmark Spells which are a type of focus spell. It costs 1 Focus Point to cast a focus spell, and the Dragonmark grants you a focus pool of 1 Focus Point. You refill your focus pool during your daily preparations, and you can regain Focus Points by spending 10 minutes using the Refocus activity to restore the powers of your dragonmark.
     Focus spells are automatically heightened to half your level rounded up. Focus spells don't require spell slots, nor can you cast them using spell slots. Certain feats can give you more focus spells and increase the size of your focus pool, though your focus pool can never hold more than 3 Focus Points. The full rules for focus spells appear [here](https://2e.aonprd.com/Rules.aspx?ID=276).
     All Dragonmark Focus Spells are considered to be of the arcane tradition, though use their own Dragonmark proficiency. When you gain a Dragonmark Focus Pool - while most dragonmarks use Charisma as their spellcasting attribute modifier - you may choose to instead use either Intelligence or Wisdom. You may not change which spellcasting attribute modifier you use once you have selected it.
     Dragonmarks are unique in that they provide arcane specialization in specific and limited areas, and originate directly from your Dragonmark. All Dragonmark Focus Spells require the Dragonmark component. This component is supplied by the dragonmark itself, and so long as nothing is interfering with the dragonmark's powers, the component is automatically provided for the casting of the spell. When the dragonmark component is provided, it is evidently visible as the dragonmark glows with a dim light and shifts about on the caster's skin. 
@@ -67,7 +67,7 @@ item(
 ; Uncommon, Dragonmarked Heritage
 You gain or increase your Focus Pool by 1 and select a new dragonmark Focus Spell. 
 
-When you gain new dragonmark focus spells, you may select from any focus spell with the Dragonmark trait and the same trait as your Mark (e.g. Mark of Detection). The spell you select may be up to half your level rounded up, but no more than 3rd level.
+When you gain new dragonmark focus spells, you may select from any focus spell with the Dragonmark trait and the same trait as your Mark (e.g. Mark of Detection). The spell you select may be up to half your level rounded up, but no more than 3rd rank.
 
 You become trained in Dragonmark attack rolls and DCs, and you must select your spellcasting attribute modifier for Dragonmark Spells from Intelligence, Wisdom, or Charisma. You gain the Dragonmark trait.
 )
@@ -81,9 +81,9 @@ item(
 -
 Your dragonmark grows along with your powers. You may select a new dragonmark Focus Spell, however, you do not increase your Focus Pool.
 
-When you gain new dragonmark focus spells, you may select from any focus spell with the Dragonmark trait and the same trait as your Mark (e.g. Mark of Detection). The spell you select may be up to half your level rounded up, but no more than 6th level.
+When you gain new dragonmark focus spells, you may select from any focus spell with the Dragonmark trait and the same trait as your Mark (e.g. Mark of Detection). The spell you select may be up to half your level rounded up, but no more than 6th rank.
 
-You become expert in Dragonmark attack rolls and DCs.
+You become an expert in Dragonmark attack rolls and DCs.
 )
 #### 9th Level
 item(
@@ -97,6 +97,18 @@ The well of power that you draw from your dragonmark grows deeper. You increase 
 
 By spending a week retraining, you may change any dragonmark focus spell in your repertoire with a different dragonmark focus spell you select.
 )
+
+item(
+# Potent Dragonmark ((++Potent Dragonmark))
+## Feat 9
+-
+; Uncommon, Dragonmarked Heritage
+**Prerequisites:** Least Mark
+-
+Your dragonmark pulses with potent, channeled energy. Once per day, you can cast one of your dragonmark focus spells without expending a Focus Point.
+
+In addition, you gain a +1 circumstance bonus to skill checks using the signature skill associated with your mark (such as Crafting for the Mark of Making, Medicine for the Mark of Healing, or Perception for the Mark of Detection or Finding).
+)
 =
 #### 13th Level
 item(
@@ -108,9 +120,9 @@ item(
 -
 You have gained a greater mark. You may select a new dragonmark Focus Spell, however, you do not increase your Focus Pool.
 
-When you gain new dragonmark focus spells, you may select from any focus spell with the Dragonmark trait and the same trait as your Mark (e.g. Mark of Detection). The spell you select may be up to half your level rounded up, but no more than 8th level.
+When you gain new dragonmark focus spells, you may select from any focus spell with the Dragonmark trait and the same trait as your Mark (e.g. Mark of Detection). The spell you select may be up to half your level rounded up, but no more than 8th rank.
 
-You become Master Proficiency in Dragonmark attack rolls and DCs.
+You become a master in Dragonmark attack rolls and DCs.
 )
 #### 17th Level
 item(
@@ -124,7 +136,7 @@ You have manifested a Siberys Mark. Siberys marks are extraordinarily rare, and 
 
 When you gain new dragonmark focus spells, you may select from any focus spell with the Dragonmark trait and the same trait as your Mark (e.g. Mark of Detection). The spell you select may be up to half your level rounded up.
 
-You become Legendary Proficiency in Dragonmark attack rolls and DCs.
+You become legendary in Dragonmark attack rolls and DCs.
 )
 ## Dragonmark general feats ((+Dragonmarked General Feats))
 The following feats are available to all ancestries unless otherwise denoted by a Dragonmark trait or a Mark trait. When you gain a general feat, you may additionally select from among one of the following feats as long as you meet the Trait requirements and prerequisites.
@@ -418,9 +430,9 @@ head(
 The Mark of Detection is an inquisitive's dream. It sharpens powers of observation and intuition, allowing the bearer to draw connections and interpret clues others might miss. By actively drawing on its powers, the bearer can detect poisons and study the energies of magic.
 -
 )
-The Mark of Detection manifests on the Khoravar of Eberron. Khoravar are half-elves by lineage, but use the pathfinder rules of half-elves as a heritage of the human ancestry. When you pick the human ancestry, you may pick this heritage. By picking this heritage at first level, you gain access to all of the Mark of Detection ancestry feats and the potential of manifesting a dragonmark.
-## Mark of Detection [Human Heritage] ((+Mark of Detection))
-At least one of your parents is a half-elf descendant of a mark of detection bloodline, whether or not they manifested a mark. You have slightly pointed ears and other telltale signs of half-elf heritage. You gain the elf trait, the half-elf trait, the dragonmarked heritage trait, mark of detection trait, and low-light vision. In addition, you can pick elf, half-elf, human, dragonmarked heritage, and mark of detection feats whenever you gain an ancestry feat.
+While historically manifesting among the Khoravar half-elves of House Medani, the Mark of Detection functions as a versatile heritage and can manifest on any ancestry carrying the bloodline or destiny of the house. By picking this versatile heritage at 1st level, you gain access to all Mark of Detection ancestry feats and the potential of manifesting a dragonmark.
+## Mark of Detection [Versatile (Dragonmarked Ancestries) Heritage] ((+Mark of Detection))
+A dragonmark can manifest on any ancestry carrying the bloodline or prophetic destiny of the Mark of Detection. You gain the Dragonmarked Heritage, the Mark of Detection trait, and low-light vision, in addition to the traits from your ancestry. In addition, you can pick from your base ancestry, Dragonmarked Heritage, and Mark of Detection feats whenever you gain an ancestry feat.
 ## Mark of Detection Focus Spells
 If you manifest a mark, you will begin to gain access to the mark of detection focus spells. As the powers of your mark are heightened, the powers and variety of spells will increase as well.
 ### Focus Spells
@@ -536,10 +548,10 @@ head(
 The Mark of Finding sharpens the senses, guiding the hunter to prey. Alone among the dragonmarks, the Mark of Finding is carried by half-orcs. It first appeared in the Shadow Marches, where clan hunters used it to find their prey.
 -
 )
-The Mark of Finding manifests on the half-orcs of Eberron. When you pick the human ancestry, you may pick this heritage. By picking this heritage at first level you gain access to all of the mark of finding ancestry feats and the potential of manifesting a dragonmark.
+While historically manifesting among the humans and half-orcs of House Tharashk, the Mark of Finding functions as a versatile heritage and can appear on any ancestry carrying the bloodline or destiny of the mark. By picking this versatile heritage at 1st level, you gain access to all Mark of Finding ancestry feats and the potential of manifesting a dragonmark.
 
-## Mark of Finding [Human Heritage]
-At least one of your parents is a half-orc descendant of the mark of finding bloodline, whether or not they manifested a mark. You have a green tinge to your skin and other indicators of orc heritage. You gain the orc trait, the half-orc trait, the dragonmarked heritage trait, and low-light vision. In addition, you can pick orc, half-orc, human,  dragonmarked heritage, and mark of finding feats whenever you gain an ancestry feat.
+## Mark of Finding [Versatile (Dragonmarked Ancestries) Heritage]
+A dragonmark can manifest on any ancestry carrying the bloodline or prophetic destiny of the Mark of Finding. You gain the Dragonmarked Heritage, the Mark of Finding trait, and low-light vision, in addition to the traits from your ancestry. In addition, you can pick from your base ancestry, Dragonmarked Heritage, and Mark of Finding feats whenever you gain an ancestry feat.
 
 ## Mark of Finding Focus Spells
 If you manifest a mark, you will begin to gain access to the following mark of finding focus spells. As the powers of your mark are heightened, the powers and variety of spells will increase as well.
@@ -658,9 +670,9 @@ head(
 The Mark of Handling gives its bearer a primal connection to beasts and the natural world, granting the power to calm and coax. This extends beyond purely natural animals; the mark allows its bearer to guide a hippogriff as easily as a horse.
 -
 )
-The Mark of Handling is a Human Heritage. By picking this Heritage at first level you gain access to all of the Mark of Handling ancestry feats.
-## Mark of Handling [Human Heritage]
-At least one of your parents is a human descendant of the Mark of Handling bloodline, whether or not they manifested a mark. You gain the Dragonmarked Heritage trait. In addition, you can pick human, Dragonmarked Heritage, and Mark of Handling feats whenever you gain an ancestry feat.
+The Mark of Handling functions as a versatile heritage and can appear on any ancestry carrying the bloodline or destiny of House Vadalis. By picking this versatile heritage at 1st level, you gain access to all Mark of Handling ancestry feats and the potential of manifesting a dragonmark.
+## Mark of Handling [Versatile (Dragonmarked Ancestries) Heritage]
+A dragonmark can manifest on any ancestry carrying the bloodline or prophetic destiny of the Mark of Handling. You gain the Dragonmarked Heritage and Mark of Handling traits, in addition to the traits from your ancestry. In addition, you can pick from your base ancestry, Dragonmarked Heritage, and Mark of Handling feats whenever you gain an ancestry feat.
 ## Mark of Handling Focus Spells
 If you manifest a mark, you will begin to gain access to the following mark of handling focus spells. As the powers of your mark are heightened, the powers and variety of spells will increase as well.
 ### Focus Spells
@@ -806,9 +818,9 @@ head(
 A halfling with the Mark of Healing can save a life with a touch, restoring vitality and the will to live. When dealing with mundane medicine, the mark helps its bearer sense the nature of maladies, aiding them in finding a cure. When equipped with dragonshard focus items, the mark can even draw the dead back from the depths of Dolurrh.
 -
 )
-The Mark of Healing is a Halfling Heritage. By picking this Heritage at first level you gain access to all of the Mark of Healing ancestry feats.
-## Mark of Healing [Halfling Heritage]
-At least one of your parents is a halfling descendant of the Mark of Healing bloodline, whether or not they manifested a mark. You gain the Dragonmarked Heritage trait. In addition, you can pick halfling, Dragonmarked Heritage, and Mark of Healing feats whenever you gain an ancestry feat.
+While closely associated with House Jorasco, the Mark of Healing functions as a versatile heritage and can manifest on any ancestry carrying the bloodline or destiny of the house. By picking this versatile heritage at 1st level, you gain access to all Mark of Healing ancestry feats and the potential of manifesting a dragonmark.
+## Mark of Healing [Versatile (Dragonmarked Ancestries) Heritage]
+A dragonmark can manifest on any ancestry carrying the bloodline or prophetic destiny of the Mark of Healing. You gain the Dragonmarked Heritage and Mark of Healing traits, in addition to the traits from your ancestry. In addition, you can pick from your base ancestry, Dragonmarked Heritage, and Mark of Healing feats whenever you gain an ancestry feat.
 ## Mark of Healing Focus Spells
 If you manifest a mark, you will begin to gain access to the following mark of healing focus spells. As the powers of your mark are heightened, the powers and variety of spells will increase as well.
 ### Focus Spells
@@ -926,9 +938,9 @@ head(
 They may not always have gold, but a halfling with the Mark of Hospitality is sure to be rich in friends. The magic of the mark allows the bearer to keep a place clean, and to heat, chill, and season food. But it also helps the bearer connect with others.
 -
 )
-The Mark of Hospitality is a Halfling Heritage. By picking this Heritage at first level you gain access to all of the Mark of Hospitality ancestry feats.
-## Mark of Hospitality [Halfling Heritage]
-At least one of your parents is a halfling descendant of the Mark of Hospitality bloodline, whether or not they manifested a mark. You gain the Dragonmarked Heritage trait. In addition, you can pick halfling, Dragonmarked Heritage, and Mark of Hospitality feats whenever you gain an ancestry feat.
+While historically carried by the halflings of House Ghallanda, the Mark of Hospitality functions as a versatile heritage and can manifest on any ancestry carrying the bloodline or destiny of the house. By picking this versatile heritage at 1st level, you gain access to all Mark of Hospitality ancestry feats and the potential of manifesting a dragonmark.
+## Mark of Hospitality [Versatile (Dragonmarked Ancestries) Heritage]
+A dragonmark can manifest on any ancestry carrying the bloodline or prophetic destiny of the Mark of Hospitality. You gain the Dragonmarked Heritage and Mark of Hospitality traits, in addition to the traits from your ancestry. In addition, you can pick from your base ancestry, Dragonmarked Heritage, and Mark of Hospitality feats whenever you gain an ancestry feat.
 ## Mark of Hospitality Focus Spells
 If you manifest a mark, you will begin to gain access to the following Mark of Hospitality focus spells. As the powers of your mark are heightened, the powers and variety of spells will increase as well.
 ### Focus Spells
@@ -1058,10 +1070,10 @@ head(
 The Mark of Making guides its bearer through any act of creation. The bearer of the mark can mend broken things with a touch, and always has a minor magic item they’ve been working on. A crafter will get the most out of the mark, but anyone can find a use for an enchanted blade.
 -
 )
-The Mark of Making is a Human Heritage. By picking this Heritage at first level you gain access to all of the Mark of Making ancestry feats.
+The Mark of Making functions as a versatile heritage and can manifest on any ancestry carrying the bloodline or destiny of House Cannith. By picking this versatile heritage at 1st level, you gain access to all Mark of Making ancestry feats and the potential of manifesting a dragonmark.
 
-## Mark of Making [Human Heritage]
-At least one of your parents is a Human descendant of the Mark of Making bloodline, whether or not they manifested a mark. You gain the Dragonmarked Heritage trait. In addition, you can pick human, Dragonmarked Heritage, and Mark of Making feats whenever you gain an ancestry feat.
+## Mark of Making [Versatile (Dragonmarked Ancestries) Heritage]
+A dragonmark can manifest on any ancestry carrying the bloodline or prophetic destiny of the Mark of Making. You gain the Dragonmarked Heritage and Mark of Making traits, in addition to the traits from your ancestry. In addition, you can pick from your base ancestry, Dragonmarked Heritage, and Mark of Making feats whenever you gain an ancestry feat.
 
 ## Mark of Making Focus Spells
 If you manifest a mark, you will begin to gain access to the following Mark of Making focus spells. As the powers of your mark are heightened, the powers and variety of spells will increase as well.
@@ -1209,10 +1221,10 @@ head(
 The Mark of Passage governs motion, allowing its bearer to move with uncanny speed. The bearer of the mark can even slip through space in the blink of an eye.
 -
 )
-The Mark of Passage is a Human Heritage. By picking this Heritage at first level you gain access to all of the Mark of Passage ancestry feats.
+The Mark of Passage functions as a versatile heritage and can manifest on any ancestry carrying the bloodline or destiny of House Orien. By picking this versatile heritage at 1st level, you gain access to all Mark of Passage ancestry feats and the potential of manifesting a dragonmark.
 
-## Mark of Passage [Human Heritage]
-At least one of your parents is a Human descendant of the Mark of Passage bloodline, whether or not they manifested a mark. You gain the Dragonmarked Heritage trait. In addition, you can pick human, Dragonmarked Heritage, and Mark of Passage feats whenever you gain an ancestry feat.
+## Mark of Passage [Versatile (Dragonmarked Ancestries) Heritage]
+A dragonmark can manifest on any ancestry carrying the bloodline or prophetic destiny of the Mark of Passage. You gain the Dragonmarked Heritage and Mark of Passage traits, in addition to the traits from your ancestry. In addition, you can pick from your base ancestry, Dragonmarked Heritage, and Mark of Passage feats whenever you gain an ancestry feat.
 
 ## Mark of Passage Focus Spells
 If you manifest a mark, you will begin to gain access to the following mark of passage focus spells. As the powers of your mark are heightened, the powers and variety of spells will increase as well.
@@ -1338,10 +1350,10 @@ head(
 The Mark of Scribing deals with communication-both the written and spoken word. A gnome who bears the mark can feel words as though they are living creatures, struggling to make their meaning known. The mark provides a range of gifts. It translates languages, but it also allows its bearer to communicate with others at a distance.
 -
 )
-The Mark of Scribing is a Gnome Heritage. By picking this Heritage at first level you gain access to all of the Mark of Scribing ancestry feats.
+While historically carried by the gnomes of House Sivis, the Mark of Scribing functions as a versatile heritage and can manifest on any ancestry carrying the bloodline or destiny of the house. By picking this versatile heritage at 1st level, you gain access to all Mark of Scribing ancestry feats and the potential of manifesting a dragonmark.
 
-## Mark of Scribing [Gnome Heritage]
-At least one of your parents is a Gnome descendant of the Mark of Scribing bloodline, whether or not they manifested a mark. You gain the Dragonmarked Heritage trait. In addition, you can pick human, Dragonmarked Heritage, and Mark of Scribing feats whenever you gain an ancestry feat.
+## Mark of Scribing [Versatile (Dragonmarked Ancestries) Heritage]
+A dragonmark can manifest on any ancestry carrying the bloodline or prophetic destiny of the Mark of Scribing. You gain the Dragonmarked Heritage and Mark of Scribing traits, in addition to the traits from your ancestry. In addition, you can pick from your base ancestry, Dragonmarked Heritage, and Mark of Scribing feats whenever you gain an ancestry feat.
 
 ## Mark of Scribing Focus Spells
 If you manifest a mark, you will begin to gain access to the following mark of scribing focus spells. As the powers of your mark are heightened, the powers and variety of spells will increase as well.
@@ -1471,10 +1483,10 @@ head(
 The Mark of Sentinel warns and protects. It heightens senses and reflexes, allowing an heir to respond to threats with uncanny speed. It can shield its bearer from harm. Whether on the battlefield or the ballroom, someone who carries the Mark of Sentinel is prepared for danger.
 -
 )
-The Mark of Sentinel is a Human Heritage. By picking this Heritage at first level you gain access to all of the Mark of Passage ancestry feats.
+The Mark of Sentinel functions as a versatile heritage and can manifest on any ancestry carrying the bloodline or destiny of House Deneith. By picking this versatile heritage at 1st level, you gain access to all Mark of Sentinel ancestry feats and the potential of manifesting a dragonmark.
 
-## Mark of Sentinel [Human Heritage]
-At least one of your parents is a Human descendant of the Mark of Sentinel bloodline, whether or not they manifested a mark. You gain the Dragonmarked Heritage trait. In addition, you can pick human, Dragonmarked Heritage, and Mark of Sentinel feats whenever you gain an ancestry feat.
+## Mark of Sentinel [Versatile (Dragonmarked Ancestries) Heritage]
+A dragonmark can manifest on any ancestry carrying the bloodline or prophetic destiny of the Mark of Sentinel. You gain the Dragonmarked Heritage and Mark of Sentinel traits, in addition to the traits from your ancestry. In addition, you can pick from your base ancestry, Dragonmarked Heritage, and Mark of Sentinel feats whenever you gain an ancestry feat.
 
 ## Mark of Sentinel Focus Spell
 If you manifest a mark, you will begin to gain access to the following mark of sentinel focus spells. As the powers of your mark are heightened, the powers and variety of spells will increase as well.
@@ -1597,10 +1609,10 @@ head(
 The Mark of Shadow lets an elf weave illusions, crafting magic to distract or delight. It also allows its bearer to sculpt shadows, making it easy to avoid detection.
 -
 )
-The Mark of Shadow is an Elf Heritage. By picking this Heritage at first level you gain access to all of the Mark of Passage ancestry feats.
+While historically carried by the elves of House Phiarlan and House Thuranni, the Mark of Shadow functions as a versatile heritage and can manifest on any ancestry carrying the bloodline or destiny of the house. By picking this versatile heritage at 1st level, you gain access to all Mark of Shadow ancestry feats and the potential of manifesting a dragonmark.
 
-## Mark of Shadow [Elf Heritage]
-At least one of your parents is an Elf descendant of the Mark of Shadow bloodline, whether or not they manifested a mark. You gain the Dragonmarked Heritage trait. In addition, you can pick elf, Dragonmarked Heritage, and Mark of Shadow feats whenever you gain an ancestry feat.
+## Mark of Shadow [Versatile (Dragonmarked Ancestries) Heritage]
+A dragonmark can manifest on any ancestry carrying the bloodline or prophetic destiny of the Mark of Shadow. You gain the Dragonmarked Heritage and Mark of Shadow traits, in addition to the traits from your ancestry. In addition, you can pick from your base ancestry, Dragonmarked Heritage, and Mark of Shadow feats whenever you gain an ancestry feat.
 
 ## Mark of Shadow Focus Spells
 If you manifest a mark, you will begin to gain access to the following mark of shadow focus spells. As the powers of your mark are heightened, the powers and variety of spells will increase as well.
@@ -1712,10 +1724,10 @@ head(
 Wind and water welcome the half-elves who carry the Mark of Storm, and some learn to call on the power of the storm itself.
 -
 )
-The Mark of Storm is a Half-Elf Heritage. By picking this Heritage at first level you gain access to all of the Mark of Storm ancestry feats.
+While historically manifesting among the Khoravar half-elves of House Lyrandar, the Mark of Storm functions as a versatile heritage and can manifest on any ancestry carrying the bloodline or destiny of the house. By picking this versatile heritage at 1st level, you gain access to all Mark of Storm ancestry feats and the potential of manifesting a dragonmark.
 
-## Mark of Storm [Human Heritage]
-At least one of your parents is a half-elf descendant of a Mark of Storm bloodline, whether or not they manifested a mark. You have slightly pointed ears and other telltale signs of half-elf heritage. You gain the elf trait, the half-elf trait, the Dragonmarked Heritage trait, the Mark of Storm trait, and low-light vision. In addition, you can pick elf, half-elf, human, Dragonmarked Heritage, and Mark of Storm feats whenever you gain an ancestry feat.
+## Mark of Storm [Versatile (Dragonmarked Ancestries) Heritage]
+A dragonmark can manifest on any ancestry carrying the bloodline or prophetic destiny of the Mark of Storm. You gain the Dragonmarked Heritage, the Mark of Storm trait, and low-light vision, in addition to the traits from your ancestry. In addition, you can pick from your base ancestry, Dragonmarked Heritage, and Mark of Storm feats whenever you gain an ancestry feat.
 
 ## Mark of Storm Focus Spells
 If you manifest a mark, you will begin to gain access to the following mark of storm focus spells. As the powers of your mark are heightened, the powers and variety of spells will increase as well.
@@ -1840,10 +1852,10 @@ head(
 The Mark of Warding helps its bearers protect things of value. Using the mark, a dwarf can weave wards with mystic force. It also provides its bearer with an intuitive understanding of locks used to protect and seal.
 -
 )
-The Mark of Warding is a Dwarf Heritage. By picking this Heritage at first level you gain access to all of the Mark of Warding ancestry feats.
+While historically carried by the dwarves of House Kundarak, the Mark of Warding functions as a versatile heritage and can manifest on any ancestry carrying the bloodline or destiny of the house. By picking this versatile heritage at 1st level, you gain access to all Mark of Warding ancestry feats and the potential of manifesting a dragonmark.
 
-## Mark of Warding [Dwarf Heritage]
-At least one of your parents is a Dwarf descendant of the Mark of Warding bloodline, whether or not they manifested a mark. You gain the Dragonmarked Heritage trait. In addition, you can pick Dwarf, Dragonmarked Heritage, and Mark of Warding feats whenever you gain an ancestry feat.
+## Mark of Warding [Versatile (Dragonmarked Ancestries) Heritage]
+A dragonmark can manifest on any ancestry carrying the bloodline or prophetic destiny of the Mark of Warding. You gain the Dragonmarked Heritage and Mark of Warding traits, in addition to the traits from your ancestry. In addition, you can pick from your base ancestry, Dragonmarked Heritage, and Mark of Warding feats whenever you gain an ancestry feat.
 
 ## Mark of Warding Focus Spells
 If you manifest a mark, you will begin to gain access to the following mark of warding focus spells. As the powers of your mark are heightened, the powers and variety of spells will increase as well.

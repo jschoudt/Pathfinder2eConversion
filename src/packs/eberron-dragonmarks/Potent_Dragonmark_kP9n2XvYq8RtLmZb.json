@@ -1,0 +1,78 @@
+{
+  "name": "Potent Dragonmark",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_id": "kP9n2XvYq8RtLmZb",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your dragonmark pulses with potent, channeled energy. Once per day, you can cast one of your dragonmark focus spells without expending a Focus Point.</p>\n<p>In addition, you gain a +1 circumstance bonus to skill checks using the signature skill associated with your mark (such as Crafting for the Mark of Making, Medicine for the Mark of Healing, or Perception for the Mark of Detection or Finding).</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_dragonmarked-heritage"
+      ],
+      "rarity": "uncommon",
+      "custom": ""
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Least Mark"
+        }
+      ]
+    },
+    "location": null,
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "schema": {
+      "version": 0.812,
+      "lastMigration": null
+    },
+    "featType": {
+      "value": "ancestry"
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.4",
+    "coreVersion": "11.309",
+    "createdTime": 1726780000000,
+    "modifiedTime": 1726780000000,
+    "lastModifiedBy": "rB4S3QfOEBk0rdKx"
+  },
+  "_key": "!items!kP9n2XvYq8RtLmZb"
+}

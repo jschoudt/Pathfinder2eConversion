@@ -14,12 +14,12 @@ Medium
 ## Speed
 25 feet
 
-## Ability Boosts
+## Attribute Boosts
 Constitution
 Free
 Free
 
-## Ability Flaw
+## Attribute Flaw
 Charisma
 
 ## Languages
@@ -31,7 +31,7 @@ Warforged
 Construct
 
 ## Living Construct
-Your physiological needs are different from those of living creatures. You don't need to eat or drink, but can if you choose to for the effects of consumable spells and magic items. You don't need to sleep, but you still need a daily period of rest. During this period of rest, you must enter a recuperating standby state for at least 2 hours, which is similar to sleeping except you are aware of your surroundings and don't take penalties for being unconscious. Much like with sleeping, if you go too long without entering your standby state, you become fatigued and can't recover until you enter standby for 2 hours.
+Your physiological needs are different from those of purely biological creatures. You don't need to eat or drink, but can if you choose to for the effects of consumable spells and magic items. You don't need to sleep, but you still need a daily period of rest. During this period of rest, you enter an inactive sentry standby state for at least 6 hours, remaining aware of your surroundings (taking no perception penalties for being unconscious). Much like with sleeping, if you go too long without entering standby, you become fatigued and cannot recover until you complete a rest. You can be healed by vitality energy, and can also be repaired using the Repair activity (Crafting).
 )
 Warforged were created as expendable construct soldiers to fight in the last war.
 

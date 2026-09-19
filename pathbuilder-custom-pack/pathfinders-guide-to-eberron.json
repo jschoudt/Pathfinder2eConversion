@@ -72,7 +72,6 @@
             "description": "The scion is a member of a dragonmarked house that embraces their heritage but keeps their distance from the administration of the house.",
             "src": "Pathfinder's Guide to Eberron"
         }
-
     ],
     "listCustomArmor": [
         {
@@ -4149,6 +4148,15 @@
                     "string0": "GENERAL_Hefty Hauler"
                 }
             ]
+        },
+        {
+            "id": "e8e19b02-3c22-4e4b-9722-1d5e49a8ad77",
+            "name": "Potent Dragonmark",
+            "level": 9,
+            "textDescription": "Your dragonmark pulses with potent, channeled energy. Once per day, you can cast one of your dragonmark focus spells without expending a Focus Point.<br><br>In addition, you gain a +1 circumstance bonus to skill checks using the signature skill associated with your mark (such as Crafting for the Mark of Making, Medicine for the Mark of Healing, or Perception for the Mark of Detection or Finding).",
+            "traits": "Dragonmarked Heritage, Uncommon, 3rd Party",
+            "src": "Pathfinder's Guide to Eberron",
+            "databaseID": 1
         }
     ],
     "listCustomHeritages": [
@@ -4544,115 +4552,96 @@
         {
             "id": "79a34a05-142b-4701-b0cb-8141f840f0fe",
             "name": "Mark of Detection",
-            "textDescription": "At least one of your parents is a half-elf descendant of a mark of detection bloodline, whether or not they manifested a mark. You have slightly pointed ears and other telltale signs of half-elf heritage. You gain the elf trait, the half-elf trait, the dragonmarked heritage trait, mark of detection trait, and Low-Light Vision. In addition, you can pick elf, half-elf, human, dragonmarked heritage, and mark of detection feats whenever you gain an ancestry feat.",
-            "traits": "3rd Party, Human, Uncommon",
+            "textDescription": "A dragonmark can manifest on any ancestry carrying the bloodline or prophetic destiny of the Mark of Detection. You gain the Dragonmarked Heritage, and the Mark of Detection traits, in addition to the traits from your ancestry. In addition, you can pick from your base ancestry, Dragonmarked Heritage, and Mark of Detection feats whenever you gain an ancestry feat.",
+            "traits": "Versatile, Uncommon, 3rd Party",
             "src": "Pathfinder's Guide to Eberron",
-            "databaseID": 1,
-            "listCustomEffects": [
-                {
-                    "effectType": 19,
-                    "string0": "HUMAN_Half-Elf",
-                    "reference": "4a0bfc01-26f9-4d3b-ab33-a75c501b5b8f"
-                }
-            ]
+            "databaseID": 1
         },
         {
             "id": "25adc5b7-83f7-4a51-9e23-d5b5c03f9d05",
             "name": "Mark of Finding",
-            "textDescription": "At least one of your parents is a half-orc descendant of the mark of finding bloodline, whether or not they manifested a mark. You have a green tinge to your skin and other indicators of orc heritage. You gain the orc trait, the half-orc trait, the dragonmarked heritage trait, and low-light vision. In addition, you can pick orc, half-orc, human, dragonmarked heritage, and mark of finding feats whenever you gain an ancestry feat.",
-            "traits": "Human, Uncommon, 3rd Party",
+            "textDescription": "A dragonmark can manifest on any ancestry carrying the bloodline or prophetic destiny of the Mark of Finding. You gain the Dragonmarked Heritage, and the Mark of Finding traits, in addition to the traits from your ancestry. In addition, you can pick from your base ancestry, Dragonmarked Heritage, and Mark of Finding feats whenever you gain an ancestry feat.",
+            "traits": "Versatile, Uncommon, 3rd Party",
             "src": "Pathfinder's Guide to Eberron",
-            "databaseID": 1,
-            "listCustomEffects": [
-                {
-                    "effectType": 19,
-                    "string0": "HUMAN_Half-Orc"
-                }
-            ]
+            "databaseID": 1
         },
         {
             "id": "3a6cb123-d5f0-4b5c-93eb-bf5f831fa92b",
             "name": "Mark of Handling",
-            "textDescription": "At least one of your parents is a human descendant of the Mark of Handling bloodline, whether or not they manifested a mark. You gain the Dragonmarked Heritage trait. In addition, you can pick human, Dragonmarked Heritage, and Mark of Handling feats whenever you gain an ancestry feat.",
-            "traits": "Human, Uncommon, 3rd Party",
+            "textDescription": "A dragonmark can manifest on any ancestry carrying the bloodline or prophetic destiny of the Mark of Handling. You gain the Dragonmarked Heritage, and the Mark of Handling traits, in addition to the traits from your ancestry. In addition, you can pick from your base ancestry, Dragonmarked Heritage, and Mark of Handling feats whenever you gain an ancestry feat.",
+            "traits": "Versatile, Uncommon, 3rd Party",
             "src": "Pathfinder's Guide to Eberron",
             "databaseID": 1
         },
         {
             "id": "6d2eab85-a9d1-416d-8835-f40bff6e0da5",
             "name": "Mark of Healing",
-            "textDescription": "At least one of your parents is a halfling descendant of the Mark of Healing bloodline, whether or not they manifested a mark. You gain the Dragonmarked Heritage trait. In addition, you can pick halfling, Dragonmarked Heritage, and Mark of Healing feats whenever you gain an ancestry feat.",
-            "traits": "Halfling, Uncommon, 3rd Party",
+            "textDescription": "A dragonmark can manifest on any ancestry carrying the bloodline or prophetic destiny of the Mark of Healing. You gain the Dragonmarked Heritage, and the Mark of Healing traits, in addition to the traits from your ancestry. In addition, you can pick from your base ancestry, Dragonmarked Heritage, and Mark of Healing feats whenever you gain an ancestry feat.",
+            "traits": "Versatile, Uncommon, 3rd Party",
             "src": "Pathfinder's Guide to Eberron",
             "databaseID": 1
         },
         {
             "id": "23a49295-b9a0-4cac-a34b-e5403843fdcb",
             "name": "Mark of Hospitality",
-            "textDescription": "At least one of your parents is a halfling descendant of the Mark of Hospitality bloodline, whether or not they manifested a mark. You gain the Dragonmarked Heritage trait. In addition, you can pick halfling, Dragonmarked Heritage, and Mark of Hospitality feats whenever you gain an ancestry feat.",
-            "traits": "Halfling, Uncommon, 3rd Party",
+            "textDescription": "A dragonmark can manifest on any ancestry carrying the bloodline or prophetic destiny of the Mark of Hospitality. You gain the Dragonmarked Heritage, and the Mark of Hospitality traits, in addition to the traits from your ancestry. In addition, you can pick from your base ancestry, Dragonmarked Heritage, and Mark of Hospitality feats whenever you gain an ancestry feat.",
+            "traits": "Versatile, Uncommon, 3rd Party",
             "src": "Pathfinder's Guide to Eberron",
             "databaseID": 1
         },
         {
             "id": "b97ac33d-6b63-496f-881b-b053ec857253",
             "name": "Mark of Making",
-            "textDescription": "At least one of your parents is a Human descendant of the Mark of Making bloodline, whether or not they manifested a mark. You gain the Dragonmarked Heritage trait. In addition, you can pick human, Dragonmarked Heritage, and Mark of Making feats whenever you gain an ancestry feat.",
-            "traits": "Human, Uncommon, 3rd Party",
+            "textDescription": "A dragonmark can manifest on any ancestry carrying the bloodline or prophetic destiny of the Mark of Making. You gain the Dragonmarked Heritage, and the Mark of Making traits, in addition to the traits from your ancestry. In addition, you can pick from your base ancestry, Dragonmarked Heritage, and Mark of Making feats whenever you gain an ancestry feat.",
+            "traits": "Versatile, Uncommon, 3rd Party",
             "src": "Pathfinder's Guide to Eberron",
             "databaseID": 1
         },
         {
             "id": "1898a15a-d8be-4c98-a46f-2b147f6a2ce8",
             "name": "Mark of Passage",
-            "textDescription": "At least one of your parents is a Human descendant of the Mark of Passage bloodline, whether or not they manifested a mark. You gain the Dragonmarked Heritage trait. In addition, you can pick human, Dragonmarked Heritage, and Mark of Passage feats whenever you gain an ancestry feat.",
-            "traits": "Human, Uncommon, 3rd Party",
+            "textDescription": "A dragonmark can manifest on any ancestry carrying the bloodline or prophetic destiny of the Mark of Passage. You gain the Dragonmarked Heritage, and the Mark of Passage traits, in addition to the traits from your ancestry. In addition, you can pick from your base ancestry, Dragonmarked Heritage, and Mark of Passage feats whenever you gain an ancestry feat.",
+            "traits": "Versatile, Uncommon, 3rd Party",
             "src": "Pathfinder's Guide to Eberron",
             "databaseID": 1
         },
         {
             "id": "b417ea7d-8597-42fe-969b-413f3052fc7c",
             "name": "Mark of Scribing",
-            "textDescription": "At least one of your parents is a Gnome descendant of the Mark of Scribing bloodline, whether or not they manifested a mark. You gain the Dragonmarked Heritage trait. In addition, you can pick human, Dragonmarked Heritage, and Mark of Scribing feats whenever you gain an ancestry feat.",
-            "traits": "Gnome, Uncommon, 3rd Party",
+            "textDescription": "A dragonmark can manifest on any ancestry carrying the bloodline or prophetic destiny of the Mark of Scribing. You gain the Dragonmarked Heritage, and the Mark of Scribing traits, in addition to the traits from your ancestry. In addition, you can pick from your base ancestry, Dragonmarked Heritage, and Mark of Scribing feats whenever you gain an ancestry feat.",
+            "traits": "Versatile, Uncommon, 3rd Party",
             "src": "Pathfinder's Guide to Eberron",
             "databaseID": 1
         },
         {
             "id": "74e289e9-c83e-48fe-85fd-822c323280ce",
             "name": "Mark of Sentinel",
-            "textDescription": "At least one of your parents is a Human descendant of the Mark of Sentinel bloodline, whether or not they manifested a mark. You gain the Dragonmarked Heritage trait. In addition, you can pick human, Dragonmarked Heritage, and Mark of Sentinel feats whenever you gain an ancestry feat.",
-            "traits": "Human, Uncommon, 3rd Party",
+            "textDescription": "A dragonmark can manifest on any ancestry carrying the bloodline or prophetic destiny of the Mark of Sentinel. You gain the Dragonmarked Heritage, and the Mark of Sentinel traits, in addition to the traits from your ancestry. In addition, you can pick from your base ancestry, Dragonmarked Heritage, and Mark of Sentinel feats whenever you gain an ancestry feat.",
+            "traits": "Versatile, Uncommon, 3rd Party",
             "src": "Pathfinder's Guide to Eberron",
             "databaseID": 1
         },
         {
             "id": "f4b3d2db-2b85-42ff-94fe-b6e7ba561d46",
             "name": "Mark of Shadow",
-            "textDescription": "At least one of your parents is an Elf descendant of the Mark of Shadow bloodline, whether or not they manifested a mark. You gain the Dragonmarked Heritage trait. In addition, you can pick elf, Dragonmarked Heritage, and Mark of Shadow feats whenever you gain an ancestry feat.",
-            "traits": "Elf, Uncommon, 3rd Party",
+            "textDescription": "A dragonmark can manifest on any ancestry carrying the bloodline or prophetic destiny of the Mark of Shadow. You gain the Dragonmarked Heritage, and the Mark of Shadow traits, in addition to the traits from your ancestry. In addition, you can pick from your base ancestry, Dragonmarked Heritage, and Mark of Shadow feats whenever you gain an ancestry feat.",
+            "traits": "Versatile, Uncommon, 3rd Party",
             "src": "Pathfinder's Guide to Eberron",
             "databaseID": 1
         },
         {
             "id": "df236d43-b4fe-4082-bdae-a5717920f314",
             "name": "Mark of Storm",
-            "textDescription": "At least one of your parents is a half-elf descendant of a Mark of Storm bloodline, whether or not they manifested a mark. You have slightly pointed ears and other telltale signs of half-elf heritage. You gain the elf trait, the half-elf trait, the Dragonmarked Heritage trait, the Mark of Storm trait, and low-light vision. In addition, you can pick elf, half-elf, human, Dragonmarked Heritage, and Mark of Storm feats whenever you gain an ancestry feat.",
-            "traits": "Human, Uncommon, 3rd Party",
+            "textDescription": "A dragonmark can manifest on any ancestry carrying the bloodline or prophetic destiny of the Mark of Storm. You gain the Dragonmarked Heritage, and the Mark of Storm traits, in addition to the traits from your ancestry. In addition, you can pick from your base ancestry, Dragonmarked Heritage, and Mark of Storm feats whenever you gain an ancestry feat.",
+            "traits": "Versatile, Uncommon, 3rd Party",
             "src": "Pathfinder's Guide to Eberron",
-            "databaseID": 1,
-            "listCustomEffects": [
-                {
-                    "effectType": 19,
-                    "string0": "HUMAN_Half-Elf"
-                }
-            ]
+            "databaseID": 1
         },
         {
             "id": "b9217e45-051a-41eb-bab7-e49d1c9d3bdb",
             "name": "Mark of Warding",
-            "textDescription": "At least one of your parents is a Dwarf descendant of the Mark of Warding bloodline, whether or not they manifested a mark. You gain the Dragonmarked Heritage trait. In addition, you can pick Dwarf, Dragonmarked Heritage, and Mark of Warding feats whenever you gain an ancestry feat.",
-            "traits": "Dwarf, Uncommon, 3rd Party",
+            "textDescription": "A dragonmark can manifest on any ancestry carrying the bloodline or prophetic destiny of the Mark of Warding. You gain the Dragonmarked Heritage, and the Mark of Warding traits, in addition to the traits from your ancestry. In addition, you can pick from your base ancestry, Dragonmarked Heritage, and Mark of Warding feats whenever you gain an ancestry feat.",
+            "traits": "Versatile, Uncommon, 3rd Party",
             "src": "Pathfinder's Guide to Eberron",
             "databaseID": 1
         },
