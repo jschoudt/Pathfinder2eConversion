@@ -13,7 +13,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>As mercenaries in a land of monsters, the Znir gnolls prepare to face a wide range of exotic opponents. A myrnaxe has a sturdy wooden haft with a curved axe blade on one end and a long spearhead on the other. Depending on the wielder's stance, the myrnaxe is either functionally a battleaxe or a spear. A user may switch between the sides of the myrnaxe with an interact action. The myrnaxe has the damage, hands, group, and weapon traits of the side in user. Myrnaxes are composed of two attached items: the @Compendium[pathfinders-guide-to-eberron-compendium.eberron-items.vBHEHAs5vJ0snyUF]{Myrnaxe Axehead}, and the @Compendium[pathfinders-guide-to-eberron-compendium.eberron-items.C9ysbDZW1KId9Frk]{Myrnaxe Spearhead}. It’s common for each head to be made of a different metal, so the spearhead might be silver while the axe blade is made of byeshk-thus maximizing its versatility against multiple foes. When crafting a myrnaxe, both sides are manufactured at the same time, using their respective crafting costs for material, and forming a completed Myrnaxe when finished. Each side of the weapon gains the effect of its respective precious material. You may not wield individual halves of the Myrnaxe.</p>"
+      "value": "<p>As mercenaries in a land of monsters, the Znir gnolls prepare to face a wide range of exotic opponents. A myrnaxe has a sturdy wooden haft with a curved axe blade on one end and a long spearhead on the other. Depending on the wielder's stance, the myrnaxe is either functionally a battleaxe or a spear. A user may switch between the sides of the myrnaxe with an interact action. The myrnaxe has the damage, hands, group, and weapon traits of the side in user. Myrnaxes are composed of two attached items: the @Compendium[pathfinders-guide-to-eberron.eberron-items.vBHEHAs5vJ0snyUF]{Myrnaxe Axehead}, and the @Compendium[pathfinders-guide-to-eberron.eberron-items.C9ysbDZW1KId9Frk]{Myrnaxe Spearhead}. It’s common for each head to be made of a different metal, so the spearhead might be silver while the axe blade is made of byeshk-thus maximizing its versatility against multiple foes. When crafting a myrnaxe, both sides are manufactured at the same time, using their respective crafting costs for material, and forming a completed Myrnaxe when finished. Each side of the weapon gains the effect of its respective precious material. You may not wield individual halves of the Myrnaxe.</p>"
     },
     "source": {
       "value": "Pathfinder's Guide to Eberron"
@@ -29,11 +29,11 @@
     "rules": [
       {
         "key": "GrantItem",
-        "uuid": "Compendium.world.eberron-items.XzWmR7uLw7xNZzMT"
+        "uuid": "Compendium.pathfinders-guide-to-eberron.eberron-items.vBHEHAs5vJ0snyUF"
       },
       {
         "key": "GrantItem",
-        "uuid": "Compendium.world.eberron-items.GaAXq0T4TQ2SZYkU"
+        "uuid": "Compendium.pathfinders-guide-to-eberron.eberron-items.C9ysbDZW1KId9Frk"
       }
     ],
     "slug": null,

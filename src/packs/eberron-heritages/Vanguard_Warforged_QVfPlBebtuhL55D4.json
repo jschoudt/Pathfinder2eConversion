@@ -13,7 +13,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>The primary soldier of the warforged armies of the last war, the Vanguard warforged was the most commonly created of the warforged. Their development for the exclusive use of warfare means that most of these warforged struggle with socialization, and other aspects Cannith deemed unnecessary to a soldier - it simply wasn't necessary to train them. Given their frequent deployment to front-lines of the most dangerous battlefields of the war, these warforged also frequently suffered the most. Many of the warforged veterans of the war now carry lasting wounds and permanent reminders of the role they played, but some have turned this experience as a soldier into newfound employment after the war.</p>\n<p> </p>\n<p>You have @Compendium[pathfinders-guide-to-eberron-compendium.eberron-items.sj9KFDpPBWyI5Rv0]{Medium Integrated Armour} and gain the @Compendium[pf2e.feats-srd.x9wxQ61HNkAVbDHr]{Weapon Proficiency} general feat.</p>"
+      "value": "<p>The primary soldier of the warforged armies of the last war, the Vanguard warforged was the most commonly created of the warforged. Their development for the exclusive use of warfare means that most of these warforged struggle with socialization, and other aspects Cannith deemed unnecessary to a soldier - it simply wasn't necessary to train them. Given their frequent deployment to front-lines of the most dangerous battlefields of the war, these warforged also frequently suffered the most. Many of the warforged veterans of the war now carry lasting wounds and permanent reminders of the role they played, but some have turned this experience as a soldier into newfound employment after the war.</p>\n<p> </p>\n<p>You have @Compendium[pathfinders-guide-to-eberron.eberron-items.sj9KFDpPBWyI5Rv0]{Medium Integrated Armour} and gain the @Compendium[pf2e.feats-srd.x9wxQ61HNkAVbDHr]{Weapon Proficiency} general feat.</p>"
     },
     "source": {
       "value": "Pathfinder's Guide to Eberron"
@@ -28,7 +28,11 @@
     "rules": [
       {
         "key": "GrantItem",
-        "uuid": "Compendium.pf2e.feats.x9wxQ61HNkAVbDHr"
+        "uuid": "Compendium.pathfinders-guide-to-eberron.eberron-items.sj9KFDpPBWyI5Rv0"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.x9wxQ61HNkAVbDHr"
       }
     ],
     "slug": null,
@@ -45,7 +49,7 @@
     },
     "ancestry": {
       "name": "Warforged",
-      "uuid": "Compendium.pathfinders-guide-to-eberron-compendium.eberron-ancestries.XNOZJBcpkIo4ggcI"
+      "uuid": "Compendium.pathfinders-guide-to-eberron.eberron-ancestries.XNOZJBcpkIo4ggcI"
     }
   },
   "ownership": {

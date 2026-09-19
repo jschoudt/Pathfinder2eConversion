@@ -8,7 +8,7 @@ import { promisify } from 'node:util';
 const execFileAsync = promisify(execFile);
 
 const SRC_DIR = path.resolve('src/packs');
-const PACKS_DIR = path.resolve('pathfinders-guide-to-eberron-compendium/packs');
+const PACKS_DIR = path.resolve('pathfinders-guide-to-eberron/packs');
 
 async function main() {
   if (!existsSync(SRC_DIR)) {
@@ -45,7 +45,7 @@ async function main() {
     }
   }
 
-  console.log('\nBuild complete! All packs compiled successfully into pathfinders-guide-to-eberron-compendium/packs/');
+  console.log('\nBuild complete! All packs compiled successfully into pathfinders-guide-to-eberron/packs/');
 }
 
 main().catch(console.error);

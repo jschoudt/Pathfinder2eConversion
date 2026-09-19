@@ -27,6 +27,12 @@
     },
     "rules": [
       {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.dip.rank",
+        "value": 1
+      },
+      {
         "key": "FlatModifier",
         "label": "Hashalaq Seducer (to make an impression)",
         "predicate": [
@@ -61,7 +67,7 @@
     },
     "ancestry": {
       "name": "Kalashtar",
-      "uuid": "Compendium.pathfinders-guide-to-eberron-compendium.eberron-ancestries.Fk955i74aVVUzOKt"
+      "uuid": "Compendium.pathfinders-guide-to-eberron.eberron-ancestries.Fk955i74aVVUzOKt"
     }
   },
   "ownership": {

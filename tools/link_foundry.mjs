@@ -7,8 +7,8 @@ const CONFIG_FILE = path.resolve('foundryconfig.json');
 
 const MODULES_TO_LINK = [
   {
-    name: 'pathfinders-guide-to-eberron-compendium',
-    source: path.resolve('pathfinders-guide-to-eberron-compendium')
+    name: 'pathfinders-guide-to-eberron',
+    source: path.resolve('pathfinders-guide-to-eberron')
   },
   {
     name: 'pathfinders-guide-to-eberron-tests',
@@ -44,7 +44,7 @@ async function main() {
   }
 
   // Ensure LevelDB packs are built if not already present
-  const packsDir = path.resolve('pathfinders-guide-to-eberron-compendium/packs');
+  const packsDir = path.resolve('pathfinders-guide-to-eberron/packs');
   if (!existsSync(packsDir)) {
     console.log('Compiled packs missing. Building LevelDB packs from src/packs/...');
     const { execFileSync } = await import('node:child_process');

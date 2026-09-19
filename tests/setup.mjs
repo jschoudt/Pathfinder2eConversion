@@ -3,7 +3,7 @@ import { existsSync } from 'node:fs';
 import path from 'node:path';
 
 export const SRC_DIR = path.resolve('src/packs');
-export const MODULE_MANIFEST_PATH = path.resolve('pathfinders-guide-to-eberron-compendium/module.json');
+export const MODULE_MANIFEST_PATH = path.resolve('pathfinders-guide-to-eberron/module.json');
 export const FOUNDRY_APP_DIR = path.resolve('_foundry/app');
 export const PF2E_SYSTEM_DIR = path.resolve('_foundry/data/Data/systems/pf2e');
 export const FOUNDRY_OPTIONS_PATH = path.resolve('_foundry/data/Config/options.json');

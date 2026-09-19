@@ -16,7 +16,7 @@ describe('Security & Environment Configuration', () => {
   it('should declare module compatibility matching installed Foundry and PF2e versions', async () => {
     const manifest = await getModuleManifest();
 
-    expect(manifest.id).toBe('pathfinders-guide-to-eberron-compendium');
+    expect(manifest.id).toBe('pathfinders-guide-to-eberron');
     expect(manifest.compatibility.minimum).toBeDefined();
     expect(manifest.compatibility.verified).toBeDefined();
 

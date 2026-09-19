@@ -14,7 +14,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Dreamsight shifters are rare among shifters, and their personage extends beyond their beast within. <span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">Dreamsight shifters have a sharpened instinct and senses compared to other shifters, as they have a deeper connection to the plane of Lamannia. A dreamsight shifter may have any kind of beast within - though the animal is typically found in other shifter heritages too. Dreamsight shifters are usually calm and contemplative, especially when compared to other shifters.</span></p>\n<p>You gain a +1 circumstance to use the Diplomacy or Nature skill checks with animals and beasts.</p>\n<p> </p>\n<h3>Hybrid form</h3>\n<p>While in your hybrid form, you have the ability to detect the presence of other creatures. You gain an imprecise lifesense of 15 feet which can detect any animal, beast, humanoid, or plant creature. This allows you to sense the life force within living creatures of the natural world.<br /><br />@Compendium[pathfinders-guide-to-eberron-compendium.eberron-actions.0ARsjgJplyb0byTu]{Change Shape (Dreamsight Shifter)}</p>"
+      "value": "<p>Dreamsight shifters are rare among shifters, and their personage extends beyond their beast within. <span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">Dreamsight shifters have a sharpened instinct and senses compared to other shifters, as they have a deeper connection to the plane of Lamannia. A dreamsight shifter may have any kind of beast within - though the animal is typically found in other shifter heritages too. Dreamsight shifters are usually calm and contemplative, especially when compared to other shifters.</span></p>\n<p>You gain a +1 circumstance to use the Diplomacy or Nature skill checks with animals and beasts.</p>\n<p> </p>\n<h3>Hybrid form</h3>\n<p>While in your hybrid form, you have the ability to detect the presence of other creatures. You gain an imprecise lifesense of 15 feet which can detect any animal, beast, humanoid, or plant creature. This allows you to sense the life force within living creatures of the natural world.<br /><br />@Compendium[pathfinders-guide-to-eberron.eberron-actions.0ARsjgJplyb0byTu]{Change Shape (Dreamsight Shifter)}</p>"
     },
     "source": {
       "value": "Pathfinder's Guide to Eberron"
@@ -66,7 +66,7 @@
     },
     "ancestry": {
       "name": "Shifter",
-      "uuid": "Compendium.pathfinders-guide-to-eberron-compendium.eberron-ancestries.NXVjPRJeIOOceUHp"
+      "uuid": "Compendium.pathfinders-guide-to-eberron.eberron-ancestries.NXVjPRJeIOOceUHp"
     }
   },
   "ownership": {

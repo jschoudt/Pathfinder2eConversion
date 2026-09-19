@@ -28,7 +28,7 @@
     "rules": [
       {
         "key": "GrantItem",
-        "uuid": "Compendium.pf2e.feats.Dvz54d6aPhjsmUux"
+        "uuid": "Compendium.pf2e.feats-srd.Item.Dvz54d6aPhjsmUux"
       }
     ],
     "slug": null,
@@ -45,7 +45,7 @@
     },
     "ancestry": {
       "name": "Kalashtar",
-      "uuid": "Compendium.pathfinders-guide-to-eberron-compendium.eberron-ancestries.Fk955i74aVVUzOKt"
+      "uuid": "Compendium.pathfinders-guide-to-eberron.eberron-ancestries.Fk955i74aVVUzOKt"
     }
   },
   "ownership": {

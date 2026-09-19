@@ -27,8 +27,14 @@
     },
     "rules": [
       {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.itm.rank",
+        "value": 1
+      },
+      {
         "key": "GrantItem",
-        "uuid": "Compendium.pf2e.feats.xQMz6eDgX75WX2ce"
+        "uuid": "Compendium.pf2e.feats-srd.Item.xQMz6eDgX75WX2ce"
       }
     ],
     "slug": null,
@@ -45,7 +51,7 @@
     },
     "ancestry": {
       "name": "Kalashtar",
-      "uuid": "Compendium.pathfinders-guide-to-eberron-compendium.eberron-ancestries.Fk955i74aVVUzOKt"
+      "uuid": "Compendium.pathfinders-guide-to-eberron.eberron-ancestries.Fk955i74aVVUzOKt"
     }
   },
   "ownership": {

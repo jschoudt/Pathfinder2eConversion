@@ -29,6 +29,10 @@
         "predicate": [
           "action:seek"
         ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.Dvz54d6aPhjsmUux"
       }
     ],
     "slug": null,
@@ -52,7 +56,7 @@
     "ancestry": {
       "name": "Eberron Changeling",
       "slug": "eberron-changeling",
-      "uuid": "Compendium.pathfinders-guide-to-eberron-compendium.eberron-ancestries.axOqZxs9V7XTg99i"
+      "uuid": "Compendium.pathfinders-guide-to-eberron.eberron-ancestries.axOqZxs9V7XTg99i"
     },
     "source": {
       "value": "Pathfinder's Guide to Eberron"

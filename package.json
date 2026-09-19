@@ -2,7 +2,7 @@
   "name": "pathfinders-guide-to-eberron",
   "version": "2.4.0",
   "description": "Pathfinder 2e Remaster conversion and compendiums for the Eberron Campaign Setting",
-  "main": "pathfinders-guide-to-eberron-compendium/scripts/legal.js",
+  "main": "pathfinders-guide-to-eberron/scripts/legal.js",
   "type": "module",
   "scripts": {
     "build": "node tools/build_packs.mjs",

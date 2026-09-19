@@ -16,7 +16,12 @@
     "source": {
       "value": "Pathfinder's Guide to Eberron"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.z1Z22gTp7J1VRLSR"
+      }
+    ],
     "slug": null,
     "schema": {
       "version": 0.835,
@@ -38,7 +43,7 @@
     "ancestry": {
       "name": "Eberron Changeling",
       "slug": "eberron-changeling",
-      "uuid": "Compendium.pathfinders-guide-to-eberron-compendium.eberron-ancestries.axOqZxs9V7XTg99i"
+      "uuid": "Compendium.pathfinders-guide-to-eberron.eberron-ancestries.axOqZxs9V7XTg99i"
     }
   },
   "ownership": {

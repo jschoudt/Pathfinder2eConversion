@@ -13,7 +13,7 @@
   "_id": "fobF7nfUVm2wwocU",
   "system": {
     "description": {
-      "value": "<p>Longstride shifters typically manifest traits of cats, hares, or rats, though can have traits of any swift animal. Longstride shifters are graceful and quick. Longstride shifters are aloof and difficult to pin down physically or socially.</p>\n<p>You are nimble and can easily recover from a fall. You gain the @Compendium[pf2e.feats-srd.LQw0yIMDUJJkq1nD]{Cat Fall} feat.</p>\n<p> </p>\n<h3>Hybrid form</h3>\n<p>While in your Hybrid form, you can use bursts of speed to outrun your competition. Your speed increases by 5 feet.<br />@Compendium[pathfinders-guide-to-eberron-compendium.eberron-actions.xghdMShlgVrEAXlP]{Change Shape (Longstride Shifter)}</p>"
+      "value": "<p>Longstride shifters typically manifest traits of cats, hares, or rats, though can have traits of any swift animal. Longstride shifters are graceful and quick. Longstride shifters are aloof and difficult to pin down physically or socially.</p>\n<p>You are nimble and can easily recover from a fall. You gain the @Compendium[pf2e.feats-srd.LQw0yIMDUJJkq1nD]{Cat Fall} feat.</p>\n<p> </p>\n<h3>Hybrid form</h3>\n<p>While in your Hybrid form, you can use bursts of speed to outrun your competition. Your speed increases by 5 feet.<br />@Compendium[pathfinders-guide-to-eberron.eberron-actions.xghdMShlgVrEAXlP]{Change Shape (Longstride Shifter)}</p>"
     },
     "source": {
       "value": "Pathfinder's Guide to Eberron"
@@ -32,7 +32,7 @@
       },
       {
         "key": "GrantItem",
-        "uuid": "Compendium.pf2e.feats.LQw0yIMDUJJkq1nD"
+        "uuid": "Compendium.pf2e.feats-srd.Item.LQw0yIMDUJJkq1nD"
       }
     ],
     "slug": null,
@@ -49,7 +49,7 @@
     },
     "ancestry": {
       "name": "Shifter",
-      "uuid": "Compendium.pathfinders-guide-to-eberron-compendium.eberron-ancestries.NXVjPRJeIOOceUHp"
+      "uuid": "Compendium.pathfinders-guide-to-eberron.eberron-ancestries.NXVjPRJeIOOceUHp"
     }
   },
   "ownership": {

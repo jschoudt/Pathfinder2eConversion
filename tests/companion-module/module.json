@@ -26,7 +26,7 @@
     ],
     "requires": [
       {
-        "id": "pathfinders-guide-to-eberron-compendium",
+        "id": "pathfinders-guide-to-eberron",
         "type": "module"
       }
     ]

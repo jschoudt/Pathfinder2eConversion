@@ -7,7 +7,7 @@
  */
 
 class EberronTestRunner {
-  static MODULE_ID = "pathfinders-guide-to-eberron-compendium";
+  static MODULE_ID = "pathfinders-guide-to-eberron";
 
   /**
    * Run the full suite of in-VTT tests

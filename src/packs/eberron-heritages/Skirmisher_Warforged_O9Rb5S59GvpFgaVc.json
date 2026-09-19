@@ -13,7 +13,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Designed as lightly armoured but more mobile warforged, the Skirmisher Warforged were also widely deployed throughout Khorvaire. Frequently used in archer or scouting units, these variants of the standard warforged soldier were capable of longer skirmish engagements that took advantage of the warforged's tireless nature to drain the enemy's morale. Similar to the Vanguard warforged, these warforged were never trained in the finer points of socialization and frequently struggle to understand other humanoid creatures.</p>\n<p> </p>\n<p>You have @Compendium[pathfinders-guide-to-eberron-compendium.eberron-items.LeV58Gc2GXzyRySq]{Light Integrated Armour} and gain the @Compendium[pf2e.feats-srd.Ux73dmoF8KnavyUD]{Fleet} general feat.</p>"
+      "value": "<p>Designed as lightly armoured but more mobile warforged, the Skirmisher Warforged were also widely deployed throughout Khorvaire. Frequently used in archer or scouting units, these variants of the standard warforged soldier were capable of longer skirmish engagements that took advantage of the warforged's tireless nature to drain the enemy's morale. Similar to the Vanguard warforged, these warforged were never trained in the finer points of socialization and frequently struggle to understand other humanoid creatures.</p>\n<p> </p>\n<p>You have @Compendium[pathfinders-guide-to-eberron.eberron-items.LeV58Gc2GXzyRySq]{Light Integrated Armour} and gain the @Compendium[pf2e.feats-srd.Ux73dmoF8KnavyUD]{Fleet} general feat.</p>"
     },
     "source": {
       "value": "Pathfinder's Guide to Eberron"
@@ -28,7 +28,11 @@
     "rules": [
       {
         "key": "GrantItem",
-        "uuid": "Compendium.pf2e.feats.Ux73dmoF8KnavyUD"
+        "uuid": "Compendium.pathfinders-guide-to-eberron.eberron-items.LeV58Gc2GXzyRySq"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.Ux73dmoF8KnavyUD"
       }
     ],
     "slug": null,
@@ -45,7 +49,7 @@
     },
     "ancestry": {
       "name": "Warforged",
-      "uuid": "Compendium.pathfinders-guide-to-eberron-compendium.eberron-ancestries.XNOZJBcpkIo4ggcI"
+      "uuid": "Compendium.pathfinders-guide-to-eberron.eberron-ancestries.XNOZJBcpkIo4ggcI"
     }
   },
   "ownership": {

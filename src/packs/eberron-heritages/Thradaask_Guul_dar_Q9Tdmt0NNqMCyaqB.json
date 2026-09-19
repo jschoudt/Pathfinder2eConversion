@@ -34,7 +34,7 @@
       },
       {
         "key": "GrantItem",
-        "uuid": "Compendium.pf2e.feats.I0BhPWqYf1bbzEYg"
+        "uuid": "Compendium.pf2e.feats-srd.Item.I0BhPWqYf1bbzEYg"
       }
     ],
     "slug": null,
@@ -51,7 +51,7 @@
     },
     "ancestry": {
       "name": "Bugbear",
-      "uuid": "Compendium.pathfinders-guide-to-eberron-compendium.eberron-ancestries.2UM9v9Towl9wT1th"
+      "uuid": "Compendium.pathfinders-guide-to-eberron.eberron-ancestries.2UM9v9Towl9wT1th"
     }
   },
   "ownership": {

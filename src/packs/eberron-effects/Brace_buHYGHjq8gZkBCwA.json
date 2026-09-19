@@ -3,7 +3,7 @@
   "name": "Brace",
   "system": {
     "description": {
-      "value": "<p>You brace yourself to take a hit, using your thick skin and fortitude to protect yourself. You gain a +1 circumstance bonus to AC.</p>\n<p>Granted by: @UUID[Compendium.pathfinders-guide-to-eberron-compendium.eberron-actions.uYQrGi3SDbFcCoZU]{Brace}</p>"
+      "value": "<p>You brace yourself to take a hit, using your thick skin and fortitude to protect yourself. You gain a +1 circumstance bonus to AC.</p>\n<p>Granted by: @UUID[Compendium.pathfinders-guide-to-eberron.eberron-actions.uYQrGi3SDbFcCoZU]{Brace}</p>"
     },
     "source": {
       "value": "Pathfinder's Guide to Eberron"

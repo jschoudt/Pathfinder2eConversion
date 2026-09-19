@@ -14,12 +14,12 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">The constructed nature of your body makes it difficult for outside magic to affect you.</span> You gain the @Compendium[pathfinders-guide-to-eberron-compendium.eberron-actions.z2iX2iDlzn5httvo]{Resist Magic (Warforged)} reaction.</p>\n<p><strong>Enhancement</strong> Your safeguards improve. When you Resist Magic, you gain a number of temporary Hit Points equal to the spell rank of the triggering effect.</p>"
+      "value": "<p><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">The constructed nature of your body makes it difficult for outside magic to affect you.</span> You gain the @Compendium[pathfinders-guide-to-eberron.eberron-actions.z2iX2iDlzn5httvo]{Resist Magic (Warforged)} reaction.</p>\n<p><strong>Enhancement</strong> Your safeguards improve. When you Resist Magic, you gain a number of temporary Hit Points equal to the spell rank of the triggering effect.</p>"
     },
     "rules": [
       {
         "key": "GrantItem",
-        "uuid": "Compendium.pf2e.actions.Item.XeZwXzR1KBlJF770",
+        "uuid": "Compendium.pathfinders-guide-to-eberron.eberron-actions.z2iX2iDlzn5httvo",
         "allowDuplicate": false
       }
     ],

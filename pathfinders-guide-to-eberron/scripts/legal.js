@@ -1,6 +1,6 @@
 Hooks.once('ready', async () => {
   const thisVersion = "2.4.0";
-  const MODULE_ID = "pathfinders-guide-to-eberron-compendium";
+  const MODULE_ID = "pathfinders-guide-to-eberron";
 
   game.settings.register(MODULE_ID, 'license-accepted', {
     name: "License Accepted",

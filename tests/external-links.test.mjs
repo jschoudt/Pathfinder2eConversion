@@ -1,81 +1,80 @@
 import { describe, it, expect, beforeAll } from 'vitest';
-import { loadAllDocuments } from './setup.mjs';
+import { readFile } from 'node:fs/promises';
+import path from 'node:path';
+import { loadAllDocuments, PF2E_SYSTEM_DIR } from './setup.mjs';
 
-describe('External PF2e System Link Modernization', () => {
+describe('External PF2e System Link & Pack Reference Integrity', () => {
   let docs;
-
-  const LEGACY_PACK_NAMES = [
-    'spells-srd',
-    'feats-srd',
-    'actionspf2e',
-    'conditionitems',
-    'equipment-srd'
-  ];
-
-  const VALID_PF2E_PACKS = new Set([
-    'actions',
-    'ancestries',
-    'ancestry-features',
-    'backgrounds',
-    'classes',
-    'class-features',
-    'conditions',
-    'deities',
-    'equipment',
-    'equipment-effects',
-    'feat-effects',
-    'feats',
-    'heritages',
-    'journals',
-    'macros',
-    'rollable-tables',
-    'spell-effects',
-    'spells',
-    'vehicles'
-  ]);
+  let validPf2ePacks = new Set();
 
   beforeAll(async () => {
     docs = await loadAllDocuments();
+
+    const systemJsonPath = path.join(PF2E_SYSTEM_DIR, 'system.json');
+    const systemJson = JSON.parse(await readFile(systemJsonPath, 'utf-8'));
+    for (const pack of systemJson.packs || []) {
+      validPf2ePacks.add(pack.name);
+    }
+    // Also accept standard PF2e shorthand aliases used in rich text UUID references
+    for (const alias of ['actions', 'conditions', 'equipment', 'feats', 'spells', 'ancestry-features', 'class-features']) {
+      validPf2ePacks.add(alias);
+    }
   });
 
-  it('should have zero legacy pre-v11 PF2e pack names (e.g. spells-srd, feats-srd)', () => {
-    const legacyMatches = [];
+  it('should ensure all Compendium.pf2e.* references point to registered PF2e system packs', () => {
+    const invalidRefs = [];
 
     for (const doc of docs) {
-      for (const legacy of LEGACY_PACK_NAMES) {
-        const pattern = new RegExp(`Compendium\\.pf2e\\.${legacy}\\.`, 'g');
-        const matches = doc.content.match(pattern);
-        if (matches) {
-          legacyMatches.push({
-            file: doc.relPath,
-            legacyPack: legacy,
-            count: matches.length
-          });
+      // Check Rule Elements
+      for (const rule of doc.data.system?.rules || []) {
+        if (typeof rule.uuid === 'string' && rule.uuid.startsWith('Compendium.pf2e.')) {
+          const parts = rule.uuid.split('.');
+          const packName = parts[2];
+          if (!validPf2ePacks.has(packName)) {
+            invalidRefs.push({
+              file: doc.relPath,
+              context: 'rule element',
+              uuid: rule.uuid,
+              invalidPack: packName
+            });
+          }
         }
       }
-    }
 
-    expect(legacyMatches).toEqual([]);
-  });
+      // Check system.items
+      if (doc.data.system?.items) {
+        for (const [key, item] of Object.entries(doc.data.system.items)) {
+          if (typeof item.uuid === 'string' && item.uuid.startsWith('Compendium.pf2e.')) {
+            const parts = item.uuid.split('.');
+            const packName = parts[2];
+            if (!validPf2ePacks.has(packName)) {
+              invalidRefs.push({
+                file: doc.relPath,
+                context: 'system.items',
+                uuid: item.uuid,
+                invalidPack: packName
+              });
+            }
+          }
+        }
+      }
 
-  it('should ensure all @UUID[Compendium.pf2e...] references point to recognized modern PF2e packs', () => {
-    const unrecognizedRefs = [];
-
-    for (const doc of docs) {
-      const matches = doc.content.match(/@UUID\[Compendium\.pf2e\.([^\]]+)\]/g) || [];
+      // Check @UUID and @Compendium tags in descriptions
+      const matches = doc.content.match(/@(UUID|Compendium)\[Compendium\.pf2e\.([^\]]+)\]/g) || [];
       for (const match of matches) {
-        const parts = match.replace('@UUID[Compendium.pf2e.', '').replace(']', '').split('.');
-        const packName = parts[0];
-        if (!VALID_PF2E_PACKS.has(packName)) {
-          unrecognizedRefs.push({
+        const inner = match.replace(/^@(UUID|Compendium)\[Compendium\.pf2e\./, '').replace(/\]$/, '');
+        const packName = inner.split('.')[0];
+        if (!validPf2ePacks.has(packName)) {
+          invalidRefs.push({
             file: doc.relPath,
+            context: 'description tag',
             reference: match,
-            packName
+            invalidPack: packName
           });
         }
       }
     }
 
-    expect(unrecognizedRefs).toEqual([]);
+    expect(invalidRefs).toEqual([]);
   });
 });

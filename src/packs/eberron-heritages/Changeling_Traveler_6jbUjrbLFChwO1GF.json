@@ -22,6 +22,10 @@
         "mode": "upgrade",
         "path": "system.skills.soc.rank",
         "value": 1
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.X2jGFfLU5qI5XVot"
       }
     ],
     "slug": null,
@@ -45,7 +49,7 @@
     "ancestry": {
       "name": "Eberron Changeling",
       "slug": "eberron-changeling",
-      "uuid": "Compendium.pathfinders-guide-to-eberron-compendium.eberron-ancestries.axOqZxs9V7XTg99i"
+      "uuid": "Compendium.pathfinders-guide-to-eberron.eberron-ancestries.axOqZxs9V7XTg99i"
     }
   },
   "ownership": {

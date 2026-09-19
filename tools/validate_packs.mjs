@@ -4,7 +4,7 @@ import { existsSync } from 'node:fs';
 import path from 'node:path';
 
 const SRC_DIR = path.resolve('src/packs');
-const MODULE_MANIFEST_PATH = path.resolve('pathfinders-guide-to-eberron-compendium/module.json');
+const MODULE_MANIFEST_PATH = path.resolve('pathfinders-guide-to-eberron/module.json');
 const FOUNDRY_APP_DIR = path.resolve('_foundry/app');
 const PF2E_SYSTEM_DIR = path.resolve('_foundry/data/Data/systems/pf2e');
 const FOUNDRY_OPTIONS_PATH = path.resolve('_foundry/data/Config/options.json');
@@ -287,7 +287,7 @@ async function main() {
     // Collect UUID references for link validation
     const matches = content.match(/@UUID\[([^\]]+)\]/g) || [];
     for (const match of matches) {
-      if (match.includes('pathfinders-guide-to-eberron-compendium')) {
+      if (match.includes('pathfinders-guide-to-eberron')) {
         const targetId = match.replace('@UUID[', '').replace(']', '').split('.').pop().trim();
         uuidReferences.push({ from: relPath, ref: match, targetId });
       }

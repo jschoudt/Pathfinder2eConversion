@@ -13,7 +13,7 @@
   "_id": "spXp3qUd9BCGhfBE",
   "system": {
     "description": {
-      "value": "<h2>Tsucora Kalashtar</h2>\n<p>The tsucora are the quori of classic nightmares, feeding on terror. If you have this quori ancestry, you can choose one of the following paths.</p>\n<h3>Tsucora Emancipator</h3>\n<p>You gain the ability to control and dampen the influence fear has over you, and your allies. Allies under the effect of your @Compendium[pathfinders-guide-to-eberron-compendium.eberron-spells.Zis7Jnr46Ug894eQ]{Link Mind} gain a +1 status bonus to their saves against effects with the Fear trait.</p>"
+      "value": "<h2>Tsucora Kalashtar</h2>\n<p>The tsucora are the quori of classic nightmares, feeding on terror. If you have this quori ancestry, you can choose one of the following paths.</p>\n<h3>Tsucora Emancipator</h3>\n<p>You gain the ability to control and dampen the influence fear has over you, and your allies. Allies under the effect of your @Compendium[pathfinders-guide-to-eberron.eberron-spells.Zis7Jnr46Ug894eQ]{Link Mind} gain a +1 status bonus to their saves against effects with the Fear trait.</p>"
     },
     "source": {
       "value": "Pathfinder's Guide to Eberron"
@@ -40,7 +40,7 @@
     },
     "ancestry": {
       "name": "Kalashtar",
-      "uuid": "Compendium.pathfinders-guide-to-eberron-compendium.eberron-ancestries.Fk955i74aVVUzOKt"
+      "uuid": "Compendium.pathfinders-guide-to-eberron.eberron-ancestries.Fk955i74aVVUzOKt"
     }
   },
   "ownership": {

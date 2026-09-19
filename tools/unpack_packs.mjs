@@ -7,7 +7,7 @@ import { promisify } from 'node:util';
 
 const execFileAsync = promisify(execFile);
 
-const PACKS_DIR = path.resolve('pathfinders-guide-to-eberron-compendium/packs');
+const PACKS_DIR = path.resolve('pathfinders-guide-to-eberron/packs');
 const SRC_DIR = path.resolve('src/packs');
 
 async function main() {

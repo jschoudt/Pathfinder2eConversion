@@ -16,7 +16,7 @@ describe('Compendium Link & UUID Integrity', () => {
     for (const doc of docs) {
       const matches = doc.content.match(/@UUID\[([^\]]+)\]/g) || [];
       for (const match of matches) {
-        if (match.includes('pathfinders-guide-to-eberron-compendium')) {
+        if (match.includes('pathfinders-guide-to-eberron')) {
           const targetId = match.replace('@UUID[', '').replace(']', '').split('.').pop().trim();
           if (!idSet.has(targetId)) {
             brokenLinks.push({

@@ -7,7 +7,7 @@ import { promisify } from 'node:util';
 
 const execFileAsync = promisify(execFile);
 
-const MODULE_DIR = 'pathfinders-guide-to-eberron-compendium';
+const MODULE_DIR = 'pathfinders-guide-to-eberron';
 const DIST_DIR = path.resolve('dist');
 
 async function main() {

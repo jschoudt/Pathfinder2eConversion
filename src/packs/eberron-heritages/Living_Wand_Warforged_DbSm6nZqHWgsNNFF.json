@@ -13,7 +13,7 @@
   },
   "system": {
     "description": {
-      "value": "\n\n\n<p>The Living Wand Warforged were Cannith's attempt at creating a warforged capable of innate spellcraft. Though the introduction of arcane properties into the warforged creation process worked, the produced warforged were unpredictable in their capabilities. The Living Wand Warforged required additional training <span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">after production in order to determine their abilities and to match them with other alike warforged. Due to the complexity and non-standard nature of the average Living Wand warforged, they did not see widespread deployment across Khorvaire. The ones that did were typically formed into extremely effective wand troops.</span></p>\n<p><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">You have @Compendium[pathfinders-guide-to-eberron-compendium.eberron-items.mZ363pCsYIZXbOIV]{Nominal Integrated Armour}, and gain one cantrip from the arcane spell list. You can cast this spell as an arcane innate spell at will. A cantrip is heightened to a spell rank equal to half your level rounded up.</span></p>\n"
+      "value": "\n\n\n<p>The Living Wand Warforged were Cannith's attempt at creating a warforged capable of innate spellcraft. Though the introduction of arcane properties into the warforged creation process worked, the produced warforged were unpredictable in their capabilities. The Living Wand Warforged required additional training <span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">after production in order to determine their abilities and to match them with other alike warforged. Due to the complexity and non-standard nature of the average Living Wand warforged, they did not see widespread deployment across Khorvaire. The ones that did were typically formed into extremely effective wand troops.</span></p>\n<p><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">You have @Compendium[pathfinders-guide-to-eberron.eberron-items.mZ363pCsYIZXbOIV]{Nominal Integrated Armour}, and gain one cantrip from the arcane spell list. You can cast this spell as an arcane innate spell at will. A cantrip is heightened to a spell rank equal to half your level rounded up.</span></p>\n"
     },
     "source": {
       "value": "Pathfinder's Guide to Eberron"
@@ -25,7 +25,12 @@
       "rarity": "common",
       "custom": ""
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pathfinders-guide-to-eberron.eberron-items.mZ363pCsYIZXbOIV"
+      }
+    ],
     "slug": null,
     "schema": {
       "version": 0.812,
@@ -40,7 +45,7 @@
     },
     "ancestry": {
       "name": "Warforged",
-      "uuid": "Compendium.pathfinders-guide-to-eberron-compendium.eberron-ancestries.XNOZJBcpkIo4ggcI"
+      "uuid": "Compendium.pathfinders-guide-to-eberron.eberron-ancestries.XNOZJBcpkIo4ggcI"
     }
   },
   "ownership": {

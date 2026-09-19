@@ -13,7 +13,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>@UUID[Compendium.pathfinders-guide-to-eberron-compendium.eberron-effects.oxkbPN3r3eWXTy69]{Spell Effect: Feral Blessing (Dexterity)}</p>\n<p>@UUID[Compendium.pathfinders-guide-to-eberron-compendium.eberron-effects.G5b7b593WrZPVlaR]{Spell Effect: Feral Blessing (Strength)}</p>\n<p> </p>\n<p>Grant a willing creature a +1 status bonus either Strength or Dexterity, selected when you cast the spell.</p>\n<hr />\n<p class=\"hang\"><strong>Heightened (+3)</strong> The status bonus increases by 1</p>"
+      "value": "<p>@UUID[Compendium.pathfinders-guide-to-eberron.eberron-effects.oxkbPN3r3eWXTy69]{Spell Effect: Feral Blessing (Dexterity)}</p>\n<p>@UUID[Compendium.pathfinders-guide-to-eberron.eberron-effects.G5b7b593WrZPVlaR]{Spell Effect: Feral Blessing (Strength)}</p>\n<p> </p>\n<p>Grant a willing creature a +1 status bonus either Strength or Dexterity, selected when you cast the spell.</p>\n<hr />\n<p class=\"hang\"><strong>Heightened (+3)</strong> The status bonus increases by 1</p>"
     },
     "source": {
       "value": "Pathfinder's Guide to Eberron"
