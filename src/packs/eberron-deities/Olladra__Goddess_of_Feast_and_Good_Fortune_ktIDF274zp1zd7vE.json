@@ -53,9 +53,9 @@
       "dagger"
     ],
     "spells": {
-      "1": "Compendium.pf2e.spells-srd.EUMjrJJwSgsqNidi",
-      "2": "Compendium.pf2e.spells-srd.rDDYGY2ekZ1yVv7q",
-      "3": "Compendium.pf2e.spells-srd.ovx7O2FHvkjXhMcA"
+      "1": "Compendium.pf2e.spells.EUMjrJJwSgsqNidi",
+      "2": "Compendium.pf2e.spells.rDDYGY2ekZ1yVv7q",
+      "3": "Compendium.pf2e.spells.ovx7O2FHvkjXhMcA"
     },
     "rules": [],
     "slug": null,

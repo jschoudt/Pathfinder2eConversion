@@ -70,9 +70,9 @@
       "staff"
     ],
     "spells": {
-      "1": "Compendium.pf2e.spells-srd.nXmC2Xx9WmS5NsAo",
-      "3": "Compendium.pf2e.spells-srd.ZYoC630tNGutgbE0",
-      "7": "Compendium.pf2e.spells-srd.OOELvfkTedBMlWtq"
+      "1": "Compendium.pf2e.spells.nXmC2Xx9WmS5NsAo",
+      "3": "Compendium.pf2e.spells.ZYoC630tNGutgbE0",
+      "7": "Compendium.pf2e.spells.OOELvfkTedBMlWtq"
     },
     "attribute": [
       "con",

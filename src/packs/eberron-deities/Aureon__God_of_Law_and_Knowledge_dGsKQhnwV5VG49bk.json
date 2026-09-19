@@ -57,9 +57,9 @@
       "staff"
     ],
     "spells": {
-      "1": "Compendium.pf2e.spells-srd.aAbfKn8maGjJjk2W",
-      "3": "Compendium.pf2e.spells-srd.aewxsale5xWEPKLk",
-      "7": "Compendium.pf2e.spells-srd.WG91Z5TiR6oO5FOw"
+      "1": "Compendium.pf2e.spells.aAbfKn8maGjJjk2W",
+      "3": "Compendium.pf2e.spells.aewxsale5xWEPKLk",
+      "7": "Compendium.pf2e.spells.WG91Z5TiR6oO5FOw"
     },
     "rules": [],
     "slug": null,

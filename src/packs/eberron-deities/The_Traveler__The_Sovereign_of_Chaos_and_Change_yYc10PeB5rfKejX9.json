@@ -74,10 +74,10 @@
       "scimitar"
     ],
     "spells": {
-      "1": "Compendium.pf2e.spells-srd.i35dpZFI7jZcRoBo",
-      "2": "Compendium.pf2e.spells-srd.XXqE1eY3w3z6xJCB",
-      "3": "Compendium.pf2e.spells-srd.EoKBlgf6Smt8opaU",
-      "4": "Compendium.pf2e.spells-srd.onjZCEHs3JJJRTD0"
+      "1": "Compendium.pf2e.spells.i35dpZFI7jZcRoBo",
+      "2": "Compendium.pf2e.spells.XXqE1eY3w3z6xJCB",
+      "3": "Compendium.pf2e.spells.EoKBlgf6Smt8opaU",
+      "4": "Compendium.pf2e.spells.onjZCEHs3JJJRTD0"
     },
     "attribute": [
       "wis",

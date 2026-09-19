@@ -38,6 +38,7 @@ Pathfinder's Guide to Eberron
   - Flat-footed -> Off-guard
   - Spell level -> Spell rank
   - Ability modifier -> Attribute modifier
+- Modernizes core PF2e compendium pack links to modern PF2e structures
 - Decompiles Foundry VTT compendiums to source-controlled JSON packs
 - Modernizes Foundry VTT module compatibility for Foundry v14 and PF2e system 8.5.1
 - Upgrades legal dialog to Foundry DialogV2

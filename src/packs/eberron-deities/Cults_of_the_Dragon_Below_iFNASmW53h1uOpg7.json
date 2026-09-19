@@ -56,9 +56,9 @@
       "greatpick"
     ],
     "spells": {
-      "1": "Compendium.pf2e.spells-srd.k34hDOfIIMAxNL4a",
-      "4": "Compendium.pf2e.spells-srd.Uqj344bezBq3ESdq",
-      "5": "Compendium.pf2e.spells-srd.i1TvBID5QLyXrUCa"
+      "1": "Compendium.pf2e.spells.k34hDOfIIMAxNL4a",
+      "4": "Compendium.pf2e.spells.Uqj344bezBq3ESdq",
+      "5": "Compendium.pf2e.spells.i1TvBID5QLyXrUCa"
     },
     "rules": [],
     "slug": null,

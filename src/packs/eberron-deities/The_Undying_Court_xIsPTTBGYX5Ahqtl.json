@@ -60,9 +60,9 @@
       "scimitar"
     ],
     "spells": {
-      "1": "Compendium.pf2e.spells-srd.nXmC2Xx9WmS5NsAo",
-      "2": "Compendium.pf2e.spells-srd.vTQvfYu2llKQedmY",
-      "3": "Compendium.pf2e.spells-srd.ZYoC630tNGutgbE0"
+      "1": "Compendium.pf2e.spells.nXmC2Xx9WmS5NsAo",
+      "2": "Compendium.pf2e.spells.vTQvfYu2llKQedmY",
+      "3": "Compendium.pf2e.spells.ZYoC630tNGutgbE0"
     },
     "rules": [],
     "slug": null,

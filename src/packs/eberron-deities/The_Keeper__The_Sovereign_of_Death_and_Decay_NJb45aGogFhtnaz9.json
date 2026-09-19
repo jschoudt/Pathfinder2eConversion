@@ -68,9 +68,9 @@
       "scythe"
     ],
     "spells": {
-      "1": "Compendium.pf2e.spells-srd.6ZIKB0151LUR19Rw",
-      "2": "Compendium.pf2e.spells-srd.1xbFBQDRs0hT5xZ9",
-      "6": "Compendium.pf2e.spells-srd.0XP2XOxT9VSiXFDr"
+      "1": "Compendium.pf2e.spells.6ZIKB0151LUR19Rw",
+      "2": "Compendium.pf2e.spells.1xbFBQDRs0hT5xZ9",
+      "6": "Compendium.pf2e.spells.0XP2XOxT9VSiXFDr"
     },
     "attribute": [
       "str",

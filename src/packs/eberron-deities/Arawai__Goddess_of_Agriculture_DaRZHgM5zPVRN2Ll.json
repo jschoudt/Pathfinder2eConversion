@@ -60,9 +60,9 @@
       "war-flail"
     ],
     "spells": {
-      "1": "Compendium.pf2e.spells-srd.TPI9fRCAYsDqpAe4",
-      "2": "Compendium.pf2e.spells-srd.CXICME10TkEJxz0P",
-      "3": "Compendium.pf2e.spells-srd.KsWhliKfUs3IpW3c"
+      "1": "Compendium.pf2e.spells.TPI9fRCAYsDqpAe4",
+      "2": "Compendium.pf2e.spells.CXICME10TkEJxz0P",
+      "3": "Compendium.pf2e.spells.KsWhliKfUs3IpW3c"
     },
     "rules": [],
     "slug": null,

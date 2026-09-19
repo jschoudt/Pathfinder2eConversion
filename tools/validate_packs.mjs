@@ -284,12 +284,17 @@ async function main() {
       }
     }
 
-    // Collect internal UUID references for link validation
+    // Collect UUID references for link validation
     const matches = content.match(/@UUID\[([^\]]+)\]/g) || [];
     for (const match of matches) {
       if (match.includes('pathfinders-guide-to-eberron-compendium')) {
         const targetId = match.replace('@UUID[', '').replace(']', '').split('.').pop().trim();
         uuidReferences.push({ from: relPath, ref: match, targetId });
+      }
+      if (match.includes('Compendium.pf2e.spells-srd') || match.includes('Compendium.pf2e.feats-srd') ||
+          match.includes('Compendium.pf2e.actionspf2e') || match.includes('Compendium.pf2e.conditionitems') ||
+          match.includes('Compendium.pf2e.equipment-srd')) {
+        console.warn(`⚠️ Legacy PF2e pack reference in ${relPath}: ${match}`);
       }
     }
 

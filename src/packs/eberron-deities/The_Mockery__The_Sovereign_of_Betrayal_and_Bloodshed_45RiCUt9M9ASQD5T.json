@@ -56,9 +56,9 @@
       "kama"
     ],
     "spells": {
-      "1": "Compendium.pf2e.spells-srd.zdb8cjOIDVKYMWdr",
-      "3": "Compendium.pf2e.spells-srd.I0j56TNRmGcTyoqJ",
-      "6": "Compendium.pf2e.spells-srd.WPXzPl7YbMEIGWfi"
+      "1": "Compendium.pf2e.spells.zdb8cjOIDVKYMWdr",
+      "3": "Compendium.pf2e.spells.I0j56TNRmGcTyoqJ",
+      "6": "Compendium.pf2e.spells.WPXzPl7YbMEIGWfi"
     },
     "rules": [],
     "slug": null,

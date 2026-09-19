@@ -556,7 +556,7 @@
       "type": "equipment",
       "flags": {
         "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.y34yjumCFakrbtdw"
+          "sourceId": "Compendium.pf2e.equipment.y34yjumCFakrbtdw"
         }
       },
       "effects": [],
@@ -697,7 +697,7 @@
       "type": "armor",
       "flags": {
         "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.zBYEU9E7034ENCmh"
+          "sourceId": "Compendium.pf2e.equipment.zBYEU9E7034ENCmh"
         }
       },
       "effects": [],
@@ -857,7 +857,7 @@
       "type": "weapon",
       "flags": {
         "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.FibwLZ12EIEwLGhw"
+          "sourceId": "Compendium.pf2e.equipment.FibwLZ12EIEwLGhw"
         }
       },
       "effects": [],
@@ -1199,7 +1199,7 @@
       "type": "spell",
       "flags": {
         "core": {
-          "sourceId": "Compendium.pf2e.spells-srd.gKKqvLohtrSJj3BM"
+          "sourceId": "Compendium.pf2e.spells.gKKqvLohtrSJj3BM"
         }
       },
       "effects": [],
@@ -1339,7 +1339,7 @@
       "type": "spell",
       "flags": {
         "core": {
-          "sourceId": "Compendium.pf2e.spells-srd.gYjPm7YwGtEa1oxh"
+          "sourceId": "Compendium.pf2e.spells.gYjPm7YwGtEa1oxh"
         }
       },
       "effects": [],
@@ -1366,7 +1366,7 @@
       "name": "Shield",
       "system": {
         "description": {
-          "value": "<p>You raise a magical shield of force. This counts as using the Raise a Shield action, giving you a +1 circumstance bonus to AC until the start of your next turn, but it doesn't require a hand to use.</p>\n<p>While the spell is in effect, you can use the @UUID[Compendium.pf2e.feats-srd.jM72TjJ965jocBV8]{Shield Block} reaction with your magic shield. The shield has Hardness 5. After you use Shield Block, the spell ends and you can't cast it again for 10 minutes. Unlike a normal Shield Block, you can use the spell's reaction against the <em>@UUID[Compendium.pf2e.spells-srd.gKKqvLohtrSJj3BM]{Magic Missile}</em> spell.</p>\n<p>Heightening the spell increases the shield's Hardness.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Jemq5UknGdMO7b73]{Spell Effect: Shield}</p>\n<p>@UUID[Compendium.pf2e.spell-effects.QF6RDlCoTvkVHRo4]{Effect: Shield Immunity}</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> The shield has Hardness 10.</p>\n<p><strong>Heightened (5th)</strong> The shield has Hardness 15.</p>\n<p><strong>Heightened (7th)</strong> The shield has Hardness 20.</p>\n<p><strong>Heightened (9th)</strong> The shield has Hardness 25.</p>"
+          "value": "<p>You raise a magical shield of force. This counts as using the Raise a Shield action, giving you a +1 circumstance bonus to AC until the start of your next turn, but it doesn't require a hand to use.</p>\n<p>While the spell is in effect, you can use the @UUID[Compendium.pf2e.feats.jM72TjJ965jocBV8]{Shield Block} reaction with your magic shield. The shield has Hardness 5. After you use Shield Block, the spell ends and you can't cast it again for 10 minutes. Unlike a normal Shield Block, you can use the spell's reaction against the <em>@UUID[Compendium.pf2e.spells.gKKqvLohtrSJj3BM]{Magic Missile}</em> spell.</p>\n<p>Heightening the spell increases the shield's Hardness.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Jemq5UknGdMO7b73]{Spell Effect: Shield}</p>\n<p>@UUID[Compendium.pf2e.spell-effects.QF6RDlCoTvkVHRo4]{Effect: Shield Immunity}</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> The shield has Hardness 10.</p>\n<p><strong>Heightened (5th)</strong> The shield has Hardness 15.</p>\n<p><strong>Heightened (7th)</strong> The shield has Hardness 20.</p>\n<p><strong>Heightened (9th)</strong> The shield has Hardness 25.</p>"
         },
         "source": {
           "value": "Pathfinder's Guide to Eberron"
@@ -1464,7 +1464,7 @@
       "type": "spell",
       "flags": {
         "core": {
-          "sourceId": "Compendium.pf2e.spells-srd.TVKNbcgTee19PXZR"
+          "sourceId": "Compendium.pf2e.spells.TVKNbcgTee19PXZR"
         }
       },
       "effects": [],
@@ -1490,7 +1490,7 @@
       "name": "Daze",
       "system": {
         "description": {
-          "value": "<p>You cloud the target's mind and daze it with a mental jolt. The jolt deals mental damage equal to your spellcasting ability modifier; the target must attempt a basic Will save. If the target critically fails the save, it is also @UUID[Compendium.pf2e.conditionitems.dfCMdR4wnpbYNTix]{Stunned 1}.</p>\n<hr />\n<p><strong>Heightened (+2)</strong> The damage increases by 1d6.</p>"
+          "value": "<p>You cloud the target's mind and daze it with a mental jolt. The jolt deals mental damage equal to your spellcasting ability modifier; the target must attempt a basic Will save. If the target critically fails the save, it is also @UUID[Compendium.pf2e.conditions.dfCMdR4wnpbYNTix]{Stunned 1}.</p>\n<hr />\n<p><strong>Heightened (+2)</strong> The damage increases by 1d6.</p>"
         },
         "source": {
           "value": "Pathfinder's Guide to Eberron"
@@ -1605,7 +1605,7 @@
       "type": "spell",
       "flags": {
         "core": {
-          "sourceId": "Compendium.pf2e.spells-srd.4gBIw4IDrSfFHik4"
+          "sourceId": "Compendium.pf2e.spells.4gBIw4IDrSfFHik4"
         }
       },
       "effects": [],

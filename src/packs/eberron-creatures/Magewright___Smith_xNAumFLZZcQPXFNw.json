@@ -635,7 +635,7 @@
       "type": "spell",
       "flags": {
         "core": {
-          "sourceId": "Compendium.pf2e.spells-srd.Qw3fnUlaUbnn7ipC"
+          "sourceId": "Compendium.pf2e.spells.Qw3fnUlaUbnn7ipC"
         }
       },
       "effects": [],
@@ -1133,7 +1133,7 @@
       "type": "equipment",
       "flags": {
         "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.y34yjumCFakrbtdw"
+          "sourceId": "Compendium.pf2e.equipment.y34yjumCFakrbtdw"
         }
       },
       "effects": [],
@@ -1274,7 +1274,7 @@
       "type": "armor",
       "flags": {
         "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.zBYEU9E7034ENCmh"
+          "sourceId": "Compendium.pf2e.equipment.zBYEU9E7034ENCmh"
         }
       },
       "effects": [],
@@ -1434,7 +1434,7 @@
       "type": "weapon",
       "flags": {
         "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.FibwLZ12EIEwLGhw"
+          "sourceId": "Compendium.pf2e.equipment.FibwLZ12EIEwLGhw"
         }
       },
       "effects": [],
@@ -1556,7 +1556,7 @@
       "type": "spell",
       "flags": {
         "core": {
-          "sourceId": "Compendium.pf2e.spells-srd.Qw3fnUlaUbnn7ipC"
+          "sourceId": "Compendium.pf2e.spells.Qw3fnUlaUbnn7ipC"
         }
       },
       "effects": [],
@@ -1679,7 +1679,7 @@
       "type": "spell",
       "flags": {
         "core": {
-          "sourceId": "Compendium.pf2e.spells-srd.Qw3fnUlaUbnn7ipC"
+          "sourceId": "Compendium.pf2e.spells.Qw3fnUlaUbnn7ipC"
         }
       },
       "effects": [],

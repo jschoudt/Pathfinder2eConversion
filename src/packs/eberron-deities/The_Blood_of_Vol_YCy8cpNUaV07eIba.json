@@ -60,9 +60,9 @@
       "dagger"
     ],
     "spells": {
-      "1": "Compendium.pf2e.spells-srd.9WGeBwIIbbUuWKq0",
-      "3": "Compendium.pf2e.spells-srd.o6YCGx4lycsYpww4",
-      "6": "Compendium.pf2e.spells-srd.OsOhx3TGIZ7AhD0P"
+      "1": "Compendium.pf2e.spells.9WGeBwIIbbUuWKq0",
+      "3": "Compendium.pf2e.spells.o6YCGx4lycsYpww4",
+      "6": "Compendium.pf2e.spells.OsOhx3TGIZ7AhD0P"
     },
     "rules": [],
     "slug": null,

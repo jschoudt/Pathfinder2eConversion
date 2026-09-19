@@ -69,9 +69,9 @@
       "scimitar"
     ],
     "spells": {
-      "1": "Compendium.pf2e.spells-srd.Gb7SeieEvd0pL2Eh",
-      "2": "Compendium.pf2e.spells-srd.wzctak6BxOW8xvFV",
-      "4": "Compendium.pf2e.spells-srd.8M03UxGXjYyDFAoy"
+      "1": "Compendium.pf2e.spells.Gb7SeieEvd0pL2Eh",
+      "2": "Compendium.pf2e.spells.wzctak6BxOW8xvFV",
+      "4": "Compendium.pf2e.spells.8M03UxGXjYyDFAoy"
     },
     "attribute": [
       "con",

@@ -777,7 +777,7 @@
       "type": "spell",
       "flags": {
         "core": {
-          "sourceId": "Compendium.pf2e.spells-srd.Qw3fnUlaUbnn7ipC"
+          "sourceId": "Compendium.pf2e.spells.Qw3fnUlaUbnn7ipC"
         }
       },
       "effects": [],
@@ -1225,7 +1225,7 @@
       "type": "equipment",
       "flags": {
         "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.s1vB3HdXjMigYAnY"
+          "sourceId": "Compendium.pf2e.equipment.s1vB3HdXjMigYAnY"
         }
       },
       "effects": [],
@@ -1252,7 +1252,7 @@
       "system": {
         "description": {
           "gm": "",
-          "value": "<p>Vitality energy shuts death's door. The target loses the @UUID[Compendium.pf2e.conditionitems.yZRUzMqrMmfLu0V1]{Dying} condition, though it remains @UUID[Compendium.pf2e.conditionitems.fBnFDH2MTzgFijKf]{Unconscious} at 0 Hit Points.</p>"
+          "value": "<p>Vitality energy shuts death's door. The target loses the @UUID[Compendium.pf2e.conditions.yZRUzMqrMmfLu0V1]{Dying} condition, though it remains @UUID[Compendium.pf2e.conditions.fBnFDH2MTzgFijKf]{Unconscious} at 0 Hit Points.</p>"
         },
         "source": {
           "value": "Pathfinder's Guide to Eberron"
@@ -1351,7 +1351,7 @@
       "type": "spell",
       "flags": {
         "core": {
-          "sourceId": "Compendium.pf2e.spells-srd.SnjhtQYexDtNDdEg"
+          "sourceId": "Compendium.pf2e.spells.SnjhtQYexDtNDdEg"
         }
       },
       "effects": [],

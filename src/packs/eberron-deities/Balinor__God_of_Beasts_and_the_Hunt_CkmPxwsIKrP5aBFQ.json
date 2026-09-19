@@ -70,9 +70,9 @@
       "composite-longbow"
     ],
     "spells": {
-      "1": "Compendium.pf2e.spells-srd.zlnXpME1T2uvn8Lr",
-      "2": "Compendium.pf2e.spells-srd.XXqE1eY3w3z6xJCB",
-      "3": "Compendium.pf2e.spells-srd.1HfusQ8NDWutGvMx"
+      "1": "Compendium.pf2e.spells.zlnXpME1T2uvn8Lr",
+      "2": "Compendium.pf2e.spells.XXqE1eY3w3z6xJCB",
+      "3": "Compendium.pf2e.spells.1HfusQ8NDWutGvMx"
     },
     "attribute": [
       "wis",

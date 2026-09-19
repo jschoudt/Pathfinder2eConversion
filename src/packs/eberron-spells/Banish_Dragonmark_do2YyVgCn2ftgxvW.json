@@ -4,7 +4,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "\n\n\n<p>One of the spells developed by the twelve to hunt Aberrant Marks, they found these dragonmark targeting spells could disable any dragonmark - not just Aberrant marks. The twelve determined it to be too great a risk to make public. However, this spell has since been acquired by various intelligence agencies, held until the day it may be necessary.</p>\n\n\n\n<p>You utter a harsh incantation and point a finger at the target. Suddenly, your foe’s dragonmark begins to writhe and separate from its body. They must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> the target is unaffected.<br /><strong>Success</strong> the target is @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained 1}.<br /><strong>Failure</strong> the target is @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained 1}, and the target may not use any feature, spell, or item with the dragonmark trait. They may attempt a Will save at the end of each of their turns to resume using their dragonmark.<br /><strong>Critical Failure</strong> the target is @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained 2}, the target may not use any feature, spell, or item with the dragonmark trait until the duration expires.</p>\n<hr />\n<p class=\"hang\"><strong>Heightened (+1)</strong> The duration increases by 1 day.</p>\n"
+      "value": "\n\n\n<p>One of the spells developed by the twelve to hunt Aberrant Marks, they found these dragonmark targeting spells could disable any dragonmark - not just Aberrant marks. The twelve determined it to be too great a risk to make public. However, this spell has since been acquired by various intelligence agencies, held until the day it may be necessary.</p>\n\n\n\n<p>You utter a harsh incantation and point a finger at the target. Suddenly, your foe’s dragonmark begins to writhe and separate from its body. They must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> the target is unaffected.<br /><strong>Success</strong> the target is @UUID[Compendium.pf2e.conditions.4D2KBtexWXa6oUMR]{Drained 1}.<br /><strong>Failure</strong> the target is @UUID[Compendium.pf2e.conditions.4D2KBtexWXa6oUMR]{Drained 1}, and the target may not use any feature, spell, or item with the dragonmark trait. They may attempt a Will save at the end of each of their turns to resume using their dragonmark.<br /><strong>Critical Failure</strong> the target is @UUID[Compendium.pf2e.conditions.4D2KBtexWXa6oUMR]{Drained 2}, the target may not use any feature, spell, or item with the dragonmark trait until the duration expires.</p>\n<hr />\n<p class=\"hang\"><strong>Heightened (+1)</strong> The duration increases by 1 day.</p>\n"
     },
     "source": {
       "value": "Pathfinder's Guide to Eberron"
@@ -107,7 +107,7 @@
   "type": "spell",
   "flags": {
     "core": {
-      "sourceId": "Compendium.pf2e.spells-srd.bay4AfSu2iIozNNW"
+      "sourceId": "Compendium.pf2e.spells.bay4AfSu2iIozNNW"
     }
   },
   "effects": [],

@@ -53,9 +53,9 @@
       "warhammer"
     ],
     "spells": {
-      "1": "Compendium.pf2e.spells-srd.TPI9fRCAYsDqpAe4",
-      "4": "Compendium.pf2e.spells-srd.TUj8eugNqAvB1vVR",
-      "7": "Compendium.pf2e.spells-srd.73rToy0v5Ra9NvL6"
+      "1": "Compendium.pf2e.spells.TPI9fRCAYsDqpAe4",
+      "4": "Compendium.pf2e.spells.TUj8eugNqAvB1vVR",
+      "7": "Compendium.pf2e.spells.73rToy0v5Ra9NvL6"
     },
     "rules": [],
     "slug": null,

@@ -56,9 +56,9 @@
       "trident"
     ],
     "spells": {
-      "1": "Compendium.pf2e.spells-srd.g8QqHpv2CWDwmIm1",
-      "3": "Compendium.pf2e.spells-srd.9AAkVUCwF6WVNNY2",
-      "5": "Compendium.pf2e.spells-srd.zfn5RqAdF63neqpP"
+      "1": "Compendium.pf2e.spells.g8QqHpv2CWDwmIm1",
+      "3": "Compendium.pf2e.spells.9AAkVUCwF6WVNNY2",
+      "5": "Compendium.pf2e.spells.zfn5RqAdF63neqpP"
     },
     "rules": [],
     "slug": null,

@@ -59,9 +59,9 @@
       "halberd"
     ],
     "spells": {
-      "1": "Compendium.pf2e.spells-srd.aAbfKn8maGjJjk2W",
-      "4": "Compendium.pf2e.spells-srd.TUj8eugNqAvB1vVR",
-      "7": "Compendium.pf2e.spells-srd.AlbpWWN87yGegoAF"
+      "1": "Compendium.pf2e.spells.aAbfKn8maGjJjk2W",
+      "4": "Compendium.pf2e.spells.TUj8eugNqAvB1vVR",
+      "7": "Compendium.pf2e.spells.AlbpWWN87yGegoAF"
     },
     "rules": [],
     "slug": null,

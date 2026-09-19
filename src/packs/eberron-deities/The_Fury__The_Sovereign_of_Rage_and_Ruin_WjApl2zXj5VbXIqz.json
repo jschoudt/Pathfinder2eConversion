@@ -70,9 +70,9 @@
       "rapier"
     ],
     "spells": {
-      "1": "Compendium.pf2e.spells-srd.Gb7SeieEvd0pL2Eh",
-      "3": "Compendium.pf2e.spells-srd.sxQZ6yqTn0czJxVd",
-      "4": "Compendium.pf2e.spells-srd.VlNcjmYyu95vOUe8"
+      "1": "Compendium.pf2e.spells.Gb7SeieEvd0pL2Eh",
+      "3": "Compendium.pf2e.spells.sxQZ6yqTn0czJxVd",
+      "4": "Compendium.pf2e.spells.VlNcjmYyu95vOUe8"
     },
     "attribute": [
       "str",

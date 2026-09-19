@@ -15,7 +15,7 @@ This format is optimized for both human reading and automated changelog tools (i
   - **Traits:** Updated all damage and spell traits (`positive` -> `vitality`, `negative` -> `void`).
 - **Deity Modernization:** Updated all Eberron deity entries:
   - Mapped legacy `ability` arrays to modern `attribute` arrays.
-  - Added Remaster ORC publication metadata (`{ license: "ORC", remaster: true }`).
+- **Core PF2e Compendium Link Modernization:** Migrated 426 legacy compendium pack links across 302 files (`spells-srd` -> `spells`, `feats-srd` -> `feats`, `equipment-srd` -> `equipment`, `actionspf2e` -> `actions`, `conditionitems` -> `conditions`) to match modern PF2e system pack structures.
 
 ### Added - Modern Foundry v14 Support
 - **Foundry v14 & PF2e 8.5.1 Compatibility:** Declared and verified compatibility with Foundry Virtual Tabletop v14 and PF2e System v8.5.1+.
@@ -23,7 +23,7 @@ This format is optimized for both human reading and automated changelog tools (i
 - **Source-Controlled Compendiums:** Decompiled monolithic binary LevelDB packs into 582 individual, human-readable JSON files in `src/packs/` compiled on-demand using `@foundryvtt/foundryvtt-cli`.
 - **Packaging & Build System:** Added automated CLI scripts for building, linting, packaging, and testing compendium packs.
 - **Automated Tier 1 Headless Schema & System Validation:** Integrated automated validation using Foundry v14's native `BaseItem`, `BaseActor`, `BaseJournalEntry`, and `BaseRollTable` Document schema engine alongside installed PF2e system `template.json`, validating 582 source documents, rule elements, and internal `@UUID` link integrity with zero schema errors.
-- **Vitest Test Suite:** Integrated Vitest as the primary test runner (`npm test`, `npm run test:watch`), executing 13 parallelized assertion suites across schema, link integrity, rule elements, Remaster terms, and UPnP security in ~400ms.
+- **Expanded Vitest Test Suite:** Integrated Vitest as the primary test runner (`npm test`, `npm run test:watch`), executing 25 parallelized assertion suites across 8 test files covering core schemas, internal/external links, deep PF2e mechanics (Ancestries, Feats, Spells, Weapons, NPCs), Rule Elements (FlatModifier, RollOption, GrantItem, AELike, Sense), Remaster terms, and UPnP security in ~500ms.
 - **Companion In-VTT Test Module:** Added `pathfinders-guide-to-eberron-tests` companion module (`tests/companion-module/`) for automated in-world verification inside test worlds (`pf2e-test`), keeping the release compendium module 100% clean of test code.
 - **Security & UPnP Enforcement:** Disabled UPnP in local server options and added automated startup/test validation guards preventing Foundry from running with UPnP enabled.
 - **D&D 2024 & Forge of the Artificer Extraction Pipeline:** Added `npm run extract:dnd2024` tool to extract installed 2024 core rules and *Forge of the Artificer* packs into private staging for mechanical conversion.
