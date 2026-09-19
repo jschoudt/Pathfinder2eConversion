@@ -42,7 +42,7 @@ Pathfinder's Guide to Eberron
 - Modernizes Foundry VTT module compatibility for Foundry v14 and PF2e system 8.5.1
 - Upgrades legal dialog to Foundry DialogV2
 - Adds Big Bad Module Manager (BBMM) and Foundry Core changelog integration
-- Integrates automated build, Tier 1 Foundry v14/PF2e schema validation, and UPnP security enforcement tooling
+- Integrates automated build, Vitest test suite, companion in-VTT test module, and UPnP security enforcement tooling
 
 **V 2.3.0 - 2023-10-29**
 - Introduces the Pathbuilder module contributed by John Cox

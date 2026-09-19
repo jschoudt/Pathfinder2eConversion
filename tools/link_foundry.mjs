@@ -4,8 +4,17 @@ import { existsSync } from 'node:fs';
 import path from 'node:path';
 
 const CONFIG_FILE = path.resolve('foundryconfig.json');
-const MODULE_NAME = 'pathfinders-guide-to-eberron-compendium';
-const LOCAL_MODULE_PATH = path.resolve(MODULE_NAME);
+
+const MODULES_TO_LINK = [
+  {
+    name: 'pathfinders-guide-to-eberron-compendium',
+    source: path.resolve('pathfinders-guide-to-eberron-compendium')
+  },
+  {
+    name: 'pathfinders-guide-to-eberron-tests',
+    source: path.resolve('tests/companion-module')
+  }
+];
 
 async function main() {
   if (!existsSync(CONFIG_FILE)) {
@@ -34,24 +43,27 @@ async function main() {
     await mkdir(targetModulesDir, { recursive: true });
   }
 
-  const linkPath = path.join(targetModulesDir, MODULE_NAME);
+  console.log(`\nLinking Foundry modules into ${targetModulesDir}...`);
 
-  if (existsSync(linkPath)) {
-    const stat = await lstat(linkPath);
-    if (stat.isSymbolicLink()) {
-      await unlink(linkPath);
-      console.log(`Replacing existing symlink at ${linkPath}`);
-    } else {
-      console.error(`Error: A non-symlink directory already exists at ${linkPath}. Please remove or back it up first.`);
-      process.exit(1);
+  for (const mod of MODULES_TO_LINK) {
+    const linkPath = path.join(targetModulesDir, mod.name);
+
+    if (existsSync(linkPath)) {
+      const stat = await lstat(linkPath);
+      if (stat.isSymbolicLink()) {
+        await unlink(linkPath);
+        console.log(`  Replacing existing symlink for ${mod.name}`);
+      } else {
+        console.error(`Error: A non-symlink directory already exists at ${linkPath}. Please remove or back it up first.`);
+        continue;
+      }
     }
+
+    await symlink(mod.source, linkPath, 'dir');
+    console.log(`  ✓ Linked ${mod.name} -> ${mod.source}`);
   }
 
-  await symlink(LOCAL_MODULE_PATH, linkPath, 'dir');
-  console.log(`\nSuccessfully linked:`);
-  console.log(`  Source: ${LOCAL_MODULE_PATH}`);
-  console.log(`  Target: ${linkPath}`);
-  console.log(`\nNow whenever you run 'npm run build', changes will immediately be available in your local Foundry server!`);
+  console.log(`\nAll modules linked successfully! Both the compendium and companion test suite are ready in Foundry.`);
 }
 
 main().catch(console.error);

@@ -1,0 +1,37 @@
+{
+  "id": "pathfinders-guide-to-eberron-tests",
+  "title": "Pathfinder's Guide to Eberron - Test Suite",
+  "description": "Companion integration test suite module for Pathfinder's Guide to Eberron. Isolated from the release module to ensure clean production builds.",
+  "version": "2.4.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "14"
+  },
+  "authors": [
+    {
+      "name": "jschoudt",
+      "url": "https://github.com/jschoudt/Pathfinder2eConversion"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "6.0.0",
+          "verified": "8.5.1"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "pathfinders-guide-to-eberron-compendium",
+        "type": "module"
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/test-runner.js"
+  ]
+}

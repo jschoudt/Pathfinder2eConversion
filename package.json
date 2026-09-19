@@ -13,7 +13,8 @@
     "foundry:start": "node tools/start_foundry.mjs",
     "extract:dnd2024": "node tools/extract_foundry_content.mjs",
     "package": "node tools/package_module.mjs",
-    "test": "node tools/validate_packs.mjs"
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "keywords": [
     "foundryvtt",
@@ -25,6 +26,7 @@
   "license": "SEE LICENSE IN LICENSE.md",
   "devDependencies": {
     "@foundryvtt/foundryvtt-cli": "^3.0.4",
-    "classic-level": "^1.4.1"
+    "classic-level": "^1.4.1",
+    "vitest": "^5.0.1"
   }
 }
