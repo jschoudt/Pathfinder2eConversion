@@ -1,0 +1,102 @@
+{
+  "_id": "PMZjc5rLWtWV9vEW",
+  "name": "Way of the Wandslinger",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/classes/way-of-the-spellshot.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.classfeatures.OmgtSDV1FubDUqWR"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "\n\n<h1>Wandslinger (Class Archetype)</h1>\n<p>Wielding wands alongside weapons, wandslingers are masters of a new form of martial art - wandslinging. Wandslinging is the art of blending arcane spell duelling with martial combat efficiency, enabling wandslingers to perform feats of combat prowess that neither wizard nor fighter could. Though they cast spells, they do so through the use of widespread items - wands and staves - rather than by arcane incantation. The flexibility to perform in many roles, along with their tenacity, grit, and martial expertise, has begun to develop the wandslingers notable reputation throughout Khorvaire.  </p>\n<h2>Way of the Wandslinger (1st)</h2>\n<p>You've learned the intricacies of magic and wands, blending the two with deadly results. You combine a working knowledge of arcane theories with a strong connection to improvised wands that allows you to manifest spells in battle alongside your martial combat. You must select Wandslinger Dedication from the Wandslinger archetype as your 2nd-level class feat.</p>\n<p><strong>Prerequisites:</strong> Must be a gunslinger.</p>\n<p><strong>Wandslinger Adjustments:</strong> Instead of choosing a way from the options listed in the gunslinger class, you have the way of the wandslinger. It has the following way skill, slinger's reload, and deeds. You gain these abilities at the same levels as normal for the class. You use Intelligence for your class DC.</p>\n<p><strong>Way Skill</strong> Arcana<br /><strong>Slinger's Reload</strong> @Compendium[pathfinders-guide-to-eberron-compendium.eberron-actions.cM3wQTA8U9Fv1vMi]{Arcane Blowback}<br /><strong>Deeds</strong> <em>Initial</em> @Compendium[pathfinders-guide-to-eberron-compendium.eberron-actions.YKWPE2g6dbNPLMAF]{Quick Wand}; <em>Advanced</em> @Compendium[pathfinders-guide-to-eberron-compendium.eberron-actions.UfWA6yMPpEReMib8]{Spellfire}; <em>Greater</em> @Compendium[pathfinders-guide-to-eberron-compendium.eberron-actions.7Evv7rbb0Syrk2V1]{Fastest Wand In the West};</p>\n"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [
+      {
+        "ability": "int",
+        "key": "FlatModifier",
+        "selector": "class",
+        "type": "ability"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.arc.rank",
+        "value": 1
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pathfinders-guide-to-eberron-compendium.eberron-actions.cM3wQTA8U9Fv1vMi",
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pathfinders-guide-to-eberron-compendium.eberron-actions.YKWPE2g6dbNPLMAF",
+        "allowDuplicate": false
+      }
+    ],
+    "slug": "way-of-the-wandslinger",
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:11:46.616-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 1
+    },
+    "traits": {
+      "value": [
+        "gunslinger"
+      ],
+      "rarity": "uncommon",
+      "custom": ""
+    },
+    "category": "bonus",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "You must be a gunslinger."
+        }
+      ]
+    },
+    "location": null,
+    "featType": {
+      "value": "classfeature"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.12.9",
+    "coreVersion": "10.303",
+    "createdTime": 1672960306625,
+    "modifiedTime": 1694448305423,
+    "lastModifiedBy": "7iofgUiimTzs2vga"
+  },
+  "_key": "!items!PMZjc5rLWtWV9vEW"
+}

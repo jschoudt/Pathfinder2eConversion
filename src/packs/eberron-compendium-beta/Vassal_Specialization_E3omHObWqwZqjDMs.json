@@ -1,0 +1,72 @@
+{
+  "img": "systems/pf2e/icons/features/classes/divine-spellcasting.webp",
+  "name": "Vassal Specialization",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Vassal Artificers are masters of divine magic and specialize in infusing their creations with divine energy. You have a strong understanding of your religion and draw upon your faith to imbue items with powerful blessings and abilities. Through the use of sacred texts, rituals, or prayer, Vassal Artificers are able to imbue their creations with divine power.</p>\n<p>Your spellcasting tradition is <strong>Divine</strong>.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.proficiencies.aliases.artificer",
+        "priority": 39,
+        "value": "divine"
+      }
+    ],
+    "slug": "vassal-specialization",
+    "schema": {
+      "version": 0.835,
+      "lastMigration": null
+    },
+    "level": {
+      "value": 1
+    },
+    "traits": {
+      "value": [
+        "hb_artificer"
+      ],
+      "rarity": "common"
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.classfeatures.3qqvnC2U8W26yae7"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.10.4",
+    "coreVersion": "10.291",
+    "createdTime": 1685924334481,
+    "modifiedTime": 1691634310805,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "_id": "E3omHObWqwZqjDMs",
+  "_key": "!items!E3omHObWqwZqjDMs"
+}

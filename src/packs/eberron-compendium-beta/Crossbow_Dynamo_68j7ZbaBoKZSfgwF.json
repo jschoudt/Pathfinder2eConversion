@@ -1,0 +1,102 @@
+{
+  "name": "Crossbow Dynamo",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.feats-srd.aLgb1x3azE4IKz0o"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You have a deep understanding of the crossbow. When you're wielding a crossbow and Interact to reload it, you gain a +2 circumstance bonus to the damage roll on your next Strike with that crossbow.</p>\n<p>If the crossbow is a simple crossbow, also increase the damage die size for that attack by one step.</p>\n<p>You must make the attack before the end of your turn or these benefits are lost.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [
+      {
+        "domain": "damage-roll",
+        "key": "RollOption",
+        "label": "Reloaded crossbow",
+        "option": "crossbow-dynamo",
+        "toggleable": true
+      },
+      {
+        "key": "DamageDice",
+        "override": {
+          "upgrade": true
+        },
+        "predicate": [
+          "crossbow-dynamo",
+          "item:tag:crossbow",
+          "item:category:simple"
+        ],
+        "selector": "strike-damage",
+        "slug": "crossbow-dynamo-dice-upgrade"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "strike-damage",
+        "value": 2,
+        "type": "circumstance",
+        "predicate": [
+          "crossbow-dynamo",
+          "item:tag:crossbow"
+        ]
+      }
+    ],
+    "slug": null,
+    "schema": {
+      "version": 0.84,
+      "lastMigration": {
+        "datetime": "2023-09-11T08:26:28.157-07:00",
+        "version": {
+          "schema": 0.812,
+          "foundry": "10.303",
+          "system": "4.12.9"
+        }
+      }
+    },
+    "level": {
+      "value": 1
+    },
+    "traits": {
+      "value": [
+        "hb_artificer"
+      ],
+      "rarity": "uncommon"
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "ownership": {
+    "default": 0,
+    "7iofgUiimTzs2vga": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.12.9",
+    "coreVersion": "10.303",
+    "createdTime": 1672960323121,
+    "modifiedTime": 1694446306991,
+    "lastModifiedBy": "7iofgUiimTzs2vga"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "68j7ZbaBoKZSfgwF",
+  "_key": "!items!68j7ZbaBoKZSfgwF"
+}

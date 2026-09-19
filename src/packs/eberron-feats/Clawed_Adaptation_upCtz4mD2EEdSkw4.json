@@ -1,0 +1,105 @@
+{
+  "name": "Clawed Adaptation",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.2rv8GIY5YpbMtqYA"
+    }
+  },
+  "_id": "upCtz4mD2EEdSkw4",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>When you shift shape you can add claws, fangs, spines, horns, or a different natural weapon of your choice to your form. Your unarmed strikes deal 1d4 piercing or slashing damage, as appropriate to the natural weapon you chose. These attacks are in the brawling weapon group and gain the agile, finesse, and unarmed traits.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "shiftshapedclaws",
+        "toggleable": true
+      },
+      {
+        "predicate": [
+          "shiftshapedclaws"
+        ],
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "slashing",
+            "dice": 1,
+            "die": "d4"
+          }
+        },
+        "group": "brawling",
+        "key": "Strike",
+        "label": "Clawed Adaptation Claws",
+        "range": null,
+        "replaceAll": true,
+        "traits": [
+          "agile",
+          "finesse",
+          "unarmed"
+        ]
+      }
+    ],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:02.895-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 1
+    },
+    "traits": {
+      "value": [
+        "hb_eberron-changelings"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "featType": {
+      "value": "ancestry"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.10.4",
+    "coreVersion": "10.291",
+    "createdTime": 1672960323130,
+    "modifiedTime": 1691632523880,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!upCtz4mD2EEdSkw4"
+}

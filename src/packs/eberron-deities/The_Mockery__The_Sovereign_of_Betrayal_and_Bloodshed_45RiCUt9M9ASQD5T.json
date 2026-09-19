@@ -1,0 +1,99 @@
+{
+  "name": "The Mockery: The Sovereign of Betrayal and Bloodshed",
+  "type": "deity",
+  "img": "systems/pf2e/icons/default-icons/deity.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.deities.bLI1JMpI2GXQT5AC"
+    }
+  },
+  "_id": "45RiCUt9M9ASQD5T",
+  "system": {
+    "description": {
+      "value": "\n\n\n<p>The mockery is the deity that encompasses the war, combat, and trickery.<br /><strong>Areas of Concern</strong> Combat, dishonour, murder, terror, treachery.<br /><strong>Alignment</strong> NE<br /><strong>Divine Font</strong> Harm<br /><strong>Divine Ability</strong> Dexterity or Charisma <br /><strong>Divine Skill</strong> Deception<br /><strong>Domains</strong> Confidence, Destruction, Might, Pain, Passion, Trickery, Tyranny, Zeal<br /><strong>Cleric Spells</strong> 1st: penumbral shroud, 3rd: invisibility sphere, 6th: mislead<br /><strong>Edicts</strong> Seize any opportunity that would benefit you, solve your problems with violence, hide your true intentions.<br /><strong>Anathema</strong> Beg for help or mercy, let a slight go unanswered.<br /><strong>Favoured Weapon</strong> Kama</p>\n"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "category": "deity",
+    "alignment": {
+      "own": "NE",
+      "follower": [
+        "LN",
+        "N",
+        "CN",
+        "LE",
+        "NE",
+        "CE"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "confidence",
+        "trickery",
+        "might",
+        "zeal"
+      ],
+      "alternate": [
+        "destruction",
+        "pain",
+        "passion",
+        "tyranny"
+      ]
+    },
+    "font": [
+      "harm"
+    ],
+    "ability": [
+      "cha",
+      "dex"
+    ],
+    "skill": "dec",
+    "weapons": [
+      "kama"
+    ],
+    "spells": {
+      "1": "Compendium.pf2e.spells-srd.zdb8cjOIDVKYMWdr",
+      "3": "Compendium.pf2e.spells-srd.I0j56TNRmGcTyoqJ",
+      "6": "Compendium.pf2e.spells-srd.WPXzPl7YbMEIGWfi"
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:11:50.110-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "attribute": [
+      "cha",
+      "dex"
+    ],
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder's Guide to Eberron"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960310187,
+    "modifiedTime": 1675018163996,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!45RiCUt9M9ASQD5T"
+}

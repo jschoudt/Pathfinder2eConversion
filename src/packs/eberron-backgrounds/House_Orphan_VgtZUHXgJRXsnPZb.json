@@ -1,0 +1,79 @@
+{
+  "name": "House Orphan",
+  "type": "background",
+  "img": "systems/pf2e/icons/default-icons/background.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.d0unx8wYUJtnI13W"
+    }
+  },
+  "_id": "VgtZUHXgJRXsnPZb",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Many dragonmarked heirs have chosen to give up their birthright to be freed from the edicts.</p>\n<p>Choose two ability boosts. One must be to <strong>Wisdom</strong>, <strong>Charisma</strong>, or <strong>Intelligence</strong>; and one is a free ability boost.</p>\n<p>You've trained the skill related to your house (table 4-1), and the Lore of Dragonmarked Houses. You gain the associated skill feat related to your house. </p>\n<p><em style=\"box-sizing:border-box;user-select:text;color:#191813;font-family:Roboto, sans-serif;font-size:13px\">Note: You must select the skill and skill feat manually</em></p>\n<hr />\n<h3><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">Table 4-1 House Skills</span></h3>\n\n\n<table>\n<thead>\n<tr>\n<th>House</th>\n<th style=\"text-align:left\">Skill</th>\n<th style=\"text-align:left\">Feat</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Cannith</td>\n<td>Crafting</td>\n<td>Specialty Crafting</td>\n</tr>\n<tr>\n<td>Deneith</td>\n<td>Athletics</td>\n<td>Armor Assist*</td>\n</tr>\n<tr>\n<td>Ghallanda</td>\n<td>Diplomacy</td>\n<td>Group Impression</td>\n</tr>\n<tr>\n<td>Phiarlan</td>\n<td>Performance</td>\n<td>Fascinating Performance</td>\n</tr>\n<tr>\n<td>Jorasco</td>\n<td>Medicine</td>\n<td>Inoculation</td>\n</tr>\n<tr>\n<td>Kundarak</td>\n<td>Crafting</td>\n<td>Crafter's Appraisal</td>\n</tr>\n<tr>\n<td>Lyrandar</td>\n<td>Acrobatics</td>\n<td>Steady Balance</td>\n</tr>\n<tr>\n<td>Medani</td>\n<td>Deception</td>\n<td>Lie to Me</td>\n</tr>\n<tr>\n<td>Orien</td>\n<td>Survival</td>\n<td>Terrain Expertise</td>\n</tr>\n<tr>\n<td>Sivis</td>\n<td>Society</td>\n<td>Multilingual</td>\n</tr>\n<tr>\n<td>Tarkanan</td>\n<td>Stealth</td>\n<td>Experienced Smuggler</td>\n</tr>\n<tr>\n<td>Tharashk</td>\n<td>Survival</td>\n<td>Experienced Tracker</td>\n</tr>\n<tr>\n<td>Thuranni</td>\n<td>Stealth</td>\n<td>Terrain Stalker</td>\n</tr>\n<tr>\n<td>Vadalis</td>\n<td>Nature</td>\n<td>Train Animal</td>\n</tr>\n</tbody>\n</table>\n*Due to your extensive training, you always succeed on the check to put on the armour\n"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:11:42.410-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "traits": {
+      "value": [],
+      "rarity": "common",
+      "custom": ""
+    },
+    "boosts": {
+      "0": {
+        "value": [
+          "cha",
+          "int",
+          "wis"
+        ]
+      },
+      "1": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      }
+    },
+    "items": {},
+    "trainedLore": "Dragonmarked Houses",
+    "trainedSkills": {
+      "value": [],
+      "custom": "House Skill (Table 2-1)"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.12.9",
+    "coreVersion": "10.303",
+    "createdTime": 1672960302443,
+    "modifiedTime": 1694448068200,
+    "lastModifiedBy": "7iofgUiimTzs2vga"
+  },
+  "_key": "!items!VgtZUHXgJRXsnPZb"
+}

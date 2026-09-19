@@ -1,0 +1,138 @@
+{
+  "name": "Become Shadow",
+  "type": "spell",
+  "img": "systems/pf2e/icons/spells/discern-secrets.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.spells-srd.UmXhuKrYZR3W16mQ"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You blend yourself with shadow, losing visual definition. For the duration, while in dim light or darkness, you gain a +2 status bonus to @Compendium[pf2e.actionspf2e.XMcnh4cSI32tljXa]{Hide} and @Compendium[pf2e.actionspf2e.VMozDqMMuK5kpoX4]{Sneak}. If you end your turn outside of dim light or darkness, the spell ends.</p>\n<hr />\n<p class=\"hang\"><strong>Heightened (6th) </strong>You do not need to sustain the spell.<br /><br /></p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "hb_dragonmark",
+        "hb_mark-of-shadow"
+      ],
+      "rarity": "uncommon",
+      "custom": ""
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:15.886-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 2
+    },
+    "spellType": {
+      "value": "utility"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": [
+        "arcane",
+        "divine",
+        "occult",
+        "primal"
+      ]
+    },
+    "school": {
+      "value": "illusion"
+    },
+    "components": {
+      "focus": true,
+      "material": false,
+      "somatic": true,
+      "verbal": false
+    },
+    "materials": {
+      "value": "You are in dim light or darkness"
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "sustained up to 10 minutes."
+    },
+    "damage": {
+      "value": {}
+    },
+    "save": {
+      "value": "",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "ability": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "hasCounteractCheck": {
+      "value": false
+    },
+    "prepared": {
+      "value": ""
+    },
+    "primarycheck": {
+      "value": ""
+    },
+    "secondarycasters": {
+      "value": ""
+    },
+    "secondarycheck": {
+      "value": ""
+    },
+    "heightening": {
+      "type": "fixed",
+      "levels": {
+        "6": {}
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960336260,
+    "modifiedTime": 1673330523973,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_id": "N5yfYHr6WkLW1H96",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "_key": "!items!N5yfYHr6WkLW1H96"
+}

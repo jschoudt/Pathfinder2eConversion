@@ -1,0 +1,64 @@
+{
+  "name": "Hashalaq Kalashtar Insightful",
+  "type": "heritage",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.7gb49l5Jq96scgbw"
+    }
+  },
+  "_id": "hpRYKWvKpQHhTkFS",
+  "system": {
+    "description": {
+      "value": "<h2>Hashalaq Kalashtar</h2>\n<p>The hashalaq quori is a force that feeds on doubt and desire. You can choose one of the following paths.</p>\n<p> </p>\n<h3>Hashalaq Insightful</h3>\n<p>You become trained in Deception (or another skill if you were already trained in Deception). You gain the @Compendium[pf2e.feats-srd.Dvz54d6aPhjsmUux]{Lie To Me} skill feat. In addition, you gain a +1 circumstance bonus against any attempt to lie to you.</p>\n<p> </p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "hb_kalashtar"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Dvz54d6aPhjsmUux"
+      }
+    ],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:06.946-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "ancestry": {
+      "name": "Kalashtar",
+      "uuid": "Compendium.pathfinders-guide-to-eberron-compendium.eberron-ancestries.Fk955i74aVVUzOKt"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960327020,
+    "modifiedTime": 1672986313370,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!hpRYKWvKpQHhTkFS"
+}

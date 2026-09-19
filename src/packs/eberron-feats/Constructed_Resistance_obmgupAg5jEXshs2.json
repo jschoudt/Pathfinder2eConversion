@@ -1,0 +1,91 @@
+{
+  "name": "Constructed Resistance",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.K03QSatDR6UZJl1Q"
+    }
+  },
+  "_id": "obmgupAg5jEXshs2",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your constructed body has advantages and disadvantages that most humanoid creatures do not. You gain a +1 circumstance bonus to saving throws against diseases, and poisons. However, you are considered to be a creature composed entirely of wood and metal for the purposes of magical or other effects - regardless of your integrated armour type.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "label": "Constructed Resistance (vs. diseases and poisons)",
+        "predicate": [
+          {
+            "or": [
+              "disease",
+              "poison"
+            ]
+          }
+        ],
+        "selector": "saving-throw",
+        "type": "circumstance",
+        "value": 1
+      }
+    ],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:02.770-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 0
+    },
+    "traits": {
+      "value": [
+        "hb_warforged"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "featType": {
+      "value": "ancestryfeature"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.10.4",
+    "coreVersion": "10.291",
+    "createdTime": 1672960323123,
+    "modifiedTime": 1691632616400,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!obmgupAg5jEXshs2"
+}

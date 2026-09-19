@@ -1,0 +1,136 @@
+{
+  "name": "Long March",
+  "type": "spell",
+  "img": "systems/pf2e/icons/spells/discern-secrets.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.spells-srd.UmXhuKrYZR3W16mQ"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Your dragonmark sustains your allies' endurance, enabling longer travel. You can only use this spell as an exploration activity, during the duration of the spell you and your allies in the area can move at double speed. You and your allies then become temporarily immune for 1 day. You can dismiss this spell, and it ends early if you exit exploration mode. </p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "hb_dragonmark",
+        "hb_mark-of-passage",
+        "mental"
+      ],
+      "rarity": "uncommon",
+      "custom": ""
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:15.886-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 3
+    },
+    "spellType": {
+      "value": "utility"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": [
+        "divine",
+        "arcane",
+        "occult",
+        "primal"
+      ]
+    },
+    "school": {
+      "value": "enchantment"
+    },
+    "components": {
+      "focus": true,
+      "material": false,
+      "somatic": true,
+      "verbal": false
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": {
+      "value": 60,
+      "type": "emanation"
+    },
+    "time": {
+      "value": "3"
+    },
+    "duration": {
+      "value": "1 hour"
+    },
+    "damage": {
+      "value": {}
+    },
+    "save": {
+      "value": "",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "ability": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "hasCounteractCheck": {
+      "value": false
+    },
+    "prepared": {
+      "value": ""
+    },
+    "primarycheck": {
+      "value": ""
+    },
+    "secondarycasters": {
+      "value": ""
+    },
+    "secondarycheck": {
+      "value": ""
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960336260,
+    "modifiedTime": 1681696064208,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_id": "3oJmEyUwCL1SXlUd",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "_key": "!items!3oJmEyUwCL1SXlUd"
+}

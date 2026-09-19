@@ -1,0 +1,105 @@
+{
+  "name": "Sending Stone Pair",
+  "type": "equipment",
+  "system": {
+    "description": {
+      "value": "\n\n<p><strong>Activate <span class=\"pf2-icon\">3</span></strong> Envision, Interact, Command;</p>\n<p><strong>Frequency</strong> Once per day per pair;</p>\n<p><strong>Effect</strong> <span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">You send the other stone a mental message of 25 words or fewer, and it can respond immediately with its own message of 25 words or fewer.</span> If the stone is attended by another creature, they become the target of the sending spell.</p>\n"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "magical"
+      ],
+      "rarity": "common",
+      "custom": "",
+      "otherTags": []
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": null
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "hp": {
+      "brokenThreshold": 0,
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "weight": {
+      "value": "L"
+    },
+    "equippedBulk": {
+      "value": ""
+    },
+    "price": {
+      "value": {
+        "gp": 300
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "-=inSlot": null,
+      "handsHeld": 0
+    },
+    "stackGroup": null,
+    "negateBulk": {
+      "value": "0"
+    },
+    "containerId": null,
+    "preciousMaterial": {
+      "value": null
+    },
+    "preciousMaterialGrade": {
+      "value": null
+    },
+    "size": "med",
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "level": {
+      "value": 7
+    }
+  },
+  "img": "systems/pf2e/icons/spells/shape-stone.webp",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Item.YjDotu8IyQSTCwgB"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1673120348983,
+    "modifiedTime": 1675019054890,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "dumpHnCnF2KmrDpi",
+  "_key": "!items!dumpHnCnF2KmrDpi"
+}

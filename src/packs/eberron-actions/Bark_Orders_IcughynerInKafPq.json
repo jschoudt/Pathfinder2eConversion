@@ -1,0 +1,73 @@
+{
+  "name": "Bark Orders",
+  "type": "action",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.NKTyRylnKDiuwJTQ"
+    }
+  },
+  "_id": "IcughynerInKafPq",
+  "system": {
+    "description": {
+      "value": "<p class=\"hang\"><strong>Frequency</strong> once per day</p>\n<hr />\n<p> </p>\n<p>You can command your allies to reposition. Any allies who hear and understand this order can use a reaction to Step. Any ally who uses their reaction then becomes immune to bark orders for 10 minutes.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "auditory",
+        "gnoll",
+        "linguistic"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:02:51.523-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actionCategory": {
+      "value": ""
+    },
+    "actions": {
+      "value": 1
+    },
+    "requirements": {
+      "value": ""
+    },
+    "trigger": {
+      "value": ""
+    },
+    "deathNote": false
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672959771574,
+    "modifiedTime": 1672959940675,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "_key": "!items!IcughynerInKafPq"
+}

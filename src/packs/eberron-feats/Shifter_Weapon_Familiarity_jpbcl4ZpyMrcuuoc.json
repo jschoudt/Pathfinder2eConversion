@@ -1,0 +1,139 @@
+{
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "name": "Shifter Weapon Familiarity",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You favour the weapons common to shifters. You are trained with the @Compendium[pf2e.equipment-srd.LGgvev6AV0So8tP9]{Hatchet}, @Compendium[pf2e.equipment-srd.zSAoyzcf3nSeZCiF]{Kama}, @Compendium[pf2e.equipment-srd.TDrO7Xdyn7juFy3c]{Kukri}, @Compendium[pf2e.equipment-srd.grmaV4GdoGD7sKbn]{Scimitar}, and @Compendium[pf2e.equipment-srd.ynnBwzkzsR6B73iO]{Sickle}. In addition, you gain access to kama, kukris, and all uncommon shifter weapons. For you, martial shifter weapons are simple weapons and advanced shifter weapons are martial weapons.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.martial.weapon-base-hatchet.rank",
+        "value": 1
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.martial.weapon-base-kama.rank",
+        "value": 1
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.martial.weapon-base-kukri.rank",
+        "value": 1
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.martial.weapon-base-scimitar.rank",
+        "value": 1
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.martial.weapon-base-sickle.rank",
+        "value": 1
+      },
+      {
+        "definition": [
+          "item:trait:shifter",
+          "item:category:advanced"
+        ],
+        "key": "MartialProficiency",
+        "label": "PF2E.SpecificRule.MartialProficiency.AdvancedShifterWeapons",
+        "sameAs": "martial",
+        "slug": "advanced-shifter-weapons"
+      },
+      {
+        "definition": [
+          "item:trait:shifter",
+          "item:category:martial"
+        ],
+        "key": "MartialProficiency",
+        "label": "PF2E.SpecificRule.MartialProficiency.MartialShifterWeapons",
+        "sameAs": "simple",
+        "slug": "martial-shifter-weapons"
+      },
+      {
+        "definition": [
+          "item:trait:catfolk",
+          "item:category:martial"
+        ],
+        "key": "MartialProficiency",
+        "label": "PF2E.SpecificRule.MartialProficiency.MartialShifterWeapons",
+        "sameAs": "simple",
+        "slug": "martial-shifter-weapons"
+      },
+      {
+        "definition": [
+          "item:trait:catfolk",
+          "item:category:advanced"
+        ],
+        "key": "MartialProficiency",
+        "label": "PF2E.SpecificRule.MartialProficiency.AdvancedShifterWeapons",
+        "sameAs": "martial",
+        "slug": "advanced-shifter-weapons"
+      }
+    ],
+    "slug": "catfolk-weapon-familiarity",
+    "schema": {
+      "version": 0.812,
+      "lastMigration": null
+    },
+    "level": {
+      "value": 1
+    },
+    "traits": {
+      "value": [
+        "hb_shifter"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "featType": {
+      "value": "ancestry"
+    }
+  },
+  "type": "feat",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.feats-srd.bEh5qUgX5eFaQwzU"
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.10.4",
+    "coreVersion": "10.291",
+    "createdTime": 1673806393280,
+    "modifiedTime": 1691633093439,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "jpbcl4ZpyMrcuuoc",
+  "_key": "!items!jpbcl4ZpyMrcuuoc"
+}

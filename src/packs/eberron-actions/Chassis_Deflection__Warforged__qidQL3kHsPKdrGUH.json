@@ -1,0 +1,71 @@
+{
+  "name": "Chassis Deflection (Warforged)",
+  "type": "action",
+  "img": "systems/pf2e/icons/actions/Reaction.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.actionspf2e.uOlyklPCUWLtCaYI"
+    }
+  },
+  "_id": "qidQL3kHsPKdrGUH",
+  "system": {
+    "description": {
+      "value": "<p><strong>Trigger</strong> A critical hit deals physical damage to you.</p>\n<hr />\n<p>Attempt a @Check[type:flat|dc:17]. If you are successful, the attack becomes a normal hit.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "hb_warforged"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [],
+    "slug": "chassis-deflection",
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:02:51.538-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "actionType": {
+      "value": "reaction"
+    },
+    "actionCategory": {
+      "value": "defensive"
+    },
+    "actions": {
+      "value": null
+    },
+    "requirements": {
+      "value": ""
+    },
+    "trigger": {
+      "value": ""
+    },
+    "deathNote": false
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672959771583,
+    "modifiedTime": 1672959940680,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "_key": "!items!qidQL3kHsPKdrGUH"
+}

@@ -1,0 +1,113 @@
+{
+  "name": "Psionic Focus",
+  "type": "equipment",
+  "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/broach-of-shielding.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.equipment-srd.TmQalYKNNRuEdoTh"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>This item is a small amulet manufactured by the Kalashtar to focus their psionic powers. You may apply fundamental weapon runes to this amulet. Any runes applied to this amulet also manifest on the Psi-Blades manifested by the kalashtar Psi-Blade feat.  </p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "invested",
+        "hb_kalashtar",
+        "magical"
+      ],
+      "rarity": "uncommon",
+      "custom": "",
+      "otherTags": []
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:10.971-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "hp": {
+      "brokenThreshold": 0,
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "weight": {
+      "value": "L"
+    },
+    "equippedBulk": {
+      "value": ""
+    },
+    "price": {
+      "value": {
+        "gp": 45
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "-=inSlot": null
+    },
+    "stackGroup": null,
+    "negateBulk": {
+      "value": ""
+    },
+    "containerId": null,
+    "preciousMaterial": {
+      "value": ""
+    },
+    "preciousMaterialGrade": {
+      "value": ""
+    },
+    "size": "med",
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "worn"
+    },
+    "level": {
+      "value": 3
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960331170,
+    "modifiedTime": 1681694494275,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "DA0KJNYZ0ZMApD6k",
+  "_key": "!items!DA0KJNYZ0ZMApD6k"
+}

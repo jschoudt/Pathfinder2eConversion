@@ -1,0 +1,79 @@
+{
+  "name": "Proficient Prototyper",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e-expansion-pack.Expansion-Feats.QZfAWDptJIAjEoHg"
+    }
+  },
+  "_id": "SXOVnFjkeJJ9733O",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>When you spend downtime to use the Craft activity, with your proficiency in creating prototypes and planning ahead (or failing quickly), you may complete crafting projects faster. On a successful Craft check, you may reduce the remaining materials required by 1 day in addition to any further downtime you spend. If you are an expert in crafting you may reduce this by 2 days, master by 4 days, and legendary by 8 days.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:02.121-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 1
+    },
+    "traits": {
+      "value": [
+        "general",
+        "skill"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "category": "skill",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "trained in Crafting"
+        }
+      ]
+    },
+    "location": null,
+    "featType": {
+      "value": "skill"
+    }
+  },
+  "ownership": {
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.10.4",
+    "coreVersion": "10.291",
+    "createdTime": 1672960322351,
+    "modifiedTime": 1691633018779,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!SXOVnFjkeJJ9733O"
+}

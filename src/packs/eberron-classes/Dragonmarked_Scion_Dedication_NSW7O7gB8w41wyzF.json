@@ -1,0 +1,79 @@
+{
+  "name": "Dragonmarked Scion Dedication",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.feats-srd.BwDIwjHasZwcd61Z"
+    }
+  },
+  "_id": "NSW7O7gB8w41wyzF",
+  "system": {
+    "description": {
+      "value": "\n\n\n\n<p class=\"hang\"><strong>Prerequisites</strong> The dragonmark trait </p>\n<hr />\n<p>You train to empower your mark and the reserves of power that you can draw on. You can select an additional dragonmarked focus spell to cast. In addition, if you spend a week of downtime retraining, you can switch your known dragonmark focus spells for different dragonmark focus spells that you have access to. Your house provides this retraining free of charge.</p>\n"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "archetype",
+        "dedication",
+        "hb_dragonmark"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [],
+    "slug": "dragonmarked-scion-dedication",
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:11:46.613-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 2
+    },
+    "featType": {
+      "value": "archetype"
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "The dragonmark trait"
+        }
+      ]
+    },
+    "location": null
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960306623,
+    "modifiedTime": 1675026603462,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!NSW7O7gB8w41wyzF"
+}

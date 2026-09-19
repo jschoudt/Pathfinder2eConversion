@@ -1,0 +1,59 @@
+{
+  "name": "Du'ulora Kalashtar Battle Spirit",
+  "type": "heritage",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.zRj0nNVLaQmVNzEg"
+    }
+  },
+  "_id": "b4guIevDQZd9cQl2",
+  "system": {
+    "description": {
+      "value": "\n\n<h2>Du'ulora Kalashtar</h2>\n<p>The fiendish du'ulora spirit inhabits your bloodline and is one that feeds on rage and aggression. You choose one of the following paths.<br /><strong>Special</strong> If at any point you gain access to the Moment of Clarity feat through class or archetype, you automatically gain it from this heritage.</p>\n<p> </p>\n<h3>Du'ulora Battle Spirit</h3>\n<p>You learn to increase the adrenaline and focus of those you support in the heat of battle. You may use the aid reaction on any allies under the effect of your Link Minds to assist in Athletics checks or Attack rolls. After you do so, your Link Minds ends on that ally.</p>\n"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "hb_kalashtar"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:06.896-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "ancestry": {
+      "name": "Kalashtar",
+      "uuid": "Compendium.pathfinders-guide-to-eberron-compendium.eberron-ancestries.Fk955i74aVVUzOKt"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960327018,
+    "modifiedTime": 1672986313365,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!b4guIevDQZd9cQl2"
+}

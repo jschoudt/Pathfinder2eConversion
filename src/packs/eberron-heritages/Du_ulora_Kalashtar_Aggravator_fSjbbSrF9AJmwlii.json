@@ -1,0 +1,59 @@
+{
+  "name": "Du'ulora Kalashtar Aggravator",
+  "type": "heritage",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.K0407HwPOcgpo4wO"
+    }
+  },
+  "_id": "fSjbbSrF9AJmwlii",
+  "system": {
+    "description": {
+      "value": "\n\n<h2>Du'ulora Kalashtar</h2>\n<p>The fiendish du'ulora spirit inhabits your bloodline and is one that feeds on rage and aggression. You choose one of the following paths.<br /><strong>Special</strong> If at any point you gain access to the @Compendium[pf2e.feats-srd.vRXPsMbyuvoPvbAQ]{Moment of Clarity} feat through class or archetype, you automatically gain it from this heritage.</p>\n<p> </p>\n<h3>Du'ulora Aggravator</h3>\n<p>You learn to channel others' anger to blind your enemies with rage. You become trained in Intimidation (or another skill if you were already trained in Intimidation). In addition, when you use the @Compendium[pf2e.actionspf2e.QNAVeNKtHA0EUw4X]{Feint} action, you may make an Intimidation check instead of making a Deception check. <br /><br /></p>\n"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "hb_kalashtar"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:06.918-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "ancestry": {
+      "name": "Kalashtar",
+      "uuid": "Compendium.pathfinders-guide-to-eberron-compendium.eberron-ancestries.Fk955i74aVVUzOKt"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960327019,
+    "modifiedTime": 1673134626993,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!fSjbbSrF9AJmwlii"
+}

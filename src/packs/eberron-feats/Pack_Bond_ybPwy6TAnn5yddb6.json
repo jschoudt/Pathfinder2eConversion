@@ -1,0 +1,78 @@
+{
+  "name": "Pack Bond",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.feats-srd.bEh5qUgX5eFaQwzU"
+    }
+  },
+  "_id": "ybPwy6TAnn5yddb6",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You have developed a soul-deep bond with your comrades and maintain an even greater degree of cooperation with them. If you are at least an expert in the skill you are Aiding, you get a success on any outcome rolled to Aid other than a critical success.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:02.962-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 9
+    },
+    "traits": {
+      "value": [
+        "hb_shifter"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Pack Hunter"
+        }
+      ]
+    },
+    "location": null,
+    "featType": {
+      "value": "ancestry"
+    }
+  },
+  "ownership": {
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.10.4",
+    "coreVersion": "10.291",
+    "createdTime": 1672960323132,
+    "modifiedTime": 1691632993098,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!ybPwy6TAnn5yddb6"
+}

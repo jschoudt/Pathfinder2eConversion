@@ -1,0 +1,90 @@
+{
+  "name": "Pack Hunter",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.feats-srd.aLgb1x3azE4IKz0o"
+    }
+  },
+  "_id": "TBiLEAP7SqdMDSnP",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You were taught how to hunt as part of a pack. You gain a +2 circumstance bonus to checks to Aid, and your allies gain a +2 circumstance bonus to checks to Aid you.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [
+      {
+        "key": "CriticalSpecialization",
+        "predicate": [
+          {
+            "or": [
+              "item:trait:gnoll",
+              "item:base:flail",
+              "item:base:khopesh",
+              "item:base:mambele",
+              "item:base:spear",
+              "item:base:war-flail"
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:02.128-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 1
+    },
+    "traits": {
+      "value": [
+        "hb_shifter"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "featType": {
+      "value": "ancestry"
+    }
+  },
+  "ownership": {
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.10.4",
+    "coreVersion": "10.291",
+    "createdTime": 1672960322351,
+    "modifiedTime": 1691633000179,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!TBiLEAP7SqdMDSnP"
+}

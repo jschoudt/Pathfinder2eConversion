@@ -1,0 +1,106 @@
+{
+  "name": "Plane Stone of Discharge",
+  "type": "equipment",
+  "system": {
+    "description": {
+      "value": "<p>When this stone is created, choose one of acid (Kythri), cold (Risia), electricity (Shavarath), fire (Fernia), and sonic (Xoriat). This is the stone's energy resistance type.</p>\n<p class=\"hang\"><strong>Activate</strong> <span class=\"pf2-icon\">r</span> Interact;</p>\n<p class=\"hang\"><strong>Trigger</strong> You succeed on a melee Strike against a creature</p>\n<p class=\"hang\"><strong>Effect</strong> By channelling the powers of the plane, the effects of your strike are magnified. You gain a +1 circumstance bonus to damage, this damage type is the same as the stone type.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "invested",
+        "magical"
+      ],
+      "rarity": "common",
+      "custom": "",
+      "otherTags": []
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": null
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "hp": {
+      "brokenThreshold": 0,
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "weight": {
+      "value": "-"
+    },
+    "equippedBulk": {
+      "value": ""
+    },
+    "price": {
+      "value": {
+        "gp": 15
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "-=inSlot": null,
+      "handsHeld": 0
+    },
+    "stackGroup": null,
+    "negateBulk": {
+      "value": "0"
+    },
+    "containerId": null,
+    "preciousMaterial": {
+      "value": null
+    },
+    "preciousMaterialGrade": {
+      "value": null
+    },
+    "size": "med",
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "worn"
+    },
+    "level": {
+      "value": 1
+    }
+  },
+  "img": "systems/pf2e/icons/spells/shape-stone.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.YjDotu8IyQSTCwgB"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1673120348983,
+    "modifiedTime": 1675019391126,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_id": "YjDotu8IyQSTCwgB",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "_key": "!items!YjDotu8IyQSTCwgB"
+}

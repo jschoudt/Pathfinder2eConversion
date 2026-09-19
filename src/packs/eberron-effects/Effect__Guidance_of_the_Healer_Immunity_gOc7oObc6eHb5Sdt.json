@@ -1,0 +1,66 @@
+{
+  "img": "systems/pf2e/icons/spells/guidance-immune.webp",
+  "name": "Effect: Guidance of the Healer Immunity",
+  "system": {
+    "description": {
+      "value": "<p>Granted when someone uses @UUID[Compendium.pathfinders-guide-to-eberron-compendium.eberron-spells.66Qr9yFJa2xbIJ4R]{Guidance of the Healer} on you, rendering you immune to the effect of the spell for the duration.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": null
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "hours",
+      "sustained": false,
+      "expiry": "turn-start"
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "target": null,
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "type": "effect",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.spell-effects.3LyOkV25p7wA181H"
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672984860702,
+    "modifiedTime": 1673108348610,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "gOc7oObc6eHb5Sdt",
+  "_key": "!items!gOc7oObc6eHb5Sdt"
+}

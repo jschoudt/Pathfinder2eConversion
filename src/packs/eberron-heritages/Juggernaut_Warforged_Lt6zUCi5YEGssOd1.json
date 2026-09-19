@@ -1,0 +1,64 @@
+{
+  "_id": "Lt6zUCi5YEGssOd1",
+  "name": "Juggernaut Warforged",
+  "type": "heritage",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.iKBohmMLqyxWFFya"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Used as shock troops in the last war, the Juggernaut warforged were a later development of Cannith and only saw deployment toward the end of the war. Developed as a heavier version of the Vanguard Warforged, the Juggernaut Warforged has many of the same physical attributes, with the exception of a much more dense plating over their body. These warforged were often more trained than the Vanguard in the aspects of intimidation, granting them a slight edge in humanoid interactions. However, their physical prowess on the battlefield leads to overconfidence in many situations off the battlefield.</p>\n<p> </p>\n<p>You have @Compendium[pathfinders-guide-to-eberron-compendium.eberron-items.xMusQCvg86z1sWOV]{Heavy Integrated Armour}. You gain the @Compendium[pf2e.feats-srd.BStw1cANwx5baL6d]{Armor Proficiency} general feat. </p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "hb_warforged"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.BStw1cANwx5baL6d"
+      }
+    ],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:06.770-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "ancestry": {
+      "name": "Warforged",
+      "uuid": "Compendium.pathfinders-guide-to-eberron-compendium.eberron-ancestries.XNOZJBcpkIo4ggcI"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960327013,
+    "modifiedTime": 1672986313358,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!Lt6zUCi5YEGssOd1"
+}

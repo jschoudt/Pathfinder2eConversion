@@ -1,0 +1,81 @@
+{
+  "img": "systems/pf2e/icons/spells/guidance.webp",
+  "name": "Spell Effect: Guidance of the Healer",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pathfinders-guide-to-eberron-compendium.eberron-spells.66Qr9yFJa2xbIJ4R]{Guidance of the Healer}</p>\n<p>With the powers of a mark of healing, you have been assisted in resisting maladies and wounds.<br />    You gain a +1 status bonus to any healing you recive. If you are making a saving throw against a persistent effect, poison, or a disease, you gain a +1 status bonus to this save (and this spell counts for assisted recovery against persistent effects). If the creature has the dying condition, it loses the dying condition, though it remains unconscious at 0 Hit Points.<br />    The target is then immune to the Guidance of the Healer for 1 hour.</p>\n<p>@UUID[Compendium.pathfinders-guide-to-eberron-compendium.eberron-effects.gOc7oObc6eHb5Sdt]{Effect: Guidance of the Healer Immunity}</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "guidance"
+        ],
+        "selector": [
+          "attack",
+          "perception",
+          "saving-throw",
+          "skill-check"
+        ],
+        "type": "status",
+        "value": 1
+      }
+    ],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": null
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "sustained": false,
+      "expiry": "turn-start"
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "target": null,
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "type": "effect",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.spell-effects.3qHKBDF7lrHw8jFK"
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672984862133,
+    "modifiedTime": 1673108348611,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "f37rRXwD9LWh0ncX",
+  "_key": "!items!f37rRXwD9LWh0ncX"
+}

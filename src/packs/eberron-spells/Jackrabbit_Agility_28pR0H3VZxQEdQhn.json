@@ -1,0 +1,120 @@
+{
+  "img": "systems/pf2e/icons/spells/longstrider.webp",
+  "name": "Jackrabbit Agility",
+  "system": {
+    "description": {
+      "value": "<p>You channel the agility of a jackrabbit to boost your speed. You become @Compendium[pf2e.conditionitems.nlCjDvLMf2EkV2dl]{Quickened 1}, you may only use this extra action to Stride or Step.</p>\n<hr />\n<p class=\"hang\"><strong>Heightened (6th)</strong> You become quickened 2.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": null
+    },
+    "level": {
+      "value": 2
+    },
+    "spellType": {
+      "value": "utility"
+    },
+    "category": {
+      "value": "spell"
+    },
+    "traditions": {
+      "value": [
+        "primal",
+        "occult"
+      ]
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "components": {
+      "focus": false,
+      "material": false,
+      "somatic": true,
+      "verbal": true
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "up to 1 minute"
+    },
+    "damage": {
+      "value": {}
+    },
+    "save": {
+      "value": "",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "ability": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "hasCounteractCheck": {
+      "value": false
+    },
+    "prepared": {
+      "value": ""
+    },
+    "primarycheck": {
+      "value": ""
+    },
+    "secondarycasters": {
+      "value": ""
+    },
+    "secondarycheck": {
+      "value": ""
+    }
+  },
+  "type": "spell",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.spells-srd.KcLVELhCUcKXxiKE"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672977766271,
+    "modifiedTime": 1673108624736,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_id": "28pR0H3VZxQEdQhn",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "_key": "!items!28pR0H3VZxQEdQhn"
+}

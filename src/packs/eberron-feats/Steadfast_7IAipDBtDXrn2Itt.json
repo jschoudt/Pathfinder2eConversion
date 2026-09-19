@@ -1,0 +1,78 @@
+{
+  "_id": "7IAipDBtDXrn2Itt",
+  "name": "Steadfast",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.feats-srd.n9CBjyiB17srkyr4"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p> </p>\n<p>When you gain the fleeing condition, its value is reduced by 1 (to a minimum of 1). In addition, you may choose to Delay your turn even if you have the fleeing condition - standing resolute in the face of fear.</p>\n<p> </p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:01.847-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 5
+    },
+    "traits": {
+      "value": [
+        "hb_bugbear"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Courage"
+        }
+      ]
+    },
+    "location": null,
+    "featType": {
+      "value": "ancestry"
+    }
+  },
+  "ownership": {
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.10.4",
+    "coreVersion": "10.291",
+    "createdTime": 1672960322326,
+    "modifiedTime": 1691633227237,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!7IAipDBtDXrn2Itt"
+}

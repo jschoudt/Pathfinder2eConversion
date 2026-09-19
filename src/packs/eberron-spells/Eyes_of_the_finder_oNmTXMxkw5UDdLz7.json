@@ -1,0 +1,131 @@
+{
+  "_id": "oNmTXMxkw5UDdLz7",
+  "name": "Eyes of the finder",
+  "type": "spell",
+  "img": "systems/pf2e/icons/spells/discern-secrets.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.spells-srd.UmXhuKrYZR3W16mQ"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.pathfinders-guide-to-eberron-compendium.eberron-effects.5R9IPxj31vcjQH8Y]{Spell Effect: Eyes of the Finder}</p>\n<p><br />While this spell is sustained, you gain the ability to see through solid objects to a range of 30 feet. Within that range, you have darkvision if you don’t already have it. While this spell is active, you perceive objects as ghostly, transparent images. The spell can see through most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt. You then become immune to the eyes of the finder until your next daily preparation. </p>\n<hr />\n<p class=\"hang\"><strong>Heightened (3rd)</strong> You can see through twice the thickness of materials. Any amount of lead still blocks your vision.</p>\n<p class=\"hang\"><strong>Heightened (5th)</strong> You do not need to sustain Eyes of the Finder.</p>\n<p class=\"hang\"><strong>Heightened (6th)</strong> You become immune to Eyes of the Finder for only 1 hour after the spell ends.</p>\n<p class=\"hang\"><strong>Heightened (7th)</strong> The duration becomes 10 minutes.</p>\n<p class=\"hang\"><strong>Heightened (9th)</strong> You do not become immune to Eyes of the Finder after the spell ends.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "hb_dragonmark",
+        "hb_mark-of-finding"
+      ],
+      "rarity": "uncommon",
+      "custom": ""
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:16.201-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 2
+    },
+    "spellType": {
+      "value": "utility"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": [
+        "divine",
+        "arcane",
+        "occult",
+        "primal"
+      ]
+    },
+    "school": {
+      "value": "divination"
+    },
+    "components": {
+      "focus": true,
+      "material": false,
+      "somatic": true,
+      "verbal": false
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "Sustained up to 1 minute"
+    },
+    "damage": {
+      "value": {}
+    },
+    "save": {
+      "value": "",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "ability": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "hasCounteractCheck": {
+      "value": false
+    },
+    "prepared": {
+      "value": ""
+    },
+    "primarycheck": {
+      "value": ""
+    },
+    "secondarycasters": {
+      "value": ""
+    },
+    "secondarycheck": {
+      "value": ""
+    }
+  },
+  "ownership": {
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960336284,
+    "modifiedTime": 1681695650978,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!oNmTXMxkw5UDdLz7"
+}

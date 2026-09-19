@@ -1,0 +1,153 @@
+{
+  "name": "Induce Chaos",
+  "type": "spell",
+  "img": "systems/pf2e/icons/spells/discern-secrets.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.spells-srd.UmXhuKrYZR3W16mQ"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Aberrant Feedback: </strong>@Compendium[pathfinders-guide-to-eberron-compendium.eberron-spells.SfAkXA3XDi3btTlx]{Aberrant Feedback}</p>\n<hr />\n<p>The target is subject to a random condition as its senses, mind, or body are twisted. The effects are determined by the target's Will save.</p>\n\n\n\n<h3>Induce Chaos Table</h3>\n<table>\n<thead>\n<tr>\n<th>d4</th>\n<th>Condition</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>@Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied}</td>\n</tr>\n<tr>\n<td>2</td>\n<td>@Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled}</td>\n</tr>\n<tr>\n<td>3</td>\n<td>@Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy}</td>\n</tr>\n<tr>\n<td>4</td>\n<td>@Compendium[pf2e.conditionitems.dfCMdR4wnpbYNTix]{Stunned}</td>\n</tr>\n</tbody>\n</table>\n\n\n\n<p class=\"hang\"><strong>Critical Success</strong> The target is unaffected.</p>\n<p class=\"hang\"><strong>Success</strong> The target takes a random condition from the table at value 1.</p>\n<p class=\"hang\"><strong>Failure</strong> The target takes a random condition from the table, however the condition value is 2.</p>\n\n\n<p class=\"hang\"><strong>Critical Failure</strong> The target takes a random condition from the table, however the condition value is 3.</p>\n\n<hr />\n<p class=\"hang\"><strong>Heightened (4th)</strong> you may target 2 creatures at once</p>\n<p class=\"hang\"><strong>Heightened (8th)</strong> you may target 4 creatures at once</p>\n<p class=\"hang\"><strong>Heightened (10th)</strong> you may target all creatures within 30 feet at once</p>\n"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "hb_aberrant-feedback",
+        "hb_aberrant-mark",
+        "hb_dragonmark"
+      ],
+      "rarity": "uncommon",
+      "custom": ""
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:16.140-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 1
+    },
+    "spellType": {
+      "value": "save"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": [
+        "arcane",
+        "divine",
+        "occult",
+        "primal"
+      ]
+    },
+    "school": {
+      "value": "enchantment"
+    },
+    "components": {
+      "focus": true,
+      "material": false,
+      "somatic": true,
+      "verbal": false
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": ""
+    },
+    "damage": {
+      "value": {}
+    },
+    "save": {
+      "value": "will",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "ability": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "hasCounteractCheck": {
+      "value": false
+    },
+    "prepared": {
+      "value": ""
+    },
+    "primarycheck": {
+      "value": ""
+    },
+    "secondarycasters": {
+      "value": ""
+    },
+    "secondarycheck": {
+      "value": ""
+    },
+    "heightening": {
+      "levels": {
+        "4": {
+          "target": {
+            "value": "2 creatures"
+          }
+        },
+        "6": {
+          "target": {
+            "value": "4 creatures"
+          }
+        },
+        "10": {
+          "target": {
+            "value": "you may target all creatures within 30 feet at once"
+          }
+        }
+      },
+      "type": "fixed"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960336274,
+    "modifiedTime": 1675020607365,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_id": "nQBZOPXKerOyKyla",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "_key": "!items!nQBZOPXKerOyKyla"
+}

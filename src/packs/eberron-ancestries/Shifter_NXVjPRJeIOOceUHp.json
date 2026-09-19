@@ -1,0 +1,108 @@
+{
+  "_id": "NXVjPRJeIOOceUHp",
+  "name": "Shifter",
+  "type": "ancestry",
+  "img": "systems/pf2e/icons/default-icons/ancestry.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.p6TiphicNeGidXqJ"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><em>Shifters are an ancestry with many similarities to the werecreatures of Eberron. While shifters cannot completely change like werecreatures, they can shift to take on the features of their beast within. From their beast within a shifter gains extraordinary abilities, such as deadly fangs, refined senses, speed, and other similar traits.</em></p>\n<hr />\n<p>Shifters are a diverse ancestry that combines the traits of humanoid and beast heritage, not unlike a were-creature.</p>\n<h2>You might…</h2>\n<ul>\n<li>Prefer the companionship of other shifters or a close group of friends.</li>\n<li>Feel strong emotions, typically manifesting in the spirit of your beast within.</li>\n<li>View survival as a challenge, and strive to be self-reliant, adaptable, and resourceful.</li>\n</ul>\n<h2>Others Probably…</h2>\n<ul>\n<li>Assume that you have a natural connection to animals and the natural world. Especially that of your beast within.</li>\n<li>Worry that you can't control yourself and may give in to your feral instincts to attack others, especially when the moon is full.</li>\n<li>Have difficulty relating to the strong emotions you can feel.</li>\n</ul>\n<h2>Physical Description…</h2>\n<p>Shifters are humanoid in shape, but their ancestry gives shifters a distinctly lithe form compared to humans. Their faces and bodies typically show traits of their beast within, such as longer fangs, pointed ears, feline eyes, and other such features. Their bodies -especially their legs and forearms -are typically covered in more hair than a human, creating a fur-like covering over their limbs. <br />A Shifters' beast within is more obvious when they are transformed into their hybrid shape, their features shifting to resemble the animal to which they are connected. The manifestation of these features varies from shifter to shifter, but typically, their teeth become more prominent, their skin toughens like hide, their hair lengthens, and their eyes reshape.</p>\n<h2>Society…</h2>\n<p>Shifters are a relatively uncommon race in the Five Nations.</p>\n<h2>Alignment and Religion…</h2>\n<p>Shifters are varied and can be inclined to any alignment.  </p>\n<h2>Names…</h2>\n<p>Shifters typically take on names similar to that of humans, or that of the community around them though with a more rustic inclination. Shifters typically have a personal name that they use with their friends and a wandering name that they use with strangers.</p>\n<h3>Sample names</h3>\n<p>Aethelwulf, Bennin, Bree, Burch, Dominic, Erylis, Geth, Karmos, Lorelai, Lyndra, Taria, Volante</p>\n<h3>Sample wandering names</h3>\n<p>Ash, Aurora, Autumn, Brook, Claw, Cliff, Dawn, Flint, Frost, Hazel, Iris, Lily, Rain, River, Rose, Rock, Thorn, Torn, Storm, Summer</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:11:36.495-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "traits": {
+      "value": [
+        "humanoid",
+        "hb_shifter"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "hp": 8,
+    "size": "med",
+    "reach": 5,
+    "speed": 25,
+    "boosts": {
+      "0": {
+        "value": [
+          "dex"
+        ]
+      },
+      "1": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      },
+      "2": {
+        "value": [
+          "str",
+          "dex",
+          "con",
+          "int",
+          "wis",
+          "cha"
+        ]
+      }
+    },
+    "flaws": {
+      "0": {
+        "value": [
+          "cha"
+        ]
+      }
+    },
+    "languages": {
+      "value": [
+        "common"
+      ],
+      "custom": ""
+    },
+    "additionalLanguages": {
+      "count": 1,
+      "value": [],
+      "custom": ""
+    },
+    "items": {},
+    "vision": "lowLightVision"
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.12.9",
+    "coreVersion": "10.303",
+    "createdTime": 1672960296533,
+    "modifiedTime": 1692591787154,
+    "lastModifiedBy": "7iofgUiimTzs2vga"
+  },
+  "_key": "!items!NXVjPRJeIOOceUHp"
+}

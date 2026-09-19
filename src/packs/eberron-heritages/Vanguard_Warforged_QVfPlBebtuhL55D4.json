@@ -1,0 +1,64 @@
+{
+  "_id": "QVfPlBebtuhL55D4",
+  "name": "Vanguard Warforged",
+  "type": "heritage",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.c8xwnNvGs4XTQFoc"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>The primary soldier of the warforged armies of the last war, the Vanguard warforged was the most commonly created of the warforged. Their development for the exclusive use of warfare means that most of these warforged struggle with socialization, and other aspects Cannith deemed unnecessary to a soldier - it simply wasn't necessary to train them. Given their frequent deployment to front-lines of the most dangerous battlefields of the war, these warforged also frequently suffered the most. Many of the warforged veterans of the war now carry lasting wounds and permanent reminders of the role they played, but some have turned this experience as a soldier into newfound employment after the war.</p>\n<p> </p>\n<p>You have @Compendium[pathfinders-guide-to-eberron-compendium.eberron-items.sj9KFDpPBWyI5Rv0]{Medium Integrated Armour} and gain the @Compendium[pf2e.feats-srd.x9wxQ61HNkAVbDHr]{Weapon Proficiency} general feat.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "hb_warforged"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.x9wxQ61HNkAVbDHr"
+      }
+    ],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:06.835-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "ancestry": {
+      "name": "Warforged",
+      "uuid": "Compendium.pathfinders-guide-to-eberron-compendium.eberron-ancestries.XNOZJBcpkIo4ggcI"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960327016,
+    "modifiedTime": 1672986313361,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!QVfPlBebtuhL55D4"
+}

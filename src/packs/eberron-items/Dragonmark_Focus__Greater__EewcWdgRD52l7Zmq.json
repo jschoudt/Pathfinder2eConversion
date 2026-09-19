@@ -1,0 +1,114 @@
+{
+  "name": "Dragonmark Focus (Greater)",
+  "type": "equipment",
+  "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/broach-of-shielding.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.equipment-srd.TmQalYKNNRuEdoTh"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>When worn by a person whose mark has been attuned to the stone, a dragonmark focus increases the wearer’s effectiveness whenever they use any of the spell-like abilities of their mark.<br /><strong>Activation</strong> <span class=\"pf2-icon\">F</span>;<strong>Trigger</strong>: You cast a Dragonmark Focus Spell<br /><strong>Frequency</strong> Once per day<br /><strong>Effect</strong>: This focus grants a +3 item bonus the spell attack, DC, or skill check of Dragonmark Focus Spell.</p>\n<hr />\n<p class=\"hang\"><strong>Craft Requirements</strong> at least 1625 gp of siberys shards</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "hb_dragonmark",
+        "invested",
+        "magical"
+      ],
+      "rarity": "uncommon",
+      "custom": "",
+      "otherTags": []
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:10.971-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "hp": {
+      "brokenThreshold": 0,
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "weight": {
+      "value": "L"
+    },
+    "equippedBulk": {
+      "value": ""
+    },
+    "price": {
+      "value": {
+        "gp": 13000
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "-=inSlot": null,
+      "handsHeld": 0
+    },
+    "stackGroup": null,
+    "negateBulk": {
+      "value": ""
+    },
+    "containerId": null,
+    "preciousMaterial": {
+      "value": ""
+    },
+    "preciousMaterialGrade": {
+      "value": ""
+    },
+    "size": "med",
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "worn"
+    },
+    "level": {
+      "value": 17
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960331170,
+    "modifiedTime": 1675018897609,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_id": "EewcWdgRD52l7Zmq",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "_key": "!items!EewcWdgRD52l7Zmq"
+}

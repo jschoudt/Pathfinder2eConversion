@@ -1,0 +1,105 @@
+{
+  "img": "systems/pf2e/icons/equipment/materials/sovereign-steel-chunk.webp",
+  "name": "Riedran Crysteel Chunk",
+  "system": {
+    "description": {
+      "value": "<p>Crysteel makes excellent weapons, and the crystalline component makes them resonate with psionic power.</p>\n<h2>Riedran Crysteel Items</h2>\n<table>\n<thead>\n<tr>\n<th><strong>Riedran Crysteel Items</strong></th>\n<th style=\"text-align:left\"><strong>Hardness</strong></th>\n<th style=\"text-align:left\"><strong>HP</strong></th>\n<th style=\"text-align:left\"><strong>BT</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Thin Items</strong></td>\n<td style=\"text-align:left\"> </td>\n<td style=\"text-align:left\"> </td>\n<td style=\"text-align:left\"> </td>\n</tr>\n<tr>\n<td>     Standard-grade</td>\n<td style=\"text-align:left\">6</td>\n<td style=\"text-align:left\">28</td>\n<td style=\"text-align:left\">14</td>\n</tr>\n<tr>\n<td>     High-grade</td>\n<td style=\"text-align:left\">9</td>\n<td style=\"text-align:left\">40</td>\n<td style=\"text-align:left\">20</td>\n</tr>\n<tr>\n<td><strong>Items</strong></td>\n<td style=\"text-align:left\"> </td>\n<td style=\"text-align:left\"> </td>\n<td style=\"text-align:left\"> </td>\n</tr>\n<tr>\n<td>     Standard-grade</td>\n<td style=\"text-align:left\">10</td>\n<td style=\"text-align:left\">44</td>\n<td style=\"text-align:left\">22</td>\n</tr>\n<tr>\n<td>     High-grade</td>\n<td style=\"text-align:left\">13</td>\n<td style=\"text-align:left\">56</td>\n<td style=\"text-align:left\">28</td>\n</tr>\n<tr>\n<td><strong>Structures</strong></td>\n<td style=\"text-align:left\"> </td>\n<td style=\"text-align:left\"> </td>\n<td style=\"text-align:left\"> </td>\n</tr>\n<tr>\n<td>     Standard-grade</td>\n<td style=\"text-align:left\">21</td>\n<td style=\"text-align:left\">88</td>\n<td style=\"text-align:left\">44</td>\n</tr>\n<tr>\n<td>     High-grade</td>\n<td style=\"text-align:left\">27</td>\n<td style=\"text-align:left\">112</td>\n<td style=\"text-align:left\">56</td>\n</tr>\n</tbody>\n</table>"
+    },
+    "source": {
+      "value": "Pathfinder Lost Omens: Legends"
+    },
+    "traits": {
+      "value": [
+        "precious"
+      ],
+      "rarity": "uncommon",
+      "custom": "",
+      "otherTags": []
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": null
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "hp": {
+      "brokenThreshold": 0,
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "weight": {
+      "value": "L"
+    },
+    "equippedBulk": {
+      "value": ""
+    },
+    "price": {
+      "value": {
+        "gp": 10
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "-=inSlot": null,
+      "handsHeld": 0
+    },
+    "stackGroup": null,
+    "negateBulk": {
+      "value": "0"
+    },
+    "containerId": null,
+    "preciousMaterial": {
+      "value": ""
+    },
+    "preciousMaterialGrade": {
+      "value": ""
+    },
+    "size": "med",
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/material-chunk.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "level": {
+      "value": 0
+    }
+  },
+  "type": "equipment",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.equipment-srd.f0lZf1oZYDEEeyYl"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1673123379443,
+    "modifiedTime": 1675019131634,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_id": "e5hsu1e7z3v5r1Pq",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "_key": "!items!e5hsu1e7z3v5r1Pq"
+}

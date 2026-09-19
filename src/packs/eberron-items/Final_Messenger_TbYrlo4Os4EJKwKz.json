@@ -1,0 +1,107 @@
+{
+  "name": "Final Messenger",
+  "type": "equipment",
+  "system": {
+    "description": {
+      "value": "<p>A final messenger is a tiny homunculus-a delicate winged creature designed to facilitate communication between warforged soldiers during the Last War. If you are a warforged, you can invest in the Final Messenger item to hold a final messenger and integrate it into your body. While it is part of your body, the messenger cannot be targeted by any attack. You can only have one messenger attached to your body at a time.</p>\n<p>A final messenger holds four pieces of data, accessible only to the warforged it is attached to: </p>\n<ul>\n<li>A destination for the messenger. This can be very specific (a particular apartment in Sharn) or more general (an open marketplace).</li>\n<li>A target individual. This could be a specific person or a category (“Any Karrnathi warforged”).</li>\n<li>A single image recorded through the eyes of a warforged attached to the messenger.</li>\n<li>A message of up to 25 words. <br />  </li>\n</ul>\n<p>A final messenger uses the Homunculus stat block but loses the Master Link, and all attacks. It gains the Mindless trait adjusting to Int -5, Wis 0, and Cha -5. A messenger can only remain active for 8 hours after it detaches from a warforged body, after which time its energy dissipates and it falls unconscious. An unconscious messenger must complete 8 hours attached to a warforged, after which it regains its energy, as well as regaining all lost hit points.</p>\n<p class=\"hang\"><strong>Activate</strong> 1 minute Interact; <strong>Effect</strong> While the messenger is attached to you, you can spend 1 minute reviewing the data currently stored within the final messenger, and if you choose, change any or all of these data points.<br /><br /></p>\n<p class=\"hang\"><strong>Activate</strong> <span class=\"pf2-icon\">1</span> Interact; OR <strong>Trigger </strong>You die.</p>\n<p class=\"hang\"><strong>Effect</strong> You release the final messenger, at which point it flies to its destination by the most direct route possible. Once it reaches the destination it seeks the target individual; if no target has been set, it approaches the nearest warforged.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "invested",
+        "magical",
+        "hb_warforged"
+      ],
+      "rarity": "common",
+      "custom": "",
+      "otherTags": []
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": null
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "hp": {
+      "brokenThreshold": 0,
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "weight": {
+      "value": "L"
+    },
+    "equippedBulk": {
+      "value": ""
+    },
+    "price": {
+      "value": {
+        "gp": 5
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "-=inSlot": null,
+      "handsHeld": 0
+    },
+    "stackGroup": null,
+    "negateBulk": {
+      "value": "0"
+    },
+    "containerId": null,
+    "preciousMaterial": {
+      "value": null
+    },
+    "preciousMaterialGrade": {
+      "value": null
+    },
+    "size": "med",
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "worn"
+    },
+    "level": {
+      "value": 1
+    }
+  },
+  "img": "systems/pf2e/icons/equipment/consumables/other-consumables/clockwork-spider-bomb.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.QUg1zAMhqsT6XsCo"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1673120348983,
+    "modifiedTime": 1673133850238,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_id": "TbYrlo4Os4EJKwKz",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "_key": "!items!TbYrlo4Os4EJKwKz"
+}

@@ -1,0 +1,105 @@
+{
+  "name": "The Traveler: The Sovereign of Chaos and Change",
+  "type": "deity",
+  "img": "systems/pf2e/icons/default-icons/deity.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.deities.bLI1JMpI2GXQT5AC"
+    }
+  },
+  "_id": "yYc10PeB5rfKejX9",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "\n\n\n\n\n<p>The chaotic neutral Traveler is the deity of trickery and change.<br /><strong>Areas of Concern</strong> Chaos, deception, evolution, invention, transformation<br /><strong>Alignment</strong> CN<br /><strong>Divine Font</strong> Heal, Harm<br /><strong>Divine Ability</strong> Dexterity or Wisdom<br /><strong>Divine Skill</strong> Survival<br /><strong>Domains</strong> Change, Creation, Fate, Freedom, Knowledge, Secrecy, Travel, Trickery<br /><strong>Cleric Spells</strong> 1st: illusory disguise, 2nd: invisibility, 3rd: nondetection, 4th: private sanctum<br /><strong>Edicts</strong> Live life freely, manipulate dangerous beings and opportunities to your benefit, thrive in hostile conditions.<br /><strong>Anathema</strong> Refuse a reasonable bet, let social pressure change your behaviour.<br /><strong>Favoured Weapon</strong> Scimitar</p>\n"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:11:50.176-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "category": "deity",
+    "alignment": {
+      "own": "CN",
+      "follower": [
+        "LG",
+        "NG",
+        "CG",
+        "LN",
+        "N",
+        "CN",
+        "LE",
+        "NE",
+        "CE"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "change",
+        "fate",
+        "freedom",
+        "trickery"
+      ],
+      "alternate": [
+        "knowledge",
+        "secrecy",
+        "travel",
+        "creation"
+      ]
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "ability": [
+      "wis",
+      "dex"
+    ],
+    "skill": "sur",
+    "weapons": [
+      "scimitar"
+    ],
+    "spells": {
+      "1": "Compendium.pf2e.spells-srd.i35dpZFI7jZcRoBo",
+      "2": "Compendium.pf2e.spells-srd.XXqE1eY3w3z6xJCB",
+      "3": "Compendium.pf2e.spells-srd.EoKBlgf6Smt8opaU",
+      "4": "Compendium.pf2e.spells-srd.onjZCEHs3JJJRTD0"
+    },
+    "attribute": [
+      "wis",
+      "dex"
+    ],
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder's Guide to Eberron"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.12.9",
+    "coreVersion": "10.303",
+    "createdTime": 1672960310202,
+    "modifiedTime": 1694448295139,
+    "lastModifiedBy": "7iofgUiimTzs2vga"
+  },
+  "_key": "!items!yYc10PeB5rfKejX9"
+}

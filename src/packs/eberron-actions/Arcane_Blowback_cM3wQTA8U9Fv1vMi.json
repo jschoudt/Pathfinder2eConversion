@@ -1,0 +1,73 @@
+{
+  "name": "Arcane Blowback",
+  "type": "action",
+  "img": "systems/pf2e/icons/actions/FreeAction.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.actionspf2e.9kIvFxA5V9rvNWiH"
+    }
+  },
+  "_id": "cM3wQTA8U9Fv1vMi",
+  "system": {
+    "description": {
+      "value": "<p class=\"hang\"><strong>Trigger</strong> You use the Cast a Spell activity from an item such as a Wand or Stave.</p>\n<hr />\n<p> </p>\n<p>As you discharge the arcane energy of an item, you syphon off the arcane charge that builds around you to reload your gun with a magical bolt or bullet. When you use the Cast a Spell activity to cast a spell (but not a cantrip), you create a magical charge of energy - conjuring an ordinary level-0 bolt or bullet out of thin air and then immediately Interacting to load it into your weapon. You don't need a free hand to reload in this way. If the bolt or bullet isn't fired before the end of your next turn, the effect is wasted.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "gunslinger",
+        "magical",
+        "hb_wandslinger"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [],
+    "slug": "thoughtful-reload",
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:02:51.536-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "actionType": {
+      "value": "free"
+    },
+    "actionCategory": {
+      "value": "interaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "requirements": {
+      "value": ""
+    },
+    "trigger": {
+      "value": ""
+    },
+    "deathNote": false
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672959771582,
+    "modifiedTime": 1673806231226,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "_key": "!items!cM3wQTA8U9Fv1vMi"
+}

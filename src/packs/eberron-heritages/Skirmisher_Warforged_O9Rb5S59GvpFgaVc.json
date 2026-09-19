@@ -1,0 +1,64 @@
+{
+  "_id": "O9Rb5S59GvpFgaVc",
+  "name": "Skirmisher Warforged",
+  "type": "heritage",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.Gy5738G7psrskFCK"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Designed as lightly armoured but more mobile warforged, the Skirmisher Warforged were also widely deployed throughout Khorvaire. Frequently used in archer or scouting units, these variants of the standard warforged soldier were capable of longer skirmish engagements that took advantage of the warforged's tireless nature to drain the enemy's morale. Similar to the Vanguard warforged, these warforged were never trained in the finer points of socialization and frequently struggle to understand other humanoid creatures.</p>\n<p> </p>\n<p>You have @Compendium[pathfinders-guide-to-eberron-compendium.eberron-items.LeV58Gc2GXzyRySq]{Light Integrated Armour} and gain the @Compendium[pf2e.feats-srd.Ux73dmoF8KnavyUD]{Fleet} general feat.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "hb_warforged"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Ux73dmoF8KnavyUD"
+      }
+    ],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:06.806-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "ancestry": {
+      "name": "Warforged",
+      "uuid": "Compendium.pathfinders-guide-to-eberron-compendium.eberron-ancestries.XNOZJBcpkIo4ggcI"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960327014,
+    "modifiedTime": 1672986313360,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!O9Rb5S59GvpFgaVc"
+}

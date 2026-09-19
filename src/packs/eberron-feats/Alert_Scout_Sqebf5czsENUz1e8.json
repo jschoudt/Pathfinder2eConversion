@@ -1,0 +1,86 @@
+{
+  "name": "Alert Scout",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.OFHpsSoAfzFWTPVJ"
+    }
+  },
+  "_id": "Sqebf5czsENUz1e8",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You are trained to observe and react to danger. You gain a +2 circumstance bonus to Perception checks made as initiative rolls.</p>\n<p> </p>\n<p class=\"hang\"><strong>Enhancement</strong> You can react no matter the circumstance. You gain a +2 circumstance bonus to all initiative rolls you make.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "label": "Perception Initiative",
+        "predicate": [
+          "perception"
+        ],
+        "selector": "initiative",
+        "type": "circumstance",
+        "value": 2
+      }
+    ],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:02.124-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 1
+    },
+    "traits": {
+      "value": [
+        "hb_warforged"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "featType": {
+      "value": "ancestry"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.10.4",
+    "coreVersion": "10.291",
+    "createdTime": 1672960322351,
+    "modifiedTime": 1691632402395,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!Sqebf5czsENUz1e8"
+}

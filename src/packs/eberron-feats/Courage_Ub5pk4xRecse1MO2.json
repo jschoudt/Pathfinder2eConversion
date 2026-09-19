@@ -1,0 +1,131 @@
+{
+  "_id": "Ub5pk4xRecse1MO2",
+  "name": "Courage",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.feats-srd.n9CBjyiB17srkyr4"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your courage on the battlefield is unmatched. You gain a +1 circumstance bonus to saves against effects with the fear trait, and a +2 circumstance bonus to your Will DC against Intimidate skill actions, such as Demoralize.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.martial.weapon-base-composite-longbow.rank",
+        "value": 1
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.martial.weapon-base-composite-shortbow.rank",
+        "value": 1
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.martial.weapon-base-longbow.rank",
+        "value": 1
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.martial.weapon-base-war-flail.rank",
+        "value": 1
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.martial.weapon-base-shortbow.rank",
+        "value": 1
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.martial.weapon-base-flail.rank",
+        "value": 1
+      },
+      {
+        "definition": [
+          "item:trait:bugbear",
+          "item:category:advanced"
+        ],
+        "key": "MartialProficiency",
+        "label": "PF2E.SpecificRule.MartialProficiency.AdvancedBugbearWeapons",
+        "sameAs": "martial",
+        "slug": null
+      },
+      {
+        "definition": [
+          "item:trait:bugbear",
+          "item:category:martial"
+        ],
+        "key": "MartialProficiency",
+        "label": "PF2E.SpecificRule.MartialProficiency.MartialBugbearWeapons",
+        "sameAs": "simple",
+        "slug": "martial-bugbear-weapons"
+      }
+    ],
+    "slug": "hobgoblin-weapon-familiarity",
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:02.142-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 1
+    },
+    "traits": {
+      "value": [
+        "hb_bugbear"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "featType": {
+      "value": "ancestry"
+    }
+  },
+  "ownership": {
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.10.4",
+    "coreVersion": "10.291",
+    "createdTime": 1672960322353,
+    "modifiedTime": 1691632620226,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!Ub5pk4xRecse1MO2"
+}

@@ -1,0 +1,124 @@
+{
+  "img": "systems/pf2e/icons/features/classes/choice-feature.webp",
+  "name": "Artifice Specialization",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Artifice has many paths to mastery, and your journey has led you to a specific specialization. You may have delved deep into the fundamentals of magic at an arcane institute, honed your skills on the front line of the last war, or have started your own magewright practice developing a unique approach to artifice that set you apart from your peers. This specialization is a blend of your unique talents and expertise, which shape the way you practice artifice.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "allowedDrops": {
+          "label": "level 1 artificer class feature",
+          "predicate": [
+            "item:level:1",
+            "item:trait:artificer",
+            "item:type:feature"
+          ]
+        },
+        "choices": [
+          {
+            "value": "Compendium.pathfinders-guide-to-eberron-compendium.eberron-classes.eNmz88Rk1eCblnvs"
+          },
+          {
+            "value": "Compendium.pathfinders-guide-to-eberron-compendium.eberron-classes.4x2pw7rWIuiOgLW8"
+          },
+          {
+            "value": "Compendium.pathfinders-guide-to-eberron-compendium.eberron-classes.JVYdQZ7r1Cmg6soQ"
+          },
+          {
+            "value": "Compendium.pathfinders-guide-to-eberron-compendium.eberron-classes.sFcia8MBFC3zjLyh"
+          }
+        ],
+        "flag": "ArtificerSpecialization",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Artificer.ArtificerSpecialization.Prompt"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.ArtificerSpecialization}"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.traditions.{actor|system.proficiencies.aliases.artificer}.rank",
+        "predicate": [
+          "class:artificer"
+        ],
+        "value": {
+          "brackets": [
+            {
+              "end": 6,
+              "start": 1,
+              "value": 1
+            },
+            {
+              "end": 16,
+              "start": 7,
+              "value": 2
+            },
+            {
+              "start": 17,
+              "value": 3
+            }
+          ],
+          "field": "actor|system.details.level.value"
+        }
+      }
+    ],
+    "slug": "artifice-specialization",
+    "schema": {
+      "version": 0.835,
+      "lastMigration": null
+    },
+    "level": {
+      "value": 1
+    },
+    "traits": {
+      "value": [
+        "hb_artificer"
+      ],
+      "rarity": "common"
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.classfeatures.cU2ofQLj7pg6wTSi"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.10.4",
+    "coreVersion": "10.291",
+    "createdTime": 1685922251316,
+    "modifiedTime": 1691634339184,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "_id": "vIBa9HmwUgWq5FvH",
+  "_key": "!items!vIBa9HmwUgWq5FvH"
+}

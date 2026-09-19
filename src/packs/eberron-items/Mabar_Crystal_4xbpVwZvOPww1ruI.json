@@ -1,0 +1,120 @@
+{
+  "name": "Mabar Crystal",
+  "type": "consumable",
+  "system": {
+    "description": {
+      "value": "<p class=\"hang\"><strong>Usage</strong> material component of a spell</p>\n<p class=\"hang\"><strong>Activate</strong> <span class=\"pf2-icon\">a</span> interact; <strong>Trigger</strong> You cast a spell with the Darkness trait</p>\n<hr />\n<p>When used as a material component (adding the material component to the spell if it doesn't already have it) for a spell with the Darkness trait, the Mabar Crystal automatically attempts to counteract any light effects in the area of the spell. This counteract effect is at the cast spell rank + 1 and uses your casting DC.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "hb_component",
+        "consumable",
+        "hb_metamagic"
+      ],
+      "rarity": "common",
+      "custom": "",
+      "otherTags": []
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": null
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "hp": {
+      "brokenThreshold": 0,
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "weight": {
+      "value": "-"
+    },
+    "equippedBulk": {
+      "value": ""
+    },
+    "price": {
+      "value": {
+        "gp": 5
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "-=inSlot": null,
+      "handsHeld": 0
+    },
+    "stackGroup": null,
+    "negateBulk": {
+      "value": "0"
+    },
+    "containerId": null,
+    "preciousMaterial": {
+      "value": null
+    },
+    "preciousMaterialGrade": {
+      "value": null
+    },
+    "size": "med",
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/other-consumables.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "other"
+    },
+    "level": {
+      "value": 8
+    },
+    "consumableType": {
+      "value": "other"
+    },
+    "charges": {
+      "value": 1,
+      "max": 1
+    },
+    "consume": {
+      "value": ""
+    },
+    "autoDestroy": {
+      "value": true
+    },
+    "spell": null
+  },
+  "img": "systems/pf2e/icons/equipment/held-items/crystal-ball-clear-quartz.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.4xbpVwZvOPww1ruI"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1673118357377,
+    "modifiedTime": 1675018842823,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_id": "4xbpVwZvOPww1ruI",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "_key": "!items!4xbpVwZvOPww1ruI"
+}

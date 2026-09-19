@@ -1,0 +1,100 @@
+{
+  "name": "Aureon: God of Law and Knowledge",
+  "type": "deity",
+  "img": "systems/pf2e/icons/default-icons/deity.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.deities.bLI1JMpI2GXQT5AC"
+    }
+  },
+  "_id": "dGsKQhnwV5VG49bk",
+  "system": {
+    "description": {
+      "value": "<p>Aureon is lawful neutral and his domain is lore and magic.</p>\n<p><strong>Areas of Concern</strong> Law, knowledge, learning, logic, magic<br /><strong>Alignment</strong> LN<br /><strong>Divine Font</strong> Heal or Harm<br /><strong>Divine Ability</strong> Wisdom or Intelligence<br /><strong>Divine Skill</strong> Arcana<br /><strong>Domains</strong> Duty, Fate, Knowledge, Magic, Truth<br /><strong>Cleric Spells</strong> 1st: mage armour, 3rd: zone of truth, 7th: contingency<br /><strong>Edicts</strong> Seek out lost lore, to make discoveries, and increase their magical power.<br /><strong>Anathema</strong> Fail to stop abuses of magic or hunt down lawbreakers and dangerous creatures of wild magic.<br /><strong>Favoured Weapon</strong> Staff</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "category": "deity",
+    "alignment": {
+      "own": "LN",
+      "follower": [
+        "LG",
+        "NG",
+        "CG",
+        "LN",
+        "N",
+        "CN",
+        "LE",
+        "NE",
+        "CE"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "duty",
+        "knowledge",
+        "magic",
+        "truth"
+      ],
+      "alternate": [
+        "fate"
+      ]
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "ability": [
+      "wis",
+      "int"
+    ],
+    "skill": "arc",
+    "weapons": [
+      "staff"
+    ],
+    "spells": {
+      "1": "Compendium.pf2e.spells-srd.aAbfKn8maGjJjk2W",
+      "3": "Compendium.pf2e.spells-srd.aewxsale5xWEPKLk",
+      "7": "Compendium.pf2e.spells-srd.WG91Z5TiR6oO5FOw"
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:11:50.157-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "attribute": [
+      "wis",
+      "int"
+    ],
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder's Guide to Eberron"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960310195,
+    "modifiedTime": 1675018082299,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!dGsKQhnwV5VG49bk"
+}

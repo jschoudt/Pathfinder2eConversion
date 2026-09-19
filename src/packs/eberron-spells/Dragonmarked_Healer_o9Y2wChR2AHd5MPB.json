@@ -1,0 +1,132 @@
+{
+  "name": "Dragonmarked Healer",
+  "type": "spell",
+  "img": "systems/pf2e/icons/spells/discern-secrets.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.spells-srd.UmXhuKrYZR3W16mQ"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "\n\n\n<p class=\"hang\"><strong>Cast</strong> see replicated spell; dragonmark, somatic</p>\n<p class=\"hang\"><strong>Frequency</strong> The strain of bending your dragonmark to replicate a specific spell is so great, that you can only cast this spell once per day - even if you have focus points to cast it with. </p>\n<hr />\n<p>With a concentrated effort to bend the powers of your mark, you can replicate the effects of a spell.<br />    When you begin to cast Dragonmarked Healer, you can select a spell from the Dragonmarked Healer spell list at the heightened level of this spell or lower. Dragonmarked Healer gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions. The replicated spell is automatically heightened to the level of Dragonmarked Healer.<br />    A spell cast by Dragonmarked Healer doesn’t require material or verbal components but always requires a dragonmark and somatic component. If the spell requires a focus, you must still have that focus to cast the spell, and if the spell has a cost, you must still pay that cost to cast the spell.</p>\n<h3>dragonmarked healer spell list</h3>\n<table style=\"width:100%\">\n<thead>\n<tr>\n<th style=\"width:18.6707%\"><strong>Heightened Level</strong></th>\n<th style=\"width:81.3293%\"><strong>Spell</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"width:18.6707%\">2</td>\n<td style=\"width:81.3293%\">@UUID[Compendium.pf2e.spells-srd.4c1c6eNzU1PFGkAy]{Endure}, @UUID[Compendium.pf2e.spells-srd.szIyEsvihc5e1w8n]{Soothe}</td>\n</tr>\n<tr>\n<td style=\"width:18.6707%\">3</td>\n<td style=\"width:81.3293%\">@UUID[Compendium.pf2e.spells-srd.SnaLVgxZ9ryUFmUr]{Restoration}, @UUID[Compendium.pf2e.spells-srd.BCuHKrDeJ4eq53M6]{Remove Paralysis}, @UUID[Compendium.pf2e.spells-srd.Et8RSCLx8w7uOLvo]{Restore Senses}</td>\n</tr>\n<tr>\n<td style=\"width:18.6707%\">4</td>\n<td style=\"width:81.3293%\">@UUID[Compendium.pf2e.spells-srd.SUKaxVZW2TlM8lu0]{Neutralize Poison}, @UUID[Compendium.pf2e.spells-srd.RneiyehRO6f7LP44]{Remove Disease}</td>\n</tr>\n<tr>\n<td style=\"width:18.6707%\">5</td>\n<td style=\"width:81.3293%\">@UUID[Compendium.pf2e.spells-srd.OyFCwQuw8XRazsNr]{Remove Curse}</td>\n</tr>\n<tr>\n<td style=\"width:18.6707%\">6</td>\n<td style=\"width:81.3293%\">@UUID[Compendium.pf2e.spells-srd.Hnc7eGi7vyZenAIm]{Breath of Life}</td>\n</tr>\n<tr>\n<td style=\"width:18.6707%\">7</td>\n<td style=\"width:81.3293%\">@UUID[Compendium.pf2e.spells-srd.IkGYwHRLhkuoGReG]{Raise Dead}</td>\n</tr>\n<tr>\n<td style=\"width:18.6707%\">8</td>\n<td style=\"width:81.3293%\">@UUID[Compendium.pf2e.spells-srd.2Vkd1IxylPceUAAF]{Regenerate}</td>\n</tr>\n<tr>\n<td style=\"width:18.6707%\">9</td>\n<td style=\"width:81.3293%\">@UUID[Compendium.pf2e.spells-srd.4MOew29Z1oCX8O28]{Moment of Renewal}</td>\n</tr>\n</tbody>\n</table>\n<hr />\n<p class=\"hang\"><strong>Heightened (3rd)</strong> You may cast Dragonmarked Healer up to twice per day. Only one of these casts may be from the heightened level 4 or above.</p>\n<p class=\"hang\"><strong>Heightened (6th)</strong> You may cast Dragonmarked Healer up to three times per day. Only one of these casts may be from the heightened level 4 or above.</p>\n<p class=\"hang\"><strong>Heightened (7th)</strong> You may cast Dragonmarked Healer up to three times per day. Only one of these casts may be from the heightened level 6 or above.</p>\n"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "hb_dragonmark",
+        "hb_mark-of-healing"
+      ],
+      "rarity": "uncommon",
+      "custom": ""
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:16.160-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 2
+    },
+    "spellType": {
+      "value": "utility"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": [
+        "arcane",
+        "divine",
+        "occult",
+        "primal"
+      ]
+    },
+    "school": {
+      "value": "necromancy"
+    },
+    "components": {
+      "focus": true,
+      "material": false,
+      "somatic": true,
+      "verbal": false
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "-"
+    },
+    "duration": {
+      "value": ""
+    },
+    "damage": {
+      "value": {}
+    },
+    "save": {
+      "value": "",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "ability": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "hasCounteractCheck": {
+      "value": false
+    },
+    "prepared": {
+      "value": ""
+    },
+    "primarycheck": {
+      "value": ""
+    },
+    "secondarycasters": {
+      "value": ""
+    },
+    "secondarycheck": {
+      "value": ""
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960336277,
+    "modifiedTime": 1681695784193,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "o9Y2wChR2AHd5MPB",
+  "_key": "!items!o9Y2wChR2AHd5MPB"
+}

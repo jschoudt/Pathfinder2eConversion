@@ -1,0 +1,69 @@
+{
+  "name": "Lharvion Clan",
+  "type": "heritage",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.Lmck7hav1o39lmNG"
+    }
+  },
+  "_id": "NtVa89Bn6bh8R1jq",
+  "system": {
+    "description": {
+      "value": "\n\n\n<p>Your clan is tied to the moon Lharvion - the Eye. Your clan has unnatural insights and experience with the otherworldly. You become trained in Occultism (or another skill if you were already trained in Occultism) and gain the @Compendium[pf2e.feats-srd.22P7IFyhrF7Fbw8B]{Root Magic} skill feat. When crafting Root Magic talismans you are always able to produce one for yourself, in addition to one which you give to one ally (excluding yourself).</p>\n"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "gnoll"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.occ.rank",
+        "value": 1
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.22P7IFyhrF7Fbw8B"
+      }
+    ],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:06.799-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "ancestry": {
+      "name": "Gnoll",
+      "uuid": "Compendium.pf2e.ancestries.vxbQ1Yw4qwgjTzqo"
+    }
+  },
+  "ownership": {
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960327014,
+    "modifiedTime": 1675019500795,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!NtVa89Bn6bh8R1jq"
+}

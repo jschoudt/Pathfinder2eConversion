@@ -1,0 +1,58 @@
+{
+  "name": "Rhaan Clan",
+  "type": "heritage",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.Lmck7hav1o39lmNG"
+    }
+  },
+  "_id": "wqxUNiiFoPee9HZo",
+  "system": {
+    "description": {
+      "value": "\n\n\n<p>Your clan is tied to the moon Rhaan - the Book.</p>\n<p>The Rhaan clan maintains the history of the clans through story and song, and you have a deeper connection to the Primal energies of the world. Choose one cantrip from the primal spell list. You can cast this spell as a primal innate spell at will. A cantrip is heightened to a spell rank equal to half your level rounded up.</p>\n<p>You can change this cantrip to a different one from the same list once per day by meditating and connecting to the Primal energies of Eberron; this is a 10-minute activity that has the concentrate trait.</p>\n"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "gnoll"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:06.995-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "ancestry": {
+      "name": "Gnoll",
+      "uuid": "Compendium.pf2e.ancestries.vxbQ1Yw4qwgjTzqo"
+    }
+  },
+  "ownership": {
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960327022,
+    "modifiedTime": 1672986313373,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!wqxUNiiFoPee9HZo"
+}

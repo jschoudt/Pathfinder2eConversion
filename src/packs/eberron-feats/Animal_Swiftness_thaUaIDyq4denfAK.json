@@ -1,0 +1,74 @@
+{
+  "name": "Animal Swiftness",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.feats-srd.bEh5qUgX5eFaQwzU"
+    }
+  },
+  "_id": "thaUaIDyq4denfAK",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You move like an animal. Your Speed increases by 5 feet. In addition, you gain one of the following Speeds available to your beast within: climb, fly, or swim. You gain this Speed only while in your hybrid shape. The new movement is as fast as your standard Speed; for example, if you have a 30-foot Speed, you can gain a 30-foot climb Speed. If your beast within doesn't typically have a specific type of Speed, you can't gain it with this feat. If your beast within doesn't typically have a climb, fly, or swim Speed, your Speed increases by 10 feet instead.</p>\n<p> </p>\n<p class=\"hang\"><strong>Special</strong> If you have the longstride heritage, you gain an additional 5 feet to each movement speed you gain or increase.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:02.832-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 17
+    },
+    "traits": {
+      "value": [
+        "hb_shifter"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "featType": {
+      "value": "ancestry"
+    }
+  },
+  "ownership": {
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.10.4",
+    "coreVersion": "10.291",
+    "createdTime": 1672960323127,
+    "modifiedTime": 1691632469256,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!thaUaIDyq4denfAK"
+}

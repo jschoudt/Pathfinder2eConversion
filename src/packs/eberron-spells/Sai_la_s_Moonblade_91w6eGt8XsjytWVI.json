@@ -1,0 +1,138 @@
+{
+  "img": "systems/pf2e/icons/spells/moonbeam.webp",
+  "name": "Sai'la's Moonblade",
+  "system": {
+    "description": {
+      "value": "<p>Channelling your divine powers, you bring a blade of moonlight down onto a creature you can see. You deal [[/r 5d10[positive]]]  damage. The number of actions you spend when Casting this Spell determines its targets, range, area, and other parameters.</p>\n<p><span class=\"pf2-icon\">1</span> (somatic) The spell has a range of touch.</p>\n<p><span class=\"pf2-icon\">2</span> (somatic, verbal) The spell has a range of 30 feet.</p>\n<p><span class=\"pf2-icon\">3 </span>(material, somatic, verbal) The spell has a range of 60 feet and creates a 20-foot burst of blades of moonlight</p>\n<hr />\n<p class=\"hang\"><strong>Critical Success</strong> The creature is unaffected.<br /><strong>Success</strong> The creature takes half damage. If the creature is under the effects of a Polymorph, this spell attempts to counteract it. The counteract check is one degree of success worse. <br /><strong>Failure</strong> The creature takes full damage. If the creature is under the effects of a Polymorph, this spell attempts to counteract it.<br /><strong>Critical Failure</strong> The creature takes double damage. If the creature is under the effects of a Polymorph, this spell attempts to counteract it. The counteract check is one degree of success better.</p>\n<hr />\n<p class=\"hang\"><strong>Heightened (+1)</strong> the damage increases by 1d10.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "light"
+      ],
+      "rarity": "uncommon",
+      "custom": ""
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": null
+    },
+    "level": {
+      "value": 4
+    },
+    "spellType": {
+      "value": "save"
+    },
+    "category": {
+      "value": "spell"
+    },
+    "traditions": {
+      "value": [
+        "divine"
+      ]
+    },
+    "school": {
+      "value": "evocation"
+    },
+    "components": {
+      "focus": false,
+      "material": false,
+      "somatic": false,
+      "verbal": false
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "varies"
+    },
+    "area": null,
+    "time": {
+      "value": "1 to 3"
+    },
+    "duration": {
+      "value": ""
+    },
+    "damage": {
+      "value": {
+        "0": {
+          "applyMod": false,
+          "type": {
+            "categories": [],
+            "subtype": "",
+            "value": "positive"
+          },
+          "value": "5d10"
+        }
+      }
+    },
+    "save": {
+      "value": "fortitude",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "ability": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "hasCounteractCheck": {
+      "value": true
+    },
+    "heightening": {
+      "damage": {
+        "0": "1d10"
+      },
+      "interval": 1,
+      "type": "interval"
+    },
+    "prepared": {
+      "value": ""
+    },
+    "primarycheck": {
+      "value": ""
+    },
+    "secondarycasters": {
+      "value": ""
+    },
+    "secondarycheck": {
+      "value": ""
+    }
+  },
+  "type": "spell",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.spells-srd.SuBtUJiU6DbSJYIw"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672977967485,
+    "modifiedTime": 1673330920902,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_id": "91w6eGt8XsjytWVI",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "_key": "!items!91w6eGt8XsjytWVI"
+}

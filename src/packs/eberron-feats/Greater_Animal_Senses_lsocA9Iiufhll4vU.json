@@ -1,0 +1,74 @@
+{
+  "name": "Greater Animal Senses",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.feats-srd.bEh5qUgX5eFaQwzU"
+    }
+  },
+  "_id": "lsocA9Iiufhll4vU",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your senses advance to match those of your animal aspect. You gain one of the following senses available to your beast within: echolocation (imprecise) 30 feet, tremorsense (imprecise) 30 feet, or wavesense (imprecise) 30 feet. If your beast within doesn't typically have a specific type of sense, you can't gain the sense with this feat.</p>\n<p class=\"hang\"> </p>\n<p class=\"hang\"><strong>Special</strong> You can select this feat multiple times, either choosing a different sense or improving an imprecise sense granted by this feat to a precise sense.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:02.745-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 5
+    },
+    "traits": {
+      "value": [
+        "hb_shifter"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "featType": {
+      "value": "ancestry"
+    }
+  },
+  "ownership": {
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.10.4",
+    "coreVersion": "10.291",
+    "createdTime": 1672960323122,
+    "modifiedTime": 1691632764970,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!lsocA9Iiufhll4vU"
+}

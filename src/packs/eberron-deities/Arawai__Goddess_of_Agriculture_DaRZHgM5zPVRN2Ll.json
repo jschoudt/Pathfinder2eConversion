@@ -1,0 +1,103 @@
+{
+  "name": "Arawai: Goddess of Agriculture",
+  "type": "deity",
+  "img": "systems/pf2e/icons/default-icons/deity.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.deities.bLI1JMpI2GXQT5AC"
+    }
+  },
+  "_id": "DaRZHgM5zPVRN2Ll",
+  "system": {
+    "description": {
+      "value": "<p>Arawai is neutral good and her domain is fertility, plant life, and abundance.</p>\n\n\n<p><strong>Areas of Concern</strong> Fertility, crops, abundance, plants, the wilderness, birth<br /><strong>Alignment</strong> NG<br /><strong>Divine Font</strong> Heal<br /><strong>Divine Ability</strong> Wisdom or Constitution<br /><strong>Divine Skill</strong> Nature<br /><strong>Domains</strong> Earth, family, healing, nature, stars, sun, passion, toil, water<br /><strong style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">Cleric Spells</strong><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\"> 1st: temporary tool, 2nd: shape wood, 3rd: wall of thorns.<br /></span><strong style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">Edicts</strong><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\"> Encourage hard work that benefits all, ensure the health of crops and vegetation, protect forests and farmland from ravagers.<br /></span><strong style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">Anathema</strong><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\"> Destroy healthy crops, waste food, refuse to help others in your community.<br /></span><strong style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">Favoured Weapon</strong><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\"> Flail</span></p>\n"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "category": "deity",
+    "alignment": {
+      "own": "NG",
+      "follower": [
+        "LG",
+        "NG",
+        "CG",
+        "LN",
+        "N",
+        "CN",
+        "LE",
+        "NE",
+        "CE"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "earth",
+        "healing",
+        "nature",
+        "water"
+      ],
+      "alternate": [
+        "star",
+        "sun",
+        "passion",
+        "toil"
+      ]
+    },
+    "font": [
+      "heal"
+    ],
+    "ability": [
+      "wis",
+      "con"
+    ],
+    "skill": "nat",
+    "weapons": [
+      "flail",
+      "war-flail"
+    ],
+    "spells": {
+      "1": "Compendium.pf2e.spells-srd.TPI9fRCAYsDqpAe4",
+      "2": "Compendium.pf2e.spells-srd.CXICME10TkEJxz0P",
+      "3": "Compendium.pf2e.spells-srd.KsWhliKfUs3IpW3c"
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:11:50.118-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "attribute": [
+      "wis",
+      "con"
+    ],
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder's Guide to Eberron"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960310188,
+    "modifiedTime": 1675018076577,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!DaRZHgM5zPVRN2Ll"
+}

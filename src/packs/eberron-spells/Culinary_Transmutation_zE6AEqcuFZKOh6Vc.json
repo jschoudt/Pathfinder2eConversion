@@ -1,0 +1,123 @@
+{
+  "img": "systems/pf2e/icons/spells/prestidigitation.webp",
+  "name": "Culinary Transmutation",
+  "system": {
+    "description": {
+      "value": "<p>You chill or warm up to 1 bulk or 1 cubic foot of nonliving material.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "cantrip"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": null
+    },
+    "level": {
+      "value": 1
+    },
+    "spellType": {
+      "value": "utility"
+    },
+    "category": {
+      "value": "spell"
+    },
+    "traditions": {
+      "value": [
+        "arcane"
+      ],
+      "custom": ""
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "components": {
+      "focus": false,
+      "material": false,
+      "somatic": true,
+      "verbal": true
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "5 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": ""
+    },
+    "damage": {
+      "value": {}
+    },
+    "save": {
+      "value": "",
+      "basic": ""
+    },
+    "sustained": {
+      "value": true
+    },
+    "cost": {
+      "value": ""
+    },
+    "ability": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "hasCounteractCheck": {
+      "value": false
+    },
+    "prepared": {
+      "value": ""
+    },
+    "primarycheck": {
+      "value": ""
+    },
+    "secondarycasters": {
+      "value": ""
+    },
+    "secondarycheck": {
+      "value": ""
+    },
+    "overlays": {}
+  },
+  "type": "spell",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.spells-srd.Qw3fnUlaUbnn7ipC"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672969567538,
+    "modifiedTime": 1673108624723,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_id": "zE6AEqcuFZKOh6Vc",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "_key": "!items!zE6AEqcuFZKOh6Vc"
+}

@@ -1,0 +1,136 @@
+{
+  "name": "Wrath of Kyber",
+  "type": "spell",
+  "img": "systems/pf2e/icons/spells/discern-secrets.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.spells-srd.UmXhuKrYZR3W16mQ"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Aberrant Feedback: </strong>@Compendium[pathfinders-guide-to-eberron-compendium.eberron-spells.SfAkXA3XDi3btTlx]{Aberrant Feedback}</p>\n<hr />\n<p class=\"hang\"><strong>Frequency</strong> The strain of bending your dragonmark to replicate a specific spell is so great, that you can only cast this spell once per 24 hours - even if you have focus points to cast it with.</p>\n<hr />\n<p>Drawing on the violent powers of your mark, you may bring down destructive potential not seen since the days of the War of the Mark. You cast @UUID[Compendium.pf2e.spells-srd.wLIvH0AT1u7oa64N]{Cataclysm}.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "hb_aberrant-feedback",
+        "hb_aberrant-mark",
+        "hb_dragonmark"
+      ],
+      "rarity": "uncommon",
+      "custom": ""
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:16.034-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 10
+    },
+    "spellType": {
+      "value": "save"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": [
+        "arcane",
+        "divine",
+        "primal",
+        "occult"
+      ]
+    },
+    "school": {
+      "value": "evocation"
+    },
+    "components": {
+      "focus": true,
+      "material": false,
+      "somatic": true,
+      "verbal": false
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": "1 willing creature with the dragonmark trait"
+    },
+    "range": {
+      "value": "1000 feet"
+    },
+    "area": {
+      "value": 60,
+      "type": "burst"
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": ""
+    },
+    "damage": {
+      "value": {}
+    },
+    "save": {
+      "value": "reflex",
+      "basic": "basic"
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "ability": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "hasCounteractCheck": {
+      "value": false
+    },
+    "prepared": {
+      "value": ""
+    },
+    "primarycheck": {
+      "value": ""
+    },
+    "secondarycasters": {
+      "value": ""
+    },
+    "secondarycheck": {
+      "value": ""
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960336264,
+    "modifiedTime": 1675020549811,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_id": "auqP7FEa2tWALBQa",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "_key": "!items!auqP7FEa2tWALBQa"
+}

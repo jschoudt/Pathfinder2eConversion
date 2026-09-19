@@ -1,0 +1,98 @@
+{
+  "name": "Kol Korran: God of Trade and Wealth",
+  "type": "deity",
+  "img": "systems/pf2e/icons/default-icons/deity.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.deities.bLI1JMpI2GXQT5AC"
+    }
+  },
+  "_id": "YArGapU1Gt6WRhWb",
+  "system": {
+    "description": {
+      "value": "<p>Kol Korran is the neutral deity of trade.<br /><strong>Areas of Concern</strong> Wealth, money, trade, commerce, theft<br /><strong>Alignment</strong> N<br /><strong>Divine Font</strong> Heal or Harm<br /><strong>Divine Ability</strong> Wisdom or Charisma<br /><strong>Divine Skill</strong> Society<br /><strong>Domains</strong> Ambition, Cities, Travel, Wealth<br /><strong>Cleric Spells</strong> 1st: shattering gem, 4th: creation, 7th: magnificent mansion<br /><strong>Edicts</strong> Gather new wealth, count your riches, open up new trade routes, discover and retrieve items of great worth.<br /><strong>Anathema</strong> Allow those who steal from you to go unpunished, forgo simple opportunities to gain riches.<br /><strong>Favoured Weapon</strong> Mace</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "category": "deity",
+    "alignment": {
+      "own": "N",
+      "follower": [
+        "LG",
+        "NG",
+        "CG",
+        "LN",
+        "N",
+        "CN",
+        "LE",
+        "NE",
+        "CE"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "ambition",
+        "cities",
+        "travel",
+        "wealth"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "ability": [
+      "wis",
+      "cha"
+    ],
+    "skill": "soc",
+    "weapons": [
+      "mace"
+    ],
+    "spells": {
+      "1": "Compendium.pf2e.spells-srd.0uRpypf1Hi7ahvTl",
+      "4": "Compendium.pf2e.spells-srd.TUj8eugNqAvB1vVR",
+      "7": "Compendium.pf2e.spells-srd.vPWMEyVTreMOoFnm"
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:11:50.144-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "attribute": [
+      "wis",
+      "cha"
+    ],
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder's Guide to Eberron"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960310193,
+    "modifiedTime": 1675018120626,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!YArGapU1Gt6WRhWb"
+}

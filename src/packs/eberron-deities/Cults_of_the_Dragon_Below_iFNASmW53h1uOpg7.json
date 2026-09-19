@@ -1,0 +1,99 @@
+{
+  "name": "Cults of the Dragon Below",
+  "type": "deity",
+  "img": "systems/pf2e/icons/default-icons/deity.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.deities.bLI1JMpI2GXQT5AC"
+    }
+  },
+  "_id": "iFNASmW53h1uOpg7",
+  "system": {
+    "description": {
+      "value": "\n\n\n\n\n<p>The Cults of the Dragon Below are a varied set of cults that all worship a unique aspect of madness or evil.<br /><strong>Areas of Concern</strong> Various<br /><strong>Alignment</strong> LE, NE, CE<br /><strong>Divine Font</strong> Harm<br /><strong>Divine Ability</strong> Strength or Constitution<br /><strong>Divine Skill</strong> Intimidation<br /><strong>Domains</strong> Abomination, Cold, Darkness, Death, Decay, Delirium, Destruction, Dust, Earth, Indulgence, Knowledge, Nightmares, Pain, Passion, Plague, Secrecy, Sorrow, Soul, Swarm, Time, Trickery, Tyranny, Undeath, Void, Wyrmkin<br /><strong>Cleric Spells</strong> 1st: grim tendrils, 4th: nightmare, 5th: summon entity (varies)<br /><strong>Edicts</strong> Create darkness, sow discord among allies, misuse positions of authority by steering events toward apocalyptic ends (varies)<br /><strong>Anathema</strong> None (varies)<br /><strong>Favoured Weapon</strong> Great Pick (varies)</p>\n"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "category": "deity",
+    "alignment": {
+      "own": "CE",
+      "follower": [
+        "LN",
+        "N",
+        "CN",
+        "LE",
+        "NE",
+        "CE"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "delirium",
+        "darkness",
+        "nightmares",
+        "plague"
+      ],
+      "alternate": [
+        "void",
+        "pain",
+        "passion",
+        "secrecy"
+      ]
+    },
+    "font": [
+      "harm"
+    ],
+    "ability": [
+      "str",
+      "con"
+    ],
+    "skill": "itm",
+    "weapons": [
+      "greatpick"
+    ],
+    "spells": {
+      "1": "Compendium.pf2e.spells-srd.k34hDOfIIMAxNL4a",
+      "4": "Compendium.pf2e.spells-srd.Uqj344bezBq3ESdq",
+      "5": "Compendium.pf2e.spells-srd.i1TvBID5QLyXrUCa"
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:11:50.165-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "attribute": [
+      "str",
+      "con"
+    ],
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder's Guide to Eberron"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960310199,
+    "modifiedTime": 1675018228020,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!iFNASmW53h1uOpg7"
+}

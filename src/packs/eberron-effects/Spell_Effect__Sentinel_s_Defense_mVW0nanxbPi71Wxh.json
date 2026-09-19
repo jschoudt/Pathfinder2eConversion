@@ -1,0 +1,73 @@
+{
+  "img": "systems/pf2e/icons/spells/lay-on-hands.webp",
+  "name": "Spell Effect: Sentinel's Defense",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pathfinders-guide-to-eberron-compendium.eberron-spells.wkk3wgN5woxz5ALa]{Sentinel's Defense}</p>\n<p>You draw from the power of your dragonmark to better defend a creature. The target gains a +2 status bonus to AC.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "ac",
+        "type": "status",
+        "value": 2
+      }
+    ],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": null
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "sustained": true,
+      "expiry": "turn-start"
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "target": null,
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "type": "effect",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.spell-effects.lyLMiauxIVUM3oF1"
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1673106753952,
+    "modifiedTime": 1673108348613,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "mVW0nanxbPi71Wxh",
+  "_key": "!items!mVW0nanxbPi71Wxh"
+}

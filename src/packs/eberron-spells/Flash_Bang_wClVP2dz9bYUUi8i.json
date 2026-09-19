@@ -1,0 +1,132 @@
+{
+  "img": "systems/pf2e/icons/spells/dazzling-flash.webp",
+  "name": "Flash Bang",
+  "system": {
+    "description": {
+      "value": "<p>A pulse of bright light and energy tears ripples through the air, disrupting creatures caught in the area.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.<br /><strong>Success</strong> The creature is @Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Dazzled} and @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Deafened} for 1 round.<br /><strong>Failure</strong> The creature is @Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Dazzled} and @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Deafened} for 1 minute. They may make a Fortitude at the end of each of their turns to end the effect.<br /><strong>Critical Failure</strong> The creature is @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Deafened} and @Compendium[pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Blinded} for 1 minute..</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "auditory",
+        "incapacitation",
+        "light",
+        "sonic",
+        "visual"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": null
+    },
+    "level": {
+      "value": 1
+    },
+    "spellType": {
+      "value": "save"
+    },
+    "category": {
+      "value": "spell"
+    },
+    "traditions": {
+      "value": [
+        "arcane",
+        "divine",
+        "primal",
+        "occult"
+      ],
+      "custom": ""
+    },
+    "school": {
+      "value": "evocation"
+    },
+    "components": {
+      "focus": false,
+      "material": false,
+      "somatic": true,
+      "verbal": true
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "60 feet"
+    },
+    "area": {
+      "type": "burst",
+      "value": 15
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": ""
+    },
+    "damage": {
+      "value": {}
+    },
+    "save": {
+      "value": "fortitude",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "ability": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "hasCounteractCheck": {
+      "value": false
+    },
+    "prepared": {
+      "value": ""
+    },
+    "primarycheck": {
+      "value": ""
+    },
+    "secondarycasters": {
+      "value": ""
+    },
+    "secondarycheck": {
+      "value": ""
+    }
+  },
+  "type": "spell",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.spells-srd.zul5cBTfr7NXHBZf"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672977143928,
+    "modifiedTime": 1673330491493,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_id": "wClVP2dz9bYUUi8i",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "_key": "!items!wClVP2dz9bYUUi8i"
+}

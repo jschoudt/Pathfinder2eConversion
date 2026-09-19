@@ -1,0 +1,75 @@
+{
+  "name": "Hidden Changeling",
+  "type": "heritage",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.Lmck7hav1o39lmNG"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "\n<p>While changelings are common in major cities, there are many villages and towns where changelings are treated with fear and suspicion. You might have been born into such a community, possibly never even knowing another changeling. As a hidden changeling, you have crafted a single identity that you consider to be your true face. You gain a +4 circumstance bonus to Impersonate checks to pretend you are of the ancestry which you were raised as. In addition, you gain the adopted ancestry feat for that ancestry.</p>\n\n\n<section class=\"info\">\n<p>While you gain a circumstance bonus to pretend you are of an ancestry, this does not apply to deception checks you make while you are that ancestry. For instance, a human guard might be unable to see that you are not human and are a shapeshifted changeling, but might still be able to see that you are not the guard you are pretending to be.</p>\n</section>\n"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "mode": "upgrade",
+        "path": "system.skills.soc.rank",
+        "value": 4,
+        "label": "Hidden Changeling Ancestry",
+        "selector": [
+          "deception"
+        ],
+        "type": "circumstance",
+        "predicate": [
+          "action:impersonate"
+        ]
+      }
+    ],
+    "slug": null,
+    "schema": {
+      "version": 0.835,
+      "lastMigration": {
+        "datetime": "2023-08-09T19:08:40.562-07:00",
+        "version": {
+          "schema": 0.812,
+          "foundry": "10.291",
+          "system": "4.10.4"
+        }
+      }
+    },
+    "traits": {
+      "value": [
+        "changeling"
+      ],
+      "rarity": "common"
+    },
+    "ancestry": {
+      "name": "Eberron Changeling",
+      "slug": "eberron-changeling",
+      "uuid": "Compendium.pathfinders-guide-to-eberron-compendium.eberron-ancestries.axOqZxs9V7XTg99i"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.10.4",
+    "coreVersion": "10.291",
+    "createdTime": 1672960327020,
+    "modifiedTime": 1691634022182,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "fqnSFAjHJhmI5tcN",
+  "_key": "!items!fqnSFAjHJhmI5tcN"
+}

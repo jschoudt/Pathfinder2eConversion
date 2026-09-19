@@ -1,0 +1,103 @@
+{
+  "name": "The Undying Court",
+  "type": "deity",
+  "img": "systems/pf2e/icons/default-icons/deity.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.deities.bLI1JMpI2GXQT5AC"
+    }
+  },
+  "_id": "xIsPTTBGYX5Ahqtl",
+  "system": {
+    "description": {
+      "value": "\n\n<p>The elves of Aerenal revere their ancient living dead as deities, seeking advice from immortal elves sustained by the power of Irian.<br /><strong>Areas of Concern</strong> Glory, history, patience, revelation, obedience.<br /><strong>Alignment</strong> NG<br /><strong>Divine Font</strong> Harm or Heal<br /><strong>Divine Ability</strong> Constitution or Wisdom<br /><strong>Divine Skill</strong> Society<br /><strong>Domains</strong> Death, Duty, Family, Knowledge, Magic, Perfection, Protection, Repose, Soul, Star, Sun, Undeath, Vigil<br /><strong>Cleric Spells</strong> 1st: share lore, 2nd: comprehend language, 3rd: hypercognition<br /><strong>Edicts</strong> Work toward collective transcendence of the court, seek to prove yourself worthy of immortality, go to death with dignity.<br /><strong>Anathema</strong> Disrespect the dead or the traditions of <span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">those around you, be cowardly in the face of death.<br /></span><strong style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">Favoured Weapon</strong><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\"> Scimitar</span></p>\n"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "category": "deity",
+    "alignment": {
+      "own": "LN",
+      "follower": [
+        "LG",
+        "NG",
+        "CG",
+        "LN",
+        "N",
+        "CN",
+        "LE",
+        "NE",
+        "CE"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "duty",
+        "family",
+        "magic",
+        "undeath"
+      ],
+      "alternate": [
+        "soul",
+        "vigil",
+        "perfection",
+        "star"
+      ]
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "ability": [
+      "wis",
+      "con"
+    ],
+    "skill": "soc",
+    "weapons": [
+      "scimitar"
+    ],
+    "spells": {
+      "1": "Compendium.pf2e.spells-srd.nXmC2Xx9WmS5NsAo",
+      "2": "Compendium.pf2e.spells-srd.vTQvfYu2llKQedmY",
+      "3": "Compendium.pf2e.spells-srd.ZYoC630tNGutgbE0"
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:11:50.173-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "attribute": [
+      "wis",
+      "con"
+    ],
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder's Guide to Eberron"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960310201,
+    "modifiedTime": 1675018219148,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!xIsPTTBGYX5Ahqtl"
+}

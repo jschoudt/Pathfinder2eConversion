@@ -1,0 +1,120 @@
+{
+  "name": "Breath of Siberys (10 Charges)",
+  "type": "consumable",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>While still volatile and unstable, additional refinement of Siberys Powder has created a small globe containing a highly refined solution of dragonshards held in a suspended state. While suspended in this globe, it is protected from water.</p>\n<p>When you interact to crush this globe against a magic item that has 0 charges remaining (such as a stave, but not a wand), the item regains charges equal to the following table. This cannot exceed its maximum number of charges.</p>\n<table>\n<thead>\n<tr>\n<th>Charges</th>\n<th style=\"text-align:center\">Level</th>\n<th style=\"text-align:center\">Price</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>10</td>\n<td>19</td>\n<td>8000 GP</td>\n</tr>\n</tbody>\n</table>\n<hr />\n<p><strong>Crafting Requirements</strong> The initial raw materials must be half Siberys Powder by value.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": null
+    },
+    "level": {
+      "value": 19
+    },
+    "traits": {
+      "value": [
+        "consumable",
+        "magical"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [],
+      "custom": ""
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "hp": {
+      "brokenThreshold": 0,
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "weight": {
+      "value": "L"
+    },
+    "equippedBulk": {
+      "value": ""
+    },
+    "price": {
+      "value": {
+        "gp": 8000
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "-=inSlot": null,
+      "handsHeld": 0
+    },
+    "stackGroup": null,
+    "negateBulk": {
+      "value": "0"
+    },
+    "containerId": null,
+    "preciousMaterial": {
+      "value": null
+    },
+    "preciousMaterialGrade": {
+      "value": null
+    },
+    "size": "med",
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/other-consumables.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "consumableType": {
+      "value": "other"
+    },
+    "charges": {
+      "value": 1,
+      "max": 1
+    },
+    "consume": {
+      "value": ""
+    },
+    "autoDestroy": {
+      "value": true
+    },
+    "spell": null
+  },
+  "img": "systems/pf2e/icons/spells/glitterdust.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pathfinders-guide-to-eberron-compendium.eberron-items.B6B526zMBR7MMNj5"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.12.9",
+    "coreVersion": "10.303",
+    "createdTime": 1673116645327,
+    "modifiedTime": 1694447310533,
+    "lastModifiedBy": "7iofgUiimTzs2vga"
+  },
+  "_id": "B6B526zMBR7MMNj5",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "_key": "!items!B6B526zMBR7MMNj5"
+}

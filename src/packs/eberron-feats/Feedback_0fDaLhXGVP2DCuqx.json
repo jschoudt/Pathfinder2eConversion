@@ -1,0 +1,75 @@
+{
+  "name": "Feedback",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.X9wQoftamLpQxmtj"
+    }
+  },
+  "_id": "0fDaLhXGVP2DCuqx",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You are a master of your mind and have used that mastery to ward it against invaders. You can cast @Compendium[pf2e.spells-srd.fWU7Qjp1JiX9g6eg]{Animus Mine} as an innate 2nd level spell once per day. At 13th level, this spell is heightened to 3rd level, and at 17th level, this spell is heightened to 4th level.<br />    Whenever you place any Animus Mine on yourself, you can suppress the effects of the mine for 1 round as a free action to allow someone to safely use a mental effect on you. </p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:01.778-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 9
+    },
+    "traits": {
+      "value": [
+        "hb_kalashtar"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "featType": {
+      "value": "ancestry"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.10.4",
+    "coreVersion": "10.291",
+    "createdTime": 1672960322321,
+    "modifiedTime": 1691632719742,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!0fDaLhXGVP2DCuqx"
+}

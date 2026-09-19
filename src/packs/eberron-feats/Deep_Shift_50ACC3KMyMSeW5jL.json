@@ -1,0 +1,75 @@
+{
+  "name": "Deep Shift",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.y3MWNTGuJE1150l0"
+    }
+  },
+  "_id": "50ACC3KMyMSeW5jL",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your ability to shape change is more than skin deep. When you use Shift Shape, the form you shift into no longer needs to have the same basic arrangement or number of limbs. You can transform into a form similar to any medium creature; humanoid, beast, or otherwise. You can add or remove limbs, digits, or even organs. Any feature added beyond your normal features (such as additional eyes, legs, or hands) is non-functional beyond the basics of keeping up appearances. Any removed features limit your physical abilities respectively. For instance, if you shift your shape to have no limbs then you similarly lose the ability to move and manipulate objects. These transformations can never modify your mental statistics.</p>\n\n\n<p>You cannot create non-fleshy materials such as chitin or metal plates. So though you could shape yourself into a construct creature, the material is very clearly flesh and is insufficient to deceive observers.</p>\n<p>In addition, your gear does not change shape with you and may not fit the form you choose to transform into if it is significantly different (such as shift shaping from your humanoid form into a wolf).</p>\n<p> </p>\n\n\n<h4 class=\"inline-header\"><br />The intent of the deep shift feat is to allow a changeling to take on a visual appearance of any fleshy creature, and perform basic actions for the purposes of deception or performance. The shift should generally not provide any new abilities, movements, or otherwise, that a simple visual change doesn't support. Similarly, it should generally not remove standard abilities, movements, or otherwise of the character unless the new form does not support the continued use of the feature.<br /><br /></h4>\n"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:01.817-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 5
+    },
+    "traits": {
+      "value": [
+        "hb_eberron-changelings"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "featType": {
+      "value": "ancestry"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.10.4",
+    "coreVersion": "10.291",
+    "createdTime": 1672960322324,
+    "modifiedTime": 1691632625414,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!50ACC3KMyMSeW5jL"
+}

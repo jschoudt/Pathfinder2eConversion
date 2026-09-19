@@ -1,0 +1,71 @@
+{
+  "name": "Diligent Documentation",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.feats-srd.aLgb1x3azE4IKz0o"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You are particularly adept at learning new imbuements to add to your formula book. You can use the Learn a Spell activity in half the time it normally takes. Further, when you roll a critical failure on your check to Learn an Imubement, you get a failure instead. When you roll a failure, you can try again after 1 week.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.84,
+      "lastMigration": {
+        "datetime": "2023-09-11T08:26:28.157-07:00",
+        "version": {
+          "schema": 0.812,
+          "foundry": "10.303",
+          "system": "4.12.9"
+        }
+      }
+    },
+    "level": {
+      "value": 1
+    },
+    "traits": {
+      "value": [
+        "hb_artificer"
+      ],
+      "rarity": "uncommon"
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "ownership": {
+    "default": 0,
+    "7iofgUiimTzs2vga": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.12.9",
+    "coreVersion": "10.303",
+    "createdTime": 1672960323121,
+    "modifiedTime": 1694446715489,
+    "lastModifiedBy": "7iofgUiimTzs2vga"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "n3O77tZr741uWdif",
+  "_key": "!items!n3O77tZr741uWdif"
+}

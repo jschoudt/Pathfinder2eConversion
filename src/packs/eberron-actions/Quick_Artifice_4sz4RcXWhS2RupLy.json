@@ -1,0 +1,68 @@
+{
+  "img": "systems/pf2e/icons/actions/Passive.webp",
+  "name": "Quick Artifice",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> You have the imbuement you're creating in your imbuement collection, and you're either holding or wearing @Compendium[pathfinders-guide-to-eberron-compendium.eberron-items.g1H0GwaLpQ5jelZj]{Artificer's Tools}.</p>\n<hr />\n<p>You rapidly apply your artifice to improvise a magical device. When you use Quick Artifice, select one of the imbuements in your imbuement collection, and expend an arcane fundamental of the imbuement's level or higher. The imbuement heightened to the level of the arcane fundamental.</p>\n<p>Quick Artifice is a special activity that takes a variable number of actions depending on the imbuement, as listed in each imbuement's stat block. As soon as the Quick Artifice activity is completed, the imbuement's effect occurs.</p>\n<p>Some imbuements are cast as a reaction or free action. In those cases, you can use Quick Artifice as a reaction or free action (as appropriate) instead of as an activity. Such cases will be noted in the imbuement's stat block.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [],
+    "slug": "quick-artifice",
+    "schema": {
+      "version": 0.835,
+      "lastMigration": null
+    },
+    "traits": {
+      "value": [
+        "alchemist",
+        "manipulate"
+      ],
+      "rarity": "common"
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actionCategory": {
+      "value": "interaction"
+    },
+    "actions": {
+      "value": 1
+    },
+    "requirements": {
+      "value": ""
+    },
+    "trigger": {
+      "value": ""
+    },
+    "deathNote": false,
+    "weapon": {
+      "value": ""
+    }
+  },
+  "type": "action",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.actionspf2e.yzNJgwzV9XqEhKc6"
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.10.4",
+    "coreVersion": "10.291",
+    "createdTime": 1685922418084,
+    "modifiedTime": 1685922741013,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "4sz4RcXWhS2RupLy",
+  "_key": "!items!4sz4RcXWhS2RupLy"
+}

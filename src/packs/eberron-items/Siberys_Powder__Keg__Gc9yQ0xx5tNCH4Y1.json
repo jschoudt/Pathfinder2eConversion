@@ -1,0 +1,121 @@
+{
+  "name": "Siberys Powder (Keg)",
+  "type": "consumable",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Activate</strong> <span class=\"pf2-icon\">1</span> Interact</p>\n<p>@Compendium[pathfinders-guide-to-eberron-compendium.eberron-items.jV0oBMJWcAPWvApn]{Siberys Powder (horn)}Siberys powder is a volatile and explosive alchemical substance commonly used in the production of wand munitions. Siberys powder becomes inert and useless when wet and must be kept in a sealed, water-tight container.</p>\n<p>A keg contains 5,000 doses of siberys powder and can be detonated in the same way as a @Compendium[pathfinders-guide-to-eberron-compendium.eberron-items.jV0oBMJWcAPWvApn]{Siberys powder (horn)}. As long as the keg is mostly full (at least 4,000 doses remaining) this deals [[/r 3d6[fire]]] damage in a @Template[type:burst|distance:20] (@Check[type:reflex|dc:20|basic:true|name:Siberys Powder Detonation] save). Detonating multiple kegs can increase the area, but not the damage, of this effect; detonating a keg and any horns at the same time in an overlapping area also doesn't increase the damage. </p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": null
+    },
+    "level": {
+      "value": 6
+    },
+    "traits": {
+      "value": [
+        "alchemical",
+        "consumable",
+        "magical"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [],
+      "custom": ""
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "hp": {
+      "brokenThreshold": 0,
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "weight": {
+      "value": "50"
+    },
+    "equippedBulk": {
+      "value": ""
+    },
+    "price": {
+      "value": {
+        "gp": 50
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "-=inSlot": null,
+      "handsHeld": 0
+    },
+    "stackGroup": null,
+    "negateBulk": {
+      "value": "0"
+    },
+    "containerId": null,
+    "preciousMaterial": {
+      "value": null
+    },
+    "preciousMaterialGrade": {
+      "value": null
+    },
+    "size": "med",
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/other-consumables.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "consumableType": {
+      "value": "other"
+    },
+    "charges": {
+      "value": 1,
+      "max": 1
+    },
+    "consume": {
+      "value": ""
+    },
+    "autoDestroy": {
+      "value": true
+    },
+    "spell": null
+  },
+  "img": "systems/pf2e/icons/spells/glitterdust.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.1Gkyj5fSwZ8V3qFZ"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.12.9",
+    "coreVersion": "10.303",
+    "createdTime": 1673116645327,
+    "modifiedTime": 1694447635118,
+    "lastModifiedBy": "7iofgUiimTzs2vga"
+  },
+  "_id": "Gc9yQ0xx5tNCH4Y1",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "_key": "!items!Gc9yQ0xx5tNCH4Y1"
+}

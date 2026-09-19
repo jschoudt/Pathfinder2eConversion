@@ -1,0 +1,133 @@
+{
+  "name": "Guidance of the Healer",
+  "type": "spell",
+  "img": "systems/pf2e/icons/spells/discern-secrets.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.spells-srd.UmXhuKrYZR3W16mQ"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>With a subtle manipulation of the powers of your mark, you can assist a creature in resisting maladies and wounds.</p>\n<p>   The creature gains a +1 status bonus to any healing it receives. If the creature is making a saving throw against a persistent effect, poison, or a disease, it gains a +1 status bonus to its save (and this spell counts for assisted recovery against persistent effects). If the creature has the dying condition, it loses the dying condition, though it remains unconscious at 0 Hit Points.</p>\n<p>@UUID[Compendium.pathfinders-guide-to-eberron-compendium.eberron-effects.f37rRXwD9LWh0ncX]{Spell Effect: Guidance of the Healer}    </p>\n<p>The target is then immune to the Guidance of the Healer for 1 hour. </p>\n<p>@UUID[Compendium.pathfinders-guide-to-eberron-compendium.eberron-effects.gOc7oObc6eHb5Sdt]{Effect: Guidance of the Healer Immunity}</p>\n<hr />\n<p class=\"hang\"><strong>Heightened (+2)</strong> The status bonus to healing received increases by 1</p>\n<p class=\"hang\"><strong>Heightened (5th)</strong> The status bonus to saves increases to +2</p>\n<p class=\"hang\"><strong>Heightened (9th)</strong> The status bonus to saves increases to +3</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "cantrip",
+        "hb_dragonmark",
+        "hb_mark-of-healing"
+      ],
+      "rarity": "uncommon",
+      "custom": ""
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:16.140-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 2
+    },
+    "spellType": {
+      "value": "utility"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": [
+        "arcane",
+        "divine",
+        "occult",
+        "primal"
+      ]
+    },
+    "school": {
+      "value": "divination"
+    },
+    "components": {
+      "focus": true,
+      "material": false,
+      "somatic": true,
+      "verbal": false
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "-"
+    },
+    "duration": {
+      "value": ""
+    },
+    "damage": {
+      "value": {}
+    },
+    "save": {
+      "value": "",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "ability": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "hasCounteractCheck": {
+      "value": false
+    },
+    "prepared": {
+      "value": ""
+    },
+    "primarycheck": {
+      "value": ""
+    },
+    "secondarycasters": {
+      "value": ""
+    },
+    "secondarycheck": {
+      "value": ""
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960336274,
+    "modifiedTime": 1673331021109,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "66Qr9yFJa2xbIJ4R",
+  "_key": "!items!66Qr9yFJa2xbIJ4R"
+}

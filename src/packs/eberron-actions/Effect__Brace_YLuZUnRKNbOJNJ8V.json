@@ -1,0 +1,83 @@
+{
+  "_id": "YLuZUnRKNbOJNJ8V",
+  "name": "Effect: Brace",
+  "type": "effect",
+  "img": "systems/pf2e/icons/default-icons/armor.svg",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.h69TSPToW1NBsWIV"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You brace yourself to take a hit, using your thick skin and fortitude to protect yourself. You gain a +1 circumstance bonus to AC. </p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "beasthide"
+        ],
+        "label": "Brace",
+        "selector": "ac",
+        "type": "circumstance",
+        "value": 1
+      }
+    ],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:02:51.534-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "sustained": false,
+      "expiry": "turn-start"
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "target": null,
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672959771581,
+    "modifiedTime": 1672959940679,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "_key": "!items!YLuZUnRKNbOJNJ8V"
+}

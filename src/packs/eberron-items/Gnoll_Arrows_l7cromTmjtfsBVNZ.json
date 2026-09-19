@@ -1,0 +1,127 @@
+{
+  "name": "Gnoll Arrows",
+  "type": "consumable",
+  "img": "systems/pf2e/icons/equipment/weapons/arrows.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.equipment-srd.w2ENw2VMPcsbif8g"
+    }
+  },
+  "_id": "l7cromTmjtfsBVNZ",
+  "system": {
+    "description": {
+      "value": "<p>These projectiles are the only ammunition that can withstand the force of gnoll bows. The shaft of an arrow is made of darkwood. It is stabilized in flight by fletching at one end and bears a metal head on the other. To craft gnoll arrows, you must have at least 2cp worth of darkwood to form the shaft of the arrow. <br /> </p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [],
+      "rarity": "common",
+      "custom": "",
+      "otherTags": []
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:11.007-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "quantity": 10,
+    "baseItem": null,
+    "hp": {
+      "brokenThreshold": 0,
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "weight": {
+      "value": "L"
+    },
+    "equippedBulk": {
+      "value": ""
+    },
+    "price": {
+      "value": {
+        "sp": 2
+      },
+      "per": 10
+    },
+    "equipped": {
+      "carryType": "worn",
+      "-=inSlot": null,
+      "handsHeld": 0
+    },
+    "stackGroup": "arrows",
+    "negateBulk": {
+      "value": "0"
+    },
+    "containerId": null,
+    "preciousMaterial": {
+      "value": ""
+    },
+    "preciousMaterialGrade": {
+      "value": ""
+    },
+    "size": "med",
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Ammunition",
+        "img": "systems/pf2e/icons/unidentified_item_icons/ammunition.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "level": {
+      "value": 0
+    },
+    "consumableType": {
+      "value": "ammo"
+    },
+    "charges": {
+      "value": 0,
+      "max": 0,
+      "_deprecated": true
+    },
+    "consume": {
+      "value": "",
+      "_deprecated": true
+    },
+    "autoDestroy": {
+      "value": true,
+      "_deprecated": true
+    },
+    "spell": null
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960331171,
+    "modifiedTime": 1681691315128,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!l7cromTmjtfsBVNZ"
+}

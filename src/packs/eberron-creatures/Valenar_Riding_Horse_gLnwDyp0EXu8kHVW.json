@@ -1,0 +1,556 @@
+{
+  "name": "Valenar Riding Horse",
+  "type": "npc",
+  "prototypeToken": {
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "name": "Valenar Riding Horse",
+    "displayName": 0,
+    "actorLink": false,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/npc.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": null
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": null,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "randomImg": false
+  },
+  "img": "systems/pf2e/icons/default-icons/npc.svg",
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 42,
+        "temp": 0,
+        "max": 42,
+        "details": ""
+      },
+      "initiative": {
+        "ability": "perception"
+      },
+      "speed": {
+        "value": 45,
+        "otherSpeeds": [],
+        "details": ""
+      },
+      "ac": {
+        "value": 18,
+        "details": ""
+      },
+      "perception": {
+        "value": 9
+      },
+      "allSaves": {
+        "value": ""
+      }
+    },
+    "details": {
+      "alignment": {
+        "value": "N"
+      },
+      "level": {
+        "value": 3
+      },
+      "source": {
+        "value": "Pathfinder's Guide to Eberron",
+        "author": ""
+      },
+      "creatureType": "",
+      "blurb": "",
+      "publicNotes": "<p><em>This fine horse is majestically tall and deservedly proud. Its lush coat is white on the belly, tan on the back, and dark brown on the sides, almost suggesting the coloration of an antelope.</em></p>\n<p>The fastest horses in Khorvaire, Valenar riding horses are bred by the elves of Valenar.</p>",
+      "privateNotes": ""
+    },
+    "traits": {
+      "value": [
+        "beast",
+        "fey"
+      ],
+      "senses": {
+        "value": ""
+      },
+      "languages": {
+        "value": [
+          "elven",
+          "sylvan"
+        ],
+        "selected": [],
+        "custom": "can't speak any language"
+      },
+      "rarity": "common",
+      "size": {
+        "value": "lg"
+      }
+    },
+    "resources": {},
+    "schema": {
+      "version": null,
+      "lastMigration": null
+    },
+    "abilities": {
+      "str": {
+        "mod": 4
+      },
+      "dex": {
+        "mod": 3
+      },
+      "con": {
+        "mod": 4
+      },
+      "int": {
+        "mod": -3
+      },
+      "wis": {
+        "mod": 3
+      },
+      "cha": {
+        "mod": 1
+      }
+    },
+    "saves": {
+      "fortitude": {
+        "value": 11,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 8,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 8,
+        "saveDetail": ""
+      }
+    }
+  },
+  "items": [
+    {
+      "name": "Acrobatics",
+      "type": "lore",
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": "Pathfinder's Guide to Eberron"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.812,
+          "lastMigration": null
+        },
+        "mod": {
+          "value": 8
+        },
+        "proficient": {
+          "value": 0
+        }
+      },
+      "_id": "FgknpcaWoDHGpahN",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "lxzmymmFddOcN8CB": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.6.3",
+        "coreVersion": "10.291",
+        "createdTime": 1673110259482,
+        "modifiedTime": 1673110264958,
+        "lastModifiedBy": "lxzmymmFddOcN8CB"
+      },
+      "_key": "!actors.items!gLnwDyp0EXu8kHVW.FgknpcaWoDHGpahN"
+    },
+    {
+      "name": "Athletics",
+      "type": "lore",
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": "Pathfinder's Guide to Eberron"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.812,
+          "lastMigration": null
+        },
+        "mod": {
+          "value": 9
+        },
+        "proficient": {
+          "value": 0
+        }
+      },
+      "_id": "OuKhNIDM2BtYdkBx",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "lxzmymmFddOcN8CB": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.6.3",
+        "coreVersion": "10.291",
+        "createdTime": 1673110261106,
+        "modifiedTime": 1673110264958,
+        "lastModifiedBy": "lxzmymmFddOcN8CB"
+      },
+      "_key": "!actors.items!gLnwDyp0EXu8kHVW.OuKhNIDM2BtYdkBx"
+    },
+    {
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Hoof",
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": "Pathfinder's Guide to Eberron"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.812,
+          "lastMigration": {
+            "datetime": "2023-01-07T08:54:44.092-08:00",
+            "version": {
+              "schema": null,
+              "foundry": "10.291",
+              "system": "4.6.3"
+            }
+          }
+        },
+        "weaponType": {
+          "value": "melee"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {
+          "nHA6j0DSgU6V7bMb": {
+            "damage": "1d6+4",
+            "damageType": "bludgeoning"
+          }
+        },
+        "bonus": {
+          "value": 9
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "_id": "pZffJYbNA9JequR3",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "lxzmymmFddOcN8CB": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.6.3",
+        "coreVersion": "10.291",
+        "createdTime": 1673110484100,
+        "modifiedTime": 1673110498067,
+        "lastModifiedBy": "lxzmymmFddOcN8CB"
+      },
+      "_key": "!actors.items!gLnwDyp0EXu8kHVW.pZffJYbNA9JequR3"
+    },
+    {
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/TwoActions.webp",
+      "name": "Gallop",
+      "system": {
+        "description": {
+          "value": "<p>The valenar riding horse Strides twice. It has a +10-foot circumstance bonus to its Speed during these Strides.</p>"
+        },
+        "source": {
+          "value": "Pathfinder's Guide to Eberron"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.812,
+          "lastMigration": {
+            "datetime": "2023-01-07T08:55:06.305-08:00",
+            "version": {
+              "schema": null,
+              "foundry": "10.291",
+              "system": "4.6.3"
+            }
+          }
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actionCategory": {
+          "value": ""
+        },
+        "actions": {
+          "value": 2
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false
+      },
+      "_id": "LbSSSjhcubX2tbSD",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "lxzmymmFddOcN8CB": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.6.3",
+        "coreVersion": "10.291",
+        "createdTime": 1673110506317,
+        "modifiedTime": 1673110520846,
+        "lastModifiedBy": "lxzmymmFddOcN8CB"
+      },
+      "_key": "!actors.items!gLnwDyp0EXu8kHVW.LbSSSjhcubX2tbSD"
+    },
+    {
+      "_id": "r3xHO1PjpiqrgO1e",
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "name": "Buck",
+      "system": {
+        "description": {
+          "value": "<p>@Check[type:reflex|dc:21]</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Buck]</p>"
+        },
+        "source": {
+          "value": "Pathfinder Bestiary"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": "buck",
+        "schema": {
+          "version": 0.812,
+          "lastMigration": null
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actionCategory": {
+          "value": "defensive"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "type": "action",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.nZMQh4AaBr291TUf"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "lxzmymmFddOcN8CB": 3
+      },
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.6.3",
+        "coreVersion": "10.291",
+        "createdTime": 1673110577613,
+        "modifiedTime": 1673110626074,
+        "lastModifiedBy": "lxzmymmFddOcN8CB"
+      },
+      "_key": "!actors.items!gLnwDyp0EXu8kHVW.r3xHO1PjpiqrgO1e"
+    },
+    {
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Bonded",
+      "system": {
+        "description": {
+          "value": "<p>When a valenar steed chooses to bond with a creature, after 1 hour in a willing creature's presence, the creature and the valenar steed become bonded. The steed and the bonded creature can communicate telepathically with each other at a distance of up to 100 feet. The valenar steed can communicate with simple emotions and visions, it still cannot speak.</p>"
+        },
+        "source": {
+          "value": "Pathfinder's Guide to Eberron"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.812,
+          "lastMigration": {
+            "datetime": "2023-01-07T08:57:18.015-08:00",
+            "version": {
+              "schema": null,
+              "foundry": "10.291",
+              "system": "4.6.3"
+            }
+          }
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": ""
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false
+      },
+      "_id": "czs0SG6Ll2dg9ZIJ",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "lxzmymmFddOcN8CB": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.6.3",
+        "coreVersion": "10.291",
+        "createdTime": 1673110638023,
+        "modifiedTime": 1673110650779,
+        "lastModifiedBy": "lxzmymmFddOcN8CB"
+      },
+      "_key": "!actors.items!gLnwDyp0EXu8kHVW.czs0SG6Ll2dg9ZIJ"
+    }
+  ],
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1673110174690,
+    "modifiedTime": 1673116172107,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_id": "gLnwDyp0EXu8kHVW",
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "folder": null,
+  "sort": 0,
+  "_key": "!actors!gLnwDyp0EXu8kHVW"
+}

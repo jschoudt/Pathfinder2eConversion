@@ -1,0 +1,96 @@
+{
+  "name": "Onatar: God of Artifice and the Forge",
+  "type": "deity",
+  "img": "systems/pf2e/icons/default-icons/deity.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.deities.bLI1JMpI2GXQT5AC"
+    }
+  },
+  "_id": "eSiXF3QDZzOnobQs",
+  "system": {
+    "description": {
+      "value": "<p>Onatar is the patron of all those who make things, in particular artisans and artificers.<br /><strong>Areas of Concern</strong> Crafts, weapons, tools, smithing, fire, innovation<br /><strong>Alignment</strong> NG<br /><strong>Divine Font</strong> Heal<br /><strong>Divine Ability</strong> Strength or Intelligence<br /><strong>Divine Skill</strong> Crafting<br /><strong>Domains</strong> Creation, Fire, Toil<br /><strong>Cleric Spells</strong> 1st: temporary tool, 4th: creation, 7th: duplicate foe<br /><strong>Edicts</strong> Craft new creations, pay attention to details, share achievements.<br /><strong>Anathema</strong> Carelessly destroy others’ creations or research, enslave intelligent constructs, abuse constructs, refuse to acknowledge or learn from mistakes.<br /><strong>Favoured Weapon</strong> Warhammer</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "category": "deity",
+    "alignment": {
+      "own": "NG",
+      "follower": [
+        "LG",
+        "NG",
+        "CG",
+        "LN",
+        "N",
+        "CN",
+        "LE",
+        "NE",
+        "CE"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "creation",
+        "fire",
+        "toil"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "heal"
+    ],
+    "ability": [
+      "str",
+      "int"
+    ],
+    "skill": "cra",
+    "weapons": [
+      "warhammer"
+    ],
+    "spells": {
+      "1": "Compendium.pf2e.spells-srd.TPI9fRCAYsDqpAe4",
+      "4": "Compendium.pf2e.spells-srd.TUj8eugNqAvB1vVR",
+      "7": "Compendium.pf2e.spells-srd.73rToy0v5Ra9NvL6"
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:11:50.162-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "attribute": [
+      "str",
+      "int"
+    ],
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder's Guide to Eberron"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960310198,
+    "modifiedTime": 1675018134155,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!eSiXF3QDZzOnobQs"
+}

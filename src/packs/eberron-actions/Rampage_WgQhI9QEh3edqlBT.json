@@ -1,0 +1,71 @@
+{
+  "name": "Rampage",
+  "type": "action",
+  "img": "systems/pf2e/icons/actions/Reaction.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.NKTyRylnKDiuwJTQ"
+    }
+  },
+  "_id": "WgQhI9QEh3edqlBT",
+  "system": {
+    "description": {
+      "value": "<p class=\"hang\"><strong>Frequency</strong> Once per day</p>\n<p class=\"hang\"><strong>Trigger</strong> You reduce a creature to 0 hp.</p>\n<hr />\n<p class=\"hang\"> </p>\n<p>You take advantage of the opening. You may spend your reaction to step, stride half your speed, or make a strike.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "gnoll"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:02:51.531-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "actionType": {
+      "value": "reaction"
+    },
+    "actionCategory": {
+      "value": ""
+    },
+    "actions": {
+      "value": null
+    },
+    "requirements": {
+      "value": ""
+    },
+    "trigger": {
+      "value": ""
+    },
+    "deathNote": false
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672959771579,
+    "modifiedTime": 1672959940678,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "_key": "!items!WgQhI9QEh3edqlBT"
+}

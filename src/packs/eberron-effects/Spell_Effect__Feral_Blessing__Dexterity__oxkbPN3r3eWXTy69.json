@@ -1,0 +1,88 @@
+{
+  "_id": "oxkbPN3r3eWXTy69",
+  "name": "Spell Effect: Feral Blessing (Dexterity)",
+  "type": "effect",
+  "img": "systems/pf2e/icons/spells/bless.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.spell-effects.Gqy7K6FnbLtwGpud"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pathfinders-guide-to-eberron-compendium.eberron-spells.0qSsqg4MPHBlWvMl]{Feral Blessing}</p>\n<p>Grant a willing creature a +1 status bonus to Dexterity.</p>\n<p> </p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "label": "Feral Blessing",
+        "selector": "dex-based",
+        "type": "status",
+        "value": 1
+      },
+      {
+        "key": "FlatModifier",
+        "label": "Feral Blessing",
+        "selector": "dex-attack",
+        "type": "status",
+        "value": 1
+      }
+    ],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:11:57.253-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 0
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "sustained": false,
+      "expiry": "turn-start"
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "target": null,
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960317264,
+    "modifiedTime": 1673108348611,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!oxkbPN3r3eWXTy69"
+}

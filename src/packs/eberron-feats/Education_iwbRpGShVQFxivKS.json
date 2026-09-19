@@ -1,0 +1,79 @@
+{
+  "name": "Education",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.spDRMswCVlTzhw20"
+    }
+  },
+  "_id": "iwbRpGShVQFxivKS",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"hang\"><strong>Prerequisite</strong> you may only take this feat at 1st level</p>\n<hr />\n<p>Some lands hold the pen in higher regard than the sword. In your youth, you received the benefit of several years of formal schooling. You become trained in one skill and an additional lore of your choice. At 5th level, you become an expert in the lore.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:02.623-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 1
+    },
+    "traits": {
+      "value": [
+        "general"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "category": "general",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "you may only take this feat at 1st level"
+        }
+      ]
+    },
+    "location": null,
+    "featType": {
+      "value": "general"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.10.4",
+    "coreVersion": "10.291",
+    "createdTime": 1672960323118,
+    "modifiedTime": 1691632684750,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!iwbRpGShVQFxivKS"
+}

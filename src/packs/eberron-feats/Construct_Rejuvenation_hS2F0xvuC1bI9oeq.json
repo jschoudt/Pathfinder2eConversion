@@ -1,0 +1,75 @@
+{
+  "name": "Construct Rejuvenation",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.feats-srd.bJzANqEGTkho1bv6"
+    }
+  },
+  "_id": "hS2F0xvuC1bI9oeq",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "\n\n\n\n<p class=\"hang\"><strong>Frequency</strong> once per day</p>\n<p class=\"hang\"><strong>Trigger</strong> You have the dying condition and are about to attempt a recovery check.</p>\n<hr />\n<p>Your willpower taps into the physical essence of your construction to push against the grasp of death and allow you to recover consciousness. You're restored to 1 Hit Point, lose the dying and unconscious conditions, and can act normally on this turn. You gain or increase the wounded condition as normal when losing the dying condition in this way.</p>\n<p class=\"hang\"> </p>\n<p class=\"hang\"><strong>Enhancement</strong> You can push yourself even harder to rise from death, granting you additional benefits. When you use Construct Rejuvenation, you also gain a number of temporary Hit Points equal to three times your level. These Hit Points remain for 1 minute.</p>\n"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:02.583-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 13
+    },
+    "traits": {
+      "value": [
+        "hb_warforged"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "featType": {
+      "value": "ancestry"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.10.4",
+    "coreVersion": "10.291",
+    "createdTime": 1672960323116,
+    "modifiedTime": 1691632546851,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!hS2F0xvuC1bI9oeq"
+}

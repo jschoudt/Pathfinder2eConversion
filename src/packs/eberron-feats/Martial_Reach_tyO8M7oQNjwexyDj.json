@@ -1,0 +1,78 @@
+{
+  "_id": "tyO8M7oQNjwexyDj",
+  "name": "Martial Reach",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.feats-srd.n9CBjyiB17srkyr4"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Prerequisite</strong> Unarmed Stance</p>\n<hr />\n<p>Your weapons become extensions of your limbs on the battlefield, and you can extend the reach of your weapon attacks. While in the Unarmed Stance and wielding any Melee weapon with which you are at least trained, it gains the Reach trait. If it already has the reach trait, the trait stacks.</p>\n<p> </p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:02.842-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 17
+    },
+    "traits": {
+      "value": [
+        "hb_bugbear"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Unarmed Stance"
+        }
+      ]
+    },
+    "location": null,
+    "featType": {
+      "value": "ancestry"
+    }
+  },
+  "ownership": {
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.10.4",
+    "coreVersion": "10.291",
+    "createdTime": 1672960323128,
+    "modifiedTime": 1691632944207,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!tyO8M7oQNjwexyDj"
+}

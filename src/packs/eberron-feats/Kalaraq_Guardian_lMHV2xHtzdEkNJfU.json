@@ -1,0 +1,79 @@
+{
+  "name": "Kalaraq Guardian",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.nOJVOBFMt16FIMA3"
+    }
+  },
+  "_id": "lMHV2xHtzdEkNJfU",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"hang\"><strong>Prerequisites</strong> Kalaraq Kalashtar heritage<br /><strong>Trigger</strong> An ally under the effects of your Link Minds is hit by an attack or must make a saving throw, and the +1 circumstance bonus will change the level of success.</p>\n<hr />\n<p>The Kalaraq are the natural leaders of the Quori and can guide their followers to stand resolute. While an ally is under the effects of your Link Minds, you can choose to grant them a +1 circumstance bonus to their AC or saving throw.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:02.708-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 5
+    },
+    "traits": {
+      "value": [
+        "hb_kalashtar"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Kalaraq Kalashtar heritage"
+        }
+      ]
+    },
+    "location": null,
+    "featType": {
+      "value": "ancestry"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.10.4",
+    "coreVersion": "10.291",
+    "createdTime": 1672960323121,
+    "modifiedTime": 1691632893932,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!lMHV2xHtzdEkNJfU"
+}

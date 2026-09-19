@@ -1,0 +1,597 @@
+{
+  "name": "Fastieth",
+  "type": "npc",
+  "prototypeToken": {
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "name": "Clawfoot",
+    "displayName": 0,
+    "actorLink": false,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/npc.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": null
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": null,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "randomImg": false
+  },
+  "img": "systems/pf2e/icons/default-icons/npc.svg",
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 25,
+        "temp": 0,
+        "max": 25,
+        "details": ""
+      },
+      "initiative": {
+        "ability": "perception"
+      },
+      "speed": {
+        "value": 35,
+        "otherSpeeds": [],
+        "details": ""
+      },
+      "ac": {
+        "value": 18,
+        "details": ""
+      },
+      "perception": {
+        "value": 8
+      },
+      "allSaves": {
+        "value": ""
+      }
+    },
+    "details": {
+      "alignment": {
+        "value": "N"
+      },
+      "level": {
+        "value": 1
+      },
+      "source": {
+        "value": "Pathfinder's Guide to Eberron",
+        "author": ""
+      },
+      "creatureType": "",
+      "blurb": "",
+      "publicNotes": "\n<p><em>This two-legged lizard boasts sharp teeth and a toe claw that looks like a small sickle. It is no larger than a tall human, but looks like it could easily take down much larger prey.</em></p>\n<p>In the wild, an untrained clawfoot can easily hold its own in combat, but they are even fiercer when hunting in packs. Their instinct for pack structure has made these dinosaurs a traditional war mount for the halflings of the Talenta Plains, with clawfoots quickly and eagerly responding to training and control.</p>\n",
+      "privateNotes": ""
+    },
+    "traits": {
+      "value": [
+        "animal",
+        "dinosaur"
+      ],
+      "senses": {
+        "value": ""
+      },
+      "languages": {
+        "value": [],
+        "selected": [],
+        "custom": ""
+      },
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      }
+    },
+    "resources": {},
+    "schema": {
+      "version": null,
+      "lastMigration": null
+    },
+    "abilities": {
+      "str": {
+        "mod": 3
+      },
+      "dex": {
+        "mod": 4
+      },
+      "con": {
+        "mod": 2
+      },
+      "int": {
+        "mod": -4
+      },
+      "wis": {
+        "mod": 1
+      },
+      "cha": {
+        "mod": -2
+      }
+    },
+    "saves": {
+      "fortitude": {
+        "value": 8,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 9,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 5,
+        "saveDetail": ""
+      }
+    }
+  },
+  "items": [
+    {
+      "name": "Acrobatics",
+      "type": "lore",
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": "Pathfinder's Guide to Eberron"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.812,
+          "lastMigration": null
+        },
+        "mod": {
+          "value": 8
+        },
+        "proficient": {
+          "value": 1
+        }
+      },
+      "_id": "Nk019mRkkBUvMXlc",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "lxzmymmFddOcN8CB": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.6.3",
+        "coreVersion": "10.291",
+        "createdTime": 1673109419767,
+        "modifiedTime": 1673109513251,
+        "lastModifiedBy": "lxzmymmFddOcN8CB"
+      },
+      "_key": "!actors.items!xzk2uCcNxRCObw89.Nk019mRkkBUvMXlc"
+    },
+    {
+      "name": "Athletics",
+      "type": "lore",
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": "Pathfinder's Guide to Eberron"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.812,
+          "lastMigration": null
+        },
+        "mod": {
+          "value": 7
+        },
+        "proficient": {
+          "value": 1
+        },
+        "variants": {
+          "0": {
+            "label": "+9 jumping",
+            "options": "action:high-jump,action:long-jump"
+          }
+        }
+      },
+      "_id": "GkSEp4pbsZqBEM9n",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "lxzmymmFddOcN8CB": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.6.3",
+        "coreVersion": "10.291",
+        "createdTime": 1673109424924,
+        "modifiedTime": 1673109540921,
+        "lastModifiedBy": "lxzmymmFddOcN8CB"
+      },
+      "_key": "!actors.items!xzk2uCcNxRCObw89.GkSEp4pbsZqBEM9n"
+    },
+    {
+      "name": "Stealth",
+      "type": "lore",
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": "Pathfinder's Guide to Eberron"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.812,
+          "lastMigration": null
+        },
+        "mod": {
+          "value": 8
+        },
+        "proficient": {
+          "value": 0
+        }
+      },
+      "_id": "afsqpMSKagvatoME",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "lxzmymmFddOcN8CB": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.6.3",
+        "coreVersion": "10.291",
+        "createdTime": 1673109565562,
+        "modifiedTime": 1673109575154,
+        "lastModifiedBy": "lxzmymmFddOcN8CB"
+      },
+      "_key": "!actors.items!xzk2uCcNxRCObw89.afsqpMSKagvatoME"
+    },
+    {
+      "name": "Survival",
+      "type": "lore",
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": "Pathfinder's Guide to Eberron"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.812,
+          "lastMigration": null
+        },
+        "mod": {
+          "value": 6
+        },
+        "proficient": {
+          "value": 0
+        }
+      },
+      "_id": "sQFVL1XLDfOfGPjn",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "lxzmymmFddOcN8CB": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.6.3",
+        "coreVersion": "10.291",
+        "createdTime": 1673109569203,
+        "modifiedTime": 1673109575154,
+        "lastModifiedBy": "lxzmymmFddOcN8CB"
+      },
+      "_key": "!actors.items!xzk2uCcNxRCObw89.sQFVL1XLDfOfGPjn"
+    },
+    {
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Jaws",
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": "Pathfinder's Guide to Eberron"
+        },
+        "traits": {
+          "value": [
+            "finesse"
+          ],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.812,
+          "lastMigration": {
+            "datetime": "2023-01-07T08:39:41.853-08:00",
+            "version": {
+              "schema": null,
+              "foundry": "10.291",
+              "system": "4.6.3"
+            }
+          }
+        },
+        "weaponType": {
+          "value": "melee"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {
+          "hsTjjEsTO3UjP4r6": {
+            "damage": "1d8+3",
+            "damageType": "piercing"
+          }
+        },
+        "bonus": {
+          "value": 9
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "_id": "3tZXMBHiduDVZmPk",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "lxzmymmFddOcN8CB": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.6.3",
+        "coreVersion": "10.291",
+        "createdTime": 1673109581860,
+        "modifiedTime": 1673109609734,
+        "lastModifiedBy": "lxzmymmFddOcN8CB"
+      },
+      "_key": "!actors.items!xzk2uCcNxRCObw89.3tZXMBHiduDVZmPk"
+    },
+    {
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Talons",
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": "Pathfinder's Guide to Eberron"
+        },
+        "traits": {
+          "value": [
+            "agile",
+            "finesse"
+          ],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.812,
+          "lastMigration": {
+            "datetime": "2023-01-07T08:40:17.343-08:00",
+            "version": {
+              "schema": null,
+              "foundry": "10.291",
+              "system": "4.6.3"
+            }
+          }
+        },
+        "weaponType": {
+          "value": "melee"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {
+          "iIk5XKY44yWORkpv": {
+            "damage": "1d6 + 3",
+            "damageType": "slashing"
+          }
+        },
+        "bonus": {
+          "value": 9
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "_id": "MYZ4AJkaOcVMeuEY",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "lxzmymmFddOcN8CB": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.6.3",
+        "coreVersion": "10.291",
+        "createdTime": 1673109617351,
+        "modifiedTime": 1673109644914,
+        "lastModifiedBy": "lxzmymmFddOcN8CB"
+      },
+      "_key": "!actors.items!xzk2uCcNxRCObw89.MYZ4AJkaOcVMeuEY"
+    },
+    {
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Leaping Charge",
+      "system": {
+        "description": {
+          "value": "<p>The clawfoot Strides up to 10 feet, ignoring difficult terrain as it leaps over obstacles. It then makes a Strike with its talons, gaining a +1 circumstance bonus to its attack roll.</p>"
+        },
+        "source": {
+          "value": "Pathfinder's Guide to Eberron"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.812,
+          "lastMigration": {
+            "datetime": "2023-01-07T08:40:52.661-08:00",
+            "version": {
+              "schema": null,
+              "foundry": "10.291",
+              "system": "4.6.3"
+            }
+          }
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": 1
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false
+      },
+      "_id": "HTL1sQx5natyCMEL",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "lxzmymmFddOcN8CB": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.6.3",
+        "coreVersion": "10.291",
+        "createdTime": 1673109652669,
+        "modifiedTime": 1673109677948,
+        "lastModifiedBy": "lxzmymmFddOcN8CB"
+      },
+      "_key": "!actors.items!xzk2uCcNxRCObw89.HTL1sQx5natyCMEL"
+    }
+  ],
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1673109324262,
+    "modifiedTime": 1673116172105,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_id": "xzk2uCcNxRCObw89",
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "folder": null,
+  "sort": 0,
+  "_key": "!actors!xzk2uCcNxRCObw89"
+}

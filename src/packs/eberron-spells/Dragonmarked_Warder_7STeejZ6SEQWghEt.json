@@ -1,0 +1,132 @@
+{
+  "name": "Dragonmarked Warder",
+  "type": "spell",
+  "img": "systems/pf2e/icons/spells/discern-secrets.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.spells-srd.UmXhuKrYZR3W16mQ"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p class=\"hang\"><strong>Cast</strong> see replicated spell; dragonmark, somatic</p>\n<p class=\"hang\"><strong>Frequency</strong> The strain of bending your dragonmark to replicate a specific spell is so great, that you can only cast this spell once per day - even if you have focus points to cast it with.</p>\n<hr />\n<p>With a concentrated effort to bend the powers of your mark, you can replicate the effects of a spell.<br />    When you begin to cast Dragonmarked Warder, you can select a spell from the Dragonmarked Warder spell list at the heightened level of this spell or lower. Dragonmarked Warder gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions. The replicated spell is automatically heightened to the level of Dragonmarked Warder.<br />    A spell cast by Dragonmarked Warder doesn’t require material or verbal components but always requires a dragonmark and somatic component. If the spell requires a focus, you must still have that focus to cast the spell, and if the spell has a cost, you must still pay that cost to cast the spell.</p>\n<h4>Dragonmarked Warder Spell List</h4>\n<table>\n<thead>\n<tr>\n<th><strong>Heightened Level</strong></th>\n<th style=\"text-align:left\"><strong>Spell</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>2</td>\n<td style=\"text-align:left\">@Compendium[pf2e.spells-srd.4WAib3GichxLjp5p]{Alarm}, @Compendium[pf2e.spells-srd.Azoh0BSoCASrA1lr]{Lock}, @Compendium[pf2e.spells-srd.MVrxZarUTnJxAUN8]{Tether}</td>\n</tr>\n<tr>\n<td>3</td>\n<td style=\"text-align:left\">@Compendium[pf2e.spells-srd.6Ot4N22t5tPD51BO]{Knock}, @Compendium[pf2e.spells-srd.2ZPqcM9wNoVnpwkK]{Magical Fetters}</td>\n</tr>\n<tr>\n<td>4</td>\n<td style=\"text-align:left\">@Compendium[pf2e.spells-srd.mpGCMTldMVa0pWYs]{Circle of Protection}, @Compendium[pf2e.spells-srd.o0l57UfBm9ScEUMW]{Glyph of Warding}</td>\n</tr>\n<tr>\n<td>5</td>\n<td style=\"text-align:left\">@Compendium[pf2e.spells-srd.ksLCg62cLOojw3gN]{Dimensional Anchor}, @Compendium[pf2e.spells-srd.onjZCEHs3JJJRTD0]{Private Sanctum}</td>\n</tr>\n<tr>\n<td>6</td>\n<td style=\"text-align:left\">@Compendium[pf2e.spells-srd.kOa055FIrO9Smnya]{Wall of Stone}</td>\n</tr>\n<tr>\n<td>7</td>\n<td style=\"text-align:left\">@Compendium[pf2e.spells-srd.XZE4BawIlTf88Yl9]{Dimensional Lock}</td>\n</tr>\n<tr>\n<td>8</td>\n<td style=\"text-align:left\">@Compendium[pf2e.spells-srd.HES5jvGiNZZnJycK]{Force Cage}</td>\n</tr>\n<tr>\n<td>9</td>\n<td style=\"text-align:left\">@Compendium[pf2e.spells-srd.wfleiawxsfhpRRwf]{Disappearance}</td>\n</tr>\n</tbody>\n</table>\n<hr />\n<p class=\"hang\"><strong>Heightened (3rd)</strong> You may cast Dragonmarked Warder up to twice per day. Only one of these casts may be from the heightened level 4 or above.</p>\n<p class=\"hang\"><strong>Heightened (6th)</strong> You may cast Dragonmarked Warder up to three times per day. Only one of these casts may be from the heightened level 4 or above.</p>\n<p class=\"hang\"><strong>Heightened (7th)</strong> You may cast Dragonmarked Warder up to three times per day. Only one of these casts may be from the heightened level 6 or above.</p>\n<p class=\"hang\"><strong>Heightened (9th)</strong> Spells of the third heightened level or lower do not count against the frequency of Dragonmarked Warder.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "hb_dragonmark",
+        "hb_mark-of-warding"
+      ],
+      "rarity": "uncommon",
+      "custom": ""
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:15.886-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 2
+    },
+    "spellType": {
+      "value": "utility"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": [
+        "arcane",
+        "divine",
+        "occult",
+        "primal"
+      ]
+    },
+    "school": {
+      "value": "abjuration"
+    },
+    "components": {
+      "focus": true,
+      "material": false,
+      "somatic": true,
+      "verbal": false
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "-"
+    },
+    "duration": {
+      "value": ""
+    },
+    "damage": {
+      "value": {}
+    },
+    "save": {
+      "value": "",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "ability": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "hasCounteractCheck": {
+      "value": false
+    },
+    "prepared": {
+      "value": ""
+    },
+    "primarycheck": {
+      "value": ""
+    },
+    "secondarycasters": {
+      "value": ""
+    },
+    "secondarycheck": {
+      "value": ""
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960336260,
+    "modifiedTime": 1681696337585,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_id": "7STeejZ6SEQWghEt",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "_key": "!items!7STeejZ6SEQWghEt"
+}

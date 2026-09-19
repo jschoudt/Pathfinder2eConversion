@@ -1,0 +1,79 @@
+{
+  "name": "Channel Fear",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.m8GohoiRfeHxYVxo"
+    }
+  },
+  "_id": "MTnMMcoxm4Ot397a",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"hang\"><strong>Prerequisites</strong> Tsucora Kalashtar heritage</p>\n<hr />\n<p> </p>\n<p>No matter the confidence a creature projects, everyone has nightmares. You can manipulate the subtle fears that haunt a creature's dreams. You can cast @Compendium[pf2e.spells-srd.4koZzrnMXhhosn0D]{Fear} once per day as a 1st-level occult innate spell. </p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:02.019-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 5
+    },
+    "traits": {
+      "value": [
+        "hb_kalashtar"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Tsucora Kalashtar heritage"
+        }
+      ]
+    },
+    "location": null,
+    "featType": {
+      "value": "ancestry"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.10.4",
+    "coreVersion": "10.291",
+    "createdTime": 1672960322346,
+    "modifiedTime": 1691632508811,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!MTnMMcoxm4Ot397a"
+}

@@ -1,0 +1,77 @@
+{
+  "name": "Lesser Mark",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.XyfRuGZL5ty4Peqo"
+    }
+  },
+  "_id": "0E2eLnTqbmS2yfmn",
+  "system": {
+    "description": {
+      "value": "<blockquote>\n<p><strong>Foundry VTT Implementation Note</strong>:<strong> </strong>Dragonmark Spell Proficiency must be tracked by alternate means - no Dragonmark Spell Proficiency exists. Select a spell Tradition you do not have access to, and use that as a placeholder for your Dragonmark Spell Proficiency.</p>\n</blockquote>\n<p> </p>\n\n\n<p>Your dragonmark grows along with your powers. You may select a new dragonmark Focus Spell, however, you do not increase your Focus Pool. </p>\n<p>When you gain new dragonmark focus spells, you may select from any focus spell with the Dragonmark trait and the same trait as your Mark (e.g. Mark of Detection). The spell you select may be up to half your level rounded up, but no more than 6th level.</p>\n<p>You become expert in Dragonmark attack rolls and DCs.</p>\n\n<h4> </h4>\n"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "hb_dragonmarked-heritage"
+      ],
+      "rarity": "uncommon",
+      "custom": ""
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:11:53.734-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 5
+    },
+    "featType": {
+      "value": "ancestry"
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Least Mark"
+        }
+      ]
+    },
+    "location": null
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960313888,
+    "modifiedTime": 1681690769572,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!0E2eLnTqbmS2yfmn"
+}

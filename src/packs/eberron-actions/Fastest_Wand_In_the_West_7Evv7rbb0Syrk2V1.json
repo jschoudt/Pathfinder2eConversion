@@ -1,0 +1,71 @@
+{
+  "name": "Fastest Wand In the West",
+  "type": "action",
+  "img": "systems/pf2e/icons/actions/FreeAction.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.actionspf2e.TSDbyYRQwhIyY2Oq"
+    }
+  },
+  "_id": "7Evv7rbb0Syrk2V1",
+  "system": {
+    "description": {
+      "value": "<p class=\"hang\"><strong>Trigger</strong> You use Spellfire to replace a ranged firearm strike.</p>\n<p class=\"hang\"><strong>Frequency</strong> until recharged (see below)</p>\n<hr />\n<p>You are the fastest wand in the west, east, south, and north. When you use Spellfire to replace a ranged firearm strike, you may interact to stow the wand, draw a loaded firearm, and make a regular strike as well. The spell follows the rules for Spellfire, while the strike follows the regular strike rules including multiple targets. This counts as an additional attack for your multiple attack penalty, but you don't apply the penalty until after you've completed strike. </p>\n<p class=\"hang\"> </p>\n<p>After you use Fastest Wand In the West, you can't do so again until you dissipate the arcane charge built up around you as a single action, which has the concentrate trait.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "hb_wandslinger"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [],
+    "slug": "fastest-wand-in-the-west",
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:02:51.517-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "actionType": {
+      "value": "free"
+    },
+    "actionCategory": {
+      "value": "offensive"
+    },
+    "actions": {
+      "value": null
+    },
+    "requirements": {
+      "value": ""
+    },
+    "trigger": {
+      "value": ""
+    },
+    "deathNote": false
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672959771568,
+    "modifiedTime": 1675017686517,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "_key": "!items!7Evv7rbb0Syrk2V1"
+}

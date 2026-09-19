@@ -1,0 +1,99 @@
+{
+  "name": "Boldrei: Goddess of Community and Hearth",
+  "type": "deity",
+  "img": "systems/pf2e/icons/default-icons/deity.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.deities.bLI1JMpI2GXQT5AC"
+    }
+  },
+  "_id": "04T4FBUR7FgfB9EV",
+  "system": {
+    "description": {
+      "value": "<p>Boldrei is the lawful good deity of community.<br /><strong>Areas of Concern</strong> Hearth, community, marriage, government<br /><strong>Alignment</strong> LG<br /><strong>Divine Font</strong> Heal<br /><strong>Divine Ability</strong> Constitution or Wisdom <br /><strong>Divine Skill</strong> Diplomacy<br /><strong>Domains</strong> Cities, duty, family, protection, truth<br /><strong>Cleric Spells</strong> 1st: share lore, 4th: shape stone, 5th: wall of stone <br /><strong>Edicts</strong> Seek to improve yourself and your community, trust those you work with, encourage cooperation.<br /><strong>Anathema</strong> Betray another's trust, harm your community, place conflict of ideological differences over people's lives.<br /><strong>Favoured Weapon</strong> Spear</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "category": "deity",
+    "alignment": {
+      "own": "LG",
+      "follower": [
+        "LG",
+        "NG",
+        "CG",
+        "LN",
+        "N",
+        "CN",
+        "LE",
+        "NE",
+        "CE"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "family",
+        "cities",
+        "duty",
+        "protection"
+      ],
+      "alternate": [
+        "truth"
+      ]
+    },
+    "font": [
+      "heal"
+    ],
+    "ability": [
+      "wis",
+      "con"
+    ],
+    "skill": "dip",
+    "weapons": [
+      "spear"
+    ],
+    "spells": {
+      "1": "Compendium.pf2e.spells-srd.nXmC2Xx9WmS5NsAo",
+      "4": "Compendium.pf2e.spells-srd.McnPlLFvKtQVXNcG",
+      "5": "Compendium.pf2e.spells-srd.kOa055FIrO9Smnya"
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:11:50.099-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "attribute": [
+      "wis",
+      "con"
+    ],
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder's Guide to Eberron"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960310184,
+    "modifiedTime": 1675018096893,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!04T4FBUR7FgfB9EV"
+}

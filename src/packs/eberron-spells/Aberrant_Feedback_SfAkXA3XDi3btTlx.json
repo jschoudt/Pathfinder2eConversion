@@ -1,0 +1,138 @@
+{
+  "name": "Aberrant Feedback",
+  "type": "spell",
+  "img": "systems/pf2e/icons/spells/discern-secrets.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.spells-srd.UmXhuKrYZR3W16mQ"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>One of the reasons that aberrant marks are so feared, is their potential for causing unintentional harm resulting from their use. The Aberrant Feedback trait applies to most spells that an aberrant mark can cast.</p>\n<p>After you cast a focus spell with the Aberrant Feedback trait, you must make @Check[type:flat|dc:5] On a failure, you increase your @Compendium[pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained} condition by 1. On a critical failure, a random creature within 30 feet of the caster (potentially including the caster) takes 1d4 @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Persistent Damage} acid, cold, fire, bleeding, or poison damage of the GM's choice. This is in addition to increasing the caster's drained condition. The number of damage dice increases to two with a Lesser Mark, three with a Greater Mark, and four with a Siberys Mark.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "hb_aberrant-feedback",
+        "hb_aberrant-mark",
+        "cantrip",
+        "hb_dragonmark"
+      ],
+      "rarity": "uncommon",
+      "custom": ""
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:16.140-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 1
+    },
+    "spellType": {
+      "value": "save"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": [
+        "arcane",
+        "divine",
+        "occult",
+        "primal"
+      ]
+    },
+    "school": {
+      "value": "evocation"
+    },
+    "components": {
+      "focus": true,
+      "material": false,
+      "somatic": true,
+      "verbal": false
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": ""
+    },
+    "duration": {
+      "value": ""
+    },
+    "damage": {
+      "value": {}
+    },
+    "save": {
+      "value": "will",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "ability": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "hasCounteractCheck": {
+      "value": false
+    },
+    "prepared": {
+      "value": ""
+    },
+    "primarycheck": {
+      "value": ""
+    },
+    "secondarycasters": {
+      "value": ""
+    },
+    "secondarycheck": {
+      "value": ""
+    },
+    "overlays": {},
+    "heightening": {
+      "damage": {}
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960336274,
+    "modifiedTime": 1675020472737,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "SfAkXA3XDi3btTlx",
+  "_key": "!items!SfAkXA3XDi3btTlx"
+}

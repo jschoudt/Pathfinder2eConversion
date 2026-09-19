@@ -1,0 +1,75 @@
+{
+  "name": "Skin Glider",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.y3MWNTGuJE1150l0"
+    }
+  },
+  "_id": "zy0V6IMm0dvgLyoT",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"hang\"><strong>Trigger</strong> You begin to fall more than 30 feet.</p>\n<hr />\n<p>When you begin to fall, you're able to shift your shape to maximize your air resistance, not unlike a flying squirrel. Your fall slows to 60 feet per round. This rapid change is extremely obvious to any observers watching, and all of them become aware that you are a changeling.</p>\n<p class=\"hang\"> </p>\n<p class=\"hang\"><strong>Special</strong> If you have the Rapid Shift feat, the trigger is instead when you begin to fall more than 5 feet.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:02.974-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 5
+    },
+    "traits": {
+      "value": [
+        "hb_eberron-changelings"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "featType": {
+      "value": "ancestry"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.10.4",
+    "coreVersion": "10.291",
+    "createdTime": 1672960323133,
+    "modifiedTime": 1691633215571,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!zy0V6IMm0dvgLyoT"
+}

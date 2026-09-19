@@ -1,0 +1,99 @@
+{
+  "name": "The Spirits of the Past",
+  "type": "deity",
+  "img": "systems/pf2e/icons/default-icons/deity.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.deities.bLI1JMpI2GXQT5AC"
+    }
+  },
+  "_id": "m6kwJOWLetBYAg8X",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The Tairnadal elves of Valenar and Northern Aerenal worship the spirits of their past lives.</p>\n<p><strong>Areas of Concern</strong> Glory, battle, bravery, honour<br /><strong>Alignment</strong> N<br /><strong>Divine Font</strong> Heal or Harm<br /><strong>Divine Ability</strong> Strength or Constitution<br /><strong>Divine Skill</strong> Athletics<br /><strong>Domains</strong> Confidence, Destruction, Might, Protection, Zeal<br /><strong>Cleric Spells</strong> 1st: true strike, 2nd: enlarge, 4th: weapon storm<br /><strong>Edicts</strong> Strive to uphold the ideals of your ancestor spirit, practice with a weapon every day, destroy the negative undead.<br /><strong>Anathema</strong> Become or create undead, fail to strive to uphold your ancestor spirit, dishonour yourself, parlay with oathbreakers.<br /><strong>Favoured Weapon</strong> Double Scimitar</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:11:50.170-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "category": "deity",
+    "alignment": {
+      "own": "N",
+      "follower": [
+        "LG",
+        "NG",
+        "CG",
+        "LN",
+        "N",
+        "CN",
+        "LE",
+        "NE",
+        "CE"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "confidence",
+        "might",
+        "zeal",
+        "protection"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "ability": [
+      "con",
+      "str"
+    ],
+    "skill": "ath",
+    "weapons": [
+      "scimitar"
+    ],
+    "spells": {
+      "1": "Compendium.pf2e.spells-srd.Gb7SeieEvd0pL2Eh",
+      "2": "Compendium.pf2e.spells-srd.wzctak6BxOW8xvFV",
+      "4": "Compendium.pf2e.spells-srd.8M03UxGXjYyDFAoy"
+    },
+    "attribute": [
+      "con",
+      "str"
+    ],
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder's Guide to Eberron"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.12.9",
+    "coreVersion": "10.303",
+    "createdTime": 1672960310200,
+    "modifiedTime": 1694448293998,
+    "lastModifiedBy": "7iofgUiimTzs2vga"
+  },
+  "_key": "!items!m6kwJOWLetBYAg8X"
+}

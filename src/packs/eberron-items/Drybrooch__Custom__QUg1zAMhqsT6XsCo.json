@@ -1,0 +1,105 @@
+{
+  "name": "Drybrooch (Custom)",
+  "type": "equipment",
+  "system": {
+    "description": {
+      "value": "<p><strong>Activate</strong> <span class=\"pf2-icon\">1</span> Interact;</p>\n<p><strong>Effect</strong> While holding or wearing a drybrooch, you can activate the item to summon or dismiss a dome of energy that manifests just above your head. This energy repels moderate quantities of frozen and liquid water, such as rain, snow, bird droppings, or other similar nuisances, but can’t be used to protect against harsh environmental hazards or attacks.</p>\n<hr />\n<p> <strong>Type</strong> custom; <strong>Level</strong> 1; <strong>Price</strong> 10 gp<br />This custom drybrooch has basic illusions woven into the field. <br /><br /></p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "magical"
+      ],
+      "rarity": "common",
+      "custom": "",
+      "otherTags": []
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": null
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "hp": {
+      "brokenThreshold": 0,
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "weight": {
+      "value": "-"
+    },
+    "equippedBulk": {
+      "value": ""
+    },
+    "price": {
+      "value": {
+        "gp": 10
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "-=inSlot": null,
+      "handsHeld": 0
+    },
+    "stackGroup": null,
+    "negateBulk": {
+      "value": "0"
+    },
+    "containerId": null,
+    "preciousMaterial": {
+      "value": null
+    },
+    "preciousMaterialGrade": {
+      "value": null
+    },
+    "size": "med",
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "worn"
+    },
+    "level": {
+      "value": 1
+    }
+  },
+  "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/broach-of-shielding.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.QUg1zAMhqsT6XsCo"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1673120348983,
+    "modifiedTime": 1675019420359,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_id": "QUg1zAMhqsT6XsCo",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "_key": "!items!QUg1zAMhqsT6XsCo"
+}

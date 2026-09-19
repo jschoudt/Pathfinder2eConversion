@@ -1,0 +1,78 @@
+{
+  "name": "Juvenile Flight",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.feats-srd.bEh5qUgX5eFaQwzU"
+    }
+  },
+  "_id": "zCUOmp4lf2L6e2qC",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "\n\n<p class=\"hang\"><strong>Frequency</strong> once per day</p>\n<p class=\"hang\"><strong>Requirements</strong> You can use change shape</p>\n<hr />\n<p>You shift into your hybrid form, with special focus on your wings. You can keep this form for 10 minutes. You gain a fly Speed equal to your land Speed while your wings are unfurled. If you have Fledgling Flight, you gain a +10-foot status bonus to your fly Speed with Juvenile Flight. As normal, since your fly Speed is derived from your land Speed, this status bonus isn't cumulative with a status bonus to your land Speed, if you have one. This transformation counts against the frequency of your change shape. </p>\n"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:02.969-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 9
+    },
+    "traits": {
+      "value": [
+        "hb_shifter"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Swiftwing shifter heritage"
+        }
+      ]
+    },
+    "location": null,
+    "featType": {
+      "value": "ancestry"
+    }
+  },
+  "ownership": {
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.10.4",
+    "coreVersion": "10.291",
+    "createdTime": 1672960323133,
+    "modifiedTime": 1691632896615,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!zCUOmp4lf2L6e2qC"
+}

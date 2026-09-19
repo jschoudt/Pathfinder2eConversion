@@ -1,0 +1,59 @@
+{
+  "name": "Kalaraq Kalashtar Commander",
+  "type": "heritage",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.mih0IPoeIFA8DXbp"
+    }
+  },
+  "_id": "KzLRxLmJ3uX8EFfk",
+  "system": {
+    "description": {
+      "value": "<h2>Kalaraq Kalashtar</h2>\n<p>Kalaraq are the natural leaders of the quori, spirits of pride and ambition. Though rarest of the kalashtar spiritual lineages, you depend on your allies as they depend on you. You become trained in Diplomacy (or another skill if you were already trained in Diplomacy). You must also choose one of the following paths.</p>\n<p> </p>\n<h3>Kalaraq Commander</h3>\n<p>Inhabiting a leader spirit of the quori, you exhibit a force of charisma that persuades others to listen to what you say. You become trained in Diplomacy (or another skill if you were already trained in Diplomacy). You gain the Group Impression skill feat. In addition, when you make a @Compendium[pf2e.feats-srd.KpFetnUqTiweypZk]{Group Impression} you can increase the number of targets by half rounded up.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "hb_kalashtar"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:06.756-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "ancestry": {
+      "name": "Kalashtar",
+      "uuid": "Compendium.pathfinders-guide-to-eberron-compendium.eberron-ancestries.Fk955i74aVVUzOKt"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960327012,
+    "modifiedTime": 1672986313357,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!KzLRxLmJ3uX8EFfk"
+}

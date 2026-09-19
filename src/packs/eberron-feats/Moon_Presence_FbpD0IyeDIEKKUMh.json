@@ -1,0 +1,94 @@
+{
+  "name": "Moon Presence",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.feats-srd.aLgb1x3azE4IKz0o"
+    }
+  },
+  "_id": "FbpD0IyeDIEKKUMh",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"hang\"><strong>Prerequisites</strong> clan heritage</p>\n<hr />\n<p>By the clan and the pact your powers are heightened, and your senses keen. You channel a connection to your clan that few have ever been able to achieve. You gain the bonus depending on your original clan. Gnoll of many tribes does not count for this feat.</p>\n<p class=\"hang\"><strong>Aryth</strong> The impact of your ranged weapons is aided by your precision. Once per turn, you gain a circumstance bonus to your ranged attack damage rolls equal to the number of weapon damage dice.</p>\n<p class=\"hang\"><strong>Barrakas</strong> Your scent sense becomes a precise sense. Creatures under the effects of magic that would hide their passing or presence find it foiled by your keen smell unless accounted for. If you make a survival check to track a creature under the effects of Pass Without Trace, the DC has a -4 circumstance penalty (no lower than their regular survival DC).</p>\n<p class=\"hang\"><strong>Dravago</strong> You gain the Terrain Stalker feat for snow and can move up to half your speed without attempting a Stealth check. In addition, you can translate your experience with the difficult terrain of the arctic to anywhere. Creatures in difficult terrain are off-guard to you.</p>\n<p class=\"hang\"><strong>Eyre</strong> You can sharpen weapons, polish armour, and apply special techniques to temporarily gain better effects from your armaments. By spending 1 hour</p>\n<p>working on a weapon or armour, you can grant it the effects of a +1 potency rune until your next daily preparations, gaining a +1 item bonus to attack rolls for a weapon or increasing armour’s item bonus to AC by 1. Once per day, you may choose one of these items to gain a bonus of 2 instead. This has no effect if the weapon or armour already had a potency rune.</p>\n<p class=\"hang\"><strong>Lharvion</strong> Aberrations of the world are the speciality of your clan, and in particular, the series of blows to best fell one. You become trained in Aberration lore. In addition, if you succeed on a strike against an Aberration, it becomes off-guard to you until the start of your next turn.</p>\n<p class=\"hang\"><strong>Nymm</strong> Leadership is what keeps the Znir strong, and you have trained to maximize the potential of yourself and your allies. When you are adjacent to at least one ally, you and adjacent allies gain a +1 circumstance bonus to AC and saving throws. This bonus increases to +2 to Reflex saves against area effects.</p>\n<p class=\"hang\"><strong>Olarune</strong> You no longer need to take cover to gain the higher bonus from tower shields, instead, you always have the higher bonus. In addition, with your great strength, you can wield tower shields beyond what any other mortal could carry. Anyone may craft tower shields out of any precious material, but only you may wield them due to their great bulk. When crafting a tower shield out of a precious material that is not darkwood, you must have the equivalent value in darkwood (up to the maximum price of the shield). For instance, crafting a standard-grade adamantine tower shield is a total cost of 440 GP with at least 55 GP of adamantine and 55 GP of darkwood.</p>\n<p class=\"hang\"><strong>Rhaan</strong> The tricks of the fey have become part of your repertoire. You can cast haste and slow as primal innate spells once per day. At 17th level, these are heightened to 7th level.</p>\n<p class=\"hang\"><strong>Sypheros</strong> The realm of the dead grants you a pathway to many abilities some consider to be unnatural. You can save others from death, and also yourself. The DC of your recovery checks is to 8 + your dying value, or 7 + your dying value if you have the Toughness general feat. In addition, once per day you can cast death ward as an occult innate spell.</p>\n<p class=\"hang\"><strong>Therendor</strong> Your healing abilities channelled by the power of the moon can bring back those others could not. If a creature has died of mortal wounds within the last minute, you may attempt an Administer First Aid check. On a critical success, the creature is revived, loses the dying condition (but remains unconscious), and becomes drained 1 for 1 week. This check can not overcome extraordinary circumstances, such as diseases, curses, or massive damage to the body. After you attempt this special check, the creature becomes immune to it for a week.</p>\n<p class=\"hang\"><strong>Vult</strong> You can ward off even the eyes that would follow your movements. You gain nondetection as an innate occult spell once per day, which can only be cast on yourself and is automatically heightened to half your level rounded up.</p>\n<p class=\"hang\"><strong>Zarantyr</strong> Rip and tear until it is done, there is no frequency on rampage, but it gains the flourish trait.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [
+      {
+        "key": "CriticalSpecialization",
+        "predicate": [
+          {
+            "or": [
+              "item:trait:gnoll",
+              "item:base:flail",
+              "item:base:khopesh",
+              "item:base:mambele",
+              "item:base:spear",
+              "item:base:war-flail"
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:01.949-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 13
+    },
+    "traits": {
+      "value": [
+        "gnoll"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Clan Heritage"
+        }
+      ]
+    },
+    "location": null,
+    "featType": {
+      "value": "ancestry"
+    }
+  },
+  "ownership": {
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.12.9",
+    "coreVersion": "10.303",
+    "createdTime": 1672960322341,
+    "modifiedTime": 1694447719383,
+    "lastModifiedBy": "7iofgUiimTzs2vga"
+  },
+  "_key": "!items!FbpD0IyeDIEKKUMh"
+}

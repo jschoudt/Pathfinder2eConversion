@@ -1,0 +1,64 @@
+{
+  "name": "Dravago Clan",
+  "type": "heritage",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.Lmck7hav1o39lmNG"
+    }
+  },
+  "_id": "CsOlcXAgLoiEGQ1D",
+  "system": {
+    "description": {
+      "value": "<p>Your clan is tied to the moon Dravago - the Herder.</p>\n<p>Your connection to the moon Dravago grants you resistance to the cold. You gain cold resistance equal to half your level (minimum 1). In addition, due to your large paws and sharp claws, snow and ice do not count as difficult terrain for you.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "gnoll"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [
+      {
+        "key": "Resistance",
+        "type": "cold",
+        "value": "max(1,floor(@actor.level/2))"
+      }
+    ],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:06.699-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "ancestry": {
+      "name": "Gnoll",
+      "uuid": "Compendium.pf2e.ancestries.vxbQ1Yw4qwgjTzqo"
+    }
+  },
+  "ownership": {
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960327010,
+    "modifiedTime": 1672986313355,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!CsOlcXAgLoiEGQ1D"
+}

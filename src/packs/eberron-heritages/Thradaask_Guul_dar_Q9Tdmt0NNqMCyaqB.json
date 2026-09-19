@@ -1,0 +1,70 @@
+{
+  "_id": "Q9Tdmt0NNqMCyaqB",
+  "name": "Thradaask Guul'dar",
+  "type": "heritage",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.N2V8UxjfWBt1Mm9I"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You have resilience and an unshakable spirit that can keep you standing through wounds that would be fatal to others. You gain the @Compendium[pf2e.feats-srd.I0BhPWqYf1bbzEYg]{Diehard}  general feat and gain a +1 circumstance bonus to all Recovery Checks.</p>\n<hr />\n<blockquote>\n<p>The recovered check bonus cannot be automated yet. Must be added manually.</p>\n</blockquote>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "hb_bugbear"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.attributes.dying.recoveryMod",
+        "value": 1
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.I0BhPWqYf1bbzEYg"
+      }
+    ],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:06.828-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "ancestry": {
+      "name": "Bugbear",
+      "uuid": "Compendium.pathfinders-guide-to-eberron-compendium.eberron-ancestries.2UM9v9Towl9wT1th"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960327015,
+    "modifiedTime": 1672986313361,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!Q9Tdmt0NNqMCyaqB"
+}

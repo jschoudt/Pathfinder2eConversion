@@ -1,0 +1,106 @@
+{
+  "name": "Charlatan's Gloves",
+  "type": "equipment",
+  "system": {
+    "description": {
+      "value": "<p><strong>Activate</strong> <span class=\"pf2-icon\">1</span> (up to 1 minute) Envision, Interact;</p>\n<p><strong>Effect</strong> While wearing a pair of charlatan’s gloves, you can produce an illusory image that fits in the palm of your hand. The image can’t create sound, light, smell, or any other sensory effect.</p>\n<p><br />  Any creature that uses the Seek action to examine it can attempt to disbelieve your illusion. Physical interaction with the image reveals it to be an illusion because things can pass through it.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "invested",
+        "magical"
+      ],
+      "rarity": "common",
+      "custom": "",
+      "otherTags": []
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": null
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "hp": {
+      "brokenThreshold": 0,
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "weight": {
+      "value": "-"
+    },
+    "equippedBulk": {
+      "value": ""
+    },
+    "price": {
+      "value": {
+        "gp": 15
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "-=inSlot": null,
+      "handsHeld": 0
+    },
+    "stackGroup": null,
+    "negateBulk": {
+      "value": "0"
+    },
+    "containerId": null,
+    "preciousMaterial": {
+      "value": null
+    },
+    "preciousMaterialGrade": {
+      "value": null
+    },
+    "size": "med",
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "worn"
+    },
+    "level": {
+      "value": 1
+    }
+  },
+  "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/lovers-gloves.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.gALOAer8a5pRmfC0"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1673120348983,
+    "modifiedTime": 1673133850234,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_id": "gALOAer8a5pRmfC0",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "_key": "!items!gALOAer8a5pRmfC0"
+}

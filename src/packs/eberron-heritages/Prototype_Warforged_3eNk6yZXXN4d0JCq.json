@@ -1,0 +1,56 @@
+{
+  "name": "Prototype Warforged",
+  "type": "heritage",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.mvnVNrjCJ5Wp3qGb"
+    }
+  },
+  "_id": "3eNk6yZXXN4d0JCq",
+  "system": {
+    "description": {
+      "value": "\n\n\n<p>Cannith created many prototype warforged throughout the war. Many of them were experiments into advanced capabilities for war, some with more complex civilian purposes in mind. For whatever reason - whether the cost of production was prohibitive, or the capabilities did not meet expectations, or the war ended too soon - these Prototype Warforged were never released to the outside world of Khorvaire.</p>\n<p> </p>\n<p>As unique warforged design, work with your GM to figure out what you were created for. Select an integrated armour type, and you become trained in a skill and a 1st level skill feat associated with that skill.</p>\n"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "hb_warforged"
+      ],
+      "rarity": "uncommon",
+      "custom": ""
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:06.628-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "ancestry": null
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960327009,
+    "modifiedTime": 1672986313352,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!3eNk6yZXXN4d0JCq"
+}

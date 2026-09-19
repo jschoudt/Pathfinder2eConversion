@@ -1,0 +1,72 @@
+{
+  "img": "systems/pf2e/icons/features/classes/spell-blending.webp",
+  "name": "Traditional Specialization",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>As a traditional artificer, you follow the established field and theories of Artifice. With long-standing techniques developed and refined by the artificers before you, your work explores and expands upon their great work. You have studied the arcane arts extensively and can use this knowledge to imbue your items with arcane abilities.</p>\n<p>Your spellcasting tradition is <strong>Arcane</strong>.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.proficiencies.aliases.artificer",
+        "priority": 39,
+        "value": "arcane"
+      }
+    ],
+    "slug": "traditional-specialization",
+    "schema": {
+      "version": 0.835,
+      "lastMigration": null
+    },
+    "level": {
+      "value": 1
+    },
+    "traits": {
+      "value": [
+        "hb_artificer"
+      ],
+      "rarity": "common"
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.classfeatures.3qqvnC2U8W26yae7"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.12.9",
+    "coreVersion": "10.303",
+    "createdTime": 1685924334481,
+    "modifiedTime": 1694446075000,
+    "lastModifiedBy": "7iofgUiimTzs2vga"
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "_id": "6hAsIxiOqebW0dhR",
+  "_key": "!items!6hAsIxiOqebW0dhR"
+}

@@ -1,0 +1,132 @@
+{
+  "name": "Guard and Seal",
+  "type": "spell",
+  "img": "systems/pf2e/icons/spells/discern-secrets.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.spells-srd.UmXhuKrYZR3W16mQ"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You draw upon your powers of warding to guard the presence of an item. Once the spell has been cast, you can choose to make the item come under the effects of Invisible Item If the target is magical, you can choose to also have it appear as entirely non-magical.<br />    If a caster uses Detect Magic or Read Aura of an equal or higher level than this spell, the GM can roll a secret counteract check for them to see the presence of this ward.<br />    If a creature interacts with the item, you immediately become aware of this fact.</p>\n<hr />\n<p class=\"hang\"><strong>Heightened (3rd)</strong> You may target 1 object of 1 bulk or less.</p>\n<p class=\"hang\"><strong>Heightened (4th)</strong> The object is additionally warded as if was behind running water and a thin sheet of lead to any magical effects that would attempt to locate it.</p>\n<p class=\"hang\"><strong>Heightened (6th)</strong> You can target 1 object of 3 bulk or less. You can target a creature instead of an object. When you do, you can conceal the auras of all magic items it has.</p>\n<p class=\"hang\"><strong>Heightened (8th)</strong> The duration is permanent until the object moves more than 15 feet from its starting location. You may target up to 10 items at once in this way. You can dismiss this spell.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "hb_dragonmark",
+        "hb_mark-of-warding"
+      ],
+      "rarity": "uncommon",
+      "custom": ""
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:16.216-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 2
+    },
+    "spellType": {
+      "value": "utility"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": [
+        "arcane",
+        "occult",
+        "divine",
+        "primal"
+      ]
+    },
+    "school": {
+      "value": "abjuration"
+    },
+    "components": {
+      "focus": true,
+      "material": false,
+      "somatic": true,
+      "verbal": false
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": "1 object of light bulk or less "
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": null,
+    "time": {
+      "value": "3"
+    },
+    "duration": {
+      "value": "until the next time you make your daily preparations"
+    },
+    "damage": {
+      "value": {}
+    },
+    "save": {
+      "value": "",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "ability": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "hasCounteractCheck": {
+      "value": false
+    },
+    "prepared": {
+      "value": ""
+    },
+    "primarycheck": {
+      "value": ""
+    },
+    "secondarycasters": {
+      "value": ""
+    },
+    "secondarycheck": {
+      "value": ""
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960336284,
+    "modifiedTime": 1673330644285,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_id": "znf33BZyTMhAtHa0",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "_key": "!items!znf33BZyTMhAtHa0"
+}

@@ -1,0 +1,73 @@
+{
+  "name": "Beasthide Shifter",
+  "type": "heritage",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.U9pPWeHnnSoOCNZQ"
+    }
+  },
+  "_id": "Eu4Jt7HEeKRe8jcj",
+  "system": {
+    "description": {
+      "value": "<p>Typically manifesting traits of the bear or the boar, beasthide shifters can have traits of any animal known for its toughness. Beasthide shifters are known for being straightforward, although sometimes this leads them to be misunderstood as rude. These shifters are also characterized by a steadfast - sometimes stubborn - drive to complete the tasks they take up.</p>\n<p> </p>\n<p>You gain 10 Hit Points from your ancestry instead of 8, and Change Shape loses the concentrate trait. </p>\n<p> </p>\n<h3>Hybrid form</h3>\n<p>While in your hybrid form, you gain the following action @Compendium[pathfinders-guide-to-eberron-compendium.eberron-actions.uYQrGi3SDbFcCoZU]{Brace}<br /><br />@Compendium[pathfinders-guide-to-eberron-compendium.eberron-actions.1M8FeIq0VvdhLW7Y]{Change Shape (Beasthide Shifter)}</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "hb_shifter"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pathfinders-guide-to-eberron.eberron-actions.uYQrGi3SDbFcCoZU"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.attributes.ancestryhp",
+        "value": 10
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pathfinders-guide-to-eberron.eberron-actions.PvDsR23JAYlPz90G"
+      }
+    ],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:06.713-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "ancestry": {
+      "name": "Shifter",
+      "uuid": "Compendium.pathfinders-guide-to-eberron-compendium.eberron-ancestries.NXVjPRJeIOOceUHp"
+    }
+  },
+  "ownership": {
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960327011,
+    "modifiedTime": 1681694929337,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!Eu4Jt7HEeKRe8jcj"
+}

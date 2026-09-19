@@ -1,0 +1,147 @@
+{
+  "name": "Medium Integrated Armour",
+  "type": "armor",
+  "img": "systems/pf2e/icons/equipment/armor/breastplate.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.equipment-srd.r0ifJfoz8aqf0mwk"
+    }
+  },
+  "_id": "sj9KFDpPBWyI5Rv0",
+  "system": {
+    "description": {
+      "value": "<p>Your body is designed to be particularly resilient. Your integrated armour is medium armour in the plate armour group that grants a +4 item bonus to AC, a Dex cap of +1, a check penalty of –2, a speed penalty of –5 feet, and a Strength value of 16. This armour has no bulk, but you can never wear other armour or remove your integrated armour; however, you still don't become fatigued from sleeping. Finally, you can etch armour runes onto your armour as normal.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "comfort",
+        "hb_warforged"
+      ],
+      "rarity": "common",
+      "custom": "",
+      "otherTags": []
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:11.059-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "quantity": 1,
+    "baseItem": "breastplate",
+    "hp": {
+      "brokenThreshold": 0,
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "weight": {
+      "value": "-"
+    },
+    "equippedBulk": {
+      "value": "0"
+    },
+    "price": {
+      "value": {}
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0,
+      "inSlot": false
+    },
+    "stackGroup": null,
+    "negateBulk": {
+      "value": "0"
+    },
+    "containerId": null,
+    "preciousMaterial": {
+      "value": null
+    },
+    "preciousMaterialGrade": {
+      "value": null
+    },
+    "size": "med",
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Breastplate",
+        "img": "systems/pf2e/icons/unidentified_item_icons/armor.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "wornarmor"
+    },
+    "level": {
+      "value": 0
+    },
+    "armor": {
+      "value": 3
+    },
+    "category": "medium",
+    "group": "plate",
+    "strength": {
+      "value": 16
+    },
+    "dex": {
+      "value": 1
+    },
+    "check": {
+      "value": -2
+    },
+    "speed": {
+      "value": -5
+    },
+    "potencyRune": {
+      "value": null
+    },
+    "resiliencyRune": {
+      "value": null
+    },
+    "propertyRune1": {
+      "value": null
+    },
+    "propertyRune2": {
+      "value": null
+    },
+    "propertyRune3": {
+      "value": null
+    },
+    "propertyRune4": {
+      "value": null
+    },
+    "potency": {}
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960331173,
+    "modifiedTime": 1673133850242,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!sj9KFDpPBWyI5Rv0"
+}

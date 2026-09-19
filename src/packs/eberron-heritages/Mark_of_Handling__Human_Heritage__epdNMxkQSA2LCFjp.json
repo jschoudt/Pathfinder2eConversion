@@ -1,0 +1,79 @@
+{
+  "name": "Mark of Handling [Human Heritage]",
+  "type": "heritage",
+  "img": "systems/pf2e/icons/features/ancestry/skilled-heritage.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.heritages.zVf0Hlp5xG0Q7kmc"
+    }
+  },
+  "_id": "epdNMxkQSA2LCFjp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>At least one of your parents is a human descendant of the Mark of Handling bloodline, whether or not they manifested a mark. You gain the Dragonmarked Heritage trait. In addition, you can pick human, Dragonmarked Heritage, and Mark of Handling feats whenever you gain an ancestry feat.</p>\n<p> </p>\n<p>As a member of the Mark of Handling, you may utilise the following focus spells. Some of these spells may belong to a class or archetype. If you select one of these focus spells, they lose the class and archetype traits if they have it, and gain the Dragonmark, and Mark of Handling traits. The tradition of the spell becomes Arcane. Note that rarity is maintained, and uncommon spells should still be verified with your GM. </p>\n<table style=\"width:100%\">\n<thead>\n<tr>\n<th style=\"width:15.601%\">Level</th>\n<th style=\"width:84.399%\">Focus Spell</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"width:15.601%\">1</td>\n<td style=\"width:84.399%\">@UUID[Compendium.pathfinders-guide-to-eberron-compendium.eberron-spells.xBhOcq2MR1PqBcbU]{Animal Friendship}*</td>\n</tr>\n<tr>\n<td style=\"width:15.601%\">1</td>\n<td style=\"width:84.399%\">@UUID[Compendium.pathfinders-guide-to-eberron-compendium.eberron-spells.kHnaDNJ6pyojfKMp]{Dragonmarked Guidance}*</td>\n</tr>\n<tr>\n<td style=\"width:15.601%\">1</td>\n<td style=\"width:84.399%\">@UUID[Compendium.pf2e.spells-srd.Zmh4ynfnCtwKeAYl]{Heal Animal}</td>\n</tr>\n<tr>\n<td style=\"width:15.601%\">1</td>\n<td style=\"width:84.399%\">@UUID[Compendium.pf2e.spells-srd.KIV2LqzS5KtqOItV]{Heal Companion}</td>\n</tr>\n<tr>\n<td style=\"width:15.601%\">1</td>\n<td style=\"width:84.399%\">@UUID[Compendium.pf2e.spells-srd.u2uSeH6YSbK1ajTy]{Magic Hide}</td>\n</tr>\n<tr>\n<td style=\"width:15.601%\">1</td>\n<td style=\"width:84.399%\">@UUID[Compendium.pathfinders-guide-to-eberron-compendium.eberron-spells.OEmlMtcOSlfDDbuF]{Primal Connection}*</td>\n</tr>\n<tr>\n<td style=\"width:15.601%\">2</td>\n<td style=\"width:84.399%\">@UUID[Compendium.pathfinders-guide-to-eberron-compendium.eberron-spells.7Wt9vwWAJKLHObUV]{Cantrip of the handler}*</td>\n</tr>\n<tr>\n<td style=\"width:15.601%\">2</td>\n<td style=\"width:84.399%\">@UUID[Compendium.pathfinders-guide-to-eberron-compendium.eberron-spells.XELXG6LaIXJjdgaG]{Dragonmarked Handler}*</td>\n</tr>\n<tr>\n<td style=\"width:15.601%\">3</td>\n<td style=\"width:84.399%\">@UUID[Compendium.pf2e.spells-srd.5WM3WjshXgrkVCg6]{Beastmaster Trance}</td>\n</tr>\n<tr>\n<td style=\"width:15.601%\">4</td>\n<td style=\"width:84.399%\">@UUID[Compendium.pf2e.spells-srd.8rj45fKzCFcB0fxs]{Enlarge Companion}</td>\n</tr>\n<tr>\n<td style=\"width:15.601%\">4</td>\n<td style=\"width:84.399%\">@UUID[Compendium.pathfinders-guide-to-eberron-compendium.eberron-spells.0qSsqg4MPHBlWvMl]{Feral Blessing}*</td>\n</tr>\n<tr>\n<td style=\"width:15.601%\">7</td>\n<td style=\"width:84.399%\">@UUID[Compendium.pathfinders-guide-to-eberron-compendium.eberron-spells.yap5HoQvzWHZ5cT0]{Summon Living Dragonmark}*</td>\n</tr>\n</tbody>\n</table>\n*appears in the spell section of this document"
+    },
+    "rules": [
+      {
+        "add": [
+          "hb_dragonmarked-heritage",
+          "hb_mark-of-handling"
+        ],
+        "key": "ActorTraits"
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_dragonmarked-heritage",
+        "human"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "ancestry": {
+      "name": "Human",
+      "uuid": "Compendium.pf2e.ancestries.IiG7DgeLWYrSNXuX"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:06.911-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    }
+  },
+  "ownership": {
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.4",
+    "coreVersion": "11.309",
+    "createdTime": 1672960327019,
+    "modifiedTime": 1698609901169,
+    "lastModifiedBy": "rB4S3QfOEBk0rdKx"
+  },
+  "_key": "!items!epdNMxkQSA2LCFjp"
+}

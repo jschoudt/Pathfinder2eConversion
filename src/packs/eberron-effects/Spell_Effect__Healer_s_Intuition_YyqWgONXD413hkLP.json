@@ -1,0 +1,104 @@
+{
+  "name": "Spell Effect: Healer's Intuition",
+  "type": "effect",
+  "img": "systems/pf2e/icons/spells/discern-secrets.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.spell-effects.hdOb5Iu6Zd3pHoGI"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pathfinders-guide-to-eberron-compendium.eberron-spells.Qti7GpebcgndXLfD]{Healer's intuition}</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "label": "Recall Knowledge (Deductive Intuition)",
+        "predicate": [
+          "action:recall-knowledge"
+        ],
+        "selector": "skill-check",
+        "type": "status",
+        "value": 1
+      },
+      {
+        "key": "FlatModifier",
+        "label": "Sense Motive (Deductive Intuition)",
+        "predicate": [
+          "action:sense-motive"
+        ],
+        "selector": "skill-check",
+        "type": "status",
+        "value": 1
+      },
+      {
+        "key": "FlatModifier",
+        "label": "Seek (Deductive Intuition)",
+        "predicate": [
+          "action:seek"
+        ],
+        "selector": "perception",
+        "type": "status",
+        "value": 1
+      }
+    ],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:11:57.244-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 10,
+      "unit": "minutes",
+      "sustained": true,
+      "expiry": "turn-start"
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "target": null,
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960317264,
+    "modifiedTime": 1673108348611,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "YyqWgONXD413hkLP",
+  "_key": "!items!YyqWgONXD413hkLP"
+}

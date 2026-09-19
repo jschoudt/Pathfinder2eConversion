@@ -1,0 +1,80 @@
+{
+  "name": "Arcane Overcharge",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.TEEOqh7R4NFlGq9z"
+    }
+  },
+  "_id": "X6q0IK0WO5szuc1H",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "\n\n\n<p class=\"hang\"><strong>Prerequisites</strong> legendary in Arcana</p>\n<hr />\n<p>There's no overcharge like arcane overcharge. Wands prepared by your Wandslinger features may be overcharged, following all the rules of regular wands. In the event one of your wands is destroyed, you take force damage equal to your level. You may prepare the wand again during your next daily preparations.</p>\n"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:02.163-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 20
+    },
+    "traits": {
+      "value": [
+        "archetype",
+        "hb_wandslinger"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Wandslinger Dedication"
+        }
+      ]
+    },
+    "location": null,
+    "featType": {
+      "value": "archetype"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.10.4",
+    "coreVersion": "10.291",
+    "createdTime": 1672960322354,
+    "modifiedTime": 1691632448819,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!X6q0IK0WO5szuc1H"
+}

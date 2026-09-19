@@ -1,0 +1,80 @@
+{
+  "name": "Terrifying Shift",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.y3MWNTGuJE1150l0"
+    }
+  },
+  "_id": "gDqEXxDteHrG3QML",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "\n\n\n<p class=\"hang\"><strong>Frequency</strong> Once per 10 minutes</p>\n<hr />\n<p>With a rapid change, you take on a monstrous form for an instant before shifting back. Choose any creatures that you're aware of within 30 feet as your targets. Make an Intimidation check and compare the result of the check to each target's Will DCs. It’s possible to get a different degree of success for each target. Regardless of your result, all targets are temporarily immune to your Demoralize attempts for 10 minutes. <br /> <br /><strong>Critical Success</strong> The target becomes @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 2}. <br /> <br /><strong>Success</strong> The target becomes @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 1}. </p>\n"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:02.534-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 13
+    },
+    "traits": {
+      "value": [
+        "concentrate",
+        "hb_eberron-changelings",
+        "emotion",
+        "fear",
+        "mental",
+        "visual"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "featType": {
+      "value": "ancestry"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.10.4",
+    "coreVersion": "10.291",
+    "createdTime": 1672960323113,
+    "modifiedTime": 1691633241034,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!gDqEXxDteHrG3QML"
+}

@@ -1,0 +1,98 @@
+{
+  "name": "The Path of Light",
+  "type": "deity",
+  "img": "systems/pf2e/icons/default-icons/deity.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.deities.bLI1JMpI2GXQT5AC"
+    }
+  },
+  "_id": "ZXMRNmfSZaBTknQ1",
+  "system": {
+    "description": {
+      "value": "<p>The kalashtar of Adar revere a universal force of vitality energy. This path of worship, is the path of light.<br /><strong>Areas of Concern</strong> Dreams, the path of light<br /><strong>Alignment</strong> LN<br /><strong>Divine Font</strong> Heal<br /><strong>Divine Ability</strong> Dexterity or Wisdom<br /><strong>Divine Skill</strong> Diplomacy<br /><strong>Domains</strong> Change, Dreams, Freedom, Knowledge, Perfection, Protection, Repose<br /><strong>Cleric Spells</strong> 1st: jump, 3rd: haste, 4th: stoneskin<br /><strong>Edicts</strong> Be humble; help others perfect themselves; hone your body, mind, and spirit to a more perfect state; practice discipline.<br /><strong>Anathema</strong> Abandon a companion in need, dishonour yourself, repeatedly fail to maintain self-control.<br /><strong>Favoured Weapon</strong> Fist</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "category": "deity",
+    "alignment": {
+      "own": "NG",
+      "follower": [
+        "LG",
+        "NG",
+        "CG",
+        "LN",
+        "N",
+        "CN"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "dreams",
+        "freedom",
+        "perfection",
+        "change"
+      ],
+      "alternate": [
+        "knowledge",
+        "protection",
+        "repose"
+      ]
+    },
+    "font": [
+      "heal"
+    ],
+    "ability": [
+      "wis",
+      "dex"
+    ],
+    "skill": "dip",
+    "weapons": [
+      "fist"
+    ],
+    "spells": {
+      "1": "Compendium.pf2e.spells-srd.Q7QQ91vQtyi1Ux36",
+      "3": "Compendium.pf2e.spells-srd.o6YCGx4lycsYpww4",
+      "4": "Compendium.pf2e.spells-srd.2BV2yYPfVJ5zirZt"
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:11:50.153-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "attribute": [
+      "wis",
+      "dex"
+    ],
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder's Guide to Eberron"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960310195,
+    "modifiedTime": 1675018205316,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!ZXMRNmfSZaBTknQ1"
+}

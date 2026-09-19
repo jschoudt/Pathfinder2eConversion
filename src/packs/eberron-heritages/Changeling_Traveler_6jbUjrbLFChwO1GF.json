@@ -1,0 +1,67 @@
+{
+  "name": "Changeling Traveler",
+  "type": "heritage",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.Lmck7hav1o39lmNG"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You're an urban nomad, wandering from city to city. You become trained in the Society Skill (or another skill if you were already trained in Society) and gain the @Compendium[pf2e.feats-srd.X2jGFfLU5qI5XVot]{Streetwise} skill feat. You have experience fitting into the local culture and blending with the common folk, so you're easily able to get a feel for the pulse of the local settlement. You may use the streetwise skill in any settlement in which you have spent at least a day.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.soc.rank",
+        "value": 1
+      }
+    ],
+    "slug": null,
+    "schema": {
+      "version": 0.835,
+      "lastMigration": {
+        "datetime": "2023-08-09T19:08:40.562-07:00",
+        "version": {
+          "schema": 0.812,
+          "foundry": "10.291",
+          "system": "4.10.4"
+        }
+      }
+    },
+    "traits": {
+      "value": [
+        "changeling"
+      ],
+      "rarity": "common"
+    },
+    "ancestry": {
+      "name": "Eberron Changeling",
+      "slug": "eberron-changeling",
+      "uuid": "Compendium.pathfinders-guide-to-eberron-compendium.eberron-ancestries.axOqZxs9V7XTg99i"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.10.4",
+    "coreVersion": "10.291",
+    "createdTime": 1672960327020,
+    "modifiedTime": 1691634020352,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "6jbUjrbLFChwO1GF",
+  "_key": "!items!6jbUjrbLFChwO1GF"
+}

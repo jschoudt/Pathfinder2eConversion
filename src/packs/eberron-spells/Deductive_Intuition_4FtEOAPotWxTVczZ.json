@@ -1,0 +1,131 @@
+{
+  "_id": "4FtEOAPotWxTVczZ",
+  "name": "Deductive Intuition",
+  "type": "spell",
+  "img": "systems/pf2e/icons/spells/discern-secrets.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.spells-srd.UmXhuKrYZR3W16mQ"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">You call upon your dragonmark's power to better uncover secrets.</span></p>\n<p><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">When you Cast the Spell, any time you</span><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\"> @Compendium[pf2e.actionspf2e.1OagaWtBpVXExToo]{Recall Knowledge}, @Compendium[pf2e.actionspf2e.BlAOM2X92SI6HMtJ]{Seek}, or @Compendium[pf2e.actionspf2e.1xRFPTFtWtGJ9ELw]{Sense Motive} you gain a +1 status bonus to the skill or Perception used for the roll. This bonus remains as long as you @Compendium[pf2e.actionspf2e.3f5DMFu8fPiqHpRg]{Sustain the Spell}.</span></p>\n<hr style=\"border-top:1px solid var(--color-border-light-primary);border-bottom:1px solid var(--color-border-light-highlight)\" />\n<p class=\"hang\"><strong>Heightened (3rd)</strong> You do not need to sustain Deductive Intuition.</p>\n<p class=\"hang\"><strong>Heightened (5th)</strong> The bonus increases to +2.</p>\n<p class=\"hang\"><strong>Heightened (7th)</strong> The duration is 1 hour.</p>\n<p class=\"hang\"><strong>Heightened (9th)</strong> The bonus increases to +3.</p>\n<p class=\"hang\">@UUID[Compendium.pathfinders-guide-to-eberron-compendium.eberron-effects.c5EPKjwLrnSMDZC2]{Spell Effect: Deductive Intuition}</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "hb_dragonmark",
+        "hb_mark-of-detection"
+      ],
+      "rarity": "uncommon",
+      "custom": ""
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:15.886-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 1
+    },
+    "spellType": {
+      "value": "utility"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": [
+        "arcane",
+        "divine",
+        "occult",
+        "primal"
+      ]
+    },
+    "school": {
+      "value": "divination"
+    },
+    "components": {
+      "focus": true,
+      "material": false,
+      "somatic": true,
+      "verbal": false
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "Sustained up to 10 minutes"
+    },
+    "damage": {
+      "value": {}
+    },
+    "save": {
+      "value": "",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "ability": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "hasCounteractCheck": {
+      "value": false
+    },
+    "prepared": {
+      "value": ""
+    },
+    "primarycheck": {
+      "value": ""
+    },
+    "secondarycasters": {
+      "value": ""
+    },
+    "secondarycheck": {
+      "value": ""
+    }
+  },
+  "ownership": {
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960336260,
+    "modifiedTime": 1681690878978,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!4FtEOAPotWxTVczZ"
+}

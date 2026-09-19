@@ -1,0 +1,76 @@
+{
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "name": "Enhanced Familiar",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You infuse your familiar with additional magical energy. You can select four familiar or master abilities each day, instead of two.</p>"
+    },
+    "source": {
+      "value": "Pathfinder Advanced Player's Guide"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.attributes.familiarAbilities.value",
+        "priority": 9,
+        "value": 4
+      }
+    ],
+    "slug": "enhanced-familiar",
+    "schema": {
+      "version": 0.84,
+      "lastMigration": null
+    },
+    "level": {
+      "value": 2
+    },
+    "traits": {
+      "value": [
+        "hb_artificer"
+      ],
+      "rarity": "common"
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "a familiar"
+        }
+      ]
+    },
+    "location": null
+  },
+  "type": "feat",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.feats-srd.N7dTFxpjXGn4ddq8"
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "7iofgUiimTzs2vga": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.12.9",
+    "coreVersion": "10.303",
+    "createdTime": 1694446566986,
+    "modifiedTime": 1694446710589,
+    "lastModifiedBy": "7iofgUiimTzs2vga"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "0upuPKdEv0fgAsgR",
+  "_key": "!items!0upuPKdEv0fgAsgR"
+}

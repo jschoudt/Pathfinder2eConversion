@@ -1,0 +1,75 @@
+{
+  "name": "Orien Battle Stride",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.SZ7I3MZmXy7mpbVt"
+    }
+  },
+  "_id": "kHwSjzjDGNeYIa96",
+  "system": {
+    "description": {
+      "value": "<p class=\"hang\"><strong>Trigger</strong> An enemy you can see misses a melee strike against you.</p>\n<hr />\n<p>You have been trained to make your way through any danger that may be encountered on the road. When an enemy misses a melee strike against you, you may immediately @Compendium[pf2e.actionspf2e.UHpkTuCtyaPqiCAB]{Step}.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "hb_dragonmark",
+        "general",
+        "hb_mark-of-passage"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:11:53.834-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 7
+    },
+    "featType": {
+      "value": "general"
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960313900,
+    "modifiedTime": 1672960370008,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!kHwSjzjDGNeYIa96"
+}

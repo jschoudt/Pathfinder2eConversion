@@ -1,0 +1,84 @@
+{
+  "_id": "Fb1Wfg7KHteBAc9T",
+  "name": "Barrakas Clan",
+  "type": "heritage",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.Lmck7hav1o39lmNG"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Your clan is tied to the moon Barrakas - the Lantern.</p>\n<p>Considered the best trackers of the Znir pact, you gain a special sense: imprecise scent with a range of 30 feet. This means you can use your sense of smell to determine the location of a creature, but it remains hidden.</p>\n<p>In addition, you become trained in survival and you gain a +1 circumstance bonus to Survival checks to @Compendium[pf2e.actionspf2e.EA5vuSgJfiHH7plD]{Track} creatures that you have previously sensed with your scent. </p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "gnoll"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "label": "Barrakas Clan(Track smelled creatures)",
+        "predicate": [
+          "action:track",
+          "target:previously-smelled"
+        ],
+        "selector": "survival",
+        "type": "circumstance",
+        "value": 1
+      },
+      {
+        "acuity": "imprecise",
+        "key": "Sense",
+        "label": "PF2E.SensesScent",
+        "range": 30,
+        "selector": "scent"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.srv.rank",
+        "value": 1
+      }
+    ],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:06.721-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "ancestry": {
+      "name": "Gnoll",
+      "uuid": "Compendium.pf2e.ancestries.vxbQ1Yw4qwgjTzqo"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960327011,
+    "modifiedTime": 1672986313356,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!Fb1Wfg7KHteBAc9T"
+}

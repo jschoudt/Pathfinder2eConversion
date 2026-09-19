@@ -1,0 +1,75 @@
+{
+  "name": "Expanded Cantrip Constructor",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.feats-srd.aLgb1x3azE4IKz0o"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"hang\"><strong>Prerequisites</strong> Cantrip Constructor</p>\n<hr />\n<p>A greater understanding of your artifice broadens your range of simple imbuements.<br />You learn an additional three cantrip imbuements of your choice. Additionally, during your daily preparations you may add a total of five imbuement cantrips to your imbuement collection.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.84,
+      "lastMigration": {
+        "datetime": "2023-09-11T08:26:28.157-07:00",
+        "version": {
+          "schema": 0.812,
+          "foundry": "10.303",
+          "system": "4.12.9"
+        }
+      }
+    },
+    "level": {
+      "value": 2
+    },
+    "traits": {
+      "value": [
+        "hb_artificer"
+      ],
+      "rarity": "uncommon"
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Cantrip Constructor"
+        }
+      ]
+    },
+    "location": null
+  },
+  "ownership": {
+    "default": 0,
+    "7iofgUiimTzs2vga": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.12.9",
+    "coreVersion": "10.303",
+    "createdTime": 1672960323121,
+    "modifiedTime": 1694446716911,
+    "lastModifiedBy": "7iofgUiimTzs2vga"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "ORBIyRX4dwMXDza3",
+  "_key": "!items!ORBIyRX4dwMXDza3"
+}

@@ -1,0 +1,130 @@
+{
+  "img": "systems/pf2e/icons/spells/banishment.webp",
+  "name": "Dancing Dragonmark",
+  "system": {
+    "description": {
+      "value": "\n\n\n<p>One of the spells developed by the twelve to hunt Aberrant Marks, they found these dragonmark targeting spells could disable any dragonmark - not just Aberrant marks. The twelve determined it to be too great a risk to make public. However, this spell has since been acquired by various intelligence agencies, held until the day it may be necessary.</p>\n<p><br />Creatures with the dragonmark trait in the area become nauseated as their marks begin to writhe and dance on their skin. A<span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\"> creature must attempt a Will saving throw if it is inside the burst when you cast it, when it enters the burst, or when it ends its turn within the burst. </span>All creatures without the dragonmark trait automatically critically succeed.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.<br /><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.AdPVz7rbaVSRxHFg]{Fascinated} by its mark.<br /><strong>Failure</strong> The creature is@UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 1} and @UUID[Compendium.pf2e.conditionitems.AdPVz7rbaVSRxHFg]{Fascinated} by its mark.<br /><strong>Critical Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 2} and @UUID[Compendium.pf2e.conditionitems.AdPVz7rbaVSRxHFg]{Fascinated} by its mark.</p>\n"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [],
+      "rarity": "uncommon",
+      "custom": ""
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": null
+    },
+    "level": {
+      "value": 2
+    },
+    "spellType": {
+      "value": "save"
+    },
+    "category": {
+      "value": "spell"
+    },
+    "traditions": {
+      "value": [
+        "arcane",
+        "divine",
+        "occult",
+        "primal"
+      ]
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "components": {
+      "focus": false,
+      "material": false,
+      "somatic": true,
+      "verbal": true
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": {
+      "value": 15,
+      "type": "burst"
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "sustained 10 minutes"
+    },
+    "damage": {
+      "value": {}
+    },
+    "save": {
+      "value": "will",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "ability": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "hasCounteractCheck": {
+      "value": false
+    },
+    "prepared": {
+      "value": ""
+    },
+    "primarycheck": {
+      "value": ""
+    },
+    "secondarycasters": {
+      "value": ""
+    },
+    "secondarycheck": {
+      "value": ""
+    },
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {}
+    }
+  },
+  "type": "spell",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.spells-srd.bay4AfSu2iIozNNW"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672969838510,
+    "modifiedTime": 1673108624723,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_id": "cgHZEO8YM3FPc2l0",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "_key": "!items!cgHZEO8YM3FPc2l0"
+}

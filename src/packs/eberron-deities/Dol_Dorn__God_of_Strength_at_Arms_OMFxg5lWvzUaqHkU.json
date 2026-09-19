@@ -1,0 +1,100 @@
+{
+  "name": "Dol Dorn: God of Strength at Arms",
+  "type": "deity",
+  "img": "systems/pf2e/icons/default-icons/deity.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.deities.bLI1JMpI2GXQT5AC"
+    }
+  },
+  "_id": "OMFxg5lWvzUaqHkU",
+  "system": {
+    "description": {
+      "value": "<p>Dol Dorn is the chaotic good deity of war. His domains are Confidence, Duty, Might, Perfection, Protection, and Zeal.<br /><strong>Areas of Concern</strong> Physical perfection, strength, martial prowess<br /><strong>Alignment</strong> CG<br /><strong>Divine Font</strong> Heal<br /><strong>Divine Ability</strong> Strength or Constitution <br /><strong>Divine Skill</strong> Athletics<br /><strong>Domains</strong> Confidence, Duty, Might, Perfection, Protection, Zeal<br /><strong>Cleric Spells</strong> 1st: endure, 3rd: haste, 4th: stoneskin<br /><strong>Edicts</strong> Offer your strength to aid others, protect those weaker than you.<br /><strong>Anathema</strong> Engage in petty showcases of strength, use your strength to take advantage of others.<br /><strong>Favoured Weapon</strong> Longsword</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "category": "deity",
+    "alignment": {
+      "own": "CG",
+      "follower": [
+        "LG",
+        "NG",
+        "CG",
+        "LN",
+        "N",
+        "CN",
+        "LE",
+        "NE",
+        "CE"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "confidence",
+        "duty",
+        "might",
+        "perfection"
+      ],
+      "alternate": [
+        "protection",
+        "zeal"
+      ]
+    },
+    "font": [
+      "heal"
+    ],
+    "ability": [
+      "str",
+      "con"
+    ],
+    "skill": "ath",
+    "weapons": [
+      "longsword"
+    ],
+    "spells": {
+      "1": "Compendium.pf2e.spells-srd.4c1c6eNzU1PFGkAy",
+      "3": "Compendium.pf2e.spells-srd.o6YCGx4lycsYpww4",
+      "4": "Compendium.pf2e.spells-srd.2BV2yYPfVJ5zirZt"
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:11:50.133-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "attribute": [
+      "str",
+      "con"
+    ],
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder's Guide to Eberron"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960310192,
+    "modifiedTime": 1675018114235,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!OMFxg5lWvzUaqHkU"
+}

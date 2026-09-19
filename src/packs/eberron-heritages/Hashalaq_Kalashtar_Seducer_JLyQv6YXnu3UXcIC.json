@@ -1,0 +1,80 @@
+{
+  "_id": "JLyQv6YXnu3UXcIC",
+  "name": "Hashalaq Kalashtar Seducer",
+  "type": "heritage",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.7gb49l5Jq96scgbw"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<h2>Hashalaq Kalashtar</h2>\n<p>The hashalaq quori is a force that feeds on doubt and desire. You can choose one of the following paths.</p>\n<p> </p>\n<h3>Hashalaq Seducer</h3>\n<p>You become trained in Diplomacy (or another skill if you were already trained in Diplomacy). When you @Compendium[pf2e.actionspf2e.OX4fy22hQgUHDr0q]{Make an Impression} you gain a +2 circumstance bonus to your check and a +1 circumstance bonus to your @Compendium[pf2e.actionspf2e.DCb62iCBrJXy0Ik6]{Request} of Helpful NPCs.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "hb_kalashtar"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "label": "Hashalaq Seducer (to make an impression)",
+        "predicate": [
+          "action:make-an-impression"
+        ],
+        "selector": "diplomacy",
+        "type": "circumstance",
+        "value": 2
+      },
+      {
+        "key": "FlatModifier",
+        "label": "Hashalaq Seducer (to request helpful NPCs)",
+        "predicate": [
+          "action:request"
+        ],
+        "selector": "diplomacy",
+        "type": "circumstance",
+        "value": 1
+      }
+    ],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:06.741-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "ancestry": {
+      "name": "Kalashtar",
+      "uuid": "Compendium.pathfinders-guide-to-eberron-compendium.eberron-ancestries.Fk955i74aVVUzOKt"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960327012,
+    "modifiedTime": 1672986313357,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!JLyQv6YXnu3UXcIC"
+}

@@ -1,0 +1,107 @@
+{
+  "_id": "1M8FeIq0VvdhLW7Y",
+  "name": "Change Shape (Beasthide Shifter)",
+  "type": "action",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.Wz1HVlbCW6Gvf7fP"
+    },
+    "pf2e": {
+      "grantedBy": "mdwjcetaovyeqmdy"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You assume a more bestial shape. This hybrid shape has a specific, persistent appearance, which appears to be a half mix between a human and your beast within. This change is not similar to the change of a were-creature. While in hybrid shape, you gain a feature of the beast within your heritage. This transformation lasts for 1 minute, or until you spend an action to dismiss it. While in your hybrid form, you gain the beast trait. In addition, you gain a claws unarmed Strike resembling the features of your beast within (claws for felines, talons for eagles, and so on). Your claws deal 1d4 piercing damage, have the agile, finesse, and unarmed traits, and are in the brawling weapon group.</p>\n<p> </p>\n<h3>Hybrid form</h3>\n<p>While in your hybrid form, you gain the following action @Compendium[pathfinders-guide-to-eberron.eberron-actions.uYQrGi3SDbFcCoZU]{Brace} </p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "concentrate",
+        "polymorph",
+        "primal",
+        "transmutation"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "beasthide",
+        "toggleable": true
+      },
+      {
+        "predicate": [
+          "beasthide"
+        ],
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "piercing",
+            "dice": 1,
+            "die": "d4"
+          }
+        },
+        "group": "brawling",
+        "key": "Strike",
+        "label": "Hybrid Form Claws",
+        "range": null,
+        "replaceAll": false,
+        "traits": [
+          "agile",
+          "finesse",
+          "unarmed"
+        ]
+      }
+    ],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:02:51.508-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actionCategory": {
+      "value": ""
+    },
+    "actions": {
+      "value": 1
+    },
+    "requirements": {
+      "value": ""
+    },
+    "trigger": {
+      "value": ""
+    },
+    "deathNote": false
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672959771554,
+    "modifiedTime": 1672959940670,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "_key": "!items!1M8FeIq0VvdhLW7Y"
+}

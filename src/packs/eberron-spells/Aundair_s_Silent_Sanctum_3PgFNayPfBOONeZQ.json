@@ -1,0 +1,127 @@
+{
+  "img": "systems/pf2e/icons/spells/prestidigitation.webp",
+  "name": "Aundair's Silent Sanctum",
+  "system": {
+    "description": {
+      "value": "<p>You create an invisible sphere of energy with a 5-foot emanation. Until the spell ends, it moves with you, centred on you. The sphere muffles sound in both directions. All creatures have a -2 circumstance penalty to hear any sounds originating from the other side of the sphere, in addition, creatures have a +2 circumstance bonus on saves against auditory effects originating from the other side of the sphere.</p>\n<hr />\n<p class=\"hang\"><strong>Heightened (3rd) </strong>you may choose the area to be up to a 10-foot-radius emanation centred on you. The circumstance penalty to hear sounds becomes -4, and the circumstance bonus to saves becomes +4.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "cantrip"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": null
+    },
+    "level": {
+      "value": 1
+    },
+    "spellType": {
+      "value": "utility"
+    },
+    "category": {
+      "value": "spell"
+    },
+    "traditions": {
+      "value": [
+        "arcane",
+        "occult"
+      ],
+      "custom": ""
+    },
+    "school": {
+      "value": "abjuration"
+    },
+    "components": {
+      "focus": false,
+      "material": false,
+      "somatic": true,
+      "verbal": true
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "10 feet"
+    },
+    "area": {
+      "value": 5,
+      "type": "emanation"
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "sustained up to 1 minute"
+    },
+    "damage": {
+      "value": {}
+    },
+    "save": {
+      "value": "",
+      "basic": ""
+    },
+    "sustained": {
+      "value": true
+    },
+    "cost": {
+      "value": ""
+    },
+    "ability": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "hasCounteractCheck": {
+      "value": false
+    },
+    "prepared": {
+      "value": ""
+    },
+    "primarycheck": {
+      "value": ""
+    },
+    "secondarycasters": {
+      "value": ""
+    },
+    "secondarycheck": {
+      "value": ""
+    },
+    "overlays": {}
+  },
+  "type": "spell",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.spells-srd.Qw3fnUlaUbnn7ipC"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672969567538,
+    "modifiedTime": 1673108624718,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_id": "3PgFNayPfBOONeZQ",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "_key": "!items!3PgFNayPfBOONeZQ"
+}

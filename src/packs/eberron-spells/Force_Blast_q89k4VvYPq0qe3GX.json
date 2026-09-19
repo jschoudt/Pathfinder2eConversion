@@ -1,0 +1,141 @@
+{
+  "img": "systems/pf2e/icons/spells/ray-of-frost.webp",
+  "name": "Force Blast",
+  "system": {
+    "description": {
+      "value": "<p>You unleash a bolt of physical power at a creature or object within range. Make a spell attack roll. The blast deals force damage equal to 1d6 + your spellcasting ability modifier.</p>\n<p><strong>Critical Success</strong> You deal double damage.<br /><strong>Success</strong> You deal full damage.</p>\n<hr />\n<p class=\"hang\"><strong>Heightened (+1)</strong> The damage increases by 1d6</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "attack",
+        "cantrip",
+        "force"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": null
+    },
+    "level": {
+      "value": 1
+    },
+    "spellType": {
+      "value": "attack"
+    },
+    "category": {
+      "value": "spell"
+    },
+    "traditions": {
+      "value": [
+        "arcane"
+      ],
+      "custom": ""
+    },
+    "school": {
+      "value": "evocation"
+    },
+    "components": {
+      "focus": false,
+      "material": false,
+      "somatic": true,
+      "verbal": true
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": "1 creature or object"
+    },
+    "range": {
+      "value": "180 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": ""
+    },
+    "damage": {
+      "value": {
+        "0": {
+          "applyMod": true,
+          "type": {
+            "categories": [],
+            "value": "force",
+            "subtype": ""
+          },
+          "value": "1d6"
+        }
+      }
+    },
+    "save": {
+      "value": "",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "ability": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "hasCounteractCheck": {
+      "value": false
+    },
+    "heightening": {
+      "damage": {
+        "0": "1d6"
+      },
+      "interval": 1,
+      "type": "interval"
+    },
+    "prepared": {
+      "value": ""
+    },
+    "primarycheck": {
+      "value": ""
+    },
+    "secondarycasters": {
+      "value": ""
+    },
+    "secondarycheck": {
+      "value": ""
+    }
+  },
+  "type": "spell",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.spells-srd.gYjPm7YwGtEa1oxh"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672977422695,
+    "modifiedTime": 1673108624733,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_id": "q89k4VvYPq0qe3GX",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "_key": "!items!q89k4VvYPq0qe3GX"
+}

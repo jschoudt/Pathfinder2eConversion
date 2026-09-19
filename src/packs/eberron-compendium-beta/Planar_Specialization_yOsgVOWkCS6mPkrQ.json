@@ -1,0 +1,72 @@
+{
+  "img": "systems/pf2e/icons/features/classes/primal-spellcasting.webp",
+  "name": "Planar Specialization",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>As a Planar Artificer, you possess a deep knowledge of the arcane forces that underlie Eberron, and are able to channel these energies into your creations. You draw directly on the primal energies of the planes and ley lines. Instead of using standard arcane components, you may use pieces of the planes themselves to create temporary micro-manifest zones, giving you unparalleled control over the fundamental forces of reality.</p>\n<p>Your spellcasting tradition is <strong>Primal</strong>.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.proficiencies.aliases.artificer",
+        "priority": 39,
+        "value": "primal"
+      }
+    ],
+    "slug": "planar-specialization",
+    "schema": {
+      "version": 0.835,
+      "lastMigration": null
+    },
+    "level": {
+      "value": 1
+    },
+    "traits": {
+      "value": [
+        "hb_artificer"
+      ],
+      "rarity": "common"
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.classfeatures.3qqvnC2U8W26yae7"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.10.4",
+    "coreVersion": "10.291",
+    "createdTime": 1685924334481,
+    "modifiedTime": 1691634307266,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "_id": "yOsgVOWkCS6mPkrQ",
+  "_key": "!items!yOsgVOWkCS6mPkrQ"
+}

@@ -1,0 +1,81 @@
+{
+  "name": "Enrage",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.1PiejdIO2nkEjmJs"
+    }
+  },
+  "_id": "UEpSIxzX5cNPAOnb",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"hang\"><strong>Prerequisites</strong> Du'ulora Kalashtar heritage</p>\n<p class=\"hang\"><strong>Frequency</strong> once per hour</p>\n<hr />\n<p>As a creature succumbs to its feelings of anger and hate, your control over them grows. Choose a hostile foe within 30 feet, that creature must make a Will save against your innate occult DC. <br /><strong>Critical Success</strong> The creature resists your taunt.<br /><strong>Success</strong> On the creature's turn, it must spend 1 of its actions to attack you if it can, or in the pursuit of being able to attack you.<br /><strong>Failure</strong> The creature becomes @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied}. On the creature's turn, it must spend 2 of its actions to attack you if it can, or in the pursuit of being able to attack you.<br /><strong>Critical Failure</strong> The creature becomes @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied}. On the creature's turn, it must spend all of its actions to attack you if it can, or in the pursuit of being able to attack you.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:02.134-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 9
+    },
+    "traits": {
+      "value": [
+        "emotion",
+        "hb_kalashtar",
+        "mental"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Du'ulora Kalashtar heritage"
+        }
+      ]
+    },
+    "location": null,
+    "featType": {
+      "value": "ancestry"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.10.4",
+    "coreVersion": "10.291",
+    "createdTime": 1672960322352,
+    "modifiedTime": 1691632704813,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!UEpSIxzX5cNPAOnb"
+}

@@ -1,0 +1,126 @@
+{
+  "img": "systems/pf2e/icons/spells/guidance.webp",
+  "name": "Dragonmarked Guidance",
+  "system": {
+    "description": {
+      "value": "<p>You may substitute your speciality for the creature for the duration of the spell. When the target creature makes the check, the creature may choose to use your modifier rather than their own. This check depends on your mark.<br /><strong>Mark of Detection</strong> perception<br /><strong>Mark of Finding</strong> perception<br /><strong>Mark of Handling</strong> nature<br /><strong>Mark of Healing</strong> medicine<br /><strong>Mark of Hospitality</strong> diplomacy<br /><strong>Mark of Making</strong> crafting<br /><strong>Mark of Passage</strong> acrobatics<br /><strong>Mark of Scribing</strong> lore<br /><strong>Mark of Sentinel</strong> athletics<br /><strong>Mark of Shadow</strong> stealth<br /><strong>Mark of Storm</strong> acrobatics<br /><strong>Mark of Warding</strong> thievery</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "hb_dragonmark",
+        "hb_true-dragonmark"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": null
+    },
+    "level": {
+      "value": 1
+    },
+    "spellType": {
+      "value": "utility"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": [
+        "divine",
+        "occult",
+        "primal",
+        "arcane"
+      ],
+      "custom": ""
+    },
+    "school": {
+      "value": "divination"
+    },
+    "components": {
+      "focus": false,
+      "material": false,
+      "somatic": false,
+      "verbal": true
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "1"
+    },
+    "duration": {
+      "value": "until the start of your next turn"
+    },
+    "damage": {
+      "value": {}
+    },
+    "save": {
+      "value": "",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "ability": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "hasCounteractCheck": {
+      "value": false
+    },
+    "prepared": {
+      "value": ""
+    },
+    "primarycheck": {
+      "value": ""
+    },
+    "secondarycasters": {
+      "value": ""
+    },
+    "secondarycheck": {
+      "value": ""
+    }
+  },
+  "type": "spell",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.spells-srd.izcxFQFwf3woCnFs"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672970925209,
+    "modifiedTime": 1673330714021,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_id": "kHnaDNJ6pyojfKMp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "_key": "!items!kHnaDNJ6pyojfKMp"
+}

@@ -1,0 +1,130 @@
+{
+  "img": "systems/pf2e/icons/spells/banishment.webp",
+  "name": "Banish Dragonmark",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "\n\n\n<p>One of the spells developed by the twelve to hunt Aberrant Marks, they found these dragonmark targeting spells could disable any dragonmark - not just Aberrant marks. The twelve determined it to be too great a risk to make public. However, this spell has since been acquired by various intelligence agencies, held until the day it may be necessary.</p>\n\n\n\n<p>You utter a harsh incantation and point a finger at the target. Suddenly, your foe’s dragonmark begins to writhe and separate from its body. They must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> the target is unaffected.<br /><strong>Success</strong> the target is @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained 1}.<br /><strong>Failure</strong> the target is @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained 1}, and the target may not use any feature, spell, or item with the dragonmark trait. They may attempt a Will save at the end of each of their turns to resume using their dragonmark.<br /><strong>Critical Failure</strong> the target is @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained 2}, the target may not use any feature, spell, or item with the dragonmark trait until the duration expires.</p>\n<hr />\n<p class=\"hang\"><strong>Heightened (+1)</strong> The duration increases by 1 day.</p>\n"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": null
+    },
+    "traits": {
+      "value": [
+        "incapacitation"
+      ],
+      "rarity": "uncommon",
+      "custom": ""
+    },
+    "level": {
+      "value": 5
+    },
+    "spellType": {
+      "value": "save"
+    },
+    "category": {
+      "value": "spell"
+    },
+    "traditions": {
+      "value": [
+        "arcane",
+        "divine",
+        "occult",
+        "primal"
+      ]
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "components": {
+      "focus": false,
+      "material": false,
+      "somatic": true,
+      "verbal": true
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": "1 creature with the Dragonmark trait"
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": ""
+    },
+    "damage": {
+      "value": {}
+    },
+    "save": {
+      "value": "will",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "hasCounteractCheck": {
+      "value": false
+    },
+    "ability": {
+      "value": ""
+    },
+    "prepared": {
+      "value": ""
+    },
+    "primarycheck": {
+      "value": ""
+    },
+    "secondarycasters": {
+      "value": ""
+    },
+    "secondarycheck": {
+      "value": ""
+    },
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {}
+    }
+  },
+  "type": "spell",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.spells-srd.bay4AfSu2iIozNNW"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.12.9",
+    "coreVersion": "10.303",
+    "createdTime": 1672969838510,
+    "modifiedTime": 1694445196070,
+    "lastModifiedBy": "7iofgUiimTzs2vga"
+  },
+  "_id": "do2YyVgCn2ftgxvW",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "_key": "!items!do2YyVgCn2ftgxvW"
+}

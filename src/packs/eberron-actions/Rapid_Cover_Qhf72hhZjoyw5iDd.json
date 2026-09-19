@@ -1,0 +1,72 @@
+{
+  "name": "Rapid Cover",
+  "type": "action",
+  "img": "systems/pf2e/icons/actions/FreeAction.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.NKTyRylnKDiuwJTQ"
+    }
+  },
+  "_id": "Qhf72hhZjoyw5iDd",
+  "system": {
+    "description": {
+      "value": "<p class=\"hang\"><strong>Frequency</strong> Once per day</p>\n<p class=\"hang\"><strong>Requirements</strong> You are wielding a raised tower shield</p>\n<hr />\n<p class=\"hang\"> </p>\n<p>You are trained to hold the line against any charge. You may take cover behind the shield, gaining the higher bonus for the tower shield.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "flourish",
+        "gnoll"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:02:51.528-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "actionType": {
+      "value": "free"
+    },
+    "actionCategory": {
+      "value": ""
+    },
+    "actions": {
+      "value": null
+    },
+    "requirements": {
+      "value": ""
+    },
+    "trigger": {
+      "value": ""
+    },
+    "deathNote": false
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672959771577,
+    "modifiedTime": 1672959940676,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "_key": "!items!Qhf72hhZjoyw5iDd"
+}

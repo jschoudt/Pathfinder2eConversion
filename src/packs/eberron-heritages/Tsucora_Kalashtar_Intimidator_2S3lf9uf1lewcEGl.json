@@ -1,0 +1,64 @@
+{
+  "_id": "2S3lf9uf1lewcEGl",
+  "name": "Tsucora Kalashtar Intimidator",
+  "type": "heritage",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.TeVyuNtWimnjPSnv"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<h2>Tsucora Kalashtar</h2>\n<p>The tsucora are the quori of classic nightmares, feeding on terror. If you have this quori ancestry, you can choose one of the following paths.</p>\n<h3>Tsucora Intimidator</h3>\n<p>You become trained in intimidation (or another skill if you were already trained in intimidation) and gain the @Compendium[pf2e.feats-srd.xQMz6eDgX75WX2ce]{Intimidating Glare} feat. When you use the @Compendium[pf2e.actionspf2e.2u915NdUyQan6uKF]{Demoralize} action, you can instead bend the target's mind to inspire fear. If you do so, Demoralize gains the mental trait rather than the visual trait.  </p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "hb_kalashtar"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.xQMz6eDgX75WX2ce"
+      }
+    ],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:06.610-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "ancestry": {
+      "name": "Kalashtar",
+      "uuid": "Compendium.pathfinders-guide-to-eberron-compendium.eberron-ancestries.Fk955i74aVVUzOKt"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960327008,
+    "modifiedTime": 1672986313352,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!2S3lf9uf1lewcEGl"
+}

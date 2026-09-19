@@ -1,0 +1,63 @@
+{
+  "_id": "J1PgdSpZYcfaS5Om",
+  "name": "Cliffwalk Shifter",
+  "type": "heritage",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.U9pPWeHnnSoOCNZQ"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Typically manifesting traits of the mountain goat, cliffwalk shifters can have traits of any animal with an aptitude for climbing. Cliffwalk shifters often have a shy and introverted nature but have a strong sense of kindness and justice for those around them.</p>\n<p> </p>\n<p>You are talented at scaling surfaces without focusing on the climb itself. You gain the @Compendium[pf2e.feats-srd.09PurtIanNUPfNRq]{Combat Climber} feat.</p>\n<p> </p>\n<h3>Hybrid form</h3>\n<p>While in your hybrid form, you gain a +1 circumstance bonus to your Athletics check to climb or Grab an Edge.<br /><br />@Compendium[pathfinders-guide-to-eberron-compendium.eberron-actions.GJlsNQ6mSAAcjZVm]{Change Shape (Cliffwalk Shifter)}</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "hb_shifter"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pathfinders-guide-to-eberron.eberron-actions.GJlsNQ6mSAAcjZVm"
+      }
+    ],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:06.734-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "ancestry": {
+      "name": "Shifter",
+      "uuid": "Compendium.pathfinders-guide-to-eberron-compendium.eberron-ancestries.NXVjPRJeIOOceUHp"
+    }
+  },
+  "ownership": {
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960327012,
+    "modifiedTime": 1681694937095,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!J1PgdSpZYcfaS5Om"
+}

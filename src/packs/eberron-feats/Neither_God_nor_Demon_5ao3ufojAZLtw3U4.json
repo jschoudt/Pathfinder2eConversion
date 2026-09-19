@@ -1,0 +1,90 @@
+{
+  "name": "Neither God nor Demon",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.feats-srd.aLgb1x3azE4IKz0o"
+    }
+  },
+  "_id": "5ao3ufojAZLtw3U4",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "\n\n\n\n<p class=\"hang\"><strong>Trigger</strong> You attempt a saving throw against a divine magical effect, but you haven't rolled yet.</p>\n<hr />\n<p>The Znir pact shattered the images of the fiends they once served and swore they would allow no one-not chib, god, or demon-to hold dominion over them. Channelling the power of your ancestors, you ferociously resist divine magic. You gain a +2 circumstance bonus against divine spells, and if you roll a critical failure on the saving throw against that spell, you get a failure instead.</p>\n"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [
+      {
+        "key": "CriticalSpecialization",
+        "predicate": [
+          {
+            "or": [
+              "item:trait:gnoll",
+              "item:base:flail",
+              "item:base:khopesh",
+              "item:base:mambele",
+              "item:base:spear",
+              "item:base:war-flail"
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:01.823-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 9
+    },
+    "traits": {
+      "value": [
+        "gnoll"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "featType": {
+      "value": "ancestry"
+    }
+  },
+  "ownership": {
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.10.4",
+    "coreVersion": "10.291",
+    "createdTime": 1672960322325,
+    "modifiedTime": 1691632969745,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!5ao3ufojAZLtw3U4"
+}

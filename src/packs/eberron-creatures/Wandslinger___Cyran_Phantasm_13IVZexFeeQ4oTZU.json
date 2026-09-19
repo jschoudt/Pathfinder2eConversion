@@ -1,0 +1,1647 @@
+{
+  "name": "Wandslinger - Cyran Phantasm",
+  "type": "npc",
+  "prototypeToken": {
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "name": "Magewright - Chef",
+    "displayName": 0,
+    "actorLink": false,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/npc.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": null
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": null,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "randomImg": false
+  },
+  "img": "systems/pf2e/icons/default-icons/npc.svg",
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 48,
+        "temp": 0,
+        "max": 48,
+        "details": ""
+      },
+      "initiative": {
+        "ability": "perception"
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": [],
+        "details": ""
+      },
+      "ac": {
+        "value": 18,
+        "details": ""
+      },
+      "perception": {
+        "value": 14
+      },
+      "allSaves": {
+        "value": ""
+      }
+    },
+    "details": {
+      "alignment": {
+        "value": "N"
+      },
+      "level": {
+        "value": 3
+      },
+      "source": {
+        "value": "Pathfinder's Guide to Eberron",
+        "author": ""
+      },
+      "creatureType": "",
+      "blurb": "",
+      "publicNotes": "<p>Magewrights are the backbone of Khorvaire's arcane industry. Performing any role that a common tradesperson might, they weave magic into their productions to increase their efficiency and quality of product. The magewright smith is a 7th-level challenge when competing with smithing or other crafting tasks.</p>",
+      "privateNotes": ""
+    },
+    "traits": {
+      "value": [
+        "humanoid",
+        "Magewright",
+        "human"
+      ],
+      "senses": {
+        "value": ""
+      },
+      "languages": {
+        "value": [
+          "common"
+        ],
+        "selected": [],
+        "custom": ""
+      },
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      }
+    },
+    "resources": {},
+    "schema": {
+      "version": null,
+      "lastMigration": null
+    },
+    "abilities": {
+      "str": {
+        "mod": 1
+      },
+      "dex": {
+        "mod": 3
+      },
+      "con": {
+        "mod": 2
+      },
+      "int": {
+        "mod": 2
+      },
+      "wis": {
+        "mod": 1
+      },
+      "cha": {
+        "mod": 4
+      }
+    },
+    "saves": {
+      "fortitude": {
+        "value": 7,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 12,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 7,
+        "saveDetail": ""
+      }
+    }
+  },
+  "items": [
+    {
+      "name": "Arcana",
+      "type": "lore",
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": "Pathfinder's Guide to Eberron"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.812,
+          "lastMigration": null
+        },
+        "mod": {
+          "value": 8
+        },
+        "proficient": {
+          "value": 0
+        }
+      },
+      "_id": "rg0JUYiUNAbWJ0cA",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "lxzmymmFddOcN8CB": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.6.3",
+        "coreVersion": "10.291",
+        "createdTime": 1673111525036,
+        "modifiedTime": 1673111573777,
+        "lastModifiedBy": "lxzmymmFddOcN8CB"
+      },
+      "_key": "!actors.items!13IVZexFeeQ4oTZU.rg0JUYiUNAbWJ0cA"
+    },
+    {
+      "name": "Diplomacy",
+      "type": "lore",
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": "Pathfinder's Guide to Eberron"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.812,
+          "lastMigration": null
+        },
+        "mod": {
+          "value": 9
+        },
+        "proficient": {
+          "value": 0
+        }
+      },
+      "_id": "Tq65ioRkMIv6EIpi",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "lxzmymmFddOcN8CB": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.6.3",
+        "coreVersion": "10.291",
+        "createdTime": 1673111535919,
+        "modifiedTime": 1673115670492,
+        "lastModifiedBy": "lxzmymmFddOcN8CB"
+      },
+      "_key": "!actors.items!13IVZexFeeQ4oTZU.Tq65ioRkMIv6EIpi"
+    },
+    {
+      "name": "Arcane Prepared Spells",
+      "type": "spellcastingEntry",
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": "Pathfinder's Guide to Eberron"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.812,
+          "lastMigration": {
+            "datetime": "2023-01-07T09:20:45.011-08:00",
+            "version": {
+              "schema": null,
+              "foundry": "10.291",
+              "system": "4.6.3"
+            }
+          }
+        },
+        "ability": {
+          "value": "cha"
+        },
+        "spelldc": {
+          "value": 8,
+          "dc": 18
+        },
+        "tradition": {
+          "value": "arcane"
+        },
+        "prepared": {
+          "value": "prepared",
+          "flexible": false
+        },
+        "showUnpreparedSpells": {
+          "value": false
+        },
+        "showSlotlessLevels": {
+          "value": true
+        },
+        "proficiency": {
+          "value": 1
+        },
+        "displayLevels": {},
+        "slots": {
+          "slot0": {
+            "prepared": {
+              "0": {
+                "id": "DtR8xEWeqzjAPsCF",
+                "expended": false
+              },
+              "1": {
+                "id": "LlKA8BionTCmZKUD",
+                "expended": false
+              },
+              "2": {
+                "id": "PiXswru17k1OoG82",
+                "expended": false
+              }
+            },
+            "value": 0,
+            "max": 3
+          },
+          "slot1": {
+            "prepared": {
+              "0": {
+                "id": "fiAZ4d3G5bkDdw5M"
+              }
+            },
+            "value": 0,
+            "max": 1
+          },
+          "slot2": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot3": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot4": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot5": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot6": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot7": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot8": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot9": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot10": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot11": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          }
+        },
+        "autoHeightenLevel": {
+          "value": null
+        }
+      },
+      "_id": "z0q3RHBnDaeix6yZ",
+      "img": "systems/pf2e/icons/default-icons/spellcastingEntry.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "lxzmymmFddOcN8CB": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.6.3",
+        "coreVersion": "10.291",
+        "createdTime": 1673112045020,
+        "modifiedTime": 1673115821324,
+        "lastModifiedBy": "lxzmymmFddOcN8CB"
+      },
+      "_key": "!actors.items!13IVZexFeeQ4oTZU.z0q3RHBnDaeix6yZ"
+    },
+    {
+      "name": "Athletics",
+      "type": "lore",
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": "Pathfinder's Guide to Eberron"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.812,
+          "lastMigration": null
+        },
+        "mod": {
+          "value": 8
+        },
+        "proficient": {
+          "value": 0
+        }
+      },
+      "_id": "mJSuUcwYvnqT9E4i",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "lxzmymmFddOcN8CB": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.6.3",
+        "coreVersion": "10.291",
+        "createdTime": 1673112725255,
+        "modifiedTime": 1673112744899,
+        "lastModifiedBy": "lxzmymmFddOcN8CB"
+      },
+      "_key": "!actors.items!13IVZexFeeQ4oTZU.mJSuUcwYvnqT9E4i"
+    },
+    {
+      "_id": "VVAMg5sZyfQrylMx",
+      "img": "systems/pf2e/icons/equipment/adventuring-gear/artisan-tools.webp",
+      "name": "Artisan's Tools",
+      "system": {
+        "description": {
+          "value": "<p>You need these tools to create items from raw materials with the Craft skill. Different sets are needed for different work, as determined by the GM; for example, blacksmith's tools differ from woodworker's tools. These can be used with 1 hand if you're wearing them.</p>"
+        },
+        "source": {
+          "value": "Pathfinder's Guide to Eberron"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": "",
+          "otherTags": []
+        },
+        "rules": [],
+        "slug": "artisans-tools",
+        "schema": {
+          "version": 0.812,
+          "lastMigration": null
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "hp": {
+          "brokenThreshold": 0,
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "weight": {
+          "value": "2"
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "price": {
+          "value": {
+            "gp": 4
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "stackGroup": null,
+        "negateBulk": {
+          "value": "0"
+        },
+        "containerId": null,
+        "preciousMaterial": {
+          "value": ""
+        },
+        "preciousMaterialGrade": {
+          "value": ""
+        },
+        "size": "med",
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "level": {
+          "value": 0
+        }
+      },
+      "type": "equipment",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.y34yjumCFakrbtdw"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "lxzmymmFddOcN8CB": 3
+      },
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.6.3",
+        "coreVersion": "10.291",
+        "createdTime": 1673112795448,
+        "modifiedTime": 1673112795448,
+        "lastModifiedBy": "lxzmymmFddOcN8CB"
+      },
+      "_key": "!actors.items!13IVZexFeeQ4oTZU.VVAMg5sZyfQrylMx"
+    },
+    {
+      "_id": "gEkSKnIRXIBjFSGs",
+      "img": "systems/pf2e/icons/equipment/armor/padded-armor.webp",
+      "name": "Leather Apron",
+      "system": {
+        "description": {
+          "value": "<p>This armor is simply a layer of heavy, quilted cloth, but it is sometimes used because it's so inexpensive. Padded armor is easier to damage and destroy than other types of armor. Heavy armor comes with a padded armor undercoat included in its Price, though it loses the comfort trait when worn under heavy armor. You can wear just that padded armor or undercoat to sleep in, if your heavy armor is destroyed, or when otherwise not wearing the full heavy armor. This allows you to keep the armor invested and benefit from the power of any runes on the associated heavy armor, but no one else can wear your heavy armor without the padded undercoat.</p>"
+        },
+        "source": {
+          "value": "Pathfinder's Guide to Eberron"
+        },
+        "traits": {
+          "value": [
+            "comfort"
+          ],
+          "rarity": "common",
+          "custom": "",
+          "otherTags": []
+        },
+        "rules": [],
+        "slug": "padded-armor",
+        "schema": {
+          "version": 0.812,
+          "lastMigration": null
+        },
+        "quantity": 1,
+        "baseItem": "padded-armor",
+        "hp": {
+          "brokenThreshold": 0,
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "weight": {
+          "value": "1"
+        },
+        "equippedBulk": {
+          "value": "L"
+        },
+        "price": {
+          "value": {
+            "sp": 2
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "inSlot": false,
+          "handsHeld": 0
+        },
+        "stackGroup": null,
+        "negateBulk": {
+          "value": "0"
+        },
+        "containerId": null,
+        "preciousMaterial": {
+          "value": null
+        },
+        "preciousMaterialGrade": {
+          "value": null
+        },
+        "size": "med",
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Padded Armor",
+            "img": "systems/pf2e/icons/unidentified_item_icons/armor.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "wornarmor"
+        },
+        "level": {
+          "value": 0
+        },
+        "armor": {
+          "value": 1
+        },
+        "category": "light",
+        "group": null,
+        "strength": {
+          "value": 10
+        },
+        "dex": {
+          "value": 3
+        },
+        "check": {
+          "value": 0
+        },
+        "speed": {
+          "value": 0
+        },
+        "potencyRune": {
+          "value": null
+        },
+        "resiliencyRune": {
+          "value": null
+        },
+        "propertyRune1": {
+          "value": null
+        },
+        "propertyRune2": {
+          "value": null
+        },
+        "propertyRune3": {
+          "value": null
+        },
+        "propertyRune4": {
+          "value": null
+        },
+        "potency": {}
+      },
+      "type": "armor",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.zBYEU9E7034ENCmh"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "lxzmymmFddOcN8CB": 3
+      },
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.6.3",
+        "coreVersion": "10.291",
+        "createdTime": 1673112824402,
+        "modifiedTime": 1673112830227,
+        "lastModifiedBy": "lxzmymmFddOcN8CB"
+      },
+      "_key": "!actors.items!13IVZexFeeQ4oTZU.gEkSKnIRXIBjFSGs"
+    },
+    {
+      "_id": "eWDHxScJHfZSTOcW",
+      "img": "systems/pf2e/icons/equipment/weapons/light-hammer.webp",
+      "name": "Light Hammer",
+      "system": {
+        "description": {
+          "value": "<p>This smaller version of the warhammer has a wooden or metal shaft ending in a metal head. Unlike its heavier cousin, it is light enough to throw.</p>"
+        },
+        "source": {
+          "value": "Pathfinder's Guide to Eberron"
+        },
+        "traits": {
+          "value": [
+            "agile",
+            "thrown-20"
+          ],
+          "rarity": "common",
+          "custom": "",
+          "otherTags": []
+        },
+        "rules": [],
+        "slug": "light-hammer",
+        "schema": {
+          "version": 0.812,
+          "lastMigration": null
+        },
+        "quantity": 1,
+        "baseItem": "light-hammer",
+        "hp": {
+          "brokenThreshold": 0,
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "weight": {
+          "value": "L"
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "price": {
+          "value": {
+            "sp": 3
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0
+        },
+        "stackGroup": null,
+        "negateBulk": {
+          "value": "0"
+        },
+        "containerId": null,
+        "preciousMaterial": {
+          "value": null
+        },
+        "preciousMaterialGrade": {
+          "value": null
+        },
+        "size": "med",
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "level": {
+          "value": 0
+        },
+        "category": "martial",
+        "group": "hammer",
+        "bonus": {
+          "value": 0
+        },
+        "damage": {
+          "value": "",
+          "dice": 1,
+          "die": "d6",
+          "damageType": "bludgeoning"
+        },
+        "bonusDamage": {
+          "value": 0
+        },
+        "splashDamage": {
+          "value": 0
+        },
+        "range": null,
+        "reload": {
+          "value": "-"
+        },
+        "MAP": {
+          "value": ""
+        },
+        "potencyRune": {
+          "value": null
+        },
+        "strikingRune": {
+          "value": ""
+        },
+        "specific": {
+          "value": false
+        },
+        "propertyRune1": {
+          "value": ""
+        },
+        "propertyRune2": {
+          "value": ""
+        },
+        "propertyRune3": {
+          "value": ""
+        },
+        "propertyRune4": {
+          "value": ""
+        },
+        "property1": {
+          "value": "",
+          "dice": 0,
+          "die": "",
+          "damageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": ""
+        }
+      },
+      "type": "weapon",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.FibwLZ12EIEwLGhw"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "lxzmymmFddOcN8CB": 3
+      },
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.6.3",
+        "coreVersion": "10.291",
+        "createdTime": 1673112840098,
+        "modifiedTime": 1673112840098,
+        "lastModifiedBy": "lxzmymmFddOcN8CB"
+      },
+      "_key": "!actors.items!13IVZexFeeQ4oTZU.eWDHxScJHfZSTOcW"
+    },
+    {
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "name": "Counterspell",
+      "system": {
+        "description": {
+          "value": "<p><span class=\"text-pre\"><strong>Trigger</strong> A creature Casts a Spell the Wandslinger has prepared; <strong>Effect</strong> The Wandslinger expends a prepared spell to counter the triggering creature's casting of that same spell. The Wandslinger loses its spell slot as if it had cast the triggering spell. The Wandslinger then attempts to counteract the triggering spell.</span></p>"
+        },
+        "source": {
+          "value": "Pathfinder's Guide to Eberron"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.812,
+          "lastMigration": {
+            "datetime": "2023-01-07T09:38:25.628-08:00",
+            "version": {
+              "schema": null,
+              "foundry": "10.291",
+              "system": "4.6.3"
+            }
+          }
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actionCategory": {
+          "value": "defensive"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false
+      },
+      "_id": "QCFkeUblO0H7Yhv3",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "lxzmymmFddOcN8CB": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.6.3",
+        "coreVersion": "10.291",
+        "createdTime": 1673113105638,
+        "modifiedTime": 1673115725883,
+        "lastModifiedBy": "lxzmymmFddOcN8CB"
+      },
+      "_key": "!actors.items!13IVZexFeeQ4oTZU.QCFkeUblO0H7Yhv3"
+    },
+    {
+      "name": "Acrobatics",
+      "type": "lore",
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": "Pathfinder's Guide to Eberron"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.812,
+          "lastMigration": null
+        },
+        "mod": {
+          "value": 0
+        },
+        "proficient": {
+          "value": 0
+        }
+      },
+      "_id": "QVKDHWVfAxPPf4nR",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "lxzmymmFddOcN8CB": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.6.3",
+        "coreVersion": "10.291",
+        "createdTime": 1673115644497,
+        "modifiedTime": 1673115644497,
+        "lastModifiedBy": "lxzmymmFddOcN8CB"
+      },
+      "_key": "!actors.items!13IVZexFeeQ4oTZU.QVKDHWVfAxPPf4nR"
+    },
+    {
+      "name": "Performance",
+      "type": "lore",
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": "Pathfinder's Guide to Eberron"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.812,
+          "lastMigration": null
+        },
+        "mod": {
+          "value": 9
+        },
+        "proficient": {
+          "value": 0
+        }
+      },
+      "_id": "tM8NpuHAuG45D28U",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "lxzmymmFddOcN8CB": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.6.3",
+        "coreVersion": "10.291",
+        "createdTime": 1673115657520,
+        "modifiedTime": 1673115670492,
+        "lastModifiedBy": "lxzmymmFddOcN8CB"
+      },
+      "_key": "!actors.items!13IVZexFeeQ4oTZU.tM8NpuHAuG45D28U"
+    },
+    {
+      "name": "Deception",
+      "type": "lore",
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": "Pathfinder's Guide to Eberron"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.812,
+          "lastMigration": null
+        },
+        "mod": {
+          "value": 11
+        },
+        "proficient": {
+          "value": 0
+        }
+      },
+      "_id": "lvKuPf9soBuHjrGf",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "lxzmymmFddOcN8CB": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.6.3",
+        "coreVersion": "10.291",
+        "createdTime": 1673115661465,
+        "modifiedTime": 1673115670492,
+        "lastModifiedBy": "lxzmymmFddOcN8CB"
+      },
+      "_key": "!actors.items!13IVZexFeeQ4oTZU.lvKuPf9soBuHjrGf"
+    },
+    {
+      "_id": "fiAZ4d3G5bkDdw5M",
+      "img": "systems/pf2e/icons/spells/magic-missile.webp",
+      "name": "Magic Missile",
+      "system": {
+        "description": {
+          "value": "<p>You send a dart of force streaking toward a creature that you can see. It automatically hits and deals 1d4+1 force damage. For each additional action you use when Casting the Spell, increase the number of missiles you shoot by one, to a maximum of three missiles for 3 actions. You choose the target for each missile individually. If you shoot more than one missile at the same target, combine the damage before applying bonuses or penalties to damage, resistances, weaknesses, and so forth.</p>\n<hr />\n<p><strong>Heightened (+2)</strong> You shoot one additional missile with each action you spend.</p>"
+        },
+        "source": {
+          "value": "Pathfinder's Guide to Eberron"
+        },
+        "traits": {
+          "value": [
+            "force"
+          ],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": "magic-missile",
+        "schema": {
+          "version": 0.812,
+          "lastMigration": null
+        },
+        "level": {
+          "value": 1
+        },
+        "spellType": {
+          "value": "utility"
+        },
+        "category": {
+          "value": "spell"
+        },
+        "traditions": {
+          "value": [
+            "arcane",
+            "occult"
+          ]
+        },
+        "school": {
+          "value": "evocation"
+        },
+        "components": {
+          "focus": false,
+          "material": false,
+          "somatic": true,
+          "verbal": true
+        },
+        "materials": {
+          "value": ""
+        },
+        "target": {
+          "value": "1 creature"
+        },
+        "range": {
+          "value": "120 feet"
+        },
+        "area": null,
+        "time": {
+          "value": "1 to 3"
+        },
+        "duration": {
+          "value": ""
+        },
+        "damage": {
+          "value": {
+            "0": {
+              "applyMod": false,
+              "type": {
+                "categories": [],
+                "subtype": "",
+                "value": "force"
+              },
+              "value": "1d4+1"
+            }
+          }
+        },
+        "save": {
+          "value": "",
+          "basic": ""
+        },
+        "sustained": {
+          "value": false
+        },
+        "cost": {
+          "value": ""
+        },
+        "ability": {
+          "value": ""
+        },
+        "location": {
+          "value": "z0q3RHBnDaeix6yZ"
+        },
+        "hasCounteractCheck": {
+          "value": false
+        },
+        "overlays": {},
+        "prepared": {
+          "value": ""
+        },
+        "primarycheck": {
+          "value": ""
+        },
+        "secondarycasters": {
+          "value": ""
+        },
+        "secondarycheck": {
+          "value": ""
+        }
+      },
+      "type": "spell",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.spells-srd.gKKqvLohtrSJj3BM"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "lxzmymmFddOcN8CB": 3
+      },
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.6.3",
+        "coreVersion": "10.291",
+        "createdTime": 1673115756213,
+        "modifiedTime": 1673115756213,
+        "lastModifiedBy": "lxzmymmFddOcN8CB"
+      },
+      "_key": "!actors.items!13IVZexFeeQ4oTZU.fiAZ4d3G5bkDdw5M"
+    },
+    {
+      "img": "systems/pf2e/icons/spells/ray-of-frost.webp",
+      "name": "Force Blast",
+      "system": {
+        "description": {
+          "value": "<p>You unleash a bolt of physical power at a creature or object within range. Make a spell attack roll. The blast deals force damage equal to 1d6 + your spellcasting ability modifier.</p>\n<p><strong>Critical Success</strong> You deal double damage.<br /><strong>Success</strong> You deal full damage.</p>\n<hr />\n<p class=\"hang\"><strong>Heightened (+1)</strong> The damage increases by 1d6</p>"
+        },
+        "source": {
+          "value": "Pathfinder's Guide to Eberron"
+        },
+        "traits": {
+          "value": [
+            "attack",
+            "cantrip",
+            "force"
+          ],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": "ray-of-frost",
+        "schema": {
+          "version": 0.812,
+          "lastMigration": null
+        },
+        "level": {
+          "value": 1
+        },
+        "spellType": {
+          "value": "attack"
+        },
+        "category": {
+          "value": "spell"
+        },
+        "traditions": {
+          "value": [
+            "arcane"
+          ],
+          "custom": ""
+        },
+        "school": {
+          "value": "evocation"
+        },
+        "components": {
+          "focus": false,
+          "material": false,
+          "somatic": true,
+          "verbal": true
+        },
+        "materials": {
+          "value": ""
+        },
+        "target": {
+          "value": "1 creature or object"
+        },
+        "range": {
+          "value": "180 feet"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": ""
+        },
+        "damage": {
+          "value": {
+            "0": {
+              "applyMod": true,
+              "type": {
+                "categories": [],
+                "value": "force",
+                "subtype": ""
+              },
+              "value": "1d6"
+            }
+          }
+        },
+        "save": {
+          "value": "",
+          "basic": ""
+        },
+        "sustained": {
+          "value": false
+        },
+        "cost": {
+          "value": ""
+        },
+        "ability": {
+          "value": ""
+        },
+        "location": {
+          "value": "z0q3RHBnDaeix6yZ"
+        },
+        "hasCounteractCheck": {
+          "value": false
+        },
+        "heightening": {
+          "damage": {
+            "0": "1d6"
+          },
+          "interval": 1,
+          "type": "interval"
+        },
+        "prepared": {
+          "value": ""
+        },
+        "primarycheck": {
+          "value": ""
+        },
+        "secondarycasters": {
+          "value": ""
+        },
+        "secondarycheck": {
+          "value": ""
+        }
+      },
+      "type": "spell",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.spells-srd.gYjPm7YwGtEa1oxh"
+        }
+      },
+      "effects": [],
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.6.3",
+        "coreVersion": "10.291",
+        "createdTime": 1672977422695,
+        "modifiedTime": 1673115762091,
+        "lastModifiedBy": "lxzmymmFddOcN8CB"
+      },
+      "_id": "DtR8xEWeqzjAPsCF",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "lxzmymmFddOcN8CB": 3
+      },
+      "_key": "!actors.items!13IVZexFeeQ4oTZU.DtR8xEWeqzjAPsCF"
+    },
+    {
+      "_id": "LlKA8BionTCmZKUD",
+      "img": "systems/pf2e/icons/spells/shield.webp",
+      "name": "Shield",
+      "system": {
+        "description": {
+          "value": "<p>You raise a magical shield of force. This counts as using the Raise a Shield action, giving you a +1 circumstance bonus to AC until the start of your next turn, but it doesn't require a hand to use.</p>\n<p>While the spell is in effect, you can use the @UUID[Compendium.pf2e.feats-srd.jM72TjJ965jocBV8]{Shield Block} reaction with your magic shield. The shield has Hardness 5. After you use Shield Block, the spell ends and you can't cast it again for 10 minutes. Unlike a normal Shield Block, you can use the spell's reaction against the <em>@UUID[Compendium.pf2e.spells-srd.gKKqvLohtrSJj3BM]{Magic Missile}</em> spell.</p>\n<p>Heightening the spell increases the shield's Hardness.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Jemq5UknGdMO7b73]{Spell Effect: Shield}</p>\n<p>@UUID[Compendium.pf2e.spell-effects.QF6RDlCoTvkVHRo4]{Effect: Shield Immunity}</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> The shield has Hardness 10.</p>\n<p><strong>Heightened (5th)</strong> The shield has Hardness 15.</p>\n<p><strong>Heightened (7th)</strong> The shield has Hardness 20.</p>\n<p><strong>Heightened (9th)</strong> The shield has Hardness 25.</p>"
+        },
+        "source": {
+          "value": "Pathfinder's Guide to Eberron"
+        },
+        "traits": {
+          "value": [
+            "cantrip",
+            "force"
+          ],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": "shield",
+        "schema": {
+          "version": 0.812,
+          "lastMigration": null
+        },
+        "level": {
+          "value": 1
+        },
+        "spellType": {
+          "value": "utility"
+        },
+        "category": {
+          "value": "spell"
+        },
+        "traditions": {
+          "value": [
+            "arcane",
+            "divine",
+            "occult"
+          ]
+        },
+        "school": {
+          "value": "abjuration"
+        },
+        "components": {
+          "focus": false,
+          "material": false,
+          "somatic": false,
+          "verbal": true
+        },
+        "materials": {
+          "value": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": ""
+        },
+        "area": null,
+        "time": {
+          "value": "1"
+        },
+        "duration": {
+          "value": "until the start of your next turn"
+        },
+        "damage": {
+          "value": {}
+        },
+        "save": {
+          "value": "",
+          "basic": ""
+        },
+        "sustained": {
+          "value": false
+        },
+        "cost": {
+          "value": ""
+        },
+        "ability": {
+          "value": ""
+        },
+        "location": {
+          "value": "z0q3RHBnDaeix6yZ"
+        },
+        "hasCounteractCheck": {
+          "value": false
+        },
+        "prepared": {
+          "value": ""
+        },
+        "primarycheck": {
+          "value": ""
+        },
+        "secondarycasters": {
+          "value": ""
+        },
+        "secondarycheck": {
+          "value": ""
+        }
+      },
+      "type": "spell",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.spells-srd.TVKNbcgTee19PXZR"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "lxzmymmFddOcN8CB": 3
+      },
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.6.3",
+        "coreVersion": "10.291",
+        "createdTime": 1673115767477,
+        "modifiedTime": 1673115767477,
+        "lastModifiedBy": "lxzmymmFddOcN8CB"
+      },
+      "_key": "!actors.items!13IVZexFeeQ4oTZU.LlKA8BionTCmZKUD"
+    },
+    {
+      "_id": "PiXswru17k1OoG82",
+      "img": "systems/pf2e/icons/spells/daze.webp",
+      "name": "Daze",
+      "system": {
+        "description": {
+          "value": "<p>You cloud the target's mind and daze it with a mental jolt. The jolt deals mental damage equal to your spellcasting ability modifier; the target must attempt a basic Will save. If the target critically fails the save, it is also @UUID[Compendium.pf2e.conditionitems.dfCMdR4wnpbYNTix]{Stunned 1}.</p>\n<hr />\n<p><strong>Heightened (+2)</strong> The damage increases by 1d6.</p>"
+        },
+        "source": {
+          "value": "Pathfinder's Guide to Eberron"
+        },
+        "traits": {
+          "value": [
+            "cantrip",
+            "mental",
+            "nonlethal"
+          ],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": "daze",
+        "schema": {
+          "version": 0.812,
+          "lastMigration": null
+        },
+        "level": {
+          "value": 1
+        },
+        "spellType": {
+          "value": "save"
+        },
+        "category": {
+          "value": "spell"
+        },
+        "traditions": {
+          "value": [
+            "arcane",
+            "divine",
+            "occult"
+          ]
+        },
+        "school": {
+          "value": "enchantment"
+        },
+        "components": {
+          "focus": false,
+          "material": false,
+          "somatic": true,
+          "verbal": true
+        },
+        "materials": {
+          "value": ""
+        },
+        "target": {
+          "value": "1 creature"
+        },
+        "range": {
+          "value": "60 feet"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "1 round"
+        },
+        "damage": {
+          "value": {
+            "0": {
+              "applyMod": true,
+              "type": {
+                "categories": [],
+                "value": "mental"
+              },
+              "value": "0"
+            }
+          }
+        },
+        "save": {
+          "value": "will",
+          "basic": "basic"
+        },
+        "sustained": {
+          "value": false
+        },
+        "cost": {
+          "value": ""
+        },
+        "ability": {
+          "value": ""
+        },
+        "location": {
+          "value": "z0q3RHBnDaeix6yZ"
+        },
+        "hasCounteractCheck": {
+          "value": false
+        },
+        "heightening": {
+          "damage": {
+            "0": "1d6"
+          },
+          "interval": 2,
+          "type": "interval"
+        },
+        "prepared": {
+          "value": ""
+        },
+        "primarycheck": {
+          "value": ""
+        },
+        "secondarycasters": {
+          "value": ""
+        },
+        "secondarycheck": {
+          "value": ""
+        }
+      },
+      "type": "spell",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.spells-srd.4gBIw4IDrSfFHik4"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "lxzmymmFddOcN8CB": 3
+      },
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.6.3",
+        "coreVersion": "10.291",
+        "createdTime": 1673115788538,
+        "modifiedTime": 1673115788538,
+        "lastModifiedBy": "lxzmymmFddOcN8CB"
+      },
+      "_key": "!actors.items!13IVZexFeeQ4oTZU.PiXswru17k1OoG82"
+    }
+  ],
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1673111385877,
+    "modifiedTime": 1673116172115,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_id": "13IVZexFeeQ4oTZU",
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "folder": null,
+  "sort": 0,
+  "_key": "!actors!13IVZexFeeQ4oTZU"
+}

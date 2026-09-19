@@ -1,0 +1,131 @@
+{
+  "_id": "dcwhf7j9yv3Dldce",
+  "name": "Innkeeper's Magic",
+  "type": "spell",
+  "img": "systems/pf2e/icons/spells/discern-secrets.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.spells-srd.UmXhuKrYZR3W16mQ"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.pathfinders-guide-to-eberron-compendium.eberron-effects.H9PmcSFAMvqh7Af3]{Spell Effect: Innkeeper's Magic}</p>\n<p>You call upon your dragonmark's power to better interact with others. When you Cast the Spell, you can @Compendium[pf2e.actionspf2e.1OagaWtBpVXExToo]{Recall Knowledge (Society)}, @Compendium[pf2e.actionspf2e.plBGdZhqq5JBl1D8]{Gather Information}, @Compendium[pf2e.actionspf2e.OX4fy22hQgUHDr0q]{Make an Impression}, or @Compendium[pf2e.actionspf2e.DCb62iCBrJXy0Ik6]{Request}. You gain a +1 status bonus to the skill used for the roll, and this bonus remains as long as you Sustain the Spell.</p>\n<hr />\n<p class=\"hang\"><strong>Heightened (3rd)</strong> You do not need to sustain Innkeeper's Magic.</p>\n<p class=\"hang\"><strong>Heightened (5th)</strong> The bonus increases to +2.</p>\n<p class=\"hang\"><strong>Heightened (7th)</strong> The duration is 1 hour.</p>\n<p class=\"hang\"><strong>Heightened (9th)</strong> The bonus increases to +3.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "hb_dragonmark",
+        "hb_mark-of-hospitality"
+      ],
+      "rarity": "uncommon",
+      "custom": ""
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:16.119-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 1
+    },
+    "spellType": {
+      "value": "utility"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": [
+        "arcane",
+        "divine",
+        "occult",
+        "primal"
+      ]
+    },
+    "school": {
+      "value": "enchantment"
+    },
+    "components": {
+      "focus": true,
+      "material": false,
+      "somatic": true,
+      "verbal": false
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "sustained up to 10 minutes"
+    },
+    "damage": {
+      "value": {}
+    },
+    "save": {
+      "value": "",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "ability": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "hasCounteractCheck": {
+      "value": false
+    },
+    "prepared": {
+      "value": ""
+    },
+    "primarycheck": {
+      "value": ""
+    },
+    "secondarycasters": {
+      "value": ""
+    },
+    "secondarycheck": {
+      "value": ""
+    }
+  },
+  "ownership": {
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960336273,
+    "modifiedTime": 1673330997670,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!dcwhf7j9yv3Dldce"
+}

@@ -1,0 +1,90 @@
+{
+  "name": "Distant Cackle - Eberron",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.feats-srd.P19AnciwNcSqxU7z"
+    }
+  },
+  "_id": "Od42QFa7JfTjvXA5",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>It takes a very brave person to enter the laughter-haunted forest where you dwell. You can cast <em>@Compendium[pf2e.spells-srd.yV7Ouzaoe7DHLESI]{Ventriloquism}</em> once per day as a 1st-level occult innate spell.</p>"
+    },
+    "source": {
+      "value": "Pathfinder Lost Omens: The Mwangi Expanse"
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:02.073-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 5
+    },
+    "traits": {
+      "value": [
+        "gnoll"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Witch Gnoll Heritage"
+        },
+        {
+          "value": "Lharvion Clan"
+        },
+        {
+          "value": "Rhaan Clan"
+        },
+        {
+          "value": "or"
+        },
+        {
+          "value": "Sypheros Clan"
+        }
+      ]
+    },
+    "location": null,
+    "featType": {
+      "value": "ancestry"
+    }
+  },
+  "ownership": {
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.10.4",
+    "coreVersion": "10.291",
+    "createdTime": 1672960322347,
+    "modifiedTime": 1691632633746,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!Od42QFa7JfTjvXA5"
+}

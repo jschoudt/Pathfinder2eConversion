@@ -1,0 +1,131 @@
+{
+  "name": "Detect Danger",
+  "type": "spell",
+  "img": "systems/pf2e/icons/spells/discern-secrets.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.spells-srd.UmXhuKrYZR3W16mQ"
+    }
+  },
+  "_id": "gKrHW1yB2eld2GD4",
+  "system": {
+    "description": {
+      "value": "<p>You call upon your dragonmark's power to forewarn your target of impending danger. When you cast the spell, the target gains a +1 status bonus to initiative rolls and isn't off-guard against undetected creatures. This bonus remains as long as you Sustain the Spell. The target is temporarily immune to Detect Danger for 1 hour.</p>\n<hr />\n<p class=\"hang\"><strong>Heightened (3rd)</strong> You do not need to sustain Detect Danger.</p>\n<p class=\"hang\"><strong>Heightened (5th)</strong> The bonus increases to +2.</p>\n<p class=\"hang\"><strong>Heightened (7th)</strong> The duration is sustained up to 1 hour.</p>\n<p class=\"hang\"><strong>Heightened (9th)</strong> The bonus increases to +3.</p>\n<p class=\"hang\">@UUID[Compendium.pathfinders-guide-to-eberron-compendium.eberron-effects.jm2Pn6sMtPgGdR8p]{Spell Effect: Detect Danger}</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "hb_dragonmark",
+        "hb_mark-of-detection"
+      ],
+      "rarity": "uncommon",
+      "custom": ""
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:16.150-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 2
+    },
+    "spellType": {
+      "value": "utility"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": [
+        "arcane",
+        "divine",
+        "occult",
+        "primal"
+      ]
+    },
+    "school": {
+      "value": "divination"
+    },
+    "components": {
+      "focus": true,
+      "material": false,
+      "somatic": true,
+      "verbal": false
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "Sustained up to 10 minutes"
+    },
+    "damage": {
+      "value": {}
+    },
+    "save": {
+      "value": "",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "ability": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "hasCounteractCheck": {
+      "value": false
+    },
+    "prepared": {
+      "value": ""
+    },
+    "primarycheck": {
+      "value": ""
+    },
+    "secondarycasters": {
+      "value": ""
+    },
+    "secondarycheck": {
+      "value": ""
+    }
+  },
+  "ownership": {
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960336275,
+    "modifiedTime": 1673330729532,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!gKrHW1yB2eld2GD4"
+}

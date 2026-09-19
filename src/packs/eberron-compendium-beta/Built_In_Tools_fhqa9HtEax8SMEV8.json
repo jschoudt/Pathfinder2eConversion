@@ -1,0 +1,71 @@
+{
+  "name": "Built-In Tools",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.feats-srd.aLgb1x3azE4IKz0o"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You've built tools into your artificer's kit so you can access and use them easily. When you take this feat, choose up to two sets of tools you own, such as thieves' tools or healer's tools, that weigh a total of 2 Bulk or less. These tools become part of your artificer's tools. The artificer's tools Bulk doesn't increase from this addition. As long as you are wielding, or wearing your artificer's tools, you have the same quick access to these tools as the tools you are wearing, and they don't count against the usual limit of tools you can wear.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.84,
+      "lastMigration": {
+        "datetime": "2023-09-11T08:26:28.157-07:00",
+        "version": {
+          "schema": 0.812,
+          "foundry": "10.303",
+          "system": "4.12.9"
+        }
+      }
+    },
+    "level": {
+      "value": 1
+    },
+    "traits": {
+      "value": [
+        "hb_artificer"
+      ],
+      "rarity": "uncommon"
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "ownership": {
+    "gpqVTtIbNz8RoupR": 3,
+    "7iofgUiimTzs2vga": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.12.9",
+    "coreVersion": "10.303",
+    "createdTime": 1672960323121,
+    "modifiedTime": 1694446043612,
+    "lastModifiedBy": "7iofgUiimTzs2vga"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "fhqa9HtEax8SMEV8",
+  "_key": "!items!fhqa9HtEax8SMEV8"
+}

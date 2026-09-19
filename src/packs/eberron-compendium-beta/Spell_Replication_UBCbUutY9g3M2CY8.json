@@ -1,0 +1,70 @@
+{
+  "img": "systems/pf2e/icons/features/classes/eldritch-trickster.webp",
+  "name": "Spell Replication",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Using your magical ingenuity, you may attempt to improvise spell requirements for crafting even though do not have access to the Cast a Spell activity. If you have the spell in your formula book, you may supply the spell at any level up to your highest arcane fundamental as if you had the Cast a Spell activity.</p>\n<p>In addition, you gain the @Compendium[pf2e.feats-srd.uR62fVC9FyQAMCO1]{Trick Magic Item} skill feat.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.uR62fVC9FyQAMCO1",
+        "allowDuplicate": false
+      }
+    ],
+    "slug": "spell-replication",
+    "schema": {
+      "version": 0.835,
+      "lastMigration": null
+    },
+    "level": {
+      "value": 1
+    },
+    "traits": {
+      "value": [
+        "hb_artificer"
+      ],
+      "rarity": "common"
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.classfeatures.sPtl05wwTpqFI0lL"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.12.9",
+    "coreVersion": "10.303",
+    "createdTime": 1685922355420,
+    "modifiedTime": 1694446058680,
+    "lastModifiedBy": "7iofgUiimTzs2vga"
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "_id": "UBCbUutY9g3M2CY8",
+  "_key": "!items!UBCbUutY9g3M2CY8"
+}

@@ -1,0 +1,90 @@
+{
+  "name": "Climbing Adaptation",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.y3MWNTGuJE1150l0"
+    }
+  },
+  "_id": "N1dl75WZtNzm6BUO",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>When you use Shift Shape, you can choose one to manifest an increased climbing ability. This can be a set of claws, modified arms, or some other set of obvious physical changes that aid your climb. You gain a climb speed of 10 feet. These changes are obvious to observers.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "shiftshapedclimbing",
+        "toggleable": true
+      },
+      {
+        "predicate": [
+          "shiftshapedclimbing"
+        ],
+        "key": "BaseSpeed",
+        "selector": "climb",
+        "value": 10
+      }
+    ],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:02.047-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 5
+    },
+    "traits": {
+      "value": [
+        "hb_eberron-changelings"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "featType": {
+      "value": "ancestry"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.10.4",
+    "coreVersion": "10.291",
+    "createdTime": 1672960322346,
+    "modifiedTime": 1691632544652,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!N1dl75WZtNzm6BUO"
+}

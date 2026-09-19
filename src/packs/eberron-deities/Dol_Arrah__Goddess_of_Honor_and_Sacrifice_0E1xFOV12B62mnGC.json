@@ -1,0 +1,102 @@
+{
+  "name": "Dol Arrah: Goddess of Honor and Sacrifice",
+  "type": "deity",
+  "img": "systems/pf2e/icons/default-icons/deity.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.deities.bLI1JMpI2GXQT5AC"
+    }
+  },
+  "_id": "0E1xFOV12B62mnGC",
+  "system": {
+    "description": {
+      "value": "<p>Dol Arrah is the lawful good deity of honourable combat, self-sacrifice, and sunlight.<br /><strong>Areas of Concern</strong> Honor, sacrifice, light, the sun, diplomacy<br /><strong>Alignment</strong> LG<br /><strong>Divine Font</strong> Heal<br /><strong>Divine Ability</strong> Strength or Charisma<br /><strong>Divine Skill</strong> Diplomacy<br /><strong>Domains</strong> Confidence, Duty, Freedom, Might, Protection, Sun, Truth, Vigil, Zeal<br /><strong>Cleric Spells</strong> 1st: mage armor, 4th: creation, 7th: true target<br /><strong>Edicts</strong> Seek those that break oaths and enforce just restitution, uphold your promises.<br /><strong>Anathema</strong> Lie, dishonour yourself or your family, shirk your duties, break an oath.<br /><strong>Favoured Weapon</strong> Halberd</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "category": "deity",
+    "alignment": {
+      "own": "LG",
+      "follower": [
+        "LG",
+        "NG",
+        "CG",
+        "LN",
+        "N",
+        "CN",
+        "LE",
+        "NE",
+        "CE"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "duty",
+        "protection",
+        "freedom",
+        "vigil"
+      ],
+      "alternate": [
+        "might",
+        "confidence",
+        "sun",
+        "protection"
+      ]
+    },
+    "font": [
+      "heal"
+    ],
+    "ability": [
+      "str",
+      "cha"
+    ],
+    "skill": "dip",
+    "weapons": [
+      "halberd"
+    ],
+    "spells": {
+      "1": "Compendium.pf2e.spells-srd.aAbfKn8maGjJjk2W",
+      "4": "Compendium.pf2e.spells-srd.TUj8eugNqAvB1vVR",
+      "7": "Compendium.pf2e.spells-srd.AlbpWWN87yGegoAF"
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:11:50.103-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "attribute": [
+      "str",
+      "cha"
+    ],
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder's Guide to Eberron"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960310185,
+    "modifiedTime": 1675018107890,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!0E1xFOV12B62mnGC"
+}

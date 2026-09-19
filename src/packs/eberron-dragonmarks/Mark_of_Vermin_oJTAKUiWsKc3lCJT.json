@@ -1,0 +1,75 @@
+{
+  "name": "Mark of Vermin",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.SZ7I3MZmXy7mpbVt"
+    }
+  },
+  "_id": "oJTAKUiWsKc3lCJT",
+  "system": {
+    "description": {
+      "value": "<p>Your aberrant dragonmark gives you a natural affinity for vermin. When you use a spell that can target individual animals such as @Compendium[pf2e.spells-srd.wU6hNzK8Yfqdmc8m]{Possession} or @Compendium[pf2e.spells-srd.4YnON9JHYqtLzccu]{Summon Animal}, you may ignore the swarm mind immunity of swarms, and target swarms as an individual creature.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "hb_aberrant-mark",
+        "hb_dragonmark",
+        "general"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:11:53.845-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 3
+    },
+    "featType": {
+      "value": "general"
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960313901,
+    "modifiedTime": 1672960370009,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!oJTAKUiWsKc3lCJT"
+}

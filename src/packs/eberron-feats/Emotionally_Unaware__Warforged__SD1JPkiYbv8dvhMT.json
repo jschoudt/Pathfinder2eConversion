@@ -1,0 +1,98 @@
+{
+  "_id": "SD1JPkiYbv8dvhMT",
+  "name": "Emotionally Unaware (Warforged)",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.ancestryfeatures.uSAYmU7PO2QoOWhB"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Warforged find it difficult to understand and express complex emotions. You take a -1 circumstance penalty to Diplomacy and Performance checks, and on Perception checks to Sense Motive.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "label": "Emotionally Unaware (to Sense Motive)",
+        "predicate": [
+          "action:sense-motive"
+        ],
+        "selector": "perception",
+        "type": "circumstance",
+        "value": -1
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "diplomacy",
+        "type": "circumstance",
+        "value": -1
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "performance",
+        "type": "circumstance",
+        "value": -1
+      }
+    ],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:02.110-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 0
+    },
+    "traits": {
+      "value": [
+        "hb_warforged"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "featType": {
+      "value": "ancestryfeature"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.10.4",
+    "coreVersion": "10.291",
+    "createdTime": 1672960322350,
+    "modifiedTime": 1691632693218,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!SD1JPkiYbv8dvhMT"
+}

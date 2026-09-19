@@ -1,0 +1,149 @@
+{
+  "name": "Darkleaf Branded Mail",
+  "type": "armor",
+  "img": "systems/pf2e/icons/equipment/armor/leather-armor.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.equipment-srd.4tIVTg9wj56RrveA"
+    }
+  },
+  "_id": "cmUfEfca62wCiQMq",
+  "system": {
+    "description": {
+      "value": "\n\n\n\n<p class=\"hang\">Similar to leafweave armour, darkleaf armour is made of carefully cured and beautifully carved pieces of wood, supplemented by treated <span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">leaves. This special process enables the many primal practitioners of the world a sturdy, yet entirely natural armour.</span></p>\n"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "flexible",
+        "primal"
+      ],
+      "rarity": "common",
+      "custom": "",
+      "otherTags": []
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:10.963-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "quantity": 1,
+    "baseItem": "leather-armor",
+    "hp": {
+      "brokenThreshold": 0,
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "weight": {
+      "value": "2"
+    },
+    "equippedBulk": {
+      "value": "1"
+    },
+    "price": {
+      "value": {
+        "gp": 10
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0,
+      "inSlot": false
+    },
+    "stackGroup": null,
+    "negateBulk": {
+      "value": "0"
+    },
+    "containerId": null,
+    "preciousMaterial": {
+      "value": null
+    },
+    "preciousMaterialGrade": {
+      "value": null
+    },
+    "size": "med",
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Leather Armor",
+        "img": "systems/pf2e/icons/unidentified_item_icons/armor.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "wornarmor"
+    },
+    "level": {
+      "value": 0
+    },
+    "armor": {
+      "value": 3
+    },
+    "category": "medium",
+    "group": "composite",
+    "strength": {
+      "value": 14
+    },
+    "dex": {
+      "value": 2
+    },
+    "check": {
+      "value": -2
+    },
+    "speed": {
+      "value": -5
+    },
+    "potencyRune": {
+      "value": 0
+    },
+    "resiliencyRune": {
+      "value": ""
+    },
+    "propertyRune1": {
+      "value": ""
+    },
+    "propertyRune2": {
+      "value": ""
+    },
+    "propertyRune3": {
+      "value": ""
+    },
+    "propertyRune4": {
+      "value": ""
+    },
+    "potency": {}
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960331170,
+    "modifiedTime": 1673133850235,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!cmUfEfca62wCiQMq"
+}

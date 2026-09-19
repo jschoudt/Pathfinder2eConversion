@@ -1,0 +1,81 @@
+{
+  "name": "Aryth Clan",
+  "type": "heritage",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.Lmck7hav1o39lmNG"
+    }
+  },
+  "_id": "iecObmgOIEIo6qNE",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your clan is tied to the moon Aryth - the Gateway.</p>\n<p>Considered the best Archers of the Znir gnolls, you become trained in Simple and Martial ranged weapons. Advanced gnoll weapons count as martial weapons for you.</p>"
+    },
+    "rules": [
+      {
+        "definition": [
+          "item:trait:gnoll",
+          "item:category:advanced"
+        ],
+        "key": "MartialProficiency",
+        "label": "PF2E.SpecificRule.MartialProficiency.AdvancedGnollWeapons",
+        "sameAs": "martial",
+        "slug": "advanced-gnoll-weapons"
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "gnoll"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "ancestry": {
+      "name": "Gnoll",
+      "uuid": "Compendium.pf2e.ancestries.vxbQ1Yw4qwgjTzqo"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:06.953-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    }
+  },
+  "ownership": {
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.4",
+    "coreVersion": "11.309",
+    "createdTime": 1672960327020,
+    "modifiedTime": 1698609902711,
+    "lastModifiedBy": "rB4S3QfOEBk0rdKx"
+  },
+  "_key": "!items!iecObmgOIEIo6qNE"
+}

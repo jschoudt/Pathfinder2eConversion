@@ -1,0 +1,59 @@
+{
+  "_id": "DbSm6nZqHWgsNNFF",
+  "name": "Living Wand Warforged",
+  "type": "heritage",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.N9B48PN1eDzQu0FJ"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "\n\n\n<p>The Living Wand Warforged were Cannith's attempt at creating a warforged capable of innate spellcraft. Though the introduction of arcane properties into the warforged creation process worked, the produced warforged were unpredictable in their capabilities. The Living Wand Warforged required additional training <span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">after production in order to determine their abilities and to match them with other alike warforged. Due to the complexity and non-standard nature of the average Living Wand warforged, they did not see widespread deployment across Khorvaire. The ones that did were typically formed into extremely effective wand troops.</span></p>\n<p><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">You have @Compendium[pathfinders-guide-to-eberron-compendium.eberron-items.mZ363pCsYIZXbOIV]{Nominal Integrated Armour}, and gain one cantrip from the arcane spell list. You can cast this spell as an arcane innate spell at will. A cantrip is heightened to a spell rank equal to half your level rounded up.</span></p>\n"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "hb_warforged"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:06.705-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "ancestry": {
+      "name": "Warforged",
+      "uuid": "Compendium.pathfinders-guide-to-eberron-compendium.eberron-ancestries.XNOZJBcpkIo4ggcI"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960327011,
+    "modifiedTime": 1672986313355,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!DbSm6nZqHWgsNNFF"
+}

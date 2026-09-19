@@ -1,0 +1,69 @@
+{
+  "img": "systems/pf2e/icons/features/classes/complete-reconfiguration.webp",
+  "name": "Magical Ingenuity",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You manipulate materials together to replicate magic with inconceivable methods. You gain the @Compendium[pf2e.feats-srd.xWY5omyIcILNR7y1]{Magical Crafting} skill feat, even if you don't meet its prerequisites, and you gain the four common up-to-2nd-level items granted by that feat.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.xWY5omyIcILNR7y1"
+      }
+    ],
+    "slug": "magical-ingenuity",
+    "schema": {
+      "version": 0.835,
+      "lastMigration": null
+    },
+    "level": {
+      "value": 1
+    },
+    "traits": {
+      "value": [
+        "hb_artificer"
+      ],
+      "rarity": "common"
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.classfeatures.sPtl05wwTpqFI0lL"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.10.4",
+    "coreVersion": "10.291",
+    "createdTime": 1685922355420,
+    "modifiedTime": 1691634306530,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "_id": "Pe9tKnmCBKbBJMVe",
+  "_key": "!items!Pe9tKnmCBKbBJMVe"
+}

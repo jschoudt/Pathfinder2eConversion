@@ -1,0 +1,75 @@
+{
+  "name": "Wand Mastery",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.ltMhi9XcP33evTot"
+    }
+  },
+  "_id": "Fs5SlKEth7niT3H6",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>When you overcharge a wand, make a DC 11 flat check. On a failure, the wand is broken. On a critical failure, the wand is destroyed. Regardless of the result, the wand may not be used again until your next daily preparations.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:01.957-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 5
+    },
+    "traits": {
+      "value": [
+        "general"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "category": "general",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "featType": {
+      "value": "general"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.10.4",
+    "coreVersion": "10.291",
+    "createdTime": 1672960322341,
+    "modifiedTime": 1691633286642,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!Fs5SlKEth7niT3H6"
+}

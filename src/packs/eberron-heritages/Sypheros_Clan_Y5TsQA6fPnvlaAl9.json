@@ -1,0 +1,69 @@
+{
+  "_id": "Y5TsQA6fPnvlaAl9",
+  "name": "Sypheros Clan",
+  "type": "heritage",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.Lmck7hav1o39lmNG"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "\n\n\n<p>Your clan is tied to the moon Sypheros - the Shadow. You have a natural resilience to the dark manifestations of the world. You gain negative resistance equal to half your level (minimum 1). You also have @Compendium[pf2e.ancestryfeatures.HHVQDp61ehcpdiU8]{Darkvision} instead of Low-Light vision.</p>\n"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "gnoll"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [
+      {
+        "key": "Resistance",
+        "type": "negative",
+        "value": "max(1,floor(@actor.level/2))"
+      },
+      {
+        "key": "Sense",
+        "label": "PF2E.SensesDarkvision",
+        "selector": "darkvision"
+      }
+    ],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:06.874-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "ancestry": {
+      "name": "Gnoll",
+      "uuid": "Compendium.pf2e.ancestries.vxbQ1Yw4qwgjTzqo"
+    }
+  },
+  "ownership": {
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960327018,
+    "modifiedTime": 1672986313363,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!Y5TsQA6fPnvlaAl9"
+}

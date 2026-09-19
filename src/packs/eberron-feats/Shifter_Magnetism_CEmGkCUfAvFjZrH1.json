@@ -1,0 +1,105 @@
+{
+  "name": "Shifter Magnetism",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.feats-srd.rWiddU8fHl0TraoN"
+    }
+  },
+  "_id": "CEmGkCUfAvFjZrH1",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your heritage gives you a strong animal presence. You gain a +1 circumstance bonus to Nature checks to Command an Animal, Diplomacy checks made on animals, and Intimidation.</p>\n<p> </p>\n<p class=\"hang\"><strong>Special</strong> If you have the Dreamsight shifter heritage, your circumstance bonus is +2.</p>\n<hr />\n<p><em>note, if you have the dreamsight shifter heritage you will need to adjust the rules to +2 manually.</em></p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "label": "Shifter Magnetism on Beast or Animal",
+        "predicate": [
+          "target:is-beast-or-animal"
+        ],
+        "selector": "diplomacy",
+        "type": "circumstance",
+        "value": 1
+      },
+      {
+        "key": "FlatModifier",
+        "label": "Shifter Magnetism on Beast or Animal",
+        "predicate": [
+          "target:is-beast-or-animal"
+        ],
+        "selector": "intimidation",
+        "type": "circumstance",
+        "value": 1
+      },
+      {
+        "key": "FlatModifier",
+        "label": "Shifter Magnetism on Beast or Animal to Command an Animal",
+        "predicate": [
+          "target:is-beast-or-animal"
+        ],
+        "selector": "nature",
+        "type": "circumstance",
+        "value": 1
+      }
+    ],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:01.901-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 1
+    },
+    "traits": {
+      "value": [
+        "hb_shifter"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "featType": {
+      "value": "ancestry"
+    }
+  },
+  "ownership": {
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.10.4",
+    "coreVersion": "10.291",
+    "createdTime": 1672960322330,
+    "modifiedTime": 1691633099826,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!CEmGkCUfAvFjZrH1"
+}

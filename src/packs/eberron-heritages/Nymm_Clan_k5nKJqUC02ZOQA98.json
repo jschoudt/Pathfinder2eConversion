@@ -1,0 +1,64 @@
+{
+  "name": "Nymm Clan",
+  "type": "heritage",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.Lmck7hav1o39lmNG"
+    }
+  },
+  "_id": "k5nKJqUC02ZOQA98",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "\n\n\n<p>Your clan is tied to the moon Nymm - the Crown.</p>\n<p>Your clan specializes in leadership in battle, and the ability to direct allies simultaneously. You gain access to the @Compendium[pathfinders-guide-to-eberron-compendium.eberron-actions.IcughynerInKafPq]{Bark Orders} action.</p>\n"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pathfinders-guide-to-eberron.eberron-actions.IcughynerInKafPq"
+      }
+    ],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:06.960-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "traits": {
+      "value": [
+        "gnoll"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "ancestry": {
+      "name": "Gnoll",
+      "uuid": "Compendium.pf2e.ancestries.vxbQ1Yw4qwgjTzqo"
+    }
+  },
+  "ownership": {
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.10.4",
+    "coreVersion": "10.291",
+    "createdTime": 1672960327020,
+    "modifiedTime": 1691633413038,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!k5nKJqUC02ZOQA98"
+}

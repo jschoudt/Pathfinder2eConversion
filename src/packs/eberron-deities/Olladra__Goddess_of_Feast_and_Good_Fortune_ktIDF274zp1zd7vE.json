@@ -1,0 +1,96 @@
+{
+  "name": "Olladra: Goddess of Feast and Good Fortune",
+  "type": "deity",
+  "img": "systems/pf2e/icons/default-icons/deity.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.deities.bLI1JMpI2GXQT5AC"
+    }
+  },
+  "_id": "ktIDF274zp1zd7vE",
+  "system": {
+    "description": {
+      "value": "<p>Olladra is the neutral good deity of luck and plenty.<br /><strong>Areas of Concern</strong> Good fortune, feast, plenty<br /><strong>Alignment</strong> NG<br /><strong>Divine Font</strong> Heal<br /><strong>Divine Ability</strong> Constitution or Charisma<br /><strong>Divine Skill</strong> Performance<br /><strong>Domains</strong> Freedom, Indulgence, Luck<br /><strong>Cleric Spells</strong> 1st: anticipate peril, 2nd: Lucky Number, 3rd: Perseis's Precautions<br /><strong>Edicts</strong> Live life freely, drink, host generously, take chances.<br /><strong>Anathema</strong> Refuse a reasonable bet, be miserly with your hospitality.<br /><strong>Favoured Weapon</strong> Dagger</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "category": "deity",
+    "alignment": {
+      "own": "NG",
+      "follower": [
+        "LG",
+        "NG",
+        "CG",
+        "LN",
+        "N",
+        "CN",
+        "LE",
+        "NE",
+        "CE"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "freedom",
+        "indulgence",
+        "luck"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "heal"
+    ],
+    "ability": [
+      "con",
+      "cha"
+    ],
+    "skill": "prf",
+    "weapons": [
+      "dagger"
+    ],
+    "spells": {
+      "1": "Compendium.pf2e.spells-srd.EUMjrJJwSgsqNidi",
+      "2": "Compendium.pf2e.spells-srd.rDDYGY2ekZ1yVv7q",
+      "3": "Compendium.pf2e.spells-srd.ovx7O2FHvkjXhMcA"
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:11:50.168-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "attribute": [
+      "con",
+      "cha"
+    ],
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder's Guide to Eberron"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960310199,
+    "modifiedTime": 1675018128211,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!ktIDF274zp1zd7vE"
+}

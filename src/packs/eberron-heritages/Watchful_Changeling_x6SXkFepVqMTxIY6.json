@@ -1,0 +1,88 @@
+{
+  "name": "Watchful Changeling",
+  "type": "heritage",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.Lmck7hav1o39lmNG"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "\n<p>You're experienced with the deceptions of shapeshifters, given that you specialize in it. You are trained in the Deception skill (or another skill if you were already trained in Deception), and gain the @Compendium[pf2e.feats-srd.Dvz54d6aPhjsmUux]{Lie To Me} skill feat. In addition, you gain a +2 circumstance bonus to detect polymorphed creatures.</p>\n"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.dec.rank",
+        "value": 1
+      },
+      {
+        "key": "FlatModifier",
+        "label": "Detect Polymorphed Creature",
+        "selector": "perception",
+        "value": 2,
+        "type": "circumstance",
+        "predicate": [
+          "action:seek"
+        ]
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "changeling"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "ancestry": {
+      "name": "Eberron Changeling",
+      "slug": "eberron-changeling",
+      "uuid": "Compendium.pathfinders-guide-to-eberron-compendium.eberron-ancestries.axOqZxs9V7XTg99i"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "schema": {
+      "version": 0.835,
+      "lastMigration": {
+        "datetime": "2023-08-09T19:08:40.562-07:00",
+        "version": {
+          "schema": 0.812,
+          "foundry": "10.291",
+          "system": "4.10.4"
+        }
+      }
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.4",
+    "coreVersion": "11.309",
+    "createdTime": 1672960327020,
+    "modifiedTime": 1698609911453,
+    "lastModifiedBy": "rB4S3QfOEBk0rdKx"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "x6SXkFepVqMTxIY6",
+  "_key": "!items!x6SXkFepVqMTxIY6"
+}

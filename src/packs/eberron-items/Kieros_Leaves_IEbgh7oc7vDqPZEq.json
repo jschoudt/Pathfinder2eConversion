@@ -1,0 +1,120 @@
+{
+  "name": "Kieros Leaves",
+  "type": "consumable",
+  "system": {
+    "description": {
+      "value": "<p class=\"hang\"><strong>Usage</strong> material component of a spell</p>\n<p class=\"hang\"><strong>Activate</strong> <span class=\"pf2-icon\">1</span> interact; <strong>Trigger</strong> You cast a spell with the death trait</p>\n\n\n<hr />\n<p>When used as a material component (adding the material component to the spell if it doesn't already have it) for any spell with the death trait, any creature affected by the spell increases its doomed condition by 1.</p>\n"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "hb_component",
+        "consumable",
+        "hb_metamagic"
+      ],
+      "rarity": "uncommon",
+      "custom": "",
+      "otherTags": []
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": null
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "hp": {
+      "brokenThreshold": 0,
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "weight": {
+      "value": "-"
+    },
+    "equippedBulk": {
+      "value": ""
+    },
+    "price": {
+      "value": {
+        "gp": 51
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "-=inSlot": null,
+      "handsHeld": 0
+    },
+    "stackGroup": null,
+    "negateBulk": {
+      "value": "0"
+    },
+    "containerId": null,
+    "preciousMaterial": {
+      "value": null
+    },
+    "preciousMaterialGrade": {
+      "value": null
+    },
+    "size": "med",
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/other-consumables.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "other"
+    },
+    "level": {
+      "value": 7
+    },
+    "consumableType": {
+      "value": "other"
+    },
+    "charges": {
+      "value": 1,
+      "max": 1
+    },
+    "consume": {
+      "value": ""
+    },
+    "autoDestroy": {
+      "value": true
+    },
+    "spell": null
+  },
+  "img": "systems/pf2e/icons/equipment/alchemical-items/drugs/refined-pesh.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.IEbgh7oc7vDqPZEq"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1673118357377,
+    "modifiedTime": 1675018663257,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_id": "IEbgh7oc7vDqPZEq",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "_key": "!items!IEbgh7oc7vDqPZEq"
+}

@@ -1,0 +1,86 @@
+{
+  "name": "Aura Sense",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.W2rQi0Dp8jZO1COR"
+    }
+  },
+  "_id": "iKn1ytxLi1Bj54U9",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You can feel the creatures of the world around you even before your other senses pick up on it. You gain a special vague sense to detect creatures' auras within 60ft. When a creature that has not taken special precautions against scrying or to mask its aura comes within 60ft of you, they are no longer unnoticed by you. This sense is disrupted by any effects that would also disrupt or prevent scrying effects. </p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [
+      {
+        "acuity": "vague",
+        "key": "Sense",
+        "range": 60,
+        "selector": "aurasense"
+      }
+    ],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:02.600-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 13
+    },
+    "traits": {
+      "value": [
+        "hb_kalashtar"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Broad Link"
+        }
+      ]
+    },
+    "location": null,
+    "featType": {
+      "value": "ancestry"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.10.4",
+    "coreVersion": "10.291",
+    "createdTime": 1672960323117,
+    "modifiedTime": 1691632461099,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!iKn1ytxLi1Bj54U9"
+}

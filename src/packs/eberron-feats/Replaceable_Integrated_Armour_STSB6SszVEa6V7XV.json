@@ -1,0 +1,75 @@
+{
+  "name": "Replaceable Integrated Armour",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.OFHpsSoAfzFWTPVJ"
+    }
+  },
+  "_id": "STSB6SszVEa6V7XV",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Though it is an extremely uncomfortable process - less painful but akin to a human replacing their skin - you can replace your integrated armour. You can remove the integrated armour that you are wearing, and replace it with any other set of armour. This activity takes 1 hour, and while you replace your armour you are considered unarmoured and off-guard. When you complete the process, the new armour is incorporated into your body and has no bulk as a result. You can still never wear other armour on top of this armour, and can only have one integrated armour at a time. While this armour is integrated, you don't become fatigued from sleeping in it. As before, you can etch armour runes onto your armour while you are wearing it as normal.</p>\n<p>If you are removing the Integrated Armour from your Heritage, it is considered worthless scrap metal and can only be used as armour if you reincorporate it into your body.</p>\n<p> </p>\n<p class=\"hang\"><strong>Enhancement</strong> Your armour becomes more integrated into your body. You gain the @Compendium[pathfinders-guide-to-eberron.eberron-actions.qidQL3kHsPKdrGUH]{Chassis Deflection (Warforged)} reaction.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:02.117-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 1
+    },
+    "traits": {
+      "value": [
+        "hb_warforged"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "featType": {
+      "value": "ancestry"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.10.4",
+    "coreVersion": "10.291",
+    "createdTime": 1672960322351,
+    "modifiedTime": 1691633138496,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!STSB6SszVEa6V7XV"
+}

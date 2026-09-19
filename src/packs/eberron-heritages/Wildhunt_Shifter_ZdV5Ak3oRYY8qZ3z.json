@@ -1,0 +1,81 @@
+{
+  "name": "Wildhunt Shifter",
+  "type": "heritage",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.U9pPWeHnnSoOCNZQ"
+    }
+  },
+  "_id": "ZdV5Ak3oRYY8qZ3z",
+  "system": {
+    "description": {
+      "value": "\n\n<p>Wildhunt shifters typically show traits of the wolf, but their animal may be any type of hunting pack animal. Wildhunt shifters can be suspicious and untrusting, but their loyalty when earned is a nearly impossible bond to break.</p>\n<p>You gain imprecise scent with a range of 30 feet. This means you can use your sense of smell to determine a creature's location. The GM will usually double the range if you're downwind from the creature or halve the range if you're upwind.</p>\n<p>In addition, you gain a +2 circumstance bonus to @Compendium[pf2e.actionspf2e.EA5vuSgJfiHH7plD]{Track} a creature or object if you've smelled it before.</p>\n<p> </p>\n<h3>Hybrid form</h3>\n<p>While in your hybrid form, you can use the @Compendium[pf2e.actionspf2e.BlAOM2X92SI6HMtJ]{Seek} action to sense undetected creatures within a 30-foot burst instead of a 15-foot burst.<br /><br />@Compendium[pathfinders-guide-to-eberron-compendium.eberron-actions.5FOAu0NNTxW83NtH]{Change Shape (Wildhunt Shifter)}</p>\n"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "hb_shifter"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pathfinders-guide-to-eberron.eberron-actions.5FOAu0NNTxW83NtH"
+      },
+      {
+        "acuity": "imprecise",
+        "key": "Sense",
+        "label": "PF2E.SensesScent",
+        "range": 30,
+        "selector": "scent"
+      },
+      {
+        "key": "FlatModifier",
+        "label": "Wildhunt track previously smelled creature",
+        "predicate": [
+          "action:track",
+          "target:previously-smelled"
+        ],
+        "selector": "survival",
+        "type": "circumstance",
+        "value": 2
+      }
+    ],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:06.882-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "ancestry": {
+      "name": "Shifter",
+      "uuid": "Compendium.pathfinders-guide-to-eberron-compendium.eberron-ancestries.NXVjPRJeIOOceUHp"
+    }
+  },
+  "ownership": {
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960327018,
+    "modifiedTime": 1681694999756,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!ZdV5Ak3oRYY8qZ3z"
+}

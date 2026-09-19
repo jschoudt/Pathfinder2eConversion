@@ -1,0 +1,80 @@
+{
+  "name": "Jorasco Treatment",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.SZ7I3MZmXy7mpbVt"
+    }
+  },
+  "_id": "A9XL3CvbXdSO1yuq",
+  "system": {
+    "description": {
+      "value": "<p class=\"hang\"><strong>Frequency</strong> once per day</p>\n<p class=\"hang\"><strong>Trigger</strong> you fail a medicine check.</p>\n<hr />\n<p>Your training in the infirmaries of Jorasco improves your skill with medicine. If you fail a Medicine check, you can reroll the check. You may select the better of the two rolls.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "fortune",
+        "general",
+        "hb_mark-of-healing",
+        "skill"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:11:53.749-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 1
+    },
+    "featType": {
+      "value": "skill"
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "trained in Medicine"
+        }
+      ]
+    },
+    "location": null
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960313891,
+    "modifiedTime": 1672972098494,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!A9XL3CvbXdSO1yuq"
+}

@@ -1,0 +1,91 @@
+{
+  "name": "Mark of Storm [Human Heritage]",
+  "type": "heritage",
+  "img": "systems/pf2e/icons/features/ancestry/half-elf.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.heritages.N36ZR4lh9eCazDaN"
+    }
+  },
+  "_id": "7FZkF60RaUUrmCUZ",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">At least one of your parents is a half-elf descendant of a Mark of Storm bloodline, whether or not they manifested a mark. You have slightly pointed ears and other telltale signs of half-elf heritage. You gain the elf trait, the half-elf trait, the Dragonmarked Heritage trait, the Mark of Storm trait, and @Compendium[pf2e.ancestryfeatures.DRtaqOHXTRtGRIUT]{Low-Light Vision}. In addition, you can pick elf, half-elf, human, Dragonmarked Heritage, and Mark of Storm feats whenever you gain an ancestry feat.</span></p>\n<p>As a member of the Mark of Storm, you may utilise the following focus spells. Some of these spells may belong to a class or archetype. If you select one of these focus spells, they lose the class and archetype traits if they have it, and gain the Dragonmark, and Mark of Storm traits. The tradition of the spell becomes Arcane. Note that rarity is maintained, and uncommon spells should still be verified with your GM. </p>\n<table style=\"width:100%;height:190px\">\n<thead>\n<tr style=\"height:38px\">\n<th style=\"width:14.263%;height:38px\">Focus Spell</th>\n<th style=\"text-align:left;width:84.9832%;height:38px\">Source</th>\n</tr>\n</thead>\n<tbody>\n<tr style=\"height:38px\">\n<td style=\"width:14.263%;height:38px\">1</td>\n<td style=\"text-align:left;width:84.9832%;height:38px\">@Compendium[pf2e.spells-srd.myC2EIrsjmB8xosi]{Pushing Gust}</td>\n</tr>\n<tr>\n<td style=\"width:14.263%\">1</td>\n<td style=\"text-align:left;width:84.9832%\">@Compendium[pathfinders-guide-to-eberron-compendium.eberron-spells.JF7zu51nT5XHvhyO]{Storm's Riposte}</td>\n</tr>\n<tr>\n<td style=\"width:14.263%\">1</td>\n<td style=\"text-align:left;width:84.9832%\">@Compendium[pathfinders-guide-to-eberron-compendium.eberron-spells.oIRbVyztGwUmfiAB]{Windwright's Intuition}</td>\n</tr>\n<tr>\n<td style=\"width:14.263%\">2</td>\n<td style=\"text-align:left;width:84.9832%\">@Compendium[pathfinders-guide-to-eberron-compendium.eberron-spells.GThtsZcX60rCrAsG]{Cantrip of the Storm}</td>\n</tr>\n<tr>\n<td style=\"width:14.263%\">2</td>\n<td style=\"text-align:left;width:84.9832%\">@Compendium[pathfinders-guide-to-eberron-compendium.eberron-spells.j6FtX5qobnmDDDO0]{Dragonmarked Stormbringer}</td>\n</tr>\n<tr>\n<td style=\"width:14.263%\">2</td>\n<td style=\"text-align:left;width:84.9832%\">@Compendium[pathfinders-guide-to-eberron-compendium.eberron-spells.Q49adtQ42obCjYT0]{Rain Cloud}</td>\n</tr>\n<tr style=\"height:38px\">\n<td style=\"width:14.263%;height:38px\">3</td>\n<td style=\"text-align:left;width:84.9832%;height:38px\">@Compendium[pf2e.spells-srd.g4MAIQodRDVfNp1B]{Personal Blizzard}</td>\n</tr>\n<tr style=\"height:19px\">\n<td style=\"width:14.263%;height:19px\">4</td>\n<td style=\"text-align:left;width:84.9832%;height:19px\">@Compendium[pf2e.spells-srd.VUwpDY4Z91s9QCg0]{Bottle the Storm}</td>\n</tr>\n<tr style=\"height:19px\">\n<td style=\"width:14.263%;height:19px\">4</td>\n<td style=\"text-align:left;width:84.9832%;height:19px\">@Compendium[pf2e.spells-srd.K4LXpaBWrGy6jIER]{Downpour}</td>\n</tr>\n<tr style=\"height:19px\">\n<td style=\"width:14.263%;height:19px\">4</td>\n<td style=\"text-align:left;width:84.9832%;height:19px\">@Compendium[pf2e.spells-srd.K1wmI4qPmRhFczmy]{Dust Storm}</td>\n</tr>\n<tr style=\"height:19px\">\n<td style=\"width:14.263%;height:19px\">4</td>\n<td style=\"text-align:left;width:84.9832%;height:19px\">@Compendium[pf2e.spells-srd.gSFg9zKwgcNZLMEs]{Stormwind Flight}</td>\n</tr>\n</tbody>\n</table>"
+    },
+    "rules": [
+      {
+        "key": "Sense",
+        "label": "PF2E.SensesLowLightVision",
+        "selector": "lowLightVision"
+      },
+      {
+        "add": [
+          "elf",
+          "half-elf"
+        ],
+        "key": "ActorTraits"
+      },
+      {
+        "add": [
+          "hb_dragonmarked-heritage",
+          "hb_mark-of-storm"
+        ],
+        "key": "ActorTraits"
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "half-elf",
+        "hb_dragonmarked-heritage"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "ancestry": {
+      "name": "Human",
+      "uuid": "Compendium.pf2e.ancestries.IiG7DgeLWYrSNXuX"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:06.676-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    }
+  },
+  "ownership": {
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.4",
+    "coreVersion": "11.309",
+    "createdTime": 1672960327010,
+    "modifiedTime": 1698609897284,
+    "lastModifiedBy": "rB4S3QfOEBk0rdKx"
+  },
+  "_key": "!items!7FZkF60RaUUrmCUZ"
+}

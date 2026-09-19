@@ -1,0 +1,90 @@
+{
+  "name": "The Sovereign Host",
+  "type": "deity",
+  "img": "systems/pf2e/icons/default-icons/deity.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.deities.bLI1JMpI2GXQT5AC"
+    }
+  },
+  "_id": "dtRKatcc54hPSWug",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The Sovereign Host consists of the deities most commonly worshipped by the majority of Khorvaire’s population. Most people revere the Host as a whole pantheon, offering prayers to different deities in different situations. Even clerics are often devoted to the entire Host rather than to a specific patron. If you are a cleric of the sovereign host, you may take divine font, abilities, skills, domains, spells, edicts, anathemas, or favoured weapons of your worship from any Sovereign. However once you have selected one of these sources, you may not mix further increases (such as in the case of cleric spells at 1st, 3rd and 5th level). The pantheon is neutral good, and the typical favoured weapon is the longsword-the weapon of its martial champion, Dol Dorn. <br /><br /><br /><strong>Areas of Concern</strong> Any<br /><strong>Alignment</strong> Any<br /><strong>Divine Font</strong> Heal or Harm<br /><strong>Divine Ability</strong> Any<br /><strong>Divine Skill</strong> Any<br /><strong>Domains</strong> Any<br /><strong>Cleric Spells </strong>Any set granted by one of the sovereigns<br /><strong>Edicts</strong> Any<br /><strong>Anathema </strong>Any<br /><strong>Favoured Weapon</strong> Longsword, or [Uncommon] Any</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:11:50.159-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "category": "deity",
+    "alignment": {
+      "own": "NG",
+      "follower": [
+        "LG",
+        "NG",
+        "CG",
+        "LN",
+        "N",
+        "CN",
+        "LE",
+        "NE",
+        "CE"
+      ]
+    },
+    "domains": {
+      "primary": [],
+      "alternate": []
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "ability": [
+      "wis",
+      "cha"
+    ],
+    "skill": null,
+    "weapons": [
+      "longsword"
+    ],
+    "spells": {},
+    "attribute": [
+      "wis",
+      "cha"
+    ],
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder's Guide to Eberron"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.12.9",
+    "coreVersion": "10.303",
+    "createdTime": 1672960310197,
+    "modifiedTime": 1694448297552,
+    "lastModifiedBy": "7iofgUiimTzs2vga"
+  },
+  "_key": "!items!dtRKatcc54hPSWug"
+}

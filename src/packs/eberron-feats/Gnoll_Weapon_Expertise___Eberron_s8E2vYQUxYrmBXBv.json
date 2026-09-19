@@ -1,0 +1,78 @@
+{
+  "name": "Gnoll Weapon Expertise - Eberron",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.feats-srd.bj0y7JnIboNfCuC8"
+    }
+  },
+  "_id": "s8E2vYQUxYrmBXBv",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Whenever you gain a class feature that grants you expert or greater proficiency in a given weapon or weapons, you also gain that proficiency in @Compendium[pf2e.equipment-srd.dUC8Fsa6FZtVikS3]{Composite Longbows}, @Compendium[pathfinders-guide-to-eberron-compendium.eberron-items.Eresc1MTy0Q4M8fL]{Gnoll bows}, @Compendium[pf2e.equipment-srd.t5FbyZtRL4qV0V7k]{Flails}, @Compendium[pf2e.equipment-srd.YLb6XnT7OxAVGL5m]{Khopesh}, @Compendium[pf2e.equipment-srd.MeA0g9xvWCbGxf2g]{Mambele}, @Compendium[pathfinders-guide-to-eberron-compendium.eberron-items.8nZhO0w0xuNXUk5X]{Myrnaxes}, @Compendium[pf2e.equipment-srd.tOhoGvmCMw4JpWcS]{Spears}, and @Compendium[pf2e.equipment-srd.mVxA9E2ernBL6fM6]{War Flails}.</p>"
+    },
+    "source": {
+      "value": "Pathfinder Lost Omens: The Mwangi Expanse"
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:02.812-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 13
+    },
+    "traits": {
+      "value": [
+        "gnoll"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Gnoll Weapon Practicality"
+        }
+      ]
+    },
+    "location": null,
+    "featType": {
+      "value": "ancestry"
+    }
+  },
+  "ownership": {
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.10.4",
+    "coreVersion": "10.291",
+    "createdTime": 1672960323126,
+    "modifiedTime": 1691632756035,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!s8E2vYQUxYrmBXBv"
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Greater Dragonmarked Scion",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.TEEOqh7R4NFlGq9z"
+    }
+  },
+  "_id": "GuIBnQooLgpHIPKD",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "\n\n\n<p class=\"hang\"><strong>Prerequisites</strong> Dragonmarked Scion Dedication, Lesser Mark</p>\n<hr />\n<p>You have trained to develop your talents and your dragonmark. You gain the @Compendium[pathfinders-guide-to-eberron-compendium.eberron-dragonmarks.VKwy41qLO6UQkgOy]{Greater Mark} feat.<br /><strong>Special</strong> Since this manifests a physical change in the powers and size of your dragonmark, you may not retrain out of this feat.</p>\n"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:01.973-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 14
+    },
+    "traits": {
+      "value": [
+        "archetype",
+        "hb_dragonmark"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Dragonmarked Scion Dedication"
+        }
+      ]
+    },
+    "location": null,
+    "featType": {
+      "value": "archetype"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.10.4",
+    "coreVersion": "10.291",
+    "createdTime": 1672960322343,
+    "modifiedTime": 1691632807638,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!GuIBnQooLgpHIPKD"
+}

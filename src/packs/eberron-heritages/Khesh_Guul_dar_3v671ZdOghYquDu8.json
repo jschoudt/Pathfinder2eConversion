@@ -1,0 +1,70 @@
+{
+  "_id": "3v671ZdOghYquDu8",
+  "name": "Khesh Guul'dar",
+  "type": "heritage",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.N2V8UxjfWBt1Mm9I"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Your stealth is uncanny, your step light, and your muddy yellow fur seems to blend with the natural world more than most bugbears. You are trained in Stealth (or another skill if you were already trained in Stealth). In addition, you gain @Compendium[pf2e.feats-srd.beyw5bdA5hkQbmaG]{Terrain Stalker}</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "hb_bugbear"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.sth.rank",
+        "value": 1
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.beyw5bdA5hkQbmaG"
+      }
+    ],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:06.659-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "ancestry": {
+      "name": "Bugbear",
+      "uuid": "Compendium.pathfinders-guide-to-eberron-compendium.eberron-ancestries.2UM9v9Towl9wT1th"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960327009,
+    "modifiedTime": 1672986313354,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!3v671ZdOghYquDu8"
+}

@@ -1,0 +1,75 @@
+{
+  "name": "Skin Cant",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.y3MWNTGuJE1150l0"
+    }
+  },
+  "_id": "nJLy2SXVEcV1VkPW",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You are familiar with the innate language of changelings and have picked up languages beyond this. You gain the Skin Cant language and an additional common language of your choice. In addition, if you spend a week of downtime training someone, they can learn to pick up on single word messages.</p>\n\n\n<h4 class=\"inline-header\">Skin cant is a method of visual communication available only to Changelings, though others may learn to understand it. You can shift your appearance in subtle ways to communicate messages to others who understand the language. This form of communication only has the visual trait.</h4>\n"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:02.750-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 1
+    },
+    "traits": {
+      "value": [
+        "hb_eberron-changelings"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "featType": {
+      "value": "ancestry"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.10.4",
+    "coreVersion": "10.291",
+    "createdTime": 1672960323122,
+    "modifiedTime": 1691633210796,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!nJLy2SXVEcV1VkPW"
+}

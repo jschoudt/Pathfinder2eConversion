@@ -1,0 +1,78 @@
+{
+  "name": "Excoriate",
+  "type": "background",
+  "img": "systems/pf2e/icons/default-icons/background.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.1xCrb4XYovZceXW3"
+    }
+  },
+  "_id": "0n0UTGMJ8OCO0UAd",
+  "system": {
+    "description": {
+      "value": "<p>An heir who violates the laws of a house is made an excoriate: stripped of the house name and forbidden from drawing on house resources. Any dragonmarked member of your house who knows of your status is automatically unfriendly toward you, as are most members of other dragonmarked houses who are aware that you are a excoriate. </p>\n<p>You gain two ability boosts. One must be to <strong>Wisdom</strong>, <strong>Charisma</strong>, or <strong>Intelligence</strong>; one is free; and you should work with your GM to choose the third based on the circumstances of your excoration.\nYou've trained the skill related to your house (table 4-1), and the Lore of Dragonmarked Houses. You gain the associated skill feat related to your house.</p><p><em>Note: You must select the skill and skill feat manually, add the GM selected ability boost</em></p>\n<hr />\n<h3>Table 4-1 House Skills</h3>\n<thead>\n<tr>\n<th>House</th>\n<th style=\"text-align:left\">Skill</th>\n<th style=\"text-align:left\">Feat</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Cannith</td>\n<td>Crafting</td>\n<td>Specialty Crafting</td>\n</tr>\n<tr>\n<td>Deneith</td>\n<td>Athletics</td>\n<td>Armor Assist*</td>\n</tr>\n<tr>\n<td>Ghallanda</td>\n<td>Diplomacy</td>\n<td>Group Impression</td>\n</tr>\n<tr>\n<td>Phiarlan</td>\n<td>Performance</td>\n<td>Fascinating Performance</td>\n</tr>\n<tr>\n<td>Jorasco</td>\n<td>Medicine</td>\n<td>Inoculation</td>\n</tr>\n<tr>\n<td>Kundarak</td>\n<td>Crafting</td>\n<td>Crafter's Appraisal</td>\n</tr>\n<tr>\n<td>Lyrandar</td>\n<td>Acrobatics</td>\n<td>Steady Balance</td>\n</tr>\n<tr>\n<td>Medani</td>\n<td>Deception</td>\n<td>Lie to Me</td>\n</tr>\n<tr>\n<td>Orien</td>\n<td>Survival</td>\n<td>Terrain Expertise</td>\n</tr>\n<tr>\n<td>Sivis</td>\n<td>Society</td>\n<td>Multilingual</td>\n</tr>\n<tr>\n<td>Tarkanan</td>\n<td>Stealth</td>\n<td>Experienced Smuggler</td>\n</tr>\n<tr>\n<td>Tharashk</td>\n<td>Survival</td>\n<td>Experienced Tracker</td>\n</tr>\n<tr>\n<td>Thuranni</td>\n<td>Stealth</td>\n<td>Terrain Stalker</td>\n</tr>\n<tr>\n<td>Vadalis</td>\n<td>Nature</td>\n<td>Train Animal</td>\n</tr>\n</tbody>\n</table>\n*Due to your extensive training, you always succeed on the check to put on the armour"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [],
+      "rarity": "rare",
+      "custom": ""
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:11:42.399-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "boosts": {
+      "0": {
+        "value": [
+          "cha",
+          "int",
+          "wis"
+        ]
+      },
+      "1": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      }
+    },
+    "items": {},
+    "trainedLore": "Dragonmarked Houses",
+    "trainedSkills": {
+      "value": [],
+      "custom": "House Skill (Table 2-1)"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960302426,
+    "modifiedTime": 1675016468811,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!0n0UTGMJ8OCO0UAd"
+}

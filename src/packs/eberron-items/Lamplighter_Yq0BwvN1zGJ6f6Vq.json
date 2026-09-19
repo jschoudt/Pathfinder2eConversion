@@ -1,0 +1,106 @@
+{
+  "name": "Lamplighter",
+  "type": "equipment",
+  "system": {
+    "description": {
+      "value": "<p>This dark black wand ending in a copper tip lights small flames.<br /><strong>Activate</strong> <span class=\"pf2-icon\">2</span> (Cast a Spell); <strong>Frequency</strong> Unlimited <strong>Effect</strong> You can light or snuff out a candle, torch, small campfire, or similar source of flame within 10 feet of you.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "magical",
+        "wand"
+      ],
+      "rarity": "common",
+      "custom": "",
+      "otherTags": []
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": null
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "hp": {
+      "brokenThreshold": 0,
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "weight": {
+      "value": "L"
+    },
+    "equippedBulk": {
+      "value": ""
+    },
+    "price": {
+      "value": {
+        "gp": 3
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "-=inSlot": null,
+      "handsHeld": 0
+    },
+    "stackGroup": null,
+    "negateBulk": {
+      "value": "0"
+    },
+    "containerId": null,
+    "preciousMaterial": {
+      "value": null
+    },
+    "preciousMaterialGrade": {
+      "value": null
+    },
+    "size": "med",
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "level": {
+      "value": 1
+    }
+  },
+  "img": "systems/pf2e/icons/features/classes/wand.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.Yq0BwvN1zGJ6f6Vq"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1673122043757,
+    "modifiedTime": 1673133850241,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_id": "Yq0BwvN1zGJ6f6Vq",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "_key": "!items!Yq0BwvN1zGJ6f6Vq"
+}

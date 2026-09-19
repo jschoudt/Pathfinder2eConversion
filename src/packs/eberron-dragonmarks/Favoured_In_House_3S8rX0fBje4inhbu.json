@@ -1,0 +1,78 @@
+{
+  "_id": "3S8rX0fBje4inhbu",
+  "name": "Favoured In House",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.SZ7I3MZmXy7mpbVt"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You have begun to develop popularity and connections within your house, and you can use these connections to fast track your requests from the house. When you make a request of your house, it may be to any house member whether they know you or not, as long as they are at least indifferent towards you. For any request for a favour that the house performs such acquiring important information, introductions to important people, or the loan of equipment or personnel, you gain a +1 circumstance bonus. A lesser mark grants you a +2 circumstance bonus, a greater mark grants you a +3 circumstance bonus, and a siberys mark grants you a +4 circumstance bonus.</p>\n<p>The GM sets the DC based on the scope of the favour being requested - highly dangerous, expensive, or illegal favours take a -4 circumstance penalty.</p>\n<p>See <a href=\"https://scribe.pf2.tools/v/hSjrbDz5-dragonmarked-houses\">Dragonmarked Houses</a> for some examples of favours that a house might be able to provide.</p>\n\n\n<h3> </h3>\n<h3>GM Adjudication</h3>\n<p>Whenever a character takes the favoured in House feat, especially in the middle of an ongoing campaign, an explanation is required. If a character has been a constant embarassment to their house, opinions won’t suddenly change because they went up a level and gained a feat slot. This is a prerequisite of the feat: It needs to be justified, and a GM is free to refuse the request.</p>\n<h3>Losing your favour</h3>\n<p>Whether by excoration, or actions that have tarnished the reputation of your house, in the event of extrodinary circumstances you might lose the favour of your house. Until you regain the favour of your house, you lose access to any of the benefits granted by the Favoured in House feat. If reconsiliation with the house is not something you desire, you may retrain out of this feat for free with a week of downtime as normal.</p>\n"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "hb_dragonmarked-heritage",
+        "general"
+      ],
+      "rarity": "uncommon",
+      "custom": ""
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:11:53.746-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 3
+    },
+    "featType": {
+      "value": "general"
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Your house is friendly or helpful to you."
+        }
+      ]
+    },
+    "location": null
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960313890,
+    "modifiedTime": 1672960370003,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!3S8rX0fBje4inhbu"
+}

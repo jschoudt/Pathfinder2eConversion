@@ -1,0 +1,127 @@
+{
+  "name": "Construction Savant",
+  "type": "spell",
+  "img": "systems/pf2e/icons/spells/discern-secrets.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.spells-srd.UmXhuKrYZR3W16mQ"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p class=\"hang\"><strong>Cast</strong> 8 hours; dragonmark, material, somatic, verbal</p>\n<hr />\n<p>You begin to craft an item as if using the @UUID[Compendium.pf2e.actionspf2e.rmwa3OyhTZ2i2AHl]{Craft} activity, but with the empowering effects of your dragonmark guiding you, your efficiency is increased exponentially. <br />    When you begin the Craft activity, you can cast Construction Savant as part of your activity. When you have spent a full day of the Craft Activity under the effects of Construction Savant, you may immediately make the Craft activity check to complete the item. On a critical success, you can finish the item, bypassing any remaining time to its completion as if you had completed the prerequisite days of work. Otherwise, you may continue on the item again the next day without any penalty. If you use Construction Savant on your last day of work, you instead gain a +1 status bonus to the final crafting check. Once the item is completed, it follows the rules of the crafting activity to reduce cost which Construction Savant may not assist with.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "hb_dragonmark",
+        "hb_mark-of-making"
+      ],
+      "rarity": "uncommon",
+      "custom": ""
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:15.886-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 5
+    },
+    "spellType": {
+      "value": "utility"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": []
+    },
+    "school": {
+      "value": "conjuration"
+    },
+    "components": {
+      "focus": true,
+      "material": false,
+      "somatic": true,
+      "verbal": false
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "Sustained up to 10 minutes"
+    },
+    "damage": {
+      "value": {}
+    },
+    "save": {
+      "value": "",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "ability": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "hasCounteractCheck": {
+      "value": false
+    },
+    "prepared": {
+      "value": ""
+    },
+    "primarycheck": {
+      "value": ""
+    },
+    "secondarycasters": {
+      "value": ""
+    },
+    "secondarycheck": {
+      "value": ""
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960336260,
+    "modifiedTime": 1673070938137,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_id": "Keg7oQ6yUz6aaEz0",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "_key": "!items!Keg7oQ6yUz6aaEz0"
+}

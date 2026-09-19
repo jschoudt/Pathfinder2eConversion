@@ -1,0 +1,86 @@
+{
+  "name": "Children of the Mind",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.blC7K4KVsY5V51pa"
+    }
+  },
+  "_id": "vmjEAahmPw9Br0Lz",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You are in tune with your mind, and the spirit within. Others who would seek to control you seem to need to struggle against an otherworldly force. You gain a +1 circumstance bonus to Will saving throws against mental effects. If you roll a success on your saving throw against a mental effect that would make you controlled, you get a critical success instead.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "label": "Will save vs. mental effects",
+        "predicate": [
+          "mental"
+        ],
+        "selector": "saving-throw",
+        "type": "circumstance",
+        "value": 1
+      }
+    ],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:02.938-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 5
+    },
+    "traits": {
+      "value": [
+        "hb_kalashtar"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "featType": {
+      "value": "ancestry"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.10.4",
+    "coreVersion": "10.291",
+    "createdTime": 1672960323130,
+    "modifiedTime": 1691632521820,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!vmjEAahmPw9Br0Lz"
+}

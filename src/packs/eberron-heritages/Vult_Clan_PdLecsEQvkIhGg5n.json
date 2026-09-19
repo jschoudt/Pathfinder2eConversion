@@ -1,0 +1,63 @@
+{
+  "name": "Vult Clan",
+  "type": "heritage",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.Lmck7hav1o39lmNG"
+    }
+  },
+  "_id": "PdLecsEQvkIhGg5n",
+  "system": {
+    "description": {
+      "value": "\n\n\n<p>Your clan is tied to the moon Vult - the Warding Moon.</p>\n<p>You gain the @Compendium[pf2e.feats-srd.BStw1cANwx5baL6d]{Armor Proficiency} general feat. In addition, you may cast the @Compendium[pf2e.spells-srd.TVKNbcgTee19PXZR]{Shield} cantrip as an innate occult spell at will. A cantrip is heightened to a spell rank equal to half your level rounded up.</p>\n"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [
+        "gnoll"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.BStw1cANwx5baL6d"
+      }
+    ],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:06.820-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "ancestry": {
+      "name": "Gnoll",
+      "uuid": "Compendium.pf2e.ancestries.vxbQ1Yw4qwgjTzqo"
+    }
+  },
+  "ownership": {
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672960327015,
+    "modifiedTime": 1672986313361,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!PdLecsEQvkIhGg5n"
+}

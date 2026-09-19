@@ -1,0 +1,119 @@
+{
+  "img": "systems/pf2e/icons/spells/creation.webp",
+  "name": "Fabricate",
+  "system": {
+    "description": {
+      "value": "<p>You can convert raw material of one type into a batch of products of the same material equal to the original value. Creatures or magic items cannot be created or transmuted by the fabricate spell. The items made by this spell cannot be greater than twice the level of the cast spell but can be intricate or detailed if you are familiar with the type of item you are constructing. If you work with any minerals, the target and heightened effects are reduced to 1 cubic foot instead of 10 cubic feet.<br />Objects manufactured in this way are obviously temporarily conjured, and thus can't be sold or passed off as a genuine item. When the spell ends, the item returns to the original raw material.</p>\n<hr />\n<p class=\"hang\"><strong>Heightened (+1)</strong> The volume you can affect increases by 10 feet cubic feet, and similarly, minerals are increased by 1 cubic foot.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "traits": {
+      "value": [],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": null
+    },
+    "level": {
+      "value": 5
+    },
+    "spellType": {
+      "value": "utility"
+    },
+    "category": {
+      "value": "spell"
+    },
+    "traditions": {
+      "value": [
+        "arcane"
+      ]
+    },
+    "school": {
+      "value": "conjuration"
+    },
+    "components": {
+      "focus": false,
+      "material": true,
+      "somatic": true,
+      "verbal": true
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": "up to 10 cubic feet of material"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "until your next daily preparations"
+    },
+    "damage": {
+      "value": {}
+    },
+    "save": {
+      "value": "",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "ability": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "hasCounteractCheck": {
+      "value": false
+    },
+    "prepared": {
+      "value": ""
+    },
+    "primarycheck": {
+      "value": ""
+    },
+    "secondarycasters": {
+      "value": ""
+    },
+    "secondarycheck": {
+      "value": ""
+    }
+  },
+  "type": "spell",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.spells-srd.TUj8eugNqAvB1vVR"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.3",
+    "coreVersion": "10.291",
+    "createdTime": 1672976735468,
+    "modifiedTime": 1673108624733,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_id": "Ibn7daPF7LiOT3za",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "_key": "!items!Ibn7daPF7LiOT3za"
+}

@@ -1,0 +1,140 @@
+{
+  "name": "Relay",
+  "type": "spell",
+  "img": "systems/pf2e/icons/spells/discern-secrets.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.spells-srd.UmXhuKrYZR3W16mQ"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You enchant magical items to relay your messages. At any time after you have enchanted the items, you may choose to send a message to the item. If the item is attended, the creature currently in possession of the item receives your spoken word - up to 25 words. The creature can then respond immediately with a message of 25 words or fewer. Once the item has been used in this way, it may not be used again for 24 hours. When you cast this spell again, for each new item you must choose a previous item to lose its enchantment.</p>\n<p class=\"hang\"><strong>Heightened (+2)</strong> you may enchant one additional item.</p>\n<p class=\"hang\"><strong>Heightened (5th)</strong> the item may transmit again after only 1 hour has passed.</p>\n<p class=\"hang\"><strong>Heightened (8th)</strong> the item may transmit again after only 1 minute has passed.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:16.140-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "traits": {
+      "value": [
+        "hb_dragonmark",
+        "linguistic",
+        "hb_mark-of-scribing",
+        "mental"
+      ],
+      "rarity": "uncommon",
+      "custom": ""
+    },
+    "level": {
+      "value": 2
+    },
+    "spellType": {
+      "value": "utility"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": [
+        "arcane",
+        "divine",
+        "occult",
+        "primal"
+      ]
+    },
+    "school": {
+      "value": "illusion"
+    },
+    "components": {
+      "focus": true,
+      "material": false,
+      "somatic": true,
+      "verbal": false
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": "one mundane item of light bulk"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": null,
+    "time": {
+      "value": "3"
+    },
+    "duration": {
+      "value": ""
+    },
+    "damage": {
+      "value": {}
+    },
+    "save": {
+      "value": "",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "hasCounteractCheck": {
+      "value": false
+    },
+    "ability": {
+      "value": ""
+    },
+    "prepared": {
+      "value": ""
+    },
+    "primarycheck": {
+      "value": ""
+    },
+    "secondarycasters": {
+      "value": ""
+    },
+    "secondarycheck": {
+      "value": ""
+    },
+    "heightening": {
+      "type": "interval",
+      "interval": 2,
+      "damage": {}
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.12.9",
+    "coreVersion": "10.303",
+    "createdTime": 1672960336274,
+    "modifiedTime": 1694446950409,
+    "lastModifiedBy": "7iofgUiimTzs2vga"
+  },
+  "_id": "Xav1GHO9cEw4PRhW",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "lxzmymmFddOcN8CB": 3
+  },
+  "_key": "!items!Xav1GHO9cEw4PRhW"
+}

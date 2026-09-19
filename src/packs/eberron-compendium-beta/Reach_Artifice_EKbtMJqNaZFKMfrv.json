@@ -1,0 +1,66 @@
+{
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "name": "Reach Artifice",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You can extend the range of your imbuements. If the next action you use is @Compendium[pathfinders-guide-to-eberron-compendium.eberron-compendium-beta.e2W8MsbaudIQx0DA]{Quick Artifice}, increase that imbuement’s range to 30 feet.</p>"
+    },
+    "source": {
+      "value": "Pathfinder Advanced Player's Guide"
+    },
+    "rules": [],
+    "slug": "reach-spell",
+    "schema": {
+      "version": 0.84,
+      "lastMigration": null
+    },
+    "level": {
+      "value": 1
+    },
+    "traits": {
+      "value": [
+        "hb_artificer",
+        "concentrate",
+        "metamagic"
+      ],
+      "rarity": "common"
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.feats-srd.BWomK7EVY0WXxWgh"
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "7iofgUiimTzs2vga": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.12.9",
+    "coreVersion": "10.303",
+    "createdTime": 1694446517047,
+    "modifiedTime": 1694446711498,
+    "lastModifiedBy": "7iofgUiimTzs2vga"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "EKbtMJqNaZFKMfrv",
+  "_key": "!items!EKbtMJqNaZFKMfrv"
+}

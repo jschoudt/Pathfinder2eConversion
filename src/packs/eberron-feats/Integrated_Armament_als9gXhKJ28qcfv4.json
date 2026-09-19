@@ -1,0 +1,75 @@
+{
+  "name": "Integrated Armament",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.feats-srd.bJzANqEGTkho1bv6"
+    }
+  },
+  "_id": "als9gXhKJ28qcfv4",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your mechanical body houses a weapon or shield that you can quickly draw and stow, leaving you prepared for combat at all times.</p>\n<p>You can use a 1-minute activity, which has the manipulate trait, to integrate a single, one-handed weapon or shield into one of your arms. You can draw or stow this item as an Interact action. Creatures don't automatically see this integrated item when it's stowed and must actively Seek in order to find it. They take a –2 circumstance penalty to any checks to do so. While you are wielding the item, it can't be Disarmed and you can't drop or Release it; you must Interact to store the weapon and free that hand. A creature determined to retrieve the item can do so, but it requires either 1 minute to remove it or extreme violence to your arm—such as physically removing portions of the limb. You can only have one integrated armament at a time, though you can use the 1-minute activity to replace the item or swap the arm in which it's stored.</p>\n<p> </p>\n<p class=\"hang\"><strong>Enhancement</strong> Your body has more space for integration. You can now either integrate two one-handed weapons, a one-handed weapon and a shield, or a single two-handed weapon that is split across both arms. You can use a single Interact action to draw or store both integrated armaments. When you draw a single weapon, you can choose to hold it with either one hand or both hands.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:12:02.451-08:00",
+        "version": {
+          "schema": 0.743,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "level": {
+      "value": 5
+    },
+    "traits": {
+      "value": [
+        "hb_warforged"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "featType": {
+      "value": "ancestry"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.10.4",
+    "coreVersion": "10.291",
+    "createdTime": 1672960323109,
+    "modifiedTime": 1691632911106,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!als9gXhKJ28qcfv4"
+}

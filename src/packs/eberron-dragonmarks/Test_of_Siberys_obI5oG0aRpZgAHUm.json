@@ -1,0 +1,94 @@
+{
+  "name": "Test of Siberys",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.SZ7I3MZmXy7mpbVt"
+    }
+  },
+  "_id": "obI5oG0aRpZgAHUm",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "\n\n<p>If you choose the Test of Siberys, your character must undergo the test associated with their mark. <em>If</em> you succeed, gain the @Compendium[pathfinders-guide-to-eberron-compendium.eberron-dragonmarks.Rtxyt5ACWtcS5kNs]{Least Mark} ancestry feat.</p>\n\n\n<h3>Awarding the feat</h3>\n<p>A character can only gain the benefits of the Test of Siberys <em>if</em> they pass the test. A GM should run this as a personal challenge to the player, customized depending on their house. This challenge has a good chance of failure and even the potential of death. When a player would select this feat, do not grant them the bonus of a mark yet. Instead - as soon as reasonably possible in game - they should take the Test of Siberys. On a failure, have the player select a different feat in its place. On a success, this feat is permanent and they may not retrain it. They may not (except under extraordinary circumstances) ever attempt the test again.</p>\n"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "general",
+        "hb_dragonmarked-heritage"
+      ],
+      "rarity": "unique",
+      "custom": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 3
+    },
+    "category": "bonus",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "You do not have a Dragonmark"
+        },
+        {
+          "value": "Access to the Test of Siberys"
+        }
+      ]
+    },
+    "location": null,
+    "source": {
+      "value": "Pathfinder's Guide to Eberron"
+    },
+    "schema": {
+      "version": 0.812,
+      "lastMigration": {
+        "datetime": "2023-01-05T15:11:53.848-08:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.3"
+        }
+      }
+    },
+    "featType": {
+      "value": "general"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "gpqVTtIbNz8RoupR": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.4",
+    "coreVersion": "11.309",
+    "createdTime": 1672960313902,
+    "modifiedTime": 1698609991922,
+    "lastModifiedBy": "rB4S3QfOEBk0rdKx"
+  },
+  "_key": "!items!obI5oG0aRpZgAHUm"
+}
