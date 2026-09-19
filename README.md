@@ -1,10 +1,10 @@
-[Subscribe](https://github.com/TNychka/Pathfinder2eConversion/subscription) | [Discuss](https://github.com/TNychka/Pathfinder2eConversion/discussions) | [Open Issue](https://github.com/TNychka/Pathfinder2eConversion/issues)  
+[Subscribe](https://github.com/jschoudt/Pathfinder2eConversion/subscription) | [Discuss](https://github.com/jschoudt/Pathfinder2eConversion/discussions) | [Open Issue](https://github.com/jschoudt/Pathfinder2eConversion/issues)  
 -
 [Full Document](https://scribe.pf2.tools/v/2qF7WjsY-pathfinders-guide-to-eberron)
 -
 # Foundry Module - Version 2.2.2
 The foundry module is available for personal use by directly installing from the module manifest URL directly.
-`https://github.com/TNychka/Pathfinder2eConversion/releases/latest/download/module.json`  
+`https://github.com/jschoudt/Pathfinder2eConversion/releases/latest/download/module.json`  
 It is only available for personal use, and thus will not be made available directly by the Foundry Add-On Modules Library. Please report any issues you see on the github. 
 ### Installation
 1. Open the foundry admin page
@@ -13,9 +13,13 @@ It is only available for personal use, and thus will not be made available direc
 4. Copy paste the above manifest URL directly into the Manifest URL box at the bottom of the window and click install.
 
 # Pathbuilder JSON - Version 1.6.6
-The Pathbuilder JSON is available for personal use by adding the JSON from the `https://github.com/TNychka/Pathfinder2eConversion/releases/download/v2.3.0/pathfinders-guide-to-eberron.json`  
+The Pathbuilder JSON is available for personal use by adding the JSON from the `https://github.com/jschoudt/Pathfinder2eConversion/releases/latest/download/pathfinders-guide-to-eberron.json`  
 
 # Pathfinder's Guide to Eberron  - Version 1.6.7
+
+> [!NOTE]
+> **Attribution & Project Provenance:**  
+> This project is an independent continuation and fork of the original [Pathfinder2eConversion](https://github.com/TNychka/Pathfinder2eConversion) created and developed by **TNychka**, with major contributions by **John Cox** and the Eberron/Pathfinder 2e homebrew community. While this repository is maintained independently by **jschoudt**, full credit and heartfelt thanks for the original architecture, text, and conversion framework belong to **TNychka**.
 
 The Pathfinder's guide to Eberron is a homebrew conversion of the Pathfinder 2e mechanics to support the world and Lore of Eberron. It would be prohibitive to provide all of the lore that Eberron has developed over the years - and any lore provided by this guide would be poorly repeated imitations of better summaries. This guide uses the following books as references and will provide page numbers to learn more. [D&D 3 Eberron Campaign Setting](https://www.dmsguild.com/product/28474/Eberron-Campaign-Setting-3e) by Keith Baker, [Exploring Eberron](https://www.dmsguild.com/product/315887/Exploring-Eberron) by Keith Baker, and the [Eberronicon](https://www.dmsguild.com/product/297249/Eberronicon-A-Pocket-Guide-to-the-World). All of these are available for purchase on the [Dungeon Masters Guild](https://www.dmsguild.com/) and provide all of the background information you might need to run the world of Eberron.
 
@@ -51,26 +55,22 @@ The subsections folder contains individual pieces of the complete document manag
 
 If you don't want to go through the hassle of figuring out github pull requests but would still like to submit, open a new issue with the new content and we'll do our best to add it in and credit you.
 
-### License
-By contributing, you agree that your contributions will be licensed under the OGL.
+### License & Content Guidelines
+By contributing, you agree that your contributions will be licensed under the project's **[CC BY-NC-SA 4.0 License](LICENSE.md)** and conform to the **[Third-Party Content Usage & Licensing Guide](ThirdPartyContentUsage.md)**.
 
-## Contributors
-Thank you to all the many people who have helped in large or small ways through feedback or suggestions. The Pathfinder2eCreations community, and the Eberron Pathfinder2e discord community, and everyone else.
-
-- John Cox (u/FranciscoBelaqua on Reddit and @franciscobelaqua on Discord)
-	- Development of the pathbuilder JSON available on Github
+## Project Provenance & Contributors
+* **Original Project Creator:** [TNychka](https://github.com/TNychka/Pathfinder2eConversion) (shared under community fair use / Fan Content terms)
+* **Fork Maintainer:** [jschoudt](https://github.com/jschoudt/Pathfinder2eConversion)
+* **Contributors & Supporters:** Thank you to all the many people who have helped in large or small ways through feedback or suggestions:
+  - John Cox (u/FranciscoBelaqua on Reddit and @franciscobelaqua on Discord) – Development of the Pathbuilder JSON
+  - The Pathfinder2eCreations community, the Eberron Pathfinder2e discord community, and everyone else who contributed to both the upstream and fork repositories.
 ---
 # Legal
-*Pathfinder's Guide to Eberron is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.*
+*Pathfinder's Guide to Eberron is unofficial Fan Content permitted under the Wizards of the Coast Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.*
 
-*This document can only be utilized for personal use and not to create new games incorporating Wizards IP or anything else that can or will be distributed that does not also conform to Wizards of the Coast’s Fan Content Policy.*
+*Pathfinder's Guide to Eberron uses trademarks and/or copyrights owned by Paizo Inc., used under Paizo's Community Use Policy ([paizo.com/communityuse](https://paizo.com/communityuse)). We are expressly prohibited from charging you to use or access this content. Pathfinder's Guide to Eberron is not published, endorsed, or specifically approved by Paizo.*
 
-*Eberron and its respective logo are trademarks of Wizards of the Coast, Inc., in the U.S.A. and other countries.*
+For full licensing details, contributor agreements, and third-party content rules, see [LICENSE.md](LICENSE.md) and [ThirdPartyContentUsage.md](ThirdPartyContentUsage.md).
 
-  
-*Pathfinder's Guide to Eberron uses trademarks and/or copyrights owned by Paizo Inc., used under Paizo's Community Use Policy (paizo.com/communityuse). We are expressly prohibited from charging you to use or access this content. Pathfinder's Guide to Eberron is not published, endorsed, or specifically approved by Paizo. For more information about Paizo Inc. and Paizo products, visit paizo.com.*
+*In the event of crashing airships, attacks by the Emerald Claw, or invasions by mind-bending corruptions ascending from the depths (The Mror Holds declined to comment on whether or not they have dug too deep), don't panic... and keep at least one hero point in your back pocket.*
 
-  
-*This guide aims to be within the terms of fair use under the OGL and Fan Content Policy. Feel free to copy and distribute this document however you want as long as you continue to follow the terms of fair use under the OGL and Fan Content Policy. The work is done to the best of my ability to meet these rules, and I ask that if there is violation, breach of ownership, or other issue to contact me directly through Github for any needed alteration or removal.  If there are modifications, corrections, updates, features, or anything you would like to add to this document please submit it back to [Github](https://github.com/TNychka/Pathfinder2eConversion/issues). You will be credited for your work, and this document will be maintained as an up-to-date source for the Eberron community.*
-
-*In the event of crashing airships, attacks by the Emerald Claw, or invasions by mind-bending corruptions accending from the depths (The Mror Holds declined to comment on whether or not they have dug too deep), don't panic... and keep at least one hero point in your back pocket.*

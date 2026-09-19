@@ -3,15 +3,27 @@
   "description": "A set of Eberron compendiums and modifications to bring the world of Eberron to pathfinder 2e",
   "version": "2.3.2",
   "id": "pathfinders-guide-to-eberron-compendium",
-  "url": "https://github.com/TNychka/Pathfinder2eConversion",
-  "manifest": "https://github.com/TNychka/Pathfinder2eConversion/releases/latest/download/module.json",
-  "download": "https://github.com/TNychka/Pathfinder2eConversion/releases/latest/download/pathfinders-guide-to-eberron-compendium.zip",
-  "bugs": "https://github.com/TNychka/Pathfinder2eConversion/issues",
-  "readme": "https://github.com/TNychka/Pathfinder2eConversion/blob/main/README.md",
+  "url": "https://github.com/jschoudt/Pathfinder2eConversion",
+  "manifest": "https://github.com/jschoudt/Pathfinder2eConversion/releases/latest/download/module.json",
+  "download": "https://github.com/jschoudt/Pathfinder2eConversion/releases/latest/download/pathfinders-guide-to-eberron-compendium.zip",
+  "bugs": "https://github.com/jschoudt/Pathfinder2eConversion/issues",
+  "readme": "https://github.com/jschoudt/Pathfinder2eConversion/blob/main/README.md",
   "authors": [
     {
+      "name": "TNychka (Original Creator)",
+      "url": "https://github.com/TNychka/Pathfinder2eConversion"
+    },
+    {
+      "name": "jschoudt (Fork Maintainer)",
+      "url": "https://github.com/jschoudt/Pathfinder2eConversion"
+    },
+    {
+      "name": "John Cox (Pathbuilder Module)",
+      "url": "https://github.com/jschoudt/Pathfinder2eConversion"
+    },
+    {
       "name": "Eberron Compendium Contributors",
-      "url": "https://github.com/TNychka/Pathfinder2eConversion/"
+      "url": "https://github.com/jschoudt/Pathfinder2eConversion"
     }
   ],
   "relationships": {

@@ -15,12 +15,16 @@ Pathfinder's Guide to Eberron
 *Pathfinder's Guide to Eberron uses trademarks and/or copyrights owned by Paizo Inc., used under Paizo's Community Use Policy (paizo.com/communityuse). We are expressly prohibited from charging you to use or access this content. Pathfinder's Guide to Eberron is not published, endorsed, or specifically approved by Paizo. For more information about Paizo Inc. and Paizo products, visit paizo.com.*
 
   
-*This guide aims to be within the terms of fair use under the OGL and Fan Content Policy. Feel free to copy and distribute this document however you want as long as you continue to follow the terms of fair use under the OGL and Fan Content Policy. The work is done to the best of my ability to meet these rules, and I ask that if there is violation, breach of ownership, or other issue to contact me directly through Github for any needed alteration or removal.  If there are modifications, corrections, updates, features, or anything you would like to add to this document please submit it back to [Github](https://github.com/TNychka/Pathfinder2eConversion/issues). You will be credited for your work, and this document will be maintained as an up-to-date source for the Eberron community.*
+*This guide aims to be within the terms of fair use under the OGL and Fan Content Policy. Feel free to copy and distribute this document however you want as long as you continue to follow the terms of fair use under the OGL and Fan Content Policy. The work is done to the best of my ability to meet these rules, and I ask that if there is violation, breach of ownership, or other issue to contact me directly through Github for any needed alteration or removal.  If there are modifications, corrections, updates, features, or anything you would like to add to this document please submit it back to [Github](https://github.com/jschoudt/Pathfinder2eConversion/issues). You will be credited for your work, and this document will be maintained as an up-to-date source for the Eberron community.*
 
 *In the event of crashing airships, attacks by the Emerald Claw, or invasions by mind-bending corruptions accending from the depths (The Mror Holds declined to comment on whether or not they have dug too deep), don't panic... and keep at least one hero point in your back pocket.*
 |
 # Credits
 **Eberron created by** Keith Baker
+
+**Project History & Creators:** 
+- Originally created and authored by **[TNychka](https://github.com/TNychka/Pathfinder2eConversion)**
+- Maintained as an independent fork by **[jschoudt](https://github.com/jschoudt/Pathfinder2eConversion)**
 
 **Contributors and Supporters:** Thank you to all the many people who have helped in large or small ways through feedback or suggestions, and contributions to the GitHub repository. The Pathfinder2eCreations community, the Eberron Pathfinder2e discord community, and everyone else.  
   
@@ -95,7 +99,7 @@ The Eberronicon - A Pocket Guide to the World (EPG) is a community project that 
 The Pathfinder's guide to Eberron provides Pathfinder 2e mechanics to support the gameplay of Eberron. It does not provide the lore or information required to run the Eberron setting. This guide suggests the following books as references [D&D 3 Eberron Campaign Setting](https://www.dmsguild.com/product/28474/Eberron-Campaign-Setting-3e) by Keith Baker, [D&D 5e Eberron: Rising from the Last War](https://www.dndbeyond.com/sources/erftlw) by Keith Baker, [Exploring Eberron](https://www.dmsguild.com/product/315887/Exploring-Eberron) by Keith Baker, and the [Eberronicon](https://www.dmsguild.com/product/297249/Eberronicon-A-Pocket-Guide-to-the-World). All of these are available for purchase on the [Dungeon Masters Guild](https://www.dmsguild.com/) and provide all of the background information you might need to run the world of Eberron.
 
 ## Using this guide
-This guide aims to be as balanced and interesting as possible while using the pathfinder 2e base rules. If something seems too good - or too bad - to be true, it likely is. Work with your GM to figure out a better solution, and if possible submit a question to the [Github](https://github.com/TNychka/Pathfinder2eConversion/issues) for clarification or correction. All Uncommon and Rare traits should _always_ be verified with your GM.
+This guide aims to be as balanced and interesting as possible while using the pathfinder 2e base rules. If something seems too good - or too bad - to be true, it likely is. Work with your GM to figure out a better solution, and if possible submit a question to the [Github](https://github.com/jschoudt/Pathfinder2eConversion/issues) for clarification or correction. All Uncommon and Rare traits should _always_ be verified with your GM.
 =
 ### The World
 There are a number of nations that have risen from the last war, and many continents, ancient empires, and other places that have been around far longer. This document provides stat blocks for all these locations including the planes and any planar effects.
