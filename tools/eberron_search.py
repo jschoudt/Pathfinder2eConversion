@@ -1,19 +1,21 @@
 #!/usr/bin/env python3
 """
 Eberron Offline Source Indexer & Citation Engine
-Searches and extracts text from your personal, DRM-free Eberron PDFs.
+Searches and extracts text from your personal, DRM-free Eberron PDFs and extracted DDB Foundry journals.
 Matches citation standards required in ThirdPartyContentUsage.md.
 """
 
 import os
 import sys
 import re
+import json
 import sqlite3
 import argparse
 import subprocess
 from pathlib import Path
 
 DEFAULT_SOURCES_DIR = Path("_sources/dmsguild")
+DEFAULT_JOURNALS_DIR = Path("_sources/foundry_extracted/ddb_journals")
 DEFAULT_DB_PATH = Path(".sources_index.db")
 
 KNOWN_METADATA = {
@@ -77,7 +79,6 @@ def resolve_book_metadata(filename: str):
     
     # Clean filename fallback
     stem = Path(filename).stem
-    # strip leading digits/ids like '2255601-' or '98281-'
     stem = re.sub(r'^\d+[-_]?', '', stem)
     stem = re.sub(r'[_-]+', ' ', stem).strip()
     return stem, "Unknown Author", "https://www.dmsguild.com/"
@@ -129,7 +130,6 @@ def index_books(sources_dir: Path, db_path: Path, priority_only: bool = False, f
     con = init_db(db_path)
     cur = con.cursor()
 
-    # Find all PDFs
     pdf_files = []
     for root, _, files in os.walk(sources_dir):
         for f in files:
@@ -137,7 +137,6 @@ def index_books(sources_dir: Path, db_path: Path, priority_only: bool = False, f
                 full_path = Path(root) / f
                 pdf_files.append(full_path)
 
-    # Priority sorting
     def priority_score(p: Path):
         name = p.name.lower()
         if "exploring_eberron" in name and "5_5" in name:
@@ -171,7 +170,6 @@ def index_books(sources_dir: Path, db_path: Path, priority_only: bool = False, f
         mtime = os.path.getmtime(pdf_path)
         size = os.path.getsize(pdf_path)
 
-        # Check existing
         cur.execute("SELECT id, file_mtime, file_size FROM books WHERE filename = ?", (rel_filename,))
         row = cur.fetchone()
         if row and not force:
@@ -180,7 +178,6 @@ def index_books(sources_dir: Path, db_path: Path, priority_only: bool = False, f
                 skipped_count += 1
                 continue
             else:
-                # Remove old pages from fts
                 cur.execute("DELETE FROM pages_fts WHERE book_id = ?", (existing_id,))
                 cur.execute("DELETE FROM books WHERE id = ?", (existing_id,))
                 con.commit()
@@ -220,7 +217,97 @@ def index_books(sources_dir: Path, db_path: Path, priority_only: bool = False, f
         except Exception as e:
             print(f" ERROR: {e}")
 
-    print(f"\nIndexing finished: {indexed_count} indexed, {skipped_count} up-to-date.")
+    print(f"\nPDF Indexing finished: {indexed_count} indexed, {skipped_count} up-to-date.")
+
+def index_ddb_journals(journals_dir: Path, db_path: Path, force: bool = False):
+    con = init_db(db_path)
+    cur = con.cursor()
+
+    manifest_configs = [
+        {
+            "id": "exploring_eberron_5_5e",
+            "json_file": journals_dir / "exploring_eberron_5_5e" / "exploring_eberron_5_5e_sections.json",
+            "filename": "Exploring_Eberron_5_5e_DDB.json",
+            "title": "Exploring Eberron (5.5e D&D Beyond)",
+            "author": "Keith Baker",
+            "url": "https://www.dmsguild.com/product/315808/Exploring-Eberron"
+        },
+        {
+            "id": "frontiers_of_eberron_quickstone",
+            "json_file": journals_dir / "frontiers_of_eberron_quickstone" / "frontiers_of_eberron_quickstone_sections.json",
+            "filename": "Frontiers_of_Eberron_Quickstone_DDB.json",
+            "title": "Frontiers of Eberron: Quickstone (D&D Beyond)",
+            "author": "Keith Baker",
+            "url": "https://www.dmsguild.com/product/468819/Frontiers-of-Eberron-Quickstone"
+        }
+    ]
+
+    missing = [c for c in manifest_configs if not c["json_file"].exists()]
+    if missing:
+        print("Extracting DDB journals from Foundry...")
+        extract_script = Path("tools/extract_ddb_journals.mjs")
+        if extract_script.exists():
+            subprocess.run(["node", str(extract_script)], check=True)
+        else:
+            print(f"Error: {extract_script} not found.")
+            return
+
+    for conf in manifest_configs:
+        json_file = conf["json_file"]
+        if not json_file.exists():
+            print(f"Skipping {conf['title']} (File not found: {json_file})")
+            continue
+
+        file_stat = json_file.stat()
+        file_mtime = file_stat.st_mtime
+        file_size = file_stat.st_size
+
+        cur.execute("SELECT id, file_mtime FROM books WHERE filename = ?", (conf["filename"],))
+        row = cur.fetchone()
+
+        if row and not force:
+            old_id, old_mtime = row
+            if old_mtime == file_mtime:
+                print(f"Skipping {conf['title']} (already up-to-date)")
+                continue
+            else:
+                cur.execute("DELETE FROM pages_fts WHERE book_id = ?", (old_id,))
+                cur.execute("DELETE FROM books WHERE id = ?", (old_id,))
+                con.commit()
+        elif row and force:
+            cur.execute("DELETE FROM pages_fts WHERE book_id = ?", (row[0],))
+            cur.execute("DELETE FROM books WHERE id = ?", (row[0],))
+            con.commit()
+
+        with open(json_file, "r", encoding="utf-8") as f:
+            sections = json.load(f)
+
+        print(f"Indexing '{conf['title']}' ({len(sections)} sections)...", end="", flush=True)
+
+        cur.execute("""
+            INSERT INTO books (filename, filepath, title, author, url, num_pages, file_mtime, file_size)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+        """, (conf["filename"], str(json_file), conf["title"], conf["author"], conf["url"], len(sections), file_mtime, file_size))
+
+        book_id = cur.lastrowid
+
+        pages_data = []
+        for s in sections:
+            sec_name = s.get("sectionName", "").strip()
+            ch_name = s.get("chapterName", "").strip()
+            if sec_name and sec_name != ch_name:
+                page_ref = f"{ch_name} - {sec_name}"
+            else:
+                page_ref = ch_name
+
+            raw_text = s.get("text", "").strip()
+            if raw_text:
+                full_text = f"Section: {page_ref}\n\n{raw_text}"
+                pages_data.append((book_id, page_ref, full_text))
+
+        cur.executemany("INSERT INTO pages_fts (book_id, page_num, text) VALUES (?, ?, ?)", pages_data)
+        con.commit()
+        print(f" Done ({len(pages_data)} sections indexed)")
 
 def search_index(db_path: Path, query: str, book_filter: str = None, limit: int = 8):
     if not db_path.exists():
@@ -263,13 +350,19 @@ def search_index(db_path: Path, query: str, book_filter: str = None, limit: int 
     for r in results:
         title, author, url, filename, page_num, snippet, rank = r
         clean_snippet = snippet.replace("\n", " ").strip()
+
+        if str(page_num).startswith("Chapter") or " - " in str(page_num) or not str(page_num).isdigit():
+            page_cite = f"Section: {page_num}"
+        else:
+            page_cite = f"p. {page_num}"
+
         print(f"\n📖 Book: {title}")
-        print(f"📄 Page: {page_num}  |  File: {filename}")
+        print(f"📄 Location: {page_num}  |  File: {filename}")
         print(f"📝 Snippet: {clean_snippet}")
-        print(f"🏷️ Citation: **Reference:** *{title}* (p. {page_num}), by {author} ([DMs Guild]({url}))")
+        print(f"🏷️ Citation: **Reference:** *{title}* ({page_cite}), by {author} ([DMs Guild]({url}))")
         print("-" * 70)
 
-def read_page(db_path: Path, book_pattern: str, page_num: int, count: int = 1):
+def read_page(db_path: Path, book_pattern: str, page_target: str, count: int = 1):
     if not db_path.exists():
         print(f"Index database '{db_path}' not found.")
         sys.exit(1)
@@ -285,20 +378,43 @@ def read_page(db_path: Path, book_pattern: str, page_num: int, count: int = 1):
         return
 
     book_id, title, filename, num_pages = book
-    end_page = min(page_num + count - 1, num_pages)
 
-    print(f"\nReading {title} (Pages {page_num} to {end_page} of {num_pages}):\n" + "=" * 70)
+    # Check if target is integer or text
+    if str(page_target).isdigit():
+        target_num = int(page_target)
+        if filename.endswith(".json"):
+            # Journal section by 1-based index
+            offset = max(0, target_num - 1)
+            cur.execute("""
+                SELECT page_num, text FROM pages_fts 
+                WHERE book_id = ?
+                LIMIT ? OFFSET ?
+            """, (book_id, count, offset))
+        else:
+            # PDF page numbers
+            end_page = min(target_num + count - 1, num_pages)
+            cur.execute("""
+                SELECT page_num, text FROM pages_fts 
+                WHERE book_id = ? AND CAST(page_num AS INTEGER) >= ? AND CAST(page_num AS INTEGER) <= ?
+                ORDER BY CAST(page_num AS INTEGER) ASC
+            """, (book_id, target_num, end_page))
+    else:
+        # String match on section title
+        cur.execute("""
+            SELECT page_num, text FROM pages_fts 
+            WHERE book_id = ? AND page_num LIKE ?
+            LIMIT ?
+        """, (book_id, f"%{page_target}%", count))
 
-    cur.execute("""
-        SELECT page_num, text FROM pages_fts 
-        WHERE book_id = ? AND page_num >= ? AND page_num <= ?
-        ORDER BY page_num ASC
-    """, (book_id, page_num, end_page))
-    
     pages = cur.fetchall()
+    if not pages:
+        print(f"No section or page found matching '{page_target}' in {title}.")
+        return
+
+    print(f"\nReading {title} ({len(pages)} section(s)):\n" + "=" * 70)
     for p_num, text in pages:
-        print(f"\n--- [PAGE {p_num}] ---")
-        print(text)
+        print(f"\n--- [LOCATION: {p_num}] ---")
+        print(text[:3000] + ("\n... [truncated]" if len(text) > 3000 else ""))
 
 def list_books(db_path: Path):
     if not db_path.exists():
@@ -312,11 +428,12 @@ def list_books(db_path: Path):
 
     print(f"\nIndexed Books ({len(books)} total):\n" + "=" * 70)
     for b_id, title, filename, pages, author in books:
-        print(f"#{b_id:02d}: {title} ({pages} pages) | Author: {author} [{filename}]")
+        print(f"#{b_id:02d}: {title} ({pages} pages/sections) | Author: {author} [{filename}]")
 
 def main():
     parser = argparse.ArgumentParser(description="Eberron Source Search & Citation Tool")
     parser.add_argument("--sources", type=Path, default=DEFAULT_SOURCES_DIR, help="Path to sources PDF directory")
+    parser.add_argument("--journals-dir", type=Path, default=DEFAULT_JOURNALS_DIR, help="Path to extracted DDB journals directory")
     parser.add_argument("--db", type=Path, default=DEFAULT_DB_PATH, help="Path to SQLite index database")
 
     subparsers = parser.add_subparsers(dest="command", required=True)
@@ -326,6 +443,10 @@ def main():
     index_parser.add_argument("--priority-only", action="store_true", help="Index only Keith Baker core books and primary titles first")
     index_parser.add_argument("--force", action="store_true", help="Re-index all files even if unchanged")
 
+    # index-journals
+    journal_parser = subparsers.add_parser("index-journals", help="Index extracted DDB Foundry journals into SQLite FTS")
+    journal_parser.add_argument("--force", action="store_true", help="Re-index journals even if already indexed")
+
     # search
     search_parser = subparsers.add_parser("search", help="Search the index for a keyword or phrase")
     search_parser.add_argument("query", type=str, help="Search query (supports FTS5 syntax)")
@@ -333,10 +454,10 @@ def main():
     search_parser.add_argument("--limit", type=int, default=6, help="Maximum number of results to display")
 
     # read
-    read_parser = subparsers.add_parser("read", help="Read exact text from a specific page")
+    read_parser = subparsers.add_parser("read", help="Read exact text from a specific page or section")
     read_parser.add_argument("book", type=str, help="Book title or filename substring")
-    read_parser.add_argument("page", type=int, help="Page number to read")
-    read_parser.add_argument("--count", type=int, default=1, help="Number of consecutive pages to read")
+    read_parser.add_argument("page", type=str, help="Page number or section name to read")
+    read_parser.add_argument("--count", type=int, default=1, help="Number of consecutive pages/sections to read")
 
     # list
     subparsers.add_parser("list", help="List all indexed books and page counts")
@@ -345,6 +466,9 @@ def main():
 
     if args.command == "index":
         index_books(args.sources, args.db, priority_only=args.priority_only, force=args.force)
+        index_ddb_journals(args.journals_dir, args.db, force=args.force)
+    elif args.command == "index-journals":
+        index_ddb_journals(args.journals_dir, args.db, force=args.force)
     elif args.command == "search":
         search_index(args.db, args.query, book_filter=args.book, limit=args.limit)
     elif args.command == "read":
