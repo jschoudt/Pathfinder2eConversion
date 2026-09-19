@@ -230,7 +230,8 @@ def index_ddb_journals(journals_dir: Path, db_path: Path, force: bool = False):
             "filename": "Exploring_Eberron_5_5e_DDB.json",
             "title": "Exploring Eberron (5.5e D&D Beyond)",
             "author": "Keith Baker",
-            "url": "https://www.dmsguild.com/product/315808/Exploring-Eberron"
+            "url": "https://www.dmsguild.com/product/315808/Exploring-Eberron",
+            "extract_script": "tools/extract_ddb_journals.mjs"
         },
         {
             "id": "frontiers_of_eberron_quickstone",
@@ -238,19 +239,27 @@ def index_ddb_journals(journals_dir: Path, db_path: Path, force: bool = False):
             "filename": "Frontiers_of_Eberron_Quickstone_DDB.json",
             "title": "Frontiers of Eberron: Quickstone (D&D Beyond)",
             "author": "Keith Baker",
-            "url": "https://www.dmsguild.com/product/468819/Frontiers-of-Eberron-Quickstone"
+            "url": "https://www.dmsguild.com/product/468819/Frontiers-of-Eberron-Quickstone",
+            "extract_script": "tools/extract_ddb_journals.mjs"
+        },
+        {
+            "id": "forge_of_the_artificer",
+            "json_file": journals_dir.parent / "forge_of_the_artificer" / "forge_of_the_artificer_sections.json",
+            "filename": "Eberron_Forge_of_the_Artificer.json",
+            "title": "Eberron: Forge of the Artificer",
+            "author": "Andrew Clayton, Kim Mantas, et al.",
+            "url": "https://foundryvtt.com/packages/dnd-forge-artificer",
+            "extract_script": "tools/extract_forge_artificer.mjs"
         }
     ]
 
-    missing = [c for c in manifest_configs if not c["json_file"].exists()]
-    if missing:
-        print("Extracting DDB journals from Foundry...")
-        extract_script = Path("tools/extract_ddb_journals.mjs")
-        if extract_script.exists():
-            subprocess.run(["node", str(extract_script)], check=True)
-        else:
-            print(f"Error: {extract_script} not found.")
-            return
+    for conf in manifest_configs:
+        json_file = conf["json_file"]
+        if not json_file.exists() and "extract_script" in conf:
+            script_path = Path(conf["extract_script"])
+            if script_path.exists():
+                print(f"Extracting {conf['title']} from Foundry...")
+                subprocess.run(["node", str(script_path)], check=True)
 
     for conf in manifest_configs:
         json_file = conf["json_file"]
@@ -356,10 +365,11 @@ def search_index(db_path: Path, query: str, book_filter: str = None, limit: int 
         else:
             page_cite = f"p. {page_num}"
 
+        url_label = "Foundry VTT" if "foundryvtt.com" in url else "DMs Guild" if "dmsguild.com" in url else "Reference"
         print(f"\n📖 Book: {title}")
         print(f"📄 Location: {page_num}  |  File: {filename}")
         print(f"📝 Snippet: {clean_snippet}")
-        print(f"🏷️ Citation: **Reference:** *{title}* ({page_cite}), by {author} ([DMs Guild]({url}))")
+        print(f"🏷️ Citation: **Reference:** *{title}* ({page_cite}), by {author} ([{url_label}]({url}))")
         print("-" * 70)
 
 def read_page(db_path: Path, book_pattern: str, page_target: str, count: int = 1):
