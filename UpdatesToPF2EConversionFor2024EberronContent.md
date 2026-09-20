@@ -237,3 +237,4 @@ Following the natural character creation and dependency sequence:
 | **Phase 4** | **Classes & Archetypes** | `eberron-classes/`, `eberron-feats/` | Completed | 2026-09-20 13:02 EDT |
 | **Phase 5** | **Spells & Magic Items** | `eberron-spells/`, `eberron-items/` | Completed | 2026-09-20 13:18 EDT |
 | **Phase 6** | **Vehicles & Bestiary** | `eberron-items/` (Vehicles), `eberron-creatures/` | Completed | 2026-09-20 13:29 EDT |
+| **Post-Phase** | **Automated Scribe PDF Generation** | `tools/generate_pdf.mjs`, `pathfinders-guide-to-eberron.pdf` | Completed | 2026-09-20 13:41 EDT |

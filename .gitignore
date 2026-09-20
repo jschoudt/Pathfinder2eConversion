@@ -22,6 +22,7 @@ dist/
 # Compiled Foundry module packs (LevelDB build artifacts generated from src/packs/)
 pathfinders-guide-to-eberron/packs/
 pathfinders-guide-to-eberron/pathfinders-guide-to-eberron.lock
+pathfinders-guide-to-eberron.html
 
 # Test companion module runtime bridge files
 tests/companion-module/bridge-port.json

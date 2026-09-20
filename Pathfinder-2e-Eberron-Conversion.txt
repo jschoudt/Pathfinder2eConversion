@@ -42,6 +42,7 @@ Pathfinder's Guide to Eberron
 
 For full protocols, see the [AI Guidelines & Verification Protocol](https://github.com/jschoudt/Pathfinder2eConversion/blob/main/ThirdPartyContentUsage.md#4-ai-assisted-content-guidelines--verification-protocol).
 
+=
 # Changelog
 **V 2.4.0 - 2026-09-19**
 - Updates terminology to align with Pathfinder remaster:
@@ -54,7 +55,10 @@ For full protocols, see the [AI Guidelines & Verification Protocol](https://gith
 - Modernizes Foundry VTT module compatibility for Foundry v14 and PF2e system 8.5.1
 - Upgrades legal dialog to Foundry DialogV2
 - Adds Big Bad Module Manager (BBMM) and Foundry Core changelog integration
-- Integrates automated build, 325-test Vitest suite, companion in-VTT test module, and UPnP security enforcement tooling
+- Integrates automated build, 657-test Vitest suite, companion in-VTT test module, and UPnP security enforcement tooling
+- Automates standalone Scribe PDF compiler workflow and offline asset rendering
+
+|
 
 **V 2.3.0 - 2023-10-29**
 - Introduces the Pathbuilder module contributed by John Cox
@@ -92,6 +96,12 @@ Train cars crackle with lightning as they thunder on elemental rails through the
 Eberron started with a contest run by Wizards of the Coast to develop a new campaign setting. The winner of the competition was Keith Baker with the Eberron Campaign Setting. In 2005 after developing the setting in concert with Wizards of the Coast, the Eberron campaign setting was published for Dungeons and Dragons 3e. 
 
 Eberron is a pulp-action world where morality is a shade of grey, but the call to adventure is always present. Adventure is everywhere, from the continent of Khorvaire: where arcane industry powered a hundred-year-war which now stands in an uneasy truce gone cold war; to Xen'drik where ancient ruins of the giant civilization wait to be discovered; there are many backdrops for a story in Eberron - and equally many dangers. Some of these dangers threaten nations, while others put the fate of the world at risk. Only a few legendary people can ever hope to stand against these threats, which is where the PCs come in. The need for heroes is desperate, but there is hope.
+|
+# Pathfinders' Guide to Eberron ((+Pathfinders' Guide to Eberron))
+The Pathfinder's Guide to Eberron provides Pathfinder 2e Remaster mechanics to support the rich gameplay of Eberron. It does not provide the lore or setting background required to run the world. This guide suggests the following books as references: [D&D 3.5 Eberron Campaign Setting](https://www.dmsguild.com/product/28474/Eberron-Campaign-Setting-3e), [D&D 5e Eberron: Rising from the Last War](https://www.dndbeyond.com/sources/dnd/erftlw), [Exploring Eberron (2024)](https://www.dndbeyond.com/marketplace/sourcebooks/exploring-eberron), [Frontiers of Eberron: Quickstone (2024)](https://www.dndbeyond.com/marketplace/sourcebooks/frontiers-of-eberron-quickstone), [Eberron: Forge of the Artificer (2024)](https://www.dndbeyond.com/marketplace/sourcebooks/eberron-forge-of-the-artificer), and the [Eberronicon](https://www.dmsguild.com/product/297249/Eberronicon-A-Pocket-Guide-to-the-World). All of these provide the background lore and inspiration you need to run Eberron.
+
+## Using this guide
+This guide aims to be as balanced and interesting as possible while using the pathfinder 2e base rules. If something seems too good - or too bad - to be true, it likely is. Work with your GM to figure out a better solution, and if possible submit a question to the [Github](https://github.com/jschoudt/Pathfinder2eConversion/issues) for clarification or correction. All Uncommon and Rare traits should _always_ be verified with your GM.
 /
 info(
 #### Recommended Source Material
@@ -104,10 +114,7 @@ Official 5th edition campaign setting book providing comprehensive gazetteers, p
 -
 ## Eberron: Forge of the Artificer (2024 / 5.5e)
 Available on [D&D Beyond](https://www.dndbeyond.com/marketplace/sourcebooks/eberron-forge-of-the-artificer) and [DMs Guild](https://www.dmsguild.com/product/498308/Forge-of-the-Artificer). Expands the Artificer class with new specialists (such as the Cartographer), infusions, elemental airship options, and magewright innovations.
-)
-info(
-#### Recommended Source Material
--
+|
 ## Exploring Eberron (2024 / 5.5e Update)
 Available on [D&D Beyond](https://www.dndbeyond.com/marketplace/sourcebooks/exploring-eberron) and [DMs Guild](https://www.dmsguild.com/product/315887/Exploring-Eberron). Keith Baker's deep dive into the Thunder Sea, Kar'lassa, Dhakaani Kechs, Mind Domain, Circle of the Forged, Forge Adept & Maverick innovations, and living symbionts.
 -
@@ -117,12 +124,6 @@ Available on [D&D Beyond](https://www.dndbeyond.com/marketplace/sourcebooks/fron
 ## The Eberronicon
 The [Eberronicon](https://www.dmsguild.com/product/297249/Eberronicon-A-Pocket-Guide-to-the-World) is a community reference guide providing a master index and summaries across all editions.
 )
-|
-# Pathfinders' Guide to Eberron ((+Pathfinders' Guide to Eberron))
-The Pathfinder's Guide to Eberron provides Pathfinder 2e Remaster mechanics to support the rich gameplay of Eberron. It does not provide the lore or setting background required to run the world. This guide suggests the following books as references: [D&D 3.5 Eberron Campaign Setting](https://www.dmsguild.com/product/28474/Eberron-Campaign-Setting-3e), [D&D 5e Eberron: Rising from the Last War](https://www.dndbeyond.com/sources/dnd/erftlw), [Exploring Eberron (2024)](https://www.dndbeyond.com/marketplace/sourcebooks/exploring-eberron), [Frontiers of Eberron: Quickstone (2024)](https://www.dndbeyond.com/marketplace/sourcebooks/frontiers-of-eberron-quickstone), [Eberron: Forge of the Artificer (2024)](https://www.dndbeyond.com/marketplace/sourcebooks/eberron-forge-of-the-artificer), and the [Eberronicon](https://www.dmsguild.com/product/297249/Eberronicon-A-Pocket-Guide-to-the-World). All of these provide the background lore and inspiration you need to run Eberron.
-
-## Using this guide
-This guide aims to be as balanced and interesting as possible while using the pathfinder 2e base rules. If something seems too good - or too bad - to be true, it likely is. Work with your GM to figure out a better solution, and if possible submit a question to the [Github](https://github.com/jschoudt/Pathfinder2eConversion/issues) for clarification or correction. All Uncommon and Rare traits should _always_ be verified with your GM.
 =
 ### The World
 There are a number of nations that have risen from the last war, and many continents, ancient empires, and other places that have been around far longer. This document provides stat blocks for all these locations including the planes and any planar effects.
@@ -134,7 +135,7 @@ There are many varied languages in Eberron, and this document outlines the commo
 Deities are tied into the mechanics of many of the Pathfinder 2e classes, this document provides the statblocks for their worship.
 
 ### Ancestries
-There are several unique playable Ancestries in Eberron, such as the Bugbear, Eberron Changeling, Kalashtar, Shifter, and Warforged. The Pathfinder's Guide to Eberron provides support for these new ancestries or ways to play them with the existing Pathfinder 2e ancestries.
+There are several unique playable Ancestries in Eberron, such as Bugbears, Changelings, Gargoyles, Gnolls, Harpies, Kalashtar, Kalamer Landwalkers, Medusas, Sahuagin, Shifters, Warforged, Worgs, and Ruinbound. The Pathfinder's Guide to Eberron provides support for these new ancestries or ways to play them with the existing Pathfinder 2e ancestries.
 
 ### Dragonmarks
 Dragonmarks are a new system of focus spells provided by the Dragonmarks which manifest on many of the Ancestries present in the world of Eberron. This guide provides the steps and mechanical support to use Dragonmarks in Eberron.
@@ -192,8 +193,14 @@ https://scribe.pf2.tools/v/harpies
 <!--Kalashtar-->
 https://scribe.pf2.tools/v/ZhZBvBqQ
 =
+<!--Kalamer Landwalkers-->
+https://scribe.pf2.tools/v/kalamer-landwalkers
+=
 <!--Medusas-->
 https://scribe.pf2.tools/v/medusas
+=
+<!--Sahuagin-->
+https://scribe.pf2.tools/v/sahuagin
 =
 <!--Shifters-->
 https://scribe.pf2.tools/v/vBjr7BMV
@@ -204,11 +211,17 @@ https://scribe.pf2.tools/v/bmXjCPvf
 <!--Worgs-->
 https://scribe.pf2.tools/v/worgs
 =
+<!--Ruinbound-->
+https://scribe.pf2.tools/v/ruinbound
+=
 <!--# Dragonmarks-->
 https://scribe.pf2.tools/v/9OVOPLzM
 =
 <!--# Backgrounds-->
 https://scribe.pf2.tools/v/23V7V1pp
+=
+<!--# Classes-->
+https://scribe.pf2.tools/v/classes
 =
 <!--# Archetypes-->
 https://scribe.pf2.tools/v/w6BQHy51

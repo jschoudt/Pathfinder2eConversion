@@ -6,6 +6,8 @@
   "type": "module",
   "scripts": {
     "build": "node tools/build_packs.mjs",
+    "build:pdf": "node tools/generate_pdf.mjs",
+    "build:html": "node tools/generate_pdf.mjs --html-only",
     "unpack": "node tools/unpack_packs.mjs",
     "validate": "node tools/validate_packs.mjs",
     "lint": "node tools/validate_packs.mjs",

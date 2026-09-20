@@ -1,0 +1,2061 @@
+@font-face {
+    font-family: 'rpg';
+    src: url('/assets/rpg.eot?emo09j');
+    src: url('/assets/rpg.eot?emo09j#iefix') format('embedded-opentype'),
+        url('/assets/rpg.ttf?emo09j') format('truetype'),
+        url('/assets/rpg.woff?emo09j') format('woff'),
+        url('/assets/rpg.svg?emo09j#rpg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.rpg {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'rpg' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.rpg-abnormal-attack-decreased:before {
+    content: "\e900";
+}
+
+.rpg-abnormal-bleeding:before {
+    content: "\e901";
+}
+
+.rpg-abnormal-blind:before {
+    content: "\e902";
+}
+
+.rpg-abnormal-burned:before {
+    content: "\e903";
+}
+
+.rpg-abnormal-confused:before {
+    content: "\e904";
+}
+
+.rpg-abnormal-dead:before {
+    content: "\e905";
+}
+
+.rpg-abnormal-defense-decreased:before {
+    content: "\e906";
+}
+
+.rpg-abnormal-freeze:before {
+    content: "\e907";
+}
+
+.rpg-abnormal-heart-point-decreased:before {
+    content: "\e908";
+}
+
+.rpg-abnormal-magic-decreased:before {
+    content: "\e909";
+}
+
+.rpg-abnormal-magic-defense--decreased:before {
+    content: "\e90a";
+}
+
+.rpg-abnormal-paralysis:before {
+    content: "\e90b";
+}
+
+.rpg-abnormal-poison:before {
+    content: "\e90c";
+}
+
+.rpg-abnormal-root:before {
+    content: "\e90d";
+}
+
+.rpg-abnormal-silent:before {
+    content: "\e90e";
+}
+
+.rpg-abnormal-sleep:before {
+    content: "\e90f";
+}
+
+.rpg-abnormal-speed-decreased:before {
+    content: "\e910";
+}
+
+.rpg-abnormal-strength-decreased:before {
+    content: "\e911";
+}
+
+.rpg-abnormal-stun:before {
+    content: "\e912";
+}
+
+.rpg-abnormal-wisdom-decreased:before {
+    content: "\e913";
+}
+
+.rpg-ancient-coffin:before {
+    content: "\e914";
+}
+
+.rpg-ancient-egyptian-language:before {
+    content: "\e915";
+}
+
+.rpg-ancient-ruins:before {
+    content: "\e916";
+}
+
+.rpg-ancient-shell-fossil:before {
+    content: "\e917";
+}
+
+.rpg-ancient-statue-man-of-la-venta:before {
+    content: "\e918";
+}
+
+.rpg-antiques-jar:before {
+    content: "\e919";
+}
+
+.rpg-archeology-history-book:before {
+    content: "\e91a";
+}
+
+.rpg-archeology-skeleton-fossil:before {
+    content: "\e91b";
+}
+
+.rpg-archeology-symbol:before {
+    content: "\e91c";
+}
+
+.rpg-arm-joint-bone:before {
+    content: "\e91d";
+}
+
+.rpg-arm-muscle:before {
+    content: "\e91e";
+}
+
+.rpg-baby-corn:before {
+    content: "\e91f";
+}
+
+.rpg-back-muscle:before {
+    content: "\e920";
+}
+
+.rpg-bacon-pork:before {
+    content: "\e921";
+}
+
+.rpg-barbecue:before {
+    content: "\e922";
+}
+
+.rpg-barbecue-pan:before {
+    content: "\e923";
+}
+
+.rpg-Barbecue-sauce:before {
+    content: "\e924";
+}
+
+.rpg-battle-hammer:before {
+    content: "\e925";
+}
+
+.rpg-belly-fat:before {
+    content: "\e926";
+}
+
+.rpg-bladder:before {
+    content: "\e927";
+}
+
+.rpg-Blood-Donation:before {
+    content: "\e928";
+}
+
+.rpg-body-muscle:before {
+    content: "\e929";
+}
+
+.rpg-Book:before {
+    content: "\e92a";
+}
+
+.rpg-botox-injections:before {
+    content: "\e92b";
+}
+
+.rpg-Brain001:before {
+    content: "\e92c";
+}
+
+.rpg-Brain002:before {
+    content: "\e92d";
+}
+
+.rpg-broken-bone:before {
+    content: "\e92e";
+}
+
+.rpg-Carrot:before {
+    content: "\e92f";
+}
+
+.rpg-classes-alchemist:before {
+    content: "\e930";
+}
+
+.rpg-classes-archer:before {
+    content: "\e931";
+}
+
+.rpg-classes-assassin:before {
+    content: "\e932";
+}
+
+.rpg-classes-barbarian:before {
+    content: "\e933";
+}
+
+.rpg-classes-beast-master:before {
+    content: "\e934";
+}
+
+.rpg-classes-engineer:before {
+    content: "\e935";
+}
+
+.rpg-classes-hunter:before {
+    content: "\e936";
+}
+
+.rpg-classes-knight:before {
+    content: "\e937";
+}
+
+.rpg-classes-magician:before {
+    content: "\e938";
+}
+
+.rpg-classes-monk:before {
+    content: "\e939";
+}
+
+.rpg-classes-necromancer:before {
+    content: "\e93a";
+}
+
+.rpg-classes-ninja:before {
+    content: "\e93b";
+}
+
+.rpg-classes-pirate:before {
+    content: "\e93c";
+}
+
+.rpg-classes-priest:before {
+    content: "\e93d";
+}
+
+.rpg-classes-samurai:before {
+    content: "\e93e";
+}
+
+.rpg-classes-sniper:before {
+    content: "\e93f";
+}
+
+.rpg-classes-spearman:before {
+    content: "\e940";
+}
+
+.rpg-classes-swordsman:before {
+    content: "\e941";
+}
+
+.rpg-classes-thief:before {
+    content: "\e942";
+}
+
+.rpg-classes-wizard:before {
+    content: "\e943";
+}
+
+.rpg-Clean-food:before {
+    content: "\e944";
+}
+
+.rpg-corn-barbecue:before {
+    content: "\e945";
+}
+
+.rpg-disease-and-virus:before {
+    content: "\e946";
+}
+
+.rpg-effect-big-wave:before {
+    content: "\e947";
+}
+
+.rpg-effect-circle:before {
+    content: "\e948";
+}
+
+.rpg-effect-circle-strike:before {
+    content: "\e949";
+}
+
+.rpg-effect-cross:before {
+    content: "\e94a";
+}
+
+.rpg-effect-cross-cut:before {
+    content: "\e94b";
+}
+
+.rpg-effect-cross-slash:before {
+    content: "\e94c";
+}
+
+.rpg-effect-damage-circle:before {
+    content: "\e94d";
+}
+
+.rpg-effect-double-jump:before {
+    content: "\e94e";
+}
+
+.rpg-effect-hit:before {
+    content: "\e94f";
+}
+
+.rpg-effect-hit-damage:before {
+    content: "\e950";
+}
+
+.rpg-effect-impact:before {
+    content: "\e951";
+}
+
+.rpg-effect-light:before {
+    content: "\e952";
+}
+
+.rpg-effect-magic-arrow:before {
+    content: "\e953";
+}
+
+.rpg-effect-magic-circle:before {
+    content: "\e954";
+}
+
+.rpg-effect-magic-rotate:before {
+    content: "\e955";
+}
+
+.rpg-effect-magic-split:before {
+    content: "\e956";
+}
+
+.rpg-effect-magic-strike:before {
+    content: "\e957";
+}
+
+.rpg-effect-scratch:before {
+    content: "\e958";
+}
+
+.rpg-effect-slash-damage:before {
+    content: "\e959";
+}
+
+.rpg-effect-slash-half-wave:before {
+    content: "\e95a";
+}
+
+.rpg-effect-slash-wave:before {
+    content: "\e95b";
+}
+
+.rpg-effect-smoke:before {
+    content: "\e95c";
+}
+
+.rpg-effect-smooth-circle:before {
+    content: "\e95d";
+}
+
+.rpg-effect-smooth-wave:before {
+    content: "\e95e";
+}
+
+.rpg-effect-sparkle:before {
+    content: "\e95f";
+}
+
+.rpg-effect-strike:before {
+    content: "\e960";
+}
+
+.rpg-effect-teleport:before {
+    content: "\e961";
+}
+
+.rpg-effect-two-scrape:before {
+    content: "\e962";
+}
+
+.rpg-effect-wave:before {
+    content: "\e963";
+}
+
+.rpg-effect-wave-strike:before {
+    content: "\e964";
+}
+
+.rpg-Einstein:before {
+    content: "\e965";
+}
+
+.rpg-e-learning:before {
+    content: "\e966";
+}
+
+.rpg-element-critical:before {
+    content: "\e967";
+}
+
+.rpg-element-dark:before {
+    content: "\e968";
+}
+
+.rpg-element-earth:before {
+    content: "\e969";
+}
+
+.rpg-element-fire:before {
+    content: "\e96a";
+}
+
+.rpg-element-fist:before {
+    content: "\e96b";
+}
+
+.rpg-element-flame:before {
+    content: "\e96c";
+}
+
+.rpg-element-forest:before {
+    content: "\e96d";
+}
+
+.rpg-element-ice:before {
+    content: "\e96e";
+}
+
+.rpg-element-ice-crystals:before {
+    content: "\e96f";
+}
+
+.rpg-element-leaf:before {
+    content: "\e970";
+}
+
+.rpg-element-light:before {
+    content: "\e971";
+}
+
+.rpg-element-lightning:before {
+    content: "\e972";
+}
+
+.rpg-element-mountain:before {
+    content: "\e973";
+}
+
+.rpg-element-shadow:before {
+    content: "\e974";
+}
+
+.rpg-element-stream:before {
+    content: "\e975";
+}
+
+.rpg-element-sun-light:before {
+    content: "\e976";
+}
+
+.rpg-element-thunder:before {
+    content: "\e977";
+}
+
+.rpg-element-water:before {
+    content: "\e978";
+}
+
+.rpg-element-wind:before {
+    content: "\e979";
+}
+
+.rpg-element-wind-simple:before {
+    content: "\e97a";
+}
+
+.rpg-equipment-belt:before {
+    content: "\e97b";
+}
+
+.rpg-equipment-body-armor:before {
+    content: "\e97c";
+}
+
+.rpg-equipment-boot:before {
+    content: "\e97d";
+}
+
+.rpg-equipment-bracelet:before {
+    content: "\e97e";
+}
+
+.rpg-equipment-crown:before {
+    content: "\e97f";
+}
+
+.rpg-equipment-earring:before {
+    content: "\e980";
+}
+
+.rpg-equipment-elf-ears:before {
+    content: "\e981";
+}
+
+.rpg-equipment-glove:before {
+    content: "\e982";
+}
+
+.rpg-equipment-glove-armor:before {
+    content: "\e983";
+}
+
+.rpg-equipment-helm-armor001:before {
+    content: "\e984";
+}
+
+.rpg-equipment-helm-armor002:before {
+    content: "\e985";
+}
+
+.rpg-equipment-leg-armor:before {
+    content: "\e986";
+}
+
+.rpg-equipment-necklace:before {
+    content: "\e987";
+}
+
+.rpg-equipment-ring:before {
+    content: "\e988";
+}
+
+.rpg-equipment-shirt:before {
+    content: "\e989";
+}
+
+.rpg-equipment-silmple-body-armor:before {
+    content: "\e98a";
+}
+
+.rpg-equipment-silmple-glove-armor:before {
+    content: "\e98b";
+}
+
+.rpg-equipment-silmple-leg-armor:before {
+    content: "\e98c";
+}
+
+.rpg-equipment-silmple-waist-armor:before {
+    content: "\e98d";
+}
+
+.rpg-equipment-simple-ring:before {
+    content: "\e98e";
+}
+
+.rpg-equipment-star-necklace:before {
+    content: "\e98f";
+}
+
+.rpg-equipment-viking-helm:before {
+    content: "\e990";
+}
+
+.rpg-equipment-waist-armor:before {
+    content: "\e991";
+}
+
+.rpg-equipment-wing:before {
+    content: "\e992";
+}
+
+.rpg-equipment-wing-boot:before {
+    content: "\e993";
+}
+
+.rpg-equipment-wizard-boot:before {
+    content: "\e994";
+}
+
+.rpg-equipment-wizard-cover:before {
+    content: "\e995";
+}
+
+.rpg-equipment-wizard-hat:before {
+    content: "\e996";
+}
+
+.rpg-equipment-wizard-hood:before {
+    content: "\e997";
+}
+
+.rpg-equipment-wizard-robe:before {
+    content: "\e998";
+}
+
+.rpg-excavation:before {
+    content: "\e999";
+}
+
+.rpg-Eye:before {
+    content: "\e99a";
+}
+
+.rpg-faculty-of-agriculture:before {
+    content: "\e99b";
+}
+
+.rpg-faculty-of-architecture:before {
+    content: "\e99c";
+}
+
+.rpg-faculty-of-art:before {
+    content: "\e99d";
+}
+
+.rpg-faculty-of-commerce-and-accountancy:before {
+    content: "\e99e";
+}
+
+.rpg-faculty-of-communication-art:before {
+    content: "\e99f";
+}
+
+.rpg-faculty-of-dentistry:before {
+    content: "\e9a0";
+}
+
+.rpg-faculty-of-education:before {
+    content: "\e9a1";
+}
+
+.rpg-faculty-of-engineering:before {
+    content: "\e9a2";
+}
+
+.rpg-faculty-of-game-design:before {
+    content: "\e9a3";
+}
+
+.rpg-faculty-of-infomation-technology:before {
+    content: "\e9a4";
+}
+
+.rpg-faculty-of-journalism-and-masscommunication:before {
+    content: "\e9a5";
+}
+
+.rpg-faculty-of-law:before {
+    content: "\e9a6";
+}
+
+.rpg-faculty-of-medicine:before {
+    content: "\e9a7";
+}
+
+.rpg-faculty-of-music:before {
+    content: "\e9a8";
+}
+
+.rpg-faculty-of-natural-sciences:before {
+    content: "\e9a9";
+}
+
+.rpg-faculty-of-psychology:before {
+    content: "\e9aa";
+}
+
+.rpg-faculty-of-science:before {
+    content: "\e9ab";
+}
+
+.rpg-faculty-of-sports:before {
+    content: "\e9ac";
+}
+
+.rpg-faculty-of-tourism:before {
+    content: "\e9ad";
+}
+
+.rpg-Fitness:before {
+    content: "\e9ae";
+}
+
+.rpg-foot:before {
+    content: "\e9af";
+}
+
+.rpg-foot-bone:before {
+    content: "\e9b0";
+}
+
+.rpg-fossil:before {
+    content: "\e9b1";
+}
+
+.rpg-Fresh-Egg:before {
+    content: "\e9b2";
+}
+
+.rpg-Fresh-Fish:before {
+    content: "\e9b3";
+}
+
+.rpg-Fresh-Meat:before {
+    content: "\e9b4";
+}
+
+.rpg-fresh-shrimp:before {
+    content: "\e9b5";
+}
+
+.rpg-fresh-squids:before {
+    content: "\e9b6";
+}
+
+.rpg-game-ui-anvil-forge:before {
+    content: "\e9b7";
+}
+
+.rpg-game-ui-armor:before {
+    content: "\e9b8";
+}
+
+.rpg-game-ui-bag:before {
+    content: "\e9b9";
+}
+
+.rpg-game-ui-basic-bag:before {
+    content: "\e9ba";
+}
+
+.rpg-game-ui-basic-level-up:before {
+    content: "\e9bb";
+}
+
+.rpg-game-ui-book-skill:before {
+    content: "\e9bc";
+}
+
+.rpg-game-ui-book-skill-up:before {
+    content: "\e9bd";
+}
+
+.rpg-game-ui-combine:before {
+    content: "\e9be";
+}
+
+.rpg-game-ui-equipment:before {
+    content: "\e9bf";
+}
+
+.rpg-game-ui-item:before {
+    content: "\e9c0";
+}
+
+.rpg-game-ui-item-bag:before {
+    content: "\e9c1";
+}
+
+.rpg-game-ui-level-up:before {
+    content: "\e9c2";
+}
+
+.rpg-game-ui-map:before {
+    content: "\e9c3";
+}
+
+.rpg-game-ui-money:before {
+    content: "\e9c4";
+}
+
+.rpg-game-ui-option-gear:before {
+    content: "\e9c5";
+}
+
+.rpg-game-ui-player-body:before {
+    content: "\e9c6";
+}
+
+.rpg-game-ui-player-stats:before {
+    content: "\e9c7";
+}
+
+.rpg-game-ui-plus-level-up:before {
+    content: "\e9c8";
+}
+
+.rpg-game-ui-quest-scroll:before {
+    content: "\e9c9";
+}
+
+.rpg-game-ui-skill:before {
+    content: "\e9ca";
+}
+
+.rpg-game-ui-skill-star:before {
+    content: "\e9cb";
+}
+
+.rpg-game-ui-skill-up:before {
+    content: "\e9cc";
+}
+
+.rpg-game-ui-stats:before {
+    content: "\e9cd";
+}
+
+.rpg-game-ui-weapon:before {
+    content: "\e9ce";
+}
+
+.rpg-gold-treasure:before {
+    content: "\e9cf";
+}
+
+.rpg-graduate:before {
+    content: "\e9d0";
+}
+
+.rpg-Grill-Pan:before {
+    content: "\e9d1";
+}
+
+.rpg-Hand:before {
+    content: "\e9d2";
+}
+
+.rpg-Hand-bone:before {
+    content: "\e9d3";
+}
+
+.rpg-Heart:before {
+    content: "\e9d4";
+}
+
+.rpg-heart-and-health-care:before {
+    content: "\e9d5";
+}
+
+.rpg-heart-rate:before {
+    content: "\e9d6";
+}
+
+.rpg-Hospital:before {
+    content: "\e9d7";
+}
+
+.rpg-hot-pot:before {
+    content: "\e9d8";
+}
+
+.rpg-Idea001:before {
+    content: "\e9d9";
+}
+
+.rpg-Idea002:before {
+    content: "\e9da";
+}
+
+.rpg-Idea-Lamp:before {
+    content: "\e9db";
+}
+
+.rpg-idea-make-income:before {
+    content: "\e9dc";
+}
+
+.rpg-idea-on-book:before {
+    content: "\e9dd";
+}
+
+.rpg-idea-thinking-award:before {
+    content: "\e9de";
+}
+
+.rpg-innovation:before {
+    content: "\e9df";
+}
+
+.rpg-innovation-thinking:before {
+    content: "\e9e0";
+}
+
+.rpg-intestine:before {
+    content: "\e9e1";
+}
+
+.rpg-item-apple:before {
+    content: "\e9e2";
+}
+
+.rpg-item-big-flask:before {
+    content: "\e9e3";
+}
+
+.rpg-item-big-potion:before {
+    content: "\e9e4";
+}
+
+.rpg-item-bomb:before {
+    content: "\e9e5";
+}
+
+.rpg-item-carrot:before {
+    content: "\e9e6";
+}
+
+.rpg-item-chicken:before {
+    content: "\e9e7";
+}
+
+.rpg-item-coin:before {
+    content: "\e9e8";
+}
+
+.rpg-item-crystal:before {
+    content: "\e9e9";
+}
+
+.rpg-item-feather:before {
+    content: "\e9ea";
+}
+
+.rpg-item-gold:before {
+    content: "\e9eb";
+}
+
+.rpg-item-herb:before {
+    content: "\e9ec";
+}
+
+.rpg-item-key:before {
+    content: "\e9ed";
+}
+
+.rpg-item-lantern:before {
+    content: "\e9ee";
+}
+
+.rpg-item-magic-scroll:before {
+    content: "\e9ef";
+}
+
+.rpg-item-meat:before {
+    content: "\e9f0";
+}
+
+.rpg-item-medium-potion:before {
+    content: "\e9f1";
+}
+
+.rpg-item-quest-scroll:before {
+    content: "\e9f2";
+}
+
+.rpg-item-rune-stone:before {
+    content: "\e9f3";
+}
+
+.rpg-item-scroll:before {
+    content: "\e9f4";
+}
+
+.rpg-item-small-bag:before {
+    content: "\e9f5";
+}
+
+.rpg-item-small-flask:before {
+    content: "\e9f6";
+}
+
+.rpg-item-small-potion:before {
+    content: "\e9f7";
+}
+
+.rpg-item-torch:before {
+    content: "\e9f8";
+}
+
+.rpg-item-trap:before {
+    content: "\e9f9";
+}
+
+.rpg-item-treasure-chest:before {
+    content: "\e9fa";
+}
+
+.rpg-Kidneys:before {
+    content: "\e9fb";
+}
+
+.rpg-knee-joint-bone:before {
+    content: "\e9fc";
+}
+
+.rpg-knowledge-book:before {
+    content: "\e9fd";
+}
+
+.rpg-landscape-castle:before {
+    content: "\e9fe";
+}
+
+.rpg-landscape-cave:before {
+    content: "\e9ff";
+}
+
+.rpg-landscape-desert:before {
+    content: "\ea00";
+}
+
+.rpg-landscape-forest:before {
+    content: "\ea01";
+}
+
+.rpg-landscape-home:before {
+    content: "\ea02";
+}
+
+.rpg-landscape-mountain:before {
+    content: "\ea03";
+}
+
+.rpg-landscape-river:before {
+    content: "\ea04";
+}
+
+.rpg-landscape-snow-land:before {
+    content: "\ea05";
+}
+
+.rpg-landscape-village:before {
+    content: "\ea06";
+}
+
+.rpg-landscape-volcano:before {
+    content: "\ea07";
+}
+
+.rpg-leg-muscle:before {
+    content: "\ea08";
+}
+
+.rpg-leg-muscle-growth:before {
+    content: "\ea09";
+}
+
+.rpg-Liver:before {
+    content: "\ea0a";
+}
+
+.rpg-Lung:before {
+    content: "\ea0b";
+}
+
+.rpg-lung-capacity-growth:before {
+    content: "\ea0c";
+}
+
+.rpg-medical-symbol:before {
+    content: "\ea0d";
+}
+
+.rpg-medicines:before {
+    content: "\ea0e";
+}
+
+.rpg-mummy-in-coffin:before {
+    content: "\ea0f";
+}
+
+.rpg-muscle-growth:before {
+    content: "\ea10";
+}
+
+.rpg-museum-archeology:before {
+    content: "\ea11";
+}
+
+.rpg-Mushroom:before {
+    content: "\ea12";
+}
+
+.rpg-noodle-udon:before {
+    content: "\ea13";
+}
+
+.rpg-Pancreas:before {
+    content: "\ea14";
+}
+
+.rpg-Patent:before {
+    content: "\ea15";
+}
+
+.rpg-plan:before {
+    content: "\ea16";
+}
+
+.rpg-ribcage:before {
+    content: "\ea17";
+}
+
+.rpg-run:before {
+    content: "\ea18";
+}
+
+.rpg-Sauce:before {
+    content: "\ea19";
+}
+
+.rpg-Sausage:before {
+    content: "\ea1a";
+}
+
+.rpg-science-anatomy:before {
+    content: "\ea1b";
+}
+
+.rpg-science-astrobiology:before {
+    content: "\ea1c";
+}
+
+.rpg-science-astronautics:before {
+    content: "\ea1d";
+}
+
+.rpg-science-astronomy:before {
+    content: "\ea1e";
+}
+
+.rpg-science-book-of-science:before {
+    content: "\ea1f";
+}
+
+.rpg-science-botany:before {
+    content: "\ea20";
+}
+
+.rpg-science-cellbiology:before {
+    content: "\ea21";
+}
+
+.rpg-science-chemistry:before {
+    content: "\ea22";
+}
+
+.rpg-science-chronobiology:before {
+    content: "\ea23";
+}
+
+.rpg-science-dendrology:before {
+    content: "\ea24";
+}
+
+.rpg-science-developmental-biology:before {
+    content: "\ea25";
+}
+
+.rpg-science-earth-globe:before {
+    content: "\ea26";
+}
+
+.rpg-science-ecology:before {
+    content: "\ea27";
+}
+
+.rpg-science-epidemiology001:before {
+    content: "\ea28";
+}
+
+.rpg-science-epidemiology002:before {
+    content: "\ea29";
+}
+
+.rpg-science-evolutionay-biology:before {
+    content: "\ea2a";
+}
+
+.rpg-science-genetics:before {
+    content: "\ea2b";
+}
+
+.rpg-science-lamp-brain:before {
+    content: "\ea2c";
+}
+
+.rpg-science-magnet:before {
+    content: "\ea2d";
+}
+
+.rpg-science-magnifying-glass-cells:before {
+    content: "\ea2e";
+}
+
+.rpg-science-magnifying-glass-fossil:before {
+    content: "\ea2f";
+}
+
+.rpg-science-magnifying-glass-ore:before {
+    content: "\ea30";
+}
+
+.rpg-science-medicine:before {
+    content: "\ea31";
+}
+
+.rpg-science-microscope:before {
+    content: "\ea32";
+}
+
+.rpg-science-optical-physics:before {
+    content: "\ea33";
+}
+
+.rpg-science-photobiology:before {
+    content: "\ea34";
+}
+
+.rpg-science-rat-injection:before {
+    content: "\ea35";
+}
+
+.rpg-science-scientist:before {
+    content: "\ea36";
+}
+
+.rpg-science-solor-system:before {
+    content: "\ea37";
+}
+
+.rpg-science-zoology-mammalogy:before {
+    content: "\ea38";
+}
+
+.rpg-seaweed-roll:before {
+    content: "\ea39";
+}
+
+.rpg-shoulder-bone:before {
+    content: "\ea3a";
+}
+
+.rpg-skill-alchemist-fire-bomb:before {
+    content: "\ea3b";
+}
+
+.rpg-skill-alchemist-poison-bomb:before {
+    content: "\ea3c";
+}
+
+.rpg-skill-alchemist-shake:before {
+    content: "\ea3d";
+}
+
+.rpg-skill-axe-power:before {
+    content: "\ea3e";
+}
+
+.rpg-skill-axe-sharp:before {
+    content: "\ea3f";
+}
+
+.rpg-skill-axe-skull-broken:before {
+    content: "\ea40";
+}
+
+.rpg-skill-axe-throw:before {
+    content: "\ea41";
+}
+
+.rpg-skill-beast-bear:before {
+    content: "\ea42";
+}
+
+.rpg-skill-beast-deer:before {
+    content: "\ea43";
+}
+
+.rpg-skill-beast-falcon:before {
+    content: "\ea44";
+}
+
+.rpg-skill-beast-wolf:before {
+    content: "\ea45";
+}
+
+.rpg-skill-bell-shake:before {
+    content: "\ea46";
+}
+
+.rpg-skill-bow-accuracy:before {
+    content: "\ea47";
+}
+
+.rpg-skill-bow-arrow-sharp:before {
+    content: "\ea48";
+}
+
+.rpg-skill-bow-double-arrow:before {
+    content: "\ea49";
+}
+
+.rpg-skill-bow-head-shot:before {
+    content: "\ea4a";
+}
+
+.rpg-skill-bow-mastery:before {
+    content: "\ea4b";
+}
+
+.rpg-skill-bow-power-arrow:before {
+    content: "\ea4c";
+}
+
+.rpg-skill-bow-power-shot:before {
+    content: "\ea4d";
+}
+
+.rpg-skill-bow-rain-arrow:before {
+    content: "\ea4e";
+}
+
+.rpg-skill-chain:before {
+    content: "\ea4f";
+}
+
+.rpg-skill-control:before {
+    content: "\ea50";
+}
+
+.rpg-skill-dark-shadow:before {
+    content: "\ea51";
+}
+
+.rpg-skill-dead-skull:before {
+    content: "\ea52";
+}
+
+.rpg-skill-dna:before {
+    content: "\ea53";
+}
+
+.rpg-skill-eagle-eye:before {
+    content: "\ea54";
+}
+
+.rpg-skill-evade-up:before {
+    content: "\ea55";
+}
+
+.rpg-skill-fist-power:before {
+    content: "\ea56";
+}
+
+.rpg-skill-gun-accuracy:before {
+    content: "\ea57";
+}
+
+.rpg-skill-gun-bullet:before {
+    content: "\ea58";
+}
+
+.rpg-skill-gun-head-shot:before {
+    content: "\ea59";
+}
+
+.rpg-skill-gun-power-shot:before {
+    content: "\ea5a";
+}
+
+.rpg-skill-hammer-hit:before {
+    content: "\ea5b";
+}
+
+.rpg-skill-hammer-slam-1:before {
+    content: "\ea5c";
+}
+
+.rpg-skill-hammer-slam:before {
+    content: "\ea5d";
+}
+
+.rpg-skill-hand:before {
+    content: "\ea5e";
+}
+
+.rpg-skill-hand-magic:before {
+    content: "\ea5f";
+}
+
+.rpg-skill-heart-break:before {
+    content: "\ea60";
+}
+
+.rpg-skill-holy-cross-revive:before {
+    content: "\ea61";
+}
+
+.rpg-skill-hourglass-time:before {
+    content: "\ea62";
+}
+
+.rpg-skill-knife-attack:before {
+    content: "\ea63";
+}
+
+.rpg-skill-knife-blood:before {
+    content: "\ea64";
+}
+
+.rpg-skill-knife-broken-skull:before {
+    content: "\ea65";
+}
+
+.rpg-skill-knife-heart-stab:before {
+    content: "\ea66";
+}
+
+.rpg-skill-knife-mastery:before {
+    content: "\ea67";
+}
+
+.rpg-skill-knife-poison:before {
+    content: "\ea68";
+}
+
+.rpg-skill-knife-shadow:before {
+    content: "\ea69";
+}
+
+.rpg-skill-knife-stab:before {
+    content: "\ea6a";
+}
+
+.rpg-skill-knife-throw:before {
+    content: "\ea6b";
+}
+
+.rpg-skill-magic-armor:before {
+    content: "\ea6c";
+}
+
+.rpg-skill-magic-barrier:before {
+    content: "\ea6d";
+}
+
+.rpg-skill-magic-blast:before {
+    content: "\ea6e";
+}
+
+.rpg-skill-magic-chain-lightning:before {
+    content: "\ea6f";
+}
+
+.rpg-skill-magic-cold-curse:before {
+    content: "\ea70";
+}
+
+.rpg-skill-magic-dark:before {
+    content: "\ea71";
+}
+
+.rpg-skill-magic-dragon-breath:before {
+    content: "\ea72";
+}
+
+.rpg-skill-magic-earthquake:before {
+    content: "\ea73";
+}
+
+.rpg-skill-magic-fire:before {
+    content: "\ea74";
+}
+
+.rpg-skill-magic-fireball:before {
+    content: "\ea75";
+}
+
+.rpg-skill-magic-fire-soul:before {
+    content: "\ea76";
+}
+
+.rpg-skill-magic-fire-wall:before {
+    content: "\ea77";
+}
+
+.rpg-skill-magic-freeze:before {
+    content: "\ea78";
+}
+
+.rpg-skill-magic-ice:before {
+    content: "\ea79";
+}
+
+.rpg-skill-magic-ice-spear:before {
+    content: "\ea7a";
+}
+
+.rpg-skill-magic-ice-wall:before {
+    content: "\ea7b";
+}
+
+.rpg-skill-magic-light:before {
+    content: "\ea7c";
+}
+
+.rpg-skill-magic-lightning:before {
+    content: "\ea7d";
+}
+
+.rpg-skill-magic-lightning-ball:before {
+    content: "\ea7e";
+}
+
+.rpg-skill-magic-meteor:before {
+    content: "\ea7f";
+}
+
+.rpg-skill-magic-root:before {
+    content: "\ea80";
+}
+
+.rpg-skill-magic-shock:before {
+    content: "\ea81";
+}
+
+.rpg-skill-magic-soul-strike:before {
+    content: "\ea82";
+}
+
+.rpg-skill-magic-spike:before {
+    content: "\ea83";
+}
+
+.rpg-skill-magic-storm-blast:before {
+    content: "\ea84";
+}
+
+.rpg-skill-magic-storm-slash:before {
+    content: "\ea85";
+}
+
+.rpg-skill-magic-stream:before {
+    content: "\ea86";
+}
+
+.rpg-skill-magic-thunderbolt:before {
+    content: "\ea87";
+}
+
+.rpg-skill-magic-time:before {
+    content: "\ea88";
+}
+
+.rpg-skill-magic-tornado:before {
+    content: "\ea89";
+}
+
+.rpg-skill-magic-wind-power:before {
+    content: "\ea8a";
+}
+
+.rpg-skill-magic-wind-slash:before {
+    content: "\ea8b";
+}
+
+.rpg-skill-magic-zombie:before {
+    content: "\ea8c";
+}
+
+.rpg-skill-ninja-shuriken:before {
+    content: "\ea8d";
+}
+
+.rpg-skill-ninja-shuriken-shot:before {
+    content: "\ea8e";
+}
+
+.rpg-skill-pirate-bomb:before {
+    content: "\ea8f";
+}
+
+.rpg-skill-pirate-flag:before {
+    content: "\ea90";
+}
+
+.rpg-skill-pirate-symbol:before {
+    content: "\ea91";
+}
+
+.rpg-skill-priest-book:before {
+    content: "\ea92";
+}
+
+.rpg-skill-priest-heal:before {
+    content: "\ea93";
+}
+
+.rpg-skill-shield:before {
+    content: "\ea94";
+}
+
+.rpg-skill-shield-broken:before {
+    content: "\ea95";
+}
+
+.rpg-skill-shield-broken-weapon:before {
+    content: "\ea96";
+}
+
+.rpg-skill-shield-counter:before {
+    content: "\ea97";
+}
+
+.rpg-skill-shield-penetrate:before {
+    content: "\ea98";
+}
+
+.rpg-skill-shield-projectile-resistance:before {
+    content: "\ea99";
+}
+
+.rpg-skill-shield-reflect:before {
+    content: "\ea9a";
+}
+
+.rpg-skill-shield-tripple:before {
+    content: "\ea9b";
+}
+
+.rpg-skill-shield-wall:before {
+    content: "\ea9c";
+}
+
+.rpg-skill-skeleton:before {
+    content: "\ea9d";
+}
+
+.rpg-skill-speed-down:before {
+    content: "\ea9e";
+}
+
+.rpg-skill-spell-book:before {
+    content: "\ea9f";
+}
+
+.rpg-skill-sword:before {
+    content: "\eaa0";
+}
+
+.rpg-skill-sword-attack:before {
+    content: "\eaa1";
+}
+
+.rpg-skill-sword-blood:before {
+    content: "\eaa2";
+}
+
+.rpg-skill-sword-downward:before {
+    content: "\eaa3";
+}
+
+.rpg-skill-sword-flame:before {
+    content: "\eaa4";
+}
+
+.rpg-skill-sword-magic:before {
+    content: "\eaa5";
+}
+
+.rpg-skill-sword-mastery:before {
+    content: "\eaa6";
+}
+
+.rpg-skill-sword-slash:before {
+    content: "\eaa7";
+}
+
+.rpg-skill-sword-stab:before {
+    content: "\eaa8";
+}
+
+.rpg-skill-sword-storm:before {
+    content: "\eaa9";
+}
+
+.rpg-skill-sword-swing:before {
+    content: "\eaaa";
+}
+
+.rpg-skill-sword-tripple-stab:before {
+    content: "\eaab";
+}
+
+.rpg-skill-thunder-fist:before {
+    content: "\eaac";
+}
+
+.rpg-skill-vision:before {
+    content: "\eaad";
+}
+
+.rpg-skill-yin-yang:before {
+    content: "\eaae";
+}
+
+.rpg-skin-hair:before {
+    content: "\eaaf";
+}
+
+.rpg-skull-bone:before {
+    content: "\eab0";
+}
+
+.rpg-sliced-pork:before {
+    content: "\eab1";
+}
+
+.rpg-spartan-weapon-sword-and-shield:before {
+    content: "\eab2";
+}
+
+.rpg-spices:before {
+    content: "\eab3";
+}
+
+.rpg-spine-bone:before {
+    content: "\eab4";
+}
+
+.rpg-stamina-growth:before {
+    content: "\eab5";
+}
+
+.rpg-Steak:before {
+    content: "\eab6";
+}
+
+.rpg-Stomach:before {
+    content: "\eab7";
+}
+
+.rpg-Stopwatch:before {
+    content: "\eab8";
+}
+
+.rpg-supplementary-food:before {
+    content: "\eab9";
+}
+
+.rpg-support-attack-increase:before {
+    content: "\eaba";
+}
+
+.rpg-support-attack-speed-increase:before {
+    content: "\eabb";
+}
+
+.rpg-support-barrier:before {
+    content: "\eabc";
+}
+
+.rpg-support-beast-defense:before {
+    content: "\eabd";
+}
+
+.rpg-support-bless-light:before {
+    content: "\eabe";
+}
+
+.rpg-support-cure:before {
+    content: "\eabf";
+}
+
+.rpg-support-dark-defense:before {
+    content: "\eac0";
+}
+
+.rpg-support-defense-increase:before {
+    content: "\eac1";
+}
+
+.rpg-support-earth-defense:before {
+    content: "\eac2";
+}
+
+.rpg-support-fire-defense:before {
+    content: "\eac3";
+}
+
+.rpg-support-forest-defense:before {
+    content: "\eac4";
+}
+
+.rpg-support-heal:before {
+    content: "\eac5";
+}
+
+.rpg-support-heart-point-increase:before {
+    content: "\eac6";
+}
+
+.rpg-support-ice-defense:before {
+    content: "\eac7";
+}
+
+.rpg-support-light-defense:before {
+    content: "\eac8";
+}
+
+.rpg-support-magic-defense-increase:before {
+    content: "\eac9";
+}
+
+.rpg-support-magic-increase:before {
+    content: "\eaca";
+}
+
+.rpg-support-remove-poison:before {
+    content: "\eacb";
+}
+
+.rpg-support-revive:before {
+    content: "\eacc";
+}
+
+.rpg-support-speed-increase:before {
+    content: "\eacd";
+}
+
+.rpg-support-strength-increase:before {
+    content: "\eace";
+}
+
+.rpg-support-thunder-defense:before {
+    content: "\eacf";
+}
+
+.rpg-support-water-defense:before {
+    content: "\ead0";
+}
+
+.rpg-support-wind-defense:before {
+    content: "\ead1";
+}
+
+.rpg-support-wisdom-increase:before {
+    content: "\ead2";
+}
+
+.rpg-Surgery:before {
+    content: "\ead3";
+}
+
+.rpg-talent:before {
+    content: "\ead4";
+}
+
+.rpg-Thinking:before {
+    content: "\ead5";
+}
+
+.rpg-think-outside:before {
+    content: "\ead6";
+}
+
+.rpg-throat:before {
+    content: "\ead7";
+}
+
+.rpg-tofu-square:before {
+    content: "\ead8";
+}
+
+.rpg-treasure-map:before {
+    content: "\ead9";
+}
+
+.rpg-vegetables:before {
+    content: "\eada";
+}
+
+.rpg-waist-bone:before {
+    content: "\eadb";
+}
+
+.rpg-waist-slim:before {
+    content: "\eadc";
+}
+
+.rpg-water-glass:before {
+    content: "\eadd";
+}
+
+.rpg-weapon-ancient-gun:before {
+    content: "\eade";
+}
+
+.rpg-weapon-arrow:before {
+    content: "\eadf";
+}
+
+.rpg-weapon-axe:before {
+    content: "\eae0";
+}
+
+.rpg-weapon-battle-axe:before {
+    content: "\eae1";
+}
+
+.rpg-weapon-blade:before {
+    content: "\eae2";
+}
+
+.rpg-weapon-board-sword:before {
+    content: "\eae3";
+}
+
+.rpg-weapon-buckler:before {
+    content: "\eae4";
+}
+
+.rpg-weapon-claw:before {
+    content: "\eae5";
+}
+
+.rpg-weapon-crossbow:before {
+    content: "\eae6";
+}
+
+.rpg-weapon-dead-wand:before {
+    content: "\eae7";
+}
+
+.rpg-weapon-dual-blade:before {
+    content: "\eae8";
+}
+
+.rpg-weapon-flail:before {
+    content: "\eae9";
+}
+
+.rpg-weapon-halberd:before {
+    content: "\eaea";
+}
+
+.rpg-weapon-katana:before {
+    content: "\eaeb";
+}
+
+.rpg-weapon-knife:before {
+    content: "\eaec";
+}
+
+.rpg-weapon-knuckle:before {
+    content: "\eaed";
+}
+
+.rpg-weapon-long-bow:before {
+    content: "\eaee";
+}
+
+.rpg-weapon-mace:before {
+    content: "\eaef";
+}
+
+.rpg-weapon-magic-book:before {
+    content: "\eaf0";
+}
+
+.rpg-weapon-quiver:before {
+    content: "\eaf1";
+}
+
+.rpg-weapon-rapier:before {
+    content: "\eaf2";
+}
+
+.rpg-weapon-shield:before {
+    content: "\eaf3";
+}
+
+.rpg-weapon-short-bow:before {
+    content: "\eaf4";
+}
+
+.rpg-weapon-sickle:before {
+    content: "\eaf5";
+}
+
+.rpg-weapon-spear:before {
+    content: "\eaf6";
+}
+
+.rpg-weapon-staff:before {
+    content: "\eaf7";
+}
+
+.rpg-weapon-swords:before {
+    content: "\eaf8";
+}
+
+.rpg-weapon-wand:before {
+    content: "\eaf9";
+}
+
+.rpg-website:before {
+    content: "\eafa";
+}
+
+.rpg-weight-scale:before {
+    content: "\eafb";
+}
+
+.rpg-yoga:before {
+    content: "\eafc";
+}
