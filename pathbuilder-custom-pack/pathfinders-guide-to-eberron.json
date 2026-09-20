@@ -407,6 +407,36 @@
       "lore": "Underworld Lore",
       "description": "Your dragonmark is erratic, dangerous, and feared by the Twelve. Whether recruited by House Tarkanan in the lower ruins of Sharn or hiding on the run, you wield destructive aberrant power and an uncanny survival instinct.",
       "src": "Pathfinder's Guide to Eberron"
+    },
+    {
+      "id": "a2ea1930-6094-4697-9123-7c21480bc675",
+      "name": "Displaced Noble",
+      "traits": "3rd Party, Common",
+      "boost_ref_1": "5",
+      "boost_ref_2": "0",
+      "boost_ref_3": "0",
+      "freeFeatDetail": "Displaced Noble. Reference: Chronicles of Eberron (p. 19), by Keith Baker.",
+      "src": "Chronicles of Eberron, p. 19"
+    },
+    {
+      "id": "6f339670-68d7-4645-8fe6-ec678321dfd8",
+      "name": "Newly Risen Noble",
+      "traits": "3rd Party, Common",
+      "boost_ref_1": "1",
+      "boost_ref_2": "0",
+      "boost_ref_3": "0",
+      "freeFeatDetail": "Newly Risen Noble. Reference: Chronicles of Eberron (p. 20), by Keith Baker.",
+      "src": "Chronicles of Eberron, p. 20"
+    },
+    {
+      "id": "2ce5cb61-8603-4fad-8a6f-1642b94c7f4d",
+      "name": "Disgraced Noble",
+      "traits": "3rd Party, Common",
+      "boost_ref_1": "1",
+      "boost_ref_2": "0",
+      "boost_ref_3": "0",
+      "freeFeatDetail": "Disgraced Noble. Reference: Chronicles of Eberron (p. 21), by Keith Baker.",
+      "src": "Chronicles of Eberron, p. 21"
     }
   ],
   "listCustomArmor": [
@@ -690,6 +720,27 @@
       "damageType": "P",
       "group": "Bow",
       "weaponTraits": "Magical, Tethered, Uncommon, 3rd Party"
+    },
+    {
+      "uniqueIdentiier": "424c3cad-19a2-4033-9007-3e7b7d49c422",
+      "name": "Sentira Hand Lens",
+      "hands": "1",
+      "description": "Reference: Chronicles of Eberron (p. 186), by Keith Baker.   Reference:   Chronicles of Eberron  (p. 186–187), by Keith Baker ( DMs Guild )  Crafted by Sarlonan psionic artificers from  sentira —a pearlescent material forged from solidified ectoplasm and distilled human emotion—this hand-held projector channels the wielder's latent psionic resonance into harmful bolts of telepathic force. It deals 1d6 mental damage with a range increment of 40 feet, using no physical ammunition. ",
+      "src": "Chronicles of Eberron, p. 186"
+    },
+    {
+      "uniqueIdentiier": "8a55b139-4c44-4a08-b49e-6910dfda337b",
+      "name": "Sentira Light Lens",
+      "hands": "2",
+      "description": "Reference: Chronicles of Eberron (p. 186), by Keith Baker.   Reference:   Chronicles of Eberron  (p. 186–187), by Keith Baker ( DMs Guild )  The standard-issue psionic projection carbine of Riedra's Harmonious Shield. Wielded with two hands, it amplifies psychic impulses into concussive telepathic shockwaves. Deals 1d8 mental damage with a range increment of 60 feet. ",
+      "src": "Chronicles of Eberron, p. 186"
+    },
+    {
+      "uniqueIdentiier": "63413da3-2386-4a83-b5bb-eab0b3bfe9e6",
+      "name": "Sentira Heavy Lens",
+      "hands": "2",
+      "description": "Reference: Chronicles of Eberron (p. 186), by Keith Baker.   Reference:   Chronicles of Eberron  (p. 186–187), by Keith Baker ( DMs Guild )  A heavy, long-barreled psionic cannon featuring large sentira and crysteel resonant focus prisms. Capable of unleashing catastrophic psychic trauma at extreme distances, dealing 1d10 mental damage (fatal d12) with a range increment of 100 feet. ",
+      "src": "Chronicles of Eberron, p. 186"
     }
   ],
   "listCustomFeats": [
@@ -5812,6 +5863,38 @@
       "type": "Feat",
       "src": "Pathfinder's Guide to Eberron",
       "description": "You push the bound elemental spirit past containment safety governors. The airship gains a +15-foot status bonus to Fly Speed for the round. Attempt a DC 5 flat check; on failure, the airship is slowed 1 for 1 round."
+    },
+    {
+      "id": "5013bfa3-ff23-4042-97b9-e48040c65433",
+      "name": "Tairnadal Revenant",
+      "level": 2,
+      "traits": "champion, archetype, 3rd-party",
+      "textDescription": "<b>Reference:</b> <em>Chronicles of Eberron</em> (p. 49), by Keith Baker.<br><br>  Reference:   Chronicles of Eberron  (p. 49–50), by Keith Baker ( DMs Guild )   Prerequisites:  Follower of the Spirits of the Past or Tairnadal elf; Champion or martial class  You have dedicated your life to emulating the legendary exploits of a patron ancestor of the Tairnadal elves. You gain the  Aura of the Paragon  reaction.   Aura of the Paragon  [reaction] (divine, emotion, holy);  Trigger:  You or an ally within your 15-foot emanation successfully hits an enemy with a Strike;  Effect:  You channel the martial frenzy of your patron ancestor, urging the attack onward. The triggering Strike deals an additional 1d4 holy spirit damage (increasing to 2d4 at 10th level and 3d4 at 16th level). If you have an animal companion or divine steed, your companion also benefits from your champion aura and deals this bonus damage on its attacks. ",
+      "src": "Chronicles of Eberron, p. 49"
+    },
+    {
+      "id": "20b0939d-89f4-437f-81c5-a3625c295584",
+      "name": "Stonesinger",
+      "level": 2,
+      "traits": "druid, bard, archetype, 3rd-party",
+      "textDescription": "<b>Reference:</b> <em>Chronicles of Eberron</em> (p. 59), by Keith Baker.<br><br>  Reference:   Chronicles of Eberron  (p. 59–60), by Keith Baker ( DMs Guild )   Prerequisites:  Trained in Performance and Nature, or Lorghalan Gnome  You have mastered the harmonic methods of Lorghalan, using music and primal melodies to shape the elements. You can substitute your Performance modifier for Nature checks when commanding or calming elementals and beasts. When Activating or Crafting primal magic items, wands, and elemental vessels, you can use Performance in place of Nature. Furthermore, you gain the  Stonesinger’s Melodic Accord  focus cantrip: as a single action, grant an allied elemental, construct, or beast within 30 feet a +1 status bonus to attack rolls and AC for 1 round. ",
+      "src": "Chronicles of Eberron, p. 59"
+    },
+    {
+      "id": "b8304ed0-6816-4a71-987d-7fb6001f497a",
+      "name": "Defiled Gift Spellshape",
+      "level": 4,
+      "traits": "cleric, oracle, witch, spellshape, 3rd-party",
+      "textDescription": "<b>Reference:</b> <em>Chronicles of Eberron</em> (p. 95), by Keith Baker.<br><br>  Reference:   Chronicles of Eberron  (p. 95, 97), by Keith Baker ( DMs Guild )   Frequency:  once per minute  [one-action] You invoke the dark transactional bargains of the Shadow or the Dark Six, sacrificing vitality to amplify magical recovery. If your next action is to Cast a Spell from spell slots that restores Hit Points to an ally, either you or a willing ally within your reach sacrifices vital essence, taking 1d6 void damage per spell rank (which cannot be reduced in any way). In exchange, the healing spell surges with power, restoring an additional 2d6 Hit Points to the target. ",
+      "src": "Chronicles of Eberron, p. 95"
+    },
+    {
+      "id": "9c353fe1-454d-4c6c-984c-0da53c03f898",
+      "name": "Reverse Speech Spellshape",
+      "level": 8,
+      "traits": "bard, sorcerer, witch, spellshape, 3rd-party",
+      "textDescription": "<b>Reference:</b> <em>Chronicles of Eberron</em> (p. 95), by Keith Baker.<br><br>  Reference:   Chronicles of Eberron  (p. 95, 97), by Keith Baker ( DMs Guild )  [one-action] You utter your incantations backward, weaving the disturbing and forbidden phonetic paradoxes of the Shadow into the spell’s fabric. If your next action is to Cast a Spell with verbal components that inflicts the  frightened  condition, you can choose instead for affected targets to become  off-guard  and  fascinated  by you for the duration. If the spell would instead cause a target to become  fascinated  or charmed, you can choose instead for the target to become  frightened 2 . ",
+      "src": "Chronicles of Eberron, p. 95"
     }
   ],
   "listCustomHeritages": [
@@ -6669,6 +6752,13 @@
       "traits": "Orc, Human, Common, 3rd Party",
       "src": "Pathfinder's Guide to Eberron",
       "databaseID": 1
+    },
+    {
+      "id": "d68ac6f2-4fd1-46cf-b2a9-dc4639ca50d7",
+      "name": "Lorghalan Gnome",
+      "textDescription": "Reference: Chronicles of Eberron (p. 59), by Keith Baker.<br><br>  Reference:   Chronicles of Eberron  (p. 58–60), by Keith Baker ( DMs Guild )  You hail from the isolated, jungle-covered island of Lorghalan, where gnomes live in vibrant communion with the primal manifest zones of Lamannia. Rather than the political subterfuge of Zilargo, you practice stonesinging—using melodic resonance to speak with beasts, soothe waves, and cooperate with elemental spirits. You know one primal cantrip of your choice from the following:  gale blast ,  guidance , or  tremor sense . You can cast this spell as an innate primal spell at will. In addition, you gain a +1 circumstance bonus to Diplomacy checks when negotiating with elementals, beasts, and primal creatures. ",
+      "traits": "Gnome, 3rd Party, Uncommon",
+      "src": "Chronicles of Eberron, p. 59"
     }
   ],
   "listCustomSpells": [
@@ -7974,6 +8064,46 @@
       "descriptionHeightened": "You anchor a resonant dimensional beacon to a point on the ground within range. The beacon lasts for 1 minute. While the anchor persists, you and any willing ally within 30 feet of you can spend 1 action to immediately teleport adjacent to the anchor, provided there is an unoccupied space available. A creature can only warp to the anchor once per round.<br><br><b>Heightened (+2)</b> The range increases by 30 feet, and the duration increases by 1 minute.",
       "src": "Pathfinder's Guide to Eberron",
       "databaseID": 1
+    },
+    {
+      "uniqueID": "089d366c-99e1-4987-b958-91d68fabadc9",
+      "name": "Awaken Ambition",
+      "type": "Focus",
+      "level": 1,
+      "traits": "cleric, focus, divine, void",
+      "cast": "verbal, somatic",
+      "descriptionHeightened": "<b>Reference:</b> <em>Chronicles of Eberron</em> (p. 95), by Keith Baker.<br><br>  Reference:   Chronicles of Eberron  (p. 93, 95), by Keith Baker ( DMs Guild )   Cast:  [one-action] somatic   Area:  30-foot emanation;  Targets:  you and up to 3 willing allies   Duration:  1 minute   You invoke the Sovereign of Ambition, converting present pain into irresistible drive. Each target takes 1d4 void damage per spell rank (which cannot be reduced). In exchange, each target gains temporary Hit Points equal to twice the damage taken for the duration, and gains a +1 status bonus to its next attack roll or skill check made within 1 round.   Heightened (+1):  The void damage taken increases by 1d4, granting twice that amount in temporary Hit Points. ",
+      "src": "Chronicles of Eberron, p. 95"
+    },
+    {
+      "uniqueID": "fc6edd70-c1dc-4d8b-b323-df9d11a93b8d",
+      "name": "Shadow's Gifts",
+      "type": "Focus",
+      "level": 4,
+      "traits": "cleric, focus, divine, transmutation",
+      "cast": "verbal, somatic",
+      "descriptionHeightened": "<b>Reference:</b> <em>Chronicles of Eberron</em> (p. 95), by Keith Baker.<br><br>  Reference:   Chronicles of Eberron  (p. 93, 95), by Keith Baker ( DMs Guild )   Cast:  [two-actions] verbal, somatic   Range:  Touch;  Target:  1 willing creature   Duration:  1 minute   You awaken dark, monstrous adaptations taught by the Shadow to the warlords of Droaam. Choose one of the following gifts:    Eyes of the Medusa:  The target gains a petrifying gaze. Once per round as a single action, the target can gaze upon a creature within 30 feet; the creature must succeed at a Fortitude save against your spell DC or become  clumsy 1  and have its Speeds reduced by 10 feet for 1 round (critical failure:  clumsy 2  and immobilized for 1 round).   Heart of the Troll:  The target gains  fast healing 5 . If the target takes acid or fire damage, this fast healing ceases to function until the end of its next turn.   Mastery of the Hag:  The target gains a +2 status bonus to Deception and Intimidation checks, and can cast  illusory disguise  at will as an innate divine spell.    Heightened (7th):  Fast healing increases to 10; the Medusa gaze also causes the target to be  slowed 1  on a failure. ",
+      "src": "Chronicles of Eberron, p. 95"
+    },
+    {
+      "uniqueID": "f147922e-7a56-4885-9e62-e33e1fa43b65",
+      "name": "Fury's Chorus",
+      "type": "Spell",
+      "level": 1,
+      "traits": "enchantment, emotion, mental",
+      "cast": "verbal, somatic",
+      "descriptionHeightened": "<b>Reference:</b> <em>Chronicles of Eberron</em> (p. 98), by Keith Baker.<br><br>  Reference:   Chronicles of Eberron  (p. 96, 98), by Keith Baker ( DMs Guild )   Cast:  [two-actions] verbal, somatic   Range:  60 feet;  Area:  20-foot burst   Defense:  Will;  Duration:  1 minute   You utter chaotic, shrieking discord that fans the flames of fury and distrust. Each enemy in the area must attempt a Will saving throw.    Critical Success:  The creature is unaffected.   Success:  For 1 round, the creature cannot distinguish friend from foe when deciding to make reactions (if an ally provokes a reaction such as Reactive Strike, it must use its reaction if available).   Failure:  As success, but for 1 minute. The target may attempt a new Will save at the end of each of its turns to end the effect.   Critical Failure:  As failure, and the creature is also  confused  for 1 round.  ",
+      "src": "Chronicles of Eberron, p. 98"
+    },
+    {
+      "uniqueID": "9a21bb3c-8c58-49d8-b828-8e970e4c3929",
+      "name": "Keeper's Vault",
+      "type": "Spell",
+      "level": 2,
+      "traits": "necromancy, void",
+      "cast": "verbal, somatic",
+      "descriptionHeightened": "<b>Reference:</b> <em>Chronicles of Eberron</em> (p. 98), by Keith Baker.<br><br>  Reference:   Chronicles of Eberron  (p. 96, 98), by Keith Baker ( DMs Guild )   Cast:  [two-actions] verbal, somatic;  Focus:  an unlit lantern worth at least 5 gp   Range:  60 feet;  Target:  1 living creature   Defense:  Fortitude;  Duration:  Sustained up to 1 minute   You pull a fragment of the target's living soul into your focus lantern, igniting it with ghostly, pale luminescence that sheds dim light in a 20-foot radius. The target takes 2d6 void damage (basic Fortitude save). Each time you Sustain the spell, the lantern continues to siphon the tethered soul, dealing 2d6 void damage (basic Fortitude save). If the target dies while its soul is bound in the lantern, it cannot be raised from the dead by magic of equal or lower rank until the lantern is physically shattered or dispelled.   Heightened (+1):  The void damage increases by 1d6. ",
+      "src": "Chronicles of Eberron, p. 98"
     }
   ],
   "listCustomSpecial": [

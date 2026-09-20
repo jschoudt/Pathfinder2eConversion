@@ -44,9 +44,9 @@ describe('PF2e Content Mechanics Deep Verification', () => {
   });
 
   describe('Spells', () => {
-    it('should have valid ranks and categories on all 107 spells', () => {
+    it('should have valid ranks and categories on all 111 spells', () => {
       const spells = docs.filter(d => d.data.type === 'spell');
-      expect(spells.length).toBe(107);
+      expect(spells.length).toBe(111);
 
       const VALID_CATEGORIES = new Set(['spell', 'focus', 'cantrip', 'ritual']);
 
@@ -80,7 +80,7 @@ describe('PF2e Content Mechanics Deep Verification', () => {
   describe('NPCs & Creatures', () => {
     it('should have valid combat statistics on all bestiary NPCs', () => {
       const npcs = docs.filter(d => d.data.type === 'npc');
-      expect(npcs.length).toBe(11);
+      expect(npcs.length).toBe(13);
 
       for (const npc of npcs) {
         const sys = npc.data.system;

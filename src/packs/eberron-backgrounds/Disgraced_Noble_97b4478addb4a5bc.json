@@ -1,0 +1,83 @@
+{
+  "_id": "97b4478addb4a5bc",
+  "name": "Disgraced Noble",
+  "type": "background",
+  "img": "systems/pf2e/icons/default-icons/background.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "source": {
+      "value": "Chronicles of Eberron, p. 21",
+      "page": "N/A"
+    },
+    "publication": {
+      "title": "Chronicles of Eberron",
+      "authors": "Keith Baker",
+      "license": "DMs Guild Community Content Agreement",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "rules": [],
+    "slug": "disgraced-noble",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "traits": {
+      "value": [],
+      "rarity": "common",
+      "custom": ""
+    },
+    "description": {
+      "value": "<p><strong>Reference:</strong> <em>Chronicles of Eberron</em> (p. 21–22), by Keith Baker (<a href=\"https://www.dmsguild.com/product/415474/Chronicles-of-Eberron\">DMs Guild</a>)</p><p>You were born to the heights of high society, but a public scandal, treasonous intrigue, devastating court trial, or ruinous financial collapse stripped your family of title and honor. Whether you were framed by rival courtiers or are completely guilty of the crimes alleged against you, your name is synonymous with disgrace. You now navigate the shadows and the underworld, where pedigree counts for little and cunning is everything.</p><p>Choose two attribute boosts. One must be to <strong>Dexterity</strong> or <strong>Charisma</strong>, and one is a free attribute boost.</p><p>You are trained in the <strong>Deception</strong> skill and the <strong>Underworld Lore</strong> skill. You gain the <strong>Confabulator</strong> skill feat.</p>"
+    },
+    "boosts": {
+      "0": {
+        "value": [
+          "dex",
+          "cha"
+        ]
+      },
+      "1": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      }
+    },
+    "trainedSkills": {
+      "value": [
+        "dec"
+      ],
+      "custom": ""
+    },
+    "trainedLore": "Underworld Lore",
+    "items": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1789943071350,
+    "modifiedTime": 1789943071350,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!97b4478addb4a5bc"
+}

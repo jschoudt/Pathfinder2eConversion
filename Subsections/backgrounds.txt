@@ -339,3 +339,44 @@ Choose two attribute boosts. One must be to **Constitution** or **Charisma**; an
 
 You're trained in **Intimidation** and **Underworld Lore**. You gain the **Intimidating Glare** skill feat. You have access to Aberrant Mark feats.
 )
+
+=
+item(
+# Displaced Noble ((+Displaced Noble))
+## Background
+-
+**Reference:** *Chronicles of Eberron* (p. 19–20), by Keith Baker ([DMs Guild](https://www.dmsguild.com/product/415474/Chronicles-of-Eberron))
+
+You were born into wealth, power, and prestige in the Five Nations—perhaps an aristocratic prince of fallen Cyre, or a minor baron whose ancestral lands were scorched, annexed, or ruined during the Last War. While your estate and riches may be gone, your pedigree remains undeniable. Royalists, expatriates, and commoners who still revere the old nobility treat you with quiet reverence and offer aid.
+
+Choose two attribute boosts. One must be to **Charisma** or **Constitution**; and one is a free attribute boost.
+
+You're trained in **Society** and **Last War Lore**. You gain the **Courtly Graces** skill feat.
+)
+
+item(
+# Newly Risen Noble ((+Newly Risen Noble))
+## Background
+-
+**Reference:** *Chronicles of Eberron* (p. 20–21), by Keith Baker ([DMs Guild](https://www.dmsguild.com/product/415474/Chronicles-of-Eberron))
+
+You or your immediate forebears earned elevation into the aristocracy during the crucible of the Last War. Whether knighted on the battlefield for acts of desperate valor, rewarded with land by a desperate monarch, or buying titles through aggressive war-profiteering, you are an upstart in the noble courts. While blueblooded scions may whisper behind your back, you have real momentum and practical experience.
+
+Choose two attribute boosts. One must be to **Strength** or **Charisma**; and one is a free attribute boost.
+
+You're trained in **Diplomacy** and **Mercantile Lore**. You gain the **Hobnobber** skill feat.
+)
+
+|
+item(
+# Disgraced Noble ((+Disgraced Noble))
+## Background
+-
+**Reference:** *Chronicles of Eberron* (p. 21–22), by Keith Baker ([DMs Guild](https://www.dmsguild.com/product/415474/Chronicles-of-Eberron))
+
+You were born to the heights of high society, but a public scandal, treasonous intrigue, devastating court trial, or ruinous financial collapse stripped your family of title and honor. Whether you were framed by rival courtiers or are completely guilty of the crimes alleged against you, your name is synonymous with disgrace. You now navigate the shadows and the underworld, where pedigree counts for little and cunning is everything.
+
+Choose two attribute boosts. One must be to **Dexterity** or **Charisma**; and one is a free attribute boost.
+
+You're trained in **Deception** and **Underworld Lore**. You gain the **Confabulator** skill feat.
+)

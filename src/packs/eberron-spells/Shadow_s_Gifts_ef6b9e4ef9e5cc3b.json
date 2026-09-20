@@ -1,0 +1,91 @@
+{
+  "_id": "ef6b9e4ef9e5cc3b",
+  "name": "Shadow's Gifts",
+  "type": "spell",
+  "img": "systems/pf2e/icons/default-icons/spell.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "source": {
+      "value": "Chronicles of Eberron, p. 95",
+      "page": "N/A"
+    },
+    "publication": {
+      "title": "Chronicles of Eberron",
+      "authors": "Keith Baker",
+      "license": "DMs Guild Community Content Agreement",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "rules": [],
+    "slug": "shadows-gifts",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "traits": {
+      "value": [
+        "cleric",
+        "focus",
+        "divine",
+        "morph"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "description": {
+      "value": "<p><strong>Reference:</strong> <em>Chronicles of Eberron</em> (p. 93, 95), by Keith Baker (<a href=\"https://www.dmsguild.com/product/415474/Chronicles-of-Eberron\">DMs Guild</a>)</p><p><strong>Cast:</strong> [two-actions] verbal, somatic</p><p><strong>Range:</strong> Touch; <strong>Target:</strong> 1 willing creature</p><p><strong>Duration:</strong> 1 minute</p><hr /><p>You awaken dark, monstrous adaptations taught by the Shadow to the warlords of Droaam. Choose one of the following gifts:</p><ul><li><strong>Eyes of the Medusa:</strong> The target gains a petrifying gaze. Once per round as a single action, the target can gaze upon a creature within 30 feet; the creature must succeed at a Fortitude save against your spell DC or become <strong>clumsy 1</strong> and have its Speeds reduced by 10 feet for 1 round (critical failure: <strong>clumsy 2</strong> and immobilized for 1 round).</li><li><strong>Heart of the Troll:</strong> The target gains <strong>fast healing 5</strong>. If the target takes acid or fire damage, this fast healing ceases to function until the end of its next turn.</li><li><strong>Mastery of the Hag:</strong> The target gains a +2 status bonus to Deception and Intimidation checks, and can cast <em>illusory disguise</em> at will as an innate divine spell.</li></ul><p><strong>Heightened (7th):</strong> Fast healing increases to 10; the Medusa gaze also causes the target to be <strong>slowed 1</strong> on a failure.</p>"
+    },
+    "level": {
+      "value": 4
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": [
+        "divine"
+      ],
+      "custom": ""
+    },
+    "school": {
+      "value": ""
+    },
+    "time": {
+      "value": "2"
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "duration": {
+      "value": ""
+    },
+    "defense": null
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1789943071351,
+    "modifiedTime": 1789943071351,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!ef6b9e4ef9e5cc3b"
+}

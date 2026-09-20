@@ -1,0 +1,83 @@
+{
+  "_id": "ce5ea84d82b63f5a",
+  "name": "Newly Risen Noble",
+  "type": "background",
+  "img": "systems/pf2e/icons/default-icons/background.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "source": {
+      "value": "Chronicles of Eberron, p. 20",
+      "page": "N/A"
+    },
+    "publication": {
+      "title": "Chronicles of Eberron",
+      "authors": "Keith Baker",
+      "license": "DMs Guild Community Content Agreement",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "rules": [],
+    "slug": "newly-risen-noble",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "traits": {
+      "value": [],
+      "rarity": "common",
+      "custom": ""
+    },
+    "description": {
+      "value": "<p><strong>Reference:</strong> <em>Chronicles of Eberron</em> (p. 20–21), by Keith Baker (<a href=\"https://www.dmsguild.com/product/415474/Chronicles-of-Eberron\">DMs Guild</a>)</p><p>You or your immediate forebears earned elevation into the aristocracy during the crucible of the Last War. Whether knighted on the battlefield for acts of desperate valor, rewarded with land by a desperate monarch, or buying titles through aggressive war-profiteering, you are an upstart in the noble courts. While blueblooded scions may whisper behind your back, you have real momentum and practical experience.</p><p>Choose two attribute boosts. One must be to <strong>Strength</strong> or <strong>Charisma</strong>, and one is a free attribute boost.</p><p>You are trained in the <strong>Diplomacy</strong> skill and the <strong>Mercantile Lore</strong> skill. You gain the <strong>Hobnobber</strong> skill feat.</p>"
+    },
+    "boosts": {
+      "0": {
+        "value": [
+          "str",
+          "cha"
+        ]
+      },
+      "1": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      }
+    },
+    "trainedSkills": {
+      "value": [
+        "dip"
+      ],
+      "custom": ""
+    },
+    "trainedLore": "Mercantile Lore",
+    "items": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1789943071350,
+    "modifiedTime": 1789943071350,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!ce5ea84d82b63f5a"
+}

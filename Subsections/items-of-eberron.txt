@@ -1532,5 +1532,120 @@ Mounted to an airship's bow or gunwale, this heavy arcane launcher fires a barbe
 ; Uncommon, Air, Fire, Magical
 **Requirements** You are occupying the Helm crew station of an elemental airship.
 You push the bound elemental spirit past its containment safety governors to squeeze out maximum propulsion. The airship gains a +15-foot status bonus to its Fly Speed for the current round. You must immediately roll a DC 5 flat check. On a failure, the containment coils overheat and suffer blowback: the airship becomes slowed 1 for 1 round as the elemental ring flickers and recalibrates.
-|
+
 =
+## Sentira Weaponry & Riedran Gear ((+Sentira Gear))
+info(
+For more information on Riedran psionic armaments and sentira technology, see Chronicles of Eberron (p. 186–187).
+)
+
+item(
+# Sentira Hand Lens
+## Item 1
+-
+; Uncommon ; Martial ; Ranged ; Occult ; Mind ; Nonlethal
+**Reference:** *Chronicles of Eberron* (p. 186–187), by Keith Baker ([DMs Guild](https://www.dmsguild.com/product/415474/Chronicles-of-Eberron))
+
+**Price** 15 gp; **Bulk** L; **Hands** 1
+**Damage** 1d6 mental; **Range** 40 ft; **Reload** 0; **Group** Sling
+-
+Forged from solidified emotional ectoplasm (*sentira*), this hand-held projector channels the wielder's latent psychic energy into concentrated bolts of telepathic force. It fires pure mental energy, requiring no physical ammunition.
+)
+
+item(
+# Sentira Light Lens
+## Item 2
+-
+; Uncommon ; Martial ; Ranged ; Occult ; Mind ; Concussive ; Two-Hand
+**Reference:** *Chronicles of Eberron* (p. 186–187), by Keith Baker ([DMs Guild](https://www.dmsguild.com/product/415474/Chronicles-of-Eberron))
+
+**Price** 30 gp; **Bulk** 1; **Hands** 2
+**Damage** 1d8 mental; **Range** 60 ft; **Reload** 0; **Group** Bow
+-
+The standard-issue psionic projection rifle of the Riedran Harmonious Shield. Wielded in two hands, it focuses harmonic emotional pulses into concussive telepathic shockwaves.
+)
+
+item(
+# Sentira Heavy Lens
+## Item 4
+-
+; Rare ; Martial ; Ranged ; Occult ; Mind ; Fatal d12 ; Two-Hand
+**Reference:** *Chronicles of Eberron* (p. 186–187), by Keith Baker ([DMs Guild](https://www.dmsguild.com/product/415474/Chronicles-of-Eberron))
+
+**Price** 70 gp; **Bulk** 2; **Hands** 2
+**Damage** 1d10 mental; **Range** 100 ft; **Reload** 1; **Group** Crossbow
+-
+A heavy sentira and crysteel cannon housing large emotional resonance chambers. Deals severe mental trauma at long range, devastating enemy command squads.
+)
+
+|
+item(
+# Sentira Shard of Anxiety
+## Item 3
+-
+; Uncommon ; Consumable ; Magical ; Occult ; Emotion ; Mental ; Talisman
+**Reference:** *Chronicles of Eberron* (p. 186–187), by Keith Baker ([DMs Guild](https://www.dmsguild.com/product/415474/Chronicles-of-Eberron))
+
+**Price** 12 gp; **Usage** affixed to a sentira lens or ranged weapon
+**Trigger** You hit a creature with a Strike using the affixed weapon.
+-
+The shard shatters, releasing acute psychic dread. The struck target must succeed at a DC 19 Will save or become **frightened 1** (critical failure: **frightened 2**).
+)
+
+item(
+# Sentira Shard of Dread
+## Item 6
+-
+; Uncommon ; Consumable ; Magical ; Occult ; Emotion ; Mental ; Talisman
+**Reference:** *Chronicles of Eberron* (p. 186–187), by Keith Baker ([DMs Guild](https://www.dmsguild.com/product/415474/Chronicles-of-Eberron))
+
+**Price** 45 gp; **Usage** affixed to a sentira lens or ranged weapon
+**Trigger** You hit a creature with a Strike using the affixed weapon.
+-
+The target's thoughts are smothered in acute despair. The struck target must succeed at a DC 22 Will save or become **stupefied 1** for 1 minute (critical failure: **stupefied 2**).
+)
+
+item(
+# Sentira Shard of Grief
+## Item 4
+-
+; Uncommon ; Consumable ; Magical ; Occult ; Emotion ; Mental ; Talisman
+**Reference:** *Chronicles of Eberron* (p. 186–187), by Keith Baker ([DMs Guild](https://www.dmsguild.com/product/415474/Chronicles-of-Eberron))
+
+**Price** 20 gp; **Usage** affixed to a sentira lens or ranged weapon
+**Trigger** You hit a creature with a Strike using the affixed weapon.
+-
+Heavy sorrow anchors the target's limbs. The target must succeed at a DC 20 Fortitude save or take a -10-foot status penalty to all Speeds and become **clumsy 1** for 1 round.
+)
+
+=
+## Cannith Tactical Munitions ((+Cannith Munitions))
+info(
+For more information on Cannith military developments during the Last War, see Chronicles of Eberron (p. 16–18).
+)
+
+item(
+# Cannith Spellbolt
+## Item 1
+-
+; Common ; Consumable ; Magical ; Evocation
+**Reference:** *Chronicles of Eberron* (p. 17–18), by Keith Baker ([DMs Guild](https://www.dmsguild.com/product/415474/Chronicles-of-Eberron))
+
+**Price** 3 gp; **Ammunition** bolt or bullet
+-
+A precision-machined steel projectile etched with miniature spell channels. When fired, the bolt detonates upon striking, dealing an extra 1d6 damage of a chosen energy type (acid, cold, electricity, or fire). On a critical hit, the elemental burst deals 1 persistent damage of that type.
+)
+
+item(
+# Crossbow Silencer
+## Item 2
+-
+; Uncommon ; Magical ; Transmutation
+**Reference:** *Chronicles of Eberron* (p. 16–17), by Keith Baker ([DMs Guild](https://www.dmsguild.com/product/415474/Chronicles-of-Eberron))
+
+**Price** 25 gp; **Bulk** L; **Usage** attached to a crossbow
+-
+A dampener fitted over the prod and string of a crossbow, designed for the King's Dark Lanterns. The snap of firing is reduced to a soft whisper. Missed Strikes from hidden or undetected do not automatically reveal your position, and enemies take a -2 circumstance penalty to Perception checks to locate the shot's origin.
+)
+|
+=

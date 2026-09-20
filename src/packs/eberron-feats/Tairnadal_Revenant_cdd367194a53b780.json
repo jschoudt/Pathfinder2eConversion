@@ -1,0 +1,72 @@
+{
+  "_id": "cdd367194a53b780",
+  "name": "Tairnadal Revenant",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "source": {
+      "value": "Chronicles of Eberron, p. 49",
+      "page": "N/A"
+    },
+    "publication": {
+      "title": "Chronicles of Eberron",
+      "authors": "Keith Baker",
+      "license": "DMs Guild Community Content Agreement",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "rules": [],
+    "slug": "tairnadal-revenant",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "traits": {
+      "value": [
+        "champion",
+        "archetype"
+      ],
+      "rarity": "uncommon",
+      "custom": ""
+    },
+    "description": {
+      "value": "<p><strong>Reference:</strong> <em>Chronicles of Eberron</em> (p. 49–50), by Keith Baker (<a href=\"https://www.dmsguild.com/product/415474/Chronicles-of-Eberron\">DMs Guild</a>)</p><p><strong>Prerequisites:</strong> Follower of the Spirits of the Past or Tairnadal elf; Champion or martial class</p><p>You have dedicated your life to emulating the legendary exploits of a patron ancestor of the Tairnadal elves. You gain the <strong>Aura of the Paragon</strong> reaction.</p><p><strong>Aura of the Paragon</strong> [reaction] (divine, emotion, holy); <strong>Trigger:</strong> You or an ally within your 15-foot emanation successfully hits an enemy with a Strike; <strong>Effect:</strong> You channel the martial frenzy of your patron ancestor, urging the attack onward. The triggering Strike deals an additional 1d4 holy spirit damage (increasing to 2d4 at 10th level and 3d4 at 16th level). If you have an animal companion or divine steed, your companion also benefits from your champion aura and deals this bonus damage on its attacks.</p>"
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1789943071351,
+    "modifiedTime": 1789943071351,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!cdd367194a53b780"
+}

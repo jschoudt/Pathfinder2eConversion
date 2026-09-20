@@ -43,7 +43,7 @@ This conversion draws from the following foundational and 2024 / 5.5e sourcebook
   *Material Adapted:* Gargoyle, Harpy, Medusa, and Worg playable ancestries & heritages, Western Frontier backgrounds, Droaam planar lineages, druidic circle initiate feats, wandslinger style feats, and primal spells (*Absorb Elements*, *Earth Tremor*, *Earthbind*, *Mold Earth*, etc.).
 * **[Chronicles of Eberron](https://www.dndbeyond.com/marketplace/sourcebooks/chronicles-of-eberron)** by Keith Baker  
   *Compendium:* [D&D Beyond](https://www.dndbeyond.com/marketplace/sourcebooks/chronicles-of-eberron) | [DMs Guild](https://www.dmsguild.com/product/415474/Chronicles-of-Eberron)  
-  *Material Adapted:* Noble lineages, faith deep dives, and planar cosmology nuances.
+  *Material Adapted:* Lorghalan Gnome heritage, Noble backgrounds (Displaced, Newly Risen, Disgraced Noble), character feats (*Tairnadal Revenant*, *Stonesinger*, *Defiled Gift Spellshape*, *Reverse Speech Spellshape*), Dark Six and shadow-themed spells (*Awaken Ambition*, *Shadow's Gifts*, *Fury's Chorus*, *Keeper's Vault*), Riedran *sentira* emotion implements and shards (*Sentira Hand/Light/Heavy Lens*, *Sentira Shards of Anxiety, Dread, Grief*), Cannith spellbolts, crossbow silencers, and threat bestiary stat blocks (*Mordain the Fleshweaver*, *Avassh the Twister of Roots*).
 
 #### Official Wizards of the Coast Rulebooks
 * **[D&D 3.5 Eberron Campaign Setting](https://www.dmsguild.com/product/28474/Eberron-Campaign-Setting-3e)** by Keith Baker, Bill Slavicsek, and James Wyatt  
@@ -84,20 +84,20 @@ This guide also provides details about running the world of Eberron to the full 
 
 ## Testing & Local Debugging
 
-The repository includes a comprehensive 540-test Vitest suite, headless Foundry v14 Document schema validators, and full local debugger support.
+The repository includes a comprehensive 661-test Vitest suite, headless Foundry v14 Document schema validators, and full local debugger support.
 
 ### Running Tests via CLI
 
 | Command | Description |
 | :--- | :--- |
-| `npm test` | Runs the full 540-test Vitest suite across all 18 test files. |
+| `npm test` | Runs the full 661-test Vitest suite across all 20 test files. |
 | `npm run test:watch` | Interactive watch mode. Press <kbd>t</kbd> to filter by test name, <kbd>p</kbd> to filter by file, or <kbd>f</kbd> to run only failed tests. |
 | `npm run test:name "<pattern>"` | Runs specific test cases matching a name, ID, or regex pattern (e.g. `npm run test:name "Warforged"`). |
 | `npm test -- -t "<pattern>"` | Standard Vitest filter flag for running specific test cases by substring/regex. |
 | `npm run test:failed` | Automatically re-runs only the test cases that failed during the last run. |
 | `npm run test:debug` | Starts the test suite with `--inspect-brk --no-file-parallelism` on port `9229` for Node/Chrome DevTools debugging. |
 | `npm run test:failed:debug` | Starts only the failed tests with `--inspect-brk` attached to the debugger. |
-| `npm run validate` | Runs headless Foundry v14 Document schema and PF2e rule element validation against all 582 source documents. |
+| `npm run validate` | Runs headless Foundry v14 Document schema and PF2e rule element validation against all 850 source documents. |
 
 ### Running & Debugging in the IDE (VS Code / Antigravity IDE)
 
@@ -106,7 +106,7 @@ The repository provides ready-to-use launch configurations in `.vscode/launch.js
 1. **Debug Vitest: Current Test File:** Open any test file (e.g. `tests/ancestries.test.mjs`) and press <kbd>F5</kbd> (or select from the Run & Debug panel). It runs only that file under the debugger with full breakpoint support.
 2. **Debug Vitest: By Name / Filter:** Prompts you for a test name substring or regex pattern (e.g. `Aberrant Feedback` or `Warforged`), then runs and breaks at breakpoints only within matching tests.
 3. **Debug Vitest: Failed Tests (Last Run):** Automatically inspects `.vitest/test-results.json` and launches the debugger on only the tests that failed in the previous test execution.
-4. **Debug Vitest: All Tests:** Runs all 540 tests sequentially (`--no-file-parallelism`) under the debugger.
+4. **Debug Vitest: All Tests:** Runs all 661 tests sequentially (`--no-file-parallelism`) under the debugger.
 5. **Debug Vitest: Interactive Watch Mode:** Starts Vitest in interactive watch mode under the debugger, allowing live breakpoint hits as you edit files or toggle filters with <kbd>t</kbd> and <kbd>f</kbd>.
 6. **Attach to Node Debugger (Port 9229):** Connects to any test run started from the terminal with `npm run test:debug` or `npm run test:failed:debug`.
 

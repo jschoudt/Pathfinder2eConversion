@@ -238,3 +238,45 @@ Following the natural character creation and dependency sequence:
 | **Phase 5** | **Spells & Magic Items** | `eberron-spells/`, `eberron-items/` | Completed | 2026-09-20 13:18 EDT |
 | **Phase 6** | **Vehicles & Bestiary** | `eberron-items/` (Vehicles), `eberron-creatures/` | Completed | 2026-09-20 13:29 EDT |
 | **Post-Phase** | **Automated Scribe PDF Generation** | `tools/generate_pdf.mjs`, `pathfinders-guide-to-eberron.pdf` | Completed | 2026-09-20 13:41 EDT |
+| **Phase 7** | **Chronicles of Eberron Integration** | Foundry packs, Pathbuilder, Scribe Subsections, PDF | Completed | 2026-09-20 18:20 EDT |
+
+---
+
+## 8. Chronicles of Eberron Integration (Keith Baker / Twogether Studios)
+
+All player and DM options from *Chronicles of Eberron* categorized as **Category 1 (High Priority / Unique)** and **Category 2 (Adapted & Synthesized)** have been converted and fully integrated into the Foundry VTT compendiums, Scribe publication document (HTML + PDF), and the Pathbuilder 2e custom pack. Each element adheres to PF2e Remaster guidelines and cites its exact source and page number.
+
+### 8.1 Integrated Content Summary
+
+1. **Ancestry Heritages:**
+   - *Lorghalan Gnome* (`eberron-heritages`, *Chronicles of Eberron*, p. 19): Gnome heritage attuned to the Feyspire of Lorghalan; gains *Light* or *Prestidigitation* and bonuses against emotion/mental effects.
+2. **Backgrounds:**
+   - *Displaced Noble* (`eberron-backgrounds`, *Chronicles of Eberron*, p. 21): Boosts to Charisma or Constitution, trained in Society and Cyre Lore, gains *Courtly Graces*.
+   - *Newly Risen Noble* (`eberron-backgrounds`, *Chronicles of Eberron*, p. 21): Boosts to Charisma or Intelligence, trained in Society and Heraldry/Nobility Lore, gains *Connections*.
+   - *Disgraced Noble* (`eberron-backgrounds`, *Chronicles of Eberron*, p. 21): Boosts to Dexterity or Charisma, trained in Deception and Underworld Lore, gains *Subtle Theft*.
+3. **Feats:**
+   - *Tairnadal Revenant* (`eberron-feats`, *Chronicles of Eberron*, p. 42): Level 4 Elf feat. Ties the elf's spirit to their patron ancestor; once per day upon reaching 0 HP, immediately stay at 1 HP and Strike.
+   - *Stonesinger* (`eberron-feats`, *Chronicles of Eberron*, p. 108): Level 1 Gnome feat. Medani / Lorghalan stone-whispering; cast *Read the Rubble* once per day as an innate primal spell.
+   - *Defiled Gift Spellshape* (`eberron-feats`, *Chronicles of Eberron*, p. 154): Level 6 Spellshape feat. Overchannel with Overlord / Fiendish corruption; convert damage to void and apply sickened or frightened, inflicting self-damage or off-guard on a critical failure.
+   - *Reverse Speech Spellshape* (`eberron-feats`, *Chronicles of Eberron*, p. 154): Level 4 Spellshape feat. Speak in reverse fiendish cadence; auditory spells conceal verbal components and grant bonuses against Counteract attempts.
+4. **Spells:**
+   - *Awaken Ambition* (`eberron-spells`, Rank 2, *Chronicles of Eberron*, p. 115): Dark Six (The Shadow/The Traveler) curse that inflames selfish ambition, imposing penalties to cooperative checks and aid.
+   - *Shadow's Gifts* (`eberron-spells`, Rank 4, *Chronicles of Eberron*, p. 116): Grant a willing target darkvision, concealment in dim light, and bonus void damage on Strikes.
+   - *Fury's Chorus* (`eberron-spells`, Rank 3, *Chronicles of Eberron*, p. 116): Aura of wrathful cacophony imposing sonic/mental damage on nearby creatures that take hostile actions.
+   - *Keeper's Vault* (`eberron-spells`, Rank 5, *Chronicles of Eberron*, p. 117): Wards an area against soul transfer, reanimation, and planar passage; captures slain souls in a warding gem.
+5. **Equipment, Weapons & Implements:**
+   - *Sentira Hand Lens, Light Lens, Heavy Lens* (`eberron-items`, *Chronicles of Eberron*, p. 66-67): Riedran crystallized emotion focus weapons (Agile/Finesse, Concealable, Reach/Forceful) acting as psychic/occult spell amplifiers.
+   - *Sentira Shards (Anxiety, Dread, Grief)* (`eberron-items`, *Chronicles of Eberron*, p. 67): Spellheart/talisman attachments granting emotional psychic resonance and spell effects.
+   - *Cannith Spellbolt* (`eberron-items`, *Chronicles of Eberron*, p. 143): Alchemical/magical ammunition delivering elemental or debuff payload on impact.
+   - *Crossbow Silencer* (`eberron-items`, *Chronicles of Eberron*, p. 144): House Tarkanan / inquisitive weapon modification that muffles crossbow discharge to prevent auditory detection.
+6. **Creatures & Threat Bestiary:**
+   - *Mordain the Fleshweaver* (`eberron-creatures`, Level 18 Unique Aberrant Fleshcrafter, *Chronicles of Eberron*, p. 129): Transmutation maestro of the Blackroot, Fleshwarp Grafting, Aberrant Transmutation Aura, and Master Fleshcrafting.
+   - *Avassh, the Twister of Roots* (`eberron-creatures`, Level 22 Unique Daelkyr Lord / Plant Aberration, *Chronicles of Eberron*, p. 195): Ancient Daelkyr lord of subterranean fungal networks, withering root tendrils, Mind Pollen Spores, and subterranean assimilation.
+
+### 8.2 Build & Compilation Outputs
+- **Foundry Compendium Pack JSONs:** 22 item/creature/feat records added to `src/packs/`.
+- **LevelDB Foundry Modules:** Built and compiled to `pathfinders-guide-to-eberron/packs/`.
+- **Pathbuilder Custom Pack:** Fully enriched `pathbuilder-custom-pack/pathfinders-guide-to-eberron.json`.
+- **Scribe Source Documents:** `Subsections/ancestries.txt`, `Subsections/backgrounds.txt`, `Subsections/feats.txt`, `Subsections/items-of-eberron.txt`, `Subsections/spells.txt`.
+- **Publication Artifacts:** Cleanly generated `pathfinders-guide-to-eberron.html` and `pathfinders-guide-to-eberron.pdf` (6.68 MB).
+

@@ -34,7 +34,15 @@ This format is optimized for both human reading and automated changelog tools (i
   - Complete Eberron Pantheon & Cults specifications across all 22 deities covering weapons, divine font, domains, and cleric spells (`deities.test.mjs`)
   - Dragonmark House feats, progression tiers (Least, Lesser, Greater, Siberys), and all 24 dragonshard commodities across Eberron, Khyber, and Siberys (`dragonmarks.test.mjs`)
   - Parameterized unit tests over all 91 Eberron spells and focus cantrips (`spells.test.mjs`)
-- **Companion In-VTT Test Module:** Added `pathfinders-guide-to-eberron-tests` companion module (`tests/companion-module/`) for automated in-world verification inside test worlds (`pf2e-test`), keeping the release compendium module 100% clean of test code.
+- **Chronicles of Eberron Content Integration:** Converted and added Category 1 and Category 2 game options from Keith Baker's *Chronicles of Eberron*:
+  - **Heritages:** *Lorghalan Gnome* (Feyspire planar heritage).
+  - **Backgrounds:** *Displaced Noble*, *Newly Risen Noble*, and *Disgraced Noble*.
+  - **Feats:** *Tairnadal Revenant* (Feat 4 Elf), *Stonesinger* (Feat 1 Gnome), *Defiled Gift Spellshape* (Feat 6), *Reverse Speech Spellshape* (Feat 4).
+  - **Spells:** *Awaken Ambition* (Rank 2), *Shadow's Gifts* (Rank 4), *Fury's Chorus* (Rank 3), *Keeper's Vault* (Rank 5).
+  - **Equipment & Implements:** Riedran *Sentira Hand Lens*, *Light Lens*, and *Heavy Lens*; *Sentira Shards of Anxiety, Dread, Grief*; *Cannith Spellbolt*; *Crossbow Silencer*.
+  - **Bestiary Boss Encounters:** *Mordain the Fleshweaver* (Level 18 Aberrant Transmuter) and *Avassh, the Twister of Roots* (Level 22 Daelkyr Lord).
+- **Expanded Test Suite & Compendium Count:** Expanded the Vitest test suite to 661 tests across 20 test files, and expanded headless schema validation across all 850 compendium source documents.
+- **Companion In-VTT Test Module & Server Error Bridge:** Added `pathfinders-guide-to-eberron-tests` companion module (`tests/companion-module/`) and real-time SSE bridge (`tools/server_error_bridge.mjs`) for automated in-world verification inside test worlds (`pf2e-test`), keeping the release compendium module 100% clean of test code.
 - **Spell Action Normalization:** Standardized action cast time on `Dragonmarked Stormbringer` to `"-"` consistent with all dragonmark replication spells.
 - **Security & UPnP Enforcement:** Disabled UPnP in local server options and added automated startup/test validation guards preventing Foundry from running with UPnP enabled.
 - **D&D 2024 & Forge of the Artificer Extraction Pipeline:** Added `npm run extract:dnd2024` tool to extract installed 2024 core rules and *Forge of the Artificer* packs into private staging for mechanical conversion.

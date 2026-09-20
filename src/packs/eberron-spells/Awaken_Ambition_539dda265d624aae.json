@@ -1,0 +1,91 @@
+{
+  "_id": "539dda265d624aae",
+  "name": "Awaken Ambition",
+  "type": "spell",
+  "img": "systems/pf2e/icons/default-icons/spell.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "source": {
+      "value": "Chronicles of Eberron, p. 95",
+      "page": "N/A"
+    },
+    "publication": {
+      "title": "Chronicles of Eberron",
+      "authors": "Keith Baker",
+      "license": "DMs Guild Community Content Agreement",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "rules": [],
+    "slug": "awaken-ambition",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "traits": {
+      "value": [
+        "cleric",
+        "focus",
+        "divine",
+        "void"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "description": {
+      "value": "<p><strong>Reference:</strong> <em>Chronicles of Eberron</em> (p. 93, 95), by Keith Baker (<a href=\"https://www.dmsguild.com/product/415474/Chronicles-of-Eberron\">DMs Guild</a>)</p><p><strong>Cast:</strong> [one-action] somatic</p><p><strong>Area:</strong> 30-foot emanation; <strong>Targets:</strong> you and up to 3 willing allies</p><p><strong>Duration:</strong> 1 minute</p><hr /><p>You invoke the Sovereign of Ambition, converting present pain into irresistible drive. Each target takes 1d4 void damage per spell rank (which cannot be reduced). In exchange, each target gains temporary Hit Points equal to twice the damage taken for the duration, and gains a +1 status bonus to its next attack roll or skill check made within 1 round.</p><p><strong>Heightened (+1):</strong> The void damage taken increases by 1d4, granting twice that amount in temporary Hit Points.</p>"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": [
+        "divine"
+      ],
+      "custom": ""
+    },
+    "school": {
+      "value": ""
+    },
+    "time": {
+      "value": "2"
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "duration": {
+      "value": ""
+    },
+    "defense": null
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1789943071351,
+    "modifiedTime": 1789943071351,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!539dda265d624aae"
+}

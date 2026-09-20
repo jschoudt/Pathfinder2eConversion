@@ -1,0 +1,91 @@
+head (
+# Bestiary & Creatures of Eberron ((Bestiary & Creatures of Eberron))
+From legendary aberrant transmuters and planar horrors to elemental airships and domesticated dinosaurs, the world of Eberron is filled with unique creatures, vehicles, and threat encounters.
+-
+)
+
+item(
+# Mordain the Fleshweaver ((++Mordain the Fleshweaver))
+## Creature 18
+-
+; Unique, Medium, Elf, Humanoid
+**Reference:** *Chronicles of Eberron* (p. 165–170), by Keith Baker ([DMs Guild](https://www.dmsguild.com/product/415474/Chronicles-of-Eberron))
+
+**Perception** +32; darkvision, tremorsense (imprecise) 30 feet
+**Languages** Common, Elven, Daelkyr, Draconic, Undercommon
+**Skills** Arcana +36, Crafting +36, Medicine +34, Nature +32, Occultism +36
+**Str** +4, **Dex** +6, **Con** +7, **Int** +9, **Wis** +5, **Cha** +5
+-
+**AC** 42; **Fort** +30, **Ref** +28, **Will** +34
+**HP** 310; **Resistances** physical 15 (except slashing)
+**Aberrant Transmutation Aura** (aura, occult, polymorph) 30 feet. Living creatures that begin their turn within Mordain's aura must succeed at a DC 38 Fortitude save or suffer grotesque flesh warping, becoming sickened 1 (or slowed 1 on a critical failure).
+-
+**Speed** 30 feet, climb 20 feet
+**Melee** [one-action] mutated tendril +33 (agile, magical, reach 10 ft), **Damage** 3d10+12 bludgeoning plus Grab
+**Ranged** [one-action] aberrant flesh-shard +33 (magical, range increment 60 ft), **Damage** 3d8+12 piercing plus 2d6 acid
+**Fleshwarp Grafting** [two-actions] (occult, manipulate) Mordain touches an adjacent restrained, paralyzed, or unconscious living creature and forcibly alters its biology, imparting a monstrous permanent graft or deformity (DC 40 Fortitude negates).
+)
+
+item(
+# Avassh, the Twister of Roots ((++Avassh, the Twister of Roots))
+## Creature 22
+-
+; Unique, Huge, Aberration, Plant
+**Reference:** *Chronicles of Eberron* (p. 171–177), by Keith Baker ([DMs Guild](https://www.dmsguild.com/product/415474/Chronicles-of-Eberron))
+
+**Perception** +39; greater darkvision, tremorsense (precise) 120 feet
+**Languages** Daelkyr, Telepathy 100 feet
+**Skills** Arcana +38, Nature +42, Occultism +44, Survival +40
+**Str** +10, **Dex** +4, **Con** +11, **Int** +8, **Wis** +9, **Cha** +7
+-
+**AC** 47; **Fort** +39, **Ref** +34, **Will** +38
+**HP** 450; **Immunities** bleed, critical hits, mental, paralyzed, poison, sleep; **Weaknesses** axe 15, fire 20; **Resistances** physical 20 (except slashing)
+**Withering Spores** (aura, primal, poison) 60 feet. Living creatures that end their turn within Avassh's aura must succeed at a DC 43 Fortitude save or take 4d8 void damage and become clumsy 1.
+-
+**Speed** 30 feet, burrow 40 feet
+**Melee** [one-action] crushing root tendril +40 (magical, reach 20 ft), **Damage** 4d12+18 bludgeoning plus Grab and Knockdown
+**Melee** [one-action] fungal spike +38 (agile, reach 15 ft), **Damage** 4d8+18 piercing plus 3d6 persistent poison
+**Mind Pollen Spores** [two-actions] (mental, occult) Avassh expels hallucinogenic subterranean spores in an 80-foot cone. Each creature in the area must attempt a DC 45 Will save or become confused and controlled by Avassh for 1 minute (sustaining the connection on subsequent rounds).
+)
+
+item(
+# Lyrandar Skyskiff ((++Lyrandar Skyskiff))
+## Vehicle 6
+-
+; Uncommon, Huge
+**Price** 2,500 gp; **Space** 25 feet long, 10 feet wide, 10 feet high
+**Crew** 1 pilot (requires Mark of Storm or DC 22 Arcana/Nature to control); **Passengers** 6
+**Piloting Check** Driving Lore (DC 20) or Arcana/Nature (DC 22)
+-
+**AC** 21; **Fort** +16, **Ref** +12
+**Hardness** 10; **HP** 120 (BT 60); **Immunities** object immunities
+**Maximum Speed** fly 60 feet (elemental air ring propulsion)
+)
+
+item(
+# Lyrandar Air Cruiser ((++Lyrandar Air Cruiser))
+## Vehicle 11
+-
+; Rare, Gargantuan
+**Price** 15,000 gp; **Space** 80 feet long, 25 feet wide, 20 feet high
+**Crew** 1 pilot, 4 crew; **Passengers** 30; **Cargo** 10 tons
+**Piloting Check** Driving Lore (DC 28) or Arcana/Nature (DC 30)
+-
+**AC** 27; **Fort** +24, **Ref** +16
+**Hardness** 15; **HP** 240 (BT 120); **Immunities** object immunities
+**Maximum Speed** fly 45 feet (bound fire/air elemental ring)
+)
+
+item(
+# Strider War Airship ((++Strider War Airship))
+## Vehicle 16
+-
+; Rare, Colossal
+**Price** 75,000 gp; **Space** 140 feet long, 35 feet wide, 30 feet high
+**Crew** 1 pilot, 12 crew, 6 siege gunners; **Passengers** 80; **Cargo** 40 tons
+**Piloting Check** Driving Lore (DC 35) or Arcana/Nature (DC 37)
+-
+**AC** 34; **Fort** +30, **Ref** +20
+**Hardness** 20; **HP** 400 (BT 200); **Immunities** object immunities
+**Maximum Speed** fly 40 feet (dual elemental drive, reinforced soarwood hull)
+)

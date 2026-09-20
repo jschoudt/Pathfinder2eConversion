@@ -1,0 +1,74 @@
+{
+  "_id": "e22b3f5a8304f066",
+  "name": "Reverse Speech Spellshape",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "source": {
+      "value": "Chronicles of Eberron, p. 95",
+      "page": "N/A"
+    },
+    "publication": {
+      "title": "Chronicles of Eberron",
+      "authors": "Keith Baker",
+      "license": "DMs Guild Community Content Agreement",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "rules": [],
+    "slug": "reverse-speech-spellshape",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "traits": {
+      "value": [
+        "bard",
+        "sorcerer",
+        "witch",
+        "spellshape"
+      ],
+      "rarity": "uncommon",
+      "custom": ""
+    },
+    "description": {
+      "value": "<p><strong>Reference:</strong> <em>Chronicles of Eberron</em> (p. 95, 97), by Keith Baker (<a href=\"https://www.dmsguild.com/product/415474/Chronicles-of-Eberron\">DMs Guild</a>)</p><p>[one-action] You utter your incantations backward, weaving the disturbing and forbidden phonetic paradoxes of the Shadow into the spell’s fabric. If your next action is to Cast a Spell with verbal components that inflicts the <strong>frightened</strong> condition, you can choose instead for affected targets to become <strong>off-guard</strong> and <strong>fascinated</strong> by you for the duration. If the spell would instead cause a target to become <strong>fascinated</strong> or charmed, you can choose instead for the target to become <strong>frightened 2</strong>.</p>"
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1789943071351,
+    "modifiedTime": 1789943071351,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!e22b3f5a8304f066"
+}

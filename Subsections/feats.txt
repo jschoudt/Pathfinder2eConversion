@@ -272,3 +272,58 @@ item(
 ; Shifter
 Your connection to the beast within surges with primal vigor. Your shift transformation lasts for 10 minutes (instead of 1 minute), and you can Shift an additional time per day.
 )
+
+=
+## Chronicles of Eberron Traditions ((+Chronicles Traditions))
+info(
+For more information on these character options and cultural traditions, see Chronicles of Eberron (p. 49, 59, 95).
+)
+
+item(
+# Tairnadal Revenant
+## Feat 2
+-
+; Uncommon ; Champion ; Archetype ; 3rd-Party
+**Reference:** *Chronicles of Eberron* (p. 49–50), by Keith Baker ([DMs Guild](https://www.dmsguild.com/product/415474/Chronicles-of-Eberron))
+
+**Prerequisites:** Follower of the Spirits of the Past or Tairnadal elf; Champion or martial class
+
+You have dedicated your life to emulating the legendary martial exploits of a patron ancestor of the Tairnadal elves. You gain the **Aura of the Paragon** reaction.
+
+**Aura of the Paragon** [reaction] (divine, emotion, holy); **Trigger:** You or an ally within your 15-foot emanation successfully hits an enemy with a Strike; **Effect:** You channel the martial frenzy of your patron ancestor, urging the attack onward. The triggering Strike deals an additional 1d4 holy spirit damage (increasing to 2d4 at 10th level and 3d4 at 16th level). If you have an animal companion or divine steed, your companion also benefits from your champion aura and deals this bonus damage on its attacks.
+)
+
+item(
+# Stonesinger
+## Feat 2
+-
+; Uncommon ; Druid ; Bard ; Archetype ; 3rd-Party
+**Reference:** *Chronicles of Eberron* (p. 59–60), by Keith Baker ([DMs Guild](https://www.dmsguild.com/product/415474/Chronicles-of-Eberron))
+
+**Prerequisites:** Trained in Performance and Nature, or Lorghalan Gnome
+
+You have mastered the harmonic methods of Lorghalan, using music and primal melodies to shape the elements. You can substitute your Performance modifier for Nature checks when commanding or calming elementals and beasts. When Activating or Crafting primal magic items, wands, and elemental vessels, you can use Performance in place of Nature. Furthermore, you gain the *Stonesinger's Melodic Accord* focus cantrip: as a single action, grant an allied elemental, construct, or beast within 30 feet a +1 status bonus to attack rolls and AC for 1 round.
+)
+
+|
+item(
+# Defiled Gift Spellshape
+## Feat 4
+-
+; Uncommon ; Cleric ; Oracle ; Witch ; Spellshape ; 3rd-Party
+**Reference:** *Chronicles of Eberron* (p. 95, 97), by Keith Baker ([DMs Guild](https://www.dmsguild.com/product/415474/Chronicles-of-Eberron))
+
+**Frequency:** once per minute
+
+[one-action] You invoke the dark transactional bargains of the Shadow or the Dark Six, sacrificing vitality to amplify magical recovery. If your next action is to Cast a Spell from spell slots that restores Hit Points to an ally, either you or a willing ally within your reach sacrifices vital essence, taking 1d6 void damage per spell rank (which cannot be reduced in any way). In exchange, the healing spell surges with power, restoring an additional 2d6 Hit Points to the target.
+)
+
+item(
+# Reverse Speech Spellshape
+## Feat 8
+-
+; Uncommon ; Bard ; Sorcerer ; Witch ; Spellshape ; 3rd-Party
+**Reference:** *Chronicles of Eberron* (p. 95, 97), by Keith Baker ([DMs Guild](https://www.dmsguild.com/product/415474/Chronicles-of-Eberron))
+
+[one-action] You utter your incantations backward, weaving the disturbing and forbidden phonetic paradoxes of the Shadow into the spell's fabric. If your next action is to Cast a Spell with verbal components that inflicts the **frightened** condition, you can choose instead for affected targets to become **off-guard** and **fascinated** by you for the duration. If the spell would instead cause a target to become **fascinated** or charmed, you can choose instead for the target to become **frightened 2**.
+)

@@ -1,0 +1,116 @@
+{
+  "name": "Avassh, the Twister of Roots",
+  "type": "npc",
+  "prototypeToken": {
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "name": "Avassh, the Twister of Roots",
+    "displayName": 0,
+    "actorLink": false,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/npc.svg",
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    }
+  },
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 450,
+        "max": 450,
+        "temp": 0,
+        "details": ""
+      },
+      "ac": {
+        "value": 47,
+        "details": ""
+      },
+      "perception": {
+        "value": 39
+      },
+      "speed": {
+        "value": 30,
+        "otherSpeeds": []
+      }
+    },
+    "perception": {
+      "mod": 39
+    },
+    "saves": {
+      "fortitude": {
+        "value": 39
+      },
+      "reflex": {
+        "value": 34
+      },
+      "will": {
+        "value": 38
+      }
+    },
+    "details": {
+      "level": {
+        "value": 22
+      },
+      "alignment": {
+        "value": "NE"
+      },
+      "publicNotes": "<p><strong>Reference:</strong> <em>Chronicles of Eberron</em> (p. 171–177), by Keith Baker (<a href=\"https://www.dmsguild.com/product/415474/Chronicles-of-Eberron\">DMs Guild</a>)</p><p>The daelkyr lord of corrupted flora, rot, and predatory plant life. Avassh reaches out from its Khyber demiplane through ancient root systems, warping ancient forests, transforming trees into ravenous blights, and seeking to subsume all mortal biology into one boundless, rotting organism.</p>",
+      "source": {
+        "value": "Chronicles of Eberron, p. 176",
+        "page": "N/A"
+      },
+      "publication": {
+        "title": "Chronicles of Eberron",
+        "authors": "Keith Baker",
+        "license": "DMs Guild Community Content Agreement",
+        "remaster": true,
+        "page": "N/A"
+      }
+    },
+    "traits": {
+      "value": [
+        "huge",
+        "aberration",
+        "plant"
+      ],
+      "rarity": "unique",
+      "size": {
+        "value": "huge"
+      }
+    },
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    }
+  },
+  "items": [],
+  "_id": "1fc9d2d4dc7d90ea",
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1789943071353,
+    "modifiedTime": 1789943071353,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!actors!1fc9d2d4dc7d90ea"
+}

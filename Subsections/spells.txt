@@ -811,3 +811,81 @@ You channel the mysteries of the forge, transforming your body into a living con
 **Heightened (4th)** Your size can be Large; gain reach 10 ft.
 **Heightened (7th)** Your size can be Huge; gain reach 15 ft and resistance equal to your level.
 )
+
+=
+## Spells of the Six & Ambition ((+Spells of the Six))
+info(
+For more information on these spells and Dark Six focus powers, see Chronicles of Eberron (p. 93–98).
+)
+
+item(
+# Awaken Ambition
+## Focus 1
+-
+; Cleric ; Focus ; Divine ; Void
+**Domain** Ambition
+**Reference:** *Chronicles of Eberron* (p. 93, 95), by Keith Baker ([DMs Guild](https://www.dmsguild.com/product/415474/Chronicles-of-Eberron))
+
+**Cast** :a: somatic
+
+**Area** 30-foot emanation; **Targets** you and up to 3 willing allies; **Duration** 1 minute
+-
+You invoke the Sovereign of Ambition, converting present pain into future victory. Each target takes 1d4 void damage per spell rank (which cannot be reduced in any way). In return, each target gains temporary Hit Points equal to twice the damage taken for the duration, and gains a +1 status bonus to its next attack roll or skill check made within 1 round.
+
+**Heightened (+1)** The void damage taken increases by 1d4, granting twice that amount in temporary Hit Points.
+)
+
+item(
+# Shadow's Gifts
+## Focus 4
+-
+; Cleric ; Focus ; Divine ; Transmutation
+**Domain** Ambition
+**Reference:** *Chronicles of Eberron* (p. 93, 95), by Keith Baker ([DMs Guild](https://www.dmsguild.com/product/415474/Chronicles-of-Eberron))
+
+**Cast** :aa: verbal, somatic
+
+**Range** touch; **Targets** 1 willing creature; **Duration** 1 minute
+-
+You awaken dark monstrous adaptations taught by the Shadow to the warlords of Droaam. Choose one of the following gifts:
+- **Eyes of the Medusa:** The target gains a petrifying gaze. Once per round as a single action, the target can gaze upon a creature within 30 feet; the creature must succeed at a Fortitude save against your spell DC or become **clumsy 1** and have its Speeds reduced by 10 feet for 1 round (critical failure: **clumsy 2** and immobilized for 1 round).
+- **Heart of the Troll:** The target gains **fast healing 5**. If the target takes acid or fire damage, this fast healing ceases to function until the end of its next turn.
+- **Mastery of the Hag:** The target gains a +2 status bonus to Deception and Intimidation checks, and can cast *illusory disguise* at will as an innate divine spell.
+
+**Heightened (7th)** Fast healing increases to 10; the Medusa gaze also causes the target to be **slowed 1** on a failure.
+)
+
+|
+item(
+# Fury's Chorus
+## Spell 1
+-
+; Divine ; Occult ; Enchantment ; Emotion ; Mental
+**Reference:** *Chronicles of Eberron* (p. 96, 98), by Keith Baker ([DMs Guild](https://www.dmsguild.com/product/415474/Chronicles-of-Eberron))
+
+**Cast** :aa: verbal, somatic
+
+**Range** 60 feet; **Area** 20-foot burst; **Defense** Will; **Duration** 1 minute
+-
+You utter chaotic, shrieking discord that fans the flames of fury and distrust. Each enemy in the area must attempt a Will saving throw.
+- **Critical Success** The creature is unaffected.
+- **Success** For 1 round, the creature cannot distinguish friend from foe when deciding to make reactions (if an ally provokes a reaction such as Reactive Strike, it must use its reaction if available).
+- **Failure** As success, but lasting for 1 minute. The target may attempt a new Will save at the end of each of its turns to end the effect.
+- **Critical Failure** As failure, and the creature is also **confused** for 1 round.
+)
+
+item(
+# Keeper's Vault
+## Spell 2
+-
+; Divine ; Occult ; Necromancy ; Void
+**Reference:** *Chronicles of Eberron* (p. 96, 98), by Keith Baker ([DMs Guild](https://www.dmsguild.com/product/415474/Chronicles-of-Eberron))
+
+**Cast** :aa: verbal, somatic; **Focus** an unlit lantern worth at least 5 gp
+
+**Range** 60 feet; **Targets** 1 living creature; **Defense** Fortitude; **Duration** Sustained up to 1 minute
+-
+You pull a fragment of the target's living soul into your focus lantern, igniting it with ghostly, pale luminescence that sheds dim light in a 20-foot radius. The target takes 2d6 void damage (basic Fortitude save). Each time you Sustain the spell, the lantern continues to siphon the tethered soul, dealing 2d6 void damage (basic Fortitude save). If the target dies while its soul is bound in the lantern, it cannot be raised from the dead by magic of equal or lower rank until the lantern is physically shattered or dispelled.
+
+**Heightened (+1)** The void damage increases by 1d6.
+)

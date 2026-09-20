@@ -35,7 +35,8 @@ const SLUG_TO_FILE = {
   "https://scribe.pf2.tools/v/JQJW7vp0": "wandslingers.txt",
   "https://scribe.pf2.tools/v/LyzLTFv7": "feats.txt",
   "https://scribe.pf2.tools/v/M6FQ11X3": "items-of-eberron.txt",
-  "https://scribe.pf2.tools/v/s9p3sJv5": "spells.txt"
+  "https://scribe.pf2.tools/v/s9p3sJv5": "spells.txt",
+  "https://scribe.pf2.tools/v/eberron-creatures": "creatures.txt"
 };
 
 // Also support raw filenames or slugs without full URL prefix

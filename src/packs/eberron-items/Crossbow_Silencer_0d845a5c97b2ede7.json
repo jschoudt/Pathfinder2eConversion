@@ -1,0 +1,70 @@
+{
+  "_id": "0d845a5c97b2ede7",
+  "name": "Crossbow Silencer",
+  "type": "equipment",
+  "img": "systems/pf2e/icons/default-icons/equipment.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "source": {
+      "value": "Chronicles of Eberron, p. 16",
+      "page": "N/A"
+    },
+    "publication": {
+      "title": "Chronicles of Eberron",
+      "authors": "Keith Baker",
+      "license": "DMs Guild Community Content Agreement",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "rules": [],
+    "slug": "crossbow-silencer",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "traits": {
+      "value": [
+        "magical"
+      ],
+      "rarity": "uncommon",
+      "custom": ""
+    },
+    "description": {
+      "value": "<p><strong>Reference:</strong> <em>Chronicles of Eberron</em> (p. 16–17), by Keith Baker (<a href=\"https://www.dmsguild.com/product/415474/Chronicles-of-Eberron\">DMs Guild</a>)</p><p><strong>Price:</strong> 25 gp; <strong>Bulk:</strong> L; <strong>Level:</strong> 2</p><p>An acoustic muffling attachment engineered by Cannith for the King's Dark Lanterns. Fitted over the prod and string of a crossbow, it reduces the release snap to an imperceptible whisper. Ranged Strikes made with the crossbow do not automatically reveal your position if you miss while hidden or undetected, and creatures take a -2 circumstance penalty to Perception checks to locate the shot's origin.</p>"
+    },
+    "level": {
+      "value": 2
+    },
+    "price": {
+      "value": {
+        "gp": 25
+      }
+    },
+    "bulk": {
+      "value": "L"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1789943071352,
+    "modifiedTime": 1789943071352,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!0d845a5c97b2ede7"
+}

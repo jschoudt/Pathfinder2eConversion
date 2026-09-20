@@ -103,8 +103,19 @@ For more information on Gnolls of Eberron, see Exploring Eberron (p. 93.)
 Gnomes are **common** in the world of Eberron.
 Gnomes of Eberron are well represented by the Pathfinder 2e implementation.
 info(
-For more information on Gnomes of Eberron, see Eberron Campaign Setting (p. 14).
+For more information on Gnomes of Eberron, see Eberron Campaign Setting (p. 14) and Chronicles of Eberron (p. 58).
 )
+
+item(
+# Lorghalan Gnome ((+Lorghalan Gnome))
+## Heritage
+-
+; Uncommon ; Gnome
+**Reference:** *Chronicles of Eberron* (p. 58–60), by Keith Baker ([DMs Guild](https://www.dmsguild.com/product/415474/Chronicles-of-Eberron))
+
+You hail from the isolated island of Lorghalan, where gnomes live in deep communion with the primal manifest zones of Lamannia. Rather than the political intrigue of Zilargo, you practice stonesinging—channeling primal resonance to communicate with beasts, soothe tides, and cooperate with elemental spirits. You know one primal cantrip of your choice from the following: *gale blast*, *guidance*, or *tremor sense*. You can cast this spell as an innate primal spell at will. In addition, you gain a +1 circumstance bonus to Diplomacy checks when negotiating with elementals, beasts, and primal creatures.
+)
+
 ## Goblins
 Goblins are **common** in the world of Eberron. 
 Goblins of Eberron are well represented by the Pathfinder 2e implementation.

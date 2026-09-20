@@ -1,0 +1,75 @@
+{
+  "_id": "a55a47e79cb5fac8",
+  "name": "Sentira Shard of Dread",
+  "type": "equipment",
+  "img": "systems/pf2e/icons/default-icons/equipment.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "source": {
+      "value": "Chronicles of Eberron, p. 186",
+      "page": "N/A"
+    },
+    "publication": {
+      "title": "Chronicles of Eberron",
+      "authors": "Keith Baker",
+      "license": "DMs Guild Community Content Agreement",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "rules": [],
+    "slug": "sentira-shard-of-dread",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "traits": {
+      "value": [
+        "consumable",
+        "magical",
+        "occult",
+        "emotion",
+        "mental",
+        "talisman"
+      ],
+      "rarity": "uncommon",
+      "custom": ""
+    },
+    "description": {
+      "value": "<p><strong>Reference:</strong> <em>Chronicles of Eberron</em> (p. 186–187), by Keith Baker (<a href=\"https://www.dmsguild.com/product/415474/Chronicles-of-Eberron\">DMs Guild</a>)</p><p><strong>Price:</strong> 45 gp; <strong>Bulk:</strong> —; <strong>Level:</strong> 6</p><p><strong>Usage:</strong> affixed to a sentira lens or ranged weapon</p><p><strong>Trigger:</strong> You hit a creature with a Strike using the affixed weapon.</p><p><strong>Effect:</strong> Heavy emotional distress floods the target's mind. The target must succeed at a DC 22 Will save or become <strong>stupefied 1</strong> for 1 minute (critical failure: <strong>stupefied 2</strong>).</p>"
+    },
+    "level": {
+      "value": 6
+    },
+    "price": {
+      "value": {
+        "gp": 45
+      }
+    },
+    "bulk": {
+      "value": "-"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1789943071352,
+    "modifiedTime": 1789943071352,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!a55a47e79cb5fac8"
+}

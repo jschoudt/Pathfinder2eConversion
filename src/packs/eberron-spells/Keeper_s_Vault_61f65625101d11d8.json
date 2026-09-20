@@ -1,0 +1,89 @@
+{
+  "_id": "61f65625101d11d8",
+  "name": "Keeper's Vault",
+  "type": "spell",
+  "img": "systems/pf2e/icons/default-icons/spell.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "source": {
+      "value": "Chronicles of Eberron, p. 98",
+      "page": "N/A"
+    },
+    "publication": {
+      "title": "Chronicles of Eberron",
+      "authors": "Keith Baker",
+      "license": "DMs Guild Community Content Agreement",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "rules": [],
+    "slug": "keepers-vault",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "traits": {
+      "value": [
+        "void"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "description": {
+      "value": "<p><strong>Reference:</strong> <em>Chronicles of Eberron</em> (p. 96, 98), by Keith Baker (<a href=\"https://www.dmsguild.com/product/415474/Chronicles-of-Eberron\">DMs Guild</a>)</p><p><strong>Cast:</strong> [two-actions] verbal, somatic; <strong>Focus:</strong> an unlit lantern worth at least 5 gp</p><p><strong>Range:</strong> 60 feet; <strong>Target:</strong> 1 living creature</p><p><strong>Defense:</strong> Fortitude; <strong>Duration:</strong> Sustained up to 1 minute</p><hr /><p>You pull a fragment of the target's living soul into your focus lantern, igniting it with ghostly, pale luminescence that sheds dim light in a 20-foot radius. The target takes 2d6 void damage (basic Fortitude save). Each time you Sustain the spell, the lantern continues to siphon the tethered soul, dealing 2d6 void damage (basic Fortitude save). If the target dies while its soul is bound in the lantern, it cannot be raised from the dead by magic of equal or lower rank until the lantern is physically shattered or dispelled.</p><p><strong>Heightened (+1):</strong> The void damage increases by 1d6.</p>"
+    },
+    "level": {
+      "value": 2
+    },
+    "category": {
+      "value": "spell"
+    },
+    "traditions": {
+      "value": [
+        "divine",
+        "occult"
+      ],
+      "custom": ""
+    },
+    "school": {
+      "value": ""
+    },
+    "time": {
+      "value": "2"
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "duration": {
+      "value": ""
+    },
+    "defense": null
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1789943071352,
+    "modifiedTime": 1789943071352,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!61f65625101d11d8"
+}

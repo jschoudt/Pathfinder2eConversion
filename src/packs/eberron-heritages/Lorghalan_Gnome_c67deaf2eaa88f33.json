@@ -1,0 +1,63 @@
+{
+  "_id": "c67deaf2eaa88f33",
+  "name": "Lorghalan Gnome",
+  "type": "heritage",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "source": {
+      "value": "Chronicles of Eberron, p. 59",
+      "page": "N/A"
+    },
+    "publication": {
+      "title": "Chronicles of Eberron",
+      "authors": "Keith Baker",
+      "license": "DMs Guild Community Content Agreement",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "rules": [],
+    "slug": "lorghalan-gnome",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "traits": {
+      "value": [
+        "gnome"
+      ],
+      "rarity": "uncommon",
+      "custom": ""
+    },
+    "description": {
+      "value": "<p><strong>Reference:</strong> <em>Chronicles of Eberron</em> (p. 58–60), by Keith Baker (<a href=\"https://www.dmsguild.com/product/415474/Chronicles-of-Eberron\">DMs Guild</a>)</p><p>You hail from the isolated, jungle-covered island of Lorghalan, where gnomes live in vibrant communion with the primal manifest zones of Lamannia. Rather than the political subterfuge of Zilargo, you practice stonesinging—using melodic resonance to speak with beasts, soothe waves, and cooperate with elemental spirits. You know one primal cantrip of your choice from the following: <em>gale blast</em>, <em>guidance</em>, or <em>tremor sense</em>. You can cast this spell as an innate primal spell at will. In addition, you gain a +1 circumstance bonus to Diplomacy checks when negotiating with elementals, beasts, and primal creatures.</p>"
+    },
+    "ancestry": {
+      "name": "Gnome",
+      "slug": "gnome"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1789943071350,
+    "modifiedTime": 1789943071350,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!c67deaf2eaa88f33"
+}

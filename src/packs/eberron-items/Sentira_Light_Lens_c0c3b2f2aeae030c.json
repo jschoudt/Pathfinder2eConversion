@@ -1,0 +1,89 @@
+{
+  "_id": "c0c3b2f2aeae030c",
+  "name": "Sentira Light Lens",
+  "type": "weapon",
+  "img": "systems/pf2e/icons/default-icons/equipment.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "source": {
+      "value": "Chronicles of Eberron, p. 186",
+      "page": "N/A"
+    },
+    "publication": {
+      "title": "Chronicles of Eberron",
+      "authors": "Keith Baker",
+      "license": "DMs Guild Community Content Agreement",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "rules": [],
+    "slug": "sentira-light-lens",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "traits": {
+      "value": [
+        "martial",
+        "ranged",
+        "occult",
+        "mind",
+        "concussive",
+        "two-hand"
+      ],
+      "rarity": "uncommon",
+      "custom": ""
+    },
+    "description": {
+      "value": "<p><strong>Reference:</strong> <em>Chronicles of Eberron</em> (p. 186–187), by Keith Baker (<a href=\"https://www.dmsguild.com/product/415474/Chronicles-of-Eberron\">DMs Guild</a>)</p><p>The standard-issue psionic projection carbine of Riedra's Harmonious Shield. Wielded with two hands, it amplifies psychic impulses into concussive telepathic shockwaves. Deals 1d8 mental damage with a range increment of 60 feet.</p>"
+    },
+    "category": "martial",
+    "group": "bow",
+    "damage": {
+      "dice": 1,
+      "die": "d8",
+      "damageType": "mental"
+    },
+    "range": 60,
+    "reload": {
+      "value": "0"
+    },
+    "bulk": {
+      "value": "1"
+    },
+    "hands": {
+      "value": "2"
+    },
+    "price": {
+      "value": {
+        "gp": 30
+      }
+    },
+    "level": {
+      "value": 2
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1789943071352,
+    "modifiedTime": 1789943071352,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!c0c3b2f2aeae030c"
+}

@@ -1,0 +1,83 @@
+{
+  "_id": "b6d3a8b1389471da",
+  "name": "Displaced Noble",
+  "type": "background",
+  "img": "systems/pf2e/icons/default-icons/background.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "source": {
+      "value": "Chronicles of Eberron, p. 19",
+      "page": "N/A"
+    },
+    "publication": {
+      "title": "Chronicles of Eberron",
+      "authors": "Keith Baker",
+      "license": "DMs Guild Community Content Agreement",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "rules": [],
+    "slug": "displaced-noble",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "traits": {
+      "value": [],
+      "rarity": "common",
+      "custom": ""
+    },
+    "description": {
+      "value": "<p><strong>Reference:</strong> <em>Chronicles of Eberron</em> (p. 19–20), by Keith Baker (<a href=\"https://www.dmsguild.com/product/415474/Chronicles-of-Eberron\">DMs Guild</a>)</p><p>You were born into wealth, power, and prestige in the Five Nations—perhaps an aristocratic prince of fallen Cyre, or a minor baron whose ancestral lands were scorched, annexed, or ruined during the Last War. While your estate and riches may be gone, your pedigree remains undeniable. Royalists, expatriates, and commoners who still revere the old nobility treat you with quiet reverence and offer aid.</p><p>Choose two attribute boosts. One must be to <strong>Charisma</strong> or <strong>Constitution</strong>, and one is a free attribute boost.</p><p>You are trained in the <strong>Society</strong> skill and the <strong>Last War Lore</strong> skill. You gain the <strong>Courtly Graces</strong> skill feat.</p>"
+    },
+    "boosts": {
+      "0": {
+        "value": [
+          "cha",
+          "con"
+        ]
+      },
+      "1": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      }
+    },
+    "trainedSkills": {
+      "value": [
+        "soc"
+      ],
+      "custom": ""
+    },
+    "trainedLore": "Last War Lore",
+    "items": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1789943071349,
+    "modifiedTime": 1789943071349,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!b6d3a8b1389471da"
+}

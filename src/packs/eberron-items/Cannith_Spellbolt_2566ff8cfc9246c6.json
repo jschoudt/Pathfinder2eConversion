@@ -1,0 +1,71 @@
+{
+  "_id": "2566ff8cfc9246c6",
+  "name": "Cannith Spellbolt",
+  "type": "equipment",
+  "img": "systems/pf2e/icons/default-icons/equipment.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "source": {
+      "value": "Chronicles of Eberron, p. 17",
+      "page": "N/A"
+    },
+    "publication": {
+      "title": "Chronicles of Eberron",
+      "authors": "Keith Baker",
+      "license": "DMs Guild Community Content Agreement",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "rules": [],
+    "slug": "cannith-spellbolt",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "traits": {
+      "value": [
+        "consumable",
+        "magical"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "description": {
+      "value": "<p><strong>Reference:</strong> <em>Chronicles of Eberron</em> (p. 17–18), by Keith Baker (<a href=\"https://www.dmsguild.com/product/415474/Chronicles-of-Eberron\">DMs Guild</a>)</p><p><strong>Price:</strong> 3 gp; <strong>Bulk:</strong> —; <strong>Level:</strong> 1</p><p>A precision-machined steel bolt inscribed with elemental conduits by House Cannith. When fired as part of a ranged Strike, the bolt detonates upon striking the target, dealing an additional 1d6 damage of a chosen energy type (acid, cold, electricity, or fire, chosen upon creation). On a critical hit, the elemental charge splashes, inflicting 1 persistent damage of that type.</p>"
+    },
+    "level": {
+      "value": 1
+    },
+    "price": {
+      "value": {
+        "gp": 3
+      }
+    },
+    "bulk": {
+      "value": "-"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1789943071352,
+    "modifiedTime": 1789943071352,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!2566ff8cfc9246c6"
+}

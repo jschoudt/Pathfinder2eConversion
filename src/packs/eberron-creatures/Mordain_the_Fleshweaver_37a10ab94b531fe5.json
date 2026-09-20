@@ -1,0 +1,116 @@
+{
+  "name": "Mordain the Fleshweaver",
+  "type": "npc",
+  "prototypeToken": {
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "name": "Mordain the Fleshweaver",
+    "displayName": 0,
+    "actorLink": false,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/npc.svg",
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    }
+  },
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 310,
+        "max": 310,
+        "temp": 0,
+        "details": ""
+      },
+      "ac": {
+        "value": 42,
+        "details": ""
+      },
+      "perception": {
+        "value": 32
+      },
+      "speed": {
+        "value": 30,
+        "otherSpeeds": []
+      }
+    },
+    "perception": {
+      "mod": 32
+    },
+    "saves": {
+      "fortitude": {
+        "value": 30
+      },
+      "reflex": {
+        "value": 28
+      },
+      "will": {
+        "value": 34
+      }
+    },
+    "details": {
+      "level": {
+        "value": 18
+      },
+      "alignment": {
+        "value": "NE"
+      },
+      "publicNotes": "<p><strong>Reference:</strong> <em>Chronicles of Eberron</em> (p. 165–170), by Keith Baker (<a href=\"https://www.dmsguild.com/product/415474/Chronicles-of-Eberron\">DMs Guild</a>)</p><p>Exiled centuries ago from the Twelve for his grotesque transmutation experiments, Mordain dwells in the twisted manor of Blackroot in Droaam. Part elf and part living chimera, Mordain has rewritten his own anatomy and that of countless beasts, crafting aberrant monstrosities with horrifying mastery.</p>",
+      "source": {
+        "value": "Chronicles of Eberron, p. 169",
+        "page": "N/A"
+      },
+      "publication": {
+        "title": "Chronicles of Eberron",
+        "authors": "Keith Baker",
+        "license": "DMs Guild Community Content Agreement",
+        "remaster": true,
+        "page": "N/A"
+      }
+    },
+    "traits": {
+      "value": [
+        "medium",
+        "elf",
+        "humanoid"
+      ],
+      "rarity": "unique",
+      "size": {
+        "value": "med"
+      }
+    },
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    }
+  },
+  "items": [],
+  "_id": "37a10ab94b531fe5",
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1789943071353,
+    "modifiedTime": 1789943071353,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!actors!37a10ab94b531fe5"
+}
