@@ -6,7 +6,8 @@
       "value": "<p>A pulse of bright light and energy tears ripples through the air, disrupting creatures caught in the area.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.<br /><strong>Success</strong> The creature is @Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Dazzled} and @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Deafened} for 1 round.<br /><strong>Failure</strong> The creature is @Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Dazzled} and @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Deafened} for 1 minute. They may make a Fortitude at the end of each of their turns to end the effect.<br /><strong>Critical Failure</strong> The creature is @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Deafened} and @Compendium[pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Blinded} for 1 minute..</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -104,6 +105,13 @@
     },
     "secondarycheck": {
       "value": ""
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "type": "spell",

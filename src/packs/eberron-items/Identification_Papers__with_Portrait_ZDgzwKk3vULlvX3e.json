@@ -16,7 +16,8 @@
       "value": "<p>These papers present a detailed physical description of a person (the wealthy sometimes commission small portraits of themselves), the person’s name and residence, and in some cases additional information about the person’s affiliations (particularly including any connection to a dragonmarked house, royalty, or a large institution).</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [],
@@ -92,6 +93,13 @@
     },
     "level": {
       "value": 0
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

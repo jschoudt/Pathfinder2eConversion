@@ -17,7 +17,8 @@
       "value": "<p class=\"hang\"><strong>Frequency</strong> once per round</p>\n<hr />\n<p> </p>\n<p>While in your hybrid form, you can fly through the air in short bursts at half your land Speed. If you don't end your movement on solid ground, you fall at the end of your turn.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -61,6 +62,13 @@
     "location": null,
     "featType": {
       "value": "ancestry"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

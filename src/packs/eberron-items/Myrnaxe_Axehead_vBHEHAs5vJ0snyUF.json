@@ -16,7 +16,8 @@
       "value": ""
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -153,6 +154,13 @@
       "strikeConditionValue": null,
       "criticalConditionType": "",
       "criticalConditionValue": null
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

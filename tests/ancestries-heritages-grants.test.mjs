@@ -1,4 +1,4 @@
-import { describe, it, expect, beforeAll } from 'vitest';
+import { describe, it, expect, beforeAll, afterAll } from 'vitest';
 import { readFile } from 'node:fs/promises';
 import path from 'node:path';
 import { ClassicLevel } from 'classic-level';
@@ -42,8 +42,20 @@ describe('Ancestries & Heritages: Bestowed Feats, Items, Bonuses, and Traits', (
     }
 
     // Connect to LevelDB for live verification of external PF2e items
-    pf2eFeatsDb = new ClassicLevel(path.join(PF2E_SYSTEM_DIR, 'packs/feats'), { valueEncoding: 'json' });
+    // We snapshot to a temp dir so that running Foundry instances do not cause LEVEL_LOCKED errors
+    const featsPackDir = path.join(PF2E_SYSTEM_DIR, 'packs/feats');
+    const { cp } = await import('node:fs/promises');
+    const os = await import('node:os');
+    const tempDir = path.join(os.tmpdir(), `pf2e-feats-snapshot-${process.pid}`);
+    await cp(featsPackDir, tempDir, { recursive: true, filter: (src) => !src.endsWith('LOCK') });
+    pf2eFeatsDb = new ClassicLevel(tempDir, { valueEncoding: 'json' });
     await pf2eFeatsDb.open();
+  });
+
+  afterAll(async () => {
+    if (pf2eFeatsDb && pf2eFeatsDb.status === 'open') {
+      await pf2eFeatsDb.close();
+    }
   });
 
   function createTestActor(name, items = []) {

@@ -17,7 +17,8 @@
       "value": "<p>Your long limbs give extra strength to your blows. Your fist unarmed attacks no longer have the nonlethal trait and gain the shove weapon trait.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -57,6 +58,13 @@
     "location": null,
     "featType": {
       "value": "ancestry"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

@@ -17,7 +17,8 @@
       "value": "\n\n\n<p>You have managed to develop a malleability that allows you to change the size of your transformations. When you shift shape, you can take on small or large <span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">forms. You are subject to the restrictions, but do not gain any bonuses from the new form (such as the ability to wield larger weapons).</span></p>\n"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -57,6 +58,13 @@
     "location": null,
     "featType": {
       "value": "ancestry"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

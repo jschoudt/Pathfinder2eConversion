@@ -17,7 +17,8 @@
       "value": "<p>While in your hybrid form, you climb walls with a preternatural grip. You gain a climb Speed of 15 feet.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -61,6 +62,13 @@
     "location": null,
     "featType": {
       "value": "ancestry"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

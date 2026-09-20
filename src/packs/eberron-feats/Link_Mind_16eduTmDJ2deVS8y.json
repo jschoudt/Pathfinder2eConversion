@@ -17,7 +17,8 @@
       "value": "<p>You gain the @Compendium[pathfinders-guide-to-eberron.eberron-spells.Zis7Jnr46Ug894eQ]{Link Mind} cantrip as an innate occult spell that you can cast at will. A cantrip is automatically heightened to half your level rounded up. </p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -57,6 +58,13 @@
     "location": null,
     "featType": {
       "value": "ancestryfeature"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

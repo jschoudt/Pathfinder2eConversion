@@ -17,7 +17,8 @@
       "value": "<p class=\"hang\"><strong>Prerequisites</strong> clan heritage</p>\n<hr />\n<p>Your connection to the tribe and your moon is strong. You gain the bonus associated with your clan.</p>\n<p class=\"hang\"><strong>Aryth</strong> With keen eyes, your shots land true. You may ignore the penalty for targetting a creature in the second range increment of your ranged weapons, and the volley trait of your weapons is reduced by 15 feet.</p>\n<p class=\"hang\"><strong>Barrakas</strong> The range of your imprecise smell sense is increased to 60 feet. In addition, when you track creatures that you have previously sensed with your scent you gain a +2 circumstance bonus.</p>\n<p class=\"hang\"><strong>Dravago</strong> You gain Terrain Expertise in the arctic (or a different terrain if you have the arctic already) and become trained in survival (or expert if you are already trained).</p>\n<p class=\"hang\"><strong>Eyre</strong> You can repair damaged weapons and armour on the field, and return companions to the fight swiftly. You gain a +1 circumstance bonus to Crafting checks to repair items, and you don’t need a repair kit for non-magical item repairs as long as you have any amount of junk, spare parts, or debris at your disposal. The gear you are repairing can be worn for the duration of the repair, but the wearer cannot do anything without interrupting the repair.</p>\n<p class=\"hang\"><strong>Lharvion</strong> Once per day, you can cast Protection. At 7th level, the spell is heightened to 2nd level, and every 2 levels thereafter, the spell is heightened an additional spell rank.</p>\n<p class=\"hang\"><strong>Nymm</strong> The frequency of bark orders becomes once per hour instead. Additionally, you may instead single out an ally to use their reaction to make a strike.</p>\n<p class=\"hang\"><strong>Olarune</strong> The frequency of Rapid Cover becomes once per hour instead. In addition, when you use the shield block reaction you have resistance 10 to any damage over the shield's hardness.</p>\n<p class=\"hang\"><strong>Rhaan</strong> Your connection to the primal energies of Eberron lets you reach the fey more easily. You gain the Summon Fey primal spell which you can cast once per day. At 7th level, the spell is heightened to 2nd level, and every 2 levels thereafter, the spell is heightened an additional spell rank.</p>\n<p class=\"hang\"><strong>Sypheros</strong> The DC of your recovery checks is equal to 9 + your dying value, or 8 + your dying value if you have the Toughness general feat. In addition, whenever someone returns you to life using magic that would normally leave you debilitated for a week (such as raise dead or the resurrect ritual), you don't suffer that condition.</p>\n<p class=\"hang\"><strong>Therendor</strong> With experience performing first aid in adverse conditions, hostile environments do not increase the difficulty of your Treat Wounds checks. In addition, when you make a Treat Wounds check the healing dice are increased to d10s, and if you roll a critical failure it becomes a failure instead.</p>\n<p class=\"hang\"><strong>Vult</strong> Your warding abilities extend to others as well. You can cast the Forbidding Ward cantrip at will, <span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">and once per day, you can cast Protection as innate occult spells. Both these spells are heightened to half your level.</span></p>\n<p class=\"hang\"><strong>Zarantyr</strong> The frequency of rampage is reduced to once per 10 minutes. Additionally, if you miss the strike from your rampage it does not count against your multiple attack penalty.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [
       {
@@ -77,6 +78,13 @@
     "location": null,
     "featType": {
       "value": "ancestry"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

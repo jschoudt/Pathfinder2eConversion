@@ -7,7 +7,8 @@
       "value": "<p>When you need to create a magical device or effect on the fly, you apply your knowledge of artifice to assemble imbuement slot using the @Item[JbcFNYQtC3MxwjJQ]{Quick Artifice} activity.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [
       {
@@ -41,7 +42,14 @@
     "prerequisites": {
       "value": []
     },
-    "location": null
+    "location": null,
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    }
   },
   "type": "feat",
   "flags": {

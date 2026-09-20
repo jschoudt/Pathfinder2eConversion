@@ -17,7 +17,8 @@
       "value": "<p class=\"hang\"><strong>Frequency</strong> once per round</p>\n<p class=\"hang\"><strong>Prerequisites</strong> Aryth, Nymm, Olarune, Vult, or Zarantyr clan heritage.</p>\n<hr />\n<p>With the aid of your allies, you hone in on vital points of the enemy. On a successful melee strike, you can deal an extra 1d4 extra precision damage to any creature that’s within reach of at least two of your allies.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [
       {
@@ -89,6 +90,13 @@
     "location": null,
     "featType": {
       "value": "ancestry"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

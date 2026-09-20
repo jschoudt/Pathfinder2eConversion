@@ -17,7 +17,8 @@
       "value": "<p><strong>Prerequisite</strong> Bugbear Endurance</p>\n<p><strong>Trigger</strong> You use Bugbear Endurance</p>\n<hr />\n<p>You refuse to fall no matter how many blows land. Bugbear Endurance gains the following levels of success based on the flat check.</p>\n<p><strong>Critical Success</strong> As in success, but this activation of Bugbear Endurance doesn't count against its frequency.</p>\n<p><strong>Success</strong> As in Bugbear Endurance, but your wounded condition does not increase. </p>\n<p> </p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -61,6 +62,13 @@
     "location": null,
     "featType": {
       "value": "ancestry"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

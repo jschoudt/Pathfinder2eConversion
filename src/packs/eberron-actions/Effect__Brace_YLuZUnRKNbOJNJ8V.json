@@ -14,7 +14,8 @@
       "value": "<p>You brace yourself to take a hit, using your thick skin and fortitude to protect yourself. You gain a +1 circumstance bonus to AC. </p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [],
@@ -63,7 +64,14 @@
       "show": true
     },
     "badge": null,
-    "context": null
+    "context": null,
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    }
   },
   "_stats": {
     "systemId": "pf2e",

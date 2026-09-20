@@ -17,7 +17,8 @@
       "value": "<p>You know how to efficiently use the weapons of the shifters. Whenever you critically hit using a shifter weapon or one of the weapons listed in Shifter Weapon Familiarity, you apply the weapon's critical specialization effect.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -61,6 +62,13 @@
     "location": null,
     "featType": {
       "value": "ancestry"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

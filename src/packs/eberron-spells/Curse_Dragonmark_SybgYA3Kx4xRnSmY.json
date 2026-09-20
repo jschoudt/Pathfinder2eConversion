@@ -7,7 +7,8 @@
       "value": "\n\n\n<p>One of the spells developed by the twelve to hunt Aberrant Marks, they found these dragonmark targeting spells could disable any dragonmark - not just Aberrant marks. The twelve determined it to be too great a risk to make public. However, this spell has since been acquired by various intelligence agencies, held until the day it may be necessary.<br />You trace a pattern in the air with your hand as this spell is cast. In response, the target’s dragonmark seems to twist and curl in.<br />Every time the target creature attempts to use a feature, spell, or item with the dragonmark trait, they must succeed on a @Check[type:flat|dc:11] or else fail to use it, losing any resources expended.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.<br /><strong>Success</strong> The spell lasts for 1 round.<br /><strong>Failure</strong> The spell lasts for 1 minute.<br /><strong>Critical Failure</strong> The spell has an unlimited duration.</p>\n<hr />\n<p class=\"hang\"><strong>Heightened (+1)</strong> the DC of the flat check increases by 1</p>\n"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -102,6 +103,13 @@
       "type": "interval",
       "interval": 1,
       "damage": {}
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "type": "spell",

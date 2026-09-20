@@ -6,7 +6,8 @@
       "value": "<p>You create an invisible sphere of energy with a 5-foot emanation. Until the spell ends, it moves with you, centred on you. The sphere muffles sound in both directions. All creatures have a -2 circumstance penalty to hear any sounds originating from the other side of the sphere, in addition, creatures have a +2 circumstance bonus on saves against auditory effects originating from the other side of the sphere.</p>\n<hr />\n<p class=\"hang\"><strong>Heightened (3rd) </strong>you may choose the area to be up to a 10-foot-radius emanation centred on you. The circumstance penalty to hear sounds becomes -4, and the circumstance bonus to saves becomes +4.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -99,7 +100,14 @@
     "secondarycheck": {
       "value": ""
     },
-    "overlays": {}
+    "overlays": {},
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    }
   },
   "type": "spell",
   "flags": {

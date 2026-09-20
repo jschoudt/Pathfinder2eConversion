@@ -14,7 +14,8 @@
       "value": "<p>You have created a construct companion, which serves as a trustworthy minion. You gain a prototype construct companion.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -50,7 +51,14 @@
     "prerequisites": {
       "value": []
     },
-    "location": null
+    "location": null,
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    }
   },
   "ownership": {
     "default": 0,

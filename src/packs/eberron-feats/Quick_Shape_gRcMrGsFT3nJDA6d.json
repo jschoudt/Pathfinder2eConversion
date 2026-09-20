@@ -17,7 +17,8 @@
       "value": "<p class=\"hang\"><strong>Trigger</strong> You roll initiative.</p>\n<hr />\n<p> </p>\n<p>Your instincts kick in and you take on an aggressive stance. You use Change Shape to enter or exit your hybrid form.</p>"
     },
     "source": {
-      "value": "Pathfinder Advanced Player's Guide"
+      "value": "Pathfinder Advanced Player's Guide",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -57,6 +58,13 @@
     "location": null,
     "featType": {
       "value": "ancestry"
+    },
+    "publication": {
+      "title": "Pathfinder Advanced Player's Guide",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false,
+      "page": "N/A"
     }
   },
   "ownership": {

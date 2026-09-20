@@ -17,7 +17,8 @@
       "value": "<p class=\"hang\"><strong>Prerequisites</strong> Hashalaq Kalashtar heritage</p>\n<hr />\n<p>Like the quori that guides you, you have learned how to manipulate other creatures based on their desires. You can cast @Compendium[pf2e.spells-srd.vLA0q0WOK2YPuJs6]{Charm} once per day as a 1st-level occult innate spell. </p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -61,6 +62,13 @@
     "location": null,
     "featType": {
       "value": "ancestry"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

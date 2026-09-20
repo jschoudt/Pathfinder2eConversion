@@ -17,7 +17,8 @@
       "value": "<p class=\"hang\"><strong>Prerequisites</strong> Tsucora Kalashtar heritage</p>\n<hr />\n<p> </p>\n<p>No matter the confidence a creature projects, everyone has nightmares. You can manipulate the subtle fears that haunt a creature's dreams. You can cast @Compendium[pf2e.spells-srd.4koZzrnMXhhosn0D]{Fear} once per day as a 1st-level occult innate spell. </p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -61,6 +62,13 @@
     "location": null,
     "featType": {
       "value": "ancestry"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

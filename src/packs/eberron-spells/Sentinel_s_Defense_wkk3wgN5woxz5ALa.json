@@ -13,7 +13,8 @@
       "value": "<p>You draw from the power of your dragonmark to better defend a creature. The target gains a +2 status bonus to AC.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -111,6 +112,13 @@
     },
     "secondarycheck": {
       "value": ""
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

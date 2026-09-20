@@ -16,7 +16,8 @@
       "value": "<p>These blades come in a variety of shapes and st The Tangat, developed by the halflings of the Talenta Plains, features a curved blade (like a scimitar's) mounted on a short haft.yles, but they are typically 2 feet long.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -156,6 +157,13 @@
       "criticalConditionValue": null,
       "strikeConditionType": "",
       "strikeConditionValue": null
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

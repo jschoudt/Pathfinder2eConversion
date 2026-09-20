@@ -6,7 +6,8 @@
       "value": "<p class=\"hang\"><strong>Usage</strong> material component of a spell</p>\n<p class=\"hang\"><strong>Activate</strong> <span class=\"pf2-icon\">1</span> interact; <strong>Trigger</strong> You cast a spell from the school of Necromancy</p>\n<hr />\n<p>When used as a material component (adding the material component to the spell if it doesn't already have it) for a Necromancy spell, the covadish leaves heighten the spell rank by 1 up to the maximum level you can cast.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -92,7 +93,14 @@
     "autoDestroy": {
       "value": true
     },
-    "spell": null
+    "spell": null,
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    }
   },
   "img": "systems/pf2e/icons/equipment/alchemical-items/drugs/refined-pesh.webp",
   "effects": [],

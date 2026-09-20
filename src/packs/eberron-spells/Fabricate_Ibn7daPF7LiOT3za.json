@@ -6,7 +6,8 @@
       "value": "<p>You can convert raw material of one type into a batch of products of the same material equal to the original value. Creatures or magic items cannot be created or transmuted by the fabricate spell. The items made by this spell cannot be greater than twice the level of the cast spell but can be intricate or detailed if you are familiar with the type of item you are constructing. If you work with any minerals, the target and heightened effects are reduced to 1 cubic foot instead of 10 cubic feet.<br />Objects manufactured in this way are obviously temporarily conjured, and thus can't be sold or passed off as a genuine item. When the spell ends, the item returns to the original raw material.</p>\n<hr />\n<p class=\"hang\"><strong>Heightened (+1)</strong> The volume you can affect increases by 10 feet cubic feet, and similarly, minerals are increased by 1 cubic foot.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [],
@@ -91,6 +92,13 @@
     },
     "secondarycheck": {
       "value": ""
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "type": "spell",

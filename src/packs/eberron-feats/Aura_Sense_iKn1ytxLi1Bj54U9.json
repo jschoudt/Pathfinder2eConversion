@@ -17,7 +17,8 @@
       "value": "<p>You can feel the creatures of the world around you even before your other senses pick up on it. You gain a special vague sense to detect creatures' auras within 60ft. When a creature that has not taken special precautions against scrying or to mask its aura comes within 60ft of you, they are no longer unnoticed by you. This sense is disrupted by any effects that would also disrupt or prevent scrying effects. </p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [
       {
@@ -68,6 +69,13 @@
     "location": null,
     "featType": {
       "value": "ancestry"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

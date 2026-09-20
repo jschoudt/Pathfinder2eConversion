@@ -16,7 +16,8 @@
       "value": "\n\n\n\n<p class=\"hang\"><strong>Prerequisites</strong> The dragonmark trait </p>\n<hr />\n<p>You train to empower your mark and the reserves of power that you can draw on. You can select an additional dragonmarked focus spell to cast. In addition, if you spend a week of downtime retraining, you can switch your known dragonmark focus spells for different dragonmark focus spells that you have access to. Your house provides this retraining free of charge.</p>\n"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -61,7 +62,14 @@
         }
       ]
     },
-    "location": null
+    "location": null,
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    }
   },
   "ownership": {
     "default": 0,

@@ -7,7 +7,8 @@
       "value": "<p>Using your magical ingenuity, you may attempt to improvise spell requirements for crafting even though do not have access to the Cast a Spell activity. If you have the spell in your formula book, you may supply the spell at any level up to your highest arcane fundamental as if you had the Cast a Spell activity.</p>\n<p>In addition, you gain the @Compendium[pf2e.feats-srd.uR62fVC9FyQAMCO1]{Trick Magic Item} skill feat.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [
       {
@@ -42,7 +43,14 @@
     "prerequisites": {
       "value": []
     },
-    "location": null
+    "location": null,
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    }
   },
   "type": "feat",
   "flags": {

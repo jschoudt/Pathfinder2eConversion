@@ -17,7 +17,8 @@
       "value": "\n\n\n\n<p class=\"hang\"><strong>Prerequisites</strong> Vanguard Warforged heritage</p>\n<p class=\"hang\"><strong>Frequency</strong> once per hour</p>\n<p class=\"hang\"><strong>Trigger</strong> You make an attack roll.</p>\n<hr />\n<p>Your innate combat ability enables you to strengthen your attack. You gain a +1 status bonus to the triggering attack roll.</p>\n<p class=\"hang\"> </p>\n<p class=\"hang\"><strong>Enhancement</strong> ou can execute a series of practised blows to take advantage of this surge of strength, the +1 status bonus applies to each attack roll you make until the start of your next turn. </p>\n"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -61,6 +62,13 @@
     "location": null,
     "featType": {
       "value": "ancestry"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

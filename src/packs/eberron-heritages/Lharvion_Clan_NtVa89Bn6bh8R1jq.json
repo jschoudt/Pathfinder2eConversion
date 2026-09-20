@@ -16,7 +16,8 @@
       "value": "\n\n\n<p>Your clan is tied to the moon Lharvion - the Eye. Your clan has unnatural insights and experience with the otherworldly. You become trained in Occultism (or another skill if you were already trained in Occultism) and gain the @Compendium[pf2e.feats-srd.22P7IFyhrF7Fbw8B]{Root Magic} skill feat. When crafting Root Magic talismans you are always able to produce one for yourself, in addition to one which you give to one ally (excluding yourself).</p>\n"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -52,6 +53,13 @@
     "ancestry": {
       "name": "Gnoll",
       "uuid": "Compendium.pf2e.ancestries.vxbQ1Yw4qwgjTzqo"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

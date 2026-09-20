@@ -16,7 +16,8 @@
       "value": "<p>The drow of Xen'drik use three-pronged bladed boomerangs to hunt prey. Some adventurers and explorers learn to use the weapon while operating in the Xen'drik jungles, but few outside the drow communities ever master the intricacies of the Xen'drik boomerang.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -157,6 +158,13 @@
       "criticalConditionValue": null,
       "strikeConditionType": "",
       "strikeConditionValue": null
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

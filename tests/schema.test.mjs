@@ -66,4 +66,28 @@ describe('Foundry v14 & PF2e Schema Validation', () => {
     }
     expect(invalid).toEqual([]);
   });
+
+  it('should have valid publication and source information with title and page across all documents', () => {
+    const missing = [];
+    for (const doc of docs) {
+      const data = doc.data;
+      const isNpc = data.type === 'npc';
+      const pub = isNpc ? data.system?.details?.publication : data.system?.publication;
+      const src = isNpc ? data.system?.details?.source : data.system?.source;
+
+      if (!pub || !pub.title || typeof pub.title !== 'string' || !pub.title.trim()) {
+        missing.push({ file: doc.relPath, issue: 'missing publication.title' });
+      } else if (pub.page !== 'N/A') {
+        missing.push({ file: doc.relPath, issue: `publication.page is '${pub.page}', expected 'N/A'` });
+      }
+
+      if (!src || !src.value || typeof src.value !== 'string' || !src.value.trim()) {
+        missing.push({ file: doc.relPath, issue: 'missing source.value' });
+      } else if (src.page !== 'N/A') {
+        missing.push({ file: doc.relPath, issue: `source.page is '${src.page}', expected 'N/A'` });
+      }
+    }
+    expect(missing).toEqual([]);
+  });
 });
+

@@ -17,7 +17,8 @@
       "value": "<p>When you shift shape you can add claws, fangs, spines, horns, or a different natural weapon of your choice to your form. Your unarmed strikes deal 1d4 piercing or slashing damage, as appropriate to the natural weapon you chose. These attacks are in the brawling weapon group and gain the agile, finesse, and unarmed traits.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [
       {
@@ -87,6 +88,13 @@
     "location": null,
     "featType": {
       "value": "ancestry"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

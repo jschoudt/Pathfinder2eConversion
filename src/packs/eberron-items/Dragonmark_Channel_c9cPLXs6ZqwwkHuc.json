@@ -14,7 +14,8 @@
       "value": "<p>Each dragonmark channel is tied to a specific dragonmark, such as the Mark of Healing or the Mark of Making, and you can only attune to it if you possess that dragonmark.</p>\n<p class=\"hang\"><strong>Activation</strong> Interact (Cast a Spell);</p>\n<p class=\"hang\"><strong>Frequency</strong> Once per day;</p>\n<p class=\"hang\"><strong>Effect</strong> you can cast one of the dragonmark focus spells that you know at level 1.</p>\n<hr />\n<p class=\"hang\"><strong>Craft Requirements</strong> at least 4 gp of siberys shards</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -94,6 +95,13 @@
     },
     "usage": {
       "value": "worn"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "_stats": {

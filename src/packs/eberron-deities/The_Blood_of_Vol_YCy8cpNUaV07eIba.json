@@ -16,7 +16,8 @@
       "value": "\n\n<p>The Blood of Vol is a religion that believe the only deity that should be worshipped is the one that lies latent in your own blood.</p>\n<p><strong>Areas of Concern</strong> Death, Undead, and Ambition<br /><strong>Alignment</strong> LN<br /><strong>Divine Font</strong> Harm<br /><strong>Divine Ability</strong> Constitution or Intelligence<br /><strong>Divine Skill</strong> Occultism<br /><strong>Domains</strong> Ambition, Change, Confidence, Death, Decay, Duty, Knowledge, Magic, Pain, Perfection, Protection, Repose, Secrecy, Soul, Undeath, Vigil<br /><strong>Cleric Spells</strong> 1st animate dead, 3rd: haste, 6th: dominate<br /><strong>Edicts</strong> Strive to unlock the potential within yourself, encourage others to strive toward their potential for greatness.<br /><strong>Anathema</strong> Sacrifice your life, fail to work toward goals or grow in skill, relax excessively or give in to sloth, blemish a soul.<br /><strong>Favoured Weapon</strong> Dagger</p>\n"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "category": "deity",
     "alignment": {
@@ -82,9 +83,11 @@
       "int"
     ],
     "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
       "license": "ORC",
       "remaster": true,
-      "title": "Pathfinder's Guide to Eberron"
+      "page": "N/A"
     }
   },
   "ownership": {

@@ -6,7 +6,8 @@
       "value": "\n\n<p>You conjure a small flower from the ground within 10 feet of you. This flower collapses into pedals after 1 day has passed.</p>\n"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -95,7 +96,14 @@
     "secondarycheck": {
       "value": ""
     },
-    "overlays": {}
+    "overlays": {},
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    }
   },
   "type": "spell",
   "flags": {

@@ -17,7 +17,8 @@
       "value": "<p>You are trained to observe and react to danger. You gain a +2 circumstance bonus to Perception checks made as initiative rolls.</p>\n<p> </p>\n<p class=\"hang\"><strong>Enhancement</strong> You can react no matter the circumstance. You gain a +2 circumstance bonus to all initiative rolls you make.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [
       {
@@ -68,6 +69,13 @@
     "location": null,
     "featType": {
       "value": "ancestry"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

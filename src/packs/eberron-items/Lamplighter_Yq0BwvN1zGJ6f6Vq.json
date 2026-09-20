@@ -6,7 +6,8 @@
       "value": "<p>This dark black wand ending in a copper tip lights small flames.<br /><strong>Activate</strong> <span class=\"pf2-icon\">2</span> (Cast a Spell); <strong>Frequency</strong> Unlimited <strong>Effect</strong> You can light or snuff out a candle, torch, small campfire, or similar source of flame within 10 feet of you.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -78,6 +79,13 @@
     },
     "level": {
       "value": 1
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "img": "systems/pf2e/icons/features/classes/wand.webp",

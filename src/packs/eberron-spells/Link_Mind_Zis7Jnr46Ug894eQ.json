@@ -16,7 +16,8 @@
       "value": "<p>You link your mind with a creature you can see, allowing two-way communication with a creature while they are in range. You can communicate basic ideas telepathically with creatures using shared mental imagery even if you don't share a language. You can Dismiss the spell, and the link ends if the target moves outside the range. You may only have one active Link Mind in this way at a time.  <br /> <br />If the creature is unwilling, they must attempt a Will saving throw to resist your connection. Regardless of the result, the creature is immune to Link Minds as long as they are unwilling for up to 1 hour. <br /> <br /><strong>Success</strong> The Link Mind spell fails. <br /> <br /><strong>Failure</strong> You successfully link your mind with the creature. The creature may make a Will saving throw at the end of each of their turns. <br /> <br /><strong>Critical Failure</strong> As failure, but the creature may only make a Will saving throw once per minute. </p>\n<hr />\n<p class=\"hang\"><strong>Heightened (+1)</strong> The range increases by 15ft, and the duration increases by 10 minutes.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -102,6 +103,13 @@
     },
     "hasCounteractCheck": {
       "value": false
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

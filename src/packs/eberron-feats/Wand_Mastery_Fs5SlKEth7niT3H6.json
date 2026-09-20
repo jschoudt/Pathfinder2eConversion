@@ -17,7 +17,8 @@
       "value": "<p>When you overcharge a wand, make a DC 11 flat check. On a failure, the wand is broken. On a critical failure, the wand is destroyed. Regardless of the result, the wand may not be used again until your next daily preparations.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -57,6 +58,13 @@
     "location": null,
     "featType": {
       "value": "general"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

@@ -16,7 +16,8 @@
       "value": "<p>You call upon your dragonmark's power to calm animal emotions and aid your interactions with animals. <br />    When you Cast the Spell, unwilling targets must attempt a Will save, with a +4 circumstance bonus if you or your allies recently threatened it or used hostile actions against it.<br />    You can Dismiss the spell. If you use hostile actions against the target, the spell ends. If the spell ends before the full duration, the creature reverts to its original attitude. If the spell is sustained for the full duration, the effects remain and the spell ends.</p>\n<p class=\"hang\"><strong>Critical Success</strong> The target's Attitude towards you decreases by one step. This does not revert if dismissed early.</p>\n<p class=\"hang\"><strong>Success</strong> The target's Attitude towards you is unchanged.</p>\n<p class=\"hang\"><strong>Failure</strong> The target's Attitude towards you increases by one step, to a minimum of indifferent.</p>\n<p class=\"hang\"><strong>Critical Failure</strong> The target's Attitude towards you increases by two steps, to a minimum of friendly.</p>\n<hr />\n<p class=\"hang\"><strong>Heightened (3rd)</strong> Even if the target succeeds its save, its Attitude becomes a minimum of unfriendly.</p>\n<p class=\"hang\"><strong>Heightened (4th)</strong> You may target up to 2 living creatures with the Animal or Beast trait.</p>\n<p class=\"hang\"><strong>Heightened (6th)</strong> You may target up to 4 living creatures with the Animal or Beast trait.</p>\n<p class=\"hang\"><strong>Heightened (7th)</strong> The duration is reduced to 18 seconds after which the effects remain and the spell ends.</p>\n<p class=\"hang\"><strong>Heightened (8th)</strong> You may target any number of living creatures with the Animal or Beast trait in range.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -114,6 +115,13 @@
     },
     "secondarycheck": {
       "value": ""
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

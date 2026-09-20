@@ -6,7 +6,8 @@
       "value": "<p class=\"hang\"><strong>Usage</strong> material component of a spell</p>\n<p class=\"hang\"><strong>Activate</strong> <span class=\"pf2-icon\">a</span> interact; <strong>Trigger</strong> You cast a spell with the Darkness trait</p>\n<hr />\n<p>When used as a material component (adding the material component to the spell if it doesn't already have it) for a spell with the Darkness trait, the Mabar Crystal automatically attempts to counteract any light effects in the area of the spell. This counteract effect is at the cast spell rank + 1 and uses your casting DC.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -92,7 +93,14 @@
     "autoDestroy": {
       "value": true
     },
-    "spell": null
+    "spell": null,
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    }
   },
   "img": "systems/pf2e/icons/equipment/held-items/crystal-ball-clear-quartz.webp",
   "effects": [],

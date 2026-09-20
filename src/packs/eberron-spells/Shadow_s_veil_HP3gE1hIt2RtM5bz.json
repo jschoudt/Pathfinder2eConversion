@@ -13,7 +13,8 @@
       "value": "<p>You call upon your dragonmark's power to weave illusions. When you Cast the Spell, any time you @Compendium[pf2e.actionspf2e.EEDElIyin4z60PXx]{Perform}, @Compendium[pf2e.actionspf2e.XMcnh4cSI32tljXa]{Hide}, @Compendium[pf2e.actionspf2e.VMozDqMMuK5kpoX4]{Sneak}, or roll Initiative (stealth) you gain a +1 status bonus to the skill or perception used for the roll. This bonus remains as long as you Sustain the Spell.</p>\n<hr />\n<p class=\"hang\"><strong>Heightened (3rd)</strong> You do not need to sustain Shadow's veil.</p>\n<p class=\"hang\"><strong>Heightened (5th)</strong> The bonus increases to +2.</p>\n<p class=\"hang\"><strong>Heightened (7th)</strong> The duration is 1 hour.</p>\n<p class=\"hang\"><strong>Heightened (9th)</strong> The bonus increases to +3.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -117,6 +118,13 @@
       "levels": {
         "6": {}
       }
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "_stats": {

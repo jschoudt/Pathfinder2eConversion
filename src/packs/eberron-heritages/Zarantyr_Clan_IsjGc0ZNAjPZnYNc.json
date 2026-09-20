@@ -16,7 +16,8 @@
       "value": "\n\n\n<p>Your clan is tied to the moon Zarantyr - the Storm.</p>\n<p>You can take advantage of the chaos of battle, ripping and tearing through the enemy. You gain the reaction @UUID[Compendium.pathfinders-guide-to-eberron.eberron-actions.WgQhI9QEh3edqlBT]{Rampage}.</p>\n"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -46,6 +47,13 @@
     "ancestry": {
       "name": "Gnoll",
       "uuid": "Compendium.pf2e.ancestries.vxbQ1Yw4qwgjTzqo"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

@@ -16,7 +16,8 @@
       "value": "<p>With a warm handshake and a friendly smile, the powers of your dragonmark help others open themselves to you. If the creature is unwilling, they may make a will save. They gain a +4 circumstance bonus to this save if you or your allies recently threatened or were hostile to it. Creatures are always unaware that you have cast Kindle Friendship. The creature is immune to all future uses of Kindle Friendship from you.</p>\n<p> </p>\n<p class=\"hang\"><strong>Success</strong> No change in attitude.</p>\n<p class=\"hang\"><strong>Failure</strong> The creature's attitude towards you increases by one step.</p>\n<p class=\"hang\"><strong>Critical Failure</strong> The creature's attitude towards you increases by two steps.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -117,6 +118,13 @@
     },
     "secondarycheck": {
       "value": ""
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

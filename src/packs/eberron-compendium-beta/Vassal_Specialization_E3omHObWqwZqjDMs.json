@@ -7,7 +7,8 @@
       "value": "<p>Vassal Artificers are masters of divine magic and specialize in infusing their creations with divine energy. You have a strong understanding of your religion and draw upon your faith to imbue items with powerful blessings and abilities. Through the use of sacred texts, rituals, or prayer, Vassal Artificers are able to imbue their creations with divine power.</p>\n<p>Your spellcasting tradition is <strong>Divine</strong>.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [
       {
@@ -44,7 +45,14 @@
     "prerequisites": {
       "value": []
     },
-    "location": null
+    "location": null,
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    }
   },
   "type": "feat",
   "flags": {

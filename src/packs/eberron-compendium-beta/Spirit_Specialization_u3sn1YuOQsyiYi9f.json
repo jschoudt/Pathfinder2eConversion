@@ -7,7 +7,8 @@
       "value": "<p>As a Spirit Artificer, you have delved deep into the occult magic of the world, gaining knowledge of the mysterious and otherworldly. Your creations are imbued with eldritch powers, which you manipulate to create powerful occultic items. Instead of using conventional arcane components, you may call upon the such spirits of dolurrh to empower your items, or incorporate rare and esoteric materials into your work.</p>\n<p>Your spellcasting tradition is <strong>Occult</strong>.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [
       {
@@ -44,7 +45,14 @@
     "prerequisites": {
       "value": []
     },
-    "location": null
+    "location": null,
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    }
   },
   "type": "feat",
   "flags": {

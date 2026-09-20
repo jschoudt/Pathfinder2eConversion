@@ -16,7 +16,8 @@
       "value": "<p>Similar to a scythe, the Talenta Sharrash developed by the halflings of the Plains consists of a sicklelike blade at the end of a long pole.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -156,6 +157,13 @@
       "criticalConditionValue": null,
       "strikeConditionType": "",
       "strikeConditionValue": null
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

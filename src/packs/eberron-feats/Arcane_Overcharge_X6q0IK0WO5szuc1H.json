@@ -17,7 +17,8 @@
       "value": "\n\n\n<p class=\"hang\"><strong>Prerequisites</strong> legendary in Arcana</p>\n<hr />\n<p>There's no overcharge like arcane overcharge. Wands prepared by your Wandslinger features may be overcharged, following all the rules of regular wands. In the event one of your wands is destroyed, you take force damage equal to your level. You may prepare the wand again during your next daily preparations.</p>\n"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -62,6 +63,13 @@
     "location": null,
     "featType": {
       "value": "archetype"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

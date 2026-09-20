@@ -16,7 +16,8 @@
       "value": "<p>Kol Korran is the neutral deity of trade.<br /><strong>Areas of Concern</strong> Wealth, money, trade, commerce, theft<br /><strong>Alignment</strong> N<br /><strong>Divine Font</strong> Heal or Harm<br /><strong>Divine Ability</strong> Wisdom or Charisma<br /><strong>Divine Skill</strong> Society<br /><strong>Domains</strong> Ambition, Cities, Travel, Wealth<br /><strong>Cleric Spells</strong> 1st: shattering gem, 4th: creation, 7th: magnificent mansion<br /><strong>Edicts</strong> Gather new wealth, count your riches, open up new trade routes, discover and retrieve items of great worth.<br /><strong>Anathema</strong> Allow those who steal from you to go unpunished, forgo simple opportunities to gain riches.<br /><strong>Favoured Weapon</strong> Mace</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "category": "deity",
     "alignment": {
@@ -77,9 +78,11 @@
       "cha"
     ],
     "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
       "license": "ORC",
       "remaster": true,
-      "title": "Pathfinder's Guide to Eberron"
+      "page": "N/A"
     }
   },
   "ownership": {

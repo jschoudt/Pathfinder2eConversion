@@ -13,7 +13,8 @@
       "value": "<p class=\"hang\"><strong>Cast</strong> 8 hours; dragonmark, material, somatic, verbal</p>\n<hr />\n<p>You begin to craft an item as if using the @UUID[Compendium.pf2e.actions.rmwa3OyhTZ2i2AHl]{Craft} activity, but with the empowering effects of your dragonmark guiding you, your efficiency is increased exponentially. <br />    When you begin the Craft activity, you can cast Construction Savant as part of your activity. When you have spent a full day of the Craft Activity under the effects of Construction Savant, you may immediately make the Craft activity check to complete the item. On a critical success, you can finish the item, bypassing any remaining time to its completion as if you had completed the prerequisite days of work. Otherwise, you may continue on the item again the next day without any penalty. If you use Construction Savant on your last day of work, you instead gain a +1 status bonus to the final crafting check. Once the item is completed, it follows the rules of the crafting activity to reduce cost which Construction Savant may not assist with.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -106,6 +107,13 @@
     },
     "secondarycheck": {
       "value": ""
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "_stats": {

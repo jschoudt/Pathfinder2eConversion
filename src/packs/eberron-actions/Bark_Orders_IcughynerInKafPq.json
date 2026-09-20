@@ -14,7 +14,8 @@
       "value": "<p class=\"hang\"><strong>Frequency</strong> once per day</p>\n<hr />\n<p> </p>\n<p>You can command your allies to reposition. Any allies who hear and understand this order can use a reaction to Step. Any ally who uses their reaction then becomes immune to bark orders for 10 minutes.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -53,7 +54,14 @@
     "trigger": {
       "value": ""
     },
-    "deathNote": false
+    "deathNote": false,
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    }
   },
   "_stats": {
     "systemId": "pf2e",

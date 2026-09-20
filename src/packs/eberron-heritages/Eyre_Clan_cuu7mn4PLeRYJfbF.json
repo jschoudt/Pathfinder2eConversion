@@ -17,7 +17,8 @@
       "value": "<p>Your clan is tied to the moon Eyre - the Anvil.</p>\n<p>You become trained in Crafting (or another skill if you were already trained in Crafting), and you gain the @Compendium[pf2e.feats-srd.ASy9AKEIRxPYUi5o]{Quick Repair} skill feat. In addition, if you roll a Critical Failure on a Repair check, you get a failure instead.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [
       {
@@ -53,6 +54,13 @@
     "ancestry": {
       "name": "Gnoll",
       "uuid": "Compendium.pf2e.ancestries.vxbQ1Yw4qwgjTzqo"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

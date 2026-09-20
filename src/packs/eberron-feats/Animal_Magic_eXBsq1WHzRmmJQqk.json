@@ -17,7 +17,8 @@
       "value": "<p>Your shapeshifting grants you a magical connection to the animal world. You can cast animal messenger, calm emotions (animals only), and speak with animals as 2nd-level primal innate spells once per day each. These spells use your class DC or spell DC, whichever is higher.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -57,6 +58,13 @@
     "location": null,
     "featType": {
       "value": "ancestry"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

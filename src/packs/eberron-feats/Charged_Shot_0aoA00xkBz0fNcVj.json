@@ -17,7 +17,8 @@
       "value": "\n\n\n<p class=\"hang\"><strong>Trigger</strong> you used Arcane Blowback to reload a weapon.</p>\n<p class=\"hang\"><strong>Prerequisites</strong> Wandslinger Dedication</p>\n<hr />\n<p>As the discharge of your wands builds up arcane energy around you, you channel that overcharge of <span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">energy into a bullet form. Choose acid, cold, electricity, or fire. When you fire the bullet manifested by Arcane Blowback, you deal 1d6 additional damage of this type. At 12th level, this increases to 2d6 additional damage, and at 18th level, it increases to 3d6 additional damage.</span></p>\n"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -62,6 +63,13 @@
     "location": null,
     "featType": {
       "value": "archetype"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

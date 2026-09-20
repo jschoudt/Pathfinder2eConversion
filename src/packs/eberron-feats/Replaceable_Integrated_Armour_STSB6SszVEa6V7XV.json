@@ -17,7 +17,8 @@
       "value": "<p>Though it is an extremely uncomfortable process - less painful but akin to a human replacing their skin - you can replace your integrated armour. You can remove the integrated armour that you are wearing, and replace it with any other set of armour. This activity takes 1 hour, and while you replace your armour you are considered unarmoured and off-guard. When you complete the process, the new armour is incorporated into your body and has no bulk as a result. You can still never wear other armour on top of this armour, and can only have one integrated armour at a time. While this armour is integrated, you don't become fatigued from sleeping in it. As before, you can etch armour runes onto your armour while you are wearing it as normal.</p>\n<p>If you are removing the Integrated Armour from your Heritage, it is considered worthless scrap metal and can only be used as armour if you reincorporate it into your body.</p>\n<p> </p>\n<p class=\"hang\"><strong>Enhancement</strong> Your armour becomes more integrated into your body. You gain the @Compendium[pathfinders-guide-to-eberron.eberron-actions.qidQL3kHsPKdrGUH]{Chassis Deflection (Warforged)} reaction.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -57,6 +58,13 @@
     "location": null,
     "featType": {
       "value": "ancestry"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

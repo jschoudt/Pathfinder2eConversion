@@ -16,12 +16,12 @@
       "value": "<p>The artisans of Aerenal weave suits of armour from leaves and wood, which are then treated by a special process that makes them as tough and flexible as leather. This special process enables the many primal practitioners of the world a sturdy, yet entirely natural armour.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
-        "flexible",
-        "primal"
+        "comfort"
       ],
       "rarity": "common",
       "custom": "",
@@ -61,9 +61,9 @@
     },
     "equipped": {
       "carryType": "worn",
-      "invested": null,
+      "inSlot": true,
       "handsHeld": 0,
-      "inSlot": false
+      "invested": null
     },
     "stackGroup": null,
     "negateBulk": {
@@ -100,10 +100,8 @@
       "value": 1
     },
     "category": "light",
-    "group": null,
-    "strength": {
-      "value": 10
-    },
+    "group": "leather",
+    "strength": 10,
     "dex": {
       "value": 4
     },
@@ -131,7 +129,18 @@
     "propertyRune4": {
       "value": ""
     },
-    "potency": {}
+    "potency": {},
+    "acBonus": 1,
+    "dexCap": 4,
+    "checkPenalty": -1,
+    "speedPenalty": 0,
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    }
   },
   "ownership": {
     "default": 0,

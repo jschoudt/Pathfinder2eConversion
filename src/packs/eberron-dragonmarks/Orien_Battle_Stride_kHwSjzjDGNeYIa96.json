@@ -16,7 +16,8 @@
       "value": "<p class=\"hang\"><strong>Trigger</strong> An enemy you can see misses a melee strike against you.</p>\n<hr />\n<p>You have been trained to make your way through any danger that may be encountered on the road. When an enemy misses a melee strike against you, you may immediately @Compendium[pf2e.actionspf2e.UHpkTuCtyaPqiCAB]{Step}.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -57,7 +58,14 @@
     "prerequisites": {
       "value": []
     },
-    "location": null
+    "location": null,
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    }
   },
   "ownership": {
     "default": 0,

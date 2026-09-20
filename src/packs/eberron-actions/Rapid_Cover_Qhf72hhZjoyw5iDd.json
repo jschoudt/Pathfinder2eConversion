@@ -14,7 +14,8 @@
       "value": "<p class=\"hang\"><strong>Frequency</strong> Once per day</p>\n<p class=\"hang\"><strong>Requirements</strong> You are wielding a raised tower shield</p>\n<hr />\n<p class=\"hang\"> </p>\n<p>You are trained to hold the line against any charge. You may take cover behind the shield, gaining the higher bonus for the tower shield.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -52,7 +53,14 @@
     "trigger": {
       "value": ""
     },
-    "deathNote": false
+    "deathNote": false,
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    }
   },
   "_stats": {
     "systemId": "pf2e",

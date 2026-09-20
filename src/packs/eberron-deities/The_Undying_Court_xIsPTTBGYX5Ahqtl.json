@@ -16,7 +16,8 @@
       "value": "\n\n<p>The elves of Aerenal revere their ancient living dead as deities, seeking advice from immortal elves sustained by the power of Irian.<br /><strong>Areas of Concern</strong> Glory, history, patience, revelation, obedience.<br /><strong>Alignment</strong> NG<br /><strong>Divine Font</strong> Harm or Heal<br /><strong>Divine Ability</strong> Constitution or Wisdom<br /><strong>Divine Skill</strong> Society<br /><strong>Domains</strong> Death, Duty, Family, Knowledge, Magic, Perfection, Protection, Repose, Soul, Star, Sun, Undeath, Vigil<br /><strong>Cleric Spells</strong> 1st: share lore, 2nd: comprehend language, 3rd: hypercognition<br /><strong>Edicts</strong> Work toward collective transcendence of the court, seek to prove yourself worthy of immortality, go to death with dignity.<br /><strong>Anathema</strong> Disrespect the dead or the traditions of <span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">those around you, be cowardly in the face of death.<br /></span><strong style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">Favoured Weapon</strong><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\"> Scimitar</span></p>\n"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "category": "deity",
     "alignment": {
@@ -82,9 +83,11 @@
       "con"
     ],
     "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
       "license": "ORC",
       "remaster": true,
-      "title": "Pathfinder's Guide to Eberron"
+      "page": "N/A"
     }
   },
   "ownership": {

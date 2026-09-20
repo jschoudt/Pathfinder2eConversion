@@ -17,7 +17,8 @@
       "value": "<p>You make the most of your unarmed attacks. Whenever you score a critical hit with an unarmed attack you gained from your shifter heritage or a shifter ancestry feat, you apply the unarmed attack’s critical specialization effect.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -67,6 +68,13 @@
     "location": null,
     "featType": {
       "value": "ancestry"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

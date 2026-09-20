@@ -16,7 +16,8 @@
       "value": "\n\n<p>A swiftwing shifter's beast within is typically a bird such as an eagle or falcon but can have an animal representing any aerial predator. Swiftwing shifters often come across as twitchy or nervous but instead are incredibly perceptive and quick to respond to signs of danger. As adept scouts, Swiftwing shifters value perceptiveness and caution.</p>\n<p>While in your humanoid form, your lighter bones and connection to your beast within allows you to slow your falls. When you fall, you take only half the normal damage and don't land prone.</p>\n<p> </p>\n<h3>Hybrid form</h3>\n<p>Despite your beast within, flying is extraordinarily challenging for a swiftwing shifter. However, while in their hybrid form most can use a strong flap of their <span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">wings to travel longer distances when jumping. When in your hybrid form, if you leap horizontally, you move an additional 5 feet. You don't automatically fail your checks to High Jump or Long Jump if you don't Stride at least 10 feet first. In addition, when you make a Long Jump, you can jump a distance up to 10 feet further than your Athletics check result, though still with the normal maximum of your Speed. In addition, while in your hybrid form you take no damage from falling, regardless of the distance you fall.<br /><br />@Compendium[pathfinders-guide-to-eberron.eberron-actions.HR1o9o1Tb07jkqOC]{Change Shape (Swiftwing Shifter)}<br /></span></p>\n"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -46,6 +47,13 @@
     "ancestry": {
       "name": "Shifter",
       "uuid": "Compendium.pathfinders-guide-to-eberron.eberron-ancestries.NXVjPRJeIOOceUHp"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

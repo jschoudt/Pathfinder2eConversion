@@ -6,7 +6,8 @@
       "value": "<p>You flavour up to 1 bulk or 1 cubic foot of nonliving material; this lasts for one hour.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -95,7 +96,14 @@
     "secondarycheck": {
       "value": ""
     },
-    "overlays": {}
+    "overlays": {},
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    }
   },
   "type": "spell",
   "flags": {

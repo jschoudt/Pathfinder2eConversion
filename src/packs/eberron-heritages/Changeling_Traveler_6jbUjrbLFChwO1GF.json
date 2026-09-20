@@ -14,7 +14,8 @@
       "value": "<p>You're an urban nomad, wandering from city to city. You become trained in the Society Skill (or another skill if you were already trained in Society) and gain the @Compendium[pf2e.feats-srd.X2jGFfLU5qI5XVot]{Streetwise} skill feat. You have experience fitting into the local culture and blending with the common folk, so you're easily able to get a feel for the pulse of the local settlement. You may use the streetwise skill in any settlement in which you have spent at least a day.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [
       {
@@ -50,6 +51,13 @@
       "name": "Eberron Changeling",
       "slug": "eberron-changeling",
       "uuid": "Compendium.pathfinders-guide-to-eberron.eberron-ancestries.axOqZxs9V7XTg99i"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

@@ -13,7 +13,8 @@
       "value": "<p>When worn by a person whose mark has been attuned to the stone, a dragonmark focus increases the wearer’s effectiveness whenever they use any of the spell-like abilities of their mark.<br /><strong>Activation</strong> <span class=\"pf2-icon\">F</span>;<strong>Trigger</strong>: You cast a Dragonmark Focus Spell<br /><strong>Frequency</strong> Once per day<br /><strong>Effect</strong>: This focus grants a +1 item bonus the spell attack, DC, or skill check of Dragonmark Focus Spell.</p>\n<hr />\n<p class=\"hang\"><strong>Craft Requirements</strong> at least 42 gp of siberys shards</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -93,6 +94,13 @@
     },
     "level": {
       "value": 7
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "_stats": {

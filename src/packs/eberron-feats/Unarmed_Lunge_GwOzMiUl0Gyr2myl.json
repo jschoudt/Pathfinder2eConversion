@@ -17,7 +17,8 @@
       "value": "<p><strong>Requirements</strong> You have at least one hand free</p>\n<hr />\n<p>You have an extraordinarily long reach - and practice using it. With a combination of lunges and arcing swings, you can deliver blows at a distance on the battlefield. Make an unarmed Strike against a creature. This strike gains the Reach trait which does not stack with Reach from other sources. Alternatively, you can use make a Disarm, Shove, or Trip action instead of an unarmed Strike.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -57,6 +58,13 @@
     "location": null,
     "featType": {
       "value": "ancestry"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

@@ -6,7 +6,8 @@
       "value": "<p>You channel the agility of a jackrabbit to boost your speed. You become @Compendium[pf2e.conditionitems.nlCjDvLMf2EkV2dl]{Quickened 1}, you may only use this extra action to Stride or Step.</p>\n<hr />\n<p class=\"hang\"><strong>Heightened (6th)</strong> You become quickened 2.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [],
@@ -92,6 +93,13 @@
     },
     "secondarycheck": {
       "value": ""
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "type": "spell",

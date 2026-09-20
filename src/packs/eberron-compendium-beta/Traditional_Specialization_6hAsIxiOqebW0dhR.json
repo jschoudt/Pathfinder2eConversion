@@ -7,7 +7,8 @@
       "value": "<p>As a traditional artificer, you follow the established field and theories of Artifice. With long-standing techniques developed and refined by the artificers before you, your work explores and expands upon their great work. You have studied the arcane arts extensively and can use this knowledge to imbue your items with arcane abilities.</p>\n<p>Your spellcasting tradition is <strong>Arcane</strong>.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [
       {
@@ -44,7 +45,14 @@
     "prerequisites": {
       "value": []
     },
-    "location": null
+    "location": null,
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    }
   },
   "type": "feat",
   "flags": {

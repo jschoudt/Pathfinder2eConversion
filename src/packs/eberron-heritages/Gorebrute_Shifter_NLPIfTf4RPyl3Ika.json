@@ -16,7 +16,8 @@
       "value": "<p>Typically manifesting traits of a bull or ram, Gorebrute shifters can have traits of any animal with a violent charge. Gorebrute shifters value assertiveness and confidence, although these shifters' love for a challenge can be viewed as aggressive. These shifters tend to follow a code of honour or have strong principles of how one should carry themselves in conflict.</p>\n<p>You use your bulk to gain a +1 circumstance bonus to Athletics checks to Shove or Trip foes.</p>\n<p> </p>\n<h3>Hybrid form</h3>\n<p>While in your hybrid shape, gain a natural weapon of your animal such as horns or tusks to make unarmed attacks that deal 1d6 bludgeoning damage. Your natural weapon is in the brawling group and has the shove trait. <br /><br />@Compendium[pathfinders-guide-to-eberron.eberron-actions.MvtMOlIWxG52IwnN]{Change Shape (Gorebrute Shifter)}</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -75,6 +76,13 @@
     "ancestry": {
       "name": "Shifter",
       "uuid": "Compendium.pathfinders-guide-to-eberron.eberron-ancestries.NXVjPRJeIOOceUHp"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

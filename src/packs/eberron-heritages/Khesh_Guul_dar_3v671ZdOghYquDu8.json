@@ -16,7 +16,8 @@
       "value": "<p>Your stealth is uncanny, your step light, and your muddy yellow fur seems to blend with the natural world more than most bugbears. You are trained in Stealth (or another skill if you were already trained in Stealth). In addition, you gain @Compendium[pf2e.feats-srd.beyw5bdA5hkQbmaG]{Terrain Stalker}</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -52,6 +53,13 @@
     "ancestry": {
       "name": "Bugbear",
       "uuid": "Compendium.pathfinders-guide-to-eberron.eberron-ancestries.2UM9v9Towl9wT1th"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

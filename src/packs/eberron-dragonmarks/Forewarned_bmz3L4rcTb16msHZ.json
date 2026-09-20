@@ -16,7 +16,8 @@
       "value": "<p>Your dragonmark maintains your awareness of the world around you at all times, you gain a +1 status bonus to your perception. In addition, you are never off-guard to hidden enemies.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -57,7 +58,14 @@
     "prerequisites": {
       "value": []
     },
-    "location": null
+    "location": null,
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    }
   },
   "ownership": {
     "default": 0,

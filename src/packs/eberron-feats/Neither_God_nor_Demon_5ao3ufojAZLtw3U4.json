@@ -17,7 +17,8 @@
       "value": "\n\n\n\n<p class=\"hang\"><strong>Trigger</strong> You attempt a saving throw against a divine magical effect, but you haven't rolled yet.</p>\n<hr />\n<p>The Znir pact shattered the images of the fiends they once served and swore they would allow no one-not chib, god, or demon-to hold dominion over them. Channelling the power of your ancestors, you ferociously resist divine magic. You gain a +2 circumstance bonus against divine spells, and if you roll a critical failure on the saving throw against that spell, you get a failure instead.</p>\n"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [
       {
@@ -73,6 +74,13 @@
     "location": null,
     "featType": {
       "value": "ancestry"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

@@ -17,7 +17,8 @@
       "value": "<p>Your body rejects diseases with ease. Each time you succeed at a Fortitude save against an ongoing disease, you reduce its stage by 2, or by 1 against a virulent disease. Each critical success you achieve against an ongoing disease reduces its stage by 3, or by 2 against a virulent disease.</p>\n<p> </p>\n<p class=\"hang\"><strong>Enhancement</strong> You become immune to diseases altogether.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -57,6 +58,13 @@
     "location": null,
     "featType": {
       "value": "ancestry"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

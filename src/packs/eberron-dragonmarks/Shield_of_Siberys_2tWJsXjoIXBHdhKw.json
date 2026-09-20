@@ -16,7 +16,8 @@
       "value": "<p>Your dragonmark protects you against the powers of those cursed with aberrant dragonmarks. If a creature with an aberrant dragonmark comes within 60 feet of you, it becomes undetected to you unless it has taken special precautions.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -57,7 +58,14 @@
     "prerequisites": {
       "value": []
     },
-    "location": null
+    "location": null,
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    }
   },
   "ownership": {
     "default": 0,

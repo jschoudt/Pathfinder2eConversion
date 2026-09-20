@@ -13,7 +13,8 @@
       "value": "<p>Your dragonmark sustains your allies' endurance, enabling longer travel. You can only use this spell as an exploration activity, during the duration of the spell you and your allies in the area can move at double speed. You and your allies then become temporarily immune for 1 day. You can dismiss this spell, and it ends early if you exit exploration mode. </p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -115,6 +116,13 @@
     },
     "secondarycheck": {
       "value": ""
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "_stats": {

@@ -17,7 +17,8 @@
       "value": "<p>The Church of the Silver Flame is a Church that worships the power of the Silver Flame. They are dedicated to protecting the common people from evil.<br /><strong>Areas of Concern</strong> Protection, Defence of the Innocents, Destruction of supernatural evil<br /><strong>Alignment</strong> LG<br /><strong>Divine Font</strong> Heal<br /><strong>Divine Ability</strong> Wisdom or Charisma<br /><strong>Divine Skill</strong> Religion<br /><strong>Domains</strong> Confidence, Duty, Fire, Freedom, Might, Protection, Repose, Sun, Truth, Vigil, Zeal<br /><strong>Cleric Spells</strong> 1st: anticipate peril, 3rd: fireball, 4th: fire shield<br /><strong>Edicts</strong> Free others from oppression, defend the innocent from evil, work toward your best self and inspire others to follow.<br /><strong>Anathema</strong> Allow evil to spread unchecked, enslave or oppress others, dishonor yourself or disgrace others.<br /><strong>Favoured Weapon</strong> Longbow</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -80,9 +81,11 @@
       "cha"
     ],
     "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
       "license": "ORC",
       "remaster": true,
-      "title": "Pathfinder's Guide to Eberron"
+      "page": "N/A"
     }
   },
   "ownership": {

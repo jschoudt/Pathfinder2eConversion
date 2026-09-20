@@ -17,7 +17,8 @@
       "value": "<p>Whenever you change into your hybrid form, you gain the effects of Juvenile Flight, rather after than just once per day for 10 minutes. This includes the status bonus to your Speed if you have Fledgling Flight.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -64,6 +65,13 @@
     "location": null,
     "featType": {
       "value": "ancestry"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

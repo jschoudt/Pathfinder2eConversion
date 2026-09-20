@@ -16,7 +16,8 @@
       "value": "<p>Your aberrant dragonmark strikes at the hearts of dragonmarked foes you attack. When you strike a foe with a true dragonmark, you gain a +2 status bonus to damage. If your attack would deal more than one die of damage, the bonus is equal to 1 + the number of dice.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -57,7 +58,14 @@
     "prerequisites": {
       "value": []
     },
-    "location": null
+    "location": null,
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    }
   },
   "ownership": {
     "default": 0,

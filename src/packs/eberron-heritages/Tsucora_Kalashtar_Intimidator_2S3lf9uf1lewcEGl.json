@@ -16,7 +16,8 @@
       "value": "<h2>Tsucora Kalashtar</h2>\n<p>The tsucora are the quori of classic nightmares, feeding on terror. If you have this quori ancestry, you can choose one of the following paths.</p>\n<h3>Tsucora Intimidator</h3>\n<p>You become trained in intimidation (or another skill if you were already trained in intimidation) and gain the @Compendium[pf2e.feats-srd.xQMz6eDgX75WX2ce]{Intimidating Glare} feat. When you use the @Compendium[pf2e.actionspf2e.2u915NdUyQan6uKF]{Demoralize} action, you can instead bend the target's mind to inspire fear. If you do so, Demoralize gains the mental trait rather than the visual trait.  </p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -52,6 +53,13 @@
     "ancestry": {
       "name": "Kalashtar",
       "uuid": "Compendium.pathfinders-guide-to-eberron.eberron-ancestries.Fk955i74aVVUzOKt"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

@@ -17,7 +17,8 @@
       "value": "<p><strong>Frequency </strong>once per day</p>\n<p><strong>Trigger </strong>An ally within 30 feet of you makes a saving throw against an effect with the fear trait.</p>\n<hr />\n<p>You can use your reaction with a shout to reinforce your ally's courage in battle. If your ally can hear you, your ally gains a +2 circumstance bonus to their save.</p>\n<p><strong>Special</strong> You can use your reaction after you know the result of the check.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -60,6 +61,13 @@
     "location": null,
     "featType": {
       "value": "ancestry"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

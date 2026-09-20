@@ -16,7 +16,8 @@
       "value": "<p>Other members of a dragonmarked house, whether actual scions or important hired help, wear signet brooches to identify their affiliation.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -95,6 +96,13 @@
     },
     "level": {
       "value": 2
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

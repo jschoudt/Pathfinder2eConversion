@@ -7,7 +7,8 @@
       "value": "<p>Soarwood possesses a magical buoyancy. A soarwood item’s Bulk is reduced by 3 (or to light Bulk at minimum, with no effect on an item that normally has light Bulk). The Price of an item made of soarwood is based on the item’s normal Bulk, not its reduced Bulk for being made of soarwood, but reduce the Bulk before making any further Bulk adjustments for the size of the item. Soarwood is, however, not particularly fit for the purposes of armour, Shields, or Weapons.</p>\n<h2>Soarwood Items</h2>\n<table>\n<thead>\n<tr>\n<th><strong>Soarwood Items</strong></th>\n<th style=\"text-align:left\"><strong>Hardness</strong></th>\n<th style=\"text-align:left\"><strong>HP</strong></th>\n<th style=\"text-align:left\"><strong>BT</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Thin Items</strong></td>\n<td style=\"text-align:left\"> </td>\n<td style=\"text-align:left\"> </td>\n<td style=\"text-align:left\"> </td>\n</tr>\n<tr>\n<td>Standard-grade</td>\n<td style=\"text-align:left\">3</td>\n<td style=\"text-align:left\">10</td>\n<td style=\"text-align:left\">5</td>\n</tr>\n<tr>\n<td>High-grade</td>\n<td style=\"text-align:left\">5</td>\n<td style=\"text-align:left\">20</td>\n<td style=\"text-align:left\">10</td>\n</tr>\n<tr>\n<td><strong>Items</strong></td>\n<td style=\"text-align:left\"> </td>\n<td style=\"text-align:left\"> </td>\n<td style=\"text-align:left\"> </td>\n</tr>\n<tr>\n<td>Standard-grade</td>\n<td style=\"text-align:left\">5</td>\n<td style=\"text-align:left\">18</td>\n<td style=\"text-align:left\">9</td>\n</tr>\n<tr>\n<td>High-grade</td>\n<td style=\"text-align:left\">7</td>\n<td style=\"text-align:left\">28</td>\n<td style=\"text-align:left\">14</td>\n</tr>\n<tr>\n<td><strong>Structures</strong></td>\n<td style=\"text-align:left\"> </td>\n<td style=\"text-align:left\"> </td>\n<td style=\"text-align:left\"> </td>\n</tr>\n<tr>\n<td>Standard-grade</td>\n<td style=\"text-align:left\">12</td>\n<td style=\"text-align:left\">46</td>\n<td style=\"text-align:left\">23</td>\n</tr>\n<tr>\n<td>High-grade</td>\n<td style=\"text-align:left\">14</td>\n<td style=\"text-align:left\">56</td>\n<td style=\"text-align:left\">28</td>\n</tr>\n</tbody>\n</table>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -78,6 +79,13 @@
     },
     "usage": {
       "value": "held-in-one-hand"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "type": "equipment",

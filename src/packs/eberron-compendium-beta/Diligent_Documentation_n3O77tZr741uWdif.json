@@ -14,7 +14,8 @@
       "value": "<p>You are particularly adept at learning new imbuements to add to your formula book. You can use the Learn a Spell activity in half the time it normally takes. Further, when you roll a critical failure on your check to Learn an Imubement, you get a failure instead. When you roll a failure, you can try again after 1 week.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -50,7 +51,14 @@
     "prerequisites": {
       "value": []
     },
-    "location": null
+    "location": null,
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    }
   },
   "ownership": {
     "default": 0,

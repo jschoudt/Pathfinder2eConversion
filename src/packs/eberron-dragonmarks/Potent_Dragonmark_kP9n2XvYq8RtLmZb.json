@@ -30,7 +30,8 @@
       "title": "Pathfinder's Guide to Eberron",
       "authors": "",
       "license": "OGL",
-      "remaster": true
+      "remaster": true,
+      "page": "N/A"
     },
     "level": {
       "value": 9
@@ -53,7 +54,8 @@
     },
     "location": null,
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "schema": {
       "version": 0.812,

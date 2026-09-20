@@ -6,7 +6,8 @@
       "value": "<p>You may substitute your speciality for the creature for the duration of the spell. When the target creature makes the check, the creature may choose to use your modifier rather than their own. This check depends on your mark.<br /><strong>Mark of Detection</strong> perception<br /><strong>Mark of Finding</strong> perception<br /><strong>Mark of Handling</strong> nature<br /><strong>Mark of Healing</strong> medicine<br /><strong>Mark of Hospitality</strong> diplomacy<br /><strong>Mark of Making</strong> crafting<br /><strong>Mark of Passage</strong> acrobatics<br /><strong>Mark of Scribing</strong> lore<br /><strong>Mark of Sentinel</strong> athletics<br /><strong>Mark of Shadow</strong> stealth<br /><strong>Mark of Storm</strong> acrobatics<br /><strong>Mark of Warding</strong> thievery</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -98,6 +99,13 @@
     },
     "secondarycheck": {
       "value": ""
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "type": "spell",

@@ -16,7 +16,8 @@
       "value": "<p>Onatar is the patron of all those who make things, in particular artisans and artificers.<br /><strong>Areas of Concern</strong> Crafts, weapons, tools, smithing, fire, innovation<br /><strong>Alignment</strong> NG<br /><strong>Divine Font</strong> Heal<br /><strong>Divine Ability</strong> Strength or Intelligence<br /><strong>Divine Skill</strong> Crafting<br /><strong>Domains</strong> Creation, Fire, Toil<br /><strong>Cleric Spells</strong> 1st: temporary tool, 4th: creation, 7th: duplicate foe<br /><strong>Edicts</strong> Craft new creations, pay attention to details, share achievements.<br /><strong>Anathema</strong> Carelessly destroy others’ creations or research, enslave intelligent constructs, abuse constructs, refuse to acknowledge or learn from mistakes.<br /><strong>Favoured Weapon</strong> Warhammer</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "category": "deity",
     "alignment": {
@@ -75,9 +76,11 @@
       "int"
     ],
     "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
       "license": "ORC",
       "remaster": true,
-      "title": "Pathfinder's Guide to Eberron"
+      "page": "N/A"
     }
   },
   "ownership": {

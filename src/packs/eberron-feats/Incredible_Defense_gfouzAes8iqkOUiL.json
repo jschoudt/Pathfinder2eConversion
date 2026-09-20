@@ -17,7 +17,8 @@
       "value": "<p class=\"hang\"><strong>Prerequisites</strong> Juggernaut Warforged heritage</p>\n<p class=\"hang\"><strong>Trigger</strong> You attempt a saving throw</p>\n<p class=\"hang\"><strong>Frequency</strong> once per hour</p>\n<hr />\n<p>You brace yourself and your defences. When you attempt a saving throw, you gain a +2 status bonus to the triggering saving throw.</p>\n<p> </p>\n<p class=\"hang\"><strong>Enhancement</strong> You use your constructed nature to resist and endure as you were built to do. You can use Incredible Defense once per 10 minutes, rather than once per hour.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -61,6 +62,13 @@
     "location": null,
     "featType": {
       "value": "ancestry"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

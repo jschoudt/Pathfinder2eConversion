@@ -13,7 +13,8 @@
       "value": "<p class=\"hang\"><strong>Trigger</strong> You or an ally within range attempts a skill check to Recall Knowledge</p>\n<hr />\n<p>You call upon your dragonmark to recall the writ knowledge of old, granting the target a greater ability to think and recall information. Roll the triggering Recall Knowledge skill check twice and use the better result.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -112,6 +113,13 @@
     },
     "secondarycheck": {
       "value": ""
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

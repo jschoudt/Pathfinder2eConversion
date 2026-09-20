@@ -16,7 +16,8 @@
       "value": "\n\n\n<p>Cannith created many prototype warforged throughout the war. Many of them were experiments into advanced capabilities for war, some with more complex civilian purposes in mind. For whatever reason - whether the cost of production was prohibitive, or the capabilities did not meet expectations, or the war ended too soon - these Prototype Warforged were never released to the outside world of Khorvaire.</p>\n<p> </p>\n<p>As unique warforged design, work with your GM to figure out what you were created for. Select an integrated armour type, and you become trained in a skill and a 1st level skill feat associated with that skill.</p>\n"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -38,7 +39,14 @@
         }
       }
     },
-    "ancestry": null
+    "ancestry": null,
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    }
   },
   "ownership": {
     "default": 0,

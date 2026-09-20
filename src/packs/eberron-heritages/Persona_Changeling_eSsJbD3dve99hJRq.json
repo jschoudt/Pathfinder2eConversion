@@ -14,7 +14,8 @@
       "value": "\n<p>You have developed multiple personas that have developed as entirely separate lives - and are connected to the network of changeling personas across Khorvaire. You gain the @Compendium[pf2e.feats-srd.z1Z22gTp7J1VRLSR]{Different Worlds} feat. In addition, when you approach a new community you may already be aware of local changeling personas that you can use. At the GM's discretion, make a DC 15 flat check. If you succeed, you may interact with this settlement as if you had a second identity from the Different Worlds feat, but without the benefit of the lore skill. You could have already established a persona as a priest who will receive sustenance at the local temple, a folk hero who will be sheltered by the common people, or a veteran soldier who can always get a bed at the local garrison. Once this check has been made against a settlement, you may not make it again for another month.</p>\n"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [
       {
@@ -44,6 +45,13 @@
       "name": "Eberron Changeling",
       "slug": "eberron-changeling",
       "uuid": "Compendium.pathfinders-guide-to-eberron.eberron-ancestries.axOqZxs9V7XTg99i"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

@@ -17,7 +17,8 @@
       "value": "<p>You can change your skin pattern to more closely match your environment. While in cover or difficult terrain - including rubble, snow, or underbrush - you gain a +1 status bonus to your stealth checks to sneak, hide, or otherwise avoid detection.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -57,6 +58,13 @@
     "location": null,
     "featType": {
       "value": "ancestry"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

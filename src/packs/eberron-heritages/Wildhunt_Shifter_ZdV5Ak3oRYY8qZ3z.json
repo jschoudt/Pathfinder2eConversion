@@ -16,7 +16,8 @@
       "value": "\n\n<p>Wildhunt shifters typically show traits of the wolf, but their animal may be any type of hunting pack animal. Wildhunt shifters can be suspicious and untrusting, but their loyalty when earned is a nearly impossible bond to break.</p>\n<p>You gain imprecise scent with a range of 30 feet. This means you can use your sense of smell to determine a creature's location. The GM will usually double the range if you're downwind from the creature or halve the range if you're upwind.</p>\n<p>In addition, you gain a +2 circumstance bonus to @Compendium[pf2e.actionspf2e.EA5vuSgJfiHH7plD]{Track} a creature or object if you've smelled it before.</p>\n<p> </p>\n<h3>Hybrid form</h3>\n<p>While in your hybrid form, you can use the @Compendium[pf2e.actionspf2e.BlAOM2X92SI6HMtJ]{Seek} action to sense undetected creatures within a 30-foot burst instead of a 15-foot burst.<br /><br />@Compendium[pathfinders-guide-to-eberron.eberron-actions.5FOAu0NNTxW83NtH]{Change Shape (Wildhunt Shifter)}</p>\n"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -64,6 +65,13 @@
     "ancestry": {
       "name": "Shifter",
       "uuid": "Compendium.pathfinders-guide-to-eberron.eberron-ancestries.NXVjPRJeIOOceUHp"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

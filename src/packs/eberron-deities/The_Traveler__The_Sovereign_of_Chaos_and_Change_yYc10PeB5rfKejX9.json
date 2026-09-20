@@ -17,7 +17,8 @@
       "value": "\n\n\n\n\n<p>The chaotic neutral Traveler is the deity of trickery and change.<br /><strong>Areas of Concern</strong> Chaos, deception, evolution, invention, transformation<br /><strong>Alignment</strong> CN<br /><strong>Divine Font</strong> Heal, Harm<br /><strong>Divine Ability</strong> Dexterity or Wisdom<br /><strong>Divine Skill</strong> Survival<br /><strong>Domains</strong> Change, Creation, Fate, Freedom, Knowledge, Secrecy, Travel, Trickery<br /><strong>Cleric Spells</strong> 1st: illusory disguise, 2nd: invisibility, 3rd: nondetection, 4th: private sanctum<br /><strong>Edicts</strong> Live life freely, manipulate dangerous beings and opportunities to your benefit, thrive in hostile conditions.<br /><strong>Anathema</strong> Refuse a reasonable bet, let social pressure change your behaviour.<br /><strong>Favoured Weapon</strong> Scimitar</p>\n"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -84,9 +85,11 @@
       "dex"
     ],
     "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
       "license": "ORC",
       "remaster": true,
-      "title": "Pathfinder's Guide to Eberron"
+      "page": "N/A"
     }
   },
   "ownership": {

@@ -17,7 +17,8 @@
       "value": "\n\n\n<p class=\"hang\"><strong>Frequency</strong> Once per 10 minutes</p>\n<hr />\n<p>With a rapid change of your form, you take on a monstrous form for an instant before shifting back. When you Demoralize, you can choose to replace the auditory trait and with the visual trait. You can then attempt a demoralize check against each enemy that can see you within 30 feet.</p>\n"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -58,6 +59,13 @@
     "location": null,
     "featType": {
       "value": "ancestry"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

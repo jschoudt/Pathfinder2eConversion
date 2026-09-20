@@ -16,7 +16,8 @@
       "value": "<p>You call upon your dragonmark's power to aid your reflex and skill. When you Cast the Spell, any acrobatics actions with the Move trait, Piloting checks, or Sailing checks on a sea or air vehicles gain a +1 status bonus. This bonus remains as long as you Sustain the Spell.</p>\n<hr />\n<p class=\"hang\"><strong>Heightened (3rd)</strong> You do not need to sustain Windwright's Intuition.</p>\n<p class=\"hang\"><strong>Heightened (5th)</strong> The bonus increases to +2.</p>\n<p class=\"hang\"><strong>Heightened (7th)</strong> The duration is 1 hour.</p>\n<p class=\"hang\"><strong>Heightened (9th)</strong> The bonus increases to +3.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -114,6 +115,13 @@
     },
     "secondarycheck": {
       "value": ""
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

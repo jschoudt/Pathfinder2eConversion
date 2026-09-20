@@ -17,7 +17,8 @@
       "value": "<p class=\"hang\"><strong>Prerequisites</strong> Living Wand Warforged heritage</p>\n<hr />\n<p>You have attuned with the arcane runes etched into your construction. Select one 1st-level arcane spell and one 2nd-level or lower arcane spell, to which you have access. You can cast your chosen spells as arcane innate spells each once per day.</p>\n<p> </p>\n<p class=\"hang\"><strong>Enhancement</strong> Your attunement grows stronger. Select one 5th-level or lower arcane spell and one 6th-level or lower arcane spell, to which you have access. You can cast them as arcane innate spells each once per day, in addition to the original spells.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -61,6 +62,13 @@
     "location": null,
     "featType": {
       "value": "ancestry"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

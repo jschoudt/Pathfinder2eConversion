@@ -17,7 +17,8 @@
       "value": "<p> </p>\n<p>When you gain the fleeing condition, its value is reduced by 1 (to a minimum of 1). In addition, you may choose to Delay your turn even if you have the fleeing condition - standing resolute in the face of fear.</p>\n<p> </p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -61,6 +62,13 @@
     "location": null,
     "featType": {
       "value": "ancestry"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

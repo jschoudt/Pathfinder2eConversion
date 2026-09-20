@@ -7,7 +7,8 @@
       "value": "<p>Artifice has many paths to mastery, and your journey has led you to a specific specialization. You may have delved deep into the fundamentals of magic at an arcane institute, honed your skills on the front line of the last war, or have started your own magewright practice developing a unique approach to artifice that set you apart from your peers. This specialization is a blend of your unique talents and expertise, which shape the way you practice artifice.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [
       {
@@ -96,7 +97,14 @@
     "prerequisites": {
       "value": []
     },
-    "location": null
+    "location": null,
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    }
   },
   "type": "feat",
   "flags": {

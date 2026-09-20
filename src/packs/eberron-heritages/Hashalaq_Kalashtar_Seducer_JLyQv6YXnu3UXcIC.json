@@ -16,7 +16,8 @@
       "value": "<h2>Hashalaq Kalashtar</h2>\n<p>The hashalaq quori is a force that feeds on doubt and desire. You can choose one of the following paths.</p>\n<p> </p>\n<h3>Hashalaq Seducer</h3>\n<p>You become trained in Diplomacy (or another skill if you were already trained in Diplomacy). When you @Compendium[pf2e.actionspf2e.OX4fy22hQgUHDr0q]{Make an Impression} you gain a +2 circumstance bonus to your check and a +1 circumstance bonus to your @Compendium[pf2e.actionspf2e.DCb62iCBrJXy0Ik6]{Request} of Helpful NPCs.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -68,6 +69,13 @@
     "ancestry": {
       "name": "Kalashtar",
       "uuid": "Compendium.pathfinders-guide-to-eberron.eberron-ancestries.Fk955i74aVVUzOKt"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

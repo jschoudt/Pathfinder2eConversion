@@ -13,7 +13,8 @@
       "value": "\n\n\n\n\n\n\n\n\n<p>You summon a writhing mass of energy in a dragonlike form, a three-dimensional projection of your dragonmark. A living dragonmark appears where you designate within the spell’s range. Aberrant mark summons gains the Negative trait, while true mark summons gains the Positive trait.</p>\n\n\n<hr />\n<p class=\"hang\"><strong>Heightened (+1)</strong> the level of the @UUID[Compendium.pathfinders-guide-to-eberron.eberron-creatures.xcYCNgYm5HXMJiOd]{Greater Living Dragonmark} summoned increases by 2. Its AC, DCs, and Saves increase by the equivalent amount.</p>\n<p class=\"hang\"><strong>Heightened (9th)</strong> If you have a Siberys mark, you summon a @UUID[Compendium.pathfinders-guide-to-eberron.eberron-creatures.wijPvhyDjH8VHprE]{Siberys Living Dragonmark} instead of a Greater Living Dragonmark</p>\n"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -110,6 +111,13 @@
     },
     "secondarycheck": {
       "value": ""
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "_stats": {

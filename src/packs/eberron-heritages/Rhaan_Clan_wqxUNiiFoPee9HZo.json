@@ -16,7 +16,8 @@
       "value": "\n\n\n<p>Your clan is tied to the moon Rhaan - the Book.</p>\n<p>The Rhaan clan maintains the history of the clans through story and song, and you have a deeper connection to the Primal energies of the world. Choose one cantrip from the primal spell list. You can cast this spell as a primal innate spell at will. A cantrip is heightened to a spell rank equal to half your level rounded up.</p>\n<p>You can change this cantrip to a different one from the same list once per day by meditating and connecting to the Primal energies of Eberron; this is a 10-minute activity that has the concentrate trait.</p>\n"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -41,6 +42,13 @@
     "ancestry": {
       "name": "Gnoll",
       "uuid": "Compendium.pf2e.ancestries.vxbQ1Yw4qwgjTzqo"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

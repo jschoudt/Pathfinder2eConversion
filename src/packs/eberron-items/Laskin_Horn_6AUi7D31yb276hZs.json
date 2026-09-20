@@ -6,7 +6,8 @@
       "value": "<p class=\"hang\"><strong>Usage</strong> material component of a spell</p>\n<p class=\"hang\"><strong>Activate</strong> <span class=\"pf2-icon\">a</span> interact; <strong>Trigger</strong> You make a spell attack roll.</p>\n<hr />\n<p>When used as a material component (adding the material component to the spell if it doesn't already have it) for any spell that requires a spell attack roll. You gain a +1 item bonus to your attack roll.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -92,7 +93,14 @@
     "autoDestroy": {
       "value": true
     },
-    "spell": null
+    "spell": null,
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    }
   },
   "img": "systems/pf2e/icons/unarmed-attacks/antler.webp",
   "effects": [],

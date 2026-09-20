@@ -17,7 +17,8 @@
       "value": "<p class=\"hang\"><strong>Prerequisite</strong> Broad Link</p>\n<hr />\n<p>You have perfected your telepathic communication abilities and can maintain conversations with ease. Your Link Mind can target up to 6 creatures at once. While creatures are linked and in range, these creatures can converse not only with you but with each other target of the Link Mind. If the targets of Link Mind are directly communicating with each other they must share a language.  </p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -61,6 +62,13 @@
     "location": null,
     "featType": {
       "value": "ancestry"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

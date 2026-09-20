@@ -16,7 +16,8 @@
       "value": "<p>These projectiles are the only ammunition that can withstand the force of gnoll bows. The shaft of an arrow is made of darkwood. It is stabilized in flight by fletching at one end and bears a metal head on the other. To craft gnoll arrows, you must have at least 2cp worth of darkwood to form the shaft of the arrow. <br /> </p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [],
@@ -109,7 +110,14 @@
       "value": true,
       "_deprecated": true
     },
-    "spell": null
+    "spell": null,
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    }
   },
   "ownership": {
     "default": 0,

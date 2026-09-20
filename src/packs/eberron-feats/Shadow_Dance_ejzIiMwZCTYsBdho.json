@@ -17,7 +17,8 @@
       "value": "<p>You have practised the art of nimbly dancing through the shadows to remain unnoticed. You gain a +1 circumstance bonus to your acrobatics checks and Stealth checks while concealed. </p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [
       {
@@ -72,6 +73,13 @@
     "location": null,
     "featType": {
       "value": "ancestry"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

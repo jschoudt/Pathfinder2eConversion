@@ -6,7 +6,8 @@
       "value": "<p class=\"hang\"><strong>Usage</strong> material component of a spell</p>\n<p class=\"hang\"><strong>Activate</strong> <span class=\"pf2-icon\">a</span> interact; <strong>Trigger</strong> You cast an enchantment spell that targets at least one animal or beast</p>\n<hr />\n<p>When used as a material component (adding the material component to the spell if it doesn't already have it) for any enchantment spell that targets an animal or beast, the Masthin Shoots double the spell’s duration.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -91,7 +92,14 @@
     "autoDestroy": {
       "value": true
     },
-    "spell": null
+    "spell": null,
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    }
   },
   "img": "systems/pf2e/icons/equipment/consumables/other-consumables/golden-silencer.webp",
   "effects": [],

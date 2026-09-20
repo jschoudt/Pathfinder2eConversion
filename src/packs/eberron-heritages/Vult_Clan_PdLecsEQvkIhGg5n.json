@@ -16,7 +16,8 @@
       "value": "\n\n\n<p>Your clan is tied to the moon Vult - the Warding Moon.</p>\n<p>You gain the @Compendium[pf2e.feats-srd.BStw1cANwx5baL6d]{Armor Proficiency} general feat. In addition, you may cast the @Compendium[pf2e.spells-srd.TVKNbcgTee19PXZR]{Shield} cantrip as an innate occult spell at will. A cantrip is heightened to a spell rank equal to half your level rounded up.</p>\n"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -46,6 +47,13 @@
     "ancestry": {
       "name": "Gnoll",
       "uuid": "Compendium.pf2e.ancestries.vxbQ1Yw4qwgjTzqo"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

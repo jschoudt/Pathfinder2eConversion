@@ -14,7 +14,8 @@
       "value": "<p class=\"hang\"><strong>Trigger</strong> You use Spellfire to replace a ranged firearm strike.</p>\n<p class=\"hang\"><strong>Frequency</strong> until recharged (see below)</p>\n<hr />\n<p>You are the fastest wand in the west, east, south, and north. When you use Spellfire to replace a ranged firearm strike, you may interact to stow the wand, draw a loaded firearm, and make a regular strike as well. The spell follows the rules for Spellfire, while the strike follows the regular strike rules including multiple targets. This counts as an additional attack for your multiple attack penalty, but you don't apply the penalty until after you've completed strike. </p>\n<p class=\"hang\"> </p>\n<p>After you use Fastest Wand In the West, you can't do so again until you dissipate the arcane charge built up around you as a single action, which has the concentrate trait.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -51,7 +52,14 @@
     "trigger": {
       "value": ""
     },
-    "deathNote": false
+    "deathNote": false,
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    }
   },
   "_stats": {
     "systemId": "pf2e",

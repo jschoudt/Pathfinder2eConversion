@@ -14,7 +14,8 @@
       "value": "<p>You have a deep understanding of the crossbow. When you're wielding a crossbow and Interact to reload it, you gain a +2 circumstance bonus to the damage roll on your next Strike with that crossbow.</p>\n<p>If the crossbow is a simple crossbow, also increase the damage die size for that attack by one step.</p>\n<p>You must make the attack before the end of your turn or these benefits are lost.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [
       {
@@ -81,7 +82,14 @@
     "prerequisites": {
       "value": []
     },
-    "location": null
+    "location": null,
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    }
   },
   "ownership": {
     "default": 0,

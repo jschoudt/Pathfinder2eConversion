@@ -14,7 +14,8 @@
       "value": "<p class=\"hang\"><strong>Prerequisites</strong> Cantrip Constructor</p>\n<hr />\n<p>A greater understanding of your artifice broadens your range of simple imbuements.<br />You learn an additional three cantrip imbuements of your choice. Additionally, during your daily preparations you may add a total of five imbuement cantrips to your imbuement collection.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -54,7 +55,14 @@
         }
       ]
     },
-    "location": null
+    "location": null,
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    }
   },
   "ownership": {
     "default": 0,

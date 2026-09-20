@@ -108,12 +108,20 @@
       },
       "source": {
         "value": "Pathfinder's Guide to Eberron",
-        "author": ""
+        "author": "",
+        "page": "N/A"
       },
       "creatureType": "",
       "blurb": "",
       "publicNotes": "<p>Magewrights are the backbone of Khorvaire's arcane industry. Performing any role that a common tradesperson might, they weave magic into their productions to increase their efficiency and quality of product. The magewright chef is a 7th-level challenge when cooking or aiding in cooking.</p>",
-      "privateNotes": ""
+      "privateNotes": "",
+      "publication": {
+        "title": "Pathfinder's Guide to Eberron",
+        "authors": "",
+        "license": "ORC",
+        "remaster": true,
+        "page": "N/A"
+      }
     },
     "traits": {
       "value": [
@@ -185,7 +193,8 @@
           "value": ""
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "rules": [],
         "slug": null,
@@ -203,6 +212,13 @@
           "value": [],
           "rarity": "common",
           "custom": ""
+        },
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
         }
       },
       "_id": "7EvXS8W99w5s7VQW",
@@ -234,7 +250,8 @@
           "value": ""
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "rules": [],
         "slug": null,
@@ -252,6 +269,13 @@
           "value": [],
           "rarity": "common",
           "custom": ""
+        },
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
         }
       },
       "_id": "rg0JUYiUNAbWJ0cA",
@@ -283,7 +307,8 @@
           "value": ""
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "rules": [],
         "slug": null,
@@ -301,6 +326,13 @@
           "value": [],
           "rarity": "common",
           "custom": ""
+        },
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
         }
       },
       "_id": "Tq65ioRkMIv6EIpi",
@@ -332,7 +364,8 @@
           "value": ""
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "rules": [],
         "slug": null,
@@ -350,6 +383,13 @@
           "value": [],
           "rarity": "common",
           "custom": ""
+        },
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
         }
       },
       "_id": "zTmukBjMkjR1lZjL",
@@ -381,7 +421,8 @@
           "value": ""
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "rules": [],
         "slug": null,
@@ -406,6 +447,13 @@
           "value": [],
           "rarity": "common",
           "custom": ""
+        },
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
         }
       },
       "_id": "CsNbBH96y3jFVdGU",
@@ -438,7 +486,8 @@
           "value": "<p>Chefs have mastered the preparation of many types of food and drink. They gain a +1 circumstance bonus to checks to Craft food and drink.</p>"
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "rules": [],
         "slug": null,
@@ -474,6 +523,13 @@
         "deathNote": false,
         "actionCategory": {
           "value": ""
+        },
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
         }
       },
       "_id": "7SjvNpwxcYwEjAvq",
@@ -505,7 +561,8 @@
           "value": "<p><span class=\"text-pre\">Arcane ritual spells can be cast at will, however, the casting time becomes 10 minutes and gains the concentration trait instead of the normal casting time. In addition, the spell requires a material component of processed eberron dragonshards worth 2 gp x spell rank in addition to the normal material components.</span></p>"
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "rules": [],
         "slug": null,
@@ -541,6 +598,13 @@
         "deathNote": false,
         "actionCategory": {
           "value": ""
+        },
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
         }
       },
       "_id": "yY8LRBO2NCwRn12L",
@@ -572,7 +636,8 @@
           "value": ""
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "rules": [],
         "slug": "cookware",
@@ -639,6 +704,13 @@
         },
         "usage": {
           "value": "held-in-one-hand"
+        },
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
         }
       },
       "type": "equipment",
@@ -675,7 +747,8 @@
           "value": ""
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "rules": [],
         "slug": null,
@@ -748,6 +821,13 @@
         },
         "usage": {
           "value": "held-in-one-hand"
+        },
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
         }
       },
       "effects": [],
@@ -779,7 +859,8 @@
           "value": ""
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "rules": [],
         "slug": null,
@@ -852,6 +933,13 @@
         },
         "usage": {
           "value": "held-in-one-hand"
+        },
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
         }
       },
       "effects": [],
@@ -882,7 +970,8 @@
           "value": ""
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "rules": [],
         "slug": null,
@@ -921,6 +1010,13 @@
         },
         "attackEffects": {
           "value": []
+        },
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
         }
       },
       "_id": "jBpOCJMgiOyWdT5p",
@@ -952,7 +1048,8 @@
           "value": ""
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "rules": [],
         "slug": null,
@@ -993,6 +1090,13 @@
         },
         "attackEffects": {
           "value": []
+        },
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
         }
       },
       "_id": "iYmii0f5CTKi2JoP",
@@ -1023,7 +1127,8 @@
           "value": ""
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "rules": [],
         "slug": null,
@@ -1141,6 +1246,13 @@
           "value": [],
           "rarity": "common",
           "custom": ""
+        },
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
         }
       },
       "_id": "z0q3RHBnDaeix6yZ",
@@ -1172,7 +1284,8 @@
           "value": "<p>You chill or warm up to 1 bulk or 1 cubic foot of nonliving material.</p>"
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "rules": [],
         "slug": "prestidigitation",
@@ -1261,7 +1374,14 @@
         "secondarycheck": {
           "value": ""
         },
-        "overlays": {}
+        "overlays": {},
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
+        }
       },
       "type": "spell",
       "flags": {
@@ -1296,7 +1416,8 @@
           "value": "<p>You flavour up to 1 bulk or 1 cubic foot of nonliving material; this lasts for one hour.</p>"
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "rules": [],
         "slug": "prestidigitation",
@@ -1385,7 +1506,14 @@
         "secondarycheck": {
           "value": ""
         },
-        "overlays": {}
+        "overlays": {},
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
+        }
       },
       "type": "spell",
       "flags": {
@@ -1420,7 +1548,8 @@
           "value": "\n\n<p>You gain a +1 circumstance bonus to the next check you make with this set of tools. The spell then ends. If you integrate this spell into your downtime crafting activity, this bonus applies to the final crafting check.</p>\n"
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "rules": [],
         "slug": "prestidigitation",
@@ -1509,7 +1638,14 @@
         "secondarycheck": {
           "value": ""
         },
-        "overlays": {}
+        "overlays": {},
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
+        }
       },
       "type": "spell",
       "flags": {
@@ -1544,7 +1680,8 @@
           "value": ""
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "rules": [],
         "slug": null,
@@ -1651,6 +1788,13 @@
           "value": [],
           "rarity": "common",
           "custom": ""
+        },
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
         }
       },
       "_id": "rZ6tahT0CIwyFLNH",
@@ -1683,7 +1827,8 @@
           "value": "<p>See Arcane Ritual Spells entry.</p>\n<p>@Compendium[pf2e.spells-srd.qXTB7Ec9yYh5JPPV]{Purify Food and Drink}</p>"
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "rules": [],
         "slug": null,
@@ -1761,6 +1906,13 @@
         },
         "ability": {
           "value": ""
+        },
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
         }
       },
       "_id": "EwBBxywEIKipQrIP",

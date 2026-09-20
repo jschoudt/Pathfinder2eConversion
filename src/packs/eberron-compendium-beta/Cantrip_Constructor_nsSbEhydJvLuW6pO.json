@@ -14,7 +14,8 @@
       "value": "<p>You maintain a small set of imbuement catalyst scraps to create cantrip imbuements. A cantrip imbuement is a special type of imbuement that doesn't use imbuement slot. You can create a cantrip imbuement at will, any number of times per day. A cantrip is automatically heightened to half your level rounded up—this is usually equal to the highest level of imbuement catalyst you have.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -50,7 +51,14 @@
     "prerequisites": {
       "value": []
     },
-    "location": null
+    "location": null,
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    }
   },
   "ownership": {
     "default": 0,

@@ -17,7 +17,8 @@
       "value": "<p>When you spend downtime to use the Craft activity, with your proficiency in creating prototypes and planning ahead (or failing quickly), you may complete crafting projects faster. On a successful Craft check, you may reduce the remaining materials required by 1 day in addition to any further downtime you spend. If you are an expert in crafting you may reduce this by 2 days, master by 4 days, and legendary by 8 days.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -62,6 +63,13 @@
     "location": null,
     "featType": {
       "value": "skill"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

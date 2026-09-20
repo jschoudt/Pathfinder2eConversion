@@ -13,7 +13,8 @@
       "value": "<p>One of the reasons that aberrant marks are so feared, is their potential for causing unintentional harm resulting from their use. The Aberrant Feedback trait applies to most spells that an aberrant mark can cast.</p>\n<p>After you cast a focus spell with the Aberrant Feedback trait, you must make @Check[type:flat|dc:5] On a failure, you increase your @Compendium[pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained} condition by 1. On a critical failure, a random creature within 30 feet of the caster (potentially including the caster) takes 1d4 @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Persistent Damage} acid, cold, fire, bleeding, or poison damage of the GM's choice. This is in addition to increasing the caster's drained condition. The number of damage dice increases to two with a Lesser Mark, three with a Greater Mark, and four with a Siberys Mark.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -117,6 +118,13 @@
     "overlays": {},
     "heightening": {
       "damage": {}
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "_stats": {

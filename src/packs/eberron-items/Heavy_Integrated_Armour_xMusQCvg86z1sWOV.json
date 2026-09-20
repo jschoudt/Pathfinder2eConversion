@@ -16,12 +16,13 @@
       "value": "<p>Plate mail consists of interlocking plates that encase nearly the entire body in a carapace of steel. It is costly and heavy, and the wearer often requires help to don it correctly, but it provides some of the best defense armor can supply. A suit of this armor comes with an undercoat of padded armor and a pair of gauntlets.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
-        "bulwark",
         "comfort",
+        "bulwark",
         "hb_warforged"
       ],
       "rarity": "common",
@@ -60,9 +61,9 @@
     },
     "equipped": {
       "carryType": "worn",
-      "invested": null,
+      "inSlot": true,
       "handsHeld": 0,
-      "inSlot": false
+      "invested": null
     },
     "stackGroup": null,
     "negateBulk": {
@@ -100,9 +101,7 @@
     },
     "category": "heavy",
     "group": "plate",
-    "strength": {
-      "value": 18
-    },
+    "strength": 18,
     "dex": {
       "value": 0
     },
@@ -130,7 +129,18 @@
     "propertyRune4": {
       "value": null
     },
-    "potency": {}
+    "potency": {},
+    "acBonus": 6,
+    "dexCap": 0,
+    "checkPenalty": -3,
+    "speedPenalty": -10,
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    }
   },
   "ownership": {
     "default": 0,

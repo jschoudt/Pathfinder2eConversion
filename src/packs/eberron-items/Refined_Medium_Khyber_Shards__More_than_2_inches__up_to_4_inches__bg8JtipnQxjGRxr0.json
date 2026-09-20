@@ -6,7 +6,8 @@
       "value": "<p>The dragonshards reflect the orange-red glow of the molten rock, and the silhouette of a swirling dragonmark is barely visible within the smoky crystal.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -77,6 +78,13 @@
     },
     "level": {
       "value": 2
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "img": "systems/pf2e/icons/spells/etheric-shards.webp",

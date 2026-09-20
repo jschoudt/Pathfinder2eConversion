@@ -17,7 +17,8 @@
       "value": "\n\n\n<p>The Traveller's gifts have manifested an ability for you to read others, and see or trouble before it happens. You can cast @Compendium[pf2e.spells-srd.KHnhPHL4x1AQHfbC]{Mind Reading} once per day as an occult innate spell. When you do so, mind-reading loses the verbal and somatic casting requirements, and a critical failure becomes a failure instead.</p>\n"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -57,6 +58,13 @@
     "location": null,
     "featType": {
       "value": "ancestry"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

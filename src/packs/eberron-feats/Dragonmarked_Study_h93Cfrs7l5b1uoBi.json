@@ -17,7 +17,8 @@
       "value": "\n\n\n<p class=\"hang\"><strong>Prerequisites</strong> Dragonmarked Scion Dedication</p>\n<hr />\n<p>You study to hold more of your powers in mind, you may pick another dragonmark focus spell from your list. This spell can be up to the maximum level you can currently cast. <br /><strong>Special</strong> you may pick this feat multiple times, each time picking a different focus spell.</p>\n"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -62,6 +63,13 @@
     "location": null,
     "featType": {
       "value": "archetype"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

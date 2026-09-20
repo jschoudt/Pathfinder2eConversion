@@ -17,7 +17,8 @@
       "value": "<p>Gnolls often seem very aggressive to other creatures - partially because gnolls themselves don’t consider such casual intimidation to be a hostile act. You gain a +1 circumstance bonus to intimidation checks made while in exploration mode, and a +1 circumstance bonus to your Will DC against Intimidate skill actions, such as Demoralize.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [
       {
@@ -73,6 +74,13 @@
     "location": null,
     "featType": {
       "value": "ancestry"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

@@ -16,7 +16,8 @@
       "value": "<p>You can shake off effects that would incapacitate you on the battlefield. When you would gain the Stunned condition you reduce its value by 1 (to a minimum of 1). When you have the Confused condition you may spend your actions to do nothing or raise a shield on your turn.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -57,7 +58,14 @@
     "prerequisites": {
       "value": []
     },
-    "location": null
+    "location": null,
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    }
   },
   "ownership": {
     "default": 0,

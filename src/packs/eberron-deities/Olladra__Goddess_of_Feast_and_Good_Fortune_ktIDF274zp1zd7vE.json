@@ -16,7 +16,8 @@
       "value": "<p>Olladra is the neutral good deity of luck and plenty.<br /><strong>Areas of Concern</strong> Good fortune, feast, plenty<br /><strong>Alignment</strong> NG<br /><strong>Divine Font</strong> Heal<br /><strong>Divine Ability</strong> Constitution or Charisma<br /><strong>Divine Skill</strong> Performance<br /><strong>Domains</strong> Freedom, Indulgence, Luck<br /><strong>Cleric Spells</strong> 1st: anticipate peril, 2nd: Lucky Number, 3rd: Perseis's Precautions<br /><strong>Edicts</strong> Live life freely, drink, host generously, take chances.<br /><strong>Anathema</strong> Refuse a reasonable bet, be miserly with your hospitality.<br /><strong>Favoured Weapon</strong> Dagger</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "category": "deity",
     "alignment": {
@@ -75,9 +76,11 @@
       "cha"
     ],
     "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
       "license": "ORC",
       "remaster": true,
-      "title": "Pathfinder's Guide to Eberron"
+      "page": "N/A"
     }
   },
   "ownership": {

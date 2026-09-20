@@ -17,7 +17,8 @@
       "value": "<p>The Fury is the anger the smolders within. Her domains include Anger, Freedom, and Might.<br /><strong>Areas of Concern</strong> Anger, extremism, insanity, passion, revenge<br /><strong>Alignment</strong> NE<br /><strong>Divine Font</strong> Harm<br /><strong>Divine Ability</strong> Strength or Dexterity<br /><strong>Divine Skill</strong> Intimidation<br /><strong>Domains</strong> Ambition, Delirium, Destruction, Freedom, Might, Pain, Passion, Zeal<br /><strong>Cleric Spells</strong> 1st: true strike, 3rd: fireball, 4th: dimension door<br /><strong>Edicts</strong> Convey yourself with regal dignity, claim what you desire and deserve, seek vengeance upon those who wrong you.<br /><strong>Anathema</strong> Allow a slight to go unanswered, show humility or fear.<br /><strong>Favoured Weapon</strong> Rapier</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -79,9 +80,11 @@
       "dex"
     ],
     "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
       "license": "ORC",
       "remaster": true,
-      "title": "Pathfinder's Guide to Eberron"
+      "page": "N/A"
     }
   },
   "ownership": {

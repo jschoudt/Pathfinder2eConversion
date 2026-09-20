@@ -16,7 +16,8 @@
       "value": "<p>You were trained in the navigation and piloting of Lyrandar ships. You become trained in Sailing lore. At 3rd, 6th, and 13th levels, you gain an additional skill increase to Sailing lore. Additionally, if you have a Mark of Storm you may sail elemental ships using Lyrandar focus items.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -57,7 +58,14 @@
     "prerequisites": {
       "value": []
     },
-    "location": null
+    "location": null,
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    }
   },
   "ownership": {
     "default": 0,

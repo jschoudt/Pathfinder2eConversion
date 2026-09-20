@@ -6,7 +6,8 @@
       "value": "\n\n\n<p>One of the spells developed by the twelve to hunt Aberrant Marks, they found these dragonmark targeting spells could disable any dragonmark - not just Aberrant marks. The twelve determined it to be too great a risk to make public. However, this spell has since been acquired by various intelligence agencies, held until the day it may be necessary.</p>\n<p><br />Creatures with the dragonmark trait in the area become nauseated as their marks begin to writhe and dance on their skin. A<span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\"> creature must attempt a Will saving throw if it is inside the burst when you cast it, when it enters the burst, or when it ends its turn within the burst. </span>All creatures without the dragonmark trait automatically critically succeed.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.<br /><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditions.AdPVz7rbaVSRxHFg]{Fascinated} by its mark.<br /><strong>Failure</strong> The creature is@UUID[Compendium.pf2e.conditions.fesd1n5eVhpCSS18]{Sickened 1} and @UUID[Compendium.pf2e.conditions.AdPVz7rbaVSRxHFg]{Fascinated} by its mark.<br /><strong>Critical Failure</strong> The creature is @UUID[Compendium.pf2e.conditions.fesd1n5eVhpCSS18]{Sickened 2} and @UUID[Compendium.pf2e.conditions.AdPVz7rbaVSRxHFg]{Fascinated} by its mark.</p>\n"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [],
@@ -102,6 +103,13 @@
       "type": "interval",
       "interval": 1,
       "damage": {}
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "type": "spell",

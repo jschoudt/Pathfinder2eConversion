@@ -16,7 +16,8 @@
       "value": "<p>The Devourer is the deity of the raw power of nature, and the destruction it can bring.<br /><strong>Areas of Concern</strong> Devastation, hunger, nautical travel, storms, water<br /><strong>Alignment</strong> NE<br /><strong>Divine Font</strong> Harm<br /><strong>Divine Ability</strong> Strength or Constitution<br /><strong>Divine Skill</strong> Nature<br /><strong>Domains</strong> Change, Cold, Decay, Destruction, Dust, Lightning, Nature, Plague, Void, Water<br /><strong>Cleric Spells</strong> 1st: gust of wind, 3rd: lightning bolt, 5th: control water<br /><strong>Edicts</strong> Embrace the glorious power of the wilds, live free of social or materialistic chains.<br /><strong>Anathema</strong> Bring civilization to intrude on the wild, become civilized.<br /><strong>Favoured Weapon</strong> Trident</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "category": "deity",
     "alignment": {
@@ -78,9 +79,11 @@
       "con"
     ],
     "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
       "license": "ORC",
       "remaster": true,
-      "title": "Pathfinder's Guide to Eberron"
+      "page": "N/A"
     }
   },
   "ownership": {

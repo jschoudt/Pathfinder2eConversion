@@ -16,7 +16,8 @@
       "value": "<p>You are bigger than most bugbears, and you use that to your advantage. You are trained in Athletics (or another skill if you were already trained in Athletics). In addition, you gain @Compendium[pf2e.feats-srd.W6Gl9ePmItfDHji0]{Assurance - Athletics}</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -52,6 +53,13 @@
     "ancestry": {
       "name": "Bugbear",
       "uuid": "Compendium.pathfinders-guide-to-eberron.eberron-ancestries.2UM9v9Towl9wT1th"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

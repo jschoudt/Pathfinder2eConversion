@@ -7,7 +7,8 @@
       "value": "<p>While still volatile and unstable, additional refinement of Siberys Powder has created a small globe containing a highly refined solution of dragonshards held in a suspended state. While suspended in this globe, it is protected from water.</p>\n<p>When you interact to crush this globe against a magic item that has 0 charges remaining (such as a stave, but not a wand), the item regains charges equal to the following table. This cannot exceed its maximum number of charges.</p>\n<table>\n<thead>\n<tr>\n<th>Charges</th>\n<th style=\"text-align:center\">Level</th>\n<th style=\"text-align:center\">Price</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>2</td>\n<td>3</td>\n<td>12 GP</td>\n</tr>\n</tbody>\n</table>\n<hr />\n<p><strong>Crafting Requirements</strong> The initial raw materials must be half Siberys Powder by value.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -92,7 +93,14 @@
     "autoDestroy": {
       "value": true
     },
-    "spell": null
+    "spell": null,
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    }
   },
   "img": "systems/pf2e/icons/spells/glitterdust.webp",
   "effects": [],

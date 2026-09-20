@@ -17,7 +17,8 @@
       "value": "<p>You have a way of communicating that leaves others hanging on your words. You become trained in Diplomacy (or another skill if you are already trained in Diplomacy). You may pick Bargain Hunter, @Compendium[pf2e.feats-srd.0GF2j54roPFIDmXf]{Bon Mot}, @Compendium[pf2e.feats-srd.KpFetnUqTiweypZk]{Group Impression}, or @Compendium[pf2e.feats-srd.4RjDxgvNXNl5GG9d]{Hobnobber}. If you get a critical failure when using the skill feat you picked, it is a failure instead.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -57,6 +58,13 @@
     "location": null,
     "featType": {
       "value": "ancestry"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

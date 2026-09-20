@@ -108,12 +108,20 @@
       },
       "source": {
         "value": "Pathfinder's Guide to Eberron",
-        "author": ""
+        "author": "",
+        "page": "N/A"
       },
       "creatureType": "",
       "blurb": "",
       "publicNotes": "<p>Magewrights are the backbone of Khorvaire's arcane industry. Performing any role that a common tradesperson might, they weave magic into their productions to increase their efficiency and quality of product. The magewright healer is a 7th-level challenge when healing or aiding in medicine.</p>",
-      "privateNotes": ""
+      "privateNotes": "",
+      "publication": {
+        "title": "Pathfinder's Guide to Eberron",
+        "authors": "",
+        "license": "ORC",
+        "remaster": true,
+        "page": "N/A"
+      }
     },
     "traits": {
       "value": [
@@ -185,7 +193,8 @@
           "value": ""
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "rules": [],
         "slug": null,
@@ -203,6 +212,13 @@
           "value": [],
           "rarity": "common",
           "custom": ""
+        },
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
         }
       },
       "_id": "rg0JUYiUNAbWJ0cA",
@@ -234,7 +250,8 @@
           "value": ""
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "rules": [],
         "slug": null,
@@ -252,6 +269,13 @@
           "value": [],
           "rarity": "common",
           "custom": ""
+        },
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
         }
       },
       "_id": "Tq65ioRkMIv6EIpi",
@@ -283,7 +307,8 @@
           "value": ""
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "rules": [],
         "slug": null,
@@ -301,6 +326,13 @@
           "value": [],
           "rarity": "common",
           "custom": ""
+        },
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
         }
       },
       "_id": "zTmukBjMkjR1lZjL",
@@ -333,7 +365,8 @@
           "value": "<p>Magewright healers have worked in public health through pandemics and wars, gaining experience treating several patients at once and tending to all their needs. When a Magewright Healer uses Treat Disease or Treat Wounds, they can treat up to two targets.</p>"
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "rules": [],
         "slug": null,
@@ -369,6 +402,13 @@
         "deathNote": false,
         "actionCategory": {
           "value": ""
+        },
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
         }
       },
       "_id": "7SjvNpwxcYwEjAvq",
@@ -400,7 +440,8 @@
           "value": "<p><span class=\"text-pre\">Arcane ritual spells can be cast at will, however, the casting time becomes 10 minutes and gains the concentration trait instead of the normal casting time. In addition, the spell requires a material component of processed eberron dragonshards worth 2 gp x spell rank in addition to the normal material components.</span></p>"
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "rules": [],
         "slug": null,
@@ -436,6 +477,13 @@
         "deathNote": false,
         "actionCategory": {
           "value": ""
+        },
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
         }
       },
       "_id": "yY8LRBO2NCwRn12L",
@@ -467,7 +515,8 @@
           "value": ""
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "rules": [],
         "slug": null,
@@ -507,6 +556,13 @@
         },
         "attackEffects": {
           "value": []
+        },
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
         }
       },
       "_id": "jBpOCJMgiOyWdT5p",
@@ -537,7 +593,8 @@
           "value": ""
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "rules": [],
         "slug": null,
@@ -652,6 +709,13 @@
           "value": [],
           "rarity": "common",
           "custom": ""
+        },
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
         }
       },
       "_id": "z0q3RHBnDaeix6yZ",
@@ -683,7 +747,8 @@
           "value": "\n\n<p>You gain a +1 circumstance bonus to the next check you make with this set of tools. The spell then ends. If you integrate this spell into your downtime crafting activity, this bonus applies to the final crafting check.</p>\n"
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "rules": [],
         "slug": "prestidigitation",
@@ -772,7 +837,14 @@
         "secondarycheck": {
           "value": ""
         },
-        "overlays": {}
+        "overlays": {},
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
+        }
       },
       "type": "spell",
       "flags": {
@@ -807,7 +879,8 @@
           "value": ""
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "rules": [],
         "slug": null,
@@ -914,6 +987,13 @@
           "value": [],
           "rarity": "common",
           "custom": ""
+        },
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
         }
       },
       "_id": "rZ6tahT0CIwyFLNH",
@@ -946,7 +1026,8 @@
           "value": "<p>See Arcane Ritual Spells entry.</p>\n<p>@Compendium[pf2e.spells-srd.rfZpqmj0AIIdkVIs]{Heal}</p>"
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "rules": [],
         "slug": null,
@@ -1024,6 +1105,13 @@
         },
         "ability": {
           "value": ""
+        },
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
         }
       },
       "_id": "EwBBxywEIKipQrIP",
@@ -1054,7 +1142,8 @@
           "value": ""
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "rules": [],
         "slug": null,
@@ -1072,6 +1161,13 @@
           "value": [],
           "rarity": "common",
           "custom": ""
+        },
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
         }
       },
       "_id": "eaWo8o21NTHt4JQX",
@@ -1103,7 +1199,8 @@
           "value": ""
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "rules": [],
         "slug": null,
@@ -1121,6 +1218,13 @@
           "value": [],
           "rarity": "common",
           "custom": ""
+        },
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
         }
       },
       "_id": "BnDdAmNr11fIoUse",
@@ -1153,7 +1257,8 @@
           "value": "<p>This kit of bandages, herbs, and suturing tools is necessary for Medicine checks to Administer First Aid, Treat Disease, Treat Poison, or Treat Wounds. These can be used with 1 hand if you're wearing them.</p>"
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "rules": [],
         "slug": "healers-tools",
@@ -1220,6 +1325,13 @@
         },
         "usage": {
           "value": "held-in-two-hands"
+        },
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
         }
       },
       "type": "equipment",
@@ -1255,7 +1367,8 @@
           "value": "<p>Vitality energy shuts death's door. The target loses the @UUID[Compendium.pf2e.conditions.yZRUzMqrMmfLu0V1]{Dying} condition, though it remains @UUID[Compendium.pf2e.conditions.fBnFDH2MTzgFijKf]{Unconscious} at 0 Hit Points.</p>"
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "rules": [],
         "slug": "stabilize",
@@ -1346,6 +1459,13 @@
         },
         "secondarycheck": {
           "value": ""
+        },
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
         }
       },
       "type": "spell",

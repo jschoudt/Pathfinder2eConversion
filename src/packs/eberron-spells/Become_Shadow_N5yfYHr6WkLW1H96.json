@@ -13,7 +13,8 @@
       "value": "<p>You blend yourself with shadow, losing visual definition. For the duration, while in dim light or darkness, you gain a +2 status bonus to @Compendium[pf2e.actionspf2e.XMcnh4cSI32tljXa]{Hide} and @Compendium[pf2e.actionspf2e.VMozDqMMuK5kpoX4]{Sneak}. If you end your turn outside of dim light or darkness, the spell ends.</p>\n<hr />\n<p class=\"hang\"><strong>Heightened (6th) </strong>You do not need to sustain the spell.<br /><br /></p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -117,6 +118,13 @@
       "levels": {
         "6": {}
       }
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "_stats": {

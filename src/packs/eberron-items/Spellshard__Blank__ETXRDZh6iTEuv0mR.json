@@ -16,7 +16,8 @@
       "value": "<p>A spellcaster can mystically imprint spells into an Eberron dragonshard rather than physically writing them into a spellbook. A single spellshard is about the size of a human fist. The spellcaster can concentrate on the shard in order to bring any spell stored in it into focus; the spell appears as silvery writing within the swirling colours of the shard. Each Spellshard can hold up to 100 spells. The Price listed is for a blank Spellshard.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [],
@@ -92,6 +93,13 @@
     },
     "level": {
       "value": 0
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

@@ -7,7 +7,8 @@
       "value": "\n\n<p>In addition to your artificer's tools, your artifice is fueled by your imbuement catalysts. Imbuement catalysts are small sets of magical components, dragonshards, and precious materials primed to imbue items with magic. Each day during your daily preparations, you create up to one 1st-level imbuement catalyst. Your imbuement catalysts are expended to fuel your artifice, most importantly for the Quick Artifice activity. Your imbuement catalysts are part of the bulk of your artificer's tools.</p>\n\n\n<p>As soon as you make your next daily preparations, your imbuement catalysts from the previous day lose their power and expire. While imbuement catalysts are magical physical objects, they cannot be duplicated, preserved, or created in any way other than during your daily preparations. Since imbuement catalysts are part of your unique set of tools and specialization of artifice, you cannot use any imbuement catalysts you did not prepare yourself.</p>\n<p>As you increase in level as an artificer, the number and strength of the imbuement catalysts you can prepare increases, as shown in Table 6-2: Imbuement Catalysts Per Day.</p>\n"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": "infused-reagents",
@@ -36,7 +37,14 @@
     "prerequisites": {
       "value": []
     },
-    "location": null
+    "location": null,
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    }
   },
   "type": "feat",
   "flags": {

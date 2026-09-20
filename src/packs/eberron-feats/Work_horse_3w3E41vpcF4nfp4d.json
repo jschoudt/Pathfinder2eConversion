@@ -17,7 +17,8 @@
       "value": "<p>You can use your mass and strength to carry more than most humanoids for longer durations. You gain the @Compendium[pf2e.feats-srd.C0Tcelg3BAPhML6J]{Hefty Hauler} skill feat. In addition, when you have the encumbered condition, the speed penalty is reduced by 5.</p>\n<p> </p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -57,6 +58,13 @@
     "location": null,
     "featType": {
       "value": "ancestry"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

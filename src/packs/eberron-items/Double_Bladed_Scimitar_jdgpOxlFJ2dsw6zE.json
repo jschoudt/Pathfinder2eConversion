@@ -16,7 +16,8 @@
       "value": "\n\n<p>The Double-Bladed Scimitar is the signature weapon of Valenar elves. A haft of fine wood supports a long, curving blade on either end.</p>\n"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -156,6 +157,13 @@
       "criticalConditionValue": null,
       "strikeConditionType": "",
       "strikeConditionValue": null
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

@@ -44,14 +44,16 @@
       "custom": ""
     },
     "publication": {
-      "title": "",
+      "title": "Pathfinder's Guide to Eberron",
       "authors": "",
       "license": "OGL",
-      "remaster": false
+      "remaster": false,
+      "page": "N/A"
     },
     "ancestry": null,
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "schema": {
       "version": 0.812,

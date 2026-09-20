@@ -17,7 +17,8 @@
       "value": "<p>Balinor is a neutral nature deity associated with hunting and animal life.<br /><strong>Areas of Concern</strong> Animals, the hunt.<br /><strong>Alignment</strong> N<br /><strong>Divine Font</strong> Heal<br /><strong>Divine Ability</strong> Strength or Wisdom<br /><strong>Divine Skill</strong> Survival<br /><strong>Domains</strong> Air, Nature, Earth, Might<br /><strong>Cleric Spells</strong> 1st: pass without trace, 2nd: invisibility, 3rd: animal vision<br /><strong>Edicts</strong> Hunt and maintain the health of the forest, provide for your community, slay creatures terrorizing an area.<br /><strong>Anathema</strong> Take more than needed from the wilderness, hunt an animal for sport.<br /><strong>Favoured Weapon</strong> Longbow, Composite Longbow</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -79,9 +80,11 @@
       "str"
     ],
     "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
       "license": "ORC",
       "remaster": true,
-      "title": "Pathfinder's Guide to Eberron"
+      "page": "N/A"
     }
   },
   "ownership": {

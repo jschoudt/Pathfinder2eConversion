@@ -7,7 +7,8 @@
       "value": "<p>You can extend the range of your imbuements. If the next action you use is @Compendium[pathfinders-guide-to-eberron.eberron-compendium-beta.e2W8MsbaudIQx0DA]{Quick Artifice}, increase that imbuement’s range to 30 feet.</p>"
     },
     "source": {
-      "value": "Pathfinder Advanced Player's Guide"
+      "value": "Pathfinder Advanced Player's Guide",
+      "page": "N/A"
     },
     "rules": [],
     "slug": "reach-spell",
@@ -38,7 +39,14 @@
     "prerequisites": {
       "value": []
     },
-    "location": null
+    "location": null,
+    "publication": {
+      "title": "Pathfinder Advanced Player's Guide",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false,
+      "page": "N/A"
+    }
   },
   "type": "feat",
   "flags": {

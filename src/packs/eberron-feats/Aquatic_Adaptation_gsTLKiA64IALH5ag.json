@@ -17,7 +17,8 @@
       "value": "<p>When you use Shift Shape, you can choose one to manifest gills and webbing between your fingers. You can breathe underwater and gain a swimming speed equal to your walking speed. These changes are obvious to observers.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [
       {
@@ -76,6 +77,13 @@
     "location": null,
     "featType": {
       "value": "ancestry"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

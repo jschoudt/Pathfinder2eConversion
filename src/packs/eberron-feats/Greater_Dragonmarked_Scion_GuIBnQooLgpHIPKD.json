@@ -17,7 +17,8 @@
       "value": "\n\n\n<p class=\"hang\"><strong>Prerequisites</strong> Dragonmarked Scion Dedication, Lesser Mark</p>\n<hr />\n<p>You have trained to develop your talents and your dragonmark. You gain the @Compendium[pathfinders-guide-to-eberron.eberron-dragonmarks.VKwy41qLO6UQkgOy]{Greater Mark} feat.<br /><strong>Special</strong> Since this manifests a physical change in the powers and size of your dragonmark, you may not retrain out of this feat.</p>\n"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -62,6 +63,13 @@
     "location": null,
     "featType": {
       "value": "archetype"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

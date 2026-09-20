@@ -7,7 +7,8 @@
       "value": "<p><strong>Requirements</strong> You have the imbuement you're creating in your imbuement collection, and you're either holding or wearing @Compendium[pathfinders-guide-to-eberron.eberron-items.g1H0GwaLpQ5jelZj]{Artificer's Tools}.</p>\n<hr />\n<p>You rapidly apply your artifice to improvise a magical device. When you use Quick Artifice, select one of the imbuements in your imbuement collection, and expend an arcane fundamental of the imbuement's level or higher. The imbuement heightened to the level of the arcane fundamental.</p>\n<p>Quick Artifice is a special activity that takes a variable number of actions depending on the imbuement, as listed in each imbuement's stat block. As soon as the Quick Artifice activity is completed, the imbuement's effect occurs.</p>\n<p>Some imbuements are cast as a reaction or free action. In those cases, you can use Quick Artifice as a reaction or free action (as appropriate) instead of as an activity. Such cases will be noted in the imbuement's stat block.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": "quick-artifice",
@@ -40,6 +41,13 @@
     "deathNote": false,
     "weapon": {
       "value": ""
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "type": "action",

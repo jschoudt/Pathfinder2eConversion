@@ -16,7 +16,8 @@
       "value": "<p>@UUID[Compendium.pathfinders-guide-to-eberron.eberron-effects.m2FcRJbbhTiMtBDb]{Spell Effect: Primal Connection}<br /><br />You call upon your dragonmark's power to better interact with animals. When you Cast the Spell, any time you @Compendium[pf2e.actionspf2e.1OagaWtBpVXExToo]{Recall Knowledge (Nature)}, or @Compendium[pf2e.actionspf2e.q9nbyIF0PEBqMtYe]{Command an Animal} you gain a +1 status bonus to the skill used for the roll. If you target an animal, it gains a +1 status bonus to all skill checks that it makes. This bonus remains as long as you Sustain the Spell.</p>\n<hr />\n<p class=\"hang\"><strong>Heightened (3rd)</strong> You do not need to sustain Primal Connection.</p>\n<p class=\"hang\"><strong>Heightened (5th)</strong> The bonus increases to +2.</p>\n<p class=\"hang\"><strong>Heightened (7th)</strong> The duration is 1 hour.</p>\n<p class=\"hang\"><strong>Heightened (9th)</strong> The bonus increases to +3.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -114,6 +115,13 @@
     },
     "secondarycheck": {
       "value": ""
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

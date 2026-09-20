@@ -17,7 +17,8 @@
       "value": "<p>You have learned the ways of Kalashtar culture. You gain the trained proficiency rank in Diplomacy and Occultism. If you are already trained in both Diplomacy or Occultism (from your background or class, for example), you instead become trained in a skill of your choice. You also become trained in Kalashtar Lore.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -57,6 +58,13 @@
     "location": null,
     "featType": {
       "value": "ancestry"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

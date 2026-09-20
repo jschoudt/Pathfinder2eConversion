@@ -16,13 +16,11 @@
       "value": "\n\n\n\n<p class=\"hang\">Similar to leafweave armour, darkleaf armour is made of carefully cured and beautifully carved pieces of wood, supplemented by treated <span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">leaves. This special process enables the many primal practitioners of the world a sturdy, yet entirely natural armour.</span></p>\n"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
-      "value": [
-        "flexible",
-        "primal"
-      ],
+      "value": [],
       "rarity": "common",
       "custom": "",
       "otherTags": []
@@ -61,9 +59,9 @@
     },
     "equipped": {
       "carryType": "worn",
-      "invested": null,
+      "inSlot": true,
       "handsHeld": 0,
-      "inSlot": false
+      "invested": null
     },
     "stackGroup": null,
     "negateBulk": {
@@ -100,10 +98,8 @@
       "value": 3
     },
     "category": "medium",
-    "group": "composite",
-    "strength": {
-      "value": 14
-    },
+    "group": "chain",
+    "strength": 14,
     "dex": {
       "value": 2
     },
@@ -131,7 +127,18 @@
     "propertyRune4": {
       "value": ""
     },
-    "potency": {}
+    "potency": {},
+    "acBonus": 4,
+    "dexCap": 1,
+    "checkPenalty": -2,
+    "speedPenalty": -5,
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    }
   },
   "ownership": {
     "default": 0,

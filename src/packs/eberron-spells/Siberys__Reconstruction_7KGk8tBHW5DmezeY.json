@@ -13,7 +13,8 @@
       "value": "<p class=\"hang\"><strong>Frequency</strong> The strain of bending your dragonmark to replicate a specific spell is so great, that you can only cast this spell once per day - even if you have focus points to cast it with. </p>\n<hr />\n<p>With the powers of your mark, you can restore any item to its full grandeur. You can restore an item as if you cast the @UUID[Compendium.pf2e.spells.dMKP4fkWx8V2cqAy]{Remake} spell.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -111,6 +112,13 @@
     },
     "secondarycheck": {
       "value": ""
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

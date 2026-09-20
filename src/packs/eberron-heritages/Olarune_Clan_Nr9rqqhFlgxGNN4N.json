@@ -16,7 +16,8 @@
       "value": "\n\n\n<p>Your clan is tied to the moon Olarune - The Sentinel. Considered the strongest and most disciplined of the Znir gnolls, you gain the @Compendium[pf2e.feats-srd.jM72TjJ965jocBV8]{Shield Block} general feat and the @Compendium[pathfinders-guide-to-eberron.eberron-actions.Qhf72hhZjoyw5iDd]{Rapid Cover} <span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">action.</span></p>\n"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -50,6 +51,13 @@
     "ancestry": {
       "name": "Gnoll",
       "uuid": "Compendium.pf2e.ancestries.vxbQ1Yw4qwgjTzqo"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

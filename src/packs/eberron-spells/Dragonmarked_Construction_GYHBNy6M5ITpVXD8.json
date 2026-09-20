@@ -13,7 +13,8 @@
       "value": "<p class=\"hang\"><strong>Cast</strong> see replicated spell; dragonmark, somatic</p>\n<p class=\"hang\"><strong>Frequency</strong> The strain of bending your dragonmark to replicate a specific spell is so great, that you can only cast this spell once per day - even if you have focus points to cast it with. </p>\n<hr />\n<p>With a concentrated effort to bend the powers of your mark, you can replicate the effects of a spell.<br />    When you begin to cast Dragonmarked Construction, you can select a spell from the Dragonmarked Construction spell list at the heightened level of this spell or lower. Dragonmarked Construction gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions. The replicated spell is automatically heightened to the level of Dragonmarked Construction.<br />    A spell cast by Dragonmarked Construction doesn’t require material or verbal components but always requires a dragonmark and somatic component. If the spell requires a focus, you must still have that focus to cast the spell, and if the spell has a cost, you must still pay that cost to cast the spell.</p>\n<h3>Dragonmarked Construction Spell List</h3>\n<table>\n<thead>\n<tr>\n<th><strong>Heightened Level</strong></th>\n<th style=\"text-align:left\"><strong>Spell</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td style=\"text-align:left\">@UUID[Compendium.pf2e.spells.dINQzhqGmIsqGMUY]{Mending}, @UUID[Compendium.pf2e.spells.TPI9fRCAYsDqpAe4]{Temporary Tool}</td>\n</tr>\n<tr>\n<td>2</td>\n<td style=\"text-align:left\">@UUID[Compendium.pf2e.spells.lKcsmeOrgHtK4xQa]{Summon Construct}</td>\n</tr>\n<tr>\n<td>3</td>\n<td style=\"text-align:left\">@UUID[Compendium.pf2e.spells.jW2asKFchuoxniSH]{Dismantle}</td>\n</tr>\n<tr>\n<td>4</td>\n<td style=\"text-align:left\">@UUID[Compendium.pf2e.spells.kWh8sJH7yawidMyW]{Shrink Item}</td>\n</tr>\n<tr>\n<td>5</td>\n<td style=\"text-align:left\">@UUID[Compendium.pf2e.spells.TUj8eugNqAvB1vVR]{Creation}</td>\n</tr>\n<tr>\n<td>6</td>\n<td style=\"text-align:left\">Wall of Gears*</td>\n</tr>\n<tr>\n<td>7</td>\n<td style=\"text-align:left\">@UUID[Compendium.pathfinders-guide-to-eberron.eberron-spells.Ibn7daPF7LiOT3za]{Fabricate}*</td>\n</tr>\n<tr>\n<td>8</td>\n<td style=\"text-align:left\">@UUID[Compendium.pf2e.spells.peCF6VArm8urfwxZ]{Blade Barrier}</td>\n</tr>\n</tbody>\n</table>\n* New spell\n<hr />\n<p class=\"hang\"><strong>Heightened (3rd)</strong> You may cast Dragonmarked Construction up to twice per day. Only one of these casts may be from the heightened level 4 or above.</p>\n<p class=\"hang\"><strong>Heightened (6th)</strong> You may cast Dragonmarked Construction up to three times per day. Only one of these casts may be from the heightened level 4 or above.</p>\n<p class=\"hang\"><strong>Heightened (7th)</strong> You may cast Dragonmarked Construction up to three times per day. Only one of these casts may be from the heightened level 6 or above.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -111,6 +112,13 @@
     },
     "secondarycheck": {
       "value": ""
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "_stats": {

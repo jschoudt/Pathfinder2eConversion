@@ -16,7 +16,8 @@
       "value": "<p>Psionic blades appear as a shimmering, semi-transparent extension of the wielder's willpower. They often take the form of slender, elongated, razor-sharp constructs resembling traditional blades, though their appearances can be as varied as the imagination of the wielder.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -156,6 +157,13 @@
       "criticalConditionValue": null,
       "strikeConditionType": "",
       "strikeConditionValue": null
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

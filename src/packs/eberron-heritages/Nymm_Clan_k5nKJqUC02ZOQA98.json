@@ -17,7 +17,8 @@
       "value": "\n\n\n<p>Your clan is tied to the moon Nymm - the Crown.</p>\n<p>Your clan specializes in leadership in battle, and the ability to direct allies simultaneously. You gain access to the @Compendium[pathfinders-guide-to-eberron.eberron-actions.IcughynerInKafPq]{Bark Orders} action.</p>\n"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [
       {
@@ -47,6 +48,13 @@
     "ancestry": {
       "name": "Gnoll",
       "uuid": "Compendium.pf2e.ancestries.vxbQ1Yw4qwgjTzqo"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

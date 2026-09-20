@@ -16,7 +16,8 @@
       "value": "\n\n\n<p>The mockery is the deity that encompasses the war, combat, and trickery.<br /><strong>Areas of Concern</strong> Combat, dishonour, murder, terror, treachery.<br /><strong>Alignment</strong> NE<br /><strong>Divine Font</strong> Harm<br /><strong>Divine Ability</strong> Dexterity or Charisma <br /><strong>Divine Skill</strong> Deception<br /><strong>Domains</strong> Confidence, Destruction, Might, Pain, Passion, Trickery, Tyranny, Zeal<br /><strong>Cleric Spells</strong> 1st: penumbral shroud, 3rd: invisibility sphere, 6th: mislead<br /><strong>Edicts</strong> Seize any opportunity that would benefit you, solve your problems with violence, hide your true intentions.<br /><strong>Anathema</strong> Beg for help or mercy, let a slight go unanswered.<br /><strong>Favoured Weapon</strong> Kama</p>\n"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "category": "deity",
     "alignment": {
@@ -78,9 +79,11 @@
       "dex"
     ],
     "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
       "license": "ORC",
       "remaster": true,
-      "title": "Pathfinder's Guide to Eberron"
+      "page": "N/A"
     }
   },
   "ownership": {

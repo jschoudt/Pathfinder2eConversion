@@ -16,7 +16,8 @@
       "value": "<p>Your body is designed to be agile with some protection. Your integrated armour is light armour in the leather armour group that grants a +2 item bonus to AC, a Dex cap of +3, a check penalty of –1, and a Strength value of 12. This armour has no bulk, but you can never wear other armour or remove your integrated armour; however, you still don't become fatigued from sleeping. Finally, you can etch armour runes onto your armour as normal. </p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -59,9 +60,9 @@
     },
     "equipped": {
       "carryType": "worn",
-      "invested": null,
+      "inSlot": true,
       "handsHeld": 0,
-      "inSlot": false
+      "invested": null
     },
     "stackGroup": null,
     "negateBulk": {
@@ -99,9 +100,7 @@
     },
     "category": "light",
     "group": "leather",
-    "strength": {
-      "value": 12
-    },
+    "strength": 12,
     "dex": {
       "value": 3
     },
@@ -129,7 +128,18 @@
     "propertyRune4": {
       "value": null
     },
-    "potency": {}
+    "potency": {},
+    "acBonus": 2,
+    "dexCap": 3,
+    "checkPenalty": -1,
+    "speedPenalty": 0,
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    }
   },
   "ownership": {
     "default": 0,

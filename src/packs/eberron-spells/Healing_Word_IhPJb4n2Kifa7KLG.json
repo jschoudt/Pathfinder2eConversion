@@ -13,7 +13,8 @@
       "value": "<p>You call upon your dragonmark's power to heal the wounded. Your dragonmark channels a burst of vitality energy, healing a living creature. If you use healing word on a living target, they restore 4 Hit Points.</p>\n<hr />\n<p class=\"hang\"><strong>Heightened (+1)</strong> The amount of healing increases by 4.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -111,6 +112,13 @@
     },
     "secondarycheck": {
       "value": ""
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

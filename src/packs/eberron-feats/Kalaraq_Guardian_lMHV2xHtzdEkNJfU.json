@@ -17,7 +17,8 @@
       "value": "<p class=\"hang\"><strong>Prerequisites</strong> Kalaraq Kalashtar heritage<br /><strong>Trigger</strong> An ally under the effects of your Link Minds is hit by an attack or must make a saving throw, and the +1 circumstance bonus will change the level of success.</p>\n<hr />\n<p>The Kalaraq are the natural leaders of the Quori and can guide their followers to stand resolute. While an ally is under the effects of your Link Minds, you can choose to grant them a +1 circumstance bonus to their AC or saving throw.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -61,6 +62,13 @@
     "location": null,
     "featType": {
       "value": "ancestry"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

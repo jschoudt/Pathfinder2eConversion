@@ -16,7 +16,8 @@
       "value": "<h2>Kalaraq Kalashtar</h2>\n<p>Kalaraq are the natural leaders of the quori, spirits of pride and ambition. Though rarest of the kalashtar spiritual lineages, you depend on your allies as they depend on you. You become trained in Diplomacy (or another skill if you were already trained in Diplomacy). You must also choose one of the following paths.</p>\n<p> </p>\n<h3>Kalaraq Commander</h3>\n<p>Inhabiting a leader spirit of the quori, you exhibit a force of charisma that persuades others to listen to what you say. You become trained in Diplomacy (or another skill if you were already trained in Diplomacy). You gain the Group Impression skill feat. In addition, when you make a @Compendium[pf2e.feats-srd.KpFetnUqTiweypZk]{Group Impression} you can increase the number of targets by half rounded up.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -52,6 +53,13 @@
     "ancestry": {
       "name": "Kalashtar",
       "uuid": "Compendium.pathfinders-guide-to-eberron.eberron-ancestries.Fk955i74aVVUzOKt"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

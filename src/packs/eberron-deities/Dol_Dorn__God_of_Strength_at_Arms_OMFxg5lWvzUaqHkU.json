@@ -16,7 +16,8 @@
       "value": "<p>Dol Dorn is the chaotic good deity of war. His domains are Confidence, Duty, Might, Perfection, Protection, and Zeal.<br /><strong>Areas of Concern</strong> Physical perfection, strength, martial prowess<br /><strong>Alignment</strong> CG<br /><strong>Divine Font</strong> Heal<br /><strong>Divine Ability</strong> Strength or Constitution <br /><strong>Divine Skill</strong> Athletics<br /><strong>Domains</strong> Confidence, Duty, Might, Perfection, Protection, Zeal<br /><strong>Cleric Spells</strong> 1st: endure, 3rd: haste, 4th: stoneskin<br /><strong>Edicts</strong> Offer your strength to aid others, protect those weaker than you.<br /><strong>Anathema</strong> Engage in petty showcases of strength, use your strength to take advantage of others.<br /><strong>Favoured Weapon</strong> Longsword</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "category": "deity",
     "alignment": {
@@ -79,9 +80,11 @@
       "con"
     ],
     "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
       "license": "ORC",
       "remaster": true,
-      "title": "Pathfinder's Guide to Eberron"
+      "page": "N/A"
     }
   },
   "ownership": {

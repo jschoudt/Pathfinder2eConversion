@@ -17,7 +17,8 @@
       "value": "<p>When you land a melee strike, you can manifest a pulse of energy that warps the target's mind. You can add +2 psychic damage to your attacks. If this melee strike reduces a creature to 0 hit points, you can choose to make the blow non-lethal by using the pulse of psychic energy to ward off the mortal wounds of the strike. You do not take any penalty for using a weapon without the non-lethal trait to do so. </p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -58,6 +59,13 @@
     "location": null,
     "featType": {
       "value": "ancestry"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

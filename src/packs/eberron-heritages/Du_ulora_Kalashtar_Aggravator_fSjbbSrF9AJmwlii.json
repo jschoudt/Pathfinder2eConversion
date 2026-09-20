@@ -16,7 +16,8 @@
       "value": "\n\n<h2>Du'ulora Kalashtar</h2>\n<p>The fiendish du'ulora spirit inhabits your bloodline and is one that feeds on rage and aggression. You choose one of the following paths.<br /><strong>Special</strong> If at any point you gain access to the @Compendium[pf2e.feats-srd.vRXPsMbyuvoPvbAQ]{Moment of Clarity} feat through class or archetype, you automatically gain it from this heritage.</p>\n<p> </p>\n<h3>Du'ulora Aggravator</h3>\n<p>You learn to channel others' anger to blind your enemies with rage. You become trained in Intimidation (or another skill if you were already trained in Intimidation). In addition, when you use the @Compendium[pf2e.actionspf2e.QNAVeNKtHA0EUw4X]{Feint} action, you may make an Intimidation check instead of making a Deception check. <br /><br /></p>\n"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -48,6 +49,13 @@
     "ancestry": {
       "name": "Kalashtar",
       "uuid": "Compendium.pathfinders-guide-to-eberron.eberron-ancestries.Fk955i74aVVUzOKt"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

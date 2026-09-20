@@ -16,7 +16,8 @@
       "value": "<p>The power of your dragonmark turns your diplomacy into your shield. You gain a +1 status bonus to your AC against the strike.</p>\n<hr />\n<p class=\"hang\"><strong>Heightened (6th)</strong> The status bonus becomes +2</p>\n<p class=\"hang\"><strong>Heightened (9th)</strong> The status bonus becomes +3</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -114,6 +115,13 @@
     },
     "secondarycheck": {
       "value": ""
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

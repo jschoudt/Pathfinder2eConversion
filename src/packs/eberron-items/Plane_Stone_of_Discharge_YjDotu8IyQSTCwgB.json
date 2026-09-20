@@ -6,7 +6,8 @@
       "value": "<p>When this stone is created, choose one of acid (Kythri), cold (Risia), electricity (Shavarath), fire (Fernia), and sonic (Xoriat). This is the stone's energy resistance type.</p>\n<p class=\"hang\"><strong>Activate</strong> <span class=\"pf2-icon\">r</span> Interact;</p>\n<p class=\"hang\"><strong>Trigger</strong> You succeed on a melee Strike against a creature</p>\n<p class=\"hang\"><strong>Effect</strong> By channelling the powers of the plane, the effects of your strike are magnified. You gain a +1 circumstance bonus to damage, this damage type is the same as the stone type.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -78,6 +79,13 @@
     },
     "level": {
       "value": 1
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "img": "systems/pf2e/icons/spells/shape-stone.webp",

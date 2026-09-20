@@ -16,7 +16,8 @@
       "value": "<p>A character who has funds on deposit in a Kundarak bank can request from the bank a letter of credit, which allows them to withdraw funds from a different bank branch. Letters of credit are always notarized with arcane marks (usually by gnomes from House Sivis), making them practically impossible to forge.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [],
@@ -92,6 +93,13 @@
     },
     "level": {
       "value": 0
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

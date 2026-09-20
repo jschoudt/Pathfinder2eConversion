@@ -17,7 +17,8 @@
       "value": "\n\n<h1>Wandslinger (Class Archetype)</h1>\n<p>Wielding wands alongside weapons, wandslingers are masters of a new form of martial art - wandslinging. Wandslinging is the art of blending arcane spell duelling with martial combat efficiency, enabling wandslingers to perform feats of combat prowess that neither wizard nor fighter could. Though they cast spells, they do so through the use of widespread items - wands and staves - rather than by arcane incantation. The flexibility to perform in many roles, along with their tenacity, grit, and martial expertise, has begun to develop the wandslingers notable reputation throughout Khorvaire.  </p>\n<h2>Way of the Wandslinger (1st)</h2>\n<p>You've learned the intricacies of magic and wands, blending the two with deadly results. You combine a working knowledge of arcane theories with a strong connection to improvised wands that allows you to manifest spells in battle alongside your martial combat. You must select Wandslinger Dedication from the Wandslinger archetype as your 2nd-level class feat.</p>\n<p><strong>Prerequisites:</strong> Must be a gunslinger.</p>\n<p><strong>Wandslinger Adjustments:</strong> Instead of choosing a way from the options listed in the gunslinger class, you have the way of the wandslinger. It has the following way skill, slinger's reload, and deeds. You gain these abilities at the same levels as normal for the class. You use Intelligence for your class DC.</p>\n<p><strong>Way Skill</strong> Arcana<br /><strong>Slinger's Reload</strong> @Compendium[pathfinders-guide-to-eberron.eberron-actions.cM3wQTA8U9Fv1vMi]{Arcane Blowback}<br /><strong>Deeds</strong> <em>Initial</em> @Compendium[pathfinders-guide-to-eberron.eberron-actions.YKWPE2g6dbNPLMAF]{Quick Wand}; <em>Advanced</em> @Compendium[pathfinders-guide-to-eberron.eberron-actions.UfWA6yMPpEReMib8]{Spellfire}; <em>Greater</em> @Compendium[pathfinders-guide-to-eberron.eberron-actions.7Evv7rbb0Syrk2V1]{Fastest Wand In the West};</p>\n"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [
       {
@@ -84,6 +85,13 @@
     "location": null,
     "featType": {
       "value": "classfeature"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

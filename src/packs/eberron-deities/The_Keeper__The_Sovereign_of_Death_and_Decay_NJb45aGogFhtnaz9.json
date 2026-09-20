@@ -17,7 +17,8 @@
       "value": "<p>The Keeper is the deity typically associated with greeed.<br /><br /><strong>Areas of Concern</strong> Death, entropy, greed, hunger, time<br /><strong>Alignment</strong> NE<br /><strong>Divine Font</strong> Harm<br /><strong>Divine Ability</strong> Strength or Charisma <br /><strong>Divine Skill</strong> Theivery<br /><strong>Domains</strong> Death, Decay, Dust, Indulgence, Trickery, Wealth<br /><strong style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">Cleric Spells</strong><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\"> 1st: ill omen, 2nd: shatter, 6th: phantasmal calamity<br /></span><strong style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">Edicts</strong><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\"> Gain financial control over others, gather new wealth, count your riches.<br /></span><strong style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">Anathema</strong><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\"> Allow honour or tradition to prevent you from taking what you want, fail to take opportunities to increase your wealth.<br /></span><strong style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">Favoured Weapon</strong><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\"> Scythe</span></p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -77,9 +78,11 @@
       "cha"
     ],
     "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
       "license": "ORC",
       "remaster": true,
-      "title": "Pathfinder's Guide to Eberron"
+      "page": "N/A"
     }
   },
   "ownership": {

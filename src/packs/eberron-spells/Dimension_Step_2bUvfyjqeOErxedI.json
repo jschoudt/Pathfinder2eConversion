@@ -13,7 +13,8 @@
       "value": "<p>You instantly transfer yourself from your current location to another spot you can see within range. You always arrive at exactly the spot desired. You can bring along any objects you are touching as the spell is cast, so long as you are not encumbered. You cannot bring along other creatures.</p>\n<p>If this spell would put you in a place that is already occupied or is not empty, the spell fails.</p>\n<hr />\n<p class=\"hang\"><strong>Heightened (+2)</strong> the distance increases by 15 feet</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -117,6 +118,13 @@
       "type": "interval",
       "interval": 2,
       "damage": {}
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

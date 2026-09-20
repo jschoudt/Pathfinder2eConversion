@@ -16,7 +16,8 @@
       "value": "\n\n<p class=\"hang\">The dragonmarked houses of Khorvaire use these rings extensively for identification purposes.</p>\n"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -95,6 +96,13 @@
     },
     "level": {
       "value": 0
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

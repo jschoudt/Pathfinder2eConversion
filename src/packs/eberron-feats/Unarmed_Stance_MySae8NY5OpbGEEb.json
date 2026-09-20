@@ -17,7 +17,8 @@
       "value": "<p><strong>Requirements</strong> You have at least one hand free</p>\n<hr />\n<p>You take up a stance to take advantage of your long limbs and swing with large arcs to lash out at distant enemies. While you are in this stance, your unarmed Strikes, Disarm, Shove, and Trip actions gain the reach trait. This trait does not stack with reach from other sources such as unarmed lunge.</p>\n<p> </p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -58,6 +59,13 @@
     "location": null,
     "featType": {
       "value": "ancestry"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

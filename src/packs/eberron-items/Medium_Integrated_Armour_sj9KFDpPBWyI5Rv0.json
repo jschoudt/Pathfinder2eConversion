@@ -16,7 +16,8 @@
       "value": "<p>Your body is designed to be particularly resilient. Your integrated armour is medium armour in the plate armour group that grants a +4 item bonus to AC, a Dex cap of +1, a check penalty of –2, a speed penalty of –5 feet, and a Strength value of 16. This armour has no bulk, but you can never wear other armour or remove your integrated armour; however, you still don't become fatigued from sleeping. Finally, you can etch armour runes onto your armour as normal.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -59,9 +60,9 @@
     },
     "equipped": {
       "carryType": "worn",
-      "invested": null,
+      "inSlot": true,
       "handsHeld": 0,
-      "inSlot": false
+      "invested": null
     },
     "stackGroup": null,
     "negateBulk": {
@@ -99,9 +100,7 @@
     },
     "category": "medium",
     "group": "plate",
-    "strength": {
-      "value": 16
-    },
+    "strength": 16,
     "dex": {
       "value": 1
     },
@@ -129,7 +128,18 @@
     "propertyRune4": {
       "value": null
     },
-    "potency": {}
+    "potency": {},
+    "acBonus": 4,
+    "dexCap": 1,
+    "checkPenalty": -2,
+    "speedPenalty": -5,
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    }
   },
   "ownership": {
     "default": 0,

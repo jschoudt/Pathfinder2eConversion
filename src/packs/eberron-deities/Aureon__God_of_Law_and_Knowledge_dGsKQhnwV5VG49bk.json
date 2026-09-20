@@ -16,7 +16,8 @@
       "value": "<p>Aureon is lawful neutral and his domain is lore and magic.</p>\n<p><strong>Areas of Concern</strong> Law, knowledge, learning, logic, magic<br /><strong>Alignment</strong> LN<br /><strong>Divine Font</strong> Heal or Harm<br /><strong>Divine Ability</strong> Wisdom or Intelligence<br /><strong>Divine Skill</strong> Arcana<br /><strong>Domains</strong> Duty, Fate, Knowledge, Magic, Truth<br /><strong>Cleric Spells</strong> 1st: mage armour, 3rd: zone of truth, 7th: contingency<br /><strong>Edicts</strong> Seek out lost lore, to make discoveries, and increase their magical power.<br /><strong>Anathema</strong> Fail to stop abuses of magic or hunt down lawbreakers and dangerous creatures of wild magic.<br /><strong>Favoured Weapon</strong> Staff</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "category": "deity",
     "alignment": {
@@ -79,9 +80,11 @@
       "int"
     ],
     "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
       "license": "ORC",
       "remaster": true,
-      "title": "Pathfinder's Guide to Eberron"
+      "page": "N/A"
     }
   },
   "ownership": {

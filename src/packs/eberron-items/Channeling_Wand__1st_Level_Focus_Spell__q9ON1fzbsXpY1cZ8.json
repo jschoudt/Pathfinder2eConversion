@@ -6,7 +6,8 @@
       "value": "<p>A channelling wand is a short metal wand tipped with a Siberys dragonshard. Each wand is tied to a specific dragonmark, such as the Mark of Healing or the Mark of Making, and you can only attune to it if you possess that dragonmark.</p>\n<p><strong>Activation</strong> (Cast a Spell);</p>\n<p><strong>Frequency</strong> Once per day, plus overcharge;</p>\n<p><strong>Effect</strong> you can cast the selected focus spell of your house at the indicated level.</p>\n<p><strong>Craft Requirements</strong> Supply a listed-level casting of the spell; At least 25% of the crafting material value must be Siberys shards.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -78,6 +79,13 @@
     },
     "level": {
       "value": 3
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "img": "systems/pf2e/icons/features/classes/wand.webp",

@@ -107,12 +107,20 @@
       },
       "source": {
         "value": "Pathfinder's Guide to Eberron",
-        "author": ""
+        "author": "",
+        "page": "N/A"
       },
       "creatureType": "",
       "blurb": "",
       "publicNotes": "<p>Magewrights are the backbone of Khorvaire's arcane industry. Performing any role that a common tradesperson might, they weave magic into their productions to increase their efficiency and quality of product. The magewright smith is a 7th-level challenge when competing with smithing or other crafting tasks.</p>",
-      "privateNotes": ""
+      "privateNotes": "",
+      "publication": {
+        "title": "Pathfinder's Guide to Eberron",
+        "authors": "",
+        "license": "ORC",
+        "remaster": true,
+        "page": "N/A"
+      }
     },
     "traits": {
       "value": [
@@ -184,7 +192,8 @@
           "value": ""
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "traits": {
           "value": [],
@@ -202,6 +211,13 @@
         },
         "proficient": {
           "value": 0
+        },
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
         }
       },
       "_id": "rg0JUYiUNAbWJ0cA",
@@ -232,7 +248,8 @@
           "value": ""
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "traits": {
           "value": [],
@@ -250,6 +267,13 @@
         },
         "proficient": {
           "value": 0
+        },
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
         }
       },
       "_id": "Tq65ioRkMIv6EIpi",
@@ -280,7 +304,8 @@
           "value": ""
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "traits": {
           "value": [],
@@ -405,6 +430,13 @@
         },
         "autoHeightenLevel": {
           "value": null
+        },
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
         }
       },
       "_id": "z0q3RHBnDaeix6yZ",
@@ -435,7 +467,8 @@
           "value": ""
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "traits": {
           "value": [],
@@ -453,6 +486,13 @@
         },
         "proficient": {
           "value": 0
+        },
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
         }
       },
       "_id": "mJSuUcwYvnqT9E4i",
@@ -484,7 +524,8 @@
           "value": "<p>You need these tools to create items from raw materials with the Craft skill. Different sets are needed for different work, as determined by the GM; for example, blacksmith's tools differ from woodworker's tools. These can be used with 1 hand if you're wearing them.</p>"
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "traits": {
           "value": [],
@@ -551,6 +592,13 @@
         },
         "level": {
           "value": 0
+        },
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
         }
       },
       "type": "equipment",
@@ -585,7 +633,8 @@
           "value": "<p>This armor is simply a layer of heavy, quilted cloth, but it is sometimes used because it's so inexpensive. Padded armor is easier to damage and destroy than other types of armor. Heavy armor comes with a padded armor undercoat included in its Price, though it loses the comfort trait when worn under heavy armor. You can wear just that padded armor or undercoat to sleep in, if your heavy armor is destroyed, or when otherwise not wearing the full heavy armor. This allows you to keep the armor invested and benefit from the power of any runes on the associated heavy armor, but no one else can wear your heavy armor without the padded undercoat.</p>"
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "traits": {
           "value": [
@@ -692,7 +741,14 @@
         "propertyRune4": {
           "value": null
         },
-        "potency": {}
+        "potency": {},
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
+        }
       },
       "type": "armor",
       "flags": {
@@ -726,7 +782,8 @@
           "value": "<p>This smaller version of the warhammer has a wooden or metal shaft ending in a metal head. Unlike its heavier cousin, it is light enough to throw.</p>"
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "traits": {
           "value": [
@@ -852,6 +909,13 @@
           "critDie": "",
           "critDamage": "",
           "critDamageType": ""
+        },
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
         }
       },
       "type": "weapon",
@@ -886,7 +950,8 @@
           "value": "<p><span class=\"text-pre\"><strong>Trigger</strong> A creature Casts a Spell the Wandslinger has prepared; <strong>Effect</strong> The Wandslinger expends a prepared spell to counter the triggering creature's casting of that same spell. The Wandslinger loses its spell slot as if it had cast the triggering spell. The Wandslinger then attempts to counteract the triggering spell.</span></p>"
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "traits": {
           "value": [],
@@ -921,7 +986,14 @@
         "trigger": {
           "value": ""
         },
-        "deathNote": false
+        "deathNote": false,
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
+        }
       },
       "_id": "QCFkeUblO0H7Yhv3",
       "effects": [],
@@ -950,7 +1022,8 @@
           "value": ""
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "traits": {
           "value": [],
@@ -968,6 +1041,13 @@
         },
         "proficient": {
           "value": 0
+        },
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
         }
       },
       "_id": "QVKDHWVfAxPPf4nR",
@@ -998,7 +1078,8 @@
           "value": ""
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "traits": {
           "value": [],
@@ -1016,6 +1097,13 @@
         },
         "proficient": {
           "value": 0
+        },
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
         }
       },
       "_id": "tM8NpuHAuG45D28U",
@@ -1046,7 +1134,8 @@
           "value": ""
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "traits": {
           "value": [],
@@ -1064,6 +1153,13 @@
         },
         "proficient": {
           "value": 0
+        },
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
         }
       },
       "_id": "lvKuPf9soBuHjrGf",
@@ -1095,7 +1191,8 @@
           "value": "<p>You send a dart of force streaking toward a creature that you can see. It automatically hits and deals 1d4+1 force damage. For each additional action you use when Casting the Spell, increase the number of missiles you shoot by one, to a maximum of three missiles for 3 actions. You choose the target for each missile individually. If you shoot more than one missile at the same target, combine the damage before applying bonuses or penalties to damage, resistances, weaknesses, and so forth.</p>\n<hr />\n<p><strong>Heightened (+2)</strong> You shoot one additional missile with each action you spend.</p>"
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "traits": {
           "value": [
@@ -1194,6 +1291,13 @@
         },
         "secondarycheck": {
           "value": ""
+        },
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
         }
       },
       "type": "spell",
@@ -1227,7 +1331,8 @@
           "value": "<p>You unleash a bolt of physical power at a creature or object within range. Make a spell attack roll. The blast deals force damage equal to 1d6 + your spellcasting ability modifier.</p>\n<p><strong>Critical Success</strong> You deal double damage.<br /><strong>Success</strong> You deal full damage.</p>\n<hr />\n<p class=\"hang\"><strong>Heightened (+1)</strong> The damage increases by 1d6</p>"
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "traits": {
           "value": [
@@ -1334,6 +1439,13 @@
         },
         "secondarycheck": {
           "value": ""
+        },
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
         }
       },
       "type": "spell",
@@ -1369,7 +1481,8 @@
           "value": "<p>You raise a magical shield of force. This counts as using the Raise a Shield action, giving you a +1 circumstance bonus to AC until the start of your next turn, but it doesn't require a hand to use.</p>\n<p>While the spell is in effect, you can use the @UUID[Compendium.pf2e.feats.jM72TjJ965jocBV8]{Shield Block} reaction with your magic shield. The shield has Hardness 5. After you use Shield Block, the spell ends and you can't cast it again for 10 minutes. Unlike a normal Shield Block, you can use the spell's reaction against the <em>@UUID[Compendium.pf2e.spells.gKKqvLohtrSJj3BM]{Magic Missile}</em> spell.</p>\n<p>Heightening the spell increases the shield's Hardness.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Jemq5UknGdMO7b73]{Spell Effect: Shield}</p>\n<p>@UUID[Compendium.pf2e.spell-effects.QF6RDlCoTvkVHRo4]{Effect: Shield Immunity}</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> The shield has Hardness 10.</p>\n<p><strong>Heightened (5th)</strong> The shield has Hardness 15.</p>\n<p><strong>Heightened (7th)</strong> The shield has Hardness 20.</p>\n<p><strong>Heightened (9th)</strong> The shield has Hardness 25.</p>"
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "traits": {
           "value": [
@@ -1459,6 +1572,13 @@
         },
         "secondarycheck": {
           "value": ""
+        },
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
         }
       },
       "type": "spell",
@@ -1493,7 +1613,8 @@
           "value": "<p>You cloud the target's mind and daze it with a mental jolt. The jolt deals mental damage equal to your spellcasting ability modifier; the target must attempt a basic Will save. If the target critically fails the save, it is also @UUID[Compendium.pf2e.conditions.dfCMdR4wnpbYNTix]{Stunned 1}.</p>\n<hr />\n<p><strong>Heightened (+2)</strong> The damage increases by 1d6.</p>"
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "traits": {
           "value": [
@@ -1600,6 +1721,13 @@
         },
         "secondarycheck": {
           "value": ""
+        },
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
         }
       },
       "type": "spell",

@@ -17,7 +17,8 @@
       "value": "<p>You have come to better understand the process that made your body and the magic that powers it. You gain the trained proficiency rank in Arcana and Crafting. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also become trained in Warforged Lore.</p>\n<p> </p>\n<p class=\"hang\"><strong>Enhancement</strong> You gain a greater understanding of your creation. Increase your proficiency rank in either Arcana or Crafting, as well as Warforged Lore, to expert. If you were already an expert in the chosen skill, increase your rank to master instead.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -57,6 +58,13 @@
     "location": null,
     "featType": {
       "value": "ancestry"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

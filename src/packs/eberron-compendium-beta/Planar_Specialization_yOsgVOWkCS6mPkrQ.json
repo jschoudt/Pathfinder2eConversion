@@ -7,7 +7,8 @@
       "value": "<p>As a Planar Artificer, you possess a deep knowledge of the arcane forces that underlie Eberron, and are able to channel these energies into your creations. You draw directly on the primal energies of the planes and ley lines. Instead of using standard arcane components, you may use pieces of the planes themselves to create temporary micro-manifest zones, giving you unparalleled control over the fundamental forces of reality.</p>\n<p>Your spellcasting tradition is <strong>Primal</strong>.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [
       {
@@ -44,7 +45,14 @@
     "prerequisites": {
       "value": []
     },
-    "location": null
+    "location": null,
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    }
   },
   "type": "feat",
   "flags": {

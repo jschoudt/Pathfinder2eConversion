@@ -17,7 +17,8 @@
       "value": "<p>You can communicate your directed messages with greater power. The range of Link Mind is doubled, and you no longer need to see the creature to target them with link mind. Though you do not need to see them, they cannot be Unnoticed or Undetected to you when you initiate your Link Mind. </p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -57,6 +58,13 @@
     "location": null,
     "featType": {
       "value": "ancestry"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

@@ -17,7 +17,8 @@
       "value": "<p>When you use Shift Shape, you can choose one to manifest an increased climbing ability. This can be a set of claws, modified arms, or some other set of obvious physical changes that aid your climb. You gain a climb speed of 10 feet. These changes are obvious to observers.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [
       {
@@ -72,6 +73,13 @@
     "location": null,
     "featType": {
       "value": "ancestry"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

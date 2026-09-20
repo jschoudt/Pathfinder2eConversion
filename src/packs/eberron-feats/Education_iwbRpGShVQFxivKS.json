@@ -17,7 +17,8 @@
       "value": "<p class=\"hang\"><strong>Prerequisite</strong> you may only take this feat at 1st level</p>\n<hr />\n<p>Some lands hold the pen in higher regard than the sword. In your youth, you received the benefit of several years of formal schooling. You become trained in one skill and an additional lore of your choice. At 5th level, you become an expert in the lore.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -61,6 +62,13 @@
     "location": null,
     "featType": {
       "value": "general"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

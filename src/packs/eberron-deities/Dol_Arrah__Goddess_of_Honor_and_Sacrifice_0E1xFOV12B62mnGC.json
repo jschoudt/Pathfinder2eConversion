@@ -16,7 +16,8 @@
       "value": "<p>Dol Arrah is the lawful good deity of honourable combat, self-sacrifice, and sunlight.<br /><strong>Areas of Concern</strong> Honor, sacrifice, light, the sun, diplomacy<br /><strong>Alignment</strong> LG<br /><strong>Divine Font</strong> Heal<br /><strong>Divine Ability</strong> Strength or Charisma<br /><strong>Divine Skill</strong> Diplomacy<br /><strong>Domains</strong> Confidence, Duty, Freedom, Might, Protection, Sun, Truth, Vigil, Zeal<br /><strong>Cleric Spells</strong> 1st: mage armor, 4th: creation, 7th: true target<br /><strong>Edicts</strong> Seek those that break oaths and enforce just restitution, uphold your promises.<br /><strong>Anathema</strong> Lie, dishonour yourself or your family, shirk your duties, break an oath.<br /><strong>Favoured Weapon</strong> Halberd</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "category": "deity",
     "alignment": {
@@ -81,9 +82,11 @@
       "cha"
     ],
     "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
       "license": "ORC",
       "remaster": true,
-      "title": "Pathfinder's Guide to Eberron"
+      "page": "N/A"
     }
   },
   "ownership": {

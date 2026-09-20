@@ -16,7 +16,8 @@
       "value": "<p class=\"hang\"><strong>Cast</strong> see replicated spell; dragonmark, somatic</p>\n<hr />\n<p>With a subtle manipulation of the powers of your mark, you can replicate simple cantrips to aid you.<br />    When you cast the Cantrip of the Handler you can choose @Compendium[pf2e.spells-srd.AfOpnnwdZwHi2Tnc]{Protect Companion} or @Compendium[pf2e.spells-srd.s7ILzY2xh1tc9U1v]{Tame}. Cantrip of the Handler gains the traits of the cast cantrip. You then replicate the cantrip's effect by completing the Cast a Spell activity using the normal number of actions. These cantrips are automatically heightened to the level of this spell. <br />    A spell cast by Cantrip of the Handler doesn’t require material or verbal components but always requires a dragonmark and somatic component.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -115,6 +116,13 @@
     },
     "secondarycheck": {
       "value": ""
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

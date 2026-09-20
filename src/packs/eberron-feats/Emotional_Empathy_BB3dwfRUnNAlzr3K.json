@@ -17,7 +17,8 @@
       "value": "<p class=\"hang\"><strong>Frequency</strong> Once per minute</p>\n<hr />\n<p> </p>\n<p>You are in tune with the emotions of those around you. You gain a +2 circumstance bonus to perception checks to sense motive. If you succeed on a sense motive check (even if it reveals nothing), you gain a +1 circumstance bonus to the next Diplomacy, Deception, or Intimidation check you make to interact with the creature.   </p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -57,6 +58,13 @@
     "location": null,
     "featType": {
       "value": "ancestry"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

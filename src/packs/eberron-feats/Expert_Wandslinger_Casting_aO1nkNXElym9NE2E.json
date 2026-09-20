@@ -17,7 +17,8 @@
       "value": "\n\n\n<p class=\"hang\"><strong>Prerequisites</strong> Basic Wandslinger Casting; master in Arcana</p>\n<hr />\n<p class=\"hang\">You gain the <a href=\"https://2e.aonprd.com/Rules.aspx?ID=1485\">expert bounded spellcasting benefits</a> (SoM 74). During your daily preparations, you may create a unique wand for each of your prepared spell slots. Due to the unstable arcane energy supporting them, only you are capable of using these wands. These wands follow the normal rules of wands, including once per day use, but they may not be overcharged. For each spell slot you gain from this feat, add a spell of that level or lower to your spellbook.  </p>\n"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -62,6 +63,13 @@
     "location": null,
     "featType": {
       "value": "archetype"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

@@ -17,7 +17,8 @@
       "value": "\n\n\n<p>Your ability to change is at a level only seen in true mimics. When you shift shape, you can take on the appearance of any Medium creature or object - within practical limits. This transformation doesn't change your statistics in any way, and you don't gain any special abilities of the form you assume (including potential functional features of an object - such as a key, ladder, rope, or crowbar).</p>\n<p> </p>\n<p>You can recreate non-fleshy materials such as chitin or metal plates such that they are visually and tactilely deceptive to quick inspections. Materials created in this way do not have any functional properties of the material.</p>\n"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -61,6 +62,13 @@
     "location": null,
     "featType": {
       "value": "ancestry"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

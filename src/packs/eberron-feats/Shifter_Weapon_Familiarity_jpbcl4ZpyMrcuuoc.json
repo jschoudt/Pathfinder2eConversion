@@ -7,7 +7,8 @@
       "value": "<p>You favour the weapons common to shifters. You are trained with the @Compendium[pf2e.equipment-srd.LGgvev6AV0So8tP9]{Hatchet}, @Compendium[pf2e.equipment-srd.zSAoyzcf3nSeZCiF]{Kama}, @Compendium[pf2e.equipment-srd.TDrO7Xdyn7juFy3c]{Kukri}, @Compendium[pf2e.equipment-srd.grmaV4GdoGD7sKbn]{Scimitar}, and @Compendium[pf2e.equipment-srd.ynnBwzkzsR6B73iO]{Sickle}. In addition, you gain access to kama, kukris, and all uncommon shifter weapons. For you, martial shifter weapons are simple weapons and advanced shifter weapons are martial weapons.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [
       {
@@ -111,6 +112,13 @@
     "location": null,
     "featType": {
       "value": "ancestry"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "type": "feat",

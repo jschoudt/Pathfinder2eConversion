@@ -14,7 +14,8 @@
       "value": "\n<p>While changelings are common in major cities, there are many villages and towns where changelings are treated with fear and suspicion. You might have been born into such a community, possibly never even knowing another changeling. As a hidden changeling, you have crafted a single identity that you consider to be your true face. You gain a +4 circumstance bonus to Impersonate checks to pretend you are of the ancestry which you were raised as. In addition, you gain the adopted ancestry feat for that ancestry.</p>\n\n\n<section class=\"info\">\n<p>While you gain a circumstance bonus to pretend you are of an ancestry, this does not apply to deception checks you make while you are that ancestry. For instance, a human guard might be unable to see that you are not human and are a shapeshifted changeling, but might still be able to see that you are not the guard you are pretending to be.</p>\n</section>\n"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [
       {
@@ -58,6 +59,13 @@
       "name": "Eberron Changeling",
       "slug": "eberron-changeling",
       "uuid": "Compendium.pathfinders-guide-to-eberron.eberron-ancestries.axOqZxs9V7XTg99i"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

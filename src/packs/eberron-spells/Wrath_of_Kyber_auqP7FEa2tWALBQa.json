@@ -13,7 +13,8 @@
       "value": "<p><strong>Aberrant Feedback: </strong>@Compendium[pathfinders-guide-to-eberron.eberron-spells.SfAkXA3XDi3btTlx]{Aberrant Feedback}</p>\n<hr />\n<p class=\"hang\"><strong>Frequency</strong> The strain of bending your dragonmark to replicate a specific spell is so great, that you can only cast this spell once per 24 hours - even if you have focus points to cast it with.</p>\n<hr />\n<p>Drawing on the violent powers of your mark, you may bring down destructive potential not seen since the days of the War of the Mark. You cast @UUID[Compendium.pf2e.spells.wLIvH0AT1u7oa64N]{Cataclysm}.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -115,6 +116,13 @@
     },
     "secondarycheck": {
       "value": ""
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "_stats": {

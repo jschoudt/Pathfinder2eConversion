@@ -17,7 +17,8 @@
       "value": " \n\n\n\n<p>Your sense of the world increase to perceive all things as they are. You gain the true perception general feat, even if you don't meet the prerequisites. In addition, you gain the lifesense of your hybrid form as an imprecise sense with a range of 15 feet while in your humanoid form. This lifesense can detect any animal, beast, humanoid, or plant creature. While in your hybrid form your lifesense becomes a precise sense.</p>\n<p class=\"hang\"><strong>Special</strong> If you have the Dreamsight Expert feat, you can detect any creature type while in your humanoid form with your lifesense.</p>\n"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -61,6 +62,13 @@
     "location": null,
     "featType": {
       "value": "ancestry"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

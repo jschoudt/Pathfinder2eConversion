@@ -7,7 +7,8 @@
       "value": "<p>You manipulate materials together to replicate magic with inconceivable methods. You gain the @Compendium[pf2e.feats-srd.xWY5omyIcILNR7y1]{Magical Crafting} skill feat, even if you don't meet its prerequisites, and you gain the four common up-to-2nd-level items granted by that feat.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [
       {
@@ -41,7 +42,14 @@
     "prerequisites": {
       "value": []
     },
-    "location": null
+    "location": null,
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    }
   },
   "type": "feat",
   "flags": {

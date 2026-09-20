@@ -17,7 +17,8 @@
       "value": "<p>You gain either a claw or slam unarmed attack. The claw deals 1d4 slashing damage, is in the brawling group, and has the agile, and finesse, and unarmed traits. The slam deals 1d8 bludgeoning damage, is in the brawling group, and has the shove and unarmed traits. This attack is not affected by the material configuration of your integrated armour.</p>\n<p>Your weapon can be reconfigured; you can select this feat at any level, and you can retrain into or out of this feat or change the type of attack you gain.</p>\n<p class=\"hang\"><strong>Enhancement</strong> Your attacking part is reinforced. Increase the damage die of the unarmed attack you gain from this feat by one step (from 1d4 to 1d6, or from 1d8 to 1d10).</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -57,6 +58,13 @@
     "location": null,
     "featType": {
       "value": "ancestry"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

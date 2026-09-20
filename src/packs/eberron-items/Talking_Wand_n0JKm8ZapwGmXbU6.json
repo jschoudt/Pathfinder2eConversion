@@ -6,7 +6,8 @@
       "value": "<p>A wand that ends in a rounded cone-like flare.<br /><strong>Activate</strong> <span class=\"pf2-icon\">2</span> (Cast a Spell);</p>\n<p><strong>Frequency</strong> Unlimited</p>\n<p><strong>Effect</strong> While you are holding this wand, your voice and other sounds you produce are three times as loud as normal.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -78,6 +79,13 @@
     },
     "level": {
       "value": 1
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "img": "systems/pf2e/icons/features/classes/wand.webp",

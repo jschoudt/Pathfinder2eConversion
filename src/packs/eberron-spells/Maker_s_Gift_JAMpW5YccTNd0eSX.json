@@ -13,7 +13,8 @@
       "value": "<p>You call upon your dragonmark's power to drive your creative crafting powers. When you Cast the Spell, any time you @Compendium[pf2e.actionspf2e.bT3skovyLUtP22ME]{Repair}, or @Compendium[pf2e.actionspf2e.rmwa3OyhTZ2i2AHl]{Craft} you gain a +1 status bonus to the skill or perception check used for the roll. This bonus remains as long as you @Compendium[pf2e.actionspf2e.3f5DMFu8fPiqHpRg]{Sustain a Spell}.</p>\n<hr />\n<p class=\"hang\"><strong>Heightened (3rd)</strong> You do not need to sustain Maker's Gift.</p>\n<p class=\"hang\"><strong>Heightened (5th)</strong> The bonus increases to +2.</p>\n<p class=\"hang\"><strong>Heightened (7th)</strong> The duration is 1 hour.</p>\n<p class=\"hang\"><strong>Heightened (9th)</strong> The bonus increases to +3.</p>\n<p class=\"hang\">@UUID[Compendium.pathfinders-guide-to-eberron.eberron-effects.a1IrdwXxLYZVK07I]{Spell Effect: Maker's Gift}</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -111,6 +112,13 @@
     },
     "secondarycheck": {
       "value": ""
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

@@ -17,7 +17,8 @@
       "value": "<p>As a Kalashtar, your trance allows you a more robust recovery and greater resistance to forced sleep. You gain a +2 circumstance bonus to all saving throws against sleep effects and effects that cause or alter dreams. <br />In addition, sleep is more restorative for you. You regain <span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\"> </span><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">[[/r (@actor.level*2)*(max(@actor.abilities.con.mod,1))]]{HP equal to your Constitution modifier times double your level}</span><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\"> instead of just times your level, and you reduce any </span>@Compendium[pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained} and @Compendium[pf2e.conditionitems.3uh1r86TzbQvosxv]{Doomed}<span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\"> conditions you have by 2 instead of by 1. </span></p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [
       {
@@ -79,6 +80,13 @@
     "location": null,
     "featType": {
       "value": "ancestry"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

@@ -17,7 +17,8 @@
       "value": "<p>Your senses advance to match those of your animal aspect. You gain one of the following senses available to your beast within: echolocation (imprecise) 30 feet, tremorsense (imprecise) 30 feet, or wavesense (imprecise) 30 feet. If your beast within doesn't typically have a specific type of sense, you can't gain the sense with this feat.</p>\n<p class=\"hang\"> </p>\n<p class=\"hang\"><strong>Special</strong> You can select this feat multiple times, either choosing a different sense or improving an imprecise sense granted by this feat to a precise sense.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -57,6 +58,13 @@
     "location": null,
     "featType": {
       "value": "ancestry"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

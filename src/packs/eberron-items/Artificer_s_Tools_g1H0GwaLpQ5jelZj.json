@@ -16,7 +16,8 @@
       "value": "<p>Artificer's tools are a special subset of artisan's tools with all the equipment required to manufacture magical items of any nature. If you have a set of these tools, you do not need different sets for different work, as may be required of regular Artisan's Tools. If you wear your artisan's tools, you can draw and replace them as part of the action that uses them.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -94,6 +95,13 @@
     },
     "level": {
       "value": 0
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

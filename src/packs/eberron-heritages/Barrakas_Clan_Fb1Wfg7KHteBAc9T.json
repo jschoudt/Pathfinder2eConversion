@@ -16,7 +16,8 @@
       "value": "<p>Your clan is tied to the moon Barrakas - the Lantern.</p>\n<p>Considered the best trackers of the Znir pact, you gain a special sense: imprecise scent with a range of 30 feet. This means you can use your sense of smell to determine the location of a creature, but it remains hidden.</p>\n<p>In addition, you become trained in survival and you gain a +1 circumstance bonus to Survival checks to @Compendium[pf2e.actionspf2e.EA5vuSgJfiHH7plD]{Track} creatures that you have previously sensed with your scent. </p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -66,6 +67,13 @@
     "ancestry": {
       "name": "Gnoll",
       "uuid": "Compendium.pf2e.ancestries.vxbQ1Yw4qwgjTzqo"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

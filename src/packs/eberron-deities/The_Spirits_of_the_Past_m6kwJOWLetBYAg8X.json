@@ -17,7 +17,8 @@
       "value": "<p>The Tairnadal elves of Valenar and Northern Aerenal worship the spirits of their past lives.</p>\n<p><strong>Areas of Concern</strong> Glory, battle, bravery, honour<br /><strong>Alignment</strong> N<br /><strong>Divine Font</strong> Heal or Harm<br /><strong>Divine Ability</strong> Strength or Constitution<br /><strong>Divine Skill</strong> Athletics<br /><strong>Domains</strong> Confidence, Destruction, Might, Protection, Zeal<br /><strong>Cleric Spells</strong> 1st: true strike, 2nd: enlarge, 4th: weapon storm<br /><strong>Edicts</strong> Strive to uphold the ideals of your ancestor spirit, practice with a weapon every day, destroy the negative undead.<br /><strong>Anathema</strong> Become or create undead, fail to strive to uphold your ancestor spirit, dishonour yourself, parlay with oathbreakers.<br /><strong>Favoured Weapon</strong> Double Scimitar</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -78,9 +79,11 @@
       "str"
     ],
     "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
       "license": "ORC",
       "remaster": true,
-      "title": "Pathfinder's Guide to Eberron"
+      "page": "N/A"
     }
   },
   "ownership": {

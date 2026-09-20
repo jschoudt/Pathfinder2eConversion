@@ -6,7 +6,8 @@
       "value": "\n\n<p><strong>Activate <span class=\"pf2-icon\">3</span></strong> Envision, Interact, Command;</p>\n<p><strong>Frequency</strong> Once per day per pair;</p>\n<p><strong>Effect</strong> <span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">You send the other stone a mental message of 25 words or fewer, and it can respond immediately with its own message of 25 words or fewer.</span> If the stone is attended by another creature, they become the target of the sending spell.</p>\n"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -77,6 +78,13 @@
     },
     "level": {
       "value": 7
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "img": "systems/pf2e/icons/spells/shape-stone.webp",

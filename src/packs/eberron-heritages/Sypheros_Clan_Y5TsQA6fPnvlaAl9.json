@@ -16,7 +16,8 @@
       "value": "\n\n\n<p>Your clan is tied to the moon Sypheros - the Shadow. You have a natural resilience to the dark manifestations of the world. You gain negative resistance equal to half your level (minimum 1). You also have @Compendium[pf2e.ancestryfeatures.HHVQDp61ehcpdiU8]{Darkvision} instead of Low-Light vision.</p>\n"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -52,6 +53,13 @@
     "ancestry": {
       "name": "Gnoll",
       "uuid": "Compendium.pf2e.ancestries.vxbQ1Yw4qwgjTzqo"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

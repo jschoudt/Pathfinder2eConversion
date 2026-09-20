@@ -16,7 +16,8 @@
       "value": "<p class=\"hang\"><strong>Frequency</strong> once per day</p>\n<p class=\"hang\"><strong>Trigger</strong> you fail a survival check.</p>\n<hr />\n<p>Your training with Tharashk provided you with the training to make the best of a bad survival situation. If you fail a Survival check, you can reroll the check. You may select the better of the two rolls.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -62,7 +63,14 @@
         }
       ]
     },
-    "location": null
+    "location": null,
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    }
   },
   "ownership": {
     "default": 0,

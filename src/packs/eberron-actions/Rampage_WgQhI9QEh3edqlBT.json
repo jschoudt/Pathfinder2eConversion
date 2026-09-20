@@ -14,7 +14,8 @@
       "value": "<p class=\"hang\"><strong>Frequency</strong> Once per day</p>\n<p class=\"hang\"><strong>Trigger</strong> You reduce a creature to 0 hp.</p>\n<hr />\n<p class=\"hang\"> </p>\n<p>You take advantage of the opening. You may spend your reaction to step, stride half your speed, or make a strike.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -51,7 +52,14 @@
     "trigger": {
       "value": ""
     },
-    "deathNote": false
+    "deathNote": false,
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    }
   },
   "_stats": {
     "systemId": "pf2e",

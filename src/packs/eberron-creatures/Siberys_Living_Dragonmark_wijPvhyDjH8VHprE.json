@@ -153,12 +153,20 @@
       },
       "source": {
         "value": "Pathfinder's Guide to Eberron",
-        "author": ""
+        "author": "",
+        "page": "N/A"
       },
       "creatureType": "",
       "blurb": "",
       "publicNotes": "",
-      "privateNotes": ""
+      "privateNotes": "",
+      "publication": {
+        "title": "Pathfinder's Guide to Eberron",
+        "authors": "",
+        "license": "ORC",
+        "remaster": true,
+        "page": "N/A"
+      }
     },
     "traits": {
       "value": [
@@ -230,7 +238,8 @@
           "value": "<p>The Living Dragonmark is created of the essence of its dragonmarked summoner. It cannot move more than 80 feet from its summoner. If the Living Dragonmark and summoner become more than 80 feet apart, the Living Dragonmark must immediately use its Summoner Return reaction or else be destroyed.</p>"
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "traits": {
           "value": [],
@@ -265,7 +274,14 @@
         "trigger": {
           "value": ""
         },
-        "deathNote": false
+        "deathNote": false,
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
+        }
       },
       "_id": "QNkgjI3H8ulDxzOs",
       "effects": [],
@@ -295,7 +311,8 @@
           "value": "<p>The summoner of the Living Dragonmark may use the dragonmark as the point of origin for any dragonmark focus spell they cast. If the Living Dragonmark is destroyed, any ongoing magical effects originating from the mark end.</p>"
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "traits": {
           "value": [],
@@ -330,7 +347,14 @@
         "trigger": {
           "value": ""
         },
-        "deathNote": false
+        "deathNote": false,
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
+        }
       },
       "_id": "OuPQy46ABPiVOwrK",
       "effects": [],
@@ -360,7 +384,8 @@
           "value": "<p class=\"hang\">The Living Dragonmark teleports back to its summoner, arriving in an empty space of its choice adjacent to the summoner.</p>"
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "traits": {
           "value": [
@@ -398,7 +423,14 @@
         "trigger": {
           "value": ""
         },
-        "deathNote": false
+        "deathNote": false,
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
+        }
       },
       "_id": "u732FfmwGB5SdjEM",
       "effects": [],
@@ -428,7 +460,8 @@
           "value": ""
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "traits": {
           "value": [
@@ -467,6 +500,13 @@
         },
         "attackEffects": {
           "value": []
+        },
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
         }
       },
       "_id": "JJIvKCQytEKwJNe7",
@@ -497,7 +537,8 @@
           "value": ""
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "traits": {
           "value": [],
@@ -534,6 +575,13 @@
         },
         "attackEffects": {
           "value": []
+        },
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
         }
       },
       "_id": "R5txdOpxVEljYdRN",
@@ -564,7 +612,8 @@
           "value": "<p>The dragonmark discharges its energy in a blast that deals [[/r 15d6[positive]]] or negative depending on the source dragonmark damage in a 40-foot cone (Dragonmark DC of the summoner basic Reflex save). The Siberys Living Dragonmark can't use Dragonmark Discharge again for 1d4 rounds.</p>"
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "traits": {
           "value": [
@@ -604,7 +653,14 @@
         "trigger": {
           "value": ""
         },
-        "deathNote": false
+        "deathNote": false,
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
+        }
       },
       "_id": "qhE1qrBjyKLBBcdq",
       "effects": [],

@@ -17,7 +17,8 @@
       "value": "<p>A lifetime of experience helps you detect other Kalashtar. When you come within 10 feet of a creature that is connected to or possessed by a quori, the GM rolls a secret Perception check for you to recognize the nature of that creature, even if you didn't spend an action to Seek against that creature. </p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -57,6 +58,13 @@
     "location": null,
     "featType": {
       "value": "ancestry"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

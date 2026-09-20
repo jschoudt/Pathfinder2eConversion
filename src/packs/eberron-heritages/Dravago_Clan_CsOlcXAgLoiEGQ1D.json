@@ -16,7 +16,8 @@
       "value": "<p>Your clan is tied to the moon Dravago - the Herder.</p>\n<p>Your connection to the moon Dravago grants you resistance to the cold. You gain cold resistance equal to half your level (minimum 1). In addition, due to your large paws and sharp claws, snow and ice do not count as difficult terrain for you.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -47,6 +48,13 @@
     "ancestry": {
       "name": "Gnoll",
       "uuid": "Compendium.pf2e.ancestries.vxbQ1Yw4qwgjTzqo"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

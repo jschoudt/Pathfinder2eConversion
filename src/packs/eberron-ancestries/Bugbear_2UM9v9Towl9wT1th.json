@@ -17,7 +17,8 @@
       "value": "<p><em>Bugbears are celebrated for their strength and courage. Though they appear slow, they are capable of great bursts of strength or speed when necessary.</em></p>\n<hr />\n<p>Bugbears, for many, are monsters belonging to storybooks and nightmares. Stories speak of bugbears as great hairy beasts that lurk in the shadows - it is the bugbears that lie in the darkness undetected, waiting for the children that strayed off the beaten path or too far from their parents, or for the villagers wandering out at night away from their homes.</p>\n<h2>You might…</h2>\n<ul>\n<li>Present an air of indolence that hides the vicious ferocity you display in battle.</li>\n<li>Use your great strength, long limbs, and endurance to perform feats of athletics that few others are capable of.</li>\n<li>Move slowly and in time with the world around you, listening and waiting until the time is right to expend your energy.</li>\n</ul>\n<h2>Others Probably…</h2>\n<ul>\n<li>Walk and talk cautiously around you, in fear of invoking your ire.</li>\n<li>Look to use your might to their advantage, assuming that you are easily outsmarted.</li>\n<li>Underestimate your silent step - assuming that your great mass could not possibly move as quietly as the stories say.</li>\n</ul>\n<h2>Physical Description…</h2>\n<p>These stealthy and strong goblinoid creatures can thrive in the mayhem of battle or move slowly with the world around them - regardless they usually conserve their great reserves of energy until needed. Standing between 6 to 8 feet tall and weighing 250 to 300lbs, bugbears outsize most humanoids that they meet. Bugbears are typically extremely muscular, able to lift and move great weights with their long limbs. They are covered in thick short yellowish fur and share the same pointed ears as their goblinoid cousins. Due to their longer limbs, weapons wielded in the hands of bugbears have a greater reach than typical.</p>\n<p>Despite their great size, bugbears show an uncanny ability to sneak up on the unsuspecting. They can use their quiet step and darkvision to move quietly through the night, unnoticed if they so desire.</p>\n<p>Bugbears reach physical adulthood around the age of 16, and they can live up to 80 years. For those that strive for glory in battle or perform dangerous manual labour, death by old age is far less common.</p>\n<h2>Society…</h2>\n<p>Of the communities bugbears can belong to, the ones that are primarily goblinoid are Dhakaan, Darguun, or the isolated druidic communities found throughout Khorvaire but primarily in the Khraal.  <br />However, bugbears can also be found integrated within human settlements, and needn't originate from strictly goblinoid communities. These bugbears often take up the culture of the nations they are found in and can play a diversity of roles within them. <br /><br />See Exploring Eberron (p. 96) for more information on Dhakaani Society. <br /><br /></p>\n<h2>Alignment and Religion...</h2>\n<p>The religion of an individual bugbear depends on the culture in which they were raised.  <br /> <br />Bugbears tend towards lawful alignments. This can manifest in a tendency towards organization, whether this is found in centralized or decentralized communities.  </p>\n<h2>Names...</h2>\n<p>Goblinoid names often feature drawn-out vowel sounds (represented by doubled letters). Goblinoids typically use the same names and naming conventions.</p>\n<h3><strong>Sample Names</strong></h3>\n<p><strong>Male Names</strong>: Aruget, Chetiin, Daavn, Dabrak, Dagii, Drevduul, Duulan, Fenic, Gudruun, Haluun, Haruuc, Jhazaal, Kallaad, Krakuul, Krootad, Mazaan, Munta, Nasaar, Rakari, Reksiit, Tariic, Taruuzh, Thuun, Vanii, Vanon, Wuudaraj</p>\n<p><strong>Female Names:</strong> Aaspar, Aguus, Belaluur, Denaal, Draraar, Duusha, Ekhaas, Eluun, Graal, Gaduul, Hashak, Jheluum, Kelaal, Mulaan, Nasree, Raleen, Razu, Rekseen, Senen, Shedroor, Tajiin, Tuneer, Valii, Wuun</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -82,7 +83,14 @@
       "custom": ""
     },
     "items": {},
-    "vision": "darkvision"
+    "vision": "darkvision",
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    }
   },
   "ownership": {
     "default": 0,

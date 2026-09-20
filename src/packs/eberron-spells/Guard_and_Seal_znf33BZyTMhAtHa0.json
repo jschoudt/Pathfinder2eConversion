@@ -13,7 +13,8 @@
       "value": "<p>You draw upon your powers of warding to guard the presence of an item. Once the spell has been cast, you can choose to make the item come under the effects of Invisible Item If the target is magical, you can choose to also have it appear as entirely non-magical.<br />    If a caster uses Detect Magic or Read Aura of an equal or higher level than this spell, the GM can roll a secret counteract check for them to see the presence of this ward.<br />    If a creature interacts with the item, you immediately become aware of this fact.</p>\n<hr />\n<p class=\"hang\"><strong>Heightened (3rd)</strong> You may target 1 object of 1 bulk or less.</p>\n<p class=\"hang\"><strong>Heightened (4th)</strong> The object is additionally warded as if was behind running water and a thin sheet of lead to any magical effects that would attempt to locate it.</p>\n<p class=\"hang\"><strong>Heightened (6th)</strong> You can target 1 object of 3 bulk or less. You can target a creature instead of an object. When you do, you can conceal the auras of all magic items it has.</p>\n<p class=\"hang\"><strong>Heightened (8th)</strong> The duration is permanent until the object moves more than 15 feet from its starting location. You may target up to 10 items at once in this way. You can dismiss this spell.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -111,6 +112,13 @@
     },
     "secondarycheck": {
       "value": ""
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "_stats": {

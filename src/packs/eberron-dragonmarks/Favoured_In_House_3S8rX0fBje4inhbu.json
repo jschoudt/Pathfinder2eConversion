@@ -16,7 +16,8 @@
       "value": "<p>You have begun to develop popularity and connections within your house, and you can use these connections to fast track your requests from the house. When you make a request of your house, it may be to any house member whether they know you or not, as long as they are at least indifferent towards you. For any request for a favour that the house performs such acquiring important information, introductions to important people, or the loan of equipment or personnel, you gain a +1 circumstance bonus. A lesser mark grants you a +2 circumstance bonus, a greater mark grants you a +3 circumstance bonus, and a siberys mark grants you a +4 circumstance bonus.</p>\n<p>The GM sets the DC based on the scope of the favour being requested - highly dangerous, expensive, or illegal favours take a -4 circumstance penalty.</p>\n<p>See <a href=\"https://scribe.pf2.tools/v/hSjrbDz5-dragonmarked-houses\">Dragonmarked Houses</a> for some examples of favours that a house might be able to provide.</p>\n\n\n<h3> </h3>\n<h3>GM Adjudication</h3>\n<p>Whenever a character takes the favoured in House feat, especially in the middle of an ongoing campaign, an explanation is required. If a character has been a constant embarassment to their house, opinions won’t suddenly change because they went up a level and gained a feat slot. This is a prerequisite of the feat: It needs to be justified, and a GM is free to refuse the request.</p>\n<h3>Losing your favour</h3>\n<p>Whether by excoration, or actions that have tarnished the reputation of your house, in the event of extrodinary circumstances you might lose the favour of your house. Until you regain the favour of your house, you lose access to any of the benefits granted by the Favoured in House feat. If reconsiliation with the house is not something you desire, you may retrain out of this feat for free with a week of downtime as normal.</p>\n"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -60,7 +61,14 @@
         }
       ]
     },
-    "location": null
+    "location": null,
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    }
   },
   "ownership": {
     "default": 0,

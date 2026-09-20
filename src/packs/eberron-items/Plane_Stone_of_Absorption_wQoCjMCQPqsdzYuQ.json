@@ -6,7 +6,8 @@
       "value": "<p>When this stone is created, choose one of acid (Lamannia), cold (Fernia), electricity (Syrania), fire (Risia), and sonic (Dolurrh). This is the stone's energy resistance type. On your turn, you may spend an interact action to prepare the stone to dissipate incoming energy.</p>\n<p><br /><strong>Activate</strong> <span class=\"pf2-icon\">R</span> Interact;</p>\n<p><strong>Trigger</strong> You would take energy damage of the stone's type</p>\n<p><strong>Effect</strong> By channelling the powers of the plane, some of the effect of the triggering damage is mitigated. You gain resistance 3 to the damage.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -78,6 +79,13 @@
     },
     "level": {
       "value": 1
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "img": "systems/pf2e/icons/spells/shape-stone.webp",

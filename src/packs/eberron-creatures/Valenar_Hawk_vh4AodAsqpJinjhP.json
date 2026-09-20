@@ -107,12 +107,20 @@
       },
       "source": {
         "value": "Pathfinder's Guide to Eberron",
-        "author": ""
+        "author": "",
+        "page": "N/A"
       },
       "creatureType": "",
       "blurb": "",
       "publicNotes": "<p><em>These hawks are strong fliers, with keen eyes. Some of the finest birds on the continent of Khorvaire.</em><br /> <br />These hawks are extremely well trained and perceptive. Valenar Hawks are bred by the elves of Valenar.</p>",
-      "privateNotes": ""
+      "privateNotes": "",
+      "publication": {
+        "title": "Pathfinder's Guide to Eberron",
+        "authors": "",
+        "license": "ORC",
+        "remaster": true,
+        "page": "N/A"
+      }
     },
     "traits": {
       "value": [
@@ -184,7 +192,8 @@
           "value": ""
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "traits": {
           "value": [],
@@ -202,6 +211,13 @@
         },
         "proficient": {
           "value": 0
+        },
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
         }
       },
       "_id": "FgknpcaWoDHGpahN",
@@ -233,7 +249,8 @@
           "value": ""
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "traits": {
           "value": [],
@@ -270,6 +287,13 @@
         },
         "attackEffects": {
           "value": []
+        },
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
         }
       },
       "_id": "pZffJYbNA9JequR3",
@@ -299,7 +323,8 @@
           "value": ""
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "traits": {
           "value": [],
@@ -317,6 +342,13 @@
         },
         "proficient": {
           "value": 0
+        },
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
         }
       },
       "_id": "GxT4scYCV5PBOZuv",
@@ -347,7 +379,8 @@
           "value": ""
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "traits": {
           "value": [],
@@ -365,6 +398,13 @@
         },
         "proficient": {
           "value": 0
+        },
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
         }
       },
       "_id": "zUbKsBj130wOLQKw",
@@ -396,7 +436,8 @@
           "value": "<p>When a valenar hawk chooses to bond with a creature, after 1 hour in a willing creature's presence, the creature and the valenar hawk become bonded. The hawk and the bonded creature can communicate telepathically with each other at a distance of up to 100 feet. The valenar hawk can communicate with simple emotions and visions, it still cannot speak.</p>"
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "traits": {
           "value": [],
@@ -431,7 +472,14 @@
         "trigger": {
           "value": ""
         },
-        "deathNote": false
+        "deathNote": false,
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
+        }
       },
       "_id": "oaZzOClFc9Gv1nwb",
       "effects": [],
@@ -461,7 +509,8 @@
           "value": ""
         },
         "source": {
-          "value": "Pathfinder's Guide to Eberron"
+          "value": "Pathfinder's Guide to Eberron",
+          "page": "N/A"
         },
         "traits": {
           "value": [
@@ -500,6 +549,13 @@
         },
         "attackEffects": {
           "value": []
+        },
+        "publication": {
+          "title": "Pathfinder's Guide to Eberron",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "page": "N/A"
         }
       },
       "_id": "zqPMNOfpyUViZFG9",

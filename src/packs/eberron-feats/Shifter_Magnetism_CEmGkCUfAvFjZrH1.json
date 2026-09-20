@@ -17,7 +17,8 @@
       "value": "<p>Your heritage gives you a strong animal presence. You gain a +1 circumstance bonus to Nature checks to Command an Animal, Diplomacy checks made on animals, and Intimidation.</p>\n<p> </p>\n<p class=\"hang\"><strong>Special</strong> If you have the Dreamsight shifter heritage, your circumstance bonus is +2.</p>\n<hr />\n<p><em>note, if you have the dreamsight shifter heritage you will need to adjust the rules to +2 manually.</em></p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [
       {
@@ -88,6 +89,13 @@
     "location": null,
     "featType": {
       "value": "ancestry"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

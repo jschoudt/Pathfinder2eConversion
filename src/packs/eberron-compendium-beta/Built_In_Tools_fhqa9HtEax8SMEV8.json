@@ -14,7 +14,8 @@
       "value": "<p>You've built tools into your artificer's kit so you can access and use them easily. When you take this feat, choose up to two sets of tools you own, such as thieves' tools or healer's tools, that weigh a total of 2 Bulk or less. These tools become part of your artificer's tools. The artificer's tools Bulk doesn't increase from this addition. As long as you are wielding, or wearing your artificer's tools, you have the same quick access to these tools as the tools you are wearing, and they don't count against the usual limit of tools you can wear.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -50,7 +51,14 @@
     "prerequisites": {
       "value": []
     },
-    "location": null
+    "location": null,
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    }
   },
   "ownership": {
     "gpqVTtIbNz8RoupR": 3,

@@ -16,7 +16,8 @@
       "value": "<h2>Hashalaq Kalashtar</h2>\n<p>The hashalaq quori is a force that feeds on doubt and desire. You can choose one of the following paths.</p>\n<p> </p>\n<h3>Hashalaq Deciever</h3>\n<p>You become trained in Deception (or another skill if you were already trained in Deception). You gain the @Compendium[pf2e.feats-srd.B6HbYsLBWb1RR6Fx]{Charming Liar} skill feat. In addition, you gain a +1 circumstance bonus to your deception checks.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -53,6 +54,13 @@
     "ancestry": {
       "name": "Kalashtar",
       "uuid": "Compendium.pathfinders-guide-to-eberron.eberron-ancestries.Fk955i74aVVUzOKt"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

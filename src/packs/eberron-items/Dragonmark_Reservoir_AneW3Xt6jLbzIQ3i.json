@@ -13,7 +13,8 @@
       "value": "<p>Each reservoir is tied to a specific dragonmark, such as the Mark of Healing or the Mark of Making, and you can only attune to it if you possess that dragonmark.<br /><strong>Activation</strong> <span class=\"pf2-icon\">2</span> Interact; <strong>Frequency</strong> Once per day; <strong>Effect</strong> your focus pool restores one point, as if you had completed the refocus activity.</p>\n<hr />\n<p class=\"hang\"><strong>Craft Requirements</strong> at least 62 gp of siberys shards</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -93,6 +94,13 @@
     },
     "level": {
       "value": 8
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "_stats": {

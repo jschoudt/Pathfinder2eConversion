@@ -17,7 +17,8 @@
       "value": "<p>When you spend downtime to use the Craft activity, you need only spend 3 days at work at which point you attempt a Crafting check. For consumable items, you may build them one at a time. If you do, you only need to spend 1 day at work before attempting a Crafting check.<br /><br /></p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -62,6 +63,13 @@
     "location": null,
     "featType": {
       "value": "skill"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

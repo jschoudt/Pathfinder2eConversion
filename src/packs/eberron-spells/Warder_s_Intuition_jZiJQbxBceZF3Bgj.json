@@ -13,7 +13,8 @@
       "value": "<p>You call upon your dragonmark's power to ward off attacks. When you Cast the Spell, any time you @Compendium[pf2e.actionspf2e.cYdz2grcOcRt4jk6]{Disable Device}, or @Compendium[pf2e.actionspf2e.2EE4aF4SZpYf0R6H]{Pick a Lock}, @Compendium[pf2e.actionspf2e.BlAOM2X92SI6HMtJ]{Seek to Detect a Hazard} or @Compendium[pf2e.actionspf2e.TiNDYUGlMmxzxBYU]{Search} you gain a +1 status bonus to the skill or perception used for the roll. This bonus remains as long as you Sustain the Spell. If you craft an object with a stealth DC, the DC is increased by 1.</p>\n<hr />\n<p class=\"hang\"><strong>Heightened (3rd)</strong> You do not need to sustain Warder's Intuition.</p>\n<p class=\"hang\"><strong>Heightened (5th)</strong> The bonus increases to +2.</p>\n<p class=\"hang\"><strong>Heightened (7th)</strong> The duration is 1 hour.</p>\n<p class=\"hang\"><strong>Heightened (9th)</strong> The bonus increases to +3.</p>\n<p class=\"hang\"> </p>\n<p class=\"hang\">@Compendium[pathfinders-guide-to-eberron.eberron-effects.NyPDose830muy6vO]{Spell Effect: Warder's Intuition}</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -111,6 +112,13 @@
     },
     "secondarycheck": {
       "value": ""
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "_stats": {

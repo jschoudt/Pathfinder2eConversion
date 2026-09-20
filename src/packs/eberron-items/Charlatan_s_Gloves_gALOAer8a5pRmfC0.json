@@ -6,7 +6,8 @@
       "value": "<p><strong>Activate</strong> <span class=\"pf2-icon\">1</span> (up to 1 minute) Envision, Interact;</p>\n<p><strong>Effect</strong> While wearing a pair of charlatan’s gloves, you can produce an illusory image that fits in the palm of your hand. The image can’t create sound, light, smell, or any other sensory effect.</p>\n<p><br />  Any creature that uses the Seek action to examine it can attempt to disbelieve your illusion. Physical interaction with the image reveals it to be an illusion because things can pass through it.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -78,6 +79,13 @@
     },
     "level": {
       "value": 1
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/lovers-gloves.webp",

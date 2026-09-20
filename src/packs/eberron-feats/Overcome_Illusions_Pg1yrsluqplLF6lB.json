@@ -17,7 +17,8 @@
       "value": "<p>One of the basic exercises of the Kalashtar is to practice seeing the world in front of you for what it truly is. You can see through manipulations of reality with greater ease than most. You gain a +2 circumstance bonus to disbelieve illusions. </p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [
       {
@@ -78,6 +79,13 @@
     "location": null,
     "featType": {
       "value": "ancestry"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

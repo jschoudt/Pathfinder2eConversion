@@ -17,7 +17,8 @@
       "value": "<p>Your heritage has given you sharp senses and quick reflexes, and you have learned to trust your equally sharp instincts. You gain a +1 circumstance bonus to Perception checks to Seek, Sense Motive, and Initiative rolls.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [
       {
@@ -73,6 +74,13 @@
     "location": null,
     "featType": {
       "value": "ancestry"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

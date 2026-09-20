@@ -17,7 +17,8 @@
       "value": "<p class=\"hang\"><strong>Prerequisites</strong> way of the wandslinger</p>\n<hr />\n<p>You've armed yourself with a wand and a rudimentary knowledge of arcane theory to create temporarily functional wands. You gain the @Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Cast a Spell} activity, and can cast arcane spells. However - unlike a normal spellcaster - you can only use the Cast a Spell activity by Activating an item. You gain a special spellbook with wand incantations for four common arcane cantrips of your choice. During your daily preparations, you create two unique cantrip wands each capable of casting one of these cantrips heightened to half your level rounded up. These cantrip wands are functionally wands, however they have no limit to their use and are never at risk of overcharge.</p>\n<p>Any wand or stave that you use is considered an advanced martial firearm, and loaded while it still has a least one charge or daily use remaining. The use of these wands or staves still requires the Cast a Spell activity rather than a Strike action, and may not be used as a replacement for Strikes as a result. You do not become trained in spell attack rolls or spell DCs from this source. Instead, when casting from any wand</p>\n<p>or stave, use your advanced firearm proficiency for the spell attack roll and gunslinger class DC for DCs. Your key spellcasting ability for wandslinger archetype spells is Intelligence, and they are arcane gunslinger spells.</p>\n<p>During your daily preparations, you can prepare a staff as a prepared spellcaster. If you do not have the basic bounded spellcasting benefits yet, your highest-level spell slot is considered 1st level for the purposes of preparing a staff during your daily preparations.</p>\n<p>You become trained in Arcana; if you were already trained in Arcana, you instead become trained in a skill of your choice.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": "wandslinger-dedication",
@@ -62,6 +63,13 @@
     "location": null,
     "featType": {
       "value": "archetype"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

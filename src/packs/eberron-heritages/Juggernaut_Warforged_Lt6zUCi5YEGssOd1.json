@@ -16,7 +16,8 @@
       "value": "<p>Used as shock troops in the last war, the Juggernaut warforged were a later development of Cannith and only saw deployment toward the end of the war. Developed as a heavier version of the Vanguard Warforged, the Juggernaut Warforged has many of the same physical attributes, with the exception of a much more dense plating over their body. These warforged were often more trained than the Vanguard in the aspects of intimidation, granting them a slight edge in humanoid interactions. However, their physical prowess on the battlefield leads to overconfidence in many situations off the battlefield.</p>\n<p> </p>\n<p>You have @Compendium[pathfinders-guide-to-eberron.eberron-items.xMusQCvg86z1sWOV]{Heavy Integrated Armour}. You gain the @Compendium[pf2e.feats-srd.BStw1cANwx5baL6d]{Armor Proficiency} general feat. </p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -50,6 +51,13 @@
     "ancestry": {
       "name": "Warforged",
       "uuid": "Compendium.pathfinders-guide-to-eberron.eberron-ancestries.XNOZJBcpkIo4ggcI"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

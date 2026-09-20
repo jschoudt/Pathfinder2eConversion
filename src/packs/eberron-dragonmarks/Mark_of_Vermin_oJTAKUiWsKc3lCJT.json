@@ -16,7 +16,8 @@
       "value": "<p>Your aberrant dragonmark gives you a natural affinity for vermin. When you use a spell that can target individual animals such as @Compendium[pf2e.spells-srd.wU6hNzK8Yfqdmc8m]{Possession} or @Compendium[pf2e.spells-srd.4YnON9JHYqtLzccu]{Summon Animal}, you may ignore the swarm mind immunity of swarms, and target swarms as an individual creature.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -57,7 +58,14 @@
     "prerequisites": {
       "value": []
     },
-    "location": null
+    "location": null,
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    }
   },
   "ownership": {
     "default": 0,

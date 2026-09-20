@@ -13,7 +13,8 @@
       "value": "\n\n\n<p class=\"hang\"><strong>Cast</strong> see replicated spell; dragonmark, somatic</p>\n<p class=\"hang\"><strong>Frequency</strong> The strain of bending your dragonmark to replicate a specific spell is so great, that you can only cast this spell once per day - even if you have focus points to cast it with. </p>\n<hr />\n<p>With a concentrated effort to bend the powers of your mark, you can replicate the effects of a spell.<br />    When you begin to cast Dragonmarked Healer, you can select a spell from the Dragonmarked Healer spell list at the heightened level of this spell or lower. Dragonmarked Healer gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions. The replicated spell is automatically heightened to the level of Dragonmarked Healer.<br />    A spell cast by Dragonmarked Healer doesn’t require material or verbal components but always requires a dragonmark and somatic component. If the spell requires a focus, you must still have that focus to cast the spell, and if the spell has a cost, you must still pay that cost to cast the spell.</p>\n<h3>dragonmarked healer spell list</h3>\n<table style=\"width:100%\">\n<thead>\n<tr>\n<th style=\"width:18.6707%\"><strong>Heightened Level</strong></th>\n<th style=\"width:81.3293%\"><strong>Spell</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"width:18.6707%\">2</td>\n<td style=\"width:81.3293%\">@UUID[Compendium.pf2e.spells.4c1c6eNzU1PFGkAy]{Endure}, @UUID[Compendium.pf2e.spells.szIyEsvihc5e1w8n]{Soothe}</td>\n</tr>\n<tr>\n<td style=\"width:18.6707%\">3</td>\n<td style=\"width:81.3293%\">@UUID[Compendium.pf2e.spells.SnaLVgxZ9ryUFmUr]{Restoration}, @UUID[Compendium.pf2e.spells.BCuHKrDeJ4eq53M6]{Remove Paralysis}, @UUID[Compendium.pf2e.spells.Et8RSCLx8w7uOLvo]{Restore Senses}</td>\n</tr>\n<tr>\n<td style=\"width:18.6707%\">4</td>\n<td style=\"width:81.3293%\">@UUID[Compendium.pf2e.spells.SUKaxVZW2TlM8lu0]{Neutralize Poison}, @UUID[Compendium.pf2e.spells.RneiyehRO6f7LP44]{Remove Disease}</td>\n</tr>\n<tr>\n<td style=\"width:18.6707%\">5</td>\n<td style=\"width:81.3293%\">@UUID[Compendium.pf2e.spells.OyFCwQuw8XRazsNr]{Remove Curse}</td>\n</tr>\n<tr>\n<td style=\"width:18.6707%\">6</td>\n<td style=\"width:81.3293%\">@UUID[Compendium.pf2e.spells.Hnc7eGi7vyZenAIm]{Breath of Life}</td>\n</tr>\n<tr>\n<td style=\"width:18.6707%\">7</td>\n<td style=\"width:81.3293%\">@UUID[Compendium.pf2e.spells.IkGYwHRLhkuoGReG]{Raise Dead}</td>\n</tr>\n<tr>\n<td style=\"width:18.6707%\">8</td>\n<td style=\"width:81.3293%\">@UUID[Compendium.pf2e.spells.2Vkd1IxylPceUAAF]{Regenerate}</td>\n</tr>\n<tr>\n<td style=\"width:18.6707%\">9</td>\n<td style=\"width:81.3293%\">@UUID[Compendium.pf2e.spells.4MOew29Z1oCX8O28]{Moment of Renewal}</td>\n</tr>\n</tbody>\n</table>\n<hr />\n<p class=\"hang\"><strong>Heightened (3rd)</strong> You may cast Dragonmarked Healer up to twice per day. Only one of these casts may be from the heightened level 4 or above.</p>\n<p class=\"hang\"><strong>Heightened (6th)</strong> You may cast Dragonmarked Healer up to three times per day. Only one of these casts may be from the heightened level 4 or above.</p>\n<p class=\"hang\"><strong>Heightened (7th)</strong> You may cast Dragonmarked Healer up to three times per day. Only one of these casts may be from the heightened level 6 or above.</p>\n"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -111,6 +112,13 @@
     },
     "secondarycheck": {
       "value": ""
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

@@ -7,7 +7,8 @@
       "value": "<p>While holding the staff in two hands, you may use it as an arcane focus.</p>\n<p class=\"hang\"><strong>Activate</strong> <span class=\"pf2-icon\">1</span> Interact</p>\n<p class=\"hang\"><strong>Effect</strong> The next cantrip you cast this turn uses the rules for range increments. You may cast the spell at a target up to 4 range increments away. For each range increment above the first, you take a -2 penalty to your attacks or DCs.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -79,6 +80,13 @@
     },
     "usage": {
       "value": "held-in-two-hands"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "img": "systems/pf2e/icons/features/classes/wand.webp",

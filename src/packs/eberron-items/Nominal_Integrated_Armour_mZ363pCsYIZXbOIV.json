@@ -16,7 +16,8 @@
       "value": "<p>Your body does not have the armour protections afforded to most other warforged. Though you are still physically wearing integrated armour, you are considered unarmored. Your integrated armour is in the leather armour group and has a Dex cap of +5. This armour has no bulk, but you can never wear other armour or remove your integrated armour; however, you still don't become fatigued from sleeping. Finally, you can etch armour runes onto your armour as normal.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -59,9 +60,9 @@
     },
     "equipped": {
       "carryType": "worn",
-      "invested": null,
+      "inSlot": true,
       "handsHeld": 0,
-      "inSlot": false
+      "invested": null
     },
     "stackGroup": null,
     "negateBulk": {
@@ -99,9 +100,7 @@
     },
     "category": "unarmored",
     "group": "leather",
-    "strength": {
-      "value": 0
-    },
+    "strength": 0,
     "dex": {
       "value": 5
     },
@@ -129,7 +128,18 @@
     "propertyRune4": {
       "value": null
     },
-    "potency": {}
+    "potency": {},
+    "acBonus": 0,
+    "dexCap": 5,
+    "checkPenalty": 0,
+    "speedPenalty": 0,
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    }
   },
   "ownership": {
     "default": 0,

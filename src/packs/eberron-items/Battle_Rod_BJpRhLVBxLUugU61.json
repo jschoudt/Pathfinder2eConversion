@@ -6,7 +6,8 @@
       "value": "<p>While holding the staff in two hands, you may use it as an arcane focus. <br /><strong>Activate</strong> <span class=\"pf2-icon\">1</span> Interact</p>\n<p><strong>Effect</strong> The next cantrip you cast this turn uses the rules for range increments. You may cast the spell at a target at a maximum of 2 range increments away. For each range increment above the first, you take a -2 penalty to your attacks or DCs.of a broom, so it serves a double purpose.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -78,6 +79,13 @@
     },
     "level": {
       "value": 1
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "img": "systems/pf2e/icons/features/classes/wand.webp",

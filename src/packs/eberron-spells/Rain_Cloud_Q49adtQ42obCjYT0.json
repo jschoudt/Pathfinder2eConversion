@@ -16,7 +16,8 @@
       "value": "\n\n\n<p>You can condense the humidity in the air and bring down precipitation. Depending on the region and weather, this may bring down rain or snow. The spell does not require sustainment, however if you use the Sustain a Spell action on this spell, you may move the area of effect 15 feet in a direction you choose. Creatures in the area of precipitation are concealed. Creatures outside the area are concealed from those inside the area. If you are in an extremely arid area, the spell fails. You may dismiss this spell.</p>\n<p> </p>\n<p>When the spell finishes, the area under the cloud becomes difficult snowy terrain if it was snowing, or non-magical fires are extinguished if it was raining.</p>\n"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -117,6 +118,13 @@
     },
     "secondarycheck": {
       "value": ""
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

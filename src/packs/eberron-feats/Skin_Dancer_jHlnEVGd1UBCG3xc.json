@@ -17,7 +17,8 @@
       "value": "\n\n\n<p>You are a master of the unique changeling art of skin dancing. You can create intricate patterns and even images on your skin, and shift them about in mesmerizing ways. You can achieve effects such as lighting coursing up your arms, or and fire dancing in a crown around your brow. You gain the @Compendium[pf2e.feats-srd.TnF9hfOywfD8cE2v]{Virtuosic Performer (Dance)} (if you already have the Virtuosic Performer in dance, you may choose an additional different speciality). When you use the Virtuosic Performer feat for dance, you gain a +1 status bonus if you augment your performance with a special use of shift shape, or +2 if you are Legendary in Performance. This use of shift shape is free as part of the performance and lasts until you shift shape again.</p>\n<p><strong style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">Special</strong><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\"> Skin dancer counts for the favourable form of the Personable Performer feat as well.</span></p>\n"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -61,6 +62,13 @@
     "location": null,
     "featType": {
       "value": "ancestry"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

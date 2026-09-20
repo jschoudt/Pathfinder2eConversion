@@ -16,7 +16,8 @@
       "value": "<p>Your clan is tied to the moon Therendor - The Healer's Moon.</p>\n<p>You become trained in Medicine (or another skill if you were already trained in Medicine), and you gain the @Compendium[pf2e.feats-srd.wYerMk6F1RZb0Fwt]{Battle Medicine} skill feat. In addition, when you roll a medicine check to Administer First Aid a critical failure becomes a failure, and a failure becomes a success. </p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -52,6 +53,13 @@
     "ancestry": {
       "name": "Gnoll",
       "uuid": "Compendium.pf2e.ancestries.vxbQ1Yw4qwgjTzqo"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

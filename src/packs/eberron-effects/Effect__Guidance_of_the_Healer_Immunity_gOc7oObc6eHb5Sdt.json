@@ -6,7 +6,8 @@
       "value": "<p>Granted when someone uses @UUID[Compendium.pathfinders-guide-to-eberron.eberron-spells.66Qr9yFJa2xbIJ4R]{Guidance of the Healer} on you, rendering you immune to the effect of the spell for the duration.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [],
@@ -38,7 +39,14 @@
     },
     "badge": null,
     "context": null,
-    "unidentified": false
+    "unidentified": false,
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    }
   },
   "type": "effect",
   "flags": {

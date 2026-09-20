@@ -16,7 +16,8 @@
       "value": "\n\n\n<p class=\"hang\"><strong>Cast</strong> see replicated spell; dragonmark, somatic</p>\n<p><strong>Frequency</strong> The strain of bending your dragonmark to replicate a specific spell is so great, that you can only cast this spell once per day - even if you have focus points to cast it with. </p>\n<hr />\n<p>With a concentrated effort to bend the powers of your mark, you can replicate the effects of a spell.<br />    When you begin to cast Dragonmarked Hospitality, you can select a spell from the Dragonmarked Hospitality spell list at the heightened level of this spell or lower. Dragonmarked Hospitality gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions. The replicated<br />spell is automatically heightened to the level of Dragonmarked Hospitality.<br />    A spell cast by Dragonmarked Hospitality doesn’t require material or verbal components but always requires a dragonmark and somatic component. If the spell requires a focus, you must still have that focus to cast the spell, and if the spell has a cost, you must still pay that cost to cast the spell.</p>\n<h3>Dragonmarked Hospitality spell list</h3>\n<table style=\"width:100%;height:374px\">\n<thead>\n<tr style=\"height:34px\">\n<th style=\"width:26.4319%;height:34px\"><strong>Heightened Level</strong></th>\n<th style=\"text-align:left;width:73.5681%;height:34px\"><strong>Spell</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr style=\"height:34px\">\n<td style=\"width:26.4319%;height:34px\">1</td>\n<td style=\"width:73.5681%;height:34px\">@Compendium[pf2e.spells-srd.szIyEsvihc5e1w8n]{Soothe}</td>\n</tr>\n<tr style=\"height:68px\">\n<td style=\"width:26.4319%;height:68px\">2</td>\n<td style=\"width:73.5681%;height:68px\">@Compendium[pf2e.spells-srd.o4lRVTwSxnOOn5vl]{Sleep}, @Compendium[pf2e.spells-srd.vLA0q0WOK2YPuJs6]{Charm}</td>\n</tr>\n<tr style=\"height:68px\">\n<td style=\"width:26.4319%;height:68px\">3</td>\n<td style=\"width:73.5681%;height:68px\">@Compendium[pf2e.spells-srd.b515AZlB0sridKSq]{Calm Emotions}, @Compendium[pf2e.spells-srd.Mt6ZzkVX8Q4xigFq]{Create Food}</td>\n</tr>\n<tr style=\"height:68px\">\n<td style=\"width:26.4319%;height:68px\">4</td>\n<td style=\"width:73.5681%;height:68px\">@Compendium[pf2e.spells-srd.mwPfoYfVGSMAaUec]{Cozy Cabin}, @Compendium[pf2e.spells-srd.rdTEF1hfAWbN58NE]{Enhance Victuals}</td>\n</tr>\n<tr style=\"height:34px\">\n<td style=\"width:26.4319%;height:34px\">5</td>\n<td style=\"width:73.5681%;height:34px\">@Compendium[pf2e.spells-srd.IihxWhRfpsBgQ5jS]{Enthrall}</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"width:26.4319%;height:17px\">6</td>\n<td style=\"width:73.5681%;height:17px\">@Compendium[pf2e.spells-srd.qwlh6aDgi86U3Q7H]{Suggestion}</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"width:26.4319%;height:17px\">7</td>\n<td style=\"width:73.5681%;height:17px\">@Compendium[pf2e.spells-srd.vPWMEyVTreMOoFnm]{Magnificent Mansion}</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"width:26.4319%;height:17px\">8</td>\n<td style=\"width:73.5681%;height:17px\">@Compendium[pf2e.spells-srd.4MOew29Z1oCX8O28]{Moment of Renewal}</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"width:26.4319%;height:17px\">9</td>\n<td style=\"width:73.5681%;height:17px\">@Compendium[pf2e.spells-srd.KPDHmmjJiw7PhTYF]{Resplendent Mansion}</td>\n</tr>\n</tbody>\n</table>\n<hr />\n<p class=\"hang\"><strong>Heightened (3rd)</strong> You may cast Dragonmarked Hospitality up to twice per day. Only one of these casts may be from the heightened level 4 or above.</p>\n<p class=\"hang\"><strong>Heightened (6th)</strong> You may cast Dragonmarked Hospitality up to three times per day. Only one of these casts may be from the heightened level 4 or above.</p>\n<p class=\"hang\"><strong>Heightened (7th)</strong> You may cast Dragonmarked Hospitality up to three times per day. Only one of these casts may be from the heightened level 6 or above.</p>\n\n\n\n<p class=\"hang\"><strong>Heightened (9th)</strong> Spells of the third heightened level or lower do not count against the frequency of Dragonmarked Hospitality.</p>\n"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -114,6 +115,13 @@
     },
     "secondarycheck": {
       "value": ""
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

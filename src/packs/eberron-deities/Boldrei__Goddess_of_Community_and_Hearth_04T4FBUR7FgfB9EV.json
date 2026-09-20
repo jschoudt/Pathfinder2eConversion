@@ -16,7 +16,8 @@
       "value": "<p>Boldrei is the lawful good deity of community.<br /><strong>Areas of Concern</strong> Hearth, community, marriage, government<br /><strong>Alignment</strong> LG<br /><strong>Divine Font</strong> Heal<br /><strong>Divine Ability</strong> Constitution or Wisdom <br /><strong>Divine Skill</strong> Diplomacy<br /><strong>Domains</strong> Cities, duty, family, protection, truth<br /><strong>Cleric Spells</strong> 1st: share lore, 4th: shape stone, 5th: wall of stone <br /><strong>Edicts</strong> Seek to improve yourself and your community, trust those you work with, encourage cooperation.<br /><strong>Anathema</strong> Betray another's trust, harm your community, place conflict of ideological differences over people's lives.<br /><strong>Favoured Weapon</strong> Spear</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "category": "deity",
     "alignment": {
@@ -78,9 +79,11 @@
       "con"
     ],
     "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
       "license": "ORC",
       "remaster": true,
-      "title": "Pathfinder's Guide to Eberron"
+      "page": "N/A"
     }
   },
   "ownership": {

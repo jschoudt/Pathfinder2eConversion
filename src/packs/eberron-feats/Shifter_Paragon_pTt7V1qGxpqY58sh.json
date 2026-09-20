@@ -17,7 +17,8 @@
       "value": "<p>You are a paragon of shifters and manifest the traits of a second shifter heritage. Select a shifter heritage other than your current heritage. You gain the heritage effects and may select feats restricted to this heritage. While in your hybrid form, you gain the benefits of both of your heritages.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -57,6 +58,13 @@
     "location": null,
     "featType": {
       "value": "ancestry"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

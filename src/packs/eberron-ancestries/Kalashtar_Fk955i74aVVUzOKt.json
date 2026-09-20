@@ -17,7 +17,8 @@
       "value": "<p><em>Kalashtar are born with a bond to an otherworldly being. They have memories of lives never lived, visions of combat with fiends that they never fought, and the sense of an endless struggle against darkness. For all the pain and suffering in the world, the Kalashtar know that there is a path to light. Some faceless enemies would hunt all the Kalashtar down and would see their bloodlines eradicated. The Kalashtar's path to light is a dangerous one, as death awaits in the shadows.</em></p>\n<hr /><p>As a result of their bonds to their Quori spirit, Kalashtar experience the world differently than other creatures. Their bonded nature enables an aptitude for psionics and greater resistance against psionic attacks.</p>\n<h2>You might…</h2>\n<ul>\n<li>Aim to understand the emotions of those around you, even if the situation doesn't call for it.</li>\n<li>Very rarely consider the limitations you may encounter as you draw up your goals and aspirations.</li>\n<li>Believe that the rules of reality can be bent like those in dreams.</li>\n</ul>\n<h2>Others Probably…</h2>\n<ul>\n<li>Think you're human, though you move and act in a slightly otherworldly way.</li>\n<li>Find themselves drawn to your raw charisma, and the otherworldly presence you exhibit.</li>\n<li>Opening their emotions to you, even before they realize they are doing so.</li>\n</ul>\n<h2>Physical Description…</h2>\n<p>Kalashtar appear human, most people struggle to detect physical differences between Kalashtars and Humans.</p>\n<h2>Society…</h2>\n<p>There are a few main kalashtar societies. The Adaran Kalashtar, the Khorvairian kalashtar, and kalashtar that do not belong to a community with others of their kind at all.</p>\n<h2>Alignment and Religion…</h2>\n<p>Kalashtar are willing to achieve their motivations in any number of ways, so neither law nor chaos has strong sway over the kalashtar.</p>\n<h2>Names…</h2>\n<p>A kalashtar name adds a personal prefix to the name of the quori spirit within the kalashtar.</p>\n<h3>Sample Names</h3>\n<p class=\"hang\"><strong>Quori Names:</strong> Ashana, Ashtai, Ishara, Hareth, Khad, Kosh, Melk, Nari, Tana, Tari, Tash, Ulad, Vakri, Vash</p>\n<p class=\"hang\"><strong>Kalashtar Names:</strong> Coratash, Dalavash, Dolishara, Halakosh, Khoratari, Koratana, Lanhareth, Molavakri, Nevitash, Sorashana, Torashtai, Valakhad, Vishara</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -89,7 +90,14 @@
         "uuid": "Compendium.pathfinders-guide-to-eberron.eberron-feats.16eduTmDJ2deVS8y"
       }
     },
-    "vision": "normal"
+    "vision": "normal",
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    }
   },
   "ownership": {
     "gpqVTtIbNz8RoupR": 3

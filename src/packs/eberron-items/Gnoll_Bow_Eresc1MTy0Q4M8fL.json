@@ -16,7 +16,8 @@
       "value": "<p>Though the gnollbow is not significantly larger than a normal longbow, the draw of the weapon is deceptively heavy. Gnoll bows are made from horn, a darkwood core, and sinew laminated together to increase the power of its pull and the force of its projectile. This allows the bow to fire larger projectiles at much higher velocity, resulting in greater penetrating power. However, regular arrows shatter under the force of the bow and only gnoll arrows can be used as ammunition. You must use two hands to fire it, and it cannot be used while mounted. Any time an ability is specifically restricted to a longbow, such as Erastil’s favoured weapon, it also applies to gnoll bows unless otherwise stated. To craft a gnoll bow, you must have at least 5sp worth of darkwood to form the core of the weapon.  </p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -156,6 +157,13 @@
       "strikeConditionValue": null,
       "criticalConditionType": "",
       "criticalConditionValue": null
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

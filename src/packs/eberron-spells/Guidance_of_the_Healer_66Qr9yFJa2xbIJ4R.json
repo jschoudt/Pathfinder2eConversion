@@ -13,7 +13,8 @@
       "value": "<p>With a subtle manipulation of the powers of your mark, you can assist a creature in resisting maladies and wounds.</p>\n<p>   The creature gains a +1 status bonus to any healing it receives. If the creature is making a saving throw against a persistent effect, poison, or a disease, it gains a +1 status bonus to its save (and this spell counts for assisted recovery against persistent effects). If the creature has the dying condition, it loses the dying condition, though it remains unconscious at 0 Hit Points.</p>\n<p>@UUID[Compendium.pathfinders-guide-to-eberron.eberron-effects.f37rRXwD9LWh0ncX]{Spell Effect: Guidance of the Healer}    </p>\n<p>The target is then immune to the Guidance of the Healer for 1 hour. </p>\n<p>@UUID[Compendium.pathfinders-guide-to-eberron.eberron-effects.gOc7oObc6eHb5Sdt]{Effect: Guidance of the Healer Immunity}</p>\n<hr />\n<p class=\"hang\"><strong>Heightened (+2)</strong> The status bonus to healing received increases by 1</p>\n<p class=\"hang\"><strong>Heightened (5th)</strong> The status bonus to saves increases to +2</p>\n<p class=\"hang\"><strong>Heightened (9th)</strong> The status bonus to saves increases to +3</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -112,6 +113,13 @@
     },
     "secondarycheck": {
       "value": ""
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

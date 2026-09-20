@@ -16,7 +16,8 @@
       "value": "<p>While this spell is sustained, you gain the ability to see through solid objects to a range of 30 feet. Within that range, you have  if you don’t already have it. This special sight lasts for 1 minute. During that time, you perceive objects as ghostly, transparent images. The spell can see through most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.</p>\n<p> </p>\n<p>Granted by @UUID[Compendium.pathfinders-guide-to-eberron.eberron-spells.oNmTXMxkw5UDdLz7]{Eyes of the finder}.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [],
@@ -61,7 +62,14 @@
     },
     "badge": null,
     "context": null,
-    "unidentified": false
+    "unidentified": false,
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    }
   },
   "ownership": {
     "default": 0,

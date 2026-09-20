@@ -17,7 +17,8 @@
       "value": "<p><strong>Prerequisite</strong> Unarmed Stance</p>\n<hr />\n<p>Your weapons become extensions of your limbs on the battlefield, and you can extend the reach of your weapon attacks. While in the Unarmed Stance and wielding any Melee weapon with which you are at least trained, it gains the Reach trait. If it already has the reach trait, the trait stacks.</p>\n<p> </p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -61,6 +62,13 @@
     "location": null,
     "featType": {
       "value": "ancestry"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

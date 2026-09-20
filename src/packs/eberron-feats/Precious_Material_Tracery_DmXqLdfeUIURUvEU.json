@@ -17,7 +17,8 @@
       "value": "<p class=\"hang\"><strong>Prerequisite</strong> in possession of 1 ingot of the precious material you select</p>\n<hr />\n<p>Regardless of your integrated armour type, your body becomes covered and traced with thin root-like strands of a precious material as you incorporate it into your body. Select either Cold Iron or Silver. A creature with weakness to any of these materials is subject to its effects as if you were wearing armour made of the precious material.</p>\n<p> </p>\n<p class=\"hang\"><strong>Enhancement</strong> You may select the other precious material type and become traced in both.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -61,6 +62,13 @@
     "location": null,
     "featType": {
       "value": "ancestry"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

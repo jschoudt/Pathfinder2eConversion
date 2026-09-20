@@ -16,7 +16,8 @@
       "value": "<p>Typically manifesting traits of a feline, Longtooth shifters can have traits of any animal with sharp claws. Razorclaw shifters prioritize their physical might and constitution more than others. They are ardent protectors of those they love, and vigilant warriors against those who have wronged them.</p>\n<p>As a razorclaw shifter in your humanoid form, you still have particularly long, sharp claws. You gain a claw unarmed attack that deals 1d4 slashing damage. Your claws are in the brawling group and have the agile, finesse, and unarmed traits.</p>\n<p> </p>\n<h3>Hybrid form</h3>\n<p>While in your hybrid form, your claws become capable of delivering vicious wounds with a wicked swipe. Your claw attack deals 1d6 damage is part of the knife group and gains the versatile (piercing) trait.  <br /><br />@Compendium[pathfinders-guide-to-eberron.eberron-actions.JW5WyQmUevUHeO3U]{Change Shape (Razorclaw Shifter)}</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "traits": {
       "value": [
@@ -66,6 +67,13 @@
     "ancestry": {
       "name": "Shifter",
       "uuid": "Compendium.pathfinders-guide-to-eberron.eberron-ancestries.NXVjPRJeIOOceUHp"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {

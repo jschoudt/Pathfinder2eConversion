@@ -17,7 +17,8 @@
       "value": "<p class=\"hang\"><strong>Trigger</strong> You begin to fall more than 30 feet.</p>\n<hr />\n<p>When you begin to fall, you're able to shift your shape to maximize your air resistance, not unlike a flying squirrel. Your fall slows to 60 feet per round. This rapid change is extremely obvious to any observers watching, and all of them become aware that you are a changeling.</p>\n<p class=\"hang\"> </p>\n<p class=\"hang\"><strong>Special</strong> If you have the Rapid Shift feat, the trigger is instead when you begin to fall more than 5 feet.</p>"
     },
     "source": {
-      "value": "Pathfinder's Guide to Eberron"
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
     },
     "rules": [],
     "slug": null,
@@ -57,6 +58,13 @@
     "location": null,
     "featType": {
       "value": "ancestry"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
     }
   },
   "ownership": {
