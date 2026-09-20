@@ -6209,6 +6209,14 @@
             "databaseID": 1
         },
         {
+            "name": "AI Transparency & Conversion Notes",
+            "id": "e83b0000-0000-4000-8000-000000000001",
+            "description": "Artificial intelligence tools (such as large language models) assist with mechanical conversion, mathematical balancing, and stat block drafting. All mechanics, numbers, action costs, and rules are manually reviewed, edited, and balanced by human contributors for Pathfinder 2e Remaster fidelity. Original expressions and artwork are audited to comply with WotC Fan Content, Paizo Community Use, and USCO guidelines.",
+            "traits": "3rd Party",
+            "src": "Pathfinder's Guide to Eberron",
+            "databaseID": 1
+        },
+        {
             "name": "Living Body",
             "id": "dcce863e-8e75-4d1c-b6dc-52e91395531a",
             "description": "Your body is formed of both wood and steel which by the powers of the creation forge are granted life. This life energy flows through you much like the blood of humanoids. As a result, you are a living creature. You don't have the typical construct immunities, can be affected by effects that target a living creature, and can recover Hit Points normally via vitality. Additionally, you are not destroyed when reduced to 0 Hit Points. Instead, your life energy attempts to keep you active even in dire straits; you are knocked out and begin dying when reduced to 0 Hit Points.",

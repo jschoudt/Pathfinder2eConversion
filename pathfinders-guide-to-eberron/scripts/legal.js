@@ -40,6 +40,16 @@ Hooks.once('ready', async () => {
       <hr/>
       <h3>Paizo Community Use Notice</h3>
       <p><em>Pathfinder's Guide to Eberron</em> uses trademarks and/or copyrights owned by Paizo Inc., used under Paizo's Community Use Policy (<a href="https://paizo.com/communityuse" target="_blank">paizo.com/communityuse</a>). We are expressly prohibited from charging you to use or access this content. <em>Pathfinder's Guide to Eberron</em> is not published, endorsed, or specifically approved by Paizo. For more information about Paizo Inc. and Paizo products, visit <a href="https://paizo.com" target="_blank">paizo.com</a>.</p>
+
+      <hr/>
+      <h3>AI Assistance & Transparency Disclosure</h3>
+      <p>Artificial intelligence tools (such as large language models) assist in the maintenance and development of this conversion project:</p>
+      <ul>
+        <li><b>Mechanical Conversion & Balance:</b> AI assists with preliminary stat block transcription and mechanical drafting. All mechanics, numbers, action costs, and rules are manually reviewed, edited, and balanced by human contributors for Pathfinder 2e Remaster fidelity.</li>
+        <li><b>Original Expression:</b> Text is audited against source materials to guarantee that no proprietary descriptions or flavor text from official sourcebooks are inadvertently reproduced.</li>
+        <li><b>Artwork:</b> Any visual assets are used exclusively for non-commercial visual accompaniment in accordance with US Copyright Office guidelines regarding machine-generated works.</li>
+      </ul>
+      <p>For complete protocols, see our <a href="https://github.com/jschoudt/Pathfinder2eConversion/blob/main/ThirdPartyContentUsage.md#4-ai-assisted-content-guidelines--verification-protocol" target="_blank">AI Guidelines & Verification Protocol</a>.</p>
     </div>
   `;
 
