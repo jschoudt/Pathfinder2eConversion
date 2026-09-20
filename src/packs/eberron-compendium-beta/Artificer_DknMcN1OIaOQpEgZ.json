@@ -45,13 +45,13 @@
     ],
     "slug": null,
     "schema": {
-      "version": 0.835,
+      "version": 0.959,
       "lastMigration": {
-        "datetime": "2023-04-16T19:04:51.581-07:00",
+        "datetime": null,
         "version": {
-          "schema": 0.812,
-          "foundry": "10.291",
-          "system": "4.10.4"
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
         }
       }
     },
@@ -247,6 +247,10 @@
       "license": "ORC",
       "remaster": true,
       "page": "N/A"
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
     }
   },
   "effects": [],
@@ -257,8 +261,8 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "4.12.9",
-    "coreVersion": "10.303",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
     "createdTime": 1673623714752,
     "modifiedTime": 1694446054053,
     "lastModifiedBy": "7iofgUiimTzs2vga"

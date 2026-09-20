@@ -15,8 +15,8 @@
     "rules": [],
     "slug": null,
     "_migration": {
-      "version": null,
-      "lastMigration": null
+      "version": 0.959,
+      "previous": null
     },
     "traits": {
       "otherTags": [],
@@ -58,8 +58,15 @@
       "page": "N/A"
     },
     "schema": {
-      "version": 0.812,
-      "lastMigration": null
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
     },
     "featType": {
       "value": "ancestry"
@@ -70,8 +77,8 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.7.4",
-    "coreVersion": "11.309",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
     "createdTime": 1726780000000,
     "modifiedTime": 1726780000000,
     "lastModifiedBy": "rB4S3QfOEBk0rdKx"

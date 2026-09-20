@@ -88,8 +88,15 @@
     ],
     "slug": "trap-finder",
     "schema": {
-      "version": 0.84,
-      "lastMigration": null
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
     },
     "level": {
       "value": 1
@@ -119,6 +126,10 @@
       "license": "OGL",
       "remaster": false,
       "page": "N/A"
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
     }
   },
   "type": "feat",
@@ -134,8 +145,8 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "4.12.9",
-    "coreVersion": "10.303",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
     "createdTime": 1694446507079,
     "modifiedTime": 1694446712399,
     "lastModifiedBy": "7iofgUiimTzs2vga"

@@ -21,8 +21,15 @@
     ],
     "slug": "vassal-specialization",
     "schema": {
-      "version": 0.835,
-      "lastMigration": null
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
     },
     "level": {
       "value": 1
@@ -52,6 +59,10 @@
       "license": "ORC",
       "remaster": true,
       "page": "N/A"
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
     }
   },
   "type": "feat",
@@ -63,8 +74,8 @@
   "effects": [],
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "4.10.4",
-    "coreVersion": "10.291",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
     "createdTime": 1685924334481,
     "modifiedTime": 1691634310805,
     "lastModifiedBy": "lxzmymmFddOcN8CB"

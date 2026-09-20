@@ -89,5 +89,30 @@ describe('Foundry v14 & PF2e Schema Validation', () => {
     }
     expect(missing).toEqual([]);
   });
+
+  it('should normalize all documents to Foundry v14 (14.368), PF2e (8.5.1), and schema (0.959)', () => {
+    const mismatched = [];
+    for (const doc of docs) {
+      const data = doc.data;
+      const stats = data._stats;
+      const system = data.system;
+
+      if (!stats || stats.coreVersion !== '14.368' || stats.systemVersion !== '8.5.1' || stats.systemId !== 'pf2e') {
+        mismatched.push({
+          file: doc.relPath,
+          issue: `_stats invalid: coreVersion='${stats?.coreVersion}', systemVersion='${stats?.systemVersion}'`
+        });
+      }
+
+      if (!system || system.schema?.version !== 0.959 || system._migration?.version !== 0.959) {
+        mismatched.push({
+          file: doc.relPath,
+          issue: `schema version invalid: schema.version=${system?.schema?.version}, _migration.version=${system?._migration?.version}`
+        });
+      }
+    }
+    expect(mismatched).toEqual([]);
+  });
 });
+
 

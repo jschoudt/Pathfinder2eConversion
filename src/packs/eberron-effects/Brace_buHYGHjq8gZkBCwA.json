@@ -24,8 +24,15 @@
     ],
     "slug": null,
     "schema": {
-      "version": 0.812,
-      "lastMigration": null
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
     },
     "level": {
       "value": 1
@@ -53,6 +60,10 @@
       "license": "ORC",
       "remaster": true,
       "page": "N/A"
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
     }
   },
   "type": "effect",
@@ -68,8 +79,8 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "4.6.3",
-    "coreVersion": "10.291",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
     "createdTime": 1672984862133,
     "modifiedTime": 1675014559335,
     "lastModifiedBy": "lxzmymmFddOcN8CB"

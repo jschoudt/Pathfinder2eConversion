@@ -21,8 +21,15 @@
     "rules": [],
     "slug": null,
     "schema": {
-      "version": 0.812,
-      "lastMigration": null
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
     },
     "quantity": 1,
     "baseItem": null,
@@ -86,6 +93,10 @@
       "license": "ORC",
       "remaster": true,
       "page": "N/A"
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
     }
   },
   "img": "systems/pf2e/icons/features/classes/wand.webp",
@@ -97,8 +108,8 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "4.6.3",
-    "coreVersion": "10.291",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
     "createdTime": 1673122043757,
     "modifiedTime": 1673133850255,
     "lastModifiedBy": "lxzmymmFddOcN8CB"

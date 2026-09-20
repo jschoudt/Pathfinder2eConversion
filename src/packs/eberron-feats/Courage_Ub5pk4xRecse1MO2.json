@@ -80,13 +80,13 @@
     ],
     "slug": "hobgoblin-weapon-familiarity",
     "schema": {
-      "version": 0.812,
+      "version": 0.959,
       "lastMigration": {
-        "datetime": "2023-01-05T15:12:02.142-08:00",
+        "datetime": null,
         "version": {
-          "schema": 0.73,
-          "foundry": "10.291",
-          "system": "4.6.3"
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
         }
       }
     },
@@ -122,6 +122,10 @@
       "license": "ORC",
       "remaster": true,
       "page": "N/A"
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
     }
   },
   "ownership": {
@@ -129,8 +133,8 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "4.10.4",
-    "coreVersion": "10.291",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
     "createdTime": 1672960322353,
     "modifiedTime": 1691632620226,
     "lastModifiedBy": "lxzmymmFddOcN8CB"

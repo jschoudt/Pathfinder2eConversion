@@ -145,8 +145,15 @@
     },
     "resources": {},
     "schema": {
-      "version": null,
-      "lastMigration": null
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
     },
     "abilities": {
       "str": {
@@ -181,6 +188,10 @@
         "value": 5,
         "saveDetail": ""
       }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
     }
   },
   "items": [
@@ -199,8 +210,15 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.812,
-          "lastMigration": null
+          "version": 0.959,
+          "lastMigration": {
+            "datetime": null,
+            "version": {
+              "schema": 0.959,
+              "foundry": "14.368",
+              "system": "8.5.1"
+            }
+          }
         },
         "mod": {
           "value": 8
@@ -219,6 +237,10 @@
           "license": "ORC",
           "remaster": true,
           "page": "N/A"
+        },
+        "_migration": {
+          "version": 0.959,
+          "previous": null
         }
       },
       "_id": "7EvXS8W99w5s7VQW",
@@ -233,8 +255,8 @@
       "flags": {},
       "_stats": {
         "systemId": "pf2e",
-        "systemVersion": "4.6.3",
-        "coreVersion": "10.291",
+        "systemVersion": "8.5.1",
+        "coreVersion": "14.368",
         "createdTime": 1673111522284,
         "modifiedTime": 1673111573778,
         "lastModifiedBy": "lxzmymmFddOcN8CB"
@@ -256,8 +278,15 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.812,
-          "lastMigration": null
+          "version": 0.959,
+          "lastMigration": {
+            "datetime": null,
+            "version": {
+              "schema": 0.959,
+              "foundry": "14.368",
+              "system": "8.5.1"
+            }
+          }
         },
         "mod": {
           "value": 8
@@ -276,6 +305,10 @@
           "license": "ORC",
           "remaster": true,
           "page": "N/A"
+        },
+        "_migration": {
+          "version": 0.959,
+          "previous": null
         }
       },
       "_id": "rg0JUYiUNAbWJ0cA",
@@ -290,8 +323,8 @@
       "flags": {},
       "_stats": {
         "systemId": "pf2e",
-        "systemVersion": "4.6.3",
-        "coreVersion": "10.291",
+        "systemVersion": "8.5.1",
+        "coreVersion": "14.368",
         "createdTime": 1673111525036,
         "modifiedTime": 1673111573777,
         "lastModifiedBy": "lxzmymmFddOcN8CB"
@@ -313,8 +346,15 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.812,
-          "lastMigration": null
+          "version": 0.959,
+          "lastMigration": {
+            "datetime": null,
+            "version": {
+              "schema": 0.959,
+              "foundry": "14.368",
+              "system": "8.5.1"
+            }
+          }
         },
         "mod": {
           "value": 5
@@ -333,6 +373,10 @@
           "license": "ORC",
           "remaster": true,
           "page": "N/A"
+        },
+        "_migration": {
+          "version": 0.959,
+          "previous": null
         }
       },
       "_id": "Tq65ioRkMIv6EIpi",
@@ -347,8 +391,8 @@
       "flags": {},
       "_stats": {
         "systemId": "pf2e",
-        "systemVersion": "4.6.3",
-        "coreVersion": "10.291",
+        "systemVersion": "8.5.1",
+        "coreVersion": "14.368",
         "createdTime": 1673111535919,
         "modifiedTime": 1673111573778,
         "lastModifiedBy": "lxzmymmFddOcN8CB"
@@ -370,8 +414,15 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.812,
-          "lastMigration": null
+          "version": 0.959,
+          "lastMigration": {
+            "datetime": null,
+            "version": {
+              "schema": 0.959,
+              "foundry": "14.368",
+              "system": "8.5.1"
+            }
+          }
         },
         "mod": {
           "value": 8
@@ -390,6 +441,10 @@
           "license": "ORC",
           "remaster": true,
           "page": "N/A"
+        },
+        "_migration": {
+          "version": 0.959,
+          "previous": null
         }
       },
       "_id": "zTmukBjMkjR1lZjL",
@@ -404,8 +459,8 @@
       "flags": {},
       "_stats": {
         "systemId": "pf2e",
-        "systemVersion": "4.6.3",
-        "coreVersion": "10.291",
+        "systemVersion": "8.5.1",
+        "coreVersion": "14.368",
         "createdTime": 1673111542385,
         "modifiedTime": 1673111573778,
         "lastModifiedBy": "lxzmymmFddOcN8CB"
@@ -427,13 +482,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.812,
+          "version": 0.959,
           "lastMigration": {
-            "datetime": "2023-01-07T09:12:31.810-08:00",
+            "datetime": null,
             "version": {
-              "schema": null,
-              "foundry": "10.291",
-              "system": "4.6.3"
+              "schema": 0.959,
+              "foundry": "14.368",
+              "system": "8.5.1"
             }
           }
         },
@@ -454,6 +509,10 @@
           "license": "ORC",
           "remaster": true,
           "page": "N/A"
+        },
+        "_migration": {
+          "version": 0.959,
+          "previous": null
         }
       },
       "_id": "CsNbBH96y3jFVdGU",
@@ -468,8 +527,8 @@
       "flags": {},
       "_stats": {
         "systemId": "pf2e",
-        "systemVersion": "4.6.3",
-        "coreVersion": "10.291",
+        "systemVersion": "8.5.1",
+        "coreVersion": "14.368",
         "createdTime": 1673111551821,
         "modifiedTime": 1673111805991,
         "lastModifiedBy": "lxzmymmFddOcN8CB"
@@ -492,13 +551,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.812,
+          "version": 0.959,
           "lastMigration": {
-            "datetime": "2023-01-07T09:16:55.853-08:00",
+            "datetime": null,
             "version": {
-              "schema": null,
-              "foundry": "10.291",
-              "system": "4.6.3"
+              "schema": 0.959,
+              "foundry": "14.368",
+              "system": "8.5.1"
             }
           }
         },
@@ -530,6 +589,10 @@
           "license": "ORC",
           "remaster": true,
           "page": "N/A"
+        },
+        "_migration": {
+          "version": 0.959,
+          "previous": null
         }
       },
       "_id": "7SjvNpwxcYwEjAvq",
@@ -543,8 +606,8 @@
       "flags": {},
       "_stats": {
         "systemId": "pf2e",
-        "systemVersion": "4.12.9",
-        "coreVersion": "10.303",
+        "systemVersion": "8.5.1",
+        "coreVersion": "14.368",
         "createdTime": 1673111815862,
         "modifiedTime": 1694447922046,
         "lastModifiedBy": "7iofgUiimTzs2vga"
@@ -567,13 +630,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.812,
+          "version": 0.959,
           "lastMigration": {
-            "datetime": "2023-01-07T09:17:20.123-08:00",
+            "datetime": null,
             "version": {
-              "schema": null,
-              "foundry": "10.291",
-              "system": "4.6.3"
+              "schema": 0.959,
+              "foundry": "14.368",
+              "system": "8.5.1"
             }
           }
         },
@@ -605,6 +668,10 @@
           "license": "ORC",
           "remaster": true,
           "page": "N/A"
+        },
+        "_migration": {
+          "version": 0.959,
+          "previous": null
         }
       },
       "_id": "yY8LRBO2NCwRn12L",
@@ -618,8 +685,8 @@
       "flags": {},
       "_stats": {
         "systemId": "pf2e",
-        "systemVersion": "4.12.9",
-        "coreVersion": "10.303",
+        "systemVersion": "8.5.1",
+        "coreVersion": "14.368",
         "createdTime": 1673111840133,
         "modifiedTime": 1694447932544,
         "lastModifiedBy": "7iofgUiimTzs2vga"
@@ -642,8 +709,15 @@
         "rules": [],
         "slug": "cookware",
         "schema": {
-          "version": 0.812,
-          "lastMigration": null
+          "version": 0.959,
+          "lastMigration": {
+            "datetime": null,
+            "version": {
+              "schema": 0.959,
+              "foundry": "14.368",
+              "system": "8.5.1"
+            }
+          }
         },
         "level": {
           "value": 0
@@ -711,6 +785,10 @@
           "license": "ORC",
           "remaster": true,
           "page": "N/A"
+        },
+        "_migration": {
+          "version": 0.959,
+          "previous": null
         }
       },
       "type": "equipment",
@@ -728,8 +806,8 @@
       },
       "_stats": {
         "systemId": "pf2e",
-        "systemVersion": "4.6.3",
-        "coreVersion": "10.291",
+        "systemVersion": "8.5.1",
+        "coreVersion": "14.368",
         "createdTime": 1673111885489,
         "modifiedTime": 1673111885489,
         "lastModifiedBy": "lxzmymmFddOcN8CB"
@@ -753,13 +831,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.812,
+          "version": 0.959,
           "lastMigration": {
-            "datetime": "2023-01-07T09:18:19.647-08:00",
+            "datetime": null,
             "version": {
-              "schema": null,
-              "foundry": "10.291",
-              "system": "4.6.3"
+              "schema": 0.959,
+              "foundry": "14.368",
+              "system": "8.5.1"
             }
           }
         },
@@ -828,6 +906,10 @@
           "license": "ORC",
           "remaster": true,
           "page": "N/A"
+        },
+        "_migration": {
+          "version": 0.959,
+          "previous": null
         }
       },
       "effects": [],
@@ -840,8 +922,8 @@
       "flags": {},
       "_stats": {
         "systemId": "pf2e",
-        "systemVersion": "4.6.3",
-        "coreVersion": "10.291",
+        "systemVersion": "8.5.1",
+        "coreVersion": "14.368",
         "createdTime": 1673111899659,
         "modifiedTime": 1673111908148,
         "lastModifiedBy": "lxzmymmFddOcN8CB"
@@ -865,13 +947,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.812,
+          "version": 0.959,
           "lastMigration": {
-            "datetime": "2023-01-07T09:18:29.721-08:00",
+            "datetime": null,
             "version": {
-              "schema": null,
-              "foundry": "10.291",
-              "system": "4.6.3"
+              "schema": 0.959,
+              "foundry": "14.368",
+              "system": "8.5.1"
             }
           }
         },
@@ -940,6 +1022,10 @@
           "license": "ORC",
           "remaster": true,
           "page": "N/A"
+        },
+        "_migration": {
+          "version": 0.959,
+          "previous": null
         }
       },
       "effects": [],
@@ -952,8 +1038,8 @@
       "flags": {},
       "_stats": {
         "systemId": "pf2e",
-        "systemVersion": "4.6.3",
-        "coreVersion": "10.291",
+        "systemVersion": "8.5.1",
+        "coreVersion": "14.368",
         "createdTime": 1673111909729,
         "modifiedTime": 1673111918734,
         "lastModifiedBy": "lxzmymmFddOcN8CB"
@@ -976,13 +1062,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.812,
+          "version": 0.959,
           "lastMigration": {
-            "datetime": "2023-01-07T09:18:51.932-08:00",
+            "datetime": null,
             "version": {
-              "schema": null,
-              "foundry": "10.291",
-              "system": "4.6.3"
+              "schema": 0.959,
+              "foundry": "14.368",
+              "system": "8.5.1"
             }
           }
         },
@@ -1017,6 +1103,10 @@
           "license": "ORC",
           "remaster": true,
           "page": "N/A"
+        },
+        "_migration": {
+          "version": 0.959,
+          "previous": null
         }
       },
       "_id": "jBpOCJMgiOyWdT5p",
@@ -1030,8 +1120,8 @@
       "flags": {},
       "_stats": {
         "systemId": "pf2e",
-        "systemVersion": "4.6.3",
-        "coreVersion": "10.291",
+        "systemVersion": "8.5.1",
+        "coreVersion": "14.368",
         "createdTime": 1673111931941,
         "modifiedTime": 1673111962729,
         "lastModifiedBy": "lxzmymmFddOcN8CB"
@@ -1054,13 +1144,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.812,
+          "version": 0.959,
           "lastMigration": {
-            "datetime": "2023-01-07T09:19:26.048-08:00",
+            "datetime": null,
             "version": {
-              "schema": null,
-              "foundry": "10.291",
-              "system": "4.6.3"
+              "schema": 0.959,
+              "foundry": "14.368",
+              "system": "8.5.1"
             }
           }
         },
@@ -1097,6 +1187,10 @@
           "license": "ORC",
           "remaster": true,
           "page": "N/A"
+        },
+        "_migration": {
+          "version": 0.959,
+          "previous": null
         }
       },
       "_id": "iYmii0f5CTKi2JoP",
@@ -1110,8 +1204,8 @@
       "flags": {},
       "_stats": {
         "systemId": "pf2e",
-        "systemVersion": "4.6.3",
-        "coreVersion": "10.291",
+        "systemVersion": "8.5.1",
+        "coreVersion": "14.368",
         "createdTime": 1673111966056,
         "modifiedTime": 1673112007018,
         "lastModifiedBy": "lxzmymmFddOcN8CB"
@@ -1133,13 +1227,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.812,
+          "version": 0.959,
           "lastMigration": {
-            "datetime": "2023-01-07T09:20:45.011-08:00",
+            "datetime": null,
             "version": {
-              "schema": null,
-              "foundry": "10.291",
-              "system": "4.6.3"
+              "schema": 0.959,
+              "foundry": "14.368",
+              "system": "8.5.1"
             }
           }
         },
@@ -1253,6 +1347,10 @@
           "license": "ORC",
           "remaster": true,
           "page": "N/A"
+        },
+        "_migration": {
+          "version": 0.959,
+          "previous": null
         }
       },
       "_id": "z0q3RHBnDaeix6yZ",
@@ -1267,8 +1365,8 @@
       "flags": {},
       "_stats": {
         "systemId": "pf2e",
-        "systemVersion": "4.6.3",
-        "coreVersion": "10.291",
+        "systemVersion": "8.5.1",
+        "coreVersion": "14.368",
         "createdTime": 1673112045020,
         "modifiedTime": 1673112462400,
         "lastModifiedBy": "lxzmymmFddOcN8CB"
@@ -1290,8 +1388,15 @@
         "rules": [],
         "slug": "prestidigitation",
         "schema": {
-          "version": 0.812,
-          "lastMigration": null
+          "version": 0.959,
+          "lastMigration": {
+            "datetime": null,
+            "version": {
+              "schema": 0.959,
+              "foundry": "14.368",
+              "system": "8.5.1"
+            }
+          }
         },
         "traits": {
           "value": [
@@ -1381,6 +1486,10 @@
           "license": "ORC",
           "remaster": true,
           "page": "N/A"
+        },
+        "_migration": {
+          "version": 0.959,
+          "previous": null
         }
       },
       "type": "spell",
@@ -1392,8 +1501,8 @@
       "effects": [],
       "_stats": {
         "systemId": "pf2e",
-        "systemVersion": "4.6.3",
-        "coreVersion": "10.291",
+        "systemVersion": "8.5.1",
+        "coreVersion": "14.368",
         "createdTime": 1672969567538,
         "modifiedTime": 1673112072368,
         "lastModifiedBy": "lxzmymmFddOcN8CB"
@@ -1422,8 +1531,15 @@
         "rules": [],
         "slug": "prestidigitation",
         "schema": {
-          "version": 0.812,
-          "lastMigration": null
+          "version": 0.959,
+          "lastMigration": {
+            "datetime": null,
+            "version": {
+              "schema": 0.959,
+              "foundry": "14.368",
+              "system": "8.5.1"
+            }
+          }
         },
         "traits": {
           "value": [
@@ -1513,6 +1629,10 @@
           "license": "ORC",
           "remaster": true,
           "page": "N/A"
+        },
+        "_migration": {
+          "version": 0.959,
+          "previous": null
         }
       },
       "type": "spell",
@@ -1524,8 +1644,8 @@
       "effects": [],
       "_stats": {
         "systemId": "pf2e",
-        "systemVersion": "4.6.3",
-        "coreVersion": "10.291",
+        "systemVersion": "8.5.1",
+        "coreVersion": "14.368",
         "createdTime": 1672969567538,
         "modifiedTime": 1673112078998,
         "lastModifiedBy": "lxzmymmFddOcN8CB"
@@ -1554,8 +1674,15 @@
         "rules": [],
         "slug": "prestidigitation",
         "schema": {
-          "version": 0.812,
-          "lastMigration": null
+          "version": 0.959,
+          "lastMigration": {
+            "datetime": null,
+            "version": {
+              "schema": 0.959,
+              "foundry": "14.368",
+              "system": "8.5.1"
+            }
+          }
         },
         "traits": {
           "value": [
@@ -1645,6 +1772,10 @@
           "license": "ORC",
           "remaster": true,
           "page": "N/A"
+        },
+        "_migration": {
+          "version": 0.959,
+          "previous": null
         }
       },
       "type": "spell",
@@ -1656,8 +1787,8 @@
       "effects": [],
       "_stats": {
         "systemId": "pf2e",
-        "systemVersion": "4.6.3",
-        "coreVersion": "10.291",
+        "systemVersion": "8.5.1",
+        "coreVersion": "14.368",
         "createdTime": 1672969567538,
         "modifiedTime": 1673112083423,
         "lastModifiedBy": "lxzmymmFddOcN8CB"
@@ -1686,13 +1817,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.812,
+          "version": 0.959,
           "lastMigration": {
-            "datetime": "2023-01-07T09:21:33.869-08:00",
+            "datetime": null,
             "version": {
-              "schema": null,
-              "foundry": "10.291",
-              "system": "4.6.3"
+              "schema": 0.959,
+              "foundry": "14.368",
+              "system": "8.5.1"
             }
           }
         },
@@ -1795,6 +1926,10 @@
           "license": "ORC",
           "remaster": true,
           "page": "N/A"
+        },
+        "_migration": {
+          "version": 0.959,
+          "previous": null
         }
       },
       "_id": "rZ6tahT0CIwyFLNH",
@@ -1809,8 +1944,8 @@
       "flags": {},
       "_stats": {
         "systemId": "pf2e",
-        "systemVersion": "4.6.3",
-        "coreVersion": "10.291",
+        "systemVersion": "8.5.1",
+        "coreVersion": "14.368",
         "createdTime": 1673112093886,
         "modifiedTime": 1673112445220,
         "lastModifiedBy": "lxzmymmFddOcN8CB"
@@ -1833,13 +1968,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.812,
+          "version": 0.959,
           "lastMigration": {
-            "datetime": "2023-01-07T09:21:43.554-08:00",
+            "datetime": null,
             "version": {
-              "schema": null,
-              "foundry": "10.291",
-              "system": "4.6.3"
+              "schema": 0.959,
+              "foundry": "14.368",
+              "system": "8.5.1"
             }
           }
         },
@@ -1913,6 +2048,10 @@
           "license": "ORC",
           "remaster": true,
           "page": "N/A"
+        },
+        "_migration": {
+          "version": 0.959,
+          "previous": null
         }
       },
       "_id": "EwBBxywEIKipQrIP",
@@ -1926,8 +2065,8 @@
       "flags": {},
       "_stats": {
         "systemId": "pf2e",
-        "systemVersion": "4.6.3",
-        "coreVersion": "10.291",
+        "systemVersion": "8.5.1",
+        "coreVersion": "14.368",
         "createdTime": 1673112103563,
         "modifiedTime": 1673112187448,
         "lastModifiedBy": "lxzmymmFddOcN8CB"
@@ -1939,8 +2078,8 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "4.12.9",
-    "coreVersion": "10.303",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
     "createdTime": 1673111385877,
     "modifiedTime": 1694447933074,
     "lastModifiedBy": "7iofgUiimTzs2vga"

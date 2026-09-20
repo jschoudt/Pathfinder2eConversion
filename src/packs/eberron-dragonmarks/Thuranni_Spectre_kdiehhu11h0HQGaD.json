@@ -19,8 +19,8 @@
     "rules": [],
     "slug": null,
     "_migration": {
-      "version": null,
-      "lastMigration": null
+      "version": 0.959,
+      "previous": null
     },
     "traits": {
       "otherTags": [],
@@ -68,13 +68,13 @@
       "page": "N/A"
     },
     "schema": {
-      "version": 0.812,
+      "version": 0.959,
       "lastMigration": {
-        "datetime": "2023-01-05T15:11:53.837-08:00",
+        "datetime": null,
         "version": {
-          "schema": 0.73,
-          "foundry": "10.291",
-          "system": "4.6.3"
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
         }
       }
     },
@@ -88,8 +88,8 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.7.4",
-    "coreVersion": "11.309",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
     "createdTime": 1672960313900,
     "modifiedTime": 1698609995660,
     "lastModifiedBy": "rB4S3QfOEBk0rdKx"
