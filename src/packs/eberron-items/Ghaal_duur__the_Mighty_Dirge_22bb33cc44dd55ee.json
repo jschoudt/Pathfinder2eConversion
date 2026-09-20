@@ -1,0 +1,80 @@
+{
+  "_id": "22bb33cc44dd55ee",
+  "name": "Ghaal'duur, the Mighty Dirge",
+  "type": "equipment",
+  "img": "systems/pf2e/icons/default-icons/equipment.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "source": {
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "rules": [],
+    "slug": "ghaal-duur--the-mighty-dirge",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "traits": {
+      "value": [
+        "magical"
+      ],
+      "rarity": "rare",
+      "custom": ""
+    },
+    "description": {
+      "value": "<p>Warhorn of Jhazaal Dhakaan. Grants +4 item bonus to spell DC, doubles composition spell durations, and sounds a 600-ft inspiring blast.</p>"
+    },
+    "level": {
+      "value": 20
+    },
+    "quantity": 1,
+    "weight": {
+      "value": "1"
+    },
+    "price": {
+      "value": {
+        "gp": 0
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": true,
+      "handsHeld": 0
+    },
+    "size": "med",
+    "identification": {
+      "status": "identified"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1726848000000,
+    "modifiedTime": 1726848000000,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!22bb33cc44dd55ee"
+}

@@ -3,6 +3,9 @@ head(
 These new spells are a combination of regular spells and focus spells found throughout Eberron that allow you to interact with the world in new ways.
 -
 )
+info(
+For the original 5e/5.5e mechanics and lore of these spells and focus spells, see Exploring Eberron (Ch. 6), Frontiers of Eberron: Quickstone (Ch. 5), and Eberron: Forge of the Artificer (Ch. 4).
+)
 # Spell Lists ((+Spell Lists))
 The following spells are provided by this supplement, and accessible to any caster of the respective school.
 ## Common Cantrips
@@ -718,4 +721,93 @@ item(
 **Cast** :r: verbal; **Trigger** You take physical or energy damage
 -
 You calcify your skin instantly before the blow lands, gaining Hardness 5 against the triggering damage. You can immediately meld into adjacent stone and reappear up to 15 feet away.
+)
+
+item(
+# Concussive Burst
+## Spell 1
+-
+; Arcane, Evocation, Force, Occult
+**Cast** :aa: somatic, verbal
+
+**Range** 60 feet; **Area** 15-foot burst
+
+**Defense** Fortitude
+-
+A high-frequency ripple of kinetic pressure erupts at a designated point. Each creature in the area takes 2d4 force damage and must attempt a Fortitude saving throw.
+- **Critical Success:** The creature is unaffected.
+- **Success:** The creature takes half damage.
+- **Failure:** The creature takes full damage and is deafened until the end of its next turn.
+- **Critical Failure:** The creature takes double damage, is deafened for 1 minute, and pushed 5 feet away from the center of the burst.
+
+**Heightened (+1)** The force damage increases by 2d4.
+)
+
+item(
+# Mental Shielding
+## Focus 1
+-
+; Cleric, Focus, Mental, Psychic
+**Domain** Mind
+
+**Cast** :r: verbal; **Trigger** You or an ally within 30 feet attempts a Will saving throw
+-
+You erect a barrier of psychic dissonance around the target's mind. The triggering creature gains a +2 status bonus to the triggering Will saving throw. If the target succeeds, the creature that forced the saving throw takes 2d6 psychic damage from mental backlash.
+
+**Heightened (+1)** The psychic backlash damage increases by 1d6.
+)
+
+item(
+# Thought Projection
+## Focus 4
+-
+; Cleric, Focus, Mental, Psychic
+**Domain** Mind
+
+**Cast** :aa: somatic, verbal
+
+**Area** 20-foot emanation; **Duration** 1 minute
+-
+You project a calm psionic gestalt field. You and all allies in the emanation can communicate telepathically and gain a +1 status bonus to Intelligence, Wisdom, and Charisma saving throws. In addition, when an enemy enters or begins its turn in the area, it takes 3d6 mental damage (basic Will save).
+
+**Heightened (+1)** The mental damage increases by 1d6.
+)
+
+item(
+# Song of the Iron Will
+## Cantrip Focus 1
+-
+; Bard, Cantrip, Composition, Emotion, Mental
+**Cast** :a: verbal
+
+**Area** 30-foot emanation; **Duration** 1 round
+-
+Drawing upon ancient Dhakaani *duur'kala* battle dirges, you chant of past glory and unbreakable resolve. You and allies in the area gain a +1 status bonus to Will saving throws against fear and mental effects, and a +1 status bonus to Athletics checks made to Shove, Trip, or Grapple.
+)
+
+item(
+# Dirge of the Victorious Blade
+## Focus 1
+-
+; Bard, Composition, Focus, Sonic
+**Cast** :r: verbal; **Trigger** An ally within 30 feet critically hits an enemy with a weapon strike
+-
+You punctuate your ally's lethal blow with a resonant martial dirge. The struck foe and each enemy adjacent to it takes 2d6 sonic damage (basic Fortitude save against your class DC or spell DC). Your triggering ally gains temporary Hit Points equal to your Charisma modifier for 1 minute.
+
+**Heightened (+1)** The sonic damage increases by 1d6.
+)
+
+item(
+# Construct Form
+## Focus 1
+-
+; Druid, Focus, Polymorph, Primal
+**Order** Circle of the Forged
+
+**Cast** :aa: somatic, verbal; **Duration** 1 minute
+-
+You channel the mysteries of the forge, transforming your body into a living construct beast of steel plates, dense wood, and copper wire. You gain the construct trait (retaining your humanoid mind), an item bonus to AC equal to 16 + your level, resistance to precision damage and bleed damage equal to half your level, and your natural unarmed strikes can deal your choice of bludgeoning, piercing, slashing, acid, cold, fire, or electricity damage.
+
+**Heightened (4th)** Your size can be Large; gain reach 10 ft.
+**Heightened (7th)** Your size can be Huge; gain reach 15 ft and resistance equal to your level.
 )

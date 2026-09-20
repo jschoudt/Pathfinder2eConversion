@@ -1,0 +1,82 @@
+{
+  "_id": "d6bceac4f5f25b17",
+  "name": "Song of the Iron Will",
+  "type": "spell",
+  "img": "systems/pf2e/icons/spells/song-of-the-iron-will.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "source": {
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "rules": [],
+    "slug": "song-of-the-iron-will",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "traits": {
+      "value": [
+        "bard",
+        "cantrip",
+        "composition",
+        "emotion",
+        "mental"
+      ],
+      "rarity": "uncommon",
+      "custom": ""
+    },
+    "description": {
+      "value": "<p>Drawing upon ancient Dhakaani duur'kala battle dirges, you chant of past glory. You and allies in a 30-foot emanation gain a +1 status bonus to Will saves against fear and mental effects, and a +1 status bonus to Athletics checks for 1 round.</p>"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": {
+      "value": "cantrip"
+    },
+    "spellType": {
+      "value": "utility"
+    },
+    "area": {
+      "type": "emanation",
+      "value": 30
+    },
+    "time": {
+      "value": "1"
+    },
+    "duration": {
+      "value": "1 round"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1726848000000,
+    "modifiedTime": 1726848000000,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!d6bceac4f5f25b17"
+}

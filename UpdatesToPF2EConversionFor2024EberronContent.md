@@ -3,9 +3,10 @@
 **Document Version:** 1.1.0  
 **Target Systems:** Pathfinder 2e Remaster (Foundry VTT PF2e System 8.5.1+ / Foundry v14+)  
 **Analyzed Sources:**
-- *Eberron: Forge of the Artificer* (Foundry Gaming LLC, D&D 2024 5.5e)
-- *Exploring Eberron (5.5e Update)* (Keith Baker, D&D Beyond / DMs Guild)
-- *Frontiers of Eberron: Quickstone (5.5e)* (Keith Baker, D&D Beyond / DMs Guild)
+- [*Eberron: Forge of the Artificer* (2024 / 5.5e)](https://www.dndbeyond.com/marketplace/sourcebooks/eberron-forge-of-the-artificer) (Foundry Gaming LLC)
+- [*Exploring Eberron (2024 / 5.5e Update)*](https://www.dndbeyond.com/marketplace/sourcebooks/exploring-eberron) (Keith Baker, D&D Beyond / DMs Guild)
+- [*Frontiers of Eberron: Quickstone (2024 / 5.5e)*](https://www.dndbeyond.com/marketplace/sourcebooks/frontiers-of-eberron-quickstone) (Keith Baker, D&D Beyond / DMs Guild)
+- [*Chronicles of Eberron*](https://www.dndbeyond.com/marketplace/sourcebooks/chronicles-of-eberron) (Keith Baker, D&D Beyond / DMs Guild)
 
 ---
 

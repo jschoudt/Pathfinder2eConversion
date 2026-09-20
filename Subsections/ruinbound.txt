@@ -1,0 +1,79 @@
+head( 
+# Ruinbound ((++Ruinbound)) 
+The Ruinbound are beings forever touched by the madness of Xoriat and the deep flesh-crafting corruption of the Daelkyr. While born to ordinary humanoid parents—most commonly among the dwarves of the Mror Holds fighting the War Below, or human and orc clans of the Shadow Marches—a Ruinbound infant enters the world fused to a personal symbiont: an alien entity of chitin, tendon, or ectoplasm that lives in symbiosis with their body.
+-
+) 
+
+Unlike separate daelkyr symbionts that can be donned or discarded, a Ruinbound's personal symbiont is an inseparable part of their physiology. Some view the Ruinbound as tragic victims of ancient curses, while others, particularly Clan Soldorak of the Mror Holds, celebrate them as living weapons forged by necessity to combat the horrors beneath the surface.
+
+## You might... 
+- Regard your personal symbiont as a trusted partner, whispering thoughts and feelings that only you understand.
+- Display disturbing physical mutations that unsettle surface humanoids, yet provide unexpected survival gifts.
+- Understand the alien logic of aberrations, Khyber fiends, and flesh-crafted horrors better than any scholar.
+
+## Others Probably... 
+- Flinch or draw weapons upon first seeing your chitinous plates, shifting eye-stalks, or twitching tentacles.
+- Fear that your mind is compromised by the Daelkyr, constantly watching for signs of madness.
+- Turn to you for invaluable insight when confronting deep Khyber ruins and alien horrors.
+
+## Physical Description... 
+A Ruinbound retains the general silhouette and size of their parent ancestry, but is marked by alien anatomy. Every Ruinbound possesses an attached personal symbiont—which might take the form of an eyestalk emerging from the collarbone, a coiling chitinous whip on the forearm, a cluster of breathing valves along the ribs, or living skin that pulses with bioluminescence.
+
+### Ruinbound Mutations (Roll 1d8)
+1. **Unnatural Hair:** Your hair moves like tendrils or is composed of semi-translucent filaments.
+2. **Unusual Skin:** Your skin is slick, transparent, or mottled in iridescent insectoid hues.
+3. **Aberrant Eyes:** You possess compound facets, luminous pupils, or extra vestigial eyes along your temple.
+4. **Strange Appetites:** You thrive on charred ash, minerals, or live floral nectar rather than ordinary food.
+5. **Living Tattoos:** Biomorphic patterns shift across your flesh of their own accord.
+6. **Ageless Visage:** Your features appear perpetually youthful or prematurely weathered without regard to age.
+7. **Inexplicable Senses:** You lack external ears, yet hear sound through bone conduction and skin vibrations.
+8. **Extra Joints:** Your fingers, elbows, or knees feature additional jointing that allows uncanny flexions.
+
+= 
+right(
+## Rarity
+Rare
+## Versatile Heritage
+A character of any humanoid ancestry can select the Ruinbound versatile heritage at 1st level.
+## Traits 
+Ruinbound 
+## Special Abilities
+- **Darkvision:** You gain darkvision. If your ancestry already had darkvision, your senses pierce magical darkness up to 30 feet.
+- **Personal Symbiont:** An alien entity is permanently fused to your body. Choose one cantrip from the following list: *Acid Splash*, *Guidance* (self only), *Light*, *Mage Hand*, *Mind Sliver*, *Poison Spray*, *Shield*, or *Shocking Grasp*. You can cast this cantrip as an innate occult or primal spell, using your choice of Intelligence, Wisdom, or Charisma as your spellcasting attribute. During your daily preparations, you can exchange this cantrip for another option from the list.
+- **Symbiont Mastery:** Your body naturally welcomes symbiotic bio-matter. You can invest one additional magic item that possesses the symbiotic trait without it counting against your standard investment limit. In addition, you can end your attunement to symbiotic items during your daily preparations without requiring *Remove Curse* or outside intervention.
+- **Unnatural Resilience:** You gain poison resistance equal to half your level (minimum 1) and a +1 circumstance bonus to saving throws against poison and disease.
+) 
+
+# Ruinbound Feats
+
+item(
+# Symbiont Strike
+## Feat 1
+-
+; Ruinbound
+Your personal symbiont can lash out in combat. You gain an unarmed attack that deals 1d6 damage (slashing, piercing, or bludgeoning, determined when you take this feat). This strike has the agile, finesse, and unarmed traits.
+)
+
+item(
+# Unsettling Gaze :a:
+## Feat 1
+-
+; Emotion, Fear, Mental, Ruinbound
+You fix your aberrant eyes or symbiont stalks upon an enemy within 30 feet. Attempt an Intimidation check to Demoralize that enemy. You do not take a penalty if the target does not share a language with you, and on a critical success, the target is frightened 2.
+)
+
+item(
+# Chitinous Carapace
+## Feat 5
+-
+; Ruinbound
+Hardened bone and alien chitin erupt across your torso. When you are unarmored, your natural armor grants you an item bonus to AC equal to +2 with a dexterity cap of +3. You also gain resistance to physical damage from critical hits equal to half your level.
+)
+
+item(
+# Daelkyr Mental Bastion
+## Feat 9
+-
+; Ruinbound
+Having shared a body with an alien symbiont from birth, your mind defies psychic assault. You gain a +2 circumstance bonus to Will saving throws against mental and emotion effects, and you gain psychic resistance equal to half your level.
+)

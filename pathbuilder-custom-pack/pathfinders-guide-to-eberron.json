@@ -183,6 +183,48 @@
       "lore": "Droaam Lore",
       "description": "You serve the Daughters of Sora Kell as an envoy to border communities and travelers.",
       "src": "Pathfinder's Guide to Eberron"
+    },
+    {
+      "databaseID": 1,
+      "id": "a48422a8-557d-4dd0-ab93-6b38d093bcf1",
+      "name": "Changeling Traveler (Background)",
+      "traits": "3rd Party, Common",
+      "boost_ref_1": "1",
+      "boost_ref_2": "5",
+      "boost_ref_3": "0",
+      "freeFeatDetail": "Trained in Society and Settlement Lore. Gain Streetwise.",
+      "skill": "Society",
+      "lore": "Settlement Lore",
+      "description": "You wander across Khorvaire adopting different personas in every town and enclave, learning regional customs and underworld contacts.",
+      "src": "Pathfinder's Guide to Eberron"
+    },
+    {
+      "databaseID": 1,
+      "id": "0f72d9a1-c569-4aa2-af96-aa00a22072c8",
+      "name": "Dhakaani Goblinoid",
+      "traits": "3rd Party, Common",
+      "boost_ref_1": "0",
+      "boost_ref_2": "2",
+      "boost_ref_3": "0",
+      "freeFeatDetail": "Trained in Athletics and Dhakaani Lore. Gain Hefty Hauler.",
+      "skill": "Athletics",
+      "lore": "Dhakaani Lore",
+      "description": "You were raised inside a subterranean Kech vault adhering strictly to the ancient martial code of the Dhakaani Empire.",
+      "src": "Pathfinder's Guide to Eberron"
+    },
+    {
+      "databaseID": 1,
+      "id": "00a4bea4-a67a-433e-a6b6-b985e6d3ec67",
+      "name": "Malenti",
+      "traits": "3rd Party, Common",
+      "boost_ref_1": "1",
+      "boost_ref_2": "3",
+      "boost_ref_3": "0",
+      "freeFeatDetail": "Trained in Deception and Ocean Lore. Gain Lie to Me.",
+      "skill": "Deception",
+      "lore": "Ocean Lore",
+      "description": "Born of sahuagin parents but bearing the physical form of a sea elf, you were trained as a deep infiltrator and scout.",
+      "src": "Pathfinder's Guide to Eberron"
     }
   ],
   "listCustomArmor": [
@@ -220,7 +262,7 @@
       "databaseID": 1,
       "uniqueIdentiier": "9f31fda6-b98d-4fce-9fb5-68ee7bee9ad2",
       "name": "Heavy Integrated Armor",
-      "description": "Your body is designed to be extremely resilient. Your integrated armour is heavy armour in the plate armour group that grants a +6 item bonus to AC, a Dex cap of 0, a check penalty of \u20133, a speed penalty of \u201310 feet, has the Bulwark trait, and a Strength value of 18. This armour has no bulk, but you can never wear other armour or remove your integrated armour; however, you still don't become fatigued from sleeping. Finally, you can etch armour runes onto your armour as normal.",
+      "description": "Your body is designed to be extremely resilient. Your integrated armour is heavy armour in the plate armour group that grants a +6 item bonus to AC, a Dex cap of 0, a check penalty of –3, a speed penalty of –10 feet, has the Bulwark trait, and a Strength value of 18. This armour has no bulk, but you can never wear other armour or remove your integrated armour; however, you still don't become fatigued from sleeping. Finally, you can etch armour runes onto your armour as normal.",
       "src": "Pathfinder's Guide to Eberron",
       "proficiencyType": 2,
       "acBonus": 6,
@@ -249,7 +291,7 @@
       "databaseID": 1,
       "uniqueIdentiier": "427344c4-6e6a-4f2f-bbe3-5caa7eb3b331",
       "name": "Light Integrated Armor",
-      "description": "Your body is designed to be agile with some protection. Your integrated armour is light armour in the leather armour group that grants a +2 item bonus to AC, a Dex cap of +3, a check penalty of \u20131, and a Strength value of 12. This armour has no bulk, but you can never wear other armour or remove your integrated armour; however, you still don't become fatigued from sleeping. Finally, you can etch armour runes onto your armour as normal.",
+      "description": "Your body is designed to be agile with some protection. Your integrated armour is light armour in the leather armour group that grants a +2 item bonus to AC, a Dex cap of +3, a check penalty of –1, and a Strength value of 12. This armour has no bulk, but you can never wear other armour or remove your integrated armour; however, you still don't become fatigued from sleeping. Finally, you can etch armour runes onto your armour as normal.",
       "acBonus": 2,
       "strength": 12,
       "dexCap": 3,
@@ -261,7 +303,7 @@
       "databaseID": 1,
       "uniqueIdentiier": "526a3578-d997-428a-a517-eca14f79fe90",
       "name": "Medium Integrated Armor",
-      "description": "Your body is designed to be particularly resilient. Your integrated armour is medium armour in the plate armour group that grants a +4 item bonus to AC, a Dex cap of +1, a check penalty of \u20132, a speed penalty of \u20135 feet, and a Strength value of 16. This armour has no bulk, but you can never wear other armour or remove your integrated armour; however, you still don't become fatigued from sleeping. Finally, you can etch armour runes onto your armour as normal.",
+      "description": "Your body is designed to be particularly resilient. Your integrated armour is medium armour in the plate armour group that grants a +4 item bonus to AC, a Dex cap of +1, a check penalty of –2, a speed penalty of –5 feet, and a Strength value of 16. This armour has no bulk, but you can never wear other armour or remove your integrated armour; however, you still don't become fatigued from sleeping. Finally, you can etch armour runes onto your armour as normal.",
       "src": "Pathfinder's Guide to Eberron",
       "proficiencyType": 1,
       "acBonus": 4,
@@ -371,6 +413,45 @@
       "damageType": "P",
       "group": "Brawling",
       "weaponTraits": "Finesse, Trip, Disarm, 3rd Party"
+    },
+    {
+      "databaseID": 1,
+      "uniqueIdentiier": "9e954515-273c-4cbb-ab30-8226606be68b",
+      "name": "Shaarat'doovol, the Blade of Truth",
+      "hands": "1",
+      "description": "Sentient longsword forged in khaar'draguus. Deals vitality damage against aberrations and grants truesight.",
+      "src": "Pathfinder's Guide to Eberron",
+      "proficiencyType": 2,
+      "damage": 8,
+      "damageType": "S",
+      "group": "Sword",
+      "weaponTraits": "Magical, Holy, Versatile P, 3rd Party"
+    },
+    {
+      "databaseID": 1,
+      "uniqueIdentiier": "b5f541d1-2fc8-4edc-aec8-359bd556f16a",
+      "name": "Keeper's Fang",
+      "hands": "1",
+      "description": "Shaarat'khesh assassin dagger with embedded Khyber shard. Soul-severing strike on creatures reduced to 0 HP.",
+      "src": "Pathfinder's Guide to Eberron",
+      "proficiencyType": 1,
+      "damage": 4,
+      "damageType": "P",
+      "group": "Knife",
+      "weaponTraits": "Magical, Agile, Finesse, Thrown 10, Versatile S, 3rd Party"
+    },
+    {
+      "databaseID": 1,
+      "uniqueIdentiier": "439070f4-bee6-4f48-a0c8-d302b95433b9",
+      "name": "Hungry Weapon",
+      "hands": "1",
+      "description": "Organic symbiont weapon burrowing tendrils into the wielder's hand to drain vitality.",
+      "src": "Pathfinder's Guide to Eberron",
+      "proficiencyType": 2,
+      "damage": 8,
+      "damageType": "S",
+      "group": "Sword",
+      "weaponTraits": "Magical, 3rd Party"
     }
   ],
   "listCustomFeats": [
@@ -1734,7 +1815,7 @@
     {
       "id": "1acf369e-d152-49d5-b360-48e62f71a130",
       "name": "Integrated Tool",
-      "textDescription": "You can integrate a small toolset of up to 1 Bulk into your body. You can use a 1-minute activity, which has the manipulate trait, to integrate Thieves', Alchemist's, Artisian's, or Healer's tools into your body. You can draw or stow this item as an Interact action. Creatures don't automatically see this integrated item when it's stowed and must actively Seek in order to find it. They take a \u20132 circumstance penalty to any checks to do so. While you are holding the item, it can't be Disarmed and you can't drop or Release it; you must Interact to store the weapon and free that hand. A creature determined to retrieve the item can do so, but it requires either 1 minute to remove it or extreme violence to your arm\u2014such as physically removing portions of the limb.<br><br><b>Enhancement</b> Your body has more space for integration, or you have become more adept at using your tools. You can now either integrate two tool kits or gain a +1 circumstance bonus to a tool kit of your choice when it is integrated into your body.",
+      "textDescription": "You can integrate a small toolset of up to 1 Bulk into your body. You can use a 1-minute activity, which has the manipulate trait, to integrate Thieves', Alchemist's, Artisian's, or Healer's tools into your body. You can draw or stow this item as an Interact action. Creatures don't automatically see this integrated item when it's stowed and must actively Seek in order to find it. They take a –2 circumstance penalty to any checks to do so. While you are holding the item, it can't be Disarmed and you can't drop or Release it; you must Interact to store the weapon and free that hand. A creature determined to retrieve the item can do so, but it requires either 1 minute to remove it or extreme violence to your arm—such as physically removing portions of the limb.<br><br><b>Enhancement</b> Your body has more space for integration, or you have become more adept at using your tools. You can now either integrate two tool kits or gain a +1 circumstance bonus to a tool kit of your choice when it is integrated into your body.",
       "traits": "Warforged, 3rd Party",
       "src": "Pathfinder's Guide to Eberron",
       "databaseID": 1
@@ -3974,7 +4055,7 @@
       "reqFeats": [
         "2bbeea84-a68f-4e46-8631-93d58c2486b5"
       ],
-      "textDescription": "You can take advantage of the terrain to bypass foes\u2019 defences. While in your hybrid form, non-shifter creatures in difficult terrain are off-guard to you.",
+      "textDescription": "You can take advantage of the terrain to bypass foes’ defences. While in your hybrid form, non-shifter creatures in difficult terrain are off-guard to you.",
       "traits": "Shifter, 3rd Party",
       "src": "Pathfinder's Guide to Eberron",
       "databaseID": 1
@@ -4118,7 +4199,7 @@
       "reqFeats": [
         "93ae75a1-5370-498e-b79f-6a8211037b13||ad245e93-3d6c-4108-96f2-2dc9265f3951||b7fdff00-48a3-42e2-b996-1e9bf015ab7b"
       ],
-      "textDescription": "You make the most of your unarmed attacks. Whenever you score a critical hit with an unarmed attack you gained from your shifter heritage or a shifter ancestry feat, you apply the unarmed attack\u2019s critical specialization effect.",
+      "textDescription": "You make the most of your unarmed attacks. Whenever you score a critical hit with an unarmed attack you gained from your shifter heritage or a shifter ancestry feat, you apply the unarmed attack’s critical specialization effect.",
       "traits": "Shifter, 3rd Party",
       "src": "Pathfinder's Guide to Eberron",
       "databaseID": 1
@@ -4520,6 +4601,846 @@
       "reqSpecials": "",
       "textDescription": "Treat wands as martial weapons; +1 circumstance bonus to wand spell attack rolls and spell DC.",
       "traits": "3rd Party, fighter, gunslinger",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "8b4e7069-712a-4fb4-ab77-ed8451975ad4",
+      "name": "Aereni Expertise",
+      "level": 1,
+      "reqSpecials": "",
+      "textDescription": "Growing up in the sanctuaries of Aerenal, you spent decades perfecting a singular craft. Gain training in a skill of your choice (or expert if trained), and a +1 circumstance bonus to checks with that skill.",
+      "traits": "3rd Party, Elf",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "d0f47b0c-be8f-4bf3-a918-10aa8883136d",
+      "name": "Aereni Half-Life",
+      "level": 5,
+      "reqSpecials": "",
+      "textDescription": "Rituals binding you to Irian give your flesh a mummy-like endurance. Gain a +2 circumstance bonus to death saves, and void resistance equal to half your level. Spells you cast dealing void damage can deal vitality damage instead.",
+      "traits": "3rd Party, Elf",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "2f0c3d26-b710-4e99-ac57-fb948cbb9259",
+      "name": "Aggression",
+      "level": 1,
+      "reqSpecials": "",
+      "textDescription": "Gnolls often seem very aggressive to other creatures - partially because gnolls themselves don’t consider such casual intimidation to be a hostile act. You gain a +1 circumstance bonus to intimidation checks made while in exploration mode, and a +1 circumstance bonus to your Will DC against Intimidate skill actions, such as Demoralize.",
+      "traits": "3rd Party, Kholo",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "9ed5c2fb-5329-4df0-a73e-feb419e4397d",
+      "name": "Arcane Overcharge",
+      "level": 20,
+      "reqSpecials": "",
+      "textDescription": "Prerequisites legendary in Arcana There's no overcharge like arcane overcharge. Wands prepared by your Wandslinger features may be overcharged, following all the rules of regular wands. In the event one of your wands is destroyed, you take force damage equal to your level. You may prepare the wand again during your next daily preparations.",
+      "traits": "3rd Party, Archetype, Wandslinger",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "c1e787e1-5a1a-4383-a55a-33c6163cda82",
+      "name": "Arcane Safeguards (Warforged)",
+      "level": 5,
+      "reqSpecials": "",
+      "textDescription": "The constructed nature of your body makes it difficult for outside magic to affect you. You gain the @Compendium[pathfinders-guide-to-eberron.eberron-actions.z2iX2iDlzn5httvo]{Resist Magic (Warforged)} reaction. Enhancement Your safeguards improve. When you Resist Magic, you gain a number of temporary Hit Points equal to the spell rank of the triggering effect.",
+      "traits": "3rd Party, Warforged",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "b55848ec-8048-4823-a583-a73c610fc2d5",
+      "name": "Armoured Warrior",
+      "level": 9,
+      "reqSpecials": "",
+      "textDescription": "Prerequisites Eyre, Olarune, Vult Clan You have trained hard to optimize your armour's protective qualities. You gain the armour specialization effects of medium and heavy armour.",
+      "traits": "3rd Party, Kholo",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "65fb65c7-ef4f-43de-a439-54cc82e31da3",
+      "name": "Attuned spirit",
+      "level": 1,
+      "reqSpecials": "",
+      "textDescription": "A lifetime of experience helps you detect other Kalashtar. When you come within 10 feet of a creature that is connected to or possessed by a quori, the GM rolls a secret Perception check for you to recognize the nature of that creature, even if you didn't spend an action to Seek against that creature.",
+      "traits": "3rd Party, Kalashtar",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "28bfe822-5f2e-45b4-a529-38aa6a73457a",
+      "name": "Basic Wandslinger Casting",
+      "level": 6,
+      "reqSpecials": "",
+      "textDescription": "Prerequisites Wandslinger Dedication You gain the basic bounded spellcasting benefits (SoM 74). However, your use of scrolls, staves, and wands is bounded as described by the wandslinger dedication. During your daily preparations, you may create a unique wand for each of your prepared spell slots. Due to the unstable arcane energy supporting them, only you are capable of using these wands. These wands follow the normal rules of wands, including once per day use, but they may not be overcharged. For each spell slot you gain from this feat, add a spell of that level or lower to your spellbook.",
+      "traits": "3rd Party, Archetype, Wandslinger",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "65cb3076-3b6a-47a0-af23-0ee473ef795c",
+      "name": "Bone Eater",
+      "level": 1,
+      "reqSpecials": "",
+      "textDescription": "You are used to subsisting on scraps of meat that would poison or be inedible to others. You can eat and drink things when you are sickened. You gain a +2 circumstance bonus to saving throws against afflictions, against gaining the sickened condition and to remove the sickened condition. When you roll a success on a Fortitude save affected by this bonus, you get a critical success instead. All these benefits apply only when the affliction or condition resulted from something you ingested.",
+      "traits": "3rd Party, Kholo",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "8687f1de-b6d5-4fa1-a92b-ff6d576503ad",
+      "name": "Bugbear fortitude",
+      "level": 9,
+      "reqSpecials": "",
+      "textDescription": "Your hardiness lets you withstand more punishment than most before going down. Increase your maximum Hit Points by your level. When you have the dying condition, the DC of your recovery checks is equal to 9 + your dying value (instead of 10 + your dying value). Special If you also have the Toughness feat, the Hit Points gained from it and this feat are cumulative, and the DC of your recovery checks is equal to 8 + your dying value. Special If you also have Bugbear Endurance, the flat check DC of Bugbear Endurance is reduced by 1.",
+      "traits": "3rd Party, Bugbear",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "1f7e2c84-9549-437e-a2dd-a06894f6f5e8",
+      "name": "Changeling Metamorphosis",
+      "level": 5,
+      "reqSpecials": "",
+      "textDescription": "Your shapeshifting alters deeper physiology. When shifting, you can sprout gills and webbed digits (swim speed equal to land speed), darkvision, or 1d6 agile/finesse claws and fangs.",
+      "traits": "3rd Party, Eberron-changelings",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "87ce209c-335b-4a8d-a98f-65a4f11363f9",
+      "name": "Charged Shot",
+      "level": 6,
+      "reqSpecials": "",
+      "textDescription": "Trigger you used Arcane Blowback to reload a weapon. Prerequisites Wandslinger Dedication As the discharge of your wands builds up arcane energy around you, you channel that overcharge of energy into a bullet form. Choose acid, cold, electricity, or fire. When you fire the bullet manifested by Arcane Blowback, you deal 1d6 additional damage of this type. At 12th level, this increases to 2d6 additional damage, and at 18th level, it increases to 3d6 additional damage.",
+      "traits": "3rd Party, Archetype, Wandslinger",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "ee3c6523-a043-45c5-abe5-cc38e1784bc4",
+      "name": "Construct Rejuvenation",
+      "level": 13,
+      "reqSpecials": "",
+      "textDescription": "Frequency once per day Trigger You have the dying condition and are about to attempt a recovery check. Your willpower taps into the physical essence of your construction to push against the grasp of death and allow you to recover consciousness. You're restored to 1 Hit Point, lose the dying and unconscious conditions, and can act normally on this turn. You gain or increase the wounded condition as normal when losing the dying condition in this way. Enhancement You can push yourself even harder to rise from death, granting you additional benefits. When you use Construct Rejuvenation, you also gain a number of temporary Hit Points equal to three times your level. These Hit Points remain for 1 minute. @UUID[Compendium.pathfinders-guide-to-eberron.eberron-effects.EffUsedConstReju]{Effect: Used Construct Rejuvenation}",
+      "traits": "3rd Party, Warforged",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "80336e8b-12a4-4ee5-ad58-0c2979f553f6",
+      "name": "Constructed Resistance",
+      "level": 1,
+      "reqSpecials": "",
+      "textDescription": "Your constructed body has advantages and disadvantages that most humanoid creatures do not. You gain a +1 circumstance bonus to saving throws against diseases, and poisons. However, you are considered to be a creature composed entirely of wood and metal for the purposes of magical or other effects - regardless of your integrated armour type.",
+      "traits": "3rd Party, Warforged",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "136c357b-0ca3-465a-a631-134ce2bb0659",
+      "name": "Distant Cackle - Eberron",
+      "level": 5,
+      "reqSpecials": "",
+      "textDescription": "It takes a very brave person to enter the laughter-haunted forest where you dwell. You can cast @Compendium[pf2e.spells-srd.yV7Ouzaoe7DHLESI]{Ventriloquism} once per day as a 1st-level occult innate spell.",
+      "traits": "3rd Party, Kholo",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "7f8e8948-7041-46db-a35f-6cd717d58030",
+      "name": "Eberron Changeling lore",
+      "level": 1,
+      "reqSpecials": "",
+      "textDescription": "You excel at navigating social situations and keeping secrets. You gain the trained proficiency rank in Diplomacy and Deception. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also become trained in Eberron Changeling Lore. Special If you are a Persona Changeling, the DC of your checks to find a persona in a settlement is reduced by 2.",
+      "traits": "3rd Party, Eberron-changelings",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "bf65d52d-57fd-4087-a2ae-d5c6ac7c0f41",
+      "name": "Education",
+      "level": 1,
+      "reqSpecials": "",
+      "textDescription": "Prerequisite you may only take this feat at 1st level Some lands hold the pen in higher regard than the sword. In your youth, you received the benefit of several years of formal schooling. You become trained in one skill and an additional lore of your choice. At 5th level, you become an expert in the lore.",
+      "traits": "3rd Party, General",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "2aa181ca-7cf0-4736-ad45-de58ce916d74",
+      "name": "Emotionally Unaware (Warforged)",
+      "level": 1,
+      "reqSpecials": "",
+      "textDescription": "Warforged find it difficult to understand and express complex emotions. You take a -1 circumstance penalty to Diplomacy and Performance checks, and on Perception checks to Sense Motive.",
+      "traits": "3rd Party, Warforged",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "9c36f43b-9a63-4f69-aeab-db3f344ea169",
+      "name": "Envoy Specialist",
+      "level": 1,
+      "reqSpecials": "",
+      "textDescription": "You have an artisan tool or kit integrated directly into your body. As long as you have a hand free, you can use this tool, gaining a +1 circumstance bonus to checks using it.",
+      "traits": "3rd Party, Warforged",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "f6d3e377-0957-4048-a56a-52478112d6a4",
+      "name": "Essence of the Moon",
+      "level": 5,
+      "reqSpecials": "",
+      "textDescription": "Prerequisites clan heritage Your connection to the tribe and your moon is strong. You gain the bonus associated with your clan. Aryth With keen eyes, your shots land true. You may ignore the penalty for targetting a creature in the second range increment of your ranged weapons, and the volley trait of your weapons is reduced by 15 feet. Barrakas The range of your imprecise smell sense is increased to 60 feet. In addition, when you track creatures that you have previously sensed with your scent you gain a +2 circumstance bonus. Dravago You gain Terrain Expertise in the arctic (or a different terrain if you have the arctic already) and become trained in survival (or expert if you are already trained). Eyre You can repair damaged weapons and armour on the field, and return companions to the fight swiftly. You gain a +1 circumstance bonus to Crafting checks to repair items, and you don’t need a repair kit for non-magical item repairs as long as you have any amount of junk, spare parts, or debris at your disposal. The gear you are repairing can be worn for the duration of the repair, but the wearer cannot do anything without interrupting the repair. Lharvion Once per day, you can cast Protection. At 7th level, the spell is heightened to 2nd level, and every 2 levels thereafter, the spell is heightened an additional spell rank. Nymm The frequency of bark orders becomes once per hour instead. Additionally, you may instead single out an ally to use their reaction to make a strike. Olarune The frequency of Rapid Cover becomes once per hour instead. In addition, when you use the shield block reaction you have resistance 10 to any damage over the shield's hardness. Rhaan Your connection to the primal energies of Eberron lets you reach the fey more easily. You gain the Summon Fey primal spell which you can cast once per day. At 7th level, the spell is heightened to 2nd level, and every 2 levels thereafter, the spell is heightened an additional spell rank. Sypheros The DC of your recovery checks is equal to 9 + your dying value, or 8 + your dying value if you have the Toughness general feat. In addition, whenever someone returns you to life using magic that would normally leave you debilitated for a week (such as raise dead or the resurrect ritual), you don't suffer that condition. Therendor With experience performing first aid in adverse conditions, hostile environments do not increase the difficulty of your Treat Wounds checks. In addition, when you make a Treat Wounds check the healing dice are increased to d10s, and if you roll a critical failure it becomes a failure instead. Vult Your warding abilities extend to others as well. You can cast the Forbidding Ward cantrip at will, and once per day, you can cast Protection as innate occult spells. Both these spells are heightened to half your level. Zarantyr The frequency of rampage is reduced to once per 10 minutes. Additionally, if you miss the strike from your rampage it does not count against your multiple attack penalty.",
+      "traits": "3rd Party, Kholo",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "a7d5afd9-82ad-4d57-af6a-0be5cc294c11",
+      "name": "Exceptional Artisan",
+      "level": 1,
+      "reqSpecials": "",
+      "textDescription": "When you spend downtime to use the Craft activity, you need only spend 3 days at work at which point you attempt a Crafting check. For consumable items, you may build them one at a time. If you do, you only need to spend 1 day at work before attempting a Crafting check.",
+      "traits": "3rd Party, General, Skill",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "463428a7-67cc-4056-ae51-77e17051eb24",
+      "name": "Expert Wandslinger Casting",
+      "level": 12,
+      "reqSpecials": "",
+      "textDescription": "Prerequisites Basic Wandslinger Casting; master in Arcana You gain the expert bounded spellcasting benefits (SoM 74). During your daily preparations, you may create a unique wand for each of your prepared spell slots. Due to the unstable arcane energy supporting them, only you are capable of using these wands. These wands follow the normal rules of wands, including once per day use, but they may not be overcharged. For each spell slot you gain from this feat, add a spell of that level or lower to your spellbook.",
+      "traits": "3rd Party, Archetype, Wandslinger",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "cb2afccc-d11b-4860-aabd-e5c4f0d0a75c",
+      "name": "Focused Personas",
+      "level": 1,
+      "reqSpecials": "",
+      "textDescription": "You develop two distinct personas. When assuming one of them, you gain a +1 circumstance bonus to Deception and associated Lore checks, and fluency in Skin Cant.",
+      "traits": "3rd Party, Eberron-changelings",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "6f05df7c-c9b1-4cb8-a823-1fd273b71a77",
+      "name": "Forged Heart Stance",
+      "level": 1,
+      "reqSpecials": "",
+      "textDescription": "Enter a stance channeling warforged structural power. Unarmed strikes deal 1d8 bludgeoning damage, and critical hits push enemies 10 feet directly away from you.",
+      "traits": "3rd Party, Monk, Stance",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "6ba47205-19ce-4537-a9d8-6d8bffc53c29",
+      "name": "Gnoll Weapon Expertise - Eberron",
+      "level": 13,
+      "reqSpecials": "",
+      "textDescription": "Whenever you gain a class feature that grants you expert or greater proficiency in a given weapon or weapons, you also gain that proficiency in @Compendium[pf2e.equipment-srd.dUC8Fsa6FZtVikS3]{Composite Longbows}, @Compendium[pathfinders-guide-to-eberron.eberron-items.Eresc1MTy0Q4M8fL]{Gnoll bows}, @Compendium[pf2e.equipment-srd.t5FbyZtRL4qV0V7k]{Flails}, @Compendium[pf2e.equipment-srd.YLb6XnT7OxAVGL5m]{Khopesh}, @Compendium[pf2e.equipment-srd.MeA0g9xvWCbGxf2g]{Mambele}, @Compendium[pathfinders-guide-to-eberron.eberron-items.8nZhO0w0xuNXUk5X]{Myrnaxes}, @Compendium[pf2e.equipment-srd.tOhoGvmCMw4JpWcS]{Spears}, and @Compendium[pf2e.equipment-srd.mVxA9E2ernBL6fM6]{War Flails}.",
+      "traits": "3rd Party, Kholo",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "2bb112d2-babc-49af-addd-d3f5c483f5ce",
+      "name": "Gnoll Weapon Familiarity - Eberron",
+      "level": 1,
+      "reqSpecials": "",
+      "textDescription": "You were taught to be a hunter and a raider. You are trained with @Compendium[pf2e.equipment-srd.dUC8Fsa6FZtVikS3]{Composite Longbows}, @Compendium[pathfinders-guide-to-eberron.eberron-items.Eresc1MTy0Q4M8fL]{Gnoll bows}, @Compendium[pf2e.equipment-srd.t5FbyZtRL4qV0V7k]{Flails}, @Compendium[pf2e.equipment-srd.YLb6XnT7OxAVGL5m]{Khopesh}, @Compendium[pf2e.equipment-srd.MeA0g9xvWCbGxf2g]{Mambele}, @Compendium[pathfinders-guide-to-eberron.eberron-items.8nZhO0w0xuNXUk5X]{Myrnaxes}, @Compendium[pf2e.equipment-srd.tOhoGvmCMw4JpWcS]{Spears}, and @Compendium[pf2e.equipment-srd.mVxA9E2ernBL6fM6]{War Flails}. In addition, you gain access to all uncommon Gnoll weapons. For the purpose of determining your proficiency, martial gnoll weapons are simple weapons and advanced gnoll weapons are martial weapons.",
+      "traits": "3rd Party, Kholo",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "18ad6d59-cc5d-412f-a037-6322d02799d8",
+      "name": "Gnoll Weapon Practicality - Eberron",
+      "level": 5,
+      "reqSpecials": "",
+      "textDescription": "Whenever you critically hit using @Compendium[pf2e.equipment-srd.dUC8Fsa6FZtVikS3]{Composite Longbows}, @Compendium[pathfinders-guide-to-eberron.eberron-items.Eresc1MTy0Q4M8fL]{Gnoll bows}, @Compendium[pf2e.equipment-srd.t5FbyZtRL4qV0V7k]{Flails}, @Compendium[pf2e.equipment-srd.YLb6XnT7OxAVGL5m]{Khopesh}, @Compendium[pf2e.equipment-srd.MeA0g9xvWCbGxf2g]{Mambele}, @Compendium[pathfinders-guide-to-eberron.eberron-items.8nZhO0w0xuNXUk5X]{Myrnaxes}, @Compendium[pf2e.equipment-srd.tOhoGvmCMw4JpWcS]{Spears}, or @Compendium[pf2e.equipment-srd.mVxA9E2ernBL6fM6]{War Flails}, you apply the weapon's critical specialization effect.",
+      "traits": "3rd Party, Kholo",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "c8ae138f-e563-4147-a9a8-2c99e5349b91",
+      "name": "Gnoll of many tribes",
+      "level": 9,
+      "reqSpecials": "",
+      "textDescription": "You may pick an additional Gnoll clan heritage, as you begin to understand their learnings. You may pick this feat multiple times, each time picking a different clan. When you pick a clan, it must not be the same as a clan that you already have learned from.",
+      "traits": "3rd Party, Kholo",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "fc8462de-8bc8-4fd8-a215-5d9acda485fc",
+      "name": "Hand for wands",
+      "level": 4,
+      "reqSpecials": "",
+      "textDescription": "Prerequisites Wandslinger Dedication Wandslinging takes a quick hand, and fortunately, you have two. When you use the Quick Wand action, you may stow an item in either of your hands, and you may draw a stave or wand to either.",
+      "traits": "3rd Party, Archetype, Gunslinger, Wandslinger",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "379b73da-9c1a-4a27-a08a-a0b048f69352",
+      "name": "Improved Genius",
+      "level": 20,
+      "reqSpecials": "",
+      "textDescription": "Once per day as a 2-action activity, cast any spell of 8th-rank or lower from any magical tradition without expending a spell slot or requiring components.",
+      "traits": "3rd Party, Inventor",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "b00e8ab9-bba9-491b-a29a-f8f8fee7a6e1",
+      "name": "Infused Cannon",
+      "level": 20,
+      "reqSpecials": "",
+      "textDescription": "Overcharge your cannons to unleash a 60-foot dragonflame cone (10d6 fire), a 120-foot barrage sphere (8d8 force), or a 10-foot restorative wave healing 30 Hit Points.",
+      "traits": "3rd Party, Inventor",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "cbbe756c-26d6-429a-afed-4a43e7cf517d",
+      "name": "Intimidating Ferocity",
+      "level": 9,
+      "reqSpecials": "",
+      "textDescription": "Survivors of gnoll attacks speak of the terrible fear that seized them before encountering a gnoll on the battlefield, leaving them frozen in place. Whenever you get a critical success on a demoralize check, if the creature is lower level than you, you may also choose to make the creature @Compendium[pf2e.conditionitems.dfCMdR4wnpbYNTix]{Stunned 1}.",
+      "traits": "3rd Party, Kholo",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "ebdbf333-ac2e-4a5b-a3a7-57bcc5ac3f17",
+      "name": "Juggernaut Plating",
+      "level": 5,
+      "reqSpecials": "",
+      "textDescription": "Your armor plates are reinforced with adamantine. Donned armor cannot be targeted or heated against your will. You gain critical hit resistance against physical strikes equal to your Constitution modifier.",
+      "traits": "3rd Party, Warforged",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "787c1aaa-6238-4ea9-aa7f-cdf7a8dd98c9",
+      "name": "Khesh'dar Training",
+      "level": 1,
+      "reqSpecials": "",
+      "textDescription": "Trained in the Silent Folk of Dhakaan, you become trained in Stealth (expert at level 5). The DC for observers to spot you when you Hide increases by 2.",
+      "traits": "3rd Party, Dhakaani",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "2c175c16-5117-40cd-a578-fb284c16d80f",
+      "name": "Link Mind",
+      "level": 1,
+      "reqSpecials": "",
+      "textDescription": "You gain the @Compendium[pathfinders-guide-to-eberron.eberron-spells.Zis7Jnr46Ug894eQ]{Link Mind} cantrip as an innate occult spell that you can cast at will. A cantrip is automatically heightened to half your level rounded up.",
+      "traits": "3rd Party, Kalashtar",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "f5611ae6-e2c5-4ba2-a192-0896d69e2988",
+      "name": "Living Body",
+      "level": 1,
+      "reqSpecials": "",
+      "textDescription": "Your body is formed of both wood and steel which by the powers of the creation forge are granted life. This life energy flows through you much like the blood of humanoids. As a result, you are a living creature. You don't have the typical construct immunities, can be affected by effects that target a living creature, and can recover Hit Points normally via vitality energy. Additionally, you are not destroyed when reduced to 0 Hit Points. Instead, your life energy attempts to keep you active even in dire straits; you are knocked out and begin dying when reduced to 0 Hit Points.",
+      "traits": "3rd Party, Warforged",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "1e192373-38cc-4712-a464-8f539310e5ad",
+      "name": "Living Construct",
+      "level": 1,
+      "reqSpecials": "",
+      "textDescription": "Your physiological needs are different from those of living creatures. You don't need to eat, or drink, but can if you choose to for the effects of consumable spells and magic items. You don't need to sleep, but you still need a daily period of rest. During this period of rest, you must enter a recuperating standby state for at least 2 hours, which is similar to sleeping except you are aware of your surroundings and don't take penalties for being @Compendium[pf2e.conditionitems.fBnFDH2MTzgFijKf]{Unconscious}. Much like with sleeping, if you go too long without entering your standby state, you become @Compendium[pf2e.conditionitems.HL2l2VRSaQHu9lUw]{Fatigued} and can't recover until you enter standby for 2 hours.",
+      "traits": "3rd Party, Warforged",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "5d5296dd-20fe-4875-a397-2c2e6c692aa0",
+      "name": "Master Wandslinger Casting",
+      "level": 18,
+      "reqSpecials": "",
+      "textDescription": "Prerequisites Expert Wandslinger Casting; legendary in Arcana You gain the master bounded spellcasting benefits (SoM 74). During your daily preparations, you may create a unique wand for each of your prepared spell slots. Due to the unstable arcane energy supporting them, only you are capable of using these wands. These wands follow the normal rules of wands, including once per day use, but they may not be overcharged. For each spell slot you gain from this feat, add a spell of that level or lower to your spellbook.",
+      "traits": "3rd Party, Archetype, Wandslinger",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "ca43e7fd-465c-4826-a850-71106c102b83",
+      "name": "Mind of the Traveller",
+      "level": 9,
+      "reqSpecials": "",
+      "textDescription": "The Traveller's gifts have manifested an ability for you to read others, and see or trouble before it happens. You can cast @Compendium[pf2e.spells-srd.KHnhPHL4x1AQHfbC]{Mind Reading} once per day as an occult innate spell. When you do so, mind-reading loses the verbal and somatic casting requirements, and a critical failure becomes a failure instead.",
+      "traits": "3rd Party, Eberron-changelings",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "7988e492-f1d7-4b0f-a91c-4247a1c906ee",
+      "name": "Moon Presence",
+      "level": 13,
+      "reqSpecials": "",
+      "textDescription": "Prerequisites clan heritage By the clan and the pact your powers are heightened, and your senses keen. You channel a connection to your clan that few have ever been able to achieve. You gain the bonus depending on your original clan. Gnoll of many tribes does not count for this feat. Aryth The impact of your ranged weapons is aided by your precision. Once per turn, you gain a circumstance bonus to your ranged attack damage rolls equal to the number of weapon damage dice. Barrakas Your scent sense becomes a precise sense. Creatures under the effects of magic that would hide their passing or presence find it foiled by your keen smell unless accounted for. If you make a survival check to track a creature under the effects of Pass Without Trace, the DC has a -4 circumstance penalty (no lower than their regular survival DC). Dravago You gain the Terrain Stalker feat for snow and can move up to half your speed without attempting a Stealth check. In addition, you can translate your experience with the difficult terrain of the arctic to anywhere. Creatures in difficult terrain are off-guard to you. Eyre You can sharpen weapons, polish armour, and apply special techniques to temporarily gain better effects from your armaments. By spending 1 hour working on a weapon or armour, you can grant it the effects of a +1 potency rune until your next daily preparations, gaining a +1 item bonus to attack rolls for a weapon or increasing armour’s item bonus to AC by 1. Once per day, you may choose one of these items to gain a bonus of 2 instead. This has no effect if the weapon or armour already had a potency rune. Lharvion Aberrations of the world are the speciality of your clan, and in particular, the series of blows to best fell one. You become trained in Aberration lore. In addition, if you succeed on a strike against an Aberration, it becomes off-guard to you until the start of your next turn. Nymm Leadership is what keeps the Znir strong, and you have trained to maximize the potential of yourself and your allies. When you are adjacent to at least one ally, you and adjacent allies gain a +1 circumstance bonus to AC and saving throws. This bonus increases to +2 to Reflex saves against area effects. Olarune You no longer need to take cover to gain the higher bonus from tower shields, instead, you always have the higher bonus. In addition, with your great strength, you can wield tower shields beyond what any other mortal could carry. Anyone may craft tower shields out of any precious material, but only you may wield them due to their great bulk. When crafting a tower shield out of a precious material that is not darkwood, you must have the equivalent value in darkwood (up to the maximum price of the shield). For instance, crafting a standard-grade adamantine tower shield is a total cost of 440 GP with at least 55 GP of adamantine and 55 GP of darkwood. Rhaan The tricks of the fey have become part of your repertoire. You can cast haste and slow as primal innate spells once per day. At 17th level, these are heightened to 7th level. Sypheros The realm of the dead grants you a pathway to many abilities some consider to be unnatural. You can save others from death, and also yourself. The DC of your recovery checks is to 8 + your dying value, or 7 + your dying value if you have the Toughness general feat. In addition, once per day you can cast death ward as an occult innate spell. Therendor Your healing abilities channelled by the power of the moon can bring back those others could not. If a creature has died of mortal wounds within the last minute, you may attempt an Administer First Aid check. On a critical success, the creature is revived, loses the dying condition (but remains unconscious), and becomes drained 1 for 1 week. This check can not overcome extraordinary circumstances, such as diseases, curses, or massive damage to the body. After you attempt this special check, the creature becomes immune to it for a week. Vult You can ward off even the eyes that would follow your movements. You gain nondetection as an innate occult spell once per day, which can only be cast on yourself and is automatically heightened to half your level rounded up. Zarantyr Rip and tear until it is done, there is no frequency on rampage, but it gains the flourish trait.",
+      "traits": "3rd Party, Kholo",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "a62d0af2-5d70-4a90-a19b-39cb1e349c21",
+      "name": "Natural Grip",
+      "level": 5,
+      "reqSpecials": "",
+      "textDescription": "While in your hybrid form, you climb walls with a preternatural grip. You gain a climb Speed of 15 feet.",
+      "traits": "3rd Party, Shifter",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "890498ab-bae8-4efa-a9af-f862936eb5c5",
+      "name": "Neither God nor Demon",
+      "level": 9,
+      "reqSpecials": "",
+      "textDescription": "Trigger You attempt a saving throw against a divine magical effect, but you haven't rolled yet. The Znir pact shattered the images of the fiends they once served and swore they would allow no one-not chib, god, or demon-to hold dominion over them. Channelling the power of your ancestors, you ferociously resist divine magic. You gain a +2 circumstance bonus against divine spells, and if you roll a critical failure on the saving throw against that spell, you get a failure instead.",
+      "traits": "3rd Party, Kholo",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "aad2de63-bfc3-459c-af17-ce74c8b3cf51",
+      "name": "Nightmare Shroud Stance",
+      "level": 1,
+      "reqSpecials": "",
+      "textDescription": "Surround yourself in an ectoplasmic shroud. Unarmed strikes deal 1d6 mental or physical damage, and using Deflect Attacks inflicts the frightened 1 condition on the attacker (DC = class DC).",
+      "traits": "3rd Party, Monk, Stance",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "975e5eb5-d6ae-4d51-ab69-f1868b942bf1",
+      "name": "Overcharge",
+      "level": 20,
+      "reqSpecials": "",
+      "textDescription": "Once per day as a 2-action activity, overcharge your armor to unleash a 100-foot line of destructive elemental energy (force, thunder, or electricity) dealing 10d10 damage (basic Reflex save).",
+      "traits": "3rd Party, Inventor",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "8b89e920-8376-44ab-a73e-3342c7a10013",
+      "name": "Pack Attack",
+      "level": 1,
+      "reqSpecials": "",
+      "textDescription": "Frequency once per round Prerequisites Aryth, Nymm, Olarune, Vult, or Zarantyr clan heritage. With the aid of your allies, you hone in on vital points of the enemy. On a successful melee strike, you can deal an extra 1d4 extra precision damage to any creature that’s within reach of at least two of your allies.",
+      "traits": "3rd Party, Kholo",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "ad344626-c8b5-4ded-a223-2556ee7e2738",
+      "name": "Pack Frenzy",
+      "level": 1,
+      "reqSpecials": "",
+      "textDescription": "Prerequisites Pack Attack More than able to just hone in on vulnerabilities, an enemy is always vulnerable to you simply by the support of your pack. Any creature that’s within reach of you and at least one of your allies is off-guard to you.",
+      "traits": "3rd Party, Kholo",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "df7918e9-b82a-4f66-a75f-20adfde0cd0b",
+      "name": "Perfected Elixirs",
+      "level": 20,
+      "reqSpecials": "",
+      "textDescription": "During daily preparations, produce one Panacea elixir (restores full HP and ends all conditions) and one Vivacity elixir (grants 8-hour flight speed 50 ft and resilience).",
+      "traits": "3rd Party, Inventor, Alchemist",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "50b28adc-d6d7-428d-a4c1-6148e4459d85",
+      "name": "Precious Material Tracery",
+      "level": 9,
+      "reqSpecials": "",
+      "textDescription": "Prerequisite in possession of 1 ingot of the precious material you select Regardless of your integrated armour type, your body becomes covered and traced with thin root-like strands of a precious material as you incorporate it into your body. Select either Cold Iron or Silver. A creature with weakness to any of these materials is subject to its effects as if you were wearing armour made of the precious material. Enhancement You may select the other precious material type and become traced in both.",
+      "traits": "3rd Party, Warforged",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "2be0b1ac-f058-44d1-af0c-a8d60c012609",
+      "name": "Professional Mercenary",
+      "level": 17,
+      "reqSpecials": "",
+      "textDescription": "You have trained relentlessly to become the best in your field. You may pick an additional feat from your class of 13th level or lower.",
+      "traits": "3rd Party, Kholo",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "9ffccc70-fbb8-44f0-a08e-77469d887092",
+      "name": "Proficient Prototyper",
+      "level": 1,
+      "reqSpecials": "",
+      "textDescription": "When you spend downtime to use the Craft activity, with your proficiency in creating prototypes and planning ahead (or failing quickly), you may complete crafting projects faster. On a successful Craft check, you may reduce the remaining materials required by 1 day in addition to any further downtime you spend. If you are an expert in crafting you may reduce this by 2 days, master by 4 days, and legendary by 8 days.",
+      "traits": "3rd Party, General, Skill",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "0eb0ea4c-b357-4c16-aff3-599502e4e077",
+      "name": "Quori Bond",
+      "level": 5,
+      "reqSpecials": "",
+      "textDescription": "You forge a deep bond with your quori lineage (Du'ulora, Hashalaq, Kalaraq, or Tsucora), gaining training in an associated skill and casting its signature spell once per day as an innate occult spell.",
+      "traits": "3rd Party, Kalashtar",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "0941ff8a-c79d-44e7-a2ae-468409d86763",
+      "name": "Replaceable Integrated Armour",
+      "level": 1,
+      "reqSpecials": "",
+      "textDescription": "Though it is an extremely uncomfortable process - less painful but akin to a human replacing their skin - you can replace your integrated armour. You can remove the integrated armour that you are wearing, and replace it with any other set of armour. This activity takes 1 hour, and while you replace your armour you are considered unarmoured and off-guard. When you complete the process, the new armour is incorporated into your body and has no bulk as a result. You can still never wear other armour on top of this armour, and can only have one integrated armour at a time. While this armour is integrated, you don't become fatigued from sleeping in it. As before, you can etch armour runes onto your armour while you are wearing it as normal. If you are removing the Integrated Armour from your Heritage, it is considered worthless scrap metal and can only be used as armour if you reincorporate it into your body. Enhancement Your armour becomes more integrated into your body. You gain the @Compendium[pathfinders-guide-to-eberron.eberron-actions.qidQL3kHsPKdrGUH]{Chassis Deflection (Warforged)} reaction.",
+      "traits": "3rd Party, Warforged",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "67a604b6-63ab-4bd7-a6f5-6e97a0a78778",
+      "name": "Researcher",
+      "level": 1,
+      "reqSpecials": "",
+      "textDescription": "You can use your Knowledge skills to extract information from books, scrolls, and other repositories of facts and figures. You become trained in Academia Lore. When you research a topic, you can treat the result of your check as one step better.",
+      "traits": "3rd Party, General",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "11c81c8a-8e00-4473-aa75-46b6f347e876",
+      "name": "Sense Alignment",
+      "level": 5,
+      "reqSpecials": "",
+      "textDescription": "You can pick up on the auras of other creatures, letting you foresee potential threats and allies. You can cast @Compendium[pf2e.spells-srd.QnTtGCAvdWRU4spv]{Detect Alignment} once per day as an innate occult spell. At 7th level, this spell is heightened to 2nd level.",
+      "traits": "3rd Party, Kalashtar",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "a6ffc817-3c5a-4739-ac10-8637afd68a5c",
+      "name": "Speaker for the dreamers",
+      "level": 17,
+      "reqSpecials": "",
+      "textDescription": "The control you have over your dreams lets you extend them to others, intercepting their travels to Dal Quor. You can cast @Compendium[pf2e.spells-srd.rwCh2qTYPA44KEoK]{Dream Council} or @Compendium[pf2e.spells-srd.wU6hNzK8Yfqdmc8m]{Possession} once per day as occult innate spells.",
+      "traits": "3rd Party, Kalashtar",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "4bb2e4a6-9d76-496b-a699-a9e354b8d008",
+      "name": "Steel Vanguard",
+      "level": 20,
+      "reqSpecials": "",
+      "textDescription": "Once per day as a 2-action activity, grant your construct companion a fly Speed equal to its land Speed, 50 temporary Hit Points, and a fourth strike during flurry commands for 1 minute.",
+      "traits": "3rd Party, Inventor",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "7ac6758c-00da-421a-abda-d431e56d2d79",
+      "name": "Superior Shifting",
+      "level": 5,
+      "reqSpecials": "",
+      "textDescription": "Your shifting transformation lasts for 10 minutes (instead of 1 minute), and you can Shift an additional time per day.",
+      "traits": "3rd Party, Shifter",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "1731eaa8-e4c2-49a8-a470-53bc1fb1c87e",
+      "name": "Survivor",
+      "level": 5,
+      "reqSpecials": "",
+      "textDescription": "You are capable of surviving on very little and have experience making do without. You gain the @Compendium[pf2e.feats-srd.8qebBeOJsyRIchcu]{Forager} skill feat, and the penalty for subsisting after 8 or fewer hours of exploration is decreased by 2.",
+      "traits": "3rd Party, Kholo",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "c98c7837-5101-4926-a788-560f058da818",
+      "name": "The Traveller's Gift",
+      "level": 1,
+      "reqSpecials": "",
+      "textDescription": "Have you heard of the Traveller? As a changeling whether or not you have, you have developed a knack for the Traveller's talents. Choose one cantrip from the occult spell list. You can cast this spell as an occult innate spell at will. A cantrip is heightened to a spell rank equal to half your level rounded up.",
+      "traits": "3rd Party, Eberron-changelings",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "e71022f6-f7c7-484f-adae-3ac2ea056d8b",
+      "name": "The Traveller's Protection",
+      "level": 17,
+      "reqSpecials": "",
+      "textDescription": "Frequency Once per 10 minutes With a rapid change of your form, you take on a monstrous form for an instant before shifting back. When you Demoralize, you can choose to replace the auditory trait and with the visual trait. You can then attempt a demoralize check against each enemy that can see you within 30 feet. @UUID[Compendium.pathfinders-guide-to-eberron.eberron-effects.EffUsedTravlProt]{Effect: Used The Traveller's Protection}",
+      "traits": "3rd Party, Eberron-changelings, Secret",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "a22f3ffe-fc49-4b49-a79b-3387c06f2e51",
+      "name": "Thoughtsinger",
+      "level": 9,
+      "reqSpecials": "",
+      "textDescription": "Target One creature with which you have linked your mind You are in sync with your companions' mental state and can calm their minds to boost their focus when they need it most. When you use this action, it counts as a preparation to help for the @Compendium[pf2e.actionspf2e.HCl3pzVefiv9ZKQW]{Aid} reaction. You may use your diplomacy or occultism to encourage your ally for the aid bonus. No matter the result, the target then becomes immune to Thoughtsinger for 1 hour. @UUID[Compendium.pathfinders-guide-to-eberron.eberron-effects.EffThoughtsngImm]{Effect: Thoughtsinger Immunity}",
+      "traits": "3rd Party, Kalashtar, Mental",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "7db2911f-7d47-48d3-af42-1794bed2104e",
+      "name": "Travel Anywhere",
+      "level": 20,
+      "reqSpecials": "",
+      "textDescription": "Cast 10th-rank Gate once per day without material components, precisely linking to any location across Eberron or its outer planes.",
+      "traits": "3rd Party, Inventor",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "18b66162-ea2f-444a-a5b1-90f103950db1",
+      "name": "Traveler's Blade Stance",
+      "level": 1,
+      "reqSpecials": "",
+      "textDescription": "You stretch your limbs and extrude bone blades. Unarmed strikes deal 1d6 piercing or slashing damage and gain the Reach 10 ft, agile, and finesse traits.",
+      "traits": "3rd Party, Monk, Stance",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "0db2e325-3ae1-4926-a2bf-46faa284768f",
+      "name": "Uul Dhakaan",
+      "level": 1,
+      "reqSpecials": "",
+      "textDescription": "Attuned to the collective dream of Dhakaan (the Uul). You remain fully lucid when dreaming, gain resistance to psychic damage equal to half your level, and receive cryptic guidance during daily prep.",
+      "traits": "3rd Party, Dhakaani",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "2724bc55-3e76-443d-a22d-a76cbe9a9f68",
+      "name": "Wand Mastery",
+      "level": 5,
+      "reqSpecials": "",
+      "textDescription": "When you overcharge a wand, make a DC 11 flat check. On a failure, the wand is broken. On a critical failure, the wand is destroyed. Regardless of the result, the wand may not be used again until your next daily preparations.",
+      "traits": "3rd Party, General",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "4a52eaf8-42f9-4684-ae14-525e4118eaff",
+      "name": "Weapon of Legend",
+      "level": 20,
+      "reqSpecials": "",
+      "textDescription": "Your Ghaal'Shaarat's Aura of War is permanent. Foes starting their turn in your aura take 2d6 elemental damage, and you can empower it to deal 4d6 damage for 1 minute.",
+      "traits": "3rd Party, Inventor",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "d2154d0f-5113-469e-a796-0cb9f58575ac",
+      "name": "Wellversed Traveller",
+      "level": 1,
+      "reqSpecials": "",
+      "textDescription": "You have a way of communicating that leaves others hanging on your words. You become trained in Diplomacy (or another skill if you are already trained in Diplomacy). You may pick Bargain Hunter, @Compendium[pf2e.feats-srd.0GF2j54roPFIDmXf]{Bon Mot}, @Compendium[pf2e.feats-srd.KpFetnUqTiweypZk]{Group Impression}, or @Compendium[pf2e.feats-srd.4RjDxgvNXNl5GG9d]{Hobnobber}. If you get a critical failure when using the skill feat you picked, it is a failure instead.",
+      "traits": "3rd Party, Eberron-changelings",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "4d48ac1c-f4d5-4298-ad8d-3e88ab425b44",
+      "name": "Weretouched Stance",
+      "level": 1,
+      "reqSpecials": "",
+      "textDescription": "Hone predatory ferocity. Unarmed strikes deal 1d8 slashing damage, and reducing a foe to 0 Hit Points grants temporary Hit Points equal to your level for 1 minute.",
+      "traits": "3rd Party, Monk, Stance",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "1ddb766a-14c4-44dc-ad71-f979ab3d3f7b",
+      "name": "Work horse",
+      "level": 5,
+      "reqSpecials": "",
+      "textDescription": "You can use your mass and strength to carry more than most humanoids for longer durations. You gain the @Compendium[pf2e.feats-srd.C0Tcelg3BAPhML6J]{Hefty Hauler} skill feat. In addition, when you have the encumbered condition, the speed penalty is reduced by 5.",
+      "traits": "3rd Party, Bugbear",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "e9007c1a-1afb-4ddd-a051-6ed4be756726",
+      "name": "Znir Lore",
+      "level": 1,
+      "reqSpecials": "",
+      "textDescription": "You've picked up skills and tales from the Znir pact leaders. You gain the trained proficiency rank in Occultism and Survival. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also become trained in Gnoll Lore.",
+      "traits": "3rd Party, Kholo",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "668dab50-3e72-4b6c-a1a2-4f0211aacb60",
+      "name": "Bloodhound Edge",
+      "level": 1,
+      "reqSpecials": "",
+      "textDescription": "Hunt Prey tracks quarry at any distance through ley lines. First Strike deals +1d6 precision damage, with Relentless Pursuit and Eyes on the Prize feats.",
+      "traits": "3rd Party, Ranger",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "da22add7-98c0-42c8-afa5-ad7d43606c12",
+      "name": "Circle of the Forged",
+      "level": 1,
+      "reqSpecials": "",
+      "textDescription": "What is truly natural? Druids of the Circle of the Forged explore the living potential of wood, stone, and steel, shape-shifting into construct beasts. Gain Crafting as an order skill and the Construct Form focus spell.",
+      "traits": "3rd Party, Druid",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "ba2659ba-50db-4e75-a80f-e5e8cf985666",
+      "name": "College of the Dirge Singer",
+      "level": 1,
+      "reqSpecials": "",
+      "textDescription": "Heirs to the Dhakaani duur'kala tradition, dirge singers preserve the memory of fallen empires and direct troops with commanding chants. Gain the Song of the Iron Will composition cantrip (+1 status bonus vs mental effects and to Athletics) and Dirge of the Victorious Blade focus spell.",
+      "traits": "3rd Party, Bard",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "d4319939-8bb0-4a5e-a752-c0aa121ffb15",
+      "name": "Commerce Domain",
+      "level": 1,
+      "reqSpecials": "",
+      "textDescription": "Patrons: Kol Korran and The Keeper. Grants the Divine Wealth initial focus spell (divine coins) and Divine Bargain advanced focus spell (essence trading).",
+      "traits": "3rd Party, Cleric",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "c8a19cff-2c5c-4705-a8f8-6500046e05f2",
+      "name": "Demonshard Instinct",
+      "level": 1,
+      "reqSpecials": "",
+      "textDescription": "You channel fury through an embedded shard of Khyber demonglass. Rage adds Fire or Void damage. Fiendish Retribution reaction deals 1d6 fire/void damage to attackers within 60 ft.",
+      "traits": "3rd Party, Barbarian",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "1bed54ff-92dd-462d-a455-ceed0113cc6c",
+      "name": "Forge Adept Innovation",
+      "level": 1,
+      "reqSpecials": "",
+      "textDescription": "Carrying on the ancient metallurgical secrets of Dhakaani daashor smiths, you imbue a melee weapon with a fraction of your soul to forge a Ghaal'Shaarat (mighty blade). Your bonded weapon automatically scales its weapon potency and striking runes as you level, gains the Thrown 30 ft and Returning traits, and grants you the Runes of War focus spell to radiate an elemental damage aura.",
+      "traits": "3rd Party, Inventor, Artificer",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "a5638757-546b-4500-aa0a-c0a0321ecaeb",
+      "name": "Maverick Innovation",
+      "level": 1,
+      "reqSpecials": "",
+      "textDescription": "A polymath tinkerer who cobbles together custom solutions, you push past standard arcane boundaries. You can prepare experimental spell scroll prototypes during daily preparations, allowing you to prepare spells from the Divine, Occult, or Primal spell lists into Arcane slots.",
+      "traits": "3rd Party, Inventor, Artificer",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "918e9279-4361-4e9a-a3f3-cf2c66c5ab98",
+      "name": "Mind Domain",
+      "level": 1,
+      "reqSpecials": "",
+      "textDescription": "Mind domain clerics channel the psychic power of mortal thought, revered among the Path of Light, Riedran Path of Inspiration, and psionic cults of Xoriat. Grants the Mental Shielding initial focus spell (Will save bonus and psychic backlash) and Thought Projection advanced focus spell (gestalt field).",
+      "traits": "3rd Party, Cleric",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "31286b92-0858-4de5-a760-81b7ace41b5b",
+      "name": "Muse of Wands",
+      "level": 1,
+      "reqSpecials": "",
+      "textDescription": "You treat wand combat as a symphony. Gain the Wandslinger's Flourish composition cantrip to empower wand cantrips and grant allies saving throw bonuses.",
+      "traits": "3rd Party, Bard",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "58edee7e-4131-4e6c-a7f0-8804cac51053",
+      "name": "Nemesis Bloodline",
+      "level": 1,
+      "reqSpecials": "",
+      "textDescription": "Arcane/Occult spell duelist bloodline. Grants Spell Deflection reaction, countermagic, and dueling spells.",
+      "traits": "3rd Party, Sorcerer",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "96a899ee-f2b6-4ec9-a827-b5959e5d5406",
+      "name": "Stone Sovereign Patron",
+      "level": 1,
+      "reqSpecials": "",
+      "textDescription": "Patrons: Orlassk, King Grayfinger, Queen Sheshka. Grants Gray Gaze hex cantrip and Form of Stone hex spell (absorb damage with Hardness 5).",
+      "traits": "3rd Party, Witch",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "8bc56570-ba01-48b3-a6e8-f9e57a73b934",
+      "name": "Wandslinger Dedication",
+      "level": 2,
+      "reqSpecials": "",
+      "textDescription": "Prerequisites way of the wandslinger You've armed yourself with a wand and a rudimentary knowledge of arcane theory to create temporarily functional wands. You gain the @Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Cast a Spell} activity, and can cast arcane spells. However - unlike a normal spellcaster - you can only use the Cast a Spell activity by Activating an item. You gain a special spellbook with wand incantations for four common arcane cantrips of your choice. During your daily preparations, you create two unique cantrip wands each capable of casting one of these cantrips heightened to half your level rounded up. These cantrip wands are functionally wands, however they have no limit to their use and are never at risk of overcharge. Any wand or stave that you use is considered an advanced martial firearm, and loaded while it still has a least one charge or daily use remaining. The use of these wands or staves still requires the Cast a Spell activity rather than a Strike action, and may not be used as a replacement for Strikes as a result. You do not become trained in spell attack rolls or spell DCs from this source. Instead, when casting from any wand or stave, use your advanced firearm proficiency for the spell attack roll and gunslinger class DC for DCs. Your key spellcasting ability for wandslinger archetype spells is Intelligence, and they are arcane gunslinger spells. During your daily preparations, you can prepare a staff as a prepared spellcaster. If you do not have the basic bounded spellcasting benefits yet, your highest-level spell slot is considered 1st level for the purposes of preparing a staff during your daily preparations. You become trained in Arcana; if you were already trained in Arcana, you instead become trained in a skill of your choice.",
+      "traits": "3rd Party, Archetype, Dedication",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "127215ac-6ecb-403b-a7c1-39159e32ac03",
+      "name": "Warrior of the Living Weapon",
+      "level": 1,
+      "reqSpecials": "",
+      "textDescription": "Monks of the Living Weapon hone their physical bodies as a smith tempers a blade. Drawing upon warforged, changeling, shifter, and kalashtar traditions, they adopt specialized biomantic and ectoplasmic stances: Forged Heart, Nightmare Shroud, Traveler's Blade, and Weretouched.",
+      "traits": "3rd Party, Monk",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "4fe71995-5417-4100-a236-66c8e6ea17ab",
+      "name": "Way of the Wandslinger",
+      "level": 1,
+      "reqSpecials": "",
+      "textDescription": "Wandslinger (Class Archetype) Wielding wands alongside weapons, wandslingers are masters of a new form of martial art - wandslinging. Wandslinging is the art of blending arcane spell duelling with martial combat efficiency, enabling wandslingers to perform feats of combat prowess that neither wizard nor fighter could. Though they cast spells, they do so through the use of widespread items - wands and staves - rather than by arcane incantation. The flexibility to perform in many roles, along with their tenacity, grit, and martial expertise, has begun to develop the wandslingers notable reputation throughout Khorvaire. Way of the Wandslinger (1st) You've learned the intricacies of magic and wands, blending the two with deadly results. You combine a working knowledge of arcane theories with a strong connection to improvised wands that allows you to manifest spells in battle alongside your martial combat. You must select Wandslinger Dedication from the Wandslinger archetype as your 2nd-level class feat. Prerequisites: Must be a gunslinger. Wandslinger Adjustments: Instead of choosing a way from the options listed in the gunslinger class, you have the way of the wandslinger. It has the following way skill, slinger's reload, and deeds. You gain these abilities at the same levels as normal for the class. You use Intelligence for your class DC. Way Skill Arcana Slinger's Reload @Compendium[pathfinders-guide-to-eberron.eberron-actions.cM3wQTA8U9Fv1vMi]{Arcane Blowback} Deeds Initial @Compendium[pathfinders-guide-to-eberron.eberron-actions.YKWPE2g6dbNPLMAF]{Quick Wand}; Advanced @Compendium[pathfinders-guide-to-eberron.eberron-actions.UfWA6yMPpEReMib8]{Spellfire}; Greater @Compendium[pathfinders-guide-to-eberron.eberron-actions.7Evv7rbb0Syrk2V1]{Fastest Wand In the West};",
+      "traits": "3rd Party, Gunslinger",
       "src": "Pathfinder's Guide to Eberron",
       "databaseID": 1
     }
@@ -5347,6 +6268,38 @@
       "traits": "3rd Party, lineage, nephilim, tiefling",
       "src": "Pathfinder's Guide to Eberron",
       "databaseID": 1
+    },
+    {
+      "id": "e53cb62d-ce0a-4845-a96a-86a64ec0964c",
+      "name": "Ruinbound",
+      "textDescription": "You carry a sympathetic fragment of the Mourning or an ancient Dhakaani/daelkyr ruin fused to your soul and flesh. You gain the Ruinbound versatile heritage trait, darkvision, and you can select Ruinbound ancestry feats.",
+      "traits": "Versatile, Ruinbound, Rare, 3rd Party",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "6e22ed8d-90cf-4613-a8a9-73f9efc7e6a1",
+      "name": "Dhakaani Ghaal'dar",
+      "textDescription": "You were trained in the strict military discipline of the Dhakaani Kech vaults. You gain a +1 circumstance bonus to saving throws against emotion and fear effects. When you fail a check while an ally is within 30 feet, you can gain a +1 circumstance bonus to your reroll once per hour.",
+      "traits": "Hobgoblin, Dhakaani, Uncommon, 3rd Party",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "280acbde-90b6-4414-af00-90907c5b56dc",
+      "name": "Dhakaani Golin'dar",
+      "textDescription": "Quick folk of the Dhakaani vaults forming the craft and stealth backbone of the empire. Your base land Speed increases by 5 feet (to 30 feet), and you can Tumble Through the space of larger creatures with a +1 circumstance bonus to Acrobatics.",
+      "traits": "Goblin, Dhakaani, Common, 3rd Party",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "id": "d9bbf8a4-93d2-4f57-a357-00c3cc890a76",
+      "name": "Jhorgun'taal",
+      "textDescription": "Celebrated in the Shadow Marches as children of two bloods uniting orc and human ancestry. You gain Orc Ferocity, and you become trained in one additional skill of your choice and gain one 1st-level general feat.",
+      "traits": "Orc, Human, Common, 3rd Party",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
     }
   ],
   "listCustomSpells": [
@@ -5517,7 +6470,7 @@
       "level": 2,
       "traits": "dragonmark, abberant mark, aberrant feedback, 3rd Party",
       "cast": "focus, somatic",
-      "descriptionHeightened": "<b>Cast</b> see replicated spell; dragonmark, somatic<br><br><b>Frequency</b> The strain of bending your dragonmark to replicate a specific spell is so great, that you can only cast this spell once per day - even if you have focus points to cast it with.<br><br>With a concentrated effort to bend the powers of your mark, you can replicate the effects of a spell.<br>When you begin to cast Corrupted Replication, you can select a spell from the Corrupted Replication spell list at the heightened level of Corrupted Replication or lower. Corrupted Replication gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the selected spell's number of actions. The replicated spell is automatically heightened to the level of Corrupted Replication.<br>A spell cast by Corrupted Replication doesn\u2019t require material or verbal components but always requires a dragonmark and somatic component. If the spell requires a focus, you must still have that focus to cast the spell, and if the spell has a cost, you must still pay that cost to cast the spell.<br><br><b>CORRUPTED REPLICATION SPELL LIST</b><br>Level 2: Acidic Burst<br>Level 3: Slough Skin<br>Level 4: Stinking Cloud<br>Level 5: Rusting Grasp<br>Level 6: Acid Storm<br>Level 7: Abyssal Plague<br>Level 8: Eclipse Burst<br>Level 9: Volcanic Eruption<br>Level 10: Storm of Vengeance<br><br>The above list is themed around acid and storms<br><br>While Aberrant marks are generally chaotic and destructive, they tend to follow a theme. Some potential themes are Acid, Blood Bending, Plagues, Curses, Fire, Ice, Mental Assaults, or Vermin. When building your Corrupted Replication, you should pick spells that follow a general format - even if it might be suboptimal. Part of the balance of dragonmarks is that they don't always provide the strongest effect that they can at their level.<br><br>When building the Heightened Level list, spells should be placed at the heightened level one higher than their base spell level. For example, Acid Storm, a 5th level spell should be placed at Heightened Level 6. Only rarely should the spell be placed at its actual level. You get one spell per level. Start with spells from the following list.<br><br><b>Heightened (3rd)</b> You may cast Corrupted Replication up to twice per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (6th)</b> You may cast Corrupted Replication up to three times per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (7th)</b> You may cast Corrupted Replication up to three times per day. Only one of these casts may be from the heightened level 6 or above.<br><br><b>Heightened (9th)</b> Spells of the third heightened level or lower do not count against the frequency of Corrupted Replication.",
+      "descriptionHeightened": "<b>Cast</b> see replicated spell; dragonmark, somatic<br><br><b>Frequency</b> The strain of bending your dragonmark to replicate a specific spell is so great, that you can only cast this spell once per day - even if you have focus points to cast it with.<br><br>With a concentrated effort to bend the powers of your mark, you can replicate the effects of a spell.<br>When you begin to cast Corrupted Replication, you can select a spell from the Corrupted Replication spell list at the heightened level of Corrupted Replication or lower. Corrupted Replication gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the selected spell's number of actions. The replicated spell is automatically heightened to the level of Corrupted Replication.<br>A spell cast by Corrupted Replication doesn’t require material or verbal components but always requires a dragonmark and somatic component. If the spell requires a focus, you must still have that focus to cast the spell, and if the spell has a cost, you must still pay that cost to cast the spell.<br><br><b>CORRUPTED REPLICATION SPELL LIST</b><br>Level 2: Acidic Burst<br>Level 3: Slough Skin<br>Level 4: Stinking Cloud<br>Level 5: Rusting Grasp<br>Level 6: Acid Storm<br>Level 7: Abyssal Plague<br>Level 8: Eclipse Burst<br>Level 9: Volcanic Eruption<br>Level 10: Storm of Vengeance<br><br>The above list is themed around acid and storms<br><br>While Aberrant marks are generally chaotic and destructive, they tend to follow a theme. Some potential themes are Acid, Blood Bending, Plagues, Curses, Fire, Ice, Mental Assaults, or Vermin. When building your Corrupted Replication, you should pick spells that follow a general format - even if it might be suboptimal. Part of the balance of dragonmarks is that they don't always provide the strongest effect that they can at their level.<br><br>When building the Heightened Level list, spells should be placed at the heightened level one higher than their base spell level. For example, Acid Storm, a 5th level spell should be placed at Heightened Level 6. Only rarely should the spell be placed at its actual level. You get one spell per level. Start with spells from the following list.<br><br><b>Heightened (3rd)</b> You may cast Corrupted Replication up to twice per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (6th)</b> You may cast Corrupted Replication up to three times per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (7th)</b> You may cast Corrupted Replication up to three times per day. Only one of these casts may be from the heightened level 6 or above.<br><br><b>Heightened (9th)</b> Spells of the third heightened level or lower do not count against the frequency of Corrupted Replication.",
       "src": "Pathfinder's Guide to Eberron",
       "databaseID": 1
     },
@@ -5580,7 +6533,7 @@
       "level": 2,
       "traits": "dragonmark, mark of making, conjuration, 3rd Party",
       "cast": "focus, somatic",
-      "descriptionHeightened": "<b>Cast</b> see replicated spell; dragonmark, somatic<br><br><b>Frequency</b> The strain of bending your dragonmark to replicate a specific spell is so great, that you can only cast this spell once per day - even if you have focus points to cast it with.<br><br>With a concentrated effort to bend the powers of your mark, you can replicate the effects of a spell.<br>When you begin to cast Dragonmarked Construction, you can select a spell from the Dragonmarked Construction spell list at the heightened level of Dragonmarked Construction or lower. Dragonmarked Construction gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the selected spell's number of actions. The replicated spell is automatically heightened to the level of Dragonmarked Construction.<br>A spell cast by Dragonmarked Construction doesn\u2019t require material or verbal components but always requires a dragonmark and somatic component. If the spell requires a focus, you must still have that focus to cast the spell, and if the spell has a cost, you must still pay that cost to cast the spell.<br><br><b>DRAGONMARKED CONSTRUCTION SPELL LIST</b><br>Level 1: Mending, Temporary Tool<br>Level 2: Summon Construct<br>Level 3: Dismantle<br>Level 4: Shrink Item<br>Level 5: Creation<br>Level 6: Wall of Gears*<br>Level 7: Fabricate*<br>Level 8: Blade Barrier<br><br><br><b>Heightened (3rd)</b> You may cast Dragonmarked Construction up to twice per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (6th)</b> You may cast Dragonmarked Construction up to three times per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (7th)</b> You may cast Dragonmarked Construction up to three times per day. Only one of these casts may be from the heightened level 6 or above.<br><br><b>Heightened (9th)</b> Spells of the third heightened level or lower do not count against the frequency of Dragonmarked Construction.",
+      "descriptionHeightened": "<b>Cast</b> see replicated spell; dragonmark, somatic<br><br><b>Frequency</b> The strain of bending your dragonmark to replicate a specific spell is so great, that you can only cast this spell once per day - even if you have focus points to cast it with.<br><br>With a concentrated effort to bend the powers of your mark, you can replicate the effects of a spell.<br>When you begin to cast Dragonmarked Construction, you can select a spell from the Dragonmarked Construction spell list at the heightened level of Dragonmarked Construction or lower. Dragonmarked Construction gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the selected spell's number of actions. The replicated spell is automatically heightened to the level of Dragonmarked Construction.<br>A spell cast by Dragonmarked Construction doesn’t require material or verbal components but always requires a dragonmark and somatic component. If the spell requires a focus, you must still have that focus to cast the spell, and if the spell has a cost, you must still pay that cost to cast the spell.<br><br><b>DRAGONMARKED CONSTRUCTION SPELL LIST</b><br>Level 1: Mending, Temporary Tool<br>Level 2: Summon Construct<br>Level 3: Dismantle<br>Level 4: Shrink Item<br>Level 5: Creation<br>Level 6: Wall of Gears*<br>Level 7: Fabricate*<br>Level 8: Blade Barrier<br><br><br><b>Heightened (3rd)</b> You may cast Dragonmarked Construction up to twice per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (6th)</b> You may cast Dragonmarked Construction up to three times per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (7th)</b> You may cast Dragonmarked Construction up to three times per day. Only one of these casts may be from the heightened level 6 or above.<br><br><b>Heightened (9th)</b> Spells of the third heightened level or lower do not count against the frequency of Dragonmarked Construction.",
       "src": "Pathfinder's Guide to Eberron",
       "databaseID": 1
     },
@@ -5591,7 +6544,7 @@
       "level": 2,
       "traits": "dragonmark, mark of detection, divination, 3rd Party",
       "cast": "focus, somatic",
-      "descriptionHeightened": "<b>Cast</b> see replicated spell; dragonmark, somatic<br><br><b>Frequency</b> The strain of bending your dragonmark to replicate a specific spell is so great, that you can only cast this spell once per day - even if you have focus points to cast it with.<br><br>With a concentrated effort to bend the powers of your mark, you can replicate the effects of a spell.<br><br>When you begin to cast Dragonmarked Detector, you can select a spell from the Dragonmarked Detector spell list at the heightened level of Dragonmarked Detector or lower. Dragonmarked Detector gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the selected spell's number of actions. The replicated spell is automatically heightened to the level of Dragonmarked Detector.<br><br>A spell cast by Dragonmarked Detector doesn\u2019t require material or verbal components but always requires a dragonmark and somatic component. If the spell requires a focus, you must still have that focus to cast the spell, and if the spell has a cost, you must still pay that cost to cast the spell.<br><br><b>DRAGONMARKED DETECTOR SPELL LIST</b><br>Level 2: Detect Poison, See Invisibility<br>Level 3: Object Reading<br>Level 4: Clairvoyance<br>Level 5: Discern Lies<br>Level 6: Detect Scrying<br>Level 7: True Seeing<br>Level 8: Retrocognition<br>Level 9: Foresight<br><br><b>Heightened (3rd)</b> You may cast Dragonmarked Detector up to twice per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (6th)</b> You may cast Dragonmarked Detector up to three times per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (7th)</b> You may cast Dragonmarked Detector up to three times per day. Only one of these casts may be from the heightened level 6 or above.<br><br><b>Heightened (9th)</b> Spells of the third heightened level or lower do not count against the frequency of Dragonmarked Detector.",
+      "descriptionHeightened": "<b>Cast</b> see replicated spell; dragonmark, somatic<br><br><b>Frequency</b> The strain of bending your dragonmark to replicate a specific spell is so great, that you can only cast this spell once per day - even if you have focus points to cast it with.<br><br>With a concentrated effort to bend the powers of your mark, you can replicate the effects of a spell.<br><br>When you begin to cast Dragonmarked Detector, you can select a spell from the Dragonmarked Detector spell list at the heightened level of Dragonmarked Detector or lower. Dragonmarked Detector gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the selected spell's number of actions. The replicated spell is automatically heightened to the level of Dragonmarked Detector.<br><br>A spell cast by Dragonmarked Detector doesn’t require material or verbal components but always requires a dragonmark and somatic component. If the spell requires a focus, you must still have that focus to cast the spell, and if the spell has a cost, you must still pay that cost to cast the spell.<br><br><b>DRAGONMARKED DETECTOR SPELL LIST</b><br>Level 2: Detect Poison, See Invisibility<br>Level 3: Object Reading<br>Level 4: Clairvoyance<br>Level 5: Discern Lies<br>Level 6: Detect Scrying<br>Level 7: True Seeing<br>Level 8: Retrocognition<br>Level 9: Foresight<br><br><b>Heightened (3rd)</b> You may cast Dragonmarked Detector up to twice per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (6th)</b> You may cast Dragonmarked Detector up to three times per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (7th)</b> You may cast Dragonmarked Detector up to three times per day. Only one of these casts may be from the heightened level 6 or above.<br><br><b>Heightened (9th)</b> Spells of the third heightened level or lower do not count against the frequency of Dragonmarked Detector.",
       "src": "Pathfinder's Guide to Eberron",
       "databaseID": 1
     },
@@ -5616,7 +6569,7 @@
       "level": 2,
       "traits": "dragonmark, mark of handling, enchantment, 3rd Party",
       "cast": "focus, somatic",
-      "descriptionHeightened": "<b>Cast</b> see replicated spell; dragonmark, somatic<br><br><b>Frequency</b> The strain of bending your dragonmark to replicate a specific spell is so great, that you can only cast this spell once per day - even if you have focus points to cast it with.<br><br>With a concentrated effort to bend the powers of your mark, you can replicate the effects of a spell.<br>When you begin to cast Dragonmarked Handler, you can select a spell from the Dragonmarked Handler spell list at the heightened level of Dragonmarked Handler or lower. Dragonmarked Handler gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the selected spell's number of actions. The replicated spell is automatically heightened to the level of Dragonmarked Handler.<br>A spell cast by Dragonmarked Handler doesn\u2019t require material or verbal components but always requires a dragonmark and somatic component. If the spell requires a focus, you must still have that focus to cast the spell, and if the spell has a cost, you must still pay that cost to cast the spell.<br><br><b>DRAGONMARKED HANDLER SPELL LIST</b><br>Level 2: Friendfetch, Pet Cache<br>Level 3: Animal Messenger, Speak with Animals<br>Level 4: Animal Vision<br>Level 5: Aromatic Lure<br>Level 6: Dominate (Animal or Beast trait targets only)<br>Level 7: Entrancing Eyes (Animal or Beast trait targets only)<br>Level 8: Power Word Stun (Animal or Beast trait targets only)<br>Level 9: Nature's Enmity<br><b>Heightened (3rd)</b> You may cast Dragonmarked Handler up to twice per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (6th)</b> You may cast Dragonmarked Handler up to three times per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (7th)</b> You may cast Dragonmarked Handler up to three times per day. Only one of these casts may be from the heightened level 6 or above.<br><br><b>Heightened (9th)</b> Spells of the third heightened level or lower do not count against the frequency of Dragonmarked Handler.",
+      "descriptionHeightened": "<b>Cast</b> see replicated spell; dragonmark, somatic<br><br><b>Frequency</b> The strain of bending your dragonmark to replicate a specific spell is so great, that you can only cast this spell once per day - even if you have focus points to cast it with.<br><br>With a concentrated effort to bend the powers of your mark, you can replicate the effects of a spell.<br>When you begin to cast Dragonmarked Handler, you can select a spell from the Dragonmarked Handler spell list at the heightened level of Dragonmarked Handler or lower. Dragonmarked Handler gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the selected spell's number of actions. The replicated spell is automatically heightened to the level of Dragonmarked Handler.<br>A spell cast by Dragonmarked Handler doesn’t require material or verbal components but always requires a dragonmark and somatic component. If the spell requires a focus, you must still have that focus to cast the spell, and if the spell has a cost, you must still pay that cost to cast the spell.<br><br><b>DRAGONMARKED HANDLER SPELL LIST</b><br>Level 2: Friendfetch, Pet Cache<br>Level 3: Animal Messenger, Speak with Animals<br>Level 4: Animal Vision<br>Level 5: Aromatic Lure<br>Level 6: Dominate (Animal or Beast trait targets only)<br>Level 7: Entrancing Eyes (Animal or Beast trait targets only)<br>Level 8: Power Word Stun (Animal or Beast trait targets only)<br>Level 9: Nature's Enmity<br><b>Heightened (3rd)</b> You may cast Dragonmarked Handler up to twice per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (6th)</b> You may cast Dragonmarked Handler up to three times per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (7th)</b> You may cast Dragonmarked Handler up to three times per day. Only one of these casts may be from the heightened level 6 or above.<br><br><b>Heightened (9th)</b> Spells of the third heightened level or lower do not count against the frequency of Dragonmarked Handler.",
       "src": "Pathfinder's Guide to Eberron",
       "databaseID": 1
     },
@@ -5627,7 +6580,7 @@
       "level": 2,
       "traits": "dragonmark, mark of healing, enchantment, 3rd Party",
       "cast": "somatic",
-      "descriptionHeightened": "<b>Cast</b> see replicated spell; dragonmark, somatic<br><br><b>Frequency</b> The strain of bending your dragonmark to replicate a specific spell is so great, that you can only cast this spell once per day - even if you have focus points to cast it with.<br><br>With a concentrated effort to bend the powers of your mark, you can replicate the effects of a spell.<br>When you begin to cast Dragonmarked Healer, you can select a spell from the Dragonmarked Healer spell list at the heightened level of Dragonmarked Healer or lower. Dragonmarked Healer gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the selected spell's number of actions. The replicated spell is automatically heightened to the level of Dragonmarked Healer.<br>A spell cast by Dragonmarked Healer doesn\u2019t require material or verbal components but always requires a dragonmark and somatic component. If the spell requires a focus, you must still have that focus to cast the spell, and if the spell has a cost, you must still pay that cost to cast the spell.<br><br><b>DRAGONMARKED HEALER SPELL LIST</b><br>Level 2: Endure, Soothe<br>Level 3: Restoration, Remove Paralysis, Restore Senses<br>Level 4: Neutralize Poison, Remove Disease<br>Level 5: Remove Curse<br>Level 6: Breath of Life<br>Level 7: Raise Dead<br>Level 8: Regenerate<br>Level 9: Moment of Renewal<br><br><b>Heightened (3rd)</b> You may cast Dragonmarked Healer up to twice per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (6th)</b> You may cast Dragonmarked Healer up to three times per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (7th)</b> You may cast Dragonmarked Healer up to three times per day. Only one of these casts may be from the heightened level 6 or above.<br><br><b>Heightened (9th)</b> Spells of the third heightened level or lower do not count against the frequency of Dragonmarked Healer.",
+      "descriptionHeightened": "<b>Cast</b> see replicated spell; dragonmark, somatic<br><br><b>Frequency</b> The strain of bending your dragonmark to replicate a specific spell is so great, that you can only cast this spell once per day - even if you have focus points to cast it with.<br><br>With a concentrated effort to bend the powers of your mark, you can replicate the effects of a spell.<br>When you begin to cast Dragonmarked Healer, you can select a spell from the Dragonmarked Healer spell list at the heightened level of Dragonmarked Healer or lower. Dragonmarked Healer gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the selected spell's number of actions. The replicated spell is automatically heightened to the level of Dragonmarked Healer.<br>A spell cast by Dragonmarked Healer doesn’t require material or verbal components but always requires a dragonmark and somatic component. If the spell requires a focus, you must still have that focus to cast the spell, and if the spell has a cost, you must still pay that cost to cast the spell.<br><br><b>DRAGONMARKED HEALER SPELL LIST</b><br>Level 2: Endure, Soothe<br>Level 3: Restoration, Remove Paralysis, Restore Senses<br>Level 4: Neutralize Poison, Remove Disease<br>Level 5: Remove Curse<br>Level 6: Breath of Life<br>Level 7: Raise Dead<br>Level 8: Regenerate<br>Level 9: Moment of Renewal<br><br><b>Heightened (3rd)</b> You may cast Dragonmarked Healer up to twice per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (6th)</b> You may cast Dragonmarked Healer up to three times per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (7th)</b> You may cast Dragonmarked Healer up to three times per day. Only one of these casts may be from the heightened level 6 or above.<br><br><b>Heightened (9th)</b> Spells of the third heightened level or lower do not count against the frequency of Dragonmarked Healer.",
       "src": "Pathfinder's Guide to Eberron",
       "databaseID": 1
     },
@@ -5638,7 +6591,7 @@
       "level": 2,
       "traits": "dragonmark, mark of hospitality, enchantment, 3rd Party",
       "cast": "focus, somatic",
-      "descriptionHeightened": "<b>Cast</b> see replicated spell; dragonmark, somatic<br><br><b>Frequency</b> The strain of bending your dragonmark to replicate a specific spell is so great, that you can only cast this spell once per day - even if you have focus points to cast it with.<br><br>With a concentrated effort to bend the powers of your mark, you can replicate the effects of a spell.<br>When you begin to cast Dragonmarked Hospitality, you can select a spell from the Dragonmarked Hospitality spell list at the heightened level of Dragonmarked Hospitality or lower. Dragonmarked Hospitality gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the selected spell's number of actions. The replicated spell is automatically heightened to the level of Dragonmarked Hospitality.<br>A spell cast by Dragonmarked Hospitality doesn\u2019t require material or verbal components but always requires a dragonmark and somatic component. If the spell requires a focus, you must still have that focus to cast the spell, and if the spell has a cost, you must still pay that cost to cast the spell.<br><br><b>DRAGONMARKED HOSPITALITY SPELL LIST</b><br>Level 1: Soothe<br>Level 2: Sleep, Charm<br>Level 3: Calm Emotions, Create Food<br>Level 4: Cozy Cabin, Enhance Victuals<br>Level 5: Enthral<br>Level 6: Suggestion<br>Level 7: Magnificent Mansion<br>Level 8: Moment of Renewal<br>Level 9: Resplendent Mansion<br><br><br><b>Heightened (3rd)</b> You may cast Dragonmarked Hospitality up to twice per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (6th)</b> You may cast Dragonmarked Hospitality up to three times per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (7th)</b> You may cast Dragonmarked Hospitality up to three times per day. Only one of these casts may be from the heightened level 6 or above.<br><br><b>Heightened (9th)</b> Spells of the third heightened level or lower do not count against the frequency of Dragonmarked Hospitality.",
+      "descriptionHeightened": "<b>Cast</b> see replicated spell; dragonmark, somatic<br><br><b>Frequency</b> The strain of bending your dragonmark to replicate a specific spell is so great, that you can only cast this spell once per day - even if you have focus points to cast it with.<br><br>With a concentrated effort to bend the powers of your mark, you can replicate the effects of a spell.<br>When you begin to cast Dragonmarked Hospitality, you can select a spell from the Dragonmarked Hospitality spell list at the heightened level of Dragonmarked Hospitality or lower. Dragonmarked Hospitality gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the selected spell's number of actions. The replicated spell is automatically heightened to the level of Dragonmarked Hospitality.<br>A spell cast by Dragonmarked Hospitality doesn’t require material or verbal components but always requires a dragonmark and somatic component. If the spell requires a focus, you must still have that focus to cast the spell, and if the spell has a cost, you must still pay that cost to cast the spell.<br><br><b>DRAGONMARKED HOSPITALITY SPELL LIST</b><br>Level 1: Soothe<br>Level 2: Sleep, Charm<br>Level 3: Calm Emotions, Create Food<br>Level 4: Cozy Cabin, Enhance Victuals<br>Level 5: Enthral<br>Level 6: Suggestion<br>Level 7: Magnificent Mansion<br>Level 8: Moment of Renewal<br>Level 9: Resplendent Mansion<br><br><br><b>Heightened (3rd)</b> You may cast Dragonmarked Hospitality up to twice per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (6th)</b> You may cast Dragonmarked Hospitality up to three times per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (7th)</b> You may cast Dragonmarked Hospitality up to three times per day. Only one of these casts may be from the heightened level 6 or above.<br><br><b>Heightened (9th)</b> Spells of the third heightened level or lower do not count against the frequency of Dragonmarked Hospitality.",
       "src": "Pathfinder's Guide to Eberron",
       "databaseID": 1
     },
@@ -5649,7 +6602,7 @@
       "level": 2,
       "traits": "dragonmark, mark of finding, divination, 3rd Party",
       "cast": "focus, somatic",
-      "descriptionHeightened": "<b>Cast</b> see replicated spell; dragonmark, somatic<br><br><b>Frequency</b> The strain of bending your dragonmark to replicate a specific spell is so great, that you can only cast this spell once per day - even if you have focus points to cast it with.<br><br>With a concentrated effort to bend the powers of your mark, you can replicate the effects of a spell.<br>When you begin to cast Dragonmarked Hunter, you can select a spell from the Dragonmarked Hunter spell list at the heightened level of Dragonmarked Hunter or lower. Dragonmarked Hunter gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the selected spell's number of actions. The replicated spell is automatically heightened to the level of Dragonmarked Hunter.<br>A spell cast by Dragonmarked Hunter doesn\u2019t require material or verbal components but always requires a dragonmark and somatic component. If the spell requires a focus, you must still have that focus to cast the spell, and if the spell has a cost, you must still pay that cost to cast the spell.<br><br><b>DRAGONMARKED HUNTER SPELL LIST</b><br>Level 2: Expeditious Excavation, Status<br>Level 3: Locate<br>Level 4: Wanderer's Guide<br>Level 5: Countless Eyes<br>Level 6: Scrying<br>Level 7: True Seeing<br>Level 8: Discern Location<br>Level 9: Unrelenting Observation<br><br><b>Heightened (3rd)</b> You may cast Dragonmarked Hunter up to twice per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (6th)</b> You may cast Dragonmarked Hunter up to three times per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (7th)</b> You may cast Dragonmarked Hunter up to three times per day. Only one of these casts may be from the heightened level 6 or above.<br><br><b>Heightened (9th)</b> Spells of the third heightened level or lower do not count against the frequency of Dragonmarked Hunter.",
+      "descriptionHeightened": "<b>Cast</b> see replicated spell; dragonmark, somatic<br><br><b>Frequency</b> The strain of bending your dragonmark to replicate a specific spell is so great, that you can only cast this spell once per day - even if you have focus points to cast it with.<br><br>With a concentrated effort to bend the powers of your mark, you can replicate the effects of a spell.<br>When you begin to cast Dragonmarked Hunter, you can select a spell from the Dragonmarked Hunter spell list at the heightened level of Dragonmarked Hunter or lower. Dragonmarked Hunter gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the selected spell's number of actions. The replicated spell is automatically heightened to the level of Dragonmarked Hunter.<br>A spell cast by Dragonmarked Hunter doesn’t require material or verbal components but always requires a dragonmark and somatic component. If the spell requires a focus, you must still have that focus to cast the spell, and if the spell has a cost, you must still pay that cost to cast the spell.<br><br><b>DRAGONMARKED HUNTER SPELL LIST</b><br>Level 2: Expeditious Excavation, Status<br>Level 3: Locate<br>Level 4: Wanderer's Guide<br>Level 5: Countless Eyes<br>Level 6: Scrying<br>Level 7: True Seeing<br>Level 8: Discern Location<br>Level 9: Unrelenting Observation<br><br><b>Heightened (3rd)</b> You may cast Dragonmarked Hunter up to twice per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (6th)</b> You may cast Dragonmarked Hunter up to three times per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (7th)</b> You may cast Dragonmarked Hunter up to three times per day. Only one of these casts may be from the heightened level 6 or above.<br><br><b>Heightened (9th)</b> Spells of the third heightened level or lower do not count against the frequency of Dragonmarked Hunter.",
       "src": "Pathfinder's Guide to Eberron",
       "databaseID": 1
     },
@@ -5660,7 +6613,7 @@
       "level": 2,
       "traits": "dragonmark, mark of passage, conjuration, 3rd Party",
       "cast": "focus, somatic",
-      "descriptionHeightened": "<b>Cast</b> see replicated spell; dragonmark, somatic<br><br><b>Frequency</b> The strain of bending your dragonmark to replicate a specific spell is so great, that you can only cast this spell once per day - even if you have focus points to cast it with.<br><br>With a concentrated effort to bend the powers of your mark, you can replicate the effects of a spell.<br>When you begin to cast Dragonmarked Mobility, you can select a spell from the Dragonmarked Mobility spell list at the heightened level of Dragonmarked Mobility or lower. Dragonmarked Mobility gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the selected spell's number of actions. The replicated spell is automatically heightened to the level of Dragonmarked Mobility.<br>A spell cast by Dragonmarked Mobility doesn\u2019t require material or verbal components but always requires a dragonmark and somatic component. If the spell requires a focus, you must still have that focus to cast the spell, and if the spell has a cost, you must still pay that cost to cast the spell.<br><br><b>DRAGONMARKED MOBILITY SPELL LIST</b><br>Level 2: Fleet Step, Longstrider<br>Level 3: Safe Passage<br>Level 4: Haste<br>Level 5: Freedom of Movement, Dimension Door<br>Level 6: Return Beacon<br>Level 7: Teleport<br>Level 8: Ethereal Jaunt<br><br><b>Heightened (3rd)</b> You may cast Dragonmarked Mobility up to twice per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (6th)</b> You may cast Dragonmarked Mobility up to three times per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (7th)</b> You may cast Dragonmarked Mobility up to three times per day. Only one of these casts may be from the heightened level 6 or above.<br><br><b>Heightened (9th)</b> Spells of the third heightened level or lower do not count against the frequency of Dragonmarked Mobility.",
+      "descriptionHeightened": "<b>Cast</b> see replicated spell; dragonmark, somatic<br><br><b>Frequency</b> The strain of bending your dragonmark to replicate a specific spell is so great, that you can only cast this spell once per day - even if you have focus points to cast it with.<br><br>With a concentrated effort to bend the powers of your mark, you can replicate the effects of a spell.<br>When you begin to cast Dragonmarked Mobility, you can select a spell from the Dragonmarked Mobility spell list at the heightened level of Dragonmarked Mobility or lower. Dragonmarked Mobility gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the selected spell's number of actions. The replicated spell is automatically heightened to the level of Dragonmarked Mobility.<br>A spell cast by Dragonmarked Mobility doesn’t require material or verbal components but always requires a dragonmark and somatic component. If the spell requires a focus, you must still have that focus to cast the spell, and if the spell has a cost, you must still pay that cost to cast the spell.<br><br><b>DRAGONMARKED MOBILITY SPELL LIST</b><br>Level 2: Fleet Step, Longstrider<br>Level 3: Safe Passage<br>Level 4: Haste<br>Level 5: Freedom of Movement, Dimension Door<br>Level 6: Return Beacon<br>Level 7: Teleport<br>Level 8: Ethereal Jaunt<br><br><b>Heightened (3rd)</b> You may cast Dragonmarked Mobility up to twice per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (6th)</b> You may cast Dragonmarked Mobility up to three times per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (7th)</b> You may cast Dragonmarked Mobility up to three times per day. Only one of these casts may be from the heightened level 6 or above.<br><br><b>Heightened (9th)</b> Spells of the third heightened level or lower do not count against the frequency of Dragonmarked Mobility.",
       "src": "Pathfinder's Guide to Eberron",
       "databaseID": 1
     },
@@ -5671,7 +6624,7 @@
       "level": 2,
       "traits": "dragonmark, mark of scribing, illusion, 3rd Party",
       "cast": "focus, somatic",
-      "descriptionHeightened": "<b>Cast</b> see replicated spell; dragonmark, somatic<br><br><b>Frequency</b> The strain of bending your dragonmark to replicate a specific spell is so great, that you can only cast this spell once per day - even if you have focus points to cast it with.<br><br>With a concentrated effort to bend the powers of your mark, you can replicate the effects of a spell.<br>When you begin to cast Dragonmarked Scribe, you can select a spell from the Dragonmarked Scribe spell list at the heightened level of Dragonmarked Scribe or lower. Dragonmarked Scribe gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the selected spell's number of actions. The replicated spell is automatically heightened to the level of Dragonmarked Scribe.<br>A spell cast by Dragonmarked Scribe doesn\u2019t require material or verbal components but always requires a dragonmark and somatic component. If the spell requires a focus, you must still have that focus to cast the spell, and if the spell has a cost, you must still pay that cost to cast the spell.<br><br><b>DRAGONMARKED SCRIBE SPELL LIST</b><br>Level 2: Imprint Message, Message Rune<br>Level 3: Comprehend Language<br>Level 4: Secret Page, Forgotten Lines<br>Level 5: Sending<br>Level 6: Hypercognition<br>Level 7: Telepathic Bond<br>Level 9: Mind Blank<br><br><b>Heightened (3rd)</b> You may cast Dragonmarked Scribe up to twice per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (6th)</b> You may cast Dragonmarked Scribe up to three times per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (7th)</b> You may cast Dragonmarked Scribe up to three times per day. Only one of these casts may be from the heightened level 6 or above.<br><br><b>Heightened (9th)</b> Spells of the third heightened level or lower do not count against the frequency of Dragonmarked Scribe.",
+      "descriptionHeightened": "<b>Cast</b> see replicated spell; dragonmark, somatic<br><br><b>Frequency</b> The strain of bending your dragonmark to replicate a specific spell is so great, that you can only cast this spell once per day - even if you have focus points to cast it with.<br><br>With a concentrated effort to bend the powers of your mark, you can replicate the effects of a spell.<br>When you begin to cast Dragonmarked Scribe, you can select a spell from the Dragonmarked Scribe spell list at the heightened level of Dragonmarked Scribe or lower. Dragonmarked Scribe gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the selected spell's number of actions. The replicated spell is automatically heightened to the level of Dragonmarked Scribe.<br>A spell cast by Dragonmarked Scribe doesn’t require material or verbal components but always requires a dragonmark and somatic component. If the spell requires a focus, you must still have that focus to cast the spell, and if the spell has a cost, you must still pay that cost to cast the spell.<br><br><b>DRAGONMARKED SCRIBE SPELL LIST</b><br>Level 2: Imprint Message, Message Rune<br>Level 3: Comprehend Language<br>Level 4: Secret Page, Forgotten Lines<br>Level 5: Sending<br>Level 6: Hypercognition<br>Level 7: Telepathic Bond<br>Level 9: Mind Blank<br><br><b>Heightened (3rd)</b> You may cast Dragonmarked Scribe up to twice per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (6th)</b> You may cast Dragonmarked Scribe up to three times per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (7th)</b> You may cast Dragonmarked Scribe up to three times per day. Only one of these casts may be from the heightened level 6 or above.<br><br><b>Heightened (9th)</b> Spells of the third heightened level or lower do not count against the frequency of Dragonmarked Scribe.",
       "src": "Pathfinder's Guide to Eberron",
       "databaseID": 1
     },
@@ -5682,7 +6635,7 @@
       "level": 2,
       "traits": "dragonmark, mark of sentinel, abjuration, 3rd Party",
       "cast": "somatic",
-      "descriptionHeightened": "<b>Cast</b> see replicated spell; dragonmark, somatic<br><br><b>Frequency</b> The strain of bending your dragonmark to replicate a specific spell is so great, that you can only cast this spell once per day - even if you have focus points to cast it with.<br><br>With a concentrated effort to bend the powers of your mark, you can replicate the effects of a spell.<br>When you begin to cast Dragonmarked Sentinel, you can select a spell from the Dragonmarked Sentinel spell list at the heightened level of Dragonmarked Sentinel or lower. Dragonmarked Sentinel gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the selected spell's number of actions. The replicated spell is automatically heightened to the level of Dragonmarked Sentinel.<br>A spell cast by Dragonmarked Sentinel doesn\u2019t require material or verbal components but always requires a dragonmark and somatic component. If the spell requires a focus, you must still have that focus to cast the spell, and if the spell has a cost, you must still pay that cost to cast the spell.<br><br><b>DRAGONMARKED SENTINEL SPELL LIST</b><br>Level 2: Mage Armor, Sanctuary<br>Level 3: Resist Energy<br>Level 4: Fire Shield<br>Level 5: Rebounding Barrier<br>Level 6: Scintillating Safeguard<br>Level 7: Wall of Force<br>Level 8: Spell Turning<br><br><b>Heightened (3rd)</b> You may cast Dragonmarked Sentinel up to twice per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (6th)</b> You may cast Dragonmarked Sentinel up to three times per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (7th)</b> You may cast Dragonmarked Sentinel up to three times per day. Only one of these casts may be from the heightened level 6 or above.<br><br><b>Heightened (9th)</b> Spells of the third heightened level or lower do not count against the frequency of Dragonmarked Sentinel.",
+      "descriptionHeightened": "<b>Cast</b> see replicated spell; dragonmark, somatic<br><br><b>Frequency</b> The strain of bending your dragonmark to replicate a specific spell is so great, that you can only cast this spell once per day - even if you have focus points to cast it with.<br><br>With a concentrated effort to bend the powers of your mark, you can replicate the effects of a spell.<br>When you begin to cast Dragonmarked Sentinel, you can select a spell from the Dragonmarked Sentinel spell list at the heightened level of Dragonmarked Sentinel or lower. Dragonmarked Sentinel gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the selected spell's number of actions. The replicated spell is automatically heightened to the level of Dragonmarked Sentinel.<br>A spell cast by Dragonmarked Sentinel doesn’t require material or verbal components but always requires a dragonmark and somatic component. If the spell requires a focus, you must still have that focus to cast the spell, and if the spell has a cost, you must still pay that cost to cast the spell.<br><br><b>DRAGONMARKED SENTINEL SPELL LIST</b><br>Level 2: Mage Armor, Sanctuary<br>Level 3: Resist Energy<br>Level 4: Fire Shield<br>Level 5: Rebounding Barrier<br>Level 6: Scintillating Safeguard<br>Level 7: Wall of Force<br>Level 8: Spell Turning<br><br><b>Heightened (3rd)</b> You may cast Dragonmarked Sentinel up to twice per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (6th)</b> You may cast Dragonmarked Sentinel up to three times per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (7th)</b> You may cast Dragonmarked Sentinel up to three times per day. Only one of these casts may be from the heightened level 6 or above.<br><br><b>Heightened (9th)</b> Spells of the third heightened level or lower do not count against the frequency of Dragonmarked Sentinel.",
       "src": "Pathfinder's Guide to Eberron",
       "databaseID": 1
     },
@@ -5693,7 +6646,7 @@
       "level": 2,
       "traits": "dragonmark, mark of shadow, illusion, 3rd Party",
       "cast": "somatic",
-      "descriptionHeightened": "<b>Cast</b> see replicated spell; dragonmark, somatic<br><br><b>Frequency</b> The strain of bending your dragonmark to replicate a specific spell is so great, that you can only cast this spell once per day - even if you have focus points to cast it with.<br><br>With a concentrated effort to bend the powers of your mark, you can replicate the effects of a spell.<br>When you begin to cast Dragonmarked Shadow, you can select a spell from the Dragonmarked Shadow spell list at the heightened level of Dragonmarked Shadow or lower. Dragonmarked Shadow gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the selected spell's number of actions. The replicated spell is automatically heightened to the level of Dragonmarked Shadow.<br>A spell cast by Dragonmarked Shadow doesn\u2019t require material or verbal components but always requires a dragonmark and somatic component. If the spell requires a focus, you must still have that focus to cast the spell, and if the spell has a cost, you must still pay that cost to cast the spell.<br><br><b>DRAGONMARKED SHADOW SPELL LIST</b><br>Level 2: Pass Without Trace, Penumbral Shroud<br>Level 3: Darkness, Invisibility, Mirror Image<br>Level 4: Hypnotic Pattern<br>Level 5: Illusory Scene<br>Level 6: Blanket of Stars<br>Level 7: Mislead<br>Level 8: Project Image<br>Level 9: Disappearance<br><br><b>Heightened (3rd)</b> You may cast Dragonmarked Shadow up to twice per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (6th)</b> You may cast Dragonmarked Shadow up to three times per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (7th)</b> You may cast Dragonmarked Shadow up to three times per day. Only one of these casts may be from the heightened level 6 or above.<br><br><b>Heightened (9th)</b> Spells of the third heightened level or lower do not count against the frequency of Dragonmarked Shadow.",
+      "descriptionHeightened": "<b>Cast</b> see replicated spell; dragonmark, somatic<br><br><b>Frequency</b> The strain of bending your dragonmark to replicate a specific spell is so great, that you can only cast this spell once per day - even if you have focus points to cast it with.<br><br>With a concentrated effort to bend the powers of your mark, you can replicate the effects of a spell.<br>When you begin to cast Dragonmarked Shadow, you can select a spell from the Dragonmarked Shadow spell list at the heightened level of Dragonmarked Shadow or lower. Dragonmarked Shadow gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the selected spell's number of actions. The replicated spell is automatically heightened to the level of Dragonmarked Shadow.<br>A spell cast by Dragonmarked Shadow doesn’t require material or verbal components but always requires a dragonmark and somatic component. If the spell requires a focus, you must still have that focus to cast the spell, and if the spell has a cost, you must still pay that cost to cast the spell.<br><br><b>DRAGONMARKED SHADOW SPELL LIST</b><br>Level 2: Pass Without Trace, Penumbral Shroud<br>Level 3: Darkness, Invisibility, Mirror Image<br>Level 4: Hypnotic Pattern<br>Level 5: Illusory Scene<br>Level 6: Blanket of Stars<br>Level 7: Mislead<br>Level 8: Project Image<br>Level 9: Disappearance<br><br><b>Heightened (3rd)</b> You may cast Dragonmarked Shadow up to twice per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (6th)</b> You may cast Dragonmarked Shadow up to three times per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (7th)</b> You may cast Dragonmarked Shadow up to three times per day. Only one of these casts may be from the heightened level 6 or above.<br><br><b>Heightened (9th)</b> Spells of the third heightened level or lower do not count against the frequency of Dragonmarked Shadow.",
       "src": "Pathfinder's Guide to Eberron",
       "databaseID": 1
     },
@@ -5704,7 +6657,7 @@
       "level": 2,
       "traits": "dragonmark, mark of storm, evocation, 3rd Party",
       "cast": "somatic",
-      "descriptionHeightened": "<b>Cast</b> see replicated spell; dragonmark, somatic<br><br><b>Frequency</b> The strain of bending your dragonmark to replicate a specific spell is so great, that you can only cast this spell once per day - even if you have focus points to cast it with.<br><br>With a concentrated effort to bend the powers of your mark, you can replicate the effects of a spell.<br>When you begin to cast Dragonmarked Stormbringer, you can select a spell from the Dragonmarked Stormbringer spell list at the heightened level of Dragonmarked Stormbringer or lower. Dragonmarked Stormbringer gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the selected spell's number of actions. The replicated spell is automatically heightened to the level of Dragonmarked Stormbringer.<br>A spell cast by Dragonmarked Stormbringer doesn\u2019t require material or verbal components but always requires a dragonmark and somatic component. If the spell requires a focus, you must still have that focus to cast the spell, and if the spell has a cost, you must still pay that cost to cast the spell.<br><br><b>DRAGONMARKED STORMBRINGER SPELL LIST</b><br>Level 2: Gust of Wind, Personal Rain Cloud<br>Level 3: Obscuring Mist<br>Level 4: Wall of Wind<br>Level 5: Air Walk, Solid Fog<br>Level 6: Fly, Control Water<br>Level 7: Lightning Storm<br>Level 8: Wind Walk<br>Level 9: Punishing Winds<br><br><b>Heightened (3rd)</b> You may cast Dragonmarked Stormbringer up to twice per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (6th)</b> You may cast Dragonmarked Stormbringer up to three times per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (7th)</b> You may cast Dragonmarked Stormbringer up to three times per day. Only one of these casts may be from the heightened level 6 or above.<br><br><b>Heightened (9th)</b> Spells of the third heightened level or lower do not count against the frequency of Dragonmarked Stormbringer.",
+      "descriptionHeightened": "<b>Cast</b> see replicated spell; dragonmark, somatic<br><br><b>Frequency</b> The strain of bending your dragonmark to replicate a specific spell is so great, that you can only cast this spell once per day - even if you have focus points to cast it with.<br><br>With a concentrated effort to bend the powers of your mark, you can replicate the effects of a spell.<br>When you begin to cast Dragonmarked Stormbringer, you can select a spell from the Dragonmarked Stormbringer spell list at the heightened level of Dragonmarked Stormbringer or lower. Dragonmarked Stormbringer gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the selected spell's number of actions. The replicated spell is automatically heightened to the level of Dragonmarked Stormbringer.<br>A spell cast by Dragonmarked Stormbringer doesn’t require material or verbal components but always requires a dragonmark and somatic component. If the spell requires a focus, you must still have that focus to cast the spell, and if the spell has a cost, you must still pay that cost to cast the spell.<br><br><b>DRAGONMARKED STORMBRINGER SPELL LIST</b><br>Level 2: Gust of Wind, Personal Rain Cloud<br>Level 3: Obscuring Mist<br>Level 4: Wall of Wind<br>Level 5: Air Walk, Solid Fog<br>Level 6: Fly, Control Water<br>Level 7: Lightning Storm<br>Level 8: Wind Walk<br>Level 9: Punishing Winds<br><br><b>Heightened (3rd)</b> You may cast Dragonmarked Stormbringer up to twice per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (6th)</b> You may cast Dragonmarked Stormbringer up to three times per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (7th)</b> You may cast Dragonmarked Stormbringer up to three times per day. Only one of these casts may be from the heightened level 6 or above.<br><br><b>Heightened (9th)</b> Spells of the third heightened level or lower do not count against the frequency of Dragonmarked Stormbringer.",
       "src": "Pathfinder's Guide to Eberron",
       "databaseID": 1
     },
@@ -5715,7 +6668,7 @@
       "level": 2,
       "traits": "dragonmark, mark of warding, abjuration, 3rd Party",
       "cast": "somatic",
-      "descriptionHeightened": "<b>Cast</b> see replicated spell; dragonmark, somatic<br><br><b>Frequency</b> The strain of bending your dragonmark to replicate a specific spell is so great, that you can only cast this spell once per day - even if you have focus points to cast it with.<br><br>With a concentrated effort to bend the powers of your mark, you can replicate the effects of a spell.<br>When you begin to cast Dragonmarked Warder, you can select a spell from the Dragonmarked Warder spell list at the heightened level of Dragonmarked Warder or lower. Dragonmarked Warder gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the selected spell's number of actions. The replicated spell is automatically heightened to the level of Dragonmarked Warder.<br>A spell cast by Dragonmarked Warder doesn\u2019t require material or verbal components but always requires a dragonmark and somatic component. If the spell requires a focus, you must still have that focus to cast the spell, and if the spell has a cost, you must still pay that cost to cast the spell.<br><br><b>DRAGONMARKED WARDER SPELL LIST</b><br>Level 2: Alarm, Lock, Tether<br>Level 3: Knock, Magical Fetters<br>Level 4: Circle of Protection, Glyph of Warding<br>Level 5: Dimensional Anchor, Private Sanctum<br>Level 6: Wall of Stone<br>Level 7: Dimensional Lock<br>Level 8: Force Cage<br>Level 9: Disappearance<br><br><b>Heightened (3rd)</b> You may cast Dragonmarked Warder up to twice per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (6th)</b> You may cast Dragonmarked Warder up to three times per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (7th)</b> You may cast Dragonmarked Warder up to three times per day. Only one of these casts may be from the heightened level 6 or above.<br><br><b>Heightened (9th)</b> Spells of the third heightened level or lower do not count against the frequency of Dragonmarked Warder.",
+      "descriptionHeightened": "<b>Cast</b> see replicated spell; dragonmark, somatic<br><br><b>Frequency</b> The strain of bending your dragonmark to replicate a specific spell is so great, that you can only cast this spell once per day - even if you have focus points to cast it with.<br><br>With a concentrated effort to bend the powers of your mark, you can replicate the effects of a spell.<br>When you begin to cast Dragonmarked Warder, you can select a spell from the Dragonmarked Warder spell list at the heightened level of Dragonmarked Warder or lower. Dragonmarked Warder gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the selected spell's number of actions. The replicated spell is automatically heightened to the level of Dragonmarked Warder.<br>A spell cast by Dragonmarked Warder doesn’t require material or verbal components but always requires a dragonmark and somatic component. If the spell requires a focus, you must still have that focus to cast the spell, and if the spell has a cost, you must still pay that cost to cast the spell.<br><br><b>DRAGONMARKED WARDER SPELL LIST</b><br>Level 2: Alarm, Lock, Tether<br>Level 3: Knock, Magical Fetters<br>Level 4: Circle of Protection, Glyph of Warding<br>Level 5: Dimensional Anchor, Private Sanctum<br>Level 6: Wall of Stone<br>Level 7: Dimensional Lock<br>Level 8: Force Cage<br>Level 9: Disappearance<br><br><b>Heightened (3rd)</b> You may cast Dragonmarked Warder up to twice per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (6th)</b> You may cast Dragonmarked Warder up to three times per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (7th)</b> You may cast Dragonmarked Warder up to three times per day. Only one of these casts may be from the heightened level 6 or above.<br><br><b>Heightened (9th)</b> Spells of the third heightened level or lower do not count against the frequency of Dragonmarked Warder.",
       "src": "Pathfinder's Guide to Eberron",
       "databaseID": 1
     },
@@ -6309,6 +7262,336 @@
       "descriptionHeightened": "Reaction upon taking damage: calcify skin for Hardness 5, then step through adjacent stone up to 15 feet away.",
       "src": "Pathfinder's Guide to Eberron",
       "databaseID": 1
+    },
+    {
+      "uniqueID": "cdd2ca2e-cea9-491d-a8c6-936b80e4ffc4",
+      "name": "Aberrant Feedback",
+      "type": "Focus",
+      "level": 1,
+      "traits": "3rd Party, Aberrant-feedback, Aberrant-mark, Cantrip, Dragonmark",
+      "cast": "2 actions",
+      "descriptionHeightened": "One of the reasons that aberrant marks are so feared, is their potential for causing unintentional harm resulting from their use. The Aberrant Feedback trait applies to most spells that an aberrant mark can cast. After you cast a focus spell with the Aberrant Feedback trait, you must make @Check[type:flat|dc:5] On a failure, you increase your @Compendium[pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained} condition by 1. On a critical failure, a random creature within 30 feet of the caster (potentially including the caster) takes 1d4 @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Persistent Damage} acid, cold, fire, bleeding, or poison damage of the GM's choice. This is in addition to increasing the caster's drained condition. The number of damage dice increases to two with a Lesser Mark, three with a Greater Mark, and four with a Siberys Mark.",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "uniqueID": "4edcad0d-0e5e-4c98-a0ef-5553f7a9b6e8",
+      "name": "Aundair's Silent Sanctum",
+      "type": "Spell",
+      "level": 1,
+      "traits": "3rd Party, Cantrip",
+      "cast": "2",
+      "descriptionHeightened": "You create an invisible sphere of energy with a 5-foot emanation. Until the spell ends, it moves with you, centred on you. The sphere muffles sound in both directions. All creatures have a -2 circumstance penalty to hear any sounds originating from the other side of the sphere, in addition, creatures have a +2 circumstance bonus on saves against auditory effects originating from the other side of the sphere. Heightened (3rd) you may choose the area to be up to a 10-foot-radius emanation centred on you. The circumstance penalty to hear sounds becomes -4, and the circumstance bonus to saves becomes +4.",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "uniqueID": "28e5e27a-56ce-4a8b-ad2d-895d8be4fbc4",
+      "name": "Banish Dragonmark",
+      "type": "Spell",
+      "level": 5,
+      "traits": "3rd Party, Incapacitation",
+      "cast": "2",
+      "descriptionHeightened": "One of the spells developed by the twelve to hunt Aberrant Marks, they found these dragonmark targeting spells could disable any dragonmark - not just Aberrant marks. The twelve determined it to be too great a risk to make public. However, this spell has since been acquired by various intelligence agencies, held until the day it may be necessary. You utter a harsh incantation and point a finger at the target. Suddenly, your foe’s dragonmark begins to writhe and separate from its body. They must attempt a Will save. Critical Success the target is unaffected. Success the target is @UUID[Compendium.pf2e.conditions.4D2KBtexWXa6oUMR]{Drained 1}. Failure the target is @UUID[Compendium.pf2e.conditions.4D2KBtexWXa6oUMR]{Drained 1}, and the target may not use any feature, spell, or item with the dragonmark trait. They may attempt a Will save at the end of each of their turns to resume using their dragonmark. Critical Failure the target is @UUID[Compendium.pf2e.conditions.4D2KBtexWXa6oUMR]{Drained 2}, the target may not use any feature, spell, or item with the dragonmark trait until the duration expires. Heightened (+1) The duration increases by 1 day.",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "uniqueID": "3f2c2589-4496-452d-a4ce-88efc685bc3c",
+      "name": "Boldrei’s Broom",
+      "type": "Spell",
+      "level": 1,
+      "traits": "3rd Party, Cantrip",
+      "cast": "2",
+      "descriptionHeightened": "You clean an object or surface made from wood, stone, or metal no larger than 1 bulk or 1 cubic foot.",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "uniqueID": "7ca9a8da-f0e1-4bb8-ae27-bdecab7ff176",
+      "name": "Concussive Burst",
+      "type": "Spell",
+      "level": 1,
+      "traits": "3rd Party, Arcane, Force, Occult",
+      "cast": "2",
+      "descriptionHeightened": "A pulse of kinetic pressure ripples through the air at a designated point within 60 feet. Each creature in a 15-foot burst takes 2d4 force damage and must attempt a Fortitude saving throw. On a failure, the creature is deafened until the end of its next turn; on a critical failure, it takes double damage, is deafened for 1 minute, and pushed 5 feet away. Heightened (+1): The damage increases by 2d4.",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "uniqueID": "32a5872f-b350-40ac-a525-13a41afdd2cd",
+      "name": "Construct Form",
+      "type": "Focus",
+      "level": 1,
+      "traits": "3rd Party, Druid, Focus, Polymorph, Primal",
+      "cast": "2",
+      "descriptionHeightened": "You shape-shift into a living construct beast of steel plates and copper wire. You gain the construct trait, an item bonus to AC equal to 16 + your level, resistance to bleed and precision damage equal to half your level, and your natural strikes can deal your choice of bludgeoning, piercing, slashing, acid, cold, fire, or electricity damage.",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "uniqueID": "da4053ba-d1d6-4db7-a1e2-e979c30d329d",
+      "name": "Culinary Transmutation",
+      "type": "Spell",
+      "level": 1,
+      "traits": "3rd Party, Cantrip",
+      "cast": "2",
+      "descriptionHeightened": "You chill or warm up to 1 bulk or 1 cubic foot of nonliving material.",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "uniqueID": "e99cfc97-7f93-4f1d-a3e8-03e4d3282ee6",
+      "name": "Curse Dragonmark",
+      "type": "Spell",
+      "level": 3,
+      "traits": "3rd Party, Curse",
+      "cast": "2",
+      "descriptionHeightened": "One of the spells developed by the twelve to hunt Aberrant Marks, they found these dragonmark targeting spells could disable any dragonmark - not just Aberrant marks. The twelve determined it to be too great a risk to make public. However, this spell has since been acquired by various intelligence agencies, held until the day it may be necessary. You trace a pattern in the air with your hand as this spell is cast. In response, the target’s dragonmark seems to twist and curl in. Every time the target creature attempts to use a feature, spell, or item with the dragonmark trait, they must succeed on a @Check[type:flat|dc:11] or else fail to use it, losing any resources expended. Critical Success The target is unaffected. Success The spell lasts for 1 round. Failure The spell lasts for 1 minute. Critical Failure The spell has an unlimited duration. Heightened (+1) the DC of the flat check increases by 1",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "uniqueID": "67cac6d6-85f2-4a00-aa19-c58be3401639",
+      "name": "Dancing Dragonmark",
+      "type": "Spell",
+      "level": 2,
+      "traits": "3rd Party",
+      "cast": "2",
+      "descriptionHeightened": "One of the spells developed by the twelve to hunt Aberrant Marks, they found these dragonmark targeting spells could disable any dragonmark - not just Aberrant marks. The twelve determined it to be too great a risk to make public. However, this spell has since been acquired by various intelligence agencies, held until the day it may be necessary. Creatures with the dragonmark trait in the area become nauseated as their marks begin to writhe and dance on their skin. A creature must attempt a Will saving throw if it is inside the burst when you cast it, when it enters the burst, or when it ends its turn within the burst. All creatures without the dragonmark trait automatically critically succeed. Critical Success The creature is unaffected. Success The creature is @UUID[Compendium.pf2e.conditions.AdPVz7rbaVSRxHFg]{Fascinated} by its mark. Failure The creature is@UUID[Compendium.pf2e.conditions.fesd1n5eVhpCSS18]{Sickened 1} and @UUID[Compendium.pf2e.conditions.AdPVz7rbaVSRxHFg]{Fascinated} by its mark. Critical Failure The creature is @UUID[Compendium.pf2e.conditions.fesd1n5eVhpCSS18]{Sickened 2} and @UUID[Compendium.pf2e.conditions.AdPVz7rbaVSRxHFg]{Fascinated} by its mark.",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "uniqueID": "8e91daf8-a024-4e34-afa7-d11afe200e6d",
+      "name": "Dirge of the Victorious Blade",
+      "type": "Focus",
+      "level": 1,
+      "traits": "3rd Party, Bard, Composition, Focus, Sonic",
+      "cast": "reaction",
+      "descriptionHeightened": "Trigger: An ally within 30 feet critically hits an enemy with a weapon strike. You punctuate the blow with a resonant dirge. The struck foe and adjacent enemies take 2d6 sonic damage (basic Fortitude save). The triggering ally gains temporary Hit Points equal to your Charisma modifier for 1 minute. Heightened (+1): Damage increases by 1d6.",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "uniqueID": "6067bfb0-2a42-4ed7-afae-8f8f2327be55",
+      "name": "Eyes of the finder",
+      "type": "Focus",
+      "level": 2,
+      "traits": "3rd Party, Dragonmark, Mark-of-finding",
+      "cast": "2",
+      "descriptionHeightened": "@UUID[Compendium.pathfinders-guide-to-eberron.eberron-effects.5R9IPxj31vcjQH8Y]{Spell Effect: Eyes of the Finder} While this spell is sustained, you gain the ability to see through solid objects to a range of 30 feet. Within that range, you have darkvision if you don’t already have it. While this spell is active, you perceive objects as ghostly, transparent images. The spell can see through most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt. You then become immune to the eyes of the finder until your next daily preparation. Heightened (3rd) You can see through twice the thickness of materials. Any amount of lead still blocks your vision. Heightened (5th) You do not need to sustain Eyes of the Finder. Heightened (6th) You become immune to Eyes of the Finder for only 1 hour after the spell ends. Heightened (7th) The duration becomes 10 minutes. Heightened (9th) You do not become immune to Eyes of the Finder after the spell ends. @UUID[Compendium.pathfinders-guide-to-eberron.eberron-effects.EffEyesFinderImm]{Effect: Eyes of the Finder Immunity}",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "uniqueID": "deaf7920-61e1-464c-ad08-dcb522403b59",
+      "name": "Fabricate",
+      "type": "Spell",
+      "level": 5,
+      "traits": "3rd Party",
+      "cast": "2",
+      "descriptionHeightened": "You can convert raw material of one type into a batch of products of the same material equal to the original value. Creatures or magic items cannot be created or transmuted by the fabricate spell. The items made by this spell cannot be greater than twice the level of the cast spell but can be intricate or detailed if you are familiar with the type of item you are constructing. If you work with any minerals, the target and heightened effects are reduced to 1 cubic foot instead of 10 cubic feet. Objects manufactured in this way are obviously temporarily conjured, and thus can't be sold or passed off as a genuine item. When the spell ends, the item returns to the original raw material. Heightened (+1) The volume you can affect increases by 10 feet cubic feet, and similarly, minerals are increased by 1 cubic foot.",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "uniqueID": "400fbb18-89f5-4aba-a7bc-2bd6cadfb84f",
+      "name": "Flash Bang",
+      "type": "Spell",
+      "level": 1,
+      "traits": "3rd Party, Auditory, Incapacitation, Light, Sonic, Visual",
+      "cast": "2",
+      "descriptionHeightened": "A pulse of bright light and energy tears ripples through the air, disrupting creatures caught in the area. Critical Success The creature is unaffected. Success The creature is @Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Dazzled} and @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Deafened} for 1 round. Failure The creature is @Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Dazzled} and @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Deafened} for 1 minute. They may make a Fortitude at the end of each of their turns to end the effect. Critical Failure The creature is @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Deafened} and @Compendium[pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Blinded} for 1 minute..",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "uniqueID": "affff088-a5f6-407f-a0f4-0fee61d007f8",
+      "name": "Force Blast",
+      "type": "Spell",
+      "level": 1,
+      "traits": "3rd Party, Attack, Cantrip, Force",
+      "cast": "2",
+      "descriptionHeightened": "You unleash a bolt of physical power at a creature or object within range. Make a spell attack roll. The blast deals force damage equal to 1d6 + your spellcasting ability modifier. Critical Success You deal double damage. Success You deal full damage. Heightened (+1) The damage increases by 1d6",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "uniqueID": "71fdd905-211f-405c-a491-30b4970f1f71",
+      "name": "Grogan’s Grime",
+      "type": "Spell",
+      "level": 1,
+      "traits": "3rd Party, Cantrip",
+      "cast": "2",
+      "descriptionHeightened": "You clean an object or surface made from wood, stone, or metal no larger than 1 bulk or 1 cubic foot.",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "uniqueID": "572d7669-88d7-425e-ac1d-8ddd5b3a509c",
+      "name": "Halan’s Dramatic Entrance",
+      "type": "Spell",
+      "level": 1,
+      "traits": "3rd Party, Cantrip",
+      "cast": "2",
+      "descriptionHeightened": "You instantaneously cause an unlocked door or window within 30 feet to fly open or slam shut.",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "uniqueID": "7c996ae4-e87a-4e94-a266-fc5d7ed0b006",
+      "name": "Jackrabbit Agility",
+      "type": "Spell",
+      "level": 2,
+      "traits": "3rd Party",
+      "cast": "2",
+      "descriptionHeightened": "You channel the agility of a jackrabbit to boost your speed. You become @Compendium[pf2e.conditionitems.nlCjDvLMf2EkV2dl]{Quickened 1}, you may only use this extra action to Stride or Step. Heightened (6th) You become quickened 2.",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "uniqueID": "ae0adde9-72a3-4e7d-ac5e-04e77530e4c7",
+      "name": "Kellan’s Kindling",
+      "type": "Spell",
+      "level": 1,
+      "traits": "3rd Party, Cantrip",
+      "cast": "2",
+      "descriptionHeightened": "You light a candle, torch, or small campfire.",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "uniqueID": "d197c626-8cea-474d-aab8-d13f8423a0bb",
+      "name": "Magecraft",
+      "type": "Spell",
+      "level": 1,
+      "traits": "3rd Party, Cantrip",
+      "cast": "3",
+      "descriptionHeightened": "You gain a +1 circumstance bonus to the next check you make with this set of tools. The spell then ends. If you integrate this spell into your downtime crafting activity, this bonus applies to the final crafting check.",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "uniqueID": "e2918159-346c-40e4-a180-0b8dc13edb2c",
+      "name": "Mental Shielding",
+      "type": "Focus",
+      "level": 1,
+      "traits": "3rd Party, Cleric, Focus, Mental, Psychic",
+      "cast": "reaction",
+      "descriptionHeightened": "Trigger: You or an ally within 30 feet attempts a Will saving throw. You erect a barrier of psychic dissonance. The target gains a +2 status bonus to the triggering save. If the target succeeds, the attacker takes 2d6 psychic damage from mental backlash. Heightened (+1): Backlash damage increases by 1d6.",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "uniqueID": "de46d069-80fc-48c8-a731-c55a6e7180e1",
+      "name": "Sai'la's Moonblade",
+      "type": "Spell",
+      "level": 4,
+      "traits": "3rd Party, Light",
+      "cast": "1 to 3",
+      "descriptionHeightened": "Channelling your divine powers, you bring a blade of moonlight down onto a creature you can see. You deal [[/r 5d10[positive]]] damage. The number of actions you spend when Casting this Spell determines its targets, range, area, and other parameters. 1 (somatic) The spell has a range of touch. 2 (somatic, verbal) The spell has a range of 30 feet. 3 (material, somatic, verbal) The spell has a range of 60 feet and creates a 20-foot burst of blades of moonlight Critical Success The creature is unaffected. Success The creature takes half damage. If the creature is under the effects of a Polymorph, this spell attempts to counteract it. The counteract check is one degree of success worse. Failure The creature takes full damage. If the creature is under the effects of a Polymorph, this spell attempts to counteract it. Critical Failure The creature takes double damage. If the creature is under the effects of a Polymorph, this spell attempts to counteract it. The counteract check is one degree of success better. Heightened (+1) the damage increases by 1d10.",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "uniqueID": "98c54f37-d178-4406-a009-a0558a8ec9b5",
+      "name": "Savage Blossom",
+      "type": "Spell",
+      "level": 1,
+      "traits": "3rd Party, Cantrip",
+      "cast": "3",
+      "descriptionHeightened": "You conjure a small flower from the ground within 10 feet of you. This flower collapses into pedals after 1 day has passed.",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "uniqueID": "fe4f10db-b872-418f-a210-0f09bf87fb0f",
+      "name": "Shadow's veil",
+      "type": "Focus",
+      "level": 1,
+      "traits": "3rd Party, Dragonmark, Mark-of-shadow",
+      "cast": "2",
+      "descriptionHeightened": "You call upon your dragonmark's power to weave illusions. When you Cast the Spell, any time you @Compendium[pf2e.actionspf2e.EEDElIyin4z60PXx]{Perform}, @Compendium[pf2e.actionspf2e.XMcnh4cSI32tljXa]{Hide}, @Compendium[pf2e.actionspf2e.VMozDqMMuK5kpoX4]{Sneak}, or roll Initiative (stealth) you gain a +1 status bonus to the skill or perception used for the roll. This bonus remains as long as you Sustain the Spell. Heightened (3rd) You do not need to sustain Shadow's veil. Heightened (5th) The bonus increases to +2. Heightened (7th) The duration is 1 hour. Heightened (9th) The bonus increases to +3.",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "uniqueID": "a1013528-9e79-411f-a831-aefb64f8cfce",
+      "name": "Shol Flame",
+      "type": "Spell",
+      "level": 1,
+      "traits": "3rd Party, Cantrip",
+      "cast": "2",
+      "descriptionHeightened": "You cause flames to flicker, brighten, dim, or change colour for 1 minute.",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "uniqueID": "8affddb3-b21b-4010-ab48-e7397047fe94",
+      "name": "Song of the Iron Will",
+      "type": "Cantrip",
+      "level": 1,
+      "traits": "3rd Party, Bard, Cantrip, Composition, Emotion, Mental",
+      "cast": "1",
+      "descriptionHeightened": "Drawing upon ancient Dhakaani duur'kala battle dirges, you chant of past glory. You and allies in a 30-foot emanation gain a +1 status bonus to Will saves against fear and mental effects, and a +1 status bonus to Athletics checks for 1 round.",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "uniqueID": "cd1c78d1-717b-4009-a252-58b50ab6b379",
+      "name": "Spluttering Extinguisher",
+      "type": "Spell",
+      "level": 1,
+      "traits": "3rd Party, Cantrip",
+      "cast": "2",
+      "descriptionHeightened": "You extinguish a candle, a torch, or a small campfire.",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "uniqueID": "61c7ee28-f786-4812-afe8-e0eac168d437",
+      "name": "Thought Projection",
+      "type": "Focus",
+      "level": 4,
+      "traits": "3rd Party, Cleric, Focus, Mental, Psychic",
+      "cast": "2",
+      "descriptionHeightened": "You project a calm psionic gestalt field in a 20-foot emanation for 1 minute. You and allies can communicate telepathically and gain a +1 status bonus to mental saves. Enemies entering the area take 3d6 mental damage (basic Will save). Heightened (+1): Damage increases by 1d6.",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "uniqueID": "a2477f00-99c2-45bf-a576-8c89b1ba0e23",
+      "name": "Verran’s Textile Restoration",
+      "type": "Spell",
+      "level": 1,
+      "traits": "3rd Party, Cantrip",
+      "cast": "2",
+      "descriptionHeightened": "You clean an object made of cloth or leather no larger than 1 bulk or 1 cubic foot.",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "uniqueID": "278afbc6-3a7c-493d-ad63-ef3e6d9b15d1",
+      "name": "Wrath of Kyber",
+      "type": "Focus",
+      "level": 10,
+      "traits": "3rd Party, Aberrant-feedback, Aberrant-mark, Dragonmark",
+      "cast": "2",
+      "descriptionHeightened": "Aberrant Feedback: @Compendium[pathfinders-guide-to-eberron.eberron-spells.SfAkXA3XDi3btTlx]{Aberrant Feedback} Frequency The strain of bending your dragonmark to replicate a specific spell is so great, that you can only cast this spell once per 24 hours - even if you have focus points to cast it with. Drawing on the violent powers of your mark, you may bring down destructive potential not seen since the days of the War of the Mark. You cast @UUID[Compendium.pf2e.spells.wLIvH0AT1u7oa64N]{Cataclysm}. @UUID[Compendium.pathfinders-guide-to-eberron.eberron-effects.EffWrathKyberCld]{Effect: Wrath of Kyber Cooldown}",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "uniqueID": "90a99cde-649a-49fe-aeee-53d1a71b210d",
+      "name": "Zolan Zest",
+      "type": "Spell",
+      "level": 1,
+      "traits": "3rd Party, Cantrip",
+      "cast": "2",
+      "descriptionHeightened": "You flavour up to 1 bulk or 1 cubic foot of nonliving material; this lasts for one hour.",
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
     }
   ],
   "listCustomSpecial": [
@@ -6410,7 +7693,7 @@
     {
       "name": "Emotionally Unaware",
       "id": "a4cc21a4-c99a-4186-9e52-0873041b30dd",
-      "description": "Warforged find it difficult to understand and express complex emotions. You take a \u20131 circumstance penalty to Diplomacy, and Performance checks, and on Perception checks to Sense Motive.<br><br><b>Pathbuilder Note:</b> Please add the penalty to Sense Motive checks as a Custom Buff",
+      "description": "Warforged find it difficult to understand and express complex emotions. You take a –1 circumstance penalty to Diplomacy, and Performance checks, and on Perception checks to Sense Motive.<br><br><b>Pathbuilder Note:</b> Please add the penalty to Sense Motive checks as a Custom Buff",
       "traits": "3rd Party",
       "src": "Pathfinder's Guide to Eberron",
       "databaseID": 1,
@@ -21788,6 +23071,42 @@
       ],
       "description": "Intelligent canid predators of the Great Pack with speech, keen senses, and pack loyalty. Worgs fight alongside riders as equals, wielding specialized steel jaw harnesses in battle.",
       "languages": "Common, Goblin, Additional languages equal to your Intelligence modifier.",
+      "listCustomEffects": [],
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "name": "Sahuagin",
+      "id": "32476ee9-d862-4a5a-a92a-e33dad10f4eb",
+      "traits": "3rd Party, Amphibious, Humanoid, Sahuagin, Uncommon",
+      "hp": 8,
+      "abilityBoosts": [
+        0,
+        4
+      ],
+      "abilityFlaws": [
+        5
+      ],
+      "description": "Predatory amphibious humanoids of the Thunder Sea, Kar'lassa trenches, and Shargon's Teeth. Sahuagin possess darkvision, amphibious breathing, a swim speed of 25 feet, and deadly natural claw and bite strikes. While surface-dwellers often fear them as 'sea devils', those aligned with the Eternal Dominion or living among landwalkers display profound communal loyalty, shark telepathy, and lethal aquatic martial discipline.",
+      "languages": "Common, Thalassian",
+      "listCustomEffects": [],
+      "src": "Pathfinder's Guide to Eberron",
+      "databaseID": 1
+    },
+    {
+      "name": "Kalamer Landwalker",
+      "id": "d16cd9d6-a7a8-4405-a39f-bf8d3841979e",
+      "traits": "3rd Party, Amphibious, Humanoid, Merfolk, Uncommon",
+      "hp": 8,
+      "abilityBoosts": [
+        1,
+        5
+      ],
+      "abilityFlaws": [
+        4
+      ],
+      "description": "Merfolk of the Kalamer alliance who undergo sacred elemental or transmutation rituals to split their tails into legs upon emerging onto dry land. Retaining their aquatic grace and amphibious lungs, landwalkers serve as emissaries, navigators, and traders connecting surface ports such as Stormreach and Sharn with deep underwater civilizations.",
+      "languages": "Common, Thalassian",
       "listCustomEffects": [],
       "src": "Pathfinder's Guide to Eberron",
       "databaseID": 1

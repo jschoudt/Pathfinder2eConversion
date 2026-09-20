@@ -1,0 +1,69 @@
+{
+  "_id": "81cdf57fa0ad06c2",
+  "name": "Circle of the Forged",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/class.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "source": {
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "rules": [],
+    "slug": "circle-of-the-forged",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "traits": {
+      "value": [
+        "druid"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "description": {
+      "value": "<p>What is truly natural? Druids of the Circle of the Forged explore the living potential of wood, stone, and steel, shape-shifting into construct beasts. Gain Crafting as an order skill and the Construct Form focus spell.</p>"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1726848000000,
+    "modifiedTime": 1726848000000,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!81cdf57fa0ad06c2"
+}

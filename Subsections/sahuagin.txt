@@ -1,0 +1,110 @@
+head( 
+# Sahuagin ((++Sahuagin)) 
+Spawned in the oceanic trenches of the Thunder Sea, the sahuagin are masters of an ancient civilization known as the Eternal Dominion. With scaly armor, finned crests, and predatory instincts kin to the shark, they have long inspired dread in dryskin sailors. Yet far from mindless monsters, sahuagin champions wage eternal vigil against fiends and aberrant terrors sleeping in the abyssal depths, guided by devotion to the Devourer and the slumbering kar'lassa.
+-
+) 
+
+Sahuagin view the oceans not as empty expanses, but as a three-dimensional world of pressure, currents, and sacred depths. Whether serving the Dominion as ambassadors, hunting surface raiders, or exploring the dry world out of intense curiosity, sahuagin adventurers bring relentless drive and primeval power to any company.
+
+## You might... 
+- View land-dwellers with curious bewilderment, pitying their inability to perceive currents or swim three-dimensionally.
+- Channel instinctual predatory focus when the scent of blood enters the water or air.
+- Honor the Devourer as the primordial lord of storms, reefs, and oceanic fury.
+
+## Others Probably... 
+- Fear your predatory gaze, sharp teeth, and fearsome reputation as a monster of the depths.
+- Rely on your aquatic speed, underwater breathing, and peerless tracking to navigate coastal and oceanic hazards.
+- Expect you to be superstitious or wary of prolonged time away from fresh or salt water.
+
+## Physical Description... 
+Sahuagin are imposing, muscular amphibious humanoids standing between 6 and 7 feet tall, weighing between 200 and 300 pounds. Their thick scales range from mottled green and sea-gray to vivid turquoise and coral patterns. Their heads are crowned with finned crests that flare or flatten with emotion, their fingers and toes are strongly webbed with razor claws, and their mouths bristle with rows of shark-like teeth. A rare few are born with four muscular arms—a blessing associated with ancient Dominion champions.
+
+## Society... 
+The Eternal Dominion rules vast underwater territories across the Thunder Sea. Governed by noble baronies and priestesses of Sha'argon, Dominion culture values strength, martial devotion, and the preservation of the dreaming kar'lassa—colossal leviathans whose slumbering minds warp the ocean floor.
+
+## Alignment and Religion... 
+Sahuagin trend toward lawful alignments within their Dominion oaths, or neutral alignments when wandering far from home. Most revere the Devourer (the Sovereign of storms and savage seas), Sha'argon, or the primal spirits of the deep.
+
+## Names... 
+Sahuagin names feature sharp consonants, rolling sibilants, and glottal stops.
+### Sample Names 
+Charkath, Gal'esh, Karkhash, Makaris, Rakh'sha, Salthan, Sha'vokh, Torkath, Xol'vash, Zahrkar
+
+= 
+right(
+## Rarity
+Uncommon
+## Hit Points 
+8 
+## Size 
+Medium 
+## Speed 
+25 feet, swim 25 feet 
+## Attribute Boosts 
+Strength 
+Constitution 
+Free 
+## Attribute Flaw 
+Charisma 
+## Languages 
+Sahuagin 
+Aquan 
+Additional languages equal to your Intelligence modifier (including Common). 
+## Traits 
+Sahuagin 
+Amphibious 
+Humanoid 
+## Special Abilities
+- **Darkvision:** You can see in dim light and darkness as easily as in the light.
+- **Shark's Bite:** Your fangs are an unarmed attack dealing 1d6 piercing damage with the unarmed trait.
+- **Claws:** Your webbed claws deal 1d4 slashing damage with the agile, finesse, and unarmed traits.
+- **Blood Frenzy :a:** (Frequency once per 10 minutes) You enter a state of heightened predatory focus for 1 round. While in this frenzy, you gain a +1 status bonus to melee attack rolls against any creature that is taking persistent bleed damage or is below half its maximum Hit Points.
+- **Limited Amphibiousness:** You can breathe both air and water. However, your scales dry out if deprived of moisture; you must be submerged in water for at least 10 minutes once every 4 hours, or begin suffocating as if out of air.
+) 
+
+# Sahuagin Heritages
+Choose one of the following sahuagin heritages at 1st level:
+
+## Deep Trench Hunter
+You hail from the abyssal trenches of the Barren Sea. You gain cold resistance equal to half your level (minimum 1) and ignore environmental penalties caused by oceanic pressure.
+
+## Sha'argon Raider
+Raised in the warbands of the Thunder Sea reefs, your body is covered in spiny dermal denticles. Whenever an enemy attempts to Grapple you and fails, they take 1d4 piercing damage.
+
+## Dominion Plasmid
+Touched by the flesh-shaping biomancy of the Dominion's kar'lassa alchemists, you possess malleable biological adaptations. You gain the *Acid Splash* cantrip as an innate primal cantrip, using your highest mental attribute for spellcasting.
+
+|
+# Sahuagin Ancestry Feats
+
+item(
+# Scent Blood
+## Feat 1
+-
+; Sahuagin
+You gain imprecise scent with a range of 30 feet. When smelling blood in water, this range doubles to 60 feet (or 120 feet if the target is taking persistent bleed damage).
+)
+
+item(
+# Aquatic Predator
+## Feat 1
+-
+; Sahuagin
+Your swim speed increases to 30 feet, and you gain a +1 circumstance bonus to Athletics checks to Swim.
+)
+
+item(
+# Four-Armed Mutation
+## Feat 5
+-
+; Sahuagin
+You were born with four fully formed arms, a revered sign of warrior status in the Dominion. You gain a +1 circumstance bonus to Athletics checks to Disarm, Grapple, or Trip, and you can Interact to draw a weapon or item as a free action once per round.
+)
+
+item(
+# Devourer's Jaws
+## Feat 9
+-
+; Sahuagin
+Your bite attacks become viciously barbed. Your Shark's Bite gains the deadly d8 trait and deals 1d4 persistent bleed damage on a critical hit.
+)

@@ -236,6 +236,10 @@
           "shifter": "Shifter",
           "warforged": "Warforged",
           "worg": "Worg",
+          "sahuagin": "Sahuagin",
+          "merfolk": "Merfolk",
+          "ruinbound": "Ruinbound",
+          "dhakaani": "Dhakaani",
           "aberrant-mark": {
             "label": "Aberrant Mark",
             "description": "This mark heritage is unique to the Aberrant Mark Versatile Heritage. You may only select feats, interact with items, and cast spells with this Trait if you possess the Aberrant Mark trait, in which case you ignore any other specific mark heritage traits."
@@ -376,7 +380,11 @@
           "shifter": "Shifter",
           "wandslinger": "Wandslinger",
           "warforged": "Warforged",
-          "worg": "Worg"
+          "worg": "Worg",
+          "sahuagin": "Sahuagin",
+          "merfolk": "Merfolk",
+          "ruinbound": "Ruinbound",
+          "dhakaani": "Dhakaani"
         },
         "languages": {
           "riedran": "Riedran",

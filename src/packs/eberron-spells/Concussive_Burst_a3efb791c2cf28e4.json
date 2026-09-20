@@ -1,0 +1,108 @@
+{
+  "_id": "a3efb791c2cf28e4",
+  "name": "Concussive Burst",
+  "type": "spell",
+  "img": "systems/pf2e/icons/spells/concussive-burst.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "source": {
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "rules": [],
+    "slug": "concussive-burst",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "traits": {
+      "value": [
+        "arcane",
+        "force",
+        "occult"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "description": {
+      "value": "<p>A pulse of kinetic pressure ripples through the air at a designated point within 60 feet. Each creature in a 15-foot burst takes 2d4 force damage and must attempt a Fortitude saving throw. On a failure, the creature is deafened until the end of its next turn; on a critical failure, it takes double damage, is deafened for 1 minute, and pushed 5 feet away.</p><p><strong>Heightened (+1):</strong> The damage increases by 2d4.</p>"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": {
+      "value": "spell"
+    },
+    "spellType": {
+      "value": "save"
+    },
+    "defense": {
+      "save": {
+        "statistic": "fortitude",
+        "basic": false
+      }
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "60 feet"
+    },
+    "area": {
+      "type": "burst",
+      "value": 15
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "damage": {
+      "0": {
+        "applyMod": false,
+        "category": null,
+        "formula": "2d4",
+        "type": "force",
+        "materials": []
+      }
+    },
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "0": "2d4"
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1726848000000,
+    "modifiedTime": 1726848000000,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!a3efb791c2cf28e4"
+}

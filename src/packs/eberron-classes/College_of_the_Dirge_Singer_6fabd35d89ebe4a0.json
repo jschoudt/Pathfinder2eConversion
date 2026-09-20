@@ -1,0 +1,69 @@
+{
+  "_id": "6fabd35d89ebe4a0",
+  "name": "College of the Dirge Singer",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/class.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "source": {
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "rules": [],
+    "slug": "college-of-the-dirge-singer",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "traits": {
+      "value": [
+        "bard"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "description": {
+      "value": "<p>Heirs to the Dhakaani duur'kala tradition, dirge singers preserve the memory of fallen empires and direct troops with commanding chants. Gain the Song of the Iron Will composition cantrip (+1 status bonus vs mental effects and to Athletics) and Dirge of the Victorious Blade focus spell.</p>"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1726848000000,
+    "modifiedTime": 1726848000000,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!6fabd35d89ebe4a0"
+}

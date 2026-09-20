@@ -9,11 +9,20 @@
 ## Overview
 
 This custom pack brings the homebrew conversion of **Pathfinder's Guide to Eberron** to Pathbuilder 2e. It provides full character-building support for:
-- **Eberron Ancestries:** Warforged, Kalashtar, Shifters (all 4 heritages), Eberron Changelings, and Bugbears.
-- **Versatile Dragonmarks:** All 12 True Dragonmarked Heritages and Aberrant Dragonmarks with Least, Lesser, Greater, and Siberys mark evolutions.
-- **Backgrounds:** House Heir, Excoriate, Foundling, House Agent, and House Orphan backgrounds.
-- **Spells & Focus Spells:** Dragonmark innate and focus spells updated to Pathfinder 2e Remaster terminology.
-- **Items & Equipment:** Integrated armors, double scimitars, and unique Eberron adventuring equipment.
+- **Eberron Ancestries (11):** Warforged, Kalashtar, Shifter (all 5 heritages), Eberron Changeling, Bugbear, Gargoyle, Harpy, Medusa, Worg, Sahuagin, and Kalamer Landwalker (Merfolk).
+- **Versatile Heritages & Lineages (70):** Ruinbound, Droaam planar lineages, all 12 True Dragonmarks, Aberrant marks, and regional Dhakaani heritages (Ghaal'dar, Golin'dar, Jhorgun'taal).
+- **Backgrounds (16):** House Agent, House Orphan, Dragonmarked Scion, Frontier Marshal, Changeling Traveler, Dhakaani Goblinoid, Malenti, and more.
+- **Feats & Classes (374):** Origin feats, monk stances, inventor capstones, Forge Adept, Maverick, College of the Dirge Singer, Mind Domain, Circle of the Forged, and Living Weapon monk options.
+- **Spells & Focus Spells (108):** Dragonmark cantrips, focus spells, and 2024 additions (*Concussive Burst*, *Mental Shielding*, *Construct Form*, *Song of the Iron Will*, etc.).
+- **Weapons & Equipment (10):** Steel jaws, double scimitars, Dhakaani relics (*Shaarat'doovol*), and symbiont weapons.
+
+### Referenced Sources & Links
+- **[Exploring Eberron (2024 / 5.5e)](https://www.dndbeyond.com/marketplace/sourcebooks/exploring-eberron)** ([D&D Beyond](https://www.dndbeyond.com/marketplace/sourcebooks/exploring-eberron) | [DMs Guild](https://www.dmsguild.com/product/315887/Exploring-Eberron))
+- **[Frontiers of Eberron: Quickstone (2024 / 5.5e)](https://www.dndbeyond.com/marketplace/sourcebooks/frontiers-of-eberron-quickstone)** ([D&D Beyond](https://www.dndbeyond.com/marketplace/sourcebooks/frontiers-of-eberron-quickstone) | [DMs Guild](https://www.dmsguild.com/product/468819/Frontiers-of-Eberron-Quickstone))
+- **[Eberron: Forge of the Artificer (2024 / 5.5e)](https://www.dndbeyond.com/marketplace/sourcebooks/eberron-forge-of-the-artificer)** ([D&D Beyond](https://www.dndbeyond.com/marketplace/sourcebooks/eberron-forge-of-the-artificer) | [DMs Guild](https://www.dmsguild.com/product/498308/Forge-of-the-Artificer))
+- **[Eberron: Rising from the Last War (5e)](https://www.dndbeyond.com/sources/dnd/erftlw)** ([D&D Beyond](https://www.dndbeyond.com/sources/dnd/erftlw) | [DMs Guild](https://www.dmsguild.com/product/294943/Eberron-Rising-from-the-Last-War-5e))
+- **[Eberron Campaign Setting (3.5e)](https://www.dmsguild.com/product/28474/Eberron-Campaign-Setting-3e)** ([DMs Guild](https://www.dmsguild.com/product/28474/Eberron-Campaign-Setting-3e))
+- **[Eberronicon: A Pocket Guide to the World](https://www.dmsguild.com/product/297249/Eberronicon-A-Pocket-Guide-to-the-World)** ([DMs Guild](https://www.dmsguild.com/product/297249/Eberronicon-A-Pocket-Guide-to-the-World))
 
 ---
 

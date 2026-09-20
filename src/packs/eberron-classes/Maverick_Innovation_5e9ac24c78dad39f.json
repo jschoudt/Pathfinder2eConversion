@@ -1,0 +1,70 @@
+{
+  "_id": "5e9ac24c78dad39f",
+  "name": "Maverick Innovation",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/class.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "source": {
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "rules": [],
+    "slug": "maverick-innovation",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "traits": {
+      "value": [
+        "inventor",
+        "artificer"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "description": {
+      "value": "<p>A polymath tinkerer who cobbles together custom solutions, you push past standard arcane boundaries. You can prepare experimental spell scroll prototypes during daily preparations, allowing you to prepare spells from the Divine, Occult, or Primal spell lists into Arcane slots.</p>"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1726848000000,
+    "modifiedTime": 1726848000000,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!5e9ac24c78dad39f"
+}

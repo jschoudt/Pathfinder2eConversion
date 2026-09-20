@@ -1,0 +1,77 @@
+{
+  "_id": "f8dea0e617147d39",
+  "name": "Construct Form",
+  "type": "spell",
+  "img": "systems/pf2e/icons/spells/construct-form.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "source": {
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "rules": [],
+    "slug": "construct-form",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "traits": {
+      "value": [
+        "druid",
+        "focus",
+        "polymorph",
+        "primal"
+      ],
+      "rarity": "uncommon",
+      "custom": ""
+    },
+    "description": {
+      "value": "<p>You shape-shift into a living construct beast of steel plates and copper wire. You gain the construct trait, an item bonus to AC equal to 16 + your level, resistance to bleed and precision damage equal to half your level, and your natural strikes can deal your choice of bludgeoning, piercing, slashing, acid, cold, fire, or electricity damage.</p>"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": {
+      "value": "focus"
+    },
+    "spellType": {
+      "value": "utility"
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 minute"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1726848000000,
+    "modifiedTime": 1726848000000,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!f8dea0e617147d39"
+}

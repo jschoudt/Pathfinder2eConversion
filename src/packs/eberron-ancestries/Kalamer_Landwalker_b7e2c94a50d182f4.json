@@ -1,0 +1,107 @@
+{
+  "_id": "b7e2c94a50d182f4",
+  "name": "Kalamer Landwalker",
+  "type": "ancestry",
+  "img": "systems/pf2e/icons/default-icons/ancestry.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "source": {
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "rules": [],
+    "slug": "kalamer-landwalker",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "traits": {
+      "value": [
+        "humanoid",
+        "amphibious",
+        "merfolk"
+      ],
+      "rarity": "rare",
+      "custom": ""
+    },
+    "description": {
+      "value": "<p><em>Kalamer merfolk of the Thunder Sea blessed with the ancient oceanic gift to transform their piscine fluke into humanoid legs to walk the surface world.</em></p>\n<hr />\n<h2>You might…</h2>\n<ul>\n<li>Marvel at surface architecture, fire, and the sensation of walking upon solid stone or soil.</li>\n<li>Maintain a deep, reverent bond with the tides, moon cycles, and coastal currents.</li>\n<li>Express complex emotions through underwater trills, oceanic songs, or flowing hand gestures.</li>\n</ul>\n<h2>Others Probably…</h2>\n<ul>\n<li>Are astonished by your ability to shift between a swimming tail and human-like legs.</li>\n<li>Rely on your maritime knowledge, weather intuition, and swimming mastery.</li>\n<li>Assume you are homesick or uncomfortable when away from bodies of water.</li>\n</ul>"
+    },
+    "hp": 8,
+    "size": "med",
+    "reach": 5,
+    "speed": 25,
+    "boosts": {
+      "0": {
+        "value": [
+          "dex"
+        ]
+      },
+      "1": {
+        "value": [
+          "wis"
+        ]
+      },
+      "2": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      }
+    },
+    "flaws": {
+      "0": {
+        "value": [
+          "con"
+        ]
+      }
+    },
+    "languages": {
+      "value": [
+        "common"
+      ],
+      "custom": "Aquan"
+    },
+    "additionalLanguages": {
+      "value": [],
+      "count": 1,
+      "custom": ""
+    },
+    "items": {},
+    "vision": "lowLightVision"
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1726848000000,
+    "modifiedTime": 1726848000000,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!b7e2c94a50d182f4"
+}

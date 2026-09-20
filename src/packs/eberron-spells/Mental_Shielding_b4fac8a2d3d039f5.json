@@ -1,0 +1,83 @@
+{
+  "_id": "b4fac8a2d3d039f5",
+  "name": "Mental Shielding",
+  "type": "spell",
+  "img": "systems/pf2e/icons/spells/mental-shielding.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "source": {
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "rules": [],
+    "slug": "mental-shielding",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "traits": {
+      "value": [
+        "cleric",
+        "focus",
+        "mental",
+        "psychic"
+      ],
+      "rarity": "uncommon",
+      "custom": ""
+    },
+    "description": {
+      "value": "<p><strong>Trigger:</strong> You or an ally within 30 feet attempts a Will saving throw.</p><p>You erect a barrier of psychic dissonance. The target gains a +2 status bonus to the triggering save. If the target succeeds, the attacker takes 2d6 psychic damage from mental backlash.</p><p><strong>Heightened (+1):</strong> Backlash damage increases by 1d6.</p>"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": {
+      "value": "focus"
+    },
+    "spellType": {
+      "value": "utility"
+    },
+    "time": {
+      "value": "reaction"
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "damage": {
+      "0": {
+        "formula": "2d6",
+        "type": "psychic"
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1726848000000,
+    "modifiedTime": 1726848000000,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!b4fac8a2d3d039f5"
+}

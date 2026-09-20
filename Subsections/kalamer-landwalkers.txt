@@ -1,0 +1,101 @@
+head( 
+# Kalamer Landwalkers ((++Kalamer Landwalker)) 
+The Kalamer merfolk dwell in the crystal depths and kelp forests of the Thunder Sea. While the overwhelming majority spend their entire lives beneath the waves, a rare few are called by prophecy, duty, or insatiable curiosity to walk upon the dry surface world. Blessed by ancient oceanic rituals, these merfolk gain the miraculous ability to transform their fish-like fluke into two humanoid legs, becoming Kalamer Landwalkers.
+-
+) 
+
+To a landwalker, the surface is an alien landscape of shifting winds, heavy air, and foreign nations. Whether acting as emissaries to coastal cities, seeking lost relics of the pre-Mourning ages, or pursuing personal destiny, Kalamer adventurers bridge the vast chasm between the world below and the world above.
+
+## You might... 
+- Marvel at surface architecture, fire, and the sensation of walking upon solid stone or soil.
+- Maintain a deep, reverent bond with the tides, moon cycles, and coastal currents.
+- Express complex emotions through underwater trills, oceanic songs, or flowing hand gestures.
+
+## Others Probably... 
+- Are astonished by your ability to shift between a swimming tail and human-like legs.
+- Rely on your maritime knowledge, weather intuition, and swimming mastery.
+- Assume you are homesick or uncomfortable when away from bodies of water.
+
+## Physical Description... 
+In their natural form, Kalamer merfolk possess slender, graceful humanoid torsos transitioning smoothly into powerful, iridescent piscine flukes adorned with dorsal and pelvic fins. When transforming into landwalkers, their scales knit into skin-tight dermal patterns and their tail splits into two human-like legs. Their hair resembles flowing sea-grass or glistening spun silver, and their eyes have wide, reflective pupils adapted to twilight depths.
+
+## Society... 
+The Kalamer dwell in vibrant coral cities, bio-luminescent kelp estates, and sea-trench monasteries across the Thunder Sea. While traditionally aloof from surface politics, growing trade with House Lyrandar and clashes with the Sahuagin Dominion have caused more Kalamer to seek landward alliances.
+
+## Alignment and Religion... 
+Kalamer favor neutral or chaotic good alignments, prizing freedom of movement and harmony with natural oceanic balances. They revere the Sovereign Host (particularly Arawai and Kol Korran), primal spirits of the ocean, or the mysterious dreaming kar'lassa.
+
+## Names... 
+Kalamer names are melodic, flowing, and frequently contain soft consonants and vowel glides.
+### Sample Names 
+Alari, Coraliss, Delmaris, Elyon, Kaelan, Liriel, Miras, Nerida, Thalor, Zephyra
+
+= 
+right(
+## Rarity
+Rare
+## Hit Points 
+8 
+## Size 
+Medium 
+## Speed 
+25 feet (landwalker form) / 15 feet land, swim 30 feet (merfolk form) 
+## Attribute Boosts 
+Dexterity 
+Wisdom 
+Free 
+## Attribute Flaw 
+Constitution 
+## Languages 
+Aquan 
+Common 
+Additional languages equal to your Intelligence modifier. 
+## Traits 
+Amphibious 
+Humanoid 
+Merfolk 
+## Special Abilities
+- **Low-Light Vision:** You can see in dim light as though it were bright light.
+- **Amphibious:** You can breathe both air and water indefinitely.
+- **Blessing of the Sea :a:** (Concentration, Polymorph, Primal) You transform your lower body between your natural merfolk tail and two humanoid legs. In landwalker form, your Speed is 25 feet and your Swim Speed is 0. In merfolk form, your Speed is 15 feet and your Swim Speed is 30 feet. Equipment you are wearing transforms to fit your active form.
+- **Kalamer Lore:** You are trained in Nature or Performance.
+) 
+
+# Kalamer Heritages
+Choose one of the following Kalamer heritages at 1st level:
+
+## Stormcaller Landwalker
+Bred in the tempestuous upper currents where the Thunder Sea meets open storms, you carry a spark of elemental lightning. You gain the *Electric Arc* cantrip as an innate primal cantrip, cast using your highest mental attribute.
+
+## Abyssal Trench Dweller
+Your people originate from the sunless ocean abysses. You gain darkvision instead of low-light vision, and gain cold resistance equal to half your level (minimum 1).
+
+## Coral Reef Sentinel
+Grown among rigid barrier reefs, your skin is reinforced with calcite micro-crystals. You gain a +1 circumstance bonus to AC against physical damage when in water or while taking the Take Cover action.
+
+|
+# Kalamer Landwalker Feats
+
+item(
+# Swift Land Swimmer
+## Feat 1
+-
+; Merfolk
+Your natural swimming cadence and grace translate to rapid strides. Your land speed in landwalker form increases by 5 feet, and your swim speed in merfolk form increases by 10 feet.
+)
+
+item(
+# Oceanic Song :a:
+## Feat 1
+-
+; Auditory, Emotion, Mental, Merfolk
+You vocalize a resonant harmonic melody of the deep ocean. Creatures within a 30-foot emanation that hear you must attempt a Will save against your class DC or spell DC. On a failure, they are fascinated with you for 1 round.
+)
+
+item(
+# Tidal Surge :aa:
+## Feat 5
+-
+; Merfolk, Primal, Water
+You summon a wave of pressurized sea-water in a 15-foot cone. Each creature in the area must succeed on a Fortitude saving throw against your class DC or spell DC or be pushed 10 feet away from you and knocked prone.
+)

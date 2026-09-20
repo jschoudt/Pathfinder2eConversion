@@ -17,19 +17,55 @@ Many of the advances in Eberron are done through magic, which makes the Alchemis
 As an alchemist, you may not need to adjust anything at all to make your character work. You could consider how some of the more scientific advances of the alchemist (such as the bomb) might instead be flavoured to be arcane power instead (such as a bomb being composed of powdered dragonshards which destabilize in a blast of energy).
 
 # Artificer ((++Artificer))
-Artificers are a class designed around the creative application of the arcane sciences of the world. Their ingenuity with the development of these magical devices allows them to create inventions without comparison. Artificers are similar to the Inventor class and build off of their mechanics. The Artificer class is in development and will be placed at the end of this section. For the time being see the Inventor class entry for a comparable class.
+Artificers are a class designed around the creative application of the arcane sciences of the world. Their ingenuity with the development of these magical devices allows them to create inventions without comparison. Artificers are similar to the Inventor class and build off of their mechanics. 
+
+### Forge Adept Innovation
+Carrying on the ancient metallurgy of Dhakaani daashor smiths, you imbue a melee weapon with a fraction of your soul to forge a *Ghaal'Shaarat* ("mighty blade").
+- **Ghaal'Shaarat Bond:** Your bonded weapon automatically scales its weapon potency and striking runes as you level. It gains the Thrown 30 ft and Returning weapon traits.
+- **Runes of War (Focus Spell):** You radiate a 30-foot aura of elemental fury, adding 1d4 acid, cold, fire, or electricity damage to strikes made by you and your allies.
+
+### Maverick Innovation
+A polymath tinkerer who cobbles together custom solutions, you push past standard arcane boundaries.
+- **Arcane Prototypes:** You can prepare experimental spell scroll prototypes during daily preparations, allowing you to prepare spells from the Divine, Occult, or Primal spell lists into Arcane slots.
+
+### Variant Capstones (Level 20 Feats)
+Level 20 Artificers and Inventors can select specialized capstone feats:
+- **Perfected Elixirs (Alchemist):** Create Panacea and Vivacity elixirs at daily prep that restore full HP and grant 8-hour flight.
+- **Overcharge (Armorer):** Unleash a 100-foot line of destructive elemental force (force, thunder, or electricity) dealing 10d10 damage.
+- **Infused Cannon (Artillerist):** Overcharge your arcane cannons into dragonflame cones, long-range barrages, or restorative waves.
+- **Steel Vanguard (Battle Smith):** Grant your construct companion multiattack, 50 temporary HP, and flight.
+- **Travel Anywhere (Cartographer):** Cast *Gate* without material components, linking to any precise planar location.
+- **Weapon of Legend (Forge Adept):** Your Aura of War becomes permanent and inflicts automatic retributive damage on foes.
+- **Improved Genius (Maverick):** Cast any 8th-rank or lower spell from any tradition once per day without a spell slot.
+info(
+For more information on the Forge Adept, Maverick, and Capstone feats, see Exploring Eberron (p. 60-70). For the Cartographer specialist, see Eberron: Forge of the Artificer (Ch. 1).
+)
 
 # Barbarian ((++Barbarian))
 Barbarians need no adjusting at all. You could consider the source of your instincts; perhaps as a shifter your nature provides the "Animal Instinct"; or you are a halfling or elf in tune with the spirits of your ancestors for the "Spirit Instinct".
 
 ### Demonshard Instinct
 Demonglass holds the essence of a bound fiend. By embedding a demonglass shard in your body, you channel infernal fury. While raging, your melee strikes deal additional fire or void damage. You gain the *Fiendish Retribution* reaction (damaging enemies within 60 ft who harm you or an adjacent ally) and access to feats like *Jealous Mind*, *Overflowing Malice*, and *Aspect of Tyranny*.
+info(
+For more information on the Demonshard Instinct Barbarian, see Frontiers of Eberron: Quickstone (p. 165).
+)
 |
 # Bard ((++Bard))
 The bards of Eberron perform in many different roles: from research to diplomacy, to performance, to espionage. Consider how you might use your powers as a bard to fit into the world. When selecting your muse, keep in mind that many deities may exist only metaphysically. However, this does open your muse to be from any metaphysical concept; as many powers in Eberron are derived from belief rather than a divine source.
 
 ### Muse of Wands
 You treat wandplay as high performance and every combat as a symphony. You gain the *Wandslinger's Flourish* composition cantrip, allowing you to empower cantrips cast from wands while bolstering your allies' defenses.
+info(
+For more information on the Muse of Wands Bard, see Frontiers of Eberron: Quickstone (p. 166).
+)
+
+### College of the Dirge Singer
+Heirs to the Dhakaani *duur'kala* tradition, dirge singers preserve the memory of fallen empires and direct troops with commanding chants.
+- **Composition Cantrip:** *Song of the Iron Will* (Grants allies a +1 status bonus to Will saving throws against mental effects and a +1 status bonus to Athletics checks).
+- **Focus Spell:** *Dirge of the Victorious Blade* (Reaction when an ally critically strikes a foe to deal 2d6 sonic damage in a 10-ft emanation and grant temporary HP).
+info(
+For more information on the Dirge Singer Bard, see Exploring Eberron (p. 70).
+)
 
 # Champion ((++Champion))
 Champions of Eberron are not required to be tied to alignment or deities. If you are playing with the suggested alignment variant, you should feel free to select any alignment rather than the requirements of tenant, deity, or cause. While you must pick just one Tenant and Cause, these are guidelines rather than rules. Similarly, Anathemas and Edicts of your beliefs are guidelines that you should do your best to follow but are not necessary rules. If you are breaking the standards of your Tenant, Edicts, or Cause, think about why this may be the case for your character. Finally, your power can be derived from any metaphysical concept rather than just deities, you need simply to have faith in it. See the cleric entry for how you might build a new faith.
@@ -43,9 +79,28 @@ that you instead put your faith in. It is from this faith that your power is dra
 Commerce clerics revere Kol Korran or the Keeper, recognizing the divine symmetry between spiritual trade and material coin.
 - **Initial Domain Spell:** *Divine Wealth* (Spend or gain conjured divine coins to grant bonuses or penalties to saving throws).
 - **Advanced Domain Spell:** *Divine Bargain* (Magically trade health and metaphysical boons between creatures).
+info(
+For more information on the Commerce Domain Cleric, see Frontiers of Eberron: Quickstone (p. 167).
+)
+
+### Mind Domain
+Mind domain clerics channel the psychic power of mortal thought, revered among the Path of Light, Riedran Path of Inspiration, and psionic cults of Xoriat.
+- **Initial Domain Spell:** *Mental Shielding* (Reaction: +2 status bonus to Will saves; inflicts 2d6 psychic backlash on attackers).
+- **Advanced Domain Spell:** *Thought Projection* (Emanate a calm gestalt field granting allies +1 to mental saves and linking thoughts).
+info(
+For more information on the Mind Domain Cleric, see Exploring Eberron (p. 72).
+)
 
 # Druid ((++Druid))
 There are a number of different sects of druids in Eberron. Druidic orders can be associated with any sect, however many sects have a tendency towards a few orders. The Ashbound may trend towards the Wild order, while the Wardens of the Wood may be Leaf or Animal. Not all druids are part of a sect, so feel free to place yourself in the world with the assistance of your GM.
+
+### Order of the Forged (Circle of the Forged)
+What is truly natural? Druids of the Circle of the Forged explore the living potential of wood, stone, and steel, shape-shifting into construct beasts.
+- **Order Skill:** Crafting
+- **Order Focus Spell:** *Construct Form* (Wild shape into a mechanical or armored beast; gain Construct trait, immunity to bleed and precision damage, and elemental strikes dealing acid, cold, fire, or electricity damage).
+info(
+For more information on the Circle of the Forged Druid, see Exploring Eberron (p. 73).
+)
 
 # Fighters ((++Fighter))
 In the wake of the last war, fighters have no end of potential placement in the world of Eberron. You could be a veteran of the last war, a mercenary for hire, or any other number of possibilities.
@@ -65,6 +120,16 @@ Like fighters, the last war had no end of a need for capable fighters. A magus, 
 # Monk ((++Monk))
 While less common than fighters, monks fit into the world in many different cultures. The Kalashtar of Adra, Goblins of the Dhakanni Empire, and any number of cultures have a place for martial arts. However, monks can fit in anywhere in the world.
 
+### Warrior of the Living Weapon
+Monks of the Living Weapon hone their physical bodies as a smith tempers a blade. Drawing upon warforged, changeling, shifter, and kalashtar traditions, they adopt specialized biomantic and ectoplasmic stances:
+- **Forged Heart Stance:** 1d8 bludgeoning unarmed strikes; critical hits push foes 10 feet.
+- **Nightmare Shroud Stance:** 1d6 mental/unarmed strikes; Deflect Attacks inflicts the frightened condition.
+- **Traveler's Blade Stance:** 1d6 piercing/slashing unarmed strikes with 10-ft reach (bone blades and stretching limbs).
+- **Weretouched Stance:** 1d8 slashing unarmed strikes; dropping a foe grants temporary HP equal to your level.
+info(
+For more information on the Warrior of the Living Weapon Monk, see Exploring Eberron (p. 74).
+)
+
 # Oracle ((++Oracle))
 Oracles don't require modification to fit the setting, but you should consider how and where your mystery came from. With absent gods, you may need to think about other potential sources of your mystery. Perhaps the powers of an old relic, an arcane accident, the spirits of your ancestors, or perhaps it's a mystery!
 
@@ -73,6 +138,9 @@ There are many untamed wilds and lands in Eberron, and the ranger can roam any o
 
 ### Bloodhound Hunter's Edge
 Trained by House Tharashk or the Great Pack of Droaam, you track targets across any distance using ley line resonance. When you Hunt Prey, your tracking ignores range penalties, your first Strike each round deals an additional 1d6 precision damage, and you gain access to feats like *Relentless Pursuit* and *Eyes on the Prize*.
+info(
+For more information on the Bloodhound Ranger, see Frontiers of Eberron: Quickstone (p. 168).
+)
 
 # Rogue ((++Rogue))
 There are a number of criminal elements throughout Khorvaire, and you could be involved in any one of them... or none at all, for every nation has no end for its need for spies and thieves. Rogues fit the setting without any changes.
@@ -82,6 +150,9 @@ Sorcerers draw their power from the magic inherent to their bloodline.
 
 ### Nemesis Bloodline
 Trained for the arcane duel, your bloodline grants you occult or arcane countermagic. You gain the *Spell Deflection* reaction to blunt incoming spell damage, and granted spells focused on dueling (*shield*, *mirror image*, *counterspell*, *resilient sphere*).
+info(
+For more information on the Nemesis Sorcerer Bloodline, see Frontiers of Eberron: Quickstone (p. 169).
+)
 
 # Summoner ((++Summoner))
 Summoners are unique magic users and are more difficult to place in the world of Eberron, though they can still be placed. Consider where your Eidolon has come from, and how others might react to their presence. Is your Divine Eidolon from Irian? Perhaps your Dragon eidolon is an echo of the essence of one
@@ -99,6 +170,9 @@ You commune with the living stone under the patronage of the daelkyr Orlassk, Ki
 - **Patron Theme:** Primal or Occult
 - **Hex Cantrip:** *Gray Gaze* (petrifying glance dealing damage and penalizing Reflex saves)
 - **Hex Spell:** *Form of Stone* (Reaction: calcify your body to absorb damage with Hardness 5 and slip through stone)
+info(
+For more information on the Stone Sovereign Witch Patron, see Frontiers of Eberron: Quickstone (p. 170).
+)
 
 # Wandslingers ((++Wandslinger))
 Wandslingers are wand wielding proud arcane duelists of Eberron. Wandslingers are implemented as a special Way of the Gunslinger class, and Gunslingers, in general, are commonly referred to as Wandslingers in Eberron. See the Gunslinger class entry for more information.

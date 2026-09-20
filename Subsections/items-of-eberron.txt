@@ -3,6 +3,9 @@ head(
 The world of Eberron is built on both arcane and mundane innovation, much of it powered by House Cannith. The following equipment has been developed in Eberron, whether by a specific culture, ancient civilization, or by the research funds of a nation's war machine.
 -
 )
+info(
+For original 5e/5.5e item statistics and lore, see Exploring Eberron (Ch. 5-6), Frontiers of Eberron: Quickstone (Ch. 6), Eberron: Forge of the Artificer (Ch. 3), and Eberron: Rising from the Last War (Ch. 5).
+)
 # Weapons and Armour
 The following weapons and armour are available in Eberron.
 ##### Table 7-1: Armour ((+Armour))
@@ -1100,6 +1103,278 @@ item(
 -
 The spark is a small oval stone engraved with Fernian glyphs.
 **Activate** :a: Interact; **Frequency** Unlimited **Effect** You can light or snuff out a candle, torch, small campfire, or similar source of flame that you touch with the stone.
+)
+
+=
+## Dhakaani Relics & Weapons
+
+item(
+# Breastplate of Kamvuul Norek
+## Item 16
+-
+; Rare, Invested, Magical
+**Usage** worn armor; **Bulk** 1
+
+**Price** 9,500 gp
+-
+This blackened adamantine breastplate was forged in the Empire of Dhakaan for a legendary aberration hunter. It functions as a *+2 greater resilient fortified adamantine breastplate*. Whenever you critically succeed on a Will saving throw against an innate mental effect or mind blast from an aberration, the effect is reflected back at the attacker, forcing the aberration to make a saving throw against its own DC.
+)
+
+item(
+# Ghaal'duur, the Mighty Dirge
+## Item 20
+-
+; Unique, Artifact, Invested, Magical
+**Usage** held in 2 hands; **Bulk** 1
+-
+Carved from the crimson horn of the dragon Jharaashta and banded with Dhakaani adamantine, Ghaal'duur was the warhorn of Jhazaal Dhakaan. When held by an attuned Bard, your spell attack rolls and spell DC gain a +4 item bonus, and the duration of your composition spells is doubled (up to 24 hours).
+**Activate** :aa: Interact; **Frequency** once per hour; **Effect** You sound the warhorn. Allies within 600 feet gain a +1 status bonus to attack rolls and saving throws for 10 minutes (+2 status bonus if goblinoid). Foes within 600 feet must succeed on a DC 44 Will save or take a –1 status penalty to attack rolls and saving throws for 10 minutes (–2 status penalty if goblinoid).
+)
+
+item(
+# Shaarat'doovol, the Blade of Truth
+## Item 17
+-
+; Unique, Invested, Magical
+**Usage** held in 1 hand; **Bulk** 1
+
+**Price** 14,000 gp
+-
+Forged in the molten fires below ancient Sharn to combat the daelkyr Belashyrra, this sentient longsword glows with sacred purpose. It functions as a *+3 greater striking holy longsword*. When you Strike an aberration, it deals an additional 2d8 vitality damage. While wielding the blade, you gain truesight with a range of 60 feet, immunity to the charmed and frightened conditions, and resistance to psychic damage equal to your level.
+)
+
+item(
+# Keeper's Fang
+## Item 8
+-
+; Rare, Invested, Magical
+**Usage** held in 1 hand; **Bulk** L
+
+**Price** 480 gp
+-
+Prized by Dhakaani Shaarat'khesh assassins, this dagger features an embedded Khyber shard in its pommel. It functions as a *+1 striking wounding dagger*. When you reduce a living creature to 0 Hit Points with this weapon, the target's soul is severed and destroyed; the creature can only be returned to life by a 10th-rank *Wish* or miracle.
+)
+
+item(
+# Uul'kur (Dream Key)
+## Item 2
+-
+; Common, Magical
+**Usage** worn; **Bulk** —
+
+**Price** 25 gp
+-
+Crafted by Dhakaani *chot'uul* dream-monks, this iron and Siberys token anchors the wearer's mind to the collective dream. While sleeping with the token on your person, you remain fully lucid and remember every detail of your dreams. You can touch the token to a companion's token to share dreams across any distance on the Material Plane.
+)
+
+item(
+# Vola'khesh
+## Item 2
+-
+; Common, Magical
+**Usage** worn; **Bulk** —
+
+**Price** 30 gp per pair
+-
+Carved stones bound by leather thongs, worn by elite Dhakaani strike squads. When you whisper into your stone, all allies within 120 feet wearing a linked Vola'khesh hear your message clearly, bypassing corners and thin barriers.
+)
+
+|
+## Dragonmark Focus Items
+
+item(
+# Channeling Wand
+## Item 7
+-
+; Rare, Dragonmark, Invested, Magical
+**Usage** held in 1 hand; **Bulk** L
+
+**Price** 360 gp
+-
+Tipped with a cut Siberys shard, this wand is tuned to a specific true dragonmark. While holding it, you can cast spells granted by your dragonmark with enhanced metamagic: expend 1 charge to double the spell's range, or 2 charges to reduce its casting time by 1 action (to a minimum of 1 action). The wand contains 7 charges and regains 1d6+1 charges daily at dawn.
+)
+
+item(
+# Dragonmark Channel
+## Item 3
+-
+; Common, Dragonmark, Invested, Magical
+**Usage** worn brooch; **Bulk** —
+
+**Price** 50 gp
+-
+This brooch allows an heir with a specific dragonmark to cast any 1st-rank spell from their Spells of the Mark list once per day without expending a spell slot.
+)
+
+item(
+# Dragonmark Reservoir
+## Item 5
+-
+; Uncommon, Dragonmark, Invested, Magical
+**Usage** worn amulet; **Bulk** L
+
+**Price** 150 gp
+-
+Holding an embedded Siberys shard, this amulet stores magical reserves tied to your mark. It contains 7 charges. You can cast 1st-rank spells from your Spells of the Mark list for 1 charge, or 2nd-rank spells for 2 charges. It regains 1d6+1 charges daily at dawn.
+)
+
+item(
+# Ghallanda Cauldron
+## Item 1
+-
+; Common, Dragonmark, Magical
+**Usage** held in 2 hands; **Bulk** 2
+
+**Price** 15 gp
+-
+Tuned to the Mark of Hospitality, this rune-carved iron cauldron heats, chills, and perfectly seasons meals. Cooking times are reduced by 90%, and you gain a +1 circumstance bonus to Cooking Lore checks.
+)
+
+item(
+# Helm of the Sentinel
+## Item 9
+-
+; Rare, Dragonmark, Invested, Magical
+**Usage** worn helm; **Bulk** 1
+
+**Price** 650 gp
+-
+Carrying Deneith crests and Siberys shards, this helm has 3 charges. You can expend 1 charge to cast *Protection* or *Shield of Faith*. In addition, you can spend 1 charge to prime a defensive ward: the next time an enemy within 60 feet casts a spell targeting you, you immediately cast *Counterspell* as a reaction using your Wisdom modifier.
+)
+
+item(
+# Manor Key
+## Item 10
+-
+; Rare, Dragonmark, Magical
+**Usage** held in 1 hand; **Bulk** L
+
+**Price** 950 gp
+-
+Requiring the Mark of Hospitality, tracing a door outline in the air with this key casts *Mordenkainen's Magnificent Mansion* once per day, providing luxurious shelter and unseen servants for up to 24 hours.
+)
+
+item(
+# Prospector's Wand
+## Item 4
+-
+; Uncommon, Dragonmark, Invested, Magical
+**Usage** held in 1 hand; **Bulk** L
+
+**Price** 90 gp
+-
+This Y-shaped hazel wand bearing the Mark of Finding has 5 charges. You can expend charges to cast *Locate* or locate specific minerals and dragonshard concentrations within 60 feet.
+)
+
+item(
+# Rod of Wild Dominion
+## Item 8
+-
+; Rare, Dragonmark, Invested, Magical
+**Usage** held in 1 hand; **Bulk** 1
+
+**Price** 480 gp
+-
+Tuned to the Mark of Handling, this polished oak rod grants a +2 circumstance bonus to Nature and Survival checks to handle animals. Once per day, you can cast *Dominate* (targeting only animals) with an extended duration of up to 1 hour.
+)
+
+=
+## Daelkyr Symbionts
+
+item(
+# Crawling Gauntlet
+## Item 3
+-
+; Uncommon, Invested, Magical, Symbiont
+**Usage** worn forearm; **Bulk** L
+
+**Price** 55 gp
+-
+Flesh-crafted from alien sinew, this gauntlet fuses with your forearm. Your unarmed strikes can slash with chitin talons dealing 1d6 slashing damage with agile and finesse traits. You can cast *Mage Hand* at will as an innate occult cantrip, projecting an ectoplasmic duplicate of your gauntlet.
+)
+
+item(
+# Coat of Many Eyes
+## Item 6
+-
+; Rare, Invested, Magical, Symbiont
+**Usage** worn armor (leather); **Bulk** 1
+
+**Price** 240 gp
+-
+Bred by Belashyrra, this warm leather coat is covered in constantly blinking eyeballs. You gain darkvision 120 feet, all-around vision (preventing you from being flanked by creatures of your level or lower), and a +1 item bonus to Perception checks involving sight.
+)
+
+item(
+# Hungry Weapon
+## Item 4
+-
+; Uncommon, Invested, Magical, Symbiont
+**Usage** held weapon; **Bulk** 1
+
+**Price** 90 gp
+-
+Formed of muscle, bone, and grasping tendon, this weapon moans in combat and burrows tendrils into your hand. When you hit a living creature, you can expend 1 hit die to deal an additional 1d8 void damage, regaining an equal number of Hit Points.
+)
+
+item(
+# Shadow Sibling
+## Item 7
+-
+; Rare, Invested, Magical, Symbiont
+**Usage** attached to forehead; **Bulk** —
+
+**Price** 340 gp
+-
+A glossy black gem-like parasite crafted by Dyrrn that embeds in your forehead. As a single action, you exude an ectoplasmic shadow shroud granting you concealment for 1 minute. When struck by an attack, you can use a reaction to gain a +2 circumstance bonus to AC against the triggering attack.
+)
+
+item(
+# Spellburrow
+## Item 5
+-
+; Uncommon, Invested, Magical, Symbiont
+**Usage** burrowed in skull; **Bulk** —
+
+**Price** 160 gp
+-
+An iridescent scarab bred by Valaara that burrows beneath the skull. The creature's alien intellect grants you one innate cantrip, one 1st-rank spell, and one 2nd-rank spell drawn from the occult or arcane spell list.
+)
+
+item(
+# Throwing Scarab
+## Item 4
+-
+; Uncommon, Invested, Magical, Symbiont
+**Usage** fused into palm; **Bulk** —
+
+**Price** 85 gp
+-
+An organic node in your palm that extrudes razor-sharp chitin shards into your hand as a free action. The shards function as +1 striking thrown darts dealing 1d4 piercing damage plus 1d4 acid damage with a range increment of 20 feet.
+)
+
+item(
+# Tongueworm
+## Item 5
+-
+; Uncommon, Invested, Magical, Symbiont
+**Usage** attached under tongue; **Bulk** —
+
+**Price** 140 gp
+-
+A barbed, muscular worm coiled beneath your tongue. You can make an agile unarmed Strike with the worm dealing 1d4 piercing damage plus 1d6 poison damage; on a critical hit, the target is clumsy 1 for 1 round.
+)
+
+item(
+# Wandering Eye
+## Item 3
+-
+; Uncommon, Invested, Magical, Symbiont
+**Usage** burrowed in shoulder; **Bulk** —
+
+**Price** 60 gp
+-
+A leathery eyestalk protruding 18 inches from your shoulder. It remains awake while you sleep, granting you your full Perception DC against ambushes. You can extend it around corners and over walls to peer into danger without exposing your body.
 )
 |
 =

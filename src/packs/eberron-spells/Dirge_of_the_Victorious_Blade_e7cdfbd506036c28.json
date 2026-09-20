@@ -1,0 +1,89 @@
+{
+  "_id": "e7cdfbd506036c28",
+  "name": "Dirge of the Victorious Blade",
+  "type": "spell",
+  "img": "systems/pf2e/icons/spells/dirge-of-the-victorious-blade.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "source": {
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "rules": [],
+    "slug": "dirge-of-the-victorious-blade",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "traits": {
+      "value": [
+        "bard",
+        "composition",
+        "focus",
+        "sonic"
+      ],
+      "rarity": "uncommon",
+      "custom": ""
+    },
+    "description": {
+      "value": "<p><strong>Trigger:</strong> An ally within 30 feet critically hits an enemy with a weapon strike.</p><p>You punctuate the blow with a resonant dirge. The struck foe and adjacent enemies take 2d6 sonic damage (basic Fortitude save). The triggering ally gains temporary Hit Points equal to your Charisma modifier for 1 minute.</p><p><strong>Heightened (+1):</strong> Damage increases by 1d6.</p>"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": {
+      "value": "focus"
+    },
+    "spellType": {
+      "value": "save"
+    },
+    "defense": {
+      "save": {
+        "statistic": "fortitude",
+        "basic": true
+      }
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "time": {
+      "value": "reaction"
+    },
+    "damage": {
+      "0": {
+        "formula": "2d6",
+        "type": "sonic"
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1726848000000,
+    "modifiedTime": 1726848000000,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!e7cdfbd506036c28"
+}

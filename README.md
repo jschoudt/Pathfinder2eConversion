@@ -25,7 +25,40 @@ The Pathbuilder JSON is available for personal use by adding the JSON from the `
 > **Project Status (Alpha) & Mechanical Disclaimer:**  
 > The current content is considered **Alpha**, and a large portion of it is AI-generated. While it has been lightly reviewed, it has not been deeply reviewed for mechanics, playability, or fine balance. We actively encourage GM discretion, playtesting, and community feedback via [GitHub Issues](https://github.com/jschoudt/Pathfinder2eConversion/issues) or [Discussions](https://github.com/jschoudt/Pathfinder2eConversion/discussions)!
 
-The Pathfinder's guide to Eberron is a homebrew conversion of the Pathfinder 2e mechanics to support the world and Lore of Eberron. It would be prohibitive to provide all of the lore that Eberron has developed over the years - and any lore provided by this guide would be poorly repeated imitations of better summaries. This guide uses the following books as references and will provide page numbers to learn more. [D&D 3 Eberron Campaign Setting](https://www.dmsguild.com/product/28474/Eberron-Campaign-Setting-3e) by Keith Baker, [Exploring Eberron](https://www.dmsguild.com/product/315887/Exploring-Eberron) by Keith Baker, and the [Eberronicon](https://www.dmsguild.com/product/297249/Eberronicon-A-Pocket-Guide-to-the-World). All of these are available for purchase on the [Dungeon Masters Guild](https://www.dmsguild.com/) and provide all of the background information you might need to run the world of Eberron.
+The Pathfinder's Guide to Eberron is a community conversion of Pathfinder 2e Remaster mechanics designed to support the rich world and lore of Eberron. Because providing full setting lore would be prohibitive and derivative of official works, this conversion focuses strictly on original Pathfinder 2e mechanics, providing page numbers, citations, and links to official and third-party sourcebooks for comprehensive lore.
+
+### Sources & Reference Material
+
+This conversion draws from the following foundational and 2024 / 5.5e sourcebooks. We strongly encourage players and Game Masters to support the creators and purchase the sourcebooks:
+
+#### 2024 / 5.5e Partner Content & KB Presents
+* **[Eberron: Forge of the Artificer (2024 / 5.5e)](https://www.dndbeyond.com/marketplace/sourcebooks/eberron-forge-of-the-artificer)** by Keith Baker, Wayne Chang, and Laura Hirsbrunner  
+  *Compendium:* [D&D Beyond](https://www.dndbeyond.com/marketplace/sourcebooks/eberron-forge-of-the-artificer) | [DMs Guild](https://www.dmsguild.com/product/498308/Forge-of-the-Artificer)  
+  *Material Adapted:* Cartographer specialist and expanded Artificer innovations, new infusions, elemental airship options, and magewright equipment.
+* **[Exploring Eberron (2024 / 5.5e Update)](https://www.dndbeyond.com/marketplace/sourcebooks/exploring-eberron)** by Keith Baker  
+  *Compendium:* [D&D Beyond](https://www.dndbeyond.com/marketplace/sourcebooks/exploring-eberron) | [DMs Guild](https://www.dmsguild.com/product/315887/Exploring-Eberron)  
+  *Material Adapted:* Sahuagin ancestry & heritages, Kalamer Landwalker (Merfolk) ancestry, Ruinbound versatile heritage, Dhakaani Kech heritages (Ghaal'dar, Golin'dar, Jhorgun'taal), Mind Domain cleric, Circle of the Forged druid, Forge Adept & Maverick inventor innovations, College of the Dirge Singer bard, Warrior of the Living Weapon monk, origin feats, monk stances, 7 level-20 capstone feats, spells (*Concussive Burst*, *Mental Shielding*, etc.), symbionts, and Dhakaani relics.
+* **[Frontiers of Eberron: Quickstone (2024 / 5.5e)](https://www.dndbeyond.com/marketplace/sourcebooks/frontiers-of-eberron-quickstone)** by Keith Baker, Imogen Gingell, and Colin Kawakami  
+  *Compendium:* [D&D Beyond](https://www.dndbeyond.com/marketplace/sourcebooks/frontiers-of-eberron-quickstone) | [DMs Guild](https://www.dmsguild.com/product/468819/Frontiers-of-Eberron-Quickstone)  
+  *Material Adapted:* Gargoyle, Harpy, Medusa, and Worg playable ancestries & heritages, Western Frontier backgrounds, Droaam planar lineages, druidic circle initiate feats, wandslinger style feats, and primal spells (*Absorb Elements*, *Earth Tremor*, *Earthbind*, *Mold Earth*, etc.).
+* **[Chronicles of Eberron](https://www.dndbeyond.com/marketplace/sourcebooks/chronicles-of-eberron)** by Keith Baker  
+  *Compendium:* [D&D Beyond](https://www.dndbeyond.com/marketplace/sourcebooks/chronicles-of-eberron) | [DMs Guild](https://www.dmsguild.com/product/415474/Chronicles-of-Eberron)  
+  *Material Adapted:* Noble lineages, faith deep dives, and planar cosmology nuances.
+
+#### Official Wizards of the Coast Rulebooks
+* **[D&D 3.5 Eberron Campaign Setting](https://www.dmsguild.com/product/28474/Eberron-Campaign-Setting-3e)** by Keith Baker, Bill Slavicsek, and James Wyatt  
+  *Material Adapted:* Foundational world lore, dragonmarks, core ancestries (Warforged, Kalashtar, Shifter, Changeling), nations, factions, and dragonmarked houses.
+* **[D&D 3.5 Player's Guide to Eberron](https://www.dmsguild.com/product/28713/Players-Guide-to-Eberron-35)** by James Wyatt, Luke Johnson, and Stan!  
+  *Material Adapted:* Expanded character background options, regional feats, and guild dynamics.
+* **[D&D 5e Eberron: Rising from the Last War](https://www.dndbeyond.com/sources/dnd/erftlw)** by Jeremy Crawford, James Wyatt, and Keith Baker  
+  *Compendium:* [D&D Beyond](https://www.dndbeyond.com/sources/dnd/erftlw) | [DMs Guild](https://www.dmsguild.com/product/294943/Eberron-Rising-from-the-Last-War-5e)  
+  *Material Adapted:* 5e baseline mechanics, modern patron factions, and dragonmark spell tables.
+* **[D&D 5e Wayfinder's Guide to Eberron](https://www.dmsguild.com/product/247882/Wayfinders-Guide-to-Eberron-5e)** by Keith Baker  
+  *Material Adapted:* Early 5e setting adaptations and house agent mechanics.
+
+#### Community Reference Guides
+* **[Eberronicon: A Pocket Guide to the World](https://www.dmsguild.com/product/297249/Eberronicon-A-Pocket-Guide-to-the-World)** by Joseph Meehan and Laura Hirsbrunner  
+  *Material Adapted:* Master index of lore topics, quick-reference cross-citations, and setting summaries.
 
 ## Why Pathfinder 2e?
 Pathfinder 2e's levelling system supports the pulp action of Eberron well. At low levels, your adventurers will fight against threats to towns or cities, while at high levels these become trivial and adventurers' will be called on to fight one or more of the threats to nations or even the entire world.

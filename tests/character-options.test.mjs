@@ -39,8 +39,8 @@ describe('Character Options: Ancestries, Heritages & Backgrounds Integration', (
   }
 
   describe('Ancestries Integration', () => {
-    it('should find all 9 Eberron ancestries', () => {
-      expect(ancestryMap.size).toBe(9);
+    it('should find all 11 Eberron ancestries', () => {
+      expect(ancestryMap.size).toBe(11);
       expect(ancestryMap.has('Warforged')).toBe(true);
       expect(ancestryMap.has('Kalashtar')).toBe(true);
       expect(ancestryMap.has('Shifter')).toBe(true);
@@ -50,6 +50,8 @@ describe('Character Options: Ancestries, Heritages & Backgrounds Integration', (
       expect(ancestryMap.has('Harpy')).toBe(true);
       expect(ancestryMap.has('Medusa')).toBe(true);
       expect(ancestryMap.has('Worg')).toBe(true);
+      expect(ancestryMap.has('Sahuagin')).toBe(true);
+      expect(ancestryMap.has('Kalamer Landwalker')).toBe(true);
     });
 
     it('should cleanly instantiate each ancestry on a character actor and validate all granted items', () => {

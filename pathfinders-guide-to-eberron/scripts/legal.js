@@ -42,6 +42,18 @@ Hooks.once('ready', async () => {
       <p><em>Pathfinder's Guide to Eberron</em> uses trademarks and/or copyrights owned by Paizo Inc., used under Paizo's Community Use Policy (<a href="https://paizo.com/communityuse" target="_blank">paizo.com/communityuse</a>). We are expressly prohibited from charging you to use or access this content. <em>Pathfinder's Guide to Eberron</em> is not published, endorsed, or specifically approved by Paizo. For more information about Paizo Inc. and Paizo products, visit <a href="https://paizo.com" target="_blank">paizo.com</a>.</p>
 
       <hr/>
+      <h3>Source Materials & Reference Links</h3>
+      <p>This conversion references and adapts mechanics inspired by:</p>
+      <ul>
+        <li><b>Exploring Eberron (2024 / 5.5e):</b> <a href="https://www.dndbeyond.com/marketplace/sourcebooks/exploring-eberron" target="_blank">D&D Beyond</a> | <a href="https://www.dmsguild.com/product/315887/Exploring-Eberron" target="_blank">DMs Guild</a></li>
+        <li><b>Frontiers of Eberron: Quickstone (2024 / 5.5e):</b> <a href="https://www.dndbeyond.com/marketplace/sourcebooks/frontiers-of-eberron-quickstone" target="_blank">D&D Beyond</a> | <a href="https://www.dmsguild.com/product/468819/Frontiers-of-Eberron-Quickstone" target="_blank">DMs Guild</a></li>
+        <li><b>Eberron: Forge of the Artificer (2024 / 5.5e):</b> <a href="https://www.dndbeyond.com/marketplace/sourcebooks/eberron-forge-of-the-artificer" target="_blank">D&D Beyond</a> | <a href="https://www.dmsguild.com/product/498308/Forge-of-the-Artificer" target="_blank">DMs Guild</a></li>
+        <li><b>Eberron: Rising from the Last War (5e):</b> <a href="https://www.dndbeyond.com/sources/dnd/erftlw" target="_blank">D&D Beyond</a> | <a href="https://www.dmsguild.com/product/294943/Eberron-Rising-from-the-Last-War-5e" target="_blank">DMs Guild</a></li>
+        <li><b>Eberron Campaign Setting (3.5e):</b> <a href="https://www.dmsguild.com/product/28474/Eberron-Campaign-Setting-3e" target="_blank">DMs Guild</a></li>
+        <li><b>The Eberronicon:</b> <a href="https://www.dmsguild.com/product/297249/Eberronicon-A-Pocket-Guide-to-the-World" target="_blank">DMs Guild</a></li>
+      </ul>
+
+      <hr/>
       <h3>AI Assistance & Transparency Disclosure</h3>
       <p><b>Alpha Notice:</b> The current content is considered <b>Alpha</b>; a large portion of it is AI-generated. While it has been lightly reviewed, it has not been deeply reviewed for mechanics, playability, etc.</p>
       <p>Artificial intelligence tools (such as large language models) assist in the maintenance and development of this conversion project:</p>

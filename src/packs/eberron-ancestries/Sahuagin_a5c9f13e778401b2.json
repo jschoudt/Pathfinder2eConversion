@@ -1,0 +1,107 @@
+{
+  "_id": "a5c9f13e778401b2",
+  "name": "Sahuagin",
+  "type": "ancestry",
+  "img": "systems/pf2e/icons/default-icons/ancestry.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "source": {
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "rules": [],
+    "slug": "sahuagin",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "traits": {
+      "value": [
+        "humanoid",
+        "amphibious",
+        "sahuagin"
+      ],
+      "rarity": "uncommon",
+      "custom": ""
+    },
+    "description": {
+      "value": "<p><em>Spawned in the oceanic trenches of the Thunder Sea, the sahuagin are masters of the Eternal Dominion, possessing shark-like predatory instincts, armored scales, and webbed claws.</em></p>\n<hr />\n<h2>You might…</h2>\n<ul>\n<li>View land-dwellers with curious bewilderment, pitying their inability to perceive currents or swim three-dimensionally.</li>\n<li>Channel instinctual predatory focus when the scent of blood enters the water or air.</li>\n<li>Honor the Devourer as the primordial lord of storms, reefs, and oceanic fury.</li>\n</ul>\n<h2>Others Probably…</h2>\n<ul>\n<li>Fear your predatory gaze, sharp teeth, and fearsome reputation as a monster of the depths.</li>\n<li>Rely on your aquatic speed, underwater breathing, and peerless tracking to navigate coastal and oceanic hazards.</li>\n<li>Expect you to be superstitious or wary of prolonged time away from fresh or salt water.</li>\n</ul>"
+    },
+    "hp": 8,
+    "size": "med",
+    "reach": 5,
+    "speed": 25,
+    "boosts": {
+      "0": {
+        "value": [
+          "str"
+        ]
+      },
+      "1": {
+        "value": [
+          "con"
+        ]
+      },
+      "2": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      }
+    },
+    "flaws": {
+      "0": {
+        "value": [
+          "cha"
+        ]
+      }
+    },
+    "languages": {
+      "value": [
+        "common"
+      ],
+      "custom": "Sahuagin, Aquan"
+    },
+    "additionalLanguages": {
+      "value": [],
+      "count": 1,
+      "custom": ""
+    },
+    "items": {},
+    "vision": "darkvision"
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1726848000000,
+    "modifiedTime": 1726848000000,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!a5c9f13e778401b2"
+}

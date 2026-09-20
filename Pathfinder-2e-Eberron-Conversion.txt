@@ -96,24 +96,30 @@ Eberron is a pulp-action world where morality is a shade of grey, but the call t
 info(
 #### Recommended Source Material
 -
-## D&D 3 Eberron Campaign Setting
-The Eberron Campaign Setting (ECS) is the book that started it all. Released in 2005, this is the primary source of mechanics and lore added in this guide. It provides a detailed description of the world, mechanics, and lore.
+## D&D 3.5 Eberron Campaign Setting
+The Eberron Campaign Setting (ECS) is the book that started it all. Released in 2005, this is the foundational source of setting lore, dragonmarks, and core ancestries.
 -
-## D&D 5 Eberron: Rising from the Last War
-The most recent version of the Eberron setting, this book provides additional detailed descriptions of the world, mechanics, and lore.
+## D&D 5e Eberron: Rising from the Last War
+Official 5th edition campaign setting book providing comprehensive gazetteers, patron organizations, and modern setting presentation.
+-
+## Eberron: Forge of the Artificer (2024 / 5.5e)
+Available on [D&D Beyond](https://www.dndbeyond.com/marketplace/sourcebooks/eberron-forge-of-the-artificer) and [DMs Guild](https://www.dmsguild.com/product/498308/Forge-of-the-Artificer). Expands the Artificer class with new specialists (such as the Cartographer), infusions, elemental airship options, and magewright innovations.
 )
 info(
 #### Recommended Source Material
 -
-## Exploring Eberron
-Exploring Eberron (EE) independent book developed by Keith Baker focused on the D&D 5e system. Exploring Eberron explores in depth much of the world that never made the cut for official books.
+## Exploring Eberron (2024 / 5.5e Update)
+Available on [D&D Beyond](https://www.dndbeyond.com/marketplace/sourcebooks/exploring-eberron) and [DMs Guild](https://www.dmsguild.com/product/315887/Exploring-Eberron). Keith Baker's deep dive into the Thunder Sea, Kar'lassa, Dhakaani Kechs, Mind Domain, Circle of the Forged, Forge Adept & Maverick innovations, and living symbionts.
 -
-## Eberronicon
-The Eberronicon - A Pocket Guide to the World (EPG) is a community project that provides a high-level summary of the world of Eberron and all of the lore to date.
+## Frontiers of Eberron: Quickstone (2024 / 5.5e)
+Available on [D&D Beyond](https://www.dndbeyond.com/marketplace/sourcebooks/frontiers-of-eberron-quickstone) and [DMs Guild](https://www.dmsguild.com/product/468819/Frontiers-of-Eberron-Quickstone). Explores the western frontier town of Quickstone on the Breland-Droaam border with playable Gargoyles, Harpies, Medusas, Worgs, and frontier backgrounds.
+-
+## The Eberronicon
+The [Eberronicon](https://www.dmsguild.com/product/297249/Eberronicon-A-Pocket-Guide-to-the-World) is a community reference guide providing a master index and summaries across all editions.
 )
 |
 # Pathfinders' Guide to Eberron ((+Pathfinders' Guide to Eberron))
-The Pathfinder's guide to Eberron provides Pathfinder 2e mechanics to support the gameplay of Eberron. It does not provide the lore or information required to run the Eberron setting. This guide suggests the following books as references [D&D 3 Eberron Campaign Setting](https://www.dmsguild.com/product/28474/Eberron-Campaign-Setting-3e) by Keith Baker, [D&D 5e Eberron: Rising from the Last War](https://www.dndbeyond.com/sources/erftlw) by Keith Baker, [Exploring Eberron](https://www.dmsguild.com/product/315887/Exploring-Eberron) by Keith Baker, and the [Eberronicon](https://www.dmsguild.com/product/297249/Eberronicon-A-Pocket-Guide-to-the-World). All of these are available for purchase on the [Dungeon Masters Guild](https://www.dmsguild.com/) and provide all of the background information you might need to run the world of Eberron.
+The Pathfinder's Guide to Eberron provides Pathfinder 2e Remaster mechanics to support the rich gameplay of Eberron. It does not provide the lore or setting background required to run the world. This guide suggests the following books as references: [D&D 3.5 Eberron Campaign Setting](https://www.dmsguild.com/product/28474/Eberron-Campaign-Setting-3e), [D&D 5e Eberron: Rising from the Last War](https://www.dndbeyond.com/sources/dnd/erftlw), [Exploring Eberron (2024)](https://www.dndbeyond.com/marketplace/sourcebooks/exploring-eberron), [Frontiers of Eberron: Quickstone (2024)](https://www.dndbeyond.com/marketplace/sourcebooks/frontiers-of-eberron-quickstone), [Eberron: Forge of the Artificer (2024)](https://www.dndbeyond.com/marketplace/sourcebooks/eberron-forge-of-the-artificer), and the [Eberronicon](https://www.dmsguild.com/product/297249/Eberronicon-A-Pocket-Guide-to-the-World). All of these provide the background lore and inspiration you need to run Eberron.
 
 ## Using this guide
 This guide aims to be as balanced and interesting as possible while using the pathfinder 2e base rules. If something seems too good - or too bad - to be true, it likely is. Work with your GM to figure out a better solution, and if possible submit a question to the [Github](https://github.com/jschoudt/Pathfinder2eConversion/issues) for clarification or correction. All Uncommon and Rare traits should _always_ be verified with your GM.

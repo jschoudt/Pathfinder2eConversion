@@ -706,7 +706,12 @@ describe('Ancestries & Heritages: Bestowed Feats, Items, Bonuses, and Traits', (
         'gargoyle',
         'harpy',
         'medusa',
-        'worg'
+        'worg',
+        'elf',
+        'dhakaani',
+        'sahuagin',
+        'merfolk',
+        'ruinbound'
       ]);
 
       for (const feat of ancestryFeats) {

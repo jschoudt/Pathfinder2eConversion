@@ -1,0 +1,96 @@
+{
+  "_id": "66dd77ee88ff99aa",
+  "name": "Coat of Many Eyes",
+  "type": "armor",
+  "img": "systems/pf2e/icons/default-icons/equipment.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "source": {
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "rules": [],
+    "slug": "coat-of-many-eyes",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "traits": {
+      "value": [
+        "magical"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "description": {
+      "value": "<p>Warm leather armor covered in blinking eyes bred by Belashyrra. Grants darkvision 120 ft, all-around vision, and +1 item bonus to sight Perception.</p>"
+    },
+    "level": {
+      "value": 6
+    },
+    "quantity": 1,
+    "weight": {
+      "value": "1"
+    },
+    "price": {
+      "value": {
+        "gp": 240
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": true,
+      "handsHeld": 0
+    },
+    "size": "med",
+    "identification": {
+      "status": "identified"
+    },
+    "category": "light",
+    "group": "leather",
+    "armor": {
+      "value": 1
+    },
+    "strength": 10,
+    "dex": {
+      "value": 4
+    },
+    "check": {
+      "value": 0
+    },
+    "speed": {
+      "value": 0
+    },
+    "baseItem": "leather-armor"
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1726848000000,
+    "modifiedTime": 1726848000000,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!66dd77ee88ff99aa"
+}

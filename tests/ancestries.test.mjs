@@ -52,6 +52,20 @@ describe('Eberron Ancestries & Heritages Specifications', () => {
       expectedSpeed: 25,
       requiredTraits: ['humanoid', 'bugbear'],
       expectedSize: 'med'
+    },
+    {
+      name: 'Sahuagin',
+      expectedHp: 8,
+      expectedSpeed: 25,
+      requiredTraits: ['humanoid', 'sahuagin'],
+      expectedSize: 'med'
+    },
+    {
+      name: 'Kalamer Landwalker',
+      expectedHp: 8,
+      expectedSpeed: 25,
+      requiredTraits: ['humanoid', 'merfolk'],
+      expectedSize: 'med'
     }
   ];
 

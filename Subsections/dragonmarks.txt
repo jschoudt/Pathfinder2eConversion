@@ -2163,3 +2163,116 @@ When building the Heightened Rank list, spells should be placed at the heightene
 9 | "All is One, One is All", Earthquake, Finger of Death, Possession, Volcanic Eruption
 10 | Massacre, Meteor Swarm, Nature's Enmity, Power Word Kill, Storm of Vengeance
 )
+
+|
+# Siberys Dragonmarks ((++Siberys Dragonmarks))
+The Siberys Dragonmark is a massive, sprawling manifestation of the Draconic Prophecy that blankets a bearer's torso or limbs. Far beyond ordinary or greater marks, a Siberys mark represents a world-shaking destiny. In Pathfinder 2e, Siberys Dragonmarks are Level 17 Apex Feats available to legendary heirs.
+
+item(
+# Siberys Mark of Detection
+## Feat 17
+-
+; Apex, Dragonmark, Rare
+**Prerequisites** Mark of Detection
+You gain a +2 circumstance bonus to Perception and Investigation checks. You can cast 8th-rank *True Seeing* once per day as an innate occult spell.
+)
+
+item(
+# Siberys Mark of Finding
+## Feat 17
+-
+; Apex, Dragonmark, Rare
+**Prerequisites** Mark of Finding
+You gain a +2 circumstance bonus to Survival checks to Track. You can cast *Find the Path* and *Commune with Nature* each once per day as innate primal spells.
+)
+
+item(
+# Siberys Mark of Handling
+## Feat 17
+-
+; Apex, Dragonmark, Rare
+**Prerequisites** Mark of Handling
+You gain a +2 circumstance bonus to Nature checks. You can cast 7th-rank *Dominate* (targeting animals) once per day as an innate primal spell, with a duration of up to 8 hours.
+)
+
+item(
+# Siberys Mark of Healing
+## Feat 17
+-
+; Apex, Dragonmark, Rare
+**Prerequisites** Mark of Healing
+You gain a +2 circumstance bonus to Medicine checks. You can cast 9th-rank *Heal* once per day as an innate divine spell.
+)
+
+item(
+# Siberys Mark of Hospitality
+## Feat 17
+-
+; Apex, Dragonmark, Rare
+**Prerequisites** Mark of Hospitality
+You gain a +2 circumstance bonus to Diplomacy checks. You can cast 7th-rank *Mordenkainen's Magnificent Mansion* once per day as an innate arcane spell.
+)
+
+item(
+# Siberys Mark of Making
+## Feat 17
+-
+; Apex, Dragonmark, Rare
+**Prerequisites** Mark of Making
+You gain a +2 circumstance bonus to Crafting checks. You can cast 7th-rank *Fabricate* and *Create Homunculus* each once per day as innate arcane spells.
+)
+
+item(
+# Siberys Mark of Passage
+## Feat 17
+-
+; Apex, Dragonmark, Rare
+**Prerequisites** Mark of Passage
+You gain a +10-foot status bonus to your Speeds. You can cast 7th-rank *Teleport* once per day as an innate arcane spell.
+)
+
+item(
+# Siberys Mark of Scribing
+## Feat 17
+-
+; Apex, Dragonmark, Rare
+**Prerequisites** Mark of Scribing
+You gain a +2 circumstance bonus to Society and Decipher Writing checks. You can cast 7th-rank *Symbol* once per day as an innate occult spell.
+)
+
+item(
+# Siberys Mark of Sentinel
+## Feat 17
+-
+; Apex, Dragonmark, Rare
+**Prerequisites** Mark of Sentinel
+You gain a +2 circumstance bonus to Perception checks for initiative. You can cast 7th-rank *Globe of Invulnerability* once per day as an innate divine spell.
+)
+
+item(
+# Siberys Mark of Shadow
+## Feat 17
+-
+; Apex, Dragonmark, Rare
+**Prerequisites** Mark of Shadow
+You gain a +2 circumstance bonus to Stealth checks. You can cast 7th-rank *Project Image* once per day as an innate occult spell.
+)
+
+item(
+# Siberys Mark of Storm
+## Feat 17
+-
+; Apex, Dragonmark, Rare
+**Prerequisites** Mark of Storm
+You gain a fly Speed equal to your land Speed. You can cast 8th-rank *Control Weather* once per day as an innate primal spell.
+)
+
+item(
+# Siberys Mark of Warding
+## Feat 17
+-
+; Apex, Dragonmark, Rare
+**Prerequisites** Mark of Warding
+You gain a +2 circumstance bonus to Thievery checks to Disable a Device. You can cast 7th-rank *Forbiddance* once per day as an innate divine spell.
+)
+=

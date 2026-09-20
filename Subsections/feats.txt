@@ -157,3 +157,118 @@ item(
 -
 You treat wands as martial ranged weapons. You gain a +1 circumstance bonus to spell attack rolls when casting attack cantrips through a wand, and your spell DC with wand spells increases by 1.
 )
+
+=
+## Origin Feats ((+Origin Feats))
+These feats represent early cultural or biological specialization. With GM approval, they can replace the origin feat granted by your background.
+info(
+For more information on Origin Feats in 2024 / 5.5e, see Exploring Eberron (p. 30-33, 41-45).
+)
+
+item(
+# Aereni Expertise
+## Feat 1
+-
+; Elf, Origin
+Growing up in the deathless sanctuaries of Aerenal, you spent decades perfecting a singular craft. You become trained in a skill of your choice (or expert if already trained), and gain a +1 circumstance bonus to checks with that skill.
+)
+
+item(
+# Aquatic Adaptation
+## Feat 1
+-
+; General, Origin
+You are biologically or magically adapted to underwater life. You gain the amphibious trait, allowing you to breathe both water and air. You gain a swim Speed equal to your land Speed (minimum 25 feet) and the Underwater Marauder skill feat.
+)
+
+item(
+# Envoy Specialist
+## Feat 1
+-
+; Origin, Warforged
+You were engineered for non-combat diplomatic, medical, or administrative utility. You have an artisan's tool or kit integrated directly into your chassis. As long as you have a hand free, you can utilize this tool, and you gain a +1 circumstance bonus to checks using it.
+)
+
+item(
+# Khesh'dar Training
+## Feat 1
+-
+; Goblinoid, Origin
+Trained in the silent folds of the Dhakaani Silent Folk, you fade into shadows with supernatural poise. You become trained in Stealth (expert at level 5). When you take the Hide action, the DC to spot you is increased by 2 for observers.
+)
+
+item(
+# Focused Personas
+## Feat 1
+-
+; Changeling, Origin
+You cultivate two distinct, detailed identities. Whenever you assume one of these personas, you gain a +1 circumstance bonus to Deception and associated Lore checks, and you become fluent in Skin Cant.
+)
+
+item(
+# Thoughtsinger
+## Feat 1
+-
+; Kalashtar, Origin
+Your psionic presence links minds like a choral symphony. Your telepathic link extends to 120 feet, and you can link multiple willing companions simultaneously. You can use the Aid reaction to assist linked allies in combat even if you are not adjacent to them.
+)
+
+item(
+# Uul Dhakaan
+## Feat 1
+-
+; Goblinoid, Origin
+You are attuned to the collective dream of Dhakaan (*the Uul*). You remain lucid while dreaming, receive cryptic guidance during daily preparations, and gain resistance to psychic damage equal to half your level (minimum 1).
+)
+
+|
+## Eberron Species Feats ((+Species Feats))
+info(
+For more information on the species feats and racial lore in 2024 / 5.5e, see Exploring Eberron (Ch. 1-2).
+)
+
+item(
+# Aereni Half-Life
+## Feat 5
+-
+; Elf
+**Prerequisites** Aereni elf
+Rituals binding you to Irian and the Undying Court give your flesh a desiccated, mummy-like endurance. You gain a +2 circumstance bonus to saving throws against death effects, and gain resistance to void damage equal to half your level. Whenever you cast a spell dealing void damage, you can choose to deal vitality damage instead.
+)
+
+item(
+# Changeling Metamorphosis
+## Feat 5
+-
+; Changeling
+**Prerequisites** Eberron Changeling
+Your shapeshifting mastery alters your deeper physiology. When you Shift Shape, you can adopt an additional biological mutation: gills and webbed digits (gaining a swim Speed equal to your land Speed), darkvision, or natural claws and fangs dealing 1d6 damage with the agile and finesse traits.
+)
+
+item(
+# Juggernaut Plating
+## Feat 5
+-
+; Warforged
+Your composite armor plates are reinforced with adamantine alloys. Armor you wear cannot be targeted, broken, or heated by spells like *Heat Metal* against your will. In addition, when an enemy scores a critical hit against you with a physical strike, you gain resistance to the extra critical damage equal to your Constitution modifier.
+)
+
+item(
+# Quori Bond
+## Feat 5
+-
+; Kalashtar
+You forge a profound resonance with your lineage's quori spirit:
+- **Du'ulora (Fury):** Trained in Intimidation; cast *Fear* once per day as an innate occult spell.
+- **Hashalaq (Lore):** Trained in Persuasion; cast *Suggestion* once per day as an innate occult spell.
+- **Kalaraq (Command):** Trained in Perception; cast *Mind Spike* once per day as an innate occult spell.
+- **Tsucora (Terror):** Trained in Intimidation; cast *Dissonant Whispers* (dealing psychic damage) once per day as an innate occult spell.
+)
+
+item(
+# Superior Shifting
+## Feat 5
+-
+; Shifter
+Your connection to the beast within surges with primal vigor. Your shift transformation lasts for 10 minutes (instead of 1 minute), and you can Shift an additional time per day.
+)

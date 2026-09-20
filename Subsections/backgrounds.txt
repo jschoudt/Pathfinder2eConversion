@@ -141,3 +141,36 @@ Choose two ability boosts. One must be to **Charisma** or **Intelligence**; and 
 
 You're trained in **Diplomacy** and **Droaam Lore**. You gain the **Hobnobber** skill feat.
 )
+=
+item(
+# Changeling Traveler ((+Changeling Traveler))
+## Background
+-
+You are an urban nomad, wandering from city to city across Khorvaire. You spent your youth traveling with a close-knit changeling family or clan, shifting identities to evade discovery and survive in human settlements.
+
+Choose two ability boosts. One must be to **Dexterity** or **Charisma**; and one is a free ability boost.
+
+You're trained in **Deception** and **Underworld Lore**. You gain the **Lie to Me** skill feat. You have access to the **Focused Personas** feat.
+)
+item(
+# Dhakaani Goblinoid ((+Dhakaani Goblinoid))
+## Background
+-
+You were raised inside the hidden subterranean vault of a Kech, indoctrinated in the ancient martial traditions, metalcraft, and honor code of the Empire of Dhakaan.
+
+Choose two ability boosts. One must be to **Strength** or **Constitution**; and one is a free ability boost.
+
+You're trained in **Athletics** and **Dhakaan Lore**. You gain the **Assurance (Athletics)** skill feat. You have access to the **Uul Dhakaan** feat.
+)
+|
+item(
+# Malenti ((+Malenti))
+## Background
+-
+; Rare
+Born a sahuagin in the abyssal trenches of the Eternal Dominion, ancient biomantic rituals transformed you into the exact physical likeness of a surface dweller you replaced. While indistinguishable from a dryskin on the outside, your predatory mind remains loyal to the undersea Dominion.
+
+Choose two ability boosts. One must be to **Dexterity** or **Intelligence**; and one is a free ability boost.
+
+You're trained in **Deception** and **Thunder Sea Lore**. You gain the **Underwater Marauder** skill feat. You have access to the **Aquatic Adaptation** feat.
+)

@@ -1,0 +1,93 @@
+{
+  "_id": "c5abd9b3e4e14a06",
+  "name": "Thought Projection",
+  "type": "spell",
+  "img": "systems/pf2e/icons/spells/thought-projection.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "source": {
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "rules": [],
+    "slug": "thought-projection",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "traits": {
+      "value": [
+        "cleric",
+        "focus",
+        "mental",
+        "psychic"
+      ],
+      "rarity": "uncommon",
+      "custom": ""
+    },
+    "description": {
+      "value": "<p>You project a calm psionic gestalt field in a 20-foot emanation for 1 minute. You and allies can communicate telepathically and gain a +1 status bonus to mental saves. Enemies entering the area take 3d6 mental damage (basic Will save).</p><p><strong>Heightened (+1):</strong> Damage increases by 1d6.</p>"
+    },
+    "level": {
+      "value": 4
+    },
+    "category": {
+      "value": "focus"
+    },
+    "spellType": {
+      "value": "save"
+    },
+    "defense": {
+      "save": {
+        "statistic": "will",
+        "basic": true
+      }
+    },
+    "area": {
+      "type": "emanation",
+      "value": 20
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 minute"
+    },
+    "damage": {
+      "0": {
+        "formula": "3d6",
+        "type": "mental"
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1726848000000,
+    "modifiedTime": 1726848000000,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!c5abd9b3e4e14a06"
+}

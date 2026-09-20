@@ -1,0 +1,85 @@
+{
+  "_id": "3c7ea02a56b8b17d",
+  "name": "Malenti",
+  "type": "background",
+  "img": "systems/pf2e/icons/default-icons/background.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "source": {
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "rules": [],
+    "slug": "malenti",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "traits": {
+      "value": [
+        "sahuagin"
+      ],
+      "rarity": "rare",
+      "custom": ""
+    },
+    "description": {
+      "value": "<p>Born a sahuagin in the abyssal trenches of the Eternal Dominion, ancient biomantic rituals transformed you into the exact physical likeness of a surface dweller you replaced. While indistinguishable from a dryskin on the outside, your predatory mind remains loyal to the undersea Dominion.</p><p>Choose two ability boosts. One must be to <strong>Dexterity</strong> or <strong>Intelligence</strong>, and one is a free ability boost.</p><p>You're trained in the <strong>Deception</strong> skill, and the <strong>Thunder Sea Lore</strong> skill. You gain the <strong>Underwater Marauder</strong> skill feat.</p>"
+    },
+    "boosts": {
+      "0": {
+        "value": [
+          "dex",
+          "int"
+        ]
+      },
+      "1": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      }
+    },
+    "trainedSkills": {
+      "value": [
+        "dec"
+      ],
+      "custom": ""
+    },
+    "trainedLore": "Thunder Sea Lore",
+    "items": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1726848000000,
+    "modifiedTime": 1726848000000,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!3c7ea02a56b8b17d"
+}
