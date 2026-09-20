@@ -52,7 +52,7 @@ For more details on the Fan Content Policy, visit [Wizards of the Coast Fan Cont
 By submitting contributions (via Pull Requests, Issues, or discussions) to this repository:
 1. You agree that your contributions will be licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)**, subject to the overarching requirements of the WotC Fan Content Policy and Paizo Community Use Policy.
 2. You agree to strictly abide by the rules set forth in [ThirdPartyContentUsage.md](ThirdPartyContentUsage.md). Specifically:
-   - No direct copying or reproduction of proprietary text, lore, or illustrations from Wizards of the Coast, Keith Baker / KB Presents (*Exploring Eberron*, *Frontiers of Eberron: Quickstone*, *Chronicles of Eberron*), Foundry Gaming LLC (*Forge of the Artificer*), or D&D Beyond.
+   - No direct copying or reproduction of proprietary text, lore, or illustrations from Wizards of the Coast (*Rising from the Last War*, *Forge of the Artificer*), Keith Baker / KB Presents (*Exploring Eberron*, *Frontiers of Eberron: Quickstone*, *Chronicles of Eberron*), or D&D Beyond.
    - No distribution or adaptation of paywalled Patreon or private playtest content.
    - All conversion text must be written in your own original words, using page citations for lore references.
 

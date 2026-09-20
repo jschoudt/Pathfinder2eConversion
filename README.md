@@ -31,15 +31,12 @@ The Pathfinder's Guide to Eberron is a community conversion of Pathfinder 2e Rem
 
 This conversion draws from the following foundational setting books, D&D Beyond Partner Content, DMs Guild community releases, and D&D 2024 / 5.5e rules. We strongly encourage players and Game Masters to support the creators and purchase the sourcebooks:
 
-#### D&D Beyond Partner Content (KB Presents / Foundry Gaming)
-* **[Eberron: Forge of the Artificer (2024 / 5.5e)](https://www.dndbeyond.com/marketplace/sourcebooks/eberron-forge-of-the-artificer)** by Keith Baker, Wayne Chang, and Laura Hirsbrunner  
-  *Compendium:* [D&D Beyond](https://www.dndbeyond.com/marketplace/sourcebooks/eberron-forge-of-the-artificer) | [DMs Guild](https://www.dmsguild.com/product/498308/Forge-of-the-Artificer)  
-  *Material Adapted:* Cartographer specialist and expanded Artificer innovations, new infusions, elemental airship options, and magewright equipment.
-* **[Exploring Eberron (2024 / 5.5e Update)](https://www.dndbeyond.com/marketplace/sourcebooks/exploring-eberron)** by Keith Baker  
-  *Compendium:* [D&D Beyond](https://www.dndbeyond.com/marketplace/sourcebooks/exploring-eberron) | [DMs Guild](https://www.dmsguild.com/product/315887/Exploring-Eberron)  
+#### D&D Beyond Partner Content (KB Presents)
+* **[Exploring Eberron (2024 / 5.5e Update)](https://www.dndbeyond.com/sources/dnd/exeb)** by Keith Baker  
+  *Compendium:* [D&D Beyond](https://www.dndbeyond.com/sources/dnd/exeb) | [DMs Guild](https://www.dmsguild.com/product/315887/Exploring-Eberron)  
   *Material Adapted:* Sahuagin ancestry & heritages, Kalamer Landwalker (Merfolk) ancestry, Ruinbound versatile heritage, Dhakaani Kech heritages (Ghaal'dar, Golin'dar, Jhorgun'taal), Mind Domain cleric, Circle of the Forged druid, Forge Adept & Maverick inventor innovations, College of the Dirge Singer bard, Warrior of the Living Weapon monk, origin feats, monk stances, 7 level-20 capstone feats, spells (*Concussive Burst*, *Mental Shielding*, etc.), symbionts, and Dhakaani relics.
-* **[Frontiers of Eberron: Quickstone (2024 / 5.5e)](https://www.dndbeyond.com/marketplace/sourcebooks/frontiers-of-eberron-quickstone)** by Keith Baker, Imogen Gingell, and Colin Kawakami  
-  *Compendium:* [D&D Beyond](https://www.dndbeyond.com/marketplace/sourcebooks/frontiers-of-eberron-quickstone) | [DMs Guild](https://www.dmsguild.com/product/468819/Frontiers-of-Eberron-Quickstone)  
+* **[Frontiers of Eberron: Quickstone (2024 / 5.5e)](https://www.dndbeyond.com/sources/dnd/foeq)** by Keith Baker, Imogen Gingell, and Colin Kawakami  
+  *Compendium:* [D&D Beyond](https://www.dndbeyond.com/sources/dnd/foeq) | [DMs Guild](https://www.dmsguild.com/product/468819/Frontiers-of-Eberron-Quickstone)  
   *Material Adapted:* Gargoyle, Harpy, Medusa, and Worg playable ancestries & heritages, Western Frontier backgrounds, Droaam planar lineages, druidic circle initiate feats, wandslinger style feats, and primal spells (*Absorb Elements*, *Earth Tremor*, *Earthbind*, *Mold Earth*, etc.).
 
 #### DMs Guild Community Publications
@@ -54,6 +51,9 @@ This conversion draws from the following foundational setting books, D&D Beyond 
 #### Official Wizards of the Coast Rulebooks
 * **D&D 2024 Player's Handbook & Free Rules** (Wizards of the Coast)  
   *Material Adapted:* Versatile Heritages paradigm for Dragonmarks, origin backgrounds, and modernized species ability structures.
+* **[Eberron: Forge of the Artificer (2024 / 5.5e)](https://www.dndbeyond.com/sources/dnd/efota)** by Keith Baker, Wayne Chang, and Laura Hirsbrunner (Official Wizards of the Coast Publication)  
+  *Compendium:* [D&D Beyond](https://www.dndbeyond.com/sources/dnd/efota) (Note: Official WotC product; not available on DMs Guild, aside from the Roll20 module version)  
+  *Material Adapted:* Cartographer specialist and expanded Artificer innovations, new infusions, elemental airship options, and magewright equipment.
 * **[D&D 3.5 Eberron Campaign Setting](https://www.dmsguild.com/product/28474/Eberron-Campaign-Setting-3e)** by Keith Baker, Bill Slavicsek, and James Wyatt  
   *Material Adapted:* Foundational world lore, dragonmarks, core ancestries (Warforged, Kalashtar, Shifter, Changeling), nations, factions, and dragonmarked houses.
 * **[D&D 3.5 Player's Guide to Eberron](https://www.dmsguild.com/product/28713/Players-Guide-to-Eberron-35)** by James Wyatt, Luke Johnson, and Stan!  

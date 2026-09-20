@@ -17,11 +17,12 @@ This custom pack brings the homebrew conversion of **Pathfinder's Guide to Eberr
 - **Weapons & Equipment (15):** Riedran sentira emotion weapons (*Sentira Hand Lens*, *Sentira Light Lens*, *Sentira Heavy Lens*), steel jaws, double scimitars, Dhakaani relics (*Shaarat'doovol*), Living Breastplate, Atchaas Armor, and symbiont weapons (*Tentacle Whip*, *Hungry Weapon*).
 
 ### Referenced Sources & Links
-- **[Chronicles of Eberron](https://www.dndbeyond.com/marketplace/sourcebooks/chronicles-of-eberron)** ([D&D Beyond](https://www.dndbeyond.com/marketplace/sourcebooks/chronicles-of-eberron) | [DMs Guild](https://www.dmsguild.com/product/415474/Chronicles-of-Eberron))
-- **[Exploring Eberron (2024 / 5.5e)](https://www.dndbeyond.com/marketplace/sourcebooks/exploring-eberron)** ([D&D Beyond](https://www.dndbeyond.com/marketplace/sourcebooks/exploring-eberron) | [DMs Guild](https://www.dmsguild.com/product/315887/Exploring-Eberron))
-- **[Frontiers of Eberron: Quickstone (2024 / 5.5e)](https://www.dndbeyond.com/marketplace/sourcebooks/frontiers-of-eberron-quickstone)** ([D&D Beyond](https://www.dndbeyond.com/marketplace/sourcebooks/frontiers-of-eberron-quickstone) | [DMs Guild](https://www.dmsguild.com/product/468819/Frontiers-of-Eberron-Quickstone))
-- **[Eberron: Forge of the Artificer (2024 / 5.5e)](https://www.dndbeyond.com/marketplace/sourcebooks/eberron-forge-of-the-artificer)** ([D&D Beyond](https://www.dndbeyond.com/marketplace/sourcebooks/eberron-forge-of-the-artificer) | [DMs Guild](https://www.dmsguild.com/product/498308/Forge-of-the-Artificer))
+- **[Eberron: Forge of the Artificer (2024 / 5.5e)](https://www.dndbeyond.com/sources/dnd/efota)** ([D&D Beyond](https://www.dndbeyond.com/sources/dnd/efota)) — Official Wizards of the Coast publication
+- **[Exploring Eberron (2024 / 5.5e)](https://www.dndbeyond.com/sources/dnd/exeb)** ([D&D Beyond](https://www.dndbeyond.com/sources/dnd/exeb) | [DMs Guild](https://www.dmsguild.com/product/315887/Exploring-Eberron))
+- **[Frontiers of Eberron: Quickstone (2024 / 5.5e)](https://www.dndbeyond.com/sources/dnd/foeq)** ([D&D Beyond](https://www.dndbeyond.com/sources/dnd/foeq) | [DMs Guild](https://www.dmsguild.com/product/468819/Frontiers-of-Eberron-Quickstone))
 - **[Eberron: Rising from the Last War (5e)](https://www.dndbeyond.com/sources/dnd/erftlw)** ([D&D Beyond](https://www.dndbeyond.com/sources/dnd/erftlw) | [DMs Guild](https://www.dmsguild.com/product/294943/Eberron-Rising-from-the-Last-War-5e))
+- **[Chronicles of Eberron](https://www.dmsguild.com/product/415474/Chronicles-of-Eberron)** ([DMs Guild](https://www.dmsguild.com/product/415474/Chronicles-of-Eberron))
+- **[Morgrave Miscellany](https://www.dmsguild.com/product/270012/Morgrave-Miscellany)** ([DMs Guild](https://www.dmsguild.com/product/270012/Morgrave-Miscellany))
 - **[Eberron Campaign Setting (3.5e)](https://www.dmsguild.com/product/28474/Eberron-Campaign-Setting-3e)** ([DMs Guild](https://www.dmsguild.com/product/28474/Eberron-Campaign-Setting-3e))
 - **[Eberronicon: A Pocket Guide to the World](https://www.dmsguild.com/product/297249/Eberronicon-A-Pocket-Guide-to-the-World)** ([DMs Guild](https://www.dmsguild.com/product/297249/Eberronicon-A-Pocket-Guide-to-the-World))
 

@@ -41,7 +41,7 @@ Because this project uses Pathfinder 2nd Edition rules:
 ## 3. Source-by-Source Rules
 
 ### 1. Wizards of the Coast (3e / 3.5e, 4e, 5e, 5.5e / 2024)
-*Books include: Eberron Campaign Setting (3.5e), Player's Guide to Eberron (3.5e), Wayfinder's Guide to Eberron, Eberron: Rising from the Last War (5e), etc.*
+*Books include: Eberron Campaign Setting (3.5e), Player's Guide to Eberron (3.5e), Wayfinder's Guide to Eberron, [Eberron: Rising from the Last War (5e)](https://www.dndbeyond.com/sources/dnd/erftlw), [Eberron: Forge of the Artificer (2024)](https://www.dndbeyond.com/sources/dnd/efota) (official Wizards of the Coast publication, co-authored by Keith Baker, Wayne Chang, and Laura Hirsbrunner; not available on DMs Guild aside from the Roll20 module version), etc.*
 
 * **Allowed:**
   * Adapting races/ancestries (Warforged, Kalashtar, Shifters, Changeling), Dragonmarks (as focus spells/feats), Eberron-specific items, and prestige classes into PF2e mechanics.
@@ -54,7 +54,7 @@ Because this project uses Pathfinder 2nd Edition rules:
 ---
 
 ### 2. Keith Baker’s DMs Guild Books
-*Titles include: [Chronicles of Eberron](https://www.dmsguild.com/product/415474/Chronicles-of-Eberron), [Morgrave Miscellany](https://www.dmsguild.com/product/270012/Morgrave-Miscellany), [Exploring Eberron](https://www.dmsguild.com/product/315887/Exploring-Eberron), [Frontiers of Eberron: Quickstone](https://www.dmsguild.com/product/468819/Frontiers-of-Eberron-Quickstone), and [Eberron: Forge of the Artificer](https://www.dmsguild.com/product/498308/Forge-of-the-Artificer) (KB Presents / Twogether Studios).*
+*Titles include: [Chronicles of Eberron](https://www.dmsguild.com/product/415474/Chronicles-of-Eberron), [Morgrave Miscellany](https://www.dmsguild.com/product/270012/Morgrave-Miscellany), [Exploring Eberron](https://www.dmsguild.com/product/315887/Exploring-Eberron), and [Frontiers of Eberron: Quickstone](https://www.dmsguild.com/product/468819/Frontiers-of-Eberron-Quickstone) (KB Presents / Twogether Studios).*
 
 * **Legal Status:**
   * DMs Guild products operate under the **DMs Guild Community Content Agreement**. That agreement permits sharing content *only among other creators publishing within DMs Guild*. It grants **no rights** for external distribution (like a public GitHub repo).
@@ -70,10 +70,9 @@ Because this project uses Pathfinder 2nd Edition rules:
 ---
 
 ### 3. D&D Beyond Partner Content & 5.5e Releases
-*Partner content releases published on D&D Beyond by Keith Baker (KB Presents) and Foundry Gaming LLC include:*
-* **[Eberron: Forge of the Artificer (2024 / 5.5e)](https://www.dndbeyond.com/marketplace/sourcebooks/eberron-forge-of-the-artificer)**: 2024 rules revision. Expanded Artificer options, Cartographer specialist, infusions, and magewright innovations.
-* **[Exploring Eberron (2024 / 5.5e Update)](https://www.dndbeyond.com/marketplace/sourcebooks/exploring-eberron)**: 5.5e rules modernization. Sahuagin, Kalamer Landwalker, and Ruinbound player options, Dhakaani Kechs, Mind Domain, Circle of the Forged, Forge Adept & Maverick inventor innovations, College of the Dirge Singer, Living Weapon monk, origin feats, capstones, and spells.
-* **[Frontiers of Eberron: Quickstone (2024 / 5.5e)](https://www.dndbeyond.com/marketplace/sourcebooks/frontiers-of-eberron-quickstone)**: 5.5e rules modernization. Western Frontier setting, Gargoyle, Harpy, Medusa, and Worg playable ancestries & heritages, frontier backgrounds, Droaam lineages, druidic circles, wandslinger feats, and spells.
+*Partner content releases published on D&D Beyond by Keith Baker (KB Presents) include:*
+* **[Exploring Eberron (2024 / 5.5e Update)](https://www.dndbeyond.com/sources/dnd/exeb)**: 5.5e rules modernization. Sahuagin, Kalamer Landwalker, and Ruinbound player options, Dhakaani Kechs, Mind Domain, Circle of the Forged, Forge Adept & Maverick inventor innovations, College of the Dirge Singer, Living Weapon monk, origin feats, capstones, and spells.
+* **[Frontiers of Eberron: Quickstone (2024 / 5.5e)](https://www.dndbeyond.com/sources/dnd/foeq)**: 5.5e rules modernization. Western Frontier setting, Gargoyle, Harpy, Medusa, and Worg playable ancestries & heritages, frontier backgrounds, Droaam lineages, druidic circles, wandslinger feats, and spells.
 
 * **Allowed:**
   * Translating 2024/5.5e rule updates into PF2e Remaster mechanics in your own original phrasing.

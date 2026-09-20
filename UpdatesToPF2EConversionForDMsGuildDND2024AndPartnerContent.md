@@ -4,13 +4,13 @@
 **Target Systems:** Pathfinder 2e Remaster (Foundry VTT PF2e System 8.5.1+ / Foundry v14+)  
 **Analyzed & Incorporated Sources:**
 
-### 1. D&D 2024 / 5.5e Core Rules & System Architecture
+### 1. D&D 2024 / 5.5e Core Rules & Official Publications
 - **D&D 2024 Player's Handbook & Free Rules:** Versatile Heritages paradigm for Dragonmarks, modern Origin Background structures, standard attribute bonuses, unified spell schools/traditions, and standard action economy balancing.
+- [**Eberron: Forge of the Artificer (2024 / 5.5e)**](https://www.dndbeyond.com/sources/dnd/efota) (Official Wizards of the Coast Publication by Keith Baker, Wayne Chang, and Laura Hirsbrunner; not available on DMs Guild aside from Roll20 module) — Elemental Airship combat and crew vehicle rules, Leyline Cartographer archetype, Dreadnaught Armorer model, modern dragonmark feat progression, and 14 Dragonmarked House Heir backgrounds.
 
-### 2. D&D Beyond Partner Content (KB Presents / Foundry Gaming LLC)
-- [**Eberron: Forge of the Artificer (2024 / 5.5e)**](https://www.dndbeyond.com/marketplace/sourcebooks/eberron-forge-of-the-artificer) (Foundry Gaming LLC) — Elemental Airship combat and crew vehicle rules, Leyline Cartographer archetype, Dreadnaught Armorer model, modern dragonmark feat progression, and 14 Dragonmarked House Heir backgrounds.
-- [**Exploring Eberron (2024 / 5.5e Update)**](https://www.dndbeyond.com/marketplace/sourcebooks/exploring-eberron) (Keith Baker, D&D Beyond / DMs Guild) — Kech Dhakaani lineages and masterwork relics, Mind domain, Forge Adept and Maverick artificers, Living Weapon monk, and Daelkyr symbiont grafts.
-- [**Frontiers of Eberron: Quickstone (2024 / 5.5e)**](https://www.dndbeyond.com/marketplace/sourcebooks/frontiers-of-eberron-quickstone) (Keith Baker, D&D Beyond / DMs Guild) — Droaam and frontier backgrounds, expanded Wandslinger archetype, Demonshard barbarian, Bloodhound ranger, Nemesis sorcery, and Stone Sovereign witch.
+### 2. D&D Beyond Partner Content (KB Presents)
+- [**Exploring Eberron (2024 / 5.5e Update)**](https://www.dndbeyond.com/sources/dnd/exeb) (Keith Baker, D&D Beyond / DMs Guild) — Kech Dhakaani lineages and masterwork relics, Mind domain, Forge Adept and Maverick artificers, Living Weapon monk, and Daelkyr symbiont grafts.
+- [**Frontiers of Eberron: Quickstone (2024 / 5.5e)**](https://www.dndbeyond.com/sources/dnd/foeq) (Keith Baker, D&D Beyond / DMs Guild) — Droaam and frontier backgrounds, expanded Wandslinger archetype, Demonshard barbarian, Bloodhound ranger, Nemesis sorcery, and Stone Sovereign witch.
 
 ### 3. DMs Guild Community Publications
 - [**Chronicles of Eberron**](https://www.dmsguild.com/product/415474/Chronicles-of-Eberron) (Keith Baker / Twogether Studios, DMs Guild) — Lorghalan gnome heritage, noble backgrounds, sentira emotion weapons and spellhearts, Dark Six spells, spellshape feats, and legendary bestiary encounters (Avassh, Mordain).
@@ -20,14 +20,14 @@
 
 ### 4. Canonical Foundation & Lore References
 - **Eberron Campaign Setting (3.5e)** (Keith Baker, Bill Slavicsek, James Wyatt)
-- **Eberron: Rising from the Last War (5e)** (Wizards of the Coast)
+- [**Eberron: Rising from the Last War (5e)**](https://www.dndbeyond.com/sources/dnd/erftlw) (Wizards of the Coast)
 - **The Eberronicon** (DMs Guild / Concordance)
 
 ---
 
 ## Executive Summary & Design Architecture
 
-This conversion synthesizes the modern **D&D 2024 (5.5e)** rules modernization, **D&D Beyond Partner Content** (*Forge of the Artificer*, *Exploring Eberron 5.5e*, *Frontiers of Eberron: Quickstone*), and classic **DMs Guild Community Publications** (*Chronicles of Eberron*, *Morgrave Miscellany*, *Exploring Eberron*) into the **Pathfinder 2e Remaster** system.
+This conversion synthesizes the modern **D&D 2024 (5.5e)** rules modernization and official releases (*Forge of the Artificer*), **D&D Beyond Partner Content** (*Exploring Eberron 5.5e*, *Frontiers of Eberron: Quickstone*), and classic **DMs Guild Community Publications** (*Chronicles of Eberron*, *Morgrave Miscellany*, *Exploring Eberron*) into the **Pathfinder 2e Remaster** system.
 
 Rather than forcing 5e mechanics awkwardly into PF2e, this project leverages Pathfinder 2e's native modularity:
 1. **Ancestries, Heritages & Ancestry Feats:** Modernized core Eberron ancestries; Dragonmarks function as Versatile Heritages open to any species matching 2024 D&D's open heritage design while fully utilizing PF2e ancestry feats and Remaster Focus pools.

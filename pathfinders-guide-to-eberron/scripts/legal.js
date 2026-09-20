@@ -44,22 +44,22 @@ Hooks.once('ready', async () => {
       <hr/>
       <h3>Source Materials & Reference Links</h3>
       <p>This conversion references and adapts mechanics inspired by:</p>
+      <p><b>Official Wizards of the Coast Canon:</b></p>
+      <ul>
+        <li><b>Eberron: Forge of the Artificer (2024 / 5.5e):</b> <a href="https://www.dndbeyond.com/sources/dnd/efota" target="_blank">D&D Beyond</a> (Official WotC Publication)</li>
+        <li><b>D&D 5e Eberron: Rising from the Last War:</b> <a href="https://www.dndbeyond.com/sources/dnd/erftlw" target="_blank">D&D Beyond</a> | <a href="https://www.dmsguild.com/product/294943/Eberron-Rising-from-the-Last-War-5e" target="_blank">DMs Guild</a></li>
+        <li><b>D&D 3.5 Eberron Campaign Setting:</b> <a href="https://www.dmsguild.com/product/28474/Eberron-Campaign-Setting-3e" target="_blank">DMs Guild</a></li>
+      </ul>
       <p><b>D&D Beyond Partner Content & 5.5e Updates:</b></p>
       <ul>
-        <li><b>Eberron: Forge of the Artificer (2024 / 5.5e):</b> <a href="https://www.dndbeyond.com/marketplace/sourcebooks/eberron-forge-of-the-artificer" target="_blank">D&D Beyond</a> | <a href="https://www.dmsguild.com/product/498308/Forge-of-the-Artificer" target="_blank">DMs Guild</a></li>
-        <li><b>Exploring Eberron (2024 / 5.5e Update):</b> <a href="https://www.dndbeyond.com/marketplace/sourcebooks/exploring-eberron" target="_blank">D&D Beyond</a> | <a href="https://www.dmsguild.com/product/315887/Exploring-Eberron" target="_blank">DMs Guild</a></li>
-        <li><b>Frontiers of Eberron: Quickstone (2024 / 5.5e):</b> <a href="https://www.dndbeyond.com/marketplace/sourcebooks/frontiers-of-eberron-quickstone" target="_blank">D&D Beyond</a> | <a href="https://www.dmsguild.com/product/468819/Frontiers-of-Eberron-Quickstone" target="_blank">DMs Guild</a></li>
+        <li><b>Exploring Eberron (2024 / 5.5e Update):</b> <a href="https://www.dndbeyond.com/sources/dnd/exeb" target="_blank">D&D Beyond</a> | <a href="https://www.dmsguild.com/product/315887/Exploring-Eberron" target="_blank">DMs Guild</a></li>
+        <li><b>Frontiers of Eberron: Quickstone (2024 / 5.5e):</b> <a href="https://www.dndbeyond.com/sources/dnd/foeq" target="_blank">D&D Beyond</a> | <a href="https://www.dmsguild.com/product/468819/Frontiers-of-Eberron-Quickstone" target="_blank">DMs Guild</a></li>
       </ul>
       <p><b>DMs Guild Community Publications:</b></p>
       <ul>
         <li><b>Chronicles of Eberron:</b> <a href="https://www.dmsguild.com/product/415474/Chronicles-of-Eberron" target="_blank">DMs Guild</a></li>
         <li><b>Morgrave Miscellany:</b> <a href="https://www.dmsguild.com/product/270012/Morgrave-Miscellany" target="_blank">DMs Guild</a></li>
         <li><b>The Eberronicon:</b> <a href="https://www.dmsguild.com/product/297249/Eberronicon-A-Pocket-Guide-to-the-World" target="_blank">DMs Guild</a></li>
-      </ul>
-      <p><b>Official Wizards of the Coast Canon:</b></p>
-      <ul>
-        <li><b>D&D 5e Eberron: Rising from the Last War:</b> <a href="https://www.dndbeyond.com/sources/dnd/erftlw" target="_blank">D&D Beyond</a> | <a href="https://www.dmsguild.com/product/294943/Eberron-Rising-from-the-Last-War-5e" target="_blank">DMs Guild</a></li>
-        <li><b>D&D 3.5 Eberron Campaign Setting:</b> <a href="https://www.dmsguild.com/product/28474/Eberron-Campaign-Setting-3e" target="_blank">DMs Guild</a></li>
       </ul>
 
       <hr/>
