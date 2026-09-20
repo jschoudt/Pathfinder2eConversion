@@ -1,0 +1,77 @@
+{
+  "_id": "c2dde0e1e2e3e4e5",
+  "name": "Waypoint Anchor",
+  "type": "spell",
+  "img": "systems/pf2e/icons/spells/teleport.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "source": {
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "rules": [],
+    "slug": "waypoint-anchor",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "traits": {
+      "value": [
+        "inventor",
+        "artificer",
+        "focus",
+        "teleportation"
+      ],
+      "rarity": "uncommon",
+      "custom": ""
+    },
+    "description": {
+      "value": "<p>You anchor a resonant dimensional beacon to a point on the ground within range. The beacon lasts for 1 minute. While the anchor persists, you and any willing ally within 30 feet of you can spend 1 action to immediately teleport adjacent to the anchor, provided there is an unoccupied space available. A creature can only warp to the anchor once per round.</p><p><strong>Heightened (+2):</strong> The range increases by 30 feet, and the duration increases by 1 minute.</p>"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": {
+      "value": "focus"
+    },
+    "spellType": {
+      "value": "utility"
+    },
+    "time": {
+      "value": "2"
+    },
+    "range": {
+      "value": "60 feet"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1726848000000,
+    "modifiedTime": 1726848000000,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!c2dde0e1e2e3e4e5"
+}

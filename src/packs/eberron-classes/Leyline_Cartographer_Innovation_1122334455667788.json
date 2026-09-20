@@ -1,16 +1,13 @@
 {
-  "name": "Demonshard Instinct",
+  "_id": "1122334455667788",
+  "name": "Leyline Cartographer Innovation",
   "type": "feat",
   "img": "systems/pf2e/icons/default-icons/class.svg",
   "effects": [],
   "folder": null,
   "sort": 0,
   "flags": {},
-  "_id": "1d6c3aaa3d175ae1",
   "system": {
-    "description": {
-      "value": "<p>You channel fury through an embedded shard of Khyber demonglass or fiendish resonance. While raging, your melee Strikes deal additional Fire or Void damage (+2 damage, scaling to +6 at 7th level and +12 with greater weapon specialization). You gain resistance to physical damage (except byeshk) equal to 3 + your Constitution modifier while raging, and access to unique instinct feats like <em>Jealous Mind</em>, <em>Overflowing Malice</em>, and the <em>Fiendish Retribution</em> reaction.</p>"
-    },
     "source": {
       "value": "Pathfinder's Guide to Eberron",
       "page": "N/A"
@@ -23,7 +20,7 @@
       "page": "N/A"
     },
     "rules": [],
-    "slug": "demonshard-instinct",
+    "slug": "leyline-cartographer-innovation",
     "schema": {
       "version": 0.959,
       "lastMigration": {
@@ -39,15 +36,19 @@
       "version": 0.959,
       "previous": null
     },
-    "level": {
-      "value": 1
-    },
     "traits": {
       "value": [
-        "barbarian"
+        "inventor",
+        "artificer"
       ],
       "rarity": "common",
       "custom": ""
+    },
+    "description": {
+      "value": "<p>You study the subtle energetic geography of the world, charting the metaphysical leylines and planar conduits that crisscross Eberron. You are trained in Surveying Lore (or another Lore skill if already trained) and ignore non-magical difficult terrain. You gain the <em>Survey the Ley Lines</em> action and can place <em>Waypoint Anchors</em> to guide dimensional movement.</p>"
+    },
+    "level": {
+      "value": 1
     },
     "category": "classfeature",
     "actionType": {
@@ -65,5 +66,5 @@
     "modifiedTime": 1726848000000,
     "lastModifiedBy": "lxzmymmFddOcN8CB"
   },
-  "_key": "!items!1d6c3aaa3d175ae1"
+  "_key": "!items!1122334455667788"
 }

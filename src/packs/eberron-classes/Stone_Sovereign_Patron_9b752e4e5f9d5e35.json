@@ -9,7 +9,7 @@
   "_id": "9b752e4e5f9d5e35",
   "system": {
     "description": {
-      "value": "<p>Patrons: Orlassk, King Grayfinger, Queen Sheshka. Grants Gray Gaze hex cantrip and Form of Stone hex spell (absorb damage with Hardness 5).</p>"
+      "value": "<p>You commune with the primordial endurance of living stone under the patronage of the daelkyr Orlassk, King Grayfinger, or Queen Sheshka of Cazhaak Draal. Your patron theme is Primal or Occult. You gain the <em>Gray Gaze</em> hex cantrip (a petrifying glance inflicting damage and sluggishness) and the <em>Form of Stone</em> hex spell (calcifying your flesh into living granite with Hardness 5 and slip-through-stone mobility).</p>"
     },
     "source": {
       "value": "Pathfinder's Guide to Eberron",
@@ -18,7 +18,7 @@
     "publication": {
       "title": "Pathfinder's Guide to Eberron",
       "authors": "",
-      "license": "OGL",
+      "license": "ORC",
       "remaster": true,
       "page": "N/A"
     },

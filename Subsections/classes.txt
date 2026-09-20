@@ -19,6 +19,19 @@ As an alchemist, you may not need to adjust anything at all to make your charact
 # Artificer ((++Artificer))
 Artificers are a class designed around the creative application of the arcane sciences of the world. Their ingenuity with the development of these magical devices allows them to create inventions without comparison. Artificers are similar to the Inventor class and build off of their mechanics. 
 
+### Leyline Cartographer Innovation
+You map and manipulate the ambient magical leylines and planar currents of Eberron.
+- **Cartographer's Craft:** You become trained in Surveying Lore (or another Lore skill) and ignore non-magical difficult terrain.
+- **Survey the Ley Lines (1 Action):** You and allies within a 30-foot emanation gain a +10-foot status bonus to Speed for 1 round.
+- **Waypoint Anchor (Focus Spell):** You place a dimensional anchor beacon within 60 feet that you and allies can teleport to.
+- **Leyline Shifting (Feat 8):** Reconfigure terrain in a 20-foot burst, creating or removing difficult terrain and repositioning allies.
+
+### Dreadnaught Armor Model
+An armored innovation modification engineered for heavy frontline siege warfare.
+- **Dreadnaught Juggernaut Suit:** Heavy innovation armor gaining the Bulwark trait and a +1 circumstance bonus to Athletics checks to Shove or Trip.
+- **Force Demolisher Strike (Feat 4):** Melee Strike dealing +1d6 force damage (scaling to +3d6) and ignoring half object Hardness.
+- **Giant Stature Overcharge (Feat 12, Unstable):** Grow to Large or Huge size, gaining +10-foot reach, +2 status bonus to melee damage, and increased Bulwark.
+
 ### Forge Adept Innovation
 Carrying on the ancient metallurgy of Dhakaani daashor smiths, you imbue a melee weapon with a fraction of your soul to forge a *Ghaal'Shaarat* ("mighty blade").
 - **Ghaal'Shaarat Bond:** Your bonded weapon automatically scales its weapon potency and striking runes as you level. It gains the Thrown 30 ft and Returning weapon traits.
@@ -38,8 +51,9 @@ Level 20 Artificers and Inventors can select specialized capstone feats:
 - **Weapon of Legend (Forge Adept):** Your Aura of War becomes permanent and inflicts automatic retributive damage on foes.
 - **Improved Genius (Maverick):** Cast any 8th-rank or lower spell from any tradition once per day without a spell slot.
 info(
-For more information on the Forge Adept, Maverick, and Capstone feats, see Exploring Eberron (p. 60-70). For the Cartographer specialist, see Eberron: Forge of the Artificer (Ch. 1).
+For more information on the Forge Adept, Maverick, and Capstone feats, see Exploring Eberron (p. 60-70). For the Cartographer and Dreadnaught specialists, see Eberron: Forge of the Artificer (Ch. 1).
 )
+
 
 # Barbarian ((++Barbarian))
 Barbarians need no adjusting at all. You could consider the source of your instincts; perhaps as a shifter your nature provides the "Animal Instinct"; or you are a halfling or elf in tune with the spirits of your ancestors for the "Spirit Instinct".
@@ -122,8 +136,10 @@ While less common than fighters, monks fit into the world in many different cult
 
 ### Warrior of the Living Weapon
 Monks of the Living Weapon hone their physical bodies as a smith tempers a blade. Drawing upon warforged, changeling, shifter, and kalashtar traditions, they adopt specialized biomantic and ectoplasmic stances:
+- **Carapace Stance:** 1d8 bludgeoning unarmed strikes with parry trait, +1 circumstance to AC vs ranged, and physical resistance.
 - **Forged Heart Stance:** 1d8 bludgeoning unarmed strikes; critical hits push foes 10 feet.
 - **Nightmare Shroud Stance:** 1d6 mental/unarmed strikes; Deflect Attacks inflicts the frightened condition.
+- **Tendril Whip Stance:** 1d6 piercing or slashing unarmed strikes with agile, finesse, reach 10 ft, and trip traits.
 - **Traveler's Blade Stance:** 1d6 piercing/slashing unarmed strikes with 10-ft reach (bone blades and stretching limbs).
 - **Weretouched Stance:** 1d8 slashing unarmed strikes; dropping a foe grants temporary HP equal to your level.
 info(
@@ -175,7 +191,13 @@ For more information on the Stone Sovereign Witch Patron, see Frontiers of Eberr
 )
 
 # Wandslingers ((++Wandslinger))
-Wandslingers are wand wielding proud arcane duelists of Eberron. Wandslingers are implemented as a special Way of the Gunslinger class, and Gunslingers, in general, are commonly referred to as Wandslingers in Eberron. See the Gunslinger class entry for more information.
+Wandslingers are wand-wielding proud arcane duelists of Eberron. Wandslingers are implemented as a special Way of the Gunslinger class (Way of the Wandslinger) and Gunslinger class archetype, and Gunslingers, in general, are commonly referred to as Wandslingers in Eberron.
+- **Quick-Draw Wand (Feat 2):** Interact to draw a wand from your bandolier and immediately Cast a Spell or Activate it.
+- **Wand Dueling (Feat 4):** Gain a +1 circumstance bonus to AC against ranged/spell attacks and a +1 circumstance bonus to wand spell attack rolls when duel-wielding with a free hand.
+- **Deflective Cantrip (Feat 6, Reaction):** Flick your wand to deflect an incoming ranged or spell attack, gaining +2 circumstance bonus to AC and dispersing magic.
+info(
+For more information on Wandslingers and wandplay, see Frontiers of Eberron: Quickstone (p. 166).
+)
 
 # Wizard ((++Wizard))
 With the widespread arcane magic in Khorvaire, wizards can be placed nearly anywhere. There are a number of arcane schools at which you could have developed your magic, or perhaps you could have learned your magic on your own.

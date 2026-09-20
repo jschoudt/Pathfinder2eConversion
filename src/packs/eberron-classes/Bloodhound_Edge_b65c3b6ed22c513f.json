@@ -9,7 +9,7 @@
   "_id": "b65c3b6ed22c513f",
   "system": {
     "description": {
-      "value": "<p>Hunt Prey tracks quarry at any distance through ley lines. First Strike deals +1d6 precision damage, with Relentless Pursuit and Eyes on the Prize feats.</p>"
+      "value": "<p>When you Hunt Prey, your senses lock onto your quarry's spiritual signature and physical traces across any distance. You gain an imprecise scent sense out to 30 feet (or increase existing scent by 30 feet). Your tracking ignores range penalties, and your first Strike each round against your prey deals an additional 1d6 precision damage. You gain a +2 circumstance bonus to Perception checks to pierce your prey's disguises or Deception checks, and access to feats like <em>Relentless Pursuit</em> and <em>Eyes on the Prize</em>.</p>"
     },
     "source": {
       "value": "Pathfinder's Guide to Eberron",
@@ -18,7 +18,7 @@
     "publication": {
       "title": "Pathfinder's Guide to Eberron",
       "authors": "",
-      "license": "OGL",
+      "license": "ORC",
       "remaster": true,
       "page": "N/A"
     },

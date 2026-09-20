@@ -44,9 +44,9 @@ describe('PF2e Content Mechanics Deep Verification', () => {
   });
 
   describe('Spells', () => {
-    it('should have valid ranks and categories on all 106 spells', () => {
+    it('should have valid ranks and categories on all 107 spells', () => {
       const spells = docs.filter(d => d.data.type === 'spell');
-      expect(spells.length).toBe(106);
+      expect(spells.length).toBe(107);
 
       const VALID_CATEGORIES = new Set(['spell', 'focus', 'cantrip', 'ritual']);
 

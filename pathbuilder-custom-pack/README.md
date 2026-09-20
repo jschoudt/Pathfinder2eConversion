@@ -12,8 +12,8 @@ This custom pack brings the homebrew conversion of **Pathfinder's Guide to Eberr
 - **Eberron Ancestries (11):** Warforged, Kalashtar, Shifter (all 5 heritages), Eberron Changeling, Bugbear, Gargoyle, Harpy, Medusa, Worg, Sahuagin, and Kalamer Landwalker (Merfolk).
 - **Versatile Heritages & Lineages (70):** Ruinbound, Droaam planar lineages, all 12 True Dragonmarks, Aberrant marks, and regional Dhakaani heritages (Ghaal'dar, Golin'dar, Jhorgun'taal).
 - **Backgrounds (30):** 14 Dragonmarked House Heir backgrounds (Cannith, Deneith, Ghallanda, Jorasco, Kundarak, Lyrandar, Medani, Orien, Phiarlan, Sivis, Tharashk, Thuranni, Vadalis, Aberrant), House Agent, House Orphan, Dragonmarked Scion, Frontier Marshal, Changeling Traveler, Dhakaani Goblinoid, Malenti, and more.
-- **Feats & Classes (374):** Origin feats, monk stances, inventor capstones, Forge Adept, Maverick, College of the Dirge Singer, Mind Domain, Circle of the Forged, and Living Weapon monk options.
-- **Spells & Focus Spells (108):** Dragonmark cantrips, focus spells, and 2024 additions (*Concussive Burst*, *Mental Shielding*, *Construct Form*, *Song of the Iron Will*, etc.).
+- **Feats & Classes (385):** Origin feats, monk stances (including Tendril Whip & Carapace Stances), inventor capstones, Leyline Cartographer & Dreadnaught innovations, wandplay feats (Quick-Draw Wand, Wand Dueling, Deflective Cantrip), Forge Adept, Maverick, College of the Dirge Singer, Mind Domain, Circle of the Forged, and Living Weapon monk options.
+- **Spells & Focus Spells (109):** Dragonmark cantrips, focus spells, and 2024 additions (*Concussive Burst*, *Mental Shielding*, *Construct Form*, *Song of the Iron Will*, *Waypoint Anchor*, etc.).
 - **Weapons & Equipment (10):** Steel jaws, double scimitars, Dhakaani relics (*Shaarat'doovol*), and symbiont weapons.
 
 ### Referenced Sources & Links

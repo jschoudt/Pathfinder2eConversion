@@ -1,16 +1,13 @@
 {
-  "name": "Demonshard Instinct",
+  "_id": "66778899aabbccdd",
+  "name": "Giant Stature Overcharge",
   "type": "feat",
-  "img": "systems/pf2e/icons/default-icons/class.svg",
+  "img": "systems/pf2e/icons/default-icons/feats.webp",
   "effects": [],
   "folder": null,
   "sort": 0,
   "flags": {},
-  "_id": "1d6c3aaa3d175ae1",
   "system": {
-    "description": {
-      "value": "<p>You channel fury through an embedded shard of Khyber demonglass or fiendish resonance. While raging, your melee Strikes deal additional Fire or Void damage (+2 damage, scaling to +6 at 7th level and +12 with greater weapon specialization). You gain resistance to physical damage (except byeshk) equal to 3 + your Constitution modifier while raging, and access to unique instinct feats like <em>Jealous Mind</em>, <em>Overflowing Malice</em>, and the <em>Fiendish Retribution</em> reaction.</p>"
-    },
     "source": {
       "value": "Pathfinder's Guide to Eberron",
       "page": "N/A"
@@ -23,7 +20,7 @@
       "page": "N/A"
     },
     "rules": [],
-    "slug": "demonshard-instinct",
+    "slug": "giant-stature-overcharge",
     "schema": {
       "version": 0.959,
       "lastMigration": {
@@ -40,21 +37,26 @@
       "previous": null
     },
     "level": {
-      "value": 1
+      "value": 12
     },
     "traits": {
       "value": [
-        "barbarian"
+        "inventor",
+        "artificer",
+        "unstable"
       ],
       "rarity": "common",
       "custom": ""
     },
-    "category": "classfeature",
+    "description": {
+      "value": "<p><strong>Prerequisites</strong> Dreadnaught Armor Model or Armor Innovation<br /><hr />You route surging volatile energy through the expansion plates of your armor chassis. You grow to Large size (or Huge if you were already Large), increasing your reach by 10 feet and gaining a +2 status bonus to melee damage for 1 minute. While overcharged, your armor's Bulwark modifier increases by 1.</p>"
+    },
+    "category": "class",
     "actionType": {
-      "value": "passive"
+      "value": "action"
     },
     "actions": {
-      "value": null
+      "value": 1
     }
   },
   "_stats": {
@@ -65,5 +67,5 @@
     "modifiedTime": 1726848000000,
     "lastModifiedBy": "lxzmymmFddOcN8CB"
   },
-  "_key": "!items!1d6c3aaa3d175ae1"
+  "_key": "!items!66778899aabbccdd"
 }

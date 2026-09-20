@@ -1,16 +1,13 @@
 {
-  "name": "Demonshard Instinct",
+  "_id": "99aabbccdde0e1e2",
+  "name": "Deflective Cantrip",
   "type": "feat",
-  "img": "systems/pf2e/icons/default-icons/class.svg",
+  "img": "systems/pf2e/icons/default-icons/feats.webp",
   "effects": [],
   "folder": null,
   "sort": 0,
   "flags": {},
-  "_id": "1d6c3aaa3d175ae1",
   "system": {
-    "description": {
-      "value": "<p>You channel fury through an embedded shard of Khyber demonglass or fiendish resonance. While raging, your melee Strikes deal additional Fire or Void damage (+2 damage, scaling to +6 at 7th level and +12 with greater weapon specialization). You gain resistance to physical damage (except byeshk) equal to 3 + your Constitution modifier while raging, and access to unique instinct feats like <em>Jealous Mind</em>, <em>Overflowing Malice</em>, and the <em>Fiendish Retribution</em> reaction.</p>"
-    },
     "source": {
       "value": "Pathfinder's Guide to Eberron",
       "page": "N/A"
@@ -23,7 +20,7 @@
       "page": "N/A"
     },
     "rules": [],
-    "slug": "demonshard-instinct",
+    "slug": "deflective-cantrip",
     "schema": {
       "version": 0.959,
       "lastMigration": {
@@ -40,18 +37,22 @@
       "previous": null
     },
     "level": {
-      "value": 1
+      "value": 6
     },
     "traits": {
       "value": [
-        "barbarian"
+        "gunslinger",
+        "archetype"
       ],
       "rarity": "common",
       "custom": ""
     },
-    "category": "classfeature",
+    "description": {
+      "value": "<p><strong>Trigger</strong> You are targeted by a ranged Strike or spell attack roll.<br /><strong>Requirements</strong> You are wielding a wand charged with a cantrip or have a prepared cantrip wand.<br /><hr />You flick your wand to snap a defensive kinetic or elemental arc in the path of the incoming attack. You gain a +2 circumstance bonus to AC against the triggering attack. If the attack misses, and was a spell attack roll, you deflect the magical energy harmlessly into the ground or a nearby surface.</p>"
+    },
+    "category": "class",
     "actionType": {
-      "value": "passive"
+      "value": "reaction"
     },
     "actions": {
       "value": null
@@ -65,5 +66,5 @@
     "modifiedTime": 1726848000000,
     "lastModifiedBy": "lxzmymmFddOcN8CB"
   },
-  "_key": "!items!1d6c3aaa3d175ae1"
+  "_key": "!items!99aabbccdde0e1e2"
 }

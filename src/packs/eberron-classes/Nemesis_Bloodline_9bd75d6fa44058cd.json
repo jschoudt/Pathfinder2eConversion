@@ -9,7 +9,7 @@
   "_id": "9bd75d6fa44058cd",
   "system": {
     "description": {
-      "value": "<p>Arcane/Occult spell duelist bloodline. Grants Spell Deflection reaction, countermagic, and dueling spells.</p>"
+      "value": "<p>Trained for the lethal magic duel, your bloodline resonates with retributive curses and countermagic. You gain the Occult spellcasting tradition. Your blood magic effect imposes either retributive energy damage on a target creature that attacks you, or grants you a +1 status bonus to AC and saving throws against spells until the start of your next turn. You gain dueling spells such as <em>shield</em>, <em>mirror image</em>, <em>counterspell</em>, and <em>resilient sphere</em>.</p>"
     },
     "source": {
       "value": "Pathfinder's Guide to Eberron",
@@ -18,7 +18,7 @@
     "publication": {
       "title": "Pathfinder's Guide to Eberron",
       "authors": "",
-      "license": "OGL",
+      "license": "ORC",
       "remaster": true,
       "page": "N/A"
     },
