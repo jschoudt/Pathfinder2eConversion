@@ -30,8 +30,12 @@ This custom pack brings the homebrew conversion of **Pathfinder's Guide to Eberr
 
 ## AI Assistance & Transparency Disclosure
 
+> [!WARNING]
+> **Alpha Status & Mechanical Disclaimer:** The current content is considered **Alpha**; a large portion of it is AI-generated. While it has been lightly reviewed, it has not been deeply reviewed for mechanics, playability, etc.
+
 Artificial intelligence tools (such as large language models) assist in the maintenance and mechanical development of this conversion project:
-* **Mechanical Conversion & Balance:** AI assists with preliminary stat block transcription and mechanical drafting. All mechanics, numbers, action costs, and rules are manually reviewed, edited, and balanced by human contributors for Pathfinder 2e Remaster fidelity.
+* **Alpha State & Review:** Content is in active development and has not yet undergone deep playtest or balance auditing.
+* **Mechanical Conversion & Balance:** AI assists with preliminary stat block transcription and mechanical drafting for Pathfinder 2e Remaster fidelity.
 * **Original Expression:** Text is audited against source materials to guarantee that no proprietary descriptions or flavor text from official sourcebooks are inadvertently reproduced.
 * **Artwork:** Any visual assets are used exclusively for non-commercial visual accompaniment in accordance with US Copyright Office guidelines regarding machine-generated works.
 

@@ -43,9 +43,11 @@ Hooks.once('ready', async () => {
 
       <hr/>
       <h3>AI Assistance & Transparency Disclosure</h3>
+      <p><b>Alpha Notice:</b> The current content is considered <b>Alpha</b>; a large portion of it is AI-generated. While it has been lightly reviewed, it has not been deeply reviewed for mechanics, playability, etc.</p>
       <p>Artificial intelligence tools (such as large language models) assist in the maintenance and development of this conversion project:</p>
       <ul>
-        <li><b>Mechanical Conversion & Balance:</b> AI assists with preliminary stat block transcription and mechanical drafting. All mechanics, numbers, action costs, and rules are manually reviewed, edited, and balanced by human contributors for Pathfinder 2e Remaster fidelity.</li>
+        <li><b>Alpha State & Review:</b> Content is in active development and has not yet undergone deep playtesting or comprehensive manual balance auditing.</li>
+        <li><b>Mechanical Conversion & Balance:</b> AI assists with preliminary stat block transcription and mechanical drafting for Pathfinder 2e Remaster fidelity.</li>
         <li><b>Original Expression:</b> Text is audited against source materials to guarantee that no proprietary descriptions or flavor text from official sourcebooks are inadvertently reproduced.</li>
         <li><b>Artwork:</b> Any visual assets are used exclusively for non-commercial visual accompaniment in accordance with US Copyright Office guidelines regarding machine-generated works.</li>
       </ul>

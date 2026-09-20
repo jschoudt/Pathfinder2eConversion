@@ -21,6 +21,10 @@ The Pathbuilder JSON is available for personal use by adding the JSON from the `
 > **Attribution & Project Provenance:**  
 > This project is an independent continuation and fork of the original [Pathfinder2eConversion](https://github.com/TNychka/Pathfinder2eConversion) created and developed by **TNychka**, with major contributions by **John Cox** and the Eberron/Pathfinder 2e homebrew community. While this repository is maintained independently by **jschoudt**, full credit and heartfelt thanks for the original architecture, text, and conversion framework belong to **TNychka**.
 
+> [!WARNING]
+> **Project Status (Alpha) & Mechanical Disclaimer:**  
+> The current content is considered **Alpha**, and a large portion of it is AI-generated. While it has been lightly reviewed, it has not been deeply reviewed for mechanics, playability, or fine balance. We actively encourage GM discretion, playtesting, and community feedback via [GitHub Issues](https://github.com/jschoudt/Pathfinder2eConversion/issues) or [Discussions](https://github.com/jschoudt/Pathfinder2eConversion/discussions)!
+
 The Pathfinder's guide to Eberron is a homebrew conversion of the Pathfinder 2e mechanics to support the world and Lore of Eberron. It would be prohibitive to provide all of the lore that Eberron has developed over the years - and any lore provided by this guide would be poorly repeated imitations of better summaries. This guide uses the following books as references and will provide page numbers to learn more. [D&D 3 Eberron Campaign Setting](https://www.dmsguild.com/product/28474/Eberron-Campaign-Setting-3e) by Keith Baker, [Exploring Eberron](https://www.dmsguild.com/product/315887/Exploring-Eberron) by Keith Baker, and the [Eberronicon](https://www.dmsguild.com/product/297249/Eberronicon-A-Pocket-Guide-to-the-World). All of these are available for purchase on the [Dungeon Masters Guild](https://www.dmsguild.com/) and provide all of the background information you might need to run the world of Eberron.
 
 ## Why Pathfinder 2e?
@@ -95,8 +99,11 @@ By contributing, you agree that your contributions will be licensed under the pr
   - The Pathfinder2eCreations community, the Eberron Pathfinder2e discord community, and everyone else who contributed to both the upstream and fork repositories.
 
 ## AI Assistance & Transparency Disclosure
+The content in this repository is currently considered **Alpha**; a large portion of it is AI-generated. While it has been lightly reviewed, it has not been deeply reviewed for mechanics, playability, encounter balance, etc.
+
 Artificial intelligence tools (such as large language models and generative image systems) are used to assist in the development of this conversion project:
-* **Mechanical Conversion & Balance:** AI assists with preliminary stat block transcription and mechanical brainstorming. All mechanics, numbers, action costs, and rules are manually reviewed, edited, and balanced by human contributors for Pathfinder 2e Remaster fidelity.
+* **Alpha State & Review Status:** Content is in active development. Although automated syntax checks and schema validators are run, deep human balance and playtest review remain ongoing.
+* **Mechanical Conversion & Balance:** AI assists with preliminary stat block transcription, mechanical brainstorming, and formatting conversion for Pathfinder 2e Remaster fidelity.
 * **Original Expression:** AI-generated text is audited against source materials to guarantee that no proprietary descriptions or flavor text from official sourcebooks are inadvertently reproduced.
 * **Artwork:** Any AI-generated visual assets are used exclusively for non-commercial visual accompaniment in accordance with US Copyright Office guidelines regarding machine-generated works.
 
