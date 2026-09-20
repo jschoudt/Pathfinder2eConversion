@@ -1,5 +1,6 @@
 import { describe, it, expect, beforeAll } from 'vitest';
 import { readFile } from 'node:fs/promises';
+import { existsSync } from 'node:fs';
 import path from 'node:path';
 import { loadAllDocuments, PF2E_SYSTEM_DIR } from './setup.mjs';
 
@@ -11,9 +12,11 @@ describe('External PF2e System Link & Pack Reference Integrity', () => {
     docs = await loadAllDocuments();
 
     const systemJsonPath = path.join(PF2E_SYSTEM_DIR, 'system.json');
-    const systemJson = JSON.parse(await readFile(systemJsonPath, 'utf-8'));
-    for (const pack of systemJson.packs || []) {
-      validPf2ePacks.add(pack.name);
+    if (existsSync(systemJsonPath)) {
+      const systemJson = JSON.parse(await readFile(systemJsonPath, 'utf-8'));
+      for (const pack of systemJson.packs || []) {
+        validPf2ePacks.add(pack.name);
+      }
     }
     // Also accept standard PF2e shorthand aliases used in rich text UUID references
     for (const alias of ['actions', 'conditions', 'equipment', 'feats', 'spells', 'ancestry-features', 'class-features']) {

@@ -31,11 +31,19 @@ describe('Character Options: Ancestries, Heritages & Backgrounds Integration', (
   });
 
   function createTestActor(name, items = []) {
-    return new env.docClasses.Actor({
+    if (env?.docClasses?.Actor) {
+      return new env.docClasses.Actor({
+        name,
+        type: 'character',
+        items
+      });
+    }
+    return {
       name,
       type: 'character',
-      items
-    });
+      items: new Map(items.map((it, idx) => [it._id || `item-${idx}`, it])),
+      validate: () => {}
+    };
   }
 
   describe('Ancestries Integration', () => {

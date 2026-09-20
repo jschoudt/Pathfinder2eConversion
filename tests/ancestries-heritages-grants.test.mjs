@@ -1,5 +1,6 @@
 import { describe, it, expect, beforeAll, afterAll } from 'vitest';
 import { readFile } from 'node:fs/promises';
+import { existsSync } from 'node:fs';
 import path from 'node:path';
 import { ClassicLevel } from 'classic-level';
 import { initFoundryEnvironment, loadAllDocuments, PF2E_SYSTEM_DIR } from './setup.mjs';
@@ -31,25 +32,34 @@ describe('Ancestries & Heritages: Bestowed Feats, Items, Bonuses, and Traits', (
       if (doc.data.type === 'heritage') heritageMap.set(doc.data.name, doc.data);
     }
 
-    // Load registered PF2e system packs from system.json
+    // Load registered PF2e system packs from system.json if present
     const systemJsonPath = path.join(PF2E_SYSTEM_DIR, 'system.json');
-    const systemJson = JSON.parse(await readFile(systemJsonPath, 'utf-8'));
-    for (const p of systemJson.packs || []) {
-      validPf2ePacks.add(p.name);
+    if (existsSync(systemJsonPath)) {
+      const systemJson = JSON.parse(await readFile(systemJsonPath, 'utf-8'));
+      for (const p of systemJson.packs || []) {
+        validPf2ePacks.add(p.name);
+      }
     }
     for (const alias of ['actions', 'conditions', 'equipment', 'feats', 'spells', 'ancestry-features', 'class-features']) {
       validPf2ePacks.add(alias);
     }
 
-    // Connect to LevelDB for live verification of external PF2e items
+    // Connect to LevelDB for live verification of external PF2e items if present
     // We snapshot to a temp dir so that running Foundry instances do not cause LEVEL_LOCKED errors
     const featsPackDir = path.join(PF2E_SYSTEM_DIR, 'packs/feats');
-    const { cp } = await import('node:fs/promises');
-    const os = await import('node:os');
-    const tempDir = path.join(os.tmpdir(), `pf2e-feats-snapshot-${process.pid}`);
-    await cp(featsPackDir, tempDir, { recursive: true, filter: (src) => !src.endsWith('LOCK') });
-    pf2eFeatsDb = new ClassicLevel(tempDir, { valueEncoding: 'json' });
-    await pf2eFeatsDb.open();
+    if (existsSync(featsPackDir)) {
+      const { cp } = await import('node:fs/promises');
+      const os = await import('node:os');
+      const tempDir = path.join(os.tmpdir(), `pf2e-feats-snapshot-${process.pid}`);
+      await cp(featsPackDir, tempDir, { recursive: true, filter: (src) => !src.endsWith('LOCK') });
+      pf2eFeatsDb = new ClassicLevel(tempDir, { valueEncoding: 'json' });
+      await pf2eFeatsDb.open();
+    }
+
+    const fixtureFeatsPath = path.resolve('tests/fixtures/pf2e/feats.json');
+    if (existsSync(fixtureFeatsPath)) {
+      fixtureFeats = JSON.parse(await readFile(fixtureFeatsPath, 'utf-8'));
+    }
   });
 
   afterAll(async () => {
@@ -58,20 +68,33 @@ describe('Ancestries & Heritages: Bestowed Feats, Items, Bonuses, and Traits', (
     }
   });
 
+  let fixtureFeats = {};
+
   function createTestActor(name, items = []) {
-    return new env.docClasses.Actor({
+    if (env?.docClasses?.Actor) {
+      return new env.docClasses.Actor({
+        name,
+        type: 'character',
+        items
+      });
+    }
+    const itemsMap = new Map(items.map((it, idx) => [it._id || `item-${idx}`, it]));
+    itemsMap.contents = items;
+    return {
       name,
       type: 'character',
-      items
-    });
+      items: itemsMap,
+      validate: () => {}
+    };
   }
 
   async function resolveExternalFeat(featId) {
-    try {
-      return await pf2eFeatsDb.get(`!items!${featId}`);
-    } catch {
-      return null;
+    if (pf2eFeatsDb) {
+      try {
+        return await pf2eFeatsDb.get(`!items!${featId}`);
+      } catch {}
     }
+    return fixtureFeats[featId] || null;
   }
 
   describe('Core Ancestries: Attribute Boosts, Base Stats & Inherent Feature Grants', () => {

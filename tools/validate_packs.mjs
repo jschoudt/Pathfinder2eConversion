@@ -5,9 +5,17 @@ import path from 'node:path';
 
 const SRC_DIR = path.resolve('src/packs');
 const MODULE_MANIFEST_PATH = path.resolve('pathfinders-guide-to-eberron/module.json');
-const FOUNDRY_APP_DIR = path.resolve('_foundry/app');
-const PF2E_SYSTEM_DIR = path.resolve('_foundry/data/Data/systems/pf2e');
-const FOUNDRY_OPTIONS_PATH = path.resolve('_foundry/data/Config/options.json');
+const defaultPf2eDir = path.resolve('_foundry/data/Data/systems/pf2e');
+const fixturesPf2eDir = path.resolve('tests/fixtures/pf2e');
+
+const isCiSim = process.argv.includes('--ci') || process.env.CI_SIM === 'true';
+const FOUNDRY_APP_DIR = isCiSim ? path.resolve('/nonexistent') : path.resolve(process.env.FOUNDRY_APP_DIR || '_foundry/app');
+const PF2E_SYSTEM_DIR = isCiSim
+  ? fixturesPf2eDir
+  : (process.env.PF2E_SYSTEM_DIR
+      ? path.resolve(process.env.PF2E_SYSTEM_DIR)
+      : (existsSync(defaultPf2eDir) ? defaultPf2eDir : fixturesPf2eDir));
+const FOUNDRY_OPTIONS_PATH = isCiSim ? path.resolve('/nonexistent') : path.resolve(process.env.FOUNDRY_OPTIONS_PATH || '_foundry/data/Config/options.json');
 
 const DEPRECATED_TERMS = [
   { pattern: /\bflat-footed\b/gi, replacement: 'off-guard', description: 'PF2e Remaster: Flat-footed is now Off-guard' },
@@ -258,10 +266,22 @@ async function main() {
         schemaErrors++;
       }
     } else {
-      // Fallback structural check
-      if (!data._id || !data.name || !data.type || !data.system) {
-        console.warn(`⚠️ Schema issue in ${relPath}: missing required core fields [_id, name, type, system]`);
-        schemaErrors++;
+      // Fallback structural check (when headless Foundry app is not present, e.g. CI)
+      if (docType === 'JournalEntry') {
+        if (!data._id || !data.name || !Array.isArray(data.pages)) {
+          console.warn(`⚠️ Schema issue in ${relPath}: missing required core fields [_id, name, pages]`);
+          schemaErrors++;
+        }
+      } else if (docType === 'RollTable') {
+        if (!data._id || !data.name || !Array.isArray(data.results)) {
+          console.warn(`⚠️ Schema issue in ${relPath}: missing required core fields [_id, name, results]`);
+          schemaErrors++;
+        }
+      } else {
+        if (!data._id || !data.name || !data.type || !data.system) {
+          console.warn(`⚠️ Schema issue in ${relPath}: missing required core fields [_id, name, type, system]`);
+          schemaErrors++;
+        }
       }
     }
 

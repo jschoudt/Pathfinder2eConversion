@@ -32,11 +32,21 @@ describe('Backgrounds and Items: Schemas, Bestowals, and AC Mechanics', () => {
   });
 
   function createTestActor(name, items = []) {
-    return new env.docClasses.Actor({
+    if (env?.docClasses?.Actor) {
+      return new env.docClasses.Actor({
+        name,
+        type: 'character',
+        items
+      });
+    }
+    const itemsMap = new Map(items.map((it, idx) => [it._id || `item-${idx}`, it]));
+    itemsMap.contents = items;
+    return {
       name,
       type: 'character',
-      items
-    });
+      items: itemsMap,
+      validate: () => {}
+    };
   }
 
   describe('Eberron Backgrounds Integration', () => {

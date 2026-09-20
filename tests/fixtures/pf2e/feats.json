@@ -1,0 +1,97 @@
+{
+  "09PurtIanNUPfNRq": {
+    "_id": "09PurtIanNUPfNRq",
+    "name": "Combat Climber",
+    "type": "feat"
+  },
+  "LQw0yIMDUJJkq1nD": {
+    "_id": "LQw0yIMDUJJkq1nD",
+    "name": "Cat Fall",
+    "type": "feat"
+  },
+  "xQMz6eDgX75WX2ce": {
+    "_id": "xQMz6eDgX75WX2ce",
+    "name": "Intimidating Glare",
+    "type": "feat"
+  },
+  "Dvz54d6aPhjsmUux": {
+    "_id": "Dvz54d6aPhjsmUux",
+    "name": "Lie to Me",
+    "type": "feat"
+  },
+  "B6HbYsLBWb1RR6Fx": {
+    "_id": "B6HbYsLBWb1RR6Fx",
+    "name": "Charming Liar",
+    "type": "feat"
+  },
+  "KpFetnUqTiweypZk": {
+    "_id": "KpFetnUqTiweypZk",
+    "name": "Group Impression",
+    "type": "feat"
+  },
+  "X2jGFfLU5qI5XVot": {
+    "_id": "X2jGFfLU5qI5XVot",
+    "name": "Streetwise",
+    "type": "feat"
+  },
+  "ihN8gkHSdPG9Trte": {
+    "_id": "ihN8gkHSdPG9Trte",
+    "name": "Adopted Ancestry",
+    "type": "feat"
+  },
+  "z1Z22gTp7J1VRLSR": {
+    "_id": "z1Z22gTp7J1VRLSR",
+    "name": "Different Worlds",
+    "type": "feat"
+  },
+  "W6Gl9ePmItfDHji0": {
+    "_id": "W6Gl9ePmItfDHji0",
+    "name": "Assurance",
+    "type": "feat"
+  },
+  "beyw5bdA5hkQbmaG": {
+    "_id": "beyw5bdA5hkQbmaG",
+    "name": "Terrain Stalker",
+    "type": "feat"
+  },
+  "I0BhPWqYf1bbzEYg": {
+    "_id": "I0BhPWqYf1bbzEYg",
+    "name": "Diehard",
+    "type": "feat"
+  },
+  "ASy9AKEIRxPYUi5o": {
+    "_id": "ASy9AKEIRxPYUi5o",
+    "name": "Quick Repair",
+    "type": "feat"
+  },
+  "jM72TjJ965jocBV8": {
+    "_id": "jM72TjJ965jocBV8",
+    "name": "Shield Block",
+    "type": "feat"
+  },
+  "wYerMk6F1RZb0Fwt": {
+    "_id": "wYerMk6F1RZb0Fwt",
+    "name": "Battle Medicine",
+    "type": "feat"
+  },
+  "BStw1cANwx5baL6d": {
+    "_id": "BStw1cANwx5baL6d",
+    "name": "Armor Proficiency",
+    "type": "feat"
+  },
+  "x9wxQ61HNkAVbDHr": {
+    "_id": "x9wxQ61HNkAVbDHr",
+    "name": "Weapon Proficiency",
+    "type": "feat"
+  },
+  "Ux73dmoF8KnavyUD": {
+    "_id": "Ux73dmoF8KnavyUD",
+    "name": "Fleet",
+    "type": "feat"
+  },
+  "22P7IFyhrF7Fbw8B": {
+    "_id": "22P7IFyhrF7Fbw8B",
+    "name": "Root Magic",
+    "type": "feat"
+  }
+}

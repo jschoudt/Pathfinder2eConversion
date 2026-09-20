@@ -4,9 +4,17 @@ import path from 'node:path';
 
 export const SRC_DIR = path.resolve('src/packs');
 export const MODULE_MANIFEST_PATH = path.resolve('pathfinders-guide-to-eberron/module.json');
-export const FOUNDRY_APP_DIR = path.resolve('_foundry/app');
-export const PF2E_SYSTEM_DIR = path.resolve('_foundry/data/Data/systems/pf2e');
-export const FOUNDRY_OPTIONS_PATH = path.resolve('_foundry/data/Config/options.json');
+const defaultPf2eDir = path.resolve('_foundry/data/Data/systems/pf2e');
+const fixturesPf2eDir = path.resolve('tests/fixtures/pf2e');
+
+export const isCiSim = process.argv.includes('--ci') || process.env.CI_SIM === 'true';
+export const FOUNDRY_APP_DIR = isCiSim ? path.resolve('/nonexistent') : path.resolve(process.env.FOUNDRY_APP_DIR || '_foundry/app');
+export const PF2E_SYSTEM_DIR = isCiSim
+  ? fixturesPf2eDir
+  : (process.env.PF2E_SYSTEM_DIR
+      ? path.resolve(process.env.PF2E_SYSTEM_DIR)
+      : (existsSync(defaultPf2eDir) ? defaultPf2eDir : fixturesPf2eDir));
+export const FOUNDRY_OPTIONS_PATH = isCiSim ? path.resolve('/nonexistent') : path.resolve(process.env.FOUNDRY_OPTIONS_PATH || '_foundry/data/Config/options.json');
 
 export const DEPRECATED_TERMS = [
   { pattern: /\bflat-footed\b/gi, replacement: 'off-guard', description: 'PF2e Remaster: Flat-footed is now Off-guard' },
@@ -47,13 +55,23 @@ export async function initFoundryEnvironment() {
   const serverMjsPath = path.join(FOUNDRY_APP_DIR, 'common/server.mjs');
   let docClasses = null;
 
+  globalThis.logger = globalThis.logger || {
+    warn: () => {},
+    error: () => {}
+  };
+
+  globalThis.game = globalThis.game || {
+    release: { version: '14.368' },
+    system: { id: 'pf2e', version: '8.5.1', primaryTokenAttribute: 'attributes.hp' },
+    model: {
+      Item: pf2eTemplate ? Object.fromEntries((pf2eTemplate.Item?.types || []).map(t => [t, pf2eTemplate.Item[t] || {}])) : {},
+      Actor: pf2eTemplate ? Object.fromEntries(((pf2eTemplate.Actor?.types || [])).map(t => [t, pf2eTemplate.Actor[t] || {}])) : {},
+      JournalEntryPage: { text: {}, image: {}, pdf: {}, video: {} }
+    }
+  };
+
   if (existsSync(serverMjsPath) && pf2eTemplate) {
     await import(serverMjsPath);
-
-    globalThis.logger = {
-      warn: () => {},
-      error: () => {}
-    };
 
     const allActorTypes = Array.from(new Set([...(pf2eTemplate.Actor?.types || []), 'army', 'character', 'familiar', 'hazard', 'loot', 'npc', 'party', 'vehicle']));
     globalThis.game = {
