@@ -406,4 +406,47 @@ describe('Backgrounds and Items: Schemas, Bestowals, and AC Mechanics', () => {
       });
     });
   });
+
+  describe('2024 Daelkyr Symbionts & Dhakaani Masterworks', () => {
+    it('should verify Living Breastplate statistics and traits', () => {
+      const item = itemMap.get('Living Breastplate');
+      expect(item).toBeDefined();
+      expect(item.type).toBe('armor');
+      expect(item.system.level.value).toBe(10);
+      expect(item.system.category).toBe('medium');
+      expect(item.system.traits.value).toContain('symbiont');
+      expect(item.system.traits.value).toContain('invested');
+    });
+
+    it('should verify Tentacle Whip statistics and traits', () => {
+      const item = itemMap.get('Tentacle Whip');
+      expect(item).toBeDefined();
+      expect(item.type).toBe('weapon');
+      expect(item.system.level.value).toBe(7);
+      expect(item.system.category).toBe('martial');
+      expect(item.system.traits.value).toContain('symbiont');
+      expect(item.system.traits.value).toContain('reach');
+      expect(item.system.traits.value).toContain('trip');
+      expect(item.system.traits.value).toContain('agile');
+    });
+
+    it('should verify Breed Leech statistics and traits', () => {
+      const item = itemMap.get('Breed Leech');
+      expect(item).toBeDefined();
+      expect(item.type).toBe('equipment');
+      expect(item.system.level.value).toBe(8);
+      expect(item.system.traits.value).toContain('symbiont');
+      expect(item.system.traits.value).toContain('invested');
+    });
+
+    it('should verify Atchaas Armor statistics and traits', () => {
+      const item = itemMap.get('Atchaas Armor');
+      expect(item).toBeDefined();
+      expect(item.type).toBe('armor');
+      expect(item.system.level.value).toBe(9);
+      expect(item.system.category).toBe('heavy');
+      expect(item.system.group).toBe('plate');
+    });
+  });
 });
+

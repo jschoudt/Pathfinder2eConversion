@@ -1,0 +1,82 @@
+{
+  "_id": "f3a4b5c6d7e8f9a0",
+  "name": "Breed Leech",
+  "type": "equipment",
+  "img": "systems/pf2e/icons/default-icons/equipment.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "source": {
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "rules": [],
+    "slug": "breed-leech",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "traits": {
+      "value": [
+        "magical",
+        "invested",
+        "symbiont"
+      ],
+      "rarity": "rare",
+      "custom": ""
+    },
+    "description": {
+      "value": "<p>A thick, rubbery daelkyr organism that attaches to the base of your spine. The leech feeds constantly on your blood, imparting the drained 1 condition while it remains invested (this condition cannot be removed until the leech is uninvested). In return, the creature absorbs devastating physical shock: you gain complete immunity to the extra damage from critical hits and precision damage, treating all critical hits against you as normal hits.</p>"
+    },
+    "level": {
+      "value": 8
+    },
+    "quantity": 1,
+    "weight": {
+      "value": "-"
+    },
+    "price": {
+      "value": {
+        "gp": 480
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": true,
+      "handsHeld": 0
+    },
+    "size": "med",
+    "identification": {
+      "status": "identified"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1726848000000,
+    "modifiedTime": 1726848000000,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!f3a4b5c6d7e8f9a0"
+}

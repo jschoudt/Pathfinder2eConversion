@@ -1,0 +1,99 @@
+{
+  "_id": "c1d2e3f4a5b6c7d8",
+  "name": "Tentacle Whip",
+  "type": "weapon",
+  "img": "systems/pf2e/icons/default-icons/equipment.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "source": {
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "rules": [],
+    "slug": "tentacle-whip",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "traits": {
+      "value": [
+        "magical",
+        "invested",
+        "symbiont",
+        "agile",
+        "finesse",
+        "reach",
+        "trip"
+      ],
+      "rarity": "rare",
+      "custom": ""
+    },
+    "description": {
+      "value": "<p>This supple, barbed tentacle bonds with your wrist and forearm, feeding through microscopic capillaries. It functions as a <em>+1 striking whip</em> that deals 1d6 slashing damage, has the agile and finesse traits, and extends your reach to 10 feet. When you critically hit a creature with the tentacle whip, the barbed sting injects psychoactive venom: the target must succeed at a DC 24 Fortitude save or become stupefied 1 for 1 minute (stupefied 2 on a critical failure).</p>"
+    },
+    "level": {
+      "value": 7
+    },
+    "quantity": 1,
+    "weight": {
+      "value": "L"
+    },
+    "price": {
+      "value": {
+        "gp": 360
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": true,
+      "handsHeld": 0
+    },
+    "size": "med",
+    "identification": {
+      "status": "identified"
+    },
+    "damage": {
+      "dice": 1,
+      "die": "d6",
+      "damageType": "slashing"
+    },
+    "category": "martial",
+    "group": "flail",
+    "bonus": {
+      "value": 0
+    },
+    "bonusDamage": {
+      "value": 0
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1726848000000,
+    "modifiedTime": 1726848000000,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!c1d2e3f4a5b6c7d8"
+}

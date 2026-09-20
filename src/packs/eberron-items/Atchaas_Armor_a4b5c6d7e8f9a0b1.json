@@ -1,0 +1,96 @@
+{
+  "_id": "a4b5c6d7e8f9a0b1",
+  "name": "Atchaas Armor",
+  "type": "armor",
+  "img": "systems/pf2e/icons/default-icons/equipment.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "source": {
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "rules": [],
+    "slug": "atchaas-armor",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "traits": {
+      "value": [
+        "magical",
+        "invested"
+      ],
+      "rarity": "rare",
+      "custom": ""
+    },
+    "description": {
+      "value": "<p>Crafted by ancient Dhakaani daashor smiths from folded adamantine and inscribed with runes of <em>atchaas</em> (martial honor and solemn resolve), this suit of full plate functions as <em>+1 resilient adamantine full plate</em>. The wearer embodies the unyielding courage of the empire, gaining complete immunity to the frightened condition and a +2 circumstance bonus to saving throws against emotion and mental effects.</p>"
+    },
+    "level": {
+      "value": 9
+    },
+    "quantity": 1,
+    "weight": {
+      "value": "3"
+    },
+    "price": {
+      "value": {
+        "gp": 700
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": true,
+      "handsHeld": 0
+    },
+    "size": "med",
+    "identification": {
+      "status": "identified"
+    },
+    "category": "heavy",
+    "group": "plate",
+    "armor": {
+      "value": 6
+    },
+    "strength": 18,
+    "dex": {
+      "value": 0
+    },
+    "check": {
+      "value": -3
+    },
+    "speed": {
+      "value": -10
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1726848000000,
+    "modifiedTime": 1726848000000,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!a4b5c6d7e8f9a0b1"
+}

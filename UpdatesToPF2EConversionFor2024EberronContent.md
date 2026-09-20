@@ -235,5 +235,5 @@ Following the natural character creation and dependency sequence:
 | **Phase 2** | **Backgrounds & Origins** | `eberron-backgrounds/` | Completed | 2026-09-20 12:49 EDT |
 | **Phase 3** | **Religions & Deities** | `eberron-deities/`, `eberron-spells/` | Completed | 2026-09-20 12:56 EDT |
 | **Phase 4** | **Classes & Archetypes** | `eberron-classes/`, `eberron-feats/` | Completed | 2026-09-20 13:02 EDT |
-| **Phase 5** | **Spells & Magic Items** | `eberron-spells/`, `eberron-items/` | Planned | — |
+| **Phase 5** | **Spells & Magic Items** | `eberron-spells/`, `eberron-items/` | Completed | 2026-09-20 13:18 EDT |
 | **Phase 6** | **Vehicles & Bestiary** | `eberron-items/` (Vehicles), `eberron-creatures/` | Planned | — |

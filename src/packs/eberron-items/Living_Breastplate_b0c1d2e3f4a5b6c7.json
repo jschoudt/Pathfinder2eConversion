@@ -1,0 +1,97 @@
+{
+  "_id": "b0c1d2e3f4a5b6c7",
+  "name": "Living Breastplate",
+  "type": "armor",
+  "img": "systems/pf2e/icons/default-icons/equipment.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "source": {
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "rules": [],
+    "slug": "living-breastplate",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "traits": {
+      "value": [
+        "magical",
+        "invested",
+        "symbiont"
+      ],
+      "rarity": "rare",
+      "custom": ""
+    },
+    "description": {
+      "value": "<p>This chitinous breastplate of alien tendon, shell, and pulsating muscle grafts directly to your ribs and torso upon investment. It acts as a <em>+1 resilient breastplate</em>. The breastplate constantly filters your bodily fluids, granting you a +1 item bonus to Fortitude saving throws against poisons and diseases, and you recover 5 Hit Points every 10 minutes. However, the living breastplate demands vitality: during your daily preparations, it drains vital humors, requiring you to consume double your normal rations or suffer its gnawing hunger.</p>"
+    },
+    "level": {
+      "value": 10
+    },
+    "quantity": 1,
+    "weight": {
+      "value": "1"
+    },
+    "price": {
+      "value": {
+        "gp": 1000
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": true,
+      "handsHeld": 0
+    },
+    "size": "med",
+    "identification": {
+      "status": "identified"
+    },
+    "category": "medium",
+    "group": "composite",
+    "armor": {
+      "value": 4
+    },
+    "strength": 14,
+    "dex": {
+      "value": 2
+    },
+    "check": {
+      "value": -1
+    },
+    "speed": {
+      "value": 0
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1726848000000,
+    "modifiedTime": 1726848000000,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!b0c1d2e3f4a5b6c7"
+}

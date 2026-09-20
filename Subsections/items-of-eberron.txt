@@ -1150,9 +1150,21 @@ item(
 ; Rare, Invested, Magical
 **Usage** held in 1 hand; **Bulk** L
 
-**Price** 480 gp
+**Price** 500 gp
 -
-Prized by Dhakaani Shaarat'khesh assassins, this dagger features an embedded Khyber shard in its pommel. It functions as a *+1 striking wounding dagger*. When you reduce a living creature to 0 Hit Points with this weapon, the target's soul is severed and destroyed; the creature can only be returned to life by a 10th-rank *Wish* or miracle.
+This dagger has a blade carved from Khyber dragonshard crystal that pulses with pale green malice. It functions as a *+1 striking wounding dagger*. When you reduce a living creature to 0 Hit Points with the dagger, you can trap its soul in the crystal hilt (as per the *bind soul* ritual). While holding a trapped soul, the dagger deals an additional 1d6 void damage on Strikes.
+)
+
+item(
+# Atchaas Armor
+## Item 9
+-
+; Rare, Invested, Magical
+**Usage** worn armor; **Bulk** 3
+
+**Price** 700 gp
+-
+Crafted by ancient Dhakaani daashor smiths from folded adamantine and inscribed with runes of *atchaas* (martial honor and solemn resolve), this suit of full plate functions as *+1 resilient adamantine full plate*. The wearer embodies the unyielding courage of the empire, gaining complete immunity to the frightened condition and a +2 circumstance bonus to saving throws against emotion and mental effects.
 )
 
 item(
@@ -1375,6 +1387,42 @@ item(
 **Price** 60 gp
 -
 A leathery eyestalk protruding 18 inches from your shoulder. It remains awake while you sleep, granting you your full Perception DC against ambushes. You can extend it around corners and over walls to peer into danger without exposing your body.
+)
+
+item(
+# Living Breastplate
+## Item 10
+-
+; Rare, Invested, Magical, Symbiont
+**Usage** worn armor; **Bulk** 1
+
+**Price** 1,000 gp
+-
+This chitinous breastplate of alien tendon, shell, and pulsating muscle grafts directly to your ribs and torso upon investment. It acts as a *+1 resilient breastplate*. The breastplate constantly filters your bodily fluids, granting you a +1 item bonus to Fortitude saving throws against poisons and diseases, and you recover 5 Hit Points every 10 minutes. However, the living breastplate demands vitality: during your daily preparations, it drains vital humors, requiring you to consume double your normal rations or suffer its gnawing hunger.
+)
+
+item(
+# Tentacle Whip
+## Item 7
+-
+; Rare, Invested, Magical, Symbiont
+**Usage** held in 1 hand; **Bulk** L
+
+**Price** 360 gp
+-
+This supple, barbed tentacle bonds with your wrist and forearm, feeding through microscopic capillaries. It functions as a *+1 striking whip* that deals 1d6 slashing damage, has the agile and finesse traits, and extends your reach to 10 feet. When you critically hit a creature with the tentacle whip, the barbed sting injects psychoactive venom: the target must succeed at a DC 24 Fortitude save or become stupefied 1 for 1 minute (stupefied 2 on a critical failure).
+)
+
+item(
+# Breed Leech
+## Item 8
+-
+; Rare, Invested, Magical, Symbiont
+**Usage** attached to spine; **Bulk** —
+
+**Price** 480 gp
+-
+A thick, rubbery daelkyr organism that attaches to the base of your spine. The leech feeds constantly on your blood, imparting the drained 1 condition while it remains invested (this condition cannot be removed until the leech is uninvested). In return, the creature absorbs devastating physical shock: you gain complete immunity to the extra damage from critical hits and precision damage, treating all critical hits against you as normal hits.
 )
 |
 =
