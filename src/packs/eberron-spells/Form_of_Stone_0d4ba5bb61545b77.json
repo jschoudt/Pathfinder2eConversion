@@ -1,0 +1,79 @@
+{
+  "name": "Form of Stone",
+  "type": "spell",
+  "img": "systems/pf2e/icons/default-icons/spell.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_id": "0d4ba5bb61545b77",
+  "system": {
+    "description": {
+      "value": "<p>Reaction upon taking damage: calcify skin for Hardness 5, then step through adjacent stone up to 15 feet away.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "OGL",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "rules": [],
+    "slug": "form-of-stone",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "level": {
+      "value": 1
+    },
+    "traits": {
+      "value": [
+        "witch",
+        "focus",
+        "earth",
+        "uncommon",
+        "manipulate"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "traditions": {
+      "value": [],
+      "custom": ""
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "time": {
+      "value": "reaction"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1726848000000,
+    "modifiedTime": 1726848000000,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!0d4ba5bb61545b77"
+}

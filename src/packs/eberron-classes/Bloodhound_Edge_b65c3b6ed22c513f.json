@@ -1,0 +1,69 @@
+{
+  "name": "Bloodhound Edge",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/class.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_id": "b65c3b6ed22c513f",
+  "system": {
+    "description": {
+      "value": "<p>Hunt Prey tracks quarry at any distance through ley lines. First Strike deals +1d6 precision damage, with Relentless Pursuit and Eyes on the Prize feats.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "OGL",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "rules": [],
+    "slug": "bloodhound-edge",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "level": {
+      "value": 1
+    },
+    "traits": {
+      "value": [
+        "ranger"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "category": "classfeature",
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1726848000000,
+    "modifiedTime": 1726848000000,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!b65c3b6ed22c513f"
+}

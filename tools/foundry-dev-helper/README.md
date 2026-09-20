@@ -6,12 +6,16 @@ A lightweight Manifest V3 Chrome extension designed to eliminate round-trip late
 - **Instant Auto-Login**: Automatically selects "Gamemaster" on the `/join` screen and submits before the page even finishes rendering.
 - **Auto-Launch World**: If you ever land on the `/setup` screen, automatically launches the `pf2e-test` world.
 - **NUE & Tour Suppression**: Silences first-time tours, tips, and welcome popups.
+- **Auto-Unpause on Load**: Automatically unpauses the game once the GM joins and the UI/world finishes loading, avoiding paused-state test blocks.
 - **Console Automation API**: Exposes `window.__FOUNDRY_DEV_HELPER__` in the main page context:
   - `__FOUNDRY_DEV_HELPER__.runTests()`
   - `__FOUNDRY_DEV_HELPER__.getErrors()`
   - `__FOUNDRY_DEV_HELPER__.copyAllErrors()`
   - `__FOUNDRY_DEV_HELPER__.clearErrors()`
   - `__FOUNDRY_DEV_HELPER__.openErrorTab()`
+  - `__FOUNDRY_DEV_HELPER__.unpauseGame()`
+  - `__FOUNDRY_DEV_HELPER__.pauseGame()`
+  - `__FOUNDRY_DEV_HELPER__.isPaused()`
 
 ## How to Load in Chrome
 1. Open Chrome and navigate to `chrome://extensions`.

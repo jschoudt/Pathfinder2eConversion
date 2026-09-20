@@ -1,0 +1,107 @@
+{
+  "name": "Worg",
+  "type": "ancestry",
+  "img": "systems/pf2e/icons/default-icons/ancestry.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_id": "d19057a5351a5fff",
+  "system": {
+    "description": {
+      "value": "<p>Intelligent canid predators of the Great Pack with speech, keen senses, and pack loyalty. Worgs fight alongside riders as equals, wielding specialized steel jaw harnesses in battle.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "OGL",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "rules": [],
+    "slug": "worg",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "traits": {
+      "value": [
+        "beast",
+        "worg"
+      ],
+      "rarity": "rare",
+      "custom": ""
+    },
+    "hp": 10,
+    "size": "med",
+    "reach": 5,
+    "speed": 35,
+    "boosts": {
+      "0": {
+        "value": [
+          "str"
+        ]
+      },
+      "1": {
+        "value": [
+          "wis"
+        ]
+      },
+      "2": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      }
+    },
+    "flaws": {
+      "0": {
+        "value": [
+          "int"
+        ]
+      }
+    },
+    "languages": {
+      "value": [
+        "common",
+        "goblin"
+      ],
+      "custom": ""
+    },
+    "additionalLanguages": {
+      "value": [],
+      "count": 1,
+      "custom": ""
+    },
+    "items": {},
+    "vision": "darkvision"
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1726848000000,
+    "modifiedTime": 1726848000000,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!d19057a5351a5fff"
+}

@@ -39,13 +39,17 @@ describe('Character Options: Ancestries, Heritages & Backgrounds Integration', (
   }
 
   describe('Ancestries Integration', () => {
-    it('should find all 5 Eberron ancestries', () => {
-      expect(ancestryMap.size).toBe(5);
+    it('should find all 9 Eberron ancestries', () => {
+      expect(ancestryMap.size).toBe(9);
       expect(ancestryMap.has('Warforged')).toBe(true);
       expect(ancestryMap.has('Kalashtar')).toBe(true);
       expect(ancestryMap.has('Shifter')).toBe(true);
       expect(ancestryMap.has('Eberron Changeling')).toBe(true);
       expect(ancestryMap.has('Bugbear')).toBe(true);
+      expect(ancestryMap.has('Gargoyle')).toBe(true);
+      expect(ancestryMap.has('Harpy')).toBe(true);
+      expect(ancestryMap.has('Medusa')).toBe(true);
+      expect(ancestryMap.has('Worg')).toBe(true);
     });
 
     it('should cleanly instantiate each ancestry on a character actor and validate all granted items', () => {
@@ -211,13 +215,13 @@ describe('Character Options: Ancestries, Heritages & Backgrounds Integration', (
   });
 
   describe('Backgrounds Integration', () => {
+    const DRAGONMARKED_BACKGROUNDS = ['House Agent', 'Excoriate', 'Foundling', 'House Orphan', 'House Scion'];
+
     it('should find all 5 Eberron dragonmarked backgrounds', () => {
-      expect(backgroundMap.size).toBe(5);
-      expect(backgroundMap.has('House Agent')).toBe(true);
-      expect(backgroundMap.has('Excoriate')).toBe(true);
-      expect(backgroundMap.has('Foundling')).toBe(true);
-      expect(backgroundMap.has('House Orphan')).toBe(true);
-      expect(backgroundMap.has('House Scion')).toBe(true);
+      expect(backgroundMap.size).toBeGreaterThanOrEqual(5);
+      for (const name of DRAGONMARKED_BACKGROUNDS) {
+        expect(backgroundMap.has(name)).toBe(true);
+      }
     });
 
     it('should cleanly instantiate each background on a character actor and verify lore and boosts', () => {
@@ -225,17 +229,16 @@ describe('Character Options: Ancestries, Heritages & Backgrounds Integration', (
         const actor = createTestActor(`Test ${name}`, [bg]);
         expect(() => actor.validate()).not.toThrow();
 
-        // All 5 Eberron backgrounds grant Dragonmarked Houses lore
-        expect(bg.system.trainedLore).toBe('Dragonmarked Houses');
-
-        // Custom skill prompt for house selection
-        expect(bg.system.trainedSkills?.custom).toBe('House Skill (Table 2-1)');
-
-        // Boost 0: choice of house attributes (Wis, Cha, Int)
-        expect(bg.system.boosts['0'].value).toEqual(expect.arrayContaining(['cha', 'int', 'wis']));
-
-        // Boost 1: free attribute boost (all 6 stats available)
-        expect(bg.system.boosts['1'].value.length).toBe(6);
+        // If it's one of the 5 core dragonmarked backgrounds
+        if (DRAGONMARKED_BACKGROUNDS.includes(name)) {
+          expect(bg.system.trainedLore).toBe('Dragonmarked Houses');
+          expect(bg.system.trainedSkills?.custom).toBe('House Skill (Table 2-1)');
+          expect(bg.system.boosts['0'].value).toEqual(expect.arrayContaining(['cha', 'int', 'wis']));
+          expect(bg.system.boosts['1'].value.length).toBe(6);
+        } else {
+          expect(typeof bg.system.trainedLore).toBe('string');
+          expect(bg.system.boosts['1'].value.length).toBe(6);
+        }
       }
     });
   });

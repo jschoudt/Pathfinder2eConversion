@@ -229,9 +229,13 @@
         "creatureTraits": {
           "bugbear": "Bugbear",
           "eberron-changelings": "Eberron Changeling",
+          "gargoyle": "Gargoyle",
+          "harpy": "Harpy",
           "kalashtar": "Kalashtar",
+          "medusa": "Medusa",
           "shifter": "Shifter",
           "warforged": "Warforged",
+          "worg": "Worg",
           "aberrant-mark": {
             "label": "Aberrant Mark",
             "description": "This mark heritage is unique to the Aberrant Mark Versatile Heritage. You may only select feats, interact with items, and cast spells with this Trait if you possess the Aberrant Mark trait, in which case you ignore any other specific mark heritage traits."
@@ -365,10 +369,14 @@
             "description": "This mark heritage is unique to the Mark of Warding Heritage. You may only select feats and cast spells with this Trait if you possess the Mark of Warding trait, in which case you ignore any other specific mark heritage traits."
           },
           "eberron-changelings": "Eberron Changeling",
+          "gargoyle": "Gargoyle",
+          "harpy": "Harpy",
           "kalashtar": "Kalashtar",
+          "medusa": "Medusa",
           "shifter": "Shifter",
           "wandslinger": "Wandslinger",
-          "warforged": "Warforged"
+          "warforged": "Warforged",
+          "worg": "Worg"
         },
         "languages": {
           "riedran": "Riedran",

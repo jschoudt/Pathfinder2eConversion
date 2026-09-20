@@ -79,3 +79,65 @@ Choose two ability boosts. One must be to **Wisdom**, **Charisma**, or **Intelli
 You've picked up the skill related to your house (table 4-1), and a Lore related to that skill rather than the dragonmarked houses. You gain the associated skill feat related to your house.
 )
 |
+item(
+# Dragonmarked Bravo ((+Dragonmarked Bravo))
+## Background
+-
+Your work for your house took advantage of your strength and speed, whether as a Deneith mercenary, a Tharashk recovery operative, or a guardian protecting trade caravans.
+
+Choose two ability boosts. One must be to **Strength** or **Charisma**; and one is a free ability boost.
+
+You're trained in **Athletics** and **Warfare Lore**. You gain the **Titan Wrestler** skill feat. You have access to the dragonmark feats of your house.
+)
+item(
+# Magewright ((+Magewright))
+## Background
+-
+Everyday magic is the lifeblood of Khorvaire's economy. You learned practical spells to aid your trade, whether as a smith using *mending*, an entertainer using illusions, or a cleaner using *prestidigitation*.
+
+Choose two ability boosts. One must be to **Intelligence** or **Wisdom**; and one is a free ability boost.
+
+You're trained in **Crafting** and **Guild Lore**. You gain the **Specialty Crafting** skill feat. You gain one common utility cantrip (*light*, *prestidigitation*, or *sigil*) as an innate arcane or primal cantrip.
+)
+=
+item(
+# Wandslinger ((+Wandslinger))
+## Background
+-
+Bows and blades are relics of the past; along the frontier and on Last War battlefields, you learned that survival belongs to whoever draws a wand fastest.
+
+Choose two ability boosts. One must be to **Dexterity** or **Charisma**; and one is a free ability boost.
+
+You're trained in **Intimidation** and **Warfare Lore**. You gain the **Quick Draw** skill feat (which can be used to draw wands and staves). You gain one common attack cantrip (*frostbite*, *ignition*, or *telekinetic projectile*) as an innate arcane cantrip.
+)
+item(
+# Frontier Marshal ((+Frontier Marshal))
+## Background
+-
+Wearing a tin star or enforcing the decree of Droaamite warlords, you uphold the law in wild border boomtowns.
+
+Choose two ability boosts. One must be to **Wisdom** or **Strength**; and one is a free ability boost.
+
+You're trained in **Survival** and **Legal Lore**. You gain the **Experienced Tracker** skill feat.
+)
+|
+item(
+# Dragonshard Prospector ((+Dragonshard Prospector))
+## Background
+-
+You read geological strata and brave hostile wilds to unearth Siberys and Khyber dragonshard deposits.
+
+Choose two ability boosts. One must be to **Constitution** or **Wisdom**; and one is a free ability boost.
+
+You're trained in **Survival** and **Dragonshard Lore**. You gain the **Terrain Expertise** skill feat.
+)
+item(
+# Droaam Emissary ((+Droaam Emissary))
+## Background
+-
+You serve the Daughters of Sora Kell, Katra's Voice, or a monstrous warlord as a diplomatic envoy along the Border Road.
+
+Choose two ability boosts. One must be to **Charisma** or **Intelligence**; and one is a free ability boost.
+
+You're trained in **Diplomacy** and **Droaam Lore**. You gain the **Hobnobber** skill feat.
+)

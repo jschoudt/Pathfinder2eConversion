@@ -1,0 +1,80 @@
+{
+  "name": "Earth Tremor",
+  "type": "spell",
+  "img": "systems/pf2e/icons/default-icons/spell.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_id": "d98a0e1bfdcb567b",
+  "system": {
+    "description": {
+      "value": "<p>10-foot emanation slams ground, dealing 2d6 bludgeoning damage, knocking creatures prone, and creating difficult terrain.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "OGL",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "rules": [],
+    "slug": "earth-tremor",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "level": {
+      "value": 1
+    },
+    "traits": {
+      "value": [
+        "earth",
+        "concentrate",
+        "manipulate"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "traditions": {
+      "value": [
+        "arcane",
+        "primal"
+      ],
+      "custom": ""
+    },
+    "school": {
+      "value": "evocation"
+    },
+    "category": {
+      "value": "spell"
+    },
+    "time": {
+      "value": "2"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1726848000000,
+    "modifiedTime": 1726848000000,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!d98a0e1bfdcb567b"
+}

@@ -49,7 +49,7 @@ describe('Backgrounds and Items: Schemas, Bestowals, and AC Mechanics', () => {
     ];
 
     it('should find all 5 dragonmarked house backgrounds', () => {
-      expect(backgroundMap.size).toBe(5);
+      expect(backgroundMap.size).toBeGreaterThanOrEqual(5);
       for (const bg of EXPECTED_BACKGROUNDS) {
         expect(backgroundMap.has(bg.name), `Missing background: ${bg.name}`).toBe(true);
       }

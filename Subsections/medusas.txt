@@ -1,0 +1,107 @@
+head( 
+# Medusas ((++Medusa)) 
+Medusas are infamous across Khorvaire for the deadly power of their petrifying gaze. In Droaam, the medusas of Cazhaak Draal are regarded with great respect: they are master stonemasons, calm tacticians, and the chief spiritual architects of the Cazhaak creed of the Dark Six. Their hair consists of living serpents that observe their surroundings and communicate through Serpentine, a subtle gestural sign language.
+-
+) 
+
+Medusas tend to be calm, calculating, and deliberate—valuable traits when a single glance can turn flesh to permanent granite. They view stone as sacred, permanent, and pure.
+
+## You might... 
+- Speak softly and move deliberately, keeping your head-serpents calm.
+- Appreciate monumental stone architecture and the beauty of petrified forms.
+- Observe enemies silently before deciding the exact moment to strike.
+
+## Others Probably... 
+- Avoid looking you directly in the eyes for fear of being turned to stone.
+- Respect your expertise in masonry, ancient history, and religious dogma.
+- Find your writhing hair disconcerting or mesmerizing.
+
+## Physical Description... 
+Medusas appear as elegant humanoids with hair made entirely of living, venomous serpents. Skin textures vary between smooth humanoid flesh, fine iridescent scales, or textured skin resembling polished marble. Their eyes are arresting, often glowing faintly with green, amber, or gray light. They stand between 5 and 6 feet tall.
+
+## Society... 
+The city of Cazhaak Draal is the cultural and spiritual center of Eberron's medusas. Under Queen Sheshka, medusas act as judges, architects, and priests of the Dark Six across Droaam. Younger medusas possess a developing gaze (*Gray Gaze*) that stiffens opponents, while older champions develop true petrification.
+
+## Alignment and Religion... 
+Medusas trend toward lawful neutral alignments, valuing order, architectural precision, and sacred duty. They are devoted to the Cazhaak Creed, revering the Dark Six as noble teachers and guardians of the forgotten realms.
+
+## Names... 
+Medusa names emphasize sibilant sounds, classic Ohr Kaluun roots, and titles of craftsmanship.
+### Sample Names 
+Chryseis, Euryale, Kassandra, Melissa, Sarkaas, Semele, Sheshka, Stheno, Thessa, Vassala, Zerasha
+
+= 
+right(
+## Rarity
+Rare (Uncommon in Droaam)
+## Hit Points 
+8 
+## Size 
+Medium 
+## Speed 
+25 feet 
+## Attribute Boosts 
+Constitution 
+Charisma 
+Free 
+## Attribute Flaw 
+Strength 
+## Languages 
+Common 
+Undercommon 
+Serpentine (a silent sign language conveyed through the movement of head-serpents; no written form) 
+## Traits 
+Medusa 
+Humanoid 
+## Special Abilities
+- **Darkvision:** You can see in darkness and dim light just as well as in bright light.
+- **Fearsome Presence:** You are trained in Intimidation.
+- **Ophidian Senses:** The vipers atop your head perceive your surroundings even when you are blinded. You gain imprecise scent with a range of 30 feet and cannot be made off-guard solely by flanking creatures unless those creatures are invisible.
+- **Gray Gaze (Innate Cantrip):** You can focus your eyes on an enemy to stiffen their limbs. You gain the *gray gaze* cantrip as an innate occult cantrip.
+- **Medusa's Gift:** Once per day, when a creature fails its saving throw against your *gray gaze*, you can choose to augment the effect. The creature becomes restrained for 1 round unless it succeeds at a Fortitude save against your class DC or spell DC at the start of its turn.
+) 
+
+# Medusa Heritages
+Choose one of the following medusa heritages at 1st level:
+
+## Cazhaak Mason
+Trained in the sacred stonework of Cazhaak Draal, you can inspect stone to identify hidden passages, structural weaknesses, and ancient runes. You gain the Specialty Crafting (Stonemasonry) skill feat and a +1 circumstance bonus to Perception checks to notice stonework traps or hazards.
+
+## Scaled Gaze
+Your eyes gleam with concentrated venom. When a creature critically fails its saving throw against your *gray gaze* cantrip, it also takes 1d4 persistent poison damage.
+
+## Ophidian Seer
+Your serpents whisper warnings of imminent danger. You gain a +2 circumstance bonus to initiative rolls and saving throws against traps and hazards.
+
+|
+# Medusa Ancestry Feats
+
+item(
+# Snakebite Mane
+## Feat 1
+-
+; Medusa
+Your serpent hair can lash out at foes. You gain a snakebite unarmed attack that deals 1d4 piercing damage plus 1d4 poison damage with the agile and finesse traits.
+)
+
+item(
+# Shadow's Gift of Stone
+## Feat 5
+-
+; Medusa
+The Shadow grants you arcane mastery over immobility. You can cast *hold person* and *slow* each once per day as innate occult spells using your Charisma modifier.
+)
+
+item(
+# Stone Eyes
+## Feat 9
+-
+; Medusa
+**Frequency** once per day
+-
+You unleash your true petrifying gaze. One target within 30 feet must succeed at a Fortitude save against your class DC or spell DC.
+- **Critical Success** Unaffected.
+- **Success** The target is slowed 1 for 1 round.
+- **Failure** The target is restrained for 1 round as its flesh turns to stone. At the end of that round, it must attempt a second Fortitude save; if it fails, it is petrified permanently.
+- **Critical Failure** The target is immediately petrified permanently.
+)

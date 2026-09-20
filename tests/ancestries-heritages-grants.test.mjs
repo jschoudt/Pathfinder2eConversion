@@ -702,7 +702,11 @@ describe('Ancestries & Heritages: Bestowed Feats, Items, Bonuses, and Traits', (
         'eberron-changelings',
         'kholo',
         'gnoll',
-        'dragonmarked-heritage'
+        'dragonmarked-heritage',
+        'gargoyle',
+        'harpy',
+        'medusa',
+        'worg'
       ]);
 
       for (const feat of ancestryFeats) {

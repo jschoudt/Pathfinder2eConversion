@@ -1,0 +1,63 @@
+{
+  "name": "Scaled Gaze",
+  "type": "heritage",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_id": "fb4b3d7aa1bb5883",
+  "system": {
+    "description": {
+      "value": "<p>When an enemy critically fails against your Gray Gaze, they take 1d4 persistent poison damage.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "OGL",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "rules": [],
+    "slug": "scaled-gaze",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "traits": {
+      "value": [
+        "medusa"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "ancestry": {
+      "name": "Medusa",
+      "uuid": "Compendium.pathfinders-guide-to-eberron.eberron-ancestries.b0d047824f9f5915"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1726848000000,
+    "modifiedTime": 1726848000000,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!fb4b3d7aa1bb5883"
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Divine Bargain",
+  "type": "spell",
+  "img": "systems/pf2e/icons/default-icons/spell.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_id": "39fe1568f1d6588c",
+  "system": {
+    "description": {
+      "value": "<p>Magical transaction siphoning essence to heal an ally or granting temporary HP while enfeebling a foe.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "OGL",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "rules": [],
+    "slug": "divine-bargain",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "level": {
+      "value": 4
+    },
+    "traits": {
+      "value": [
+        "cleric",
+        "focus",
+        "healing",
+        "void",
+        "uncommon",
+        "concentrate"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "traditions": {
+      "value": [],
+      "custom": ""
+    },
+    "school": {
+      "value": "necromancy"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "time": {
+      "value": "2"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1726848000000,
+    "modifiedTime": 1726848000000,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!39fe1568f1d6588c"
+}

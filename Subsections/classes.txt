@@ -21,9 +21,15 @@ Artificers are a class designed around the creative application of the arcane sc
 
 # Barbarian ((++Barbarian))
 Barbarians need no adjusting at all. You could consider the source of your instincts; perhaps as a shifter your nature provides the "Animal Instinct"; or you are a halfling or elf in tune with the spirits of your ancestors for the "Spirit Instinct".
+
+### Demonshard Instinct
+Demonglass holds the essence of a bound fiend. By embedding a demonglass shard in your body, you channel infernal fury. While raging, your melee strikes deal additional fire or void damage. You gain the *Fiendish Retribution* reaction (damaging enemies within 60 ft who harm you or an adjacent ally) and access to feats like *Jealous Mind*, *Overflowing Malice*, and *Aspect of Tyranny*.
 |
 # Bard ((++Bard))
 The bards of Eberron perform in many different roles: from research to diplomacy, to performance, to espionage. Consider how you might use your powers as a bard to fit into the world. When selecting your muse, keep in mind that many deities may exist only metaphysically. However, this does open your muse to be from any metaphysical concept; as many powers in Eberron are derived from belief rather than a divine source.
+
+### Muse of Wands
+You treat wandplay as high performance and every combat as a symphony. You gain the *Wandslinger's Flourish* composition cantrip, allowing you to empower cantrips cast from wands while bolstering your allies' defenses.
 
 # Champion ((++Champion))
 Champions of Eberron are not required to be tied to alignment or deities. If you are playing with the suggested alignment variant, you should feel free to select any alignment rather than the requirements of tenant, deity, or cause. While you must pick just one Tenant and Cause, these are guidelines rather than rules. Similarly, Anathemas and Edicts of your beliefs are guidelines that you should do your best to follow but are not necessary rules. If you are breaking the standards of your Tenant, Edicts, or Cause, think about why this may be the case for your character. Finally, your power can be derived from any metaphysical concept rather than just deities, you need simply to have faith in it. See the cleric entry for how you might build a new faith.
@@ -32,6 +38,11 @@ Champions of Eberron are not required to be tied to alignment or deities. If you
 Clerics of Eberron, like champions, are not required to be tied to alignment or deities. If you do follow one of the major religions, you need not be of the same or even similar alignment - there are even clerics in Eberron who serve neither church nor deity. If this is the case, you should pick a principle or abstract ideal
 =
 that you instead put your faith in. It is from this faith that your power is drawn. You may build out the details of your belief, including divine ability, divine font, divine skill, favoured weapons, domains, domain, spells, edicts, and anathema. When following a faith, anathemas and edicts are more of a guideline than a rule. Should you violate the anathema repeatedly, this may draw the ire of your church, or you may even begin to have your faith waver, however it is unlikely that the power you revere will take any action as a result.
+
+### Commerce Domain
+Commerce clerics revere Kol Korran or the Keeper, recognizing the divine symmetry between spiritual trade and material coin.
+- **Initial Domain Spell:** *Divine Wealth* (Spend or gain conjured divine coins to grant bonuses or penalties to saving throws).
+- **Advanced Domain Spell:** *Divine Bargain* (Magically trade health and metaphysical boons between creatures).
 
 # Druid ((++Druid))
 There are a number of different sects of druids in Eberron. Druidic orders can be associated with any sect, however many sects have a tendency towards a few orders. The Ashbound may trend towards the Wild order, while the Wardens of the Wood may be Leaf or Animal. Not all druids are part of a sect, so feel free to place yourself in the world with the assistance of your GM.
@@ -58,13 +69,19 @@ While less common than fighters, monks fit into the world in many different cult
 Oracles don't require modification to fit the setting, but you should consider how and where your mystery came from. With absent gods, you may need to think about other potential sources of your mystery. Perhaps the powers of an old relic, an arcane accident, the spirits of your ancestors, or perhaps it's a mystery!
 
 # Ranger ((++Ranger))
-There are many untamed wilds and lands in Eberron, and the ranger can roam any of them. Rangers fit the setting without any changes.
+There are many untamed wilds and lands in Eberron, and the ranger can roam any of them.
+
+### Bloodhound Hunter's Edge
+Trained by House Tharashk or the Great Pack of Droaam, you track targets across any distance using ley line resonance. When you Hunt Prey, your tracking ignores range penalties, your first Strike each round deals an additional 1d6 precision damage, and you gain access to feats like *Relentless Pursuit* and *Eyes on the Prize*.
 
 # Rogue ((++Rogue))
 There are a number of criminal elements throughout Khorvaire, and you could be involved in any one of them... or none at all, for every nation has no end for its need for spies and thieves. Rogues fit the setting without any changes.
 
 # Sorcerer ((++Sorcerer))
-Sorcerers draw their power from the magic inherent to their bloodline, consider where this power could have come from. Undead may be drawn from your family's ties to the blood of vol, the hag bloodline could be the result of an interaction with the hags of Droaam, or Aberrant could be the result of Daelkyr influence. There are a number of ways you can think about tying your bloodline to the world.
+Sorcerers draw their power from the magic inherent to their bloodline. 
+
+### Nemesis Bloodline
+Trained for the arcane duel, your bloodline grants you occult or arcane countermagic. You gain the *Spell Deflection* reaction to blunt incoming spell damage, and granted spells focused on dueling (*shield*, *mirror image*, *counterspell*, *resilient sphere*).
 
 # Summoner ((++Summoner))
 Summoners are unique magic users and are more difficult to place in the world of Eberron, though they can still be placed. Consider where your Eidolon has come from, and how others might react to their presence. Is your Divine Eidolon from Irian? Perhaps your Dragon eidolon is an echo of the essence of one
@@ -75,9 +92,13 @@ of the progenitor dragons. Work with your GM to figure out a source.
 The daring and bold swashbucklers fit easily into the world of Eberron, and even more so as a standard adventurer. Swashbucklers fit the setting without any changes.
 
 # Witch ((++Witch))
-Witches, like sorcerers, draw their power from an external source, in this case, it is a patron rather than a bloodline. Consider how this patron fits into the world. Fey could be one of the many archfey of Thelanis, Wild order may be the blessing of a powerful druid in the Eldeen Reaches, and Winter could even just be the touch of a creature of the plane of Risia. Only Baba Yaga is difficult to fit, as Baba
+Witches draw their power from a patron. 
 
-Yaga is not a canonical creature of Eberron. However, you could work with your GM to make one of the Daughters of Sora Kell be your patron, Sora Teraza is mysterious in her ways. There are a number of ways you can think about tying your patron to the world.
+### Stone Sovereign Patron
+You commune with the living stone under the patronage of the daelkyr Orlassk, King Grayfinger, or Queen Sheshka of Cazhaak Draal.
+- **Patron Theme:** Primal or Occult
+- **Hex Cantrip:** *Gray Gaze* (petrifying glance dealing damage and penalizing Reflex saves)
+- **Hex Spell:** *Form of Stone* (Reaction: calcify your body to absorb damage with Hardness 5 and slip through stone)
 
 # Wandslingers ((++Wandslinger))
 Wandslingers are wand wielding proud arcane duelists of Eberron. Wandslingers are implemented as a special Way of the Gunslinger class, and Gunslingers, in general, are commonly referred to as Wandslingers in Eberron. See the Gunslinger class entry for more information.

@@ -1,0 +1,74 @@
+{
+  "name": "Steel Jaws",
+  "type": "weapon",
+  "img": "systems/pf2e/icons/default-icons/weapon.svg",
+  "system": {
+    "description": {
+      "value": "<p>A Droaamite steel jaw harness fitting over a worg's teeth, allowing them to bite with martial force and apply weapon runes.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "OGL",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "rules": [],
+    "slug": "steel-jaws",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "traits": {
+      "value": [
+        "finesse",
+        "trip",
+        "disarm"
+      ],
+      "rarity": "uncommon"
+    },
+    "damage": {
+      "dice": 1,
+      "die": "d8",
+      "damageType": "piercing"
+    },
+    "category": "martial",
+    "group": "brawling",
+    "baseItem": null,
+    "bonus": {
+      "value": 0
+    },
+    "bonusDamage": {
+      "value": 0
+    },
+    "range": null,
+    "reload": {
+      "value": null
+    }
+  },
+  "_id": "1585cef86fac5f65",
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1726848000000,
+    "modifiedTime": 1726848000000,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!1585cef86fac5f65"
+}

@@ -11,20 +11,24 @@ Dwarves  | Common
 Drow | Uncommon
 Eberron Changelings | Uncommon
 Elves | Common
+Gargoyles | Rare (Uncommon in Droaam)
 Gnolls | Uncommon
 Gnomes | Common
 Goblins | Common
 Half-Elves | Common
 Half-Orcs | Common
 Halflings | Common
+Harpies | Rare (Uncommon in Droaam)
 Hobgoblins | Uncommon
 Humans | Common
 Kalashtar | Uncommon
 Kobolds | Common
 Lizardfolk | Uncommon
+Medusas | Rare (Uncommon in Droaam)
 Orcs | Uncommon
 Shifters | Uncommon
 Warforged | Common
+Worgs | Rare (Uncommon in Droaam)
 *All others not noted here are Rare.
 
 ##### Table 3-2: Versatile Heritage Rarity
@@ -33,7 +37,7 @@ Heritage | Rarity
 Dragonmarked Versatile Heritages | Uncommon
 Aberrant Mark | Uncommon
 Aasimar (Nephilim) | Uncommon
-Tieflings (Nephilim) | Uncommon
+Tieflings (Nephilim & Eberron Planar Lineages) | Uncommon
 **All others not noted here are Rare.
 
 # Core Ancestries ((++Core Ancestries))
@@ -80,6 +84,12 @@ Elves of Eberron are well represented by the Pathfinder 2e implementation.
 info(
 For more information on Elves of Eberron, see Eberron Campaign Setting (p. 14).
 )
+## Gargoyles
+Gargoyles are **rare** in the Five Nations, but **uncommon** in Droaam and the Western Frontier.
+The Gargoyle Ancestry is provided in this document.
+info(
+For more information on Gargoyles of Eberron, see Frontiers of Eberron: Quickstone (p. 158).
+)
 ## Gnolls
 Gnolls are **uncommon** in the world of Eberron. 
 This document introduces lore adjustments, additional heritages and feats which can be used for additional flavour on top of the Pathfinder 2e Gnoll Ancestry, detailed as a new Eberron Gnoll ancestry.
@@ -117,6 +127,12 @@ Halflings of Eberron are well represented by the Pathfinder 2e implementation.
 info(
 For more information on Halflings, see Eberron Campaign Setting (p. 16).
 )
+## Harpies
+Harpies are **rare** in the Five Nations, but **uncommon** in Droaam and the Western Frontier.
+The Harpy Ancestry is provided in this document.
+info(
+For more information on Harpies of Eberron, see Frontiers of Eberron: Quickstone (p. 160).
+)
 ## Hobgoblins
 Hobgoblins are **uncommon** in the world of Eberron. 
 Hobgoblins of Eberron are well represented by the Pathfinder 2e implementation.
@@ -148,6 +164,12 @@ Lizardfolk of Eberron are well represented by the Pathfinder 2e implementation.
 info(
 For more information on Kobolds, see the Eberronicon (p. 15).
 )
+## Medusas
+Medusas are **rare** in the Five Nations, but **uncommon** in Droaam and the Western Frontier.
+The Medusa Ancestry is provided in this document.
+info(
+For more information on Medusas of Eberron, see Frontiers of Eberron: Quickstone (p. 161).
+)
 ## Orcs
 Orcs are **uncommon** in the world of Eberron. 
 Orcs of Eberron are well represented by the Pathfinder 2e implementation.
@@ -166,6 +188,12 @@ The warforged ancestry is provided in this document.
 info(
 For more information on Warforged, see Exploring Eberron (p. 45)
 )
+## Worgs
+Worgs are **rare** across the Five Nations, but **uncommon** in Droaam and the Western Frontier.
+The Worg Ancestry is provided in this document.
+info(
+For more information on Worgs of Eberron, see Frontiers of Eberron: Quickstone (p. 164).
+)
 |
 # Versatile Ancestries ((++Versatile Ancestries))
 There exist instances of these versatile ancestries throughout the world of Eberron, as such they are Uncommon in rarity. However, the following Ancestries are typically the result of unique circumstances around the birth of a child. 
@@ -176,9 +204,16 @@ info(
 For more information on Aasimar, see Exploring Eberron (p. 77)
 )
 ## Tieflings
-Tieflings of Eberron are well represented by the Pathfinder 2e implementation.
+Tieflings of Eberron are represented by the Nephilim versatile heritage. Rather than fiendish bloodlines, Eberron tieflings are most often plane-touched mortals born in planar manifest zones, or members of the Sakah lineages. They can choose from unique Eberron Lineage Feats at 1st level:
+- **Dolurrhi Lineage:** Cold gray skin, psychic resistance, *daze*.
+- **Fernian Lineage:** Smoldering eyes, fire resistance, *produce flame* / *ignition*.
+- **Kythrian Lineage:** Shifting appearance, daily cycling elemental resistance, *electric arc*.
+- **Mabaran Lineage:** Shadowy grace, void resistance, *void warp*.
+- **Risian Lineage:** Frost-coated horns, cold resistance, *frostbite*.
+- **Sakah Lineage:** Rakshasa descent, reversed hands, mental saving throw bonus, *mage hand*.
+- **Shavaran Lineage:** Steel horns, metal scales, armor training, *shield*.
 info(
-For more information on Tieflings, see the Eberronicon (p. 16).
+For more information on Tieflings, see the Eberronicon (p. 16) and Frontiers of Eberron: Quickstone (p. 162).
 )
   
 # Exotic Ancestries ((++Exotic Ancestries))

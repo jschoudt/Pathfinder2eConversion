@@ -50,3 +50,110 @@ item(
 -
 When you spend downtime to use the Craft activity, with your proficiency in creating prototypes and planning ahead (or failing quickly), you may complete crafting projects faster. On a successful Craft check, you may reduce the remaining materials required by 1 day in addition to any further downtime you spend. If you are an expert in crafting you may reduce this by 2 days, master by 4 days, and legendary by 8 days.
 )
+
+=
+## Druidic Sect Feats ((+Druidic Sect Feats))
+These feats represent initiation into one of the ancient druidic traditions of the Eldeen Reaches and the western borderlands.
+
+item(
+# Ashbound Initiate
+## Feat 4
+-
+; General
+**Prerequisites** trained in Nature; associate of the Ashbound
+-
+You embrace the fierce dogma of the Ashbound, regarding arcane magic as a corruption of nature. You gain training in Intimidation. Whenever a creature within 30 feet casts an arcane spell, you gain a +1 circumstance bonus to attack rolls and spell DC against that creature until the end of your next turn. You can cast *nondetection* once per day as an innate primal spell.
+)
+
+item(
+# Gatekeeper Initiate
+## Feat 4
+-
+; General
+**Prerequisites** trained in Nature or Arcana; associate of the Gatekeepers
+-
+You have learned orcish warding techniques designed to seal Xoriat's incursions. You gain training in Arcana (or Occultism). You gain a +2 circumstance bonus to saving throws against spells and abilities from aberrations. You can cast *magic circle* once per day as an innate primal spell.
+)
+
+item(
+# Greensinger Initiate
+## Feat 4
+-
+; General
+**Prerequisites** trained in Nature or Performance; associate of the Greensingers
+-
+You have danced with the fey of Thelanis. You gain training in Performance. When a creature within 30 feet fails a saving throw against an emotion or mental effect caused by you, you can use a reaction to immediately Stride up to half your Speed without provoking reactive strikes. You can cast *hideous laughter* once per day as an innate primal spell.
+)
+
+item(
+# Warden Initiate
+## Feat 4
+-
+; General
+**Prerequisites** trained in Nature or Survival; associate of the Wardens of the Wood
+-
+You protect the Eldeen borderlands. You gain training in Survival. When an adjacent ally is hit by an attack, you can use a reaction to grant that ally resistance equal to 2 + your Constitution modifier against the triggering damage. You can cast *sanctuary* once per day as an innate primal spell.
+)
+
+item(
+# Winter Initiate
+## Feat 4
+-
+; General
+**Prerequisites** trained in Nature or Religion; associate of the Children of Winter
+-
+You know that decay is the mother of new life. Whenever you take void damage, you gain temporary Hit Points equal to half your level (minimum 1) for 1 minute. When you cast a summoning spell for beasts or plants, you can grant the creature the undead trait with void healing. You can cast *ray of enfeeblement* once per day as an innate primal spell.
+)
+
+|
+## Implement & Focus Feats ((+Implement Feats))
+
+item(
+# Orb Expert
+## Feat 4
+-
+; General
+**Prerequisites** trained in Arcana, Nature, Occultism, or Religion
+-
+While holding an orb in one hand, you gain a +1 circumstance bonus to AC against reactive strikes triggered by your movement. When an enemy enters a space adjacent to you, you can use a reaction to immediately Step 5 feet away.
+)
+
+item(
+# Rod Expert
+## Feat 4
+-
+; General
+**Prerequisites** trained in Arcana or Occultism
+-
+A casting rod in your hand functions as a *club* with the resonant trait. When you Cast a Spell that requires a ranged spell attack, you can make a melee Strike with your rod against an adjacent enemy with a –2 penalty as a single action.
+)
+
+item(
+# Staff Expert
+## Feat 4
+-
+; General
+**Prerequisites** trained in Arcana, Nature, Occultism, or Religion
+-
+When you cast an attack spell with a range of 30 feet or more through your staff, you can increase its range by 30 feet. When you critically hit with a ranged spell attack cast through your staff against a target at least 30 feet away, the target is knocked prone.
+)
+
+item(
+# Wand Expert
+## Feat 4
+-
+; General
+**Prerequisites** trained in Arcana or Occultism
+-
+You can draw or stow a wand as a free action once per turn. When you roll initiative, if you have a wand in a sheath or holster, you can immediately draw it as a free action and gain a +1 circumstance bonus to your initiative roll.
+)
+
+item(
+# Wandslinger Fighting Style
+## Feat 2
+-
+; Fighter, Gunslinger
+**Prerequisites** trained in martial weapons
+-
+You treat wands as martial ranged weapons. You gain a +1 circumstance bonus to spell attack rolls when casting attack cantrips through a wand, and your spell DC with wand spells increases by 1.
+)

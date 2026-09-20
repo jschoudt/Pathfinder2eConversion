@@ -1,0 +1,107 @@
+{
+  "name": "Medusa",
+  "type": "ancestry",
+  "img": "systems/pf2e/icons/default-icons/ancestry.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_id": "b0d047824f9f5915",
+  "system": {
+    "description": {
+      "value": "<p>Serpent-haired humanoids renowned across Droaam as master architects, judges, and priests of the Cazhaak Creed. Their head-vipers grant 30-foot imprecise scent, and their gaze stiffens enemy limbs.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "OGL",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "rules": [],
+    "slug": "medusa",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "traits": {
+      "value": [
+        "humanoid",
+        "medusa"
+      ],
+      "rarity": "rare",
+      "custom": ""
+    },
+    "hp": 8,
+    "size": "med",
+    "reach": 5,
+    "speed": 25,
+    "boosts": {
+      "0": {
+        "value": [
+          "con"
+        ]
+      },
+      "1": {
+        "value": [
+          "cha"
+        ]
+      },
+      "2": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      }
+    },
+    "flaws": {
+      "0": {
+        "value": [
+          "str"
+        ]
+      }
+    },
+    "languages": {
+      "value": [
+        "common",
+        "goblin"
+      ],
+      "custom": ""
+    },
+    "additionalLanguages": {
+      "value": [],
+      "count": 1,
+      "custom": ""
+    },
+    "items": {},
+    "vision": "darkvision"
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1726848000000,
+    "modifiedTime": 1726848000000,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!b0d047824f9f5915"
+}

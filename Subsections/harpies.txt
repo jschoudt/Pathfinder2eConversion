@@ -1,0 +1,110 @@
+head( 
+# Harpies ((++Harpy)) 
+Harpies blend avian and human features, possessing functional wings, birdlike legs ending in sharp talons, and a voice of mesmerizing arcane resonance. In Droaam, harpies form passionate flights loyal to causes, families, and sovereign alliances. Their songs manipulate emotions, captivate listeners, and unleash devastating sonic pulses.
+-
+) 
+
+Harpies are expressive and passionate; the power of their song reflects their own surging emotions. Most enjoy the freedom of flight, expressing themselves through music, acrobatic aerial motion, and relentless loyalty.
+
+## You might... 
+- Sing or whistle constantly, channeling your moods and ideas into melody.
+- Form intense, unshakeable bonds of loyalty with your flight or adventuring companions.
+- Yearn for wide open skies and high perches, feeling claustrophobic underground.
+
+## Others Probably... 
+- Fear that your sweet words and songs harbor insidious enchantment or deception.
+- Marvel at your aerial agility and the sonic power of your battle cries.
+- Seek out your talents as an envoy, scout, or performer.
+
+## Physical Description... 
+Harpies have human-like torsos and heads, combined with large feathered wings that serve as arms and birdlike taloned legs capable of perching and striking. Harpy plumage varies widely, ranging from the mottled browns of mountain hawks to the iridescent sheen of ravens and songbirds. Harpies typically stand between 5 and 6 feet tall, with slender frames built for flight.
+
+## Society... 
+The harpies of Droaam belong to distinct flights, the largest of which roost in the Watching Wood and along the Graywall Mountains. While some flights serve the Daughters of Sora Kell with fanatical devotion, others remain fiercely independent. Song is the core of harpy culture, used to pass down history, celebrate victories, and mourn the fallen.
+
+## Alignment and Religion... 
+Harpies trend toward chaotic alignments, embracing freedom, passion, and personal loyalty over rigid codes. Many Droaamite harpies revere the Fury, channelling righteous wrath and passion, while others worship the Shadow for the gift of magical song.
+
+## Names... 
+Harpy names feature melodious vowels, trills, and bird-inspired titles.
+### Sample Names 
+Aria, Belladonna, Circe, Lyra, Melodia, Philomela, Ravena, Rhapsody, Sirena, Thrush, Zephyra
+
+= 
+right(
+## Rarity
+Rare (Uncommon in Droaam)
+## Hit Points 
+6 
+## Size 
+Medium 
+## Speed 
+25 feet; Fly Speed 20 feet (fledgling flight: you must land at the end of each turn of flight until you gain advanced flight feats)
+## Attribute Boosts 
+Dexterity 
+Charisma 
+Free 
+## Attribute Flaw 
+Constitution 
+## Languages 
+Common 
+Goblin 
+Additional languages equal to 1 + your Intelligence modifier. 
+## Traits 
+Harpy 
+Humanoid 
+## Special Abilities
+- **Low-Light Vision:** You can see in dim light as though it were bright light.
+- **Talon Strike:** Your talons are an agile, finesse unarmed attack that deals 1d4 piercing or slashing damage.
+- **Harpy's Charms (Innate Cantrip):** You know how to weave enchantment through vocal resonance. You gain the *daze* cantrip as an innate occult spell cast using only verbal components. Your spellcasting attribute is Charisma.
+- **Songbird:** You are trained in Performance.
+) 
+
+# Harpy Heritages
+Choose one of the following harpy heritages at 1st level:
+
+## Watching Wood Harrier
+Hailing from the dense hunting grounds of the Watching Wood, you are an agile skirmisher. While flying, your movement does not trigger reactive strikes from creatures that have not yet acted in combat.
+
+## Roost Songbird
+Raised in communal clifftop aeries, you specialize in social charm and diplomacy. When you make a Performance check to impress a crowd or soothe an agitated creature, you treat a critical failure as a failure.
+
+## Emissary of Sora Kell
+Sworn to the Daughters of Sora Kell, you carry messages and decrees across Droaam. You gain a +1 circumstance bonus to Deception and Diplomacy checks when negotiating treaties, contracts, or alliances.
+
+|
+# Harpy Ancestry Feats
+
+item(
+# Voice of the Fury
+## Feat 1
+-
+; Harpy
+Your song channels raw passion and intimidation. You can cast *fear* once per day as an innate occult spell.
+)
+
+item(
+# Shadow's Gift of Song
+## Feat 5
+-
+; Harpy
+The Shadow blesses your singing voice with pervasive enchantment. You can cast *charm* and *suggestion* each once per day as innate occult spells using your Charisma modifier.
+)
+
+item(
+# Aerial Agility
+## Feat 9
+-
+; Harpy
+Your wings are fully developed. Your fly Speed increases to 30 feet, and you no longer need to land at the end of your turn to maintain flight.
+)
+
+item(
+# Shattering Screech :aa:
+## Feat 13
+-
+; Harpy, Sonic
+**Frequency** once per 10 minutes
+-
+You unleash an ear-splitting cry. Each creature in a 15-foot cone takes 6d6 sonic damage (basic Fortitude save against your class DC or spell DC). A creature that critically fails is also deafened for 1 minute.
+)

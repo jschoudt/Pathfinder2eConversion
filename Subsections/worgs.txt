@@ -1,0 +1,102 @@
+head( 
+# Worgs ((++Worg)) 
+While often mistaken by easterners for overgrown wolves, worgs are sapient canid predators with keen intellect, the power of speech, and deep pack culture. In Droaam, the Great Pack of the Watching Wood thrives under the patronage of the Daughters of Sora Kell, venerating the Devourer and the Fury. Worgs take fierce pride in their pack bonds, sensory mastery, and predatory strength.
+-
+) 
+
+Worgs delight in sounds, scents, and natural currents that two-legged humanoids never perceive. Devoted to their packs and hunting units, they combine collective tactics with personal loyalty.
+
+## You might... 
+- Rely on your keen nose and ears to read the intentions and hidden emotions of creatures around you.
+- Feel most comfortable hunting or fighting alongside a partner or trusted packmate.
+- Form intense bonds of companionship with riders who treat you as an equal rather than a mount.
+
+## Others Probably... 
+- Initially mistake you for a wild beast or domestic riding dog until you begin speaking.
+- Underestimate your tactical intelligence and pack coordination.
+- Rely on your speed, tracking prowess, and bite to lock down quarry.
+
+## Physical Description... 
+Worgs of the Watching Wood are compact, muscular canines standing 4 to 5 feet at the shoulder and weighing between 200 and 350 pounds. Their coats range from charcoal gray and tawny brindle to midnight black. While they have four paws and no opposable thumbs, their jaws are capable of crushing armor. Droaamite blacksmiths craft specialized steel jaw-harnesses (*Steel Jaws*) that fit over a worg's teeth, which can be etched with magical runes.
+
+## Society... 
+Worgs are organized into packs governed by alpha councils, elders, and spiritual leaders known as howl-speakers. Worg mercenary units serve throughout Droaam, frequently paired with goblin archers or harpy spotters.
+
+## Alignment and Religion... 
+Worgs trend toward chaotic neutral or lawful neutral alignments, valuing pack fidelity above external laws. They revere the Devourer (the wild storm and primal hunger) and the Fury (instinct, passion, and vengeance).
+
+## Names... 
+Worg names frequently feature growled syllables, sensory qualities, and deeds of the hunt.
+### Sample Names 
+Bloodfang, Cinderpaws, Fang, Graystalker, Grim, Ironjaw, Nightrunner, Rimehowl, Shadowsnout, Swift, Thunderbark
+
+= 
+right(
+## Rarity
+Rare (Uncommon in Droaam)
+## Hit Points 
+10 
+## Size 
+Medium 
+## Speed 
+35 feet 
+## Attribute Boosts 
+Strength 
+Wisdom 
+Free 
+## Attribute Flaw 
+Intelligence 
+## Languages 
+Common 
+Goblin 
+Additional languages equal to your Intelligence modifier. 
+## Traits 
+Worg 
+Beast 
+## Special Abilities
+- **Darkvision & Scent:** You have darkvision and imprecise scent with a range of 30 feet.
+- **Formidable Bite:** Your jaws are an unarmed attack dealing 1d8 piercing damage with the finesse and unarmed traits.
+- **Sturdy Steed:** You can carry a Medium or smaller rider comfortably. You treat your Bulk limit for carrying gear and riders as if you were Large.
+- **Quadruped Physiology:** You lack hands. You cannot wield ordinary weapons, shields, or items requiring manual digits. You can perform somatic spell components using your paws and vocal components through growls. Specialized barding costs twice as much as humanoid armor.
+- **Steel Jaws Harness:** Droaamite smiths craft specialized steel jaw-harnesses that fit over your teeth. You are trained in *Steel Jaws* (a martial weapon dealing 1d8 piercing damage with the finesse, trip, and disarm traits) which can be etched with weapon runes.
+- **For the Pack:** You can use the Aid reaction to assist an adjacent ally's attack roll without having spent an action to prepare on your previous turn.
+) 
+
+# Worg Heritages
+Choose one of the following worg heritages at 1st level:
+
+## Watching Wood Tracker
+Your scent is legendary along the western frontier. Your imprecise scent increases to 60 feet, and you gain a +1 circumstance bonus to Survival checks to Track creatures you have scented.
+
+## Great Pack Vanguard
+Conditioned to break enemy lines, you gain a +1 circumstance bonus to Athletics checks to Shove or Trip enemies while running at full stride.
+
+## Devourer's Fang
+Tuned to the wild wrath of the Devourer, your bite critical hits deal 1d4 persistent bleed damage.
+
+|
+# Worg Ancestry Feats
+
+item(
+# Pack Harrying :a:
+## Feat 1
+-
+; Worg
+When you and an ally are adjacent to the same enemy, you snap at the enemy's flanks. The enemy becomes off-guard to your ally's next melee strike before the start of your next turn.
+)
+
+item(
+# Steel Jaws Mastery
+## Feat 5
+-
+; Worg
+Your attacks with Steel Jaws gain the deadly d8 trait and the knock-down trait.
+)
+
+item(
+# Terrifying Howl :aa:
+## Feat 9
+-
+; Worg, Auditory, Emotion, Fear, Mental
+You unleash a chilling howl. Each enemy within a 30-foot emanation must attempt a Will save against your Intimidation DC or class DC. On a failure, the enemy is frightened 1 (frightened 2 on a critical failure).
+)

@@ -1,0 +1,116 @@
+head( 
+# Gargoyles ((++Gargoyle)) 
+Gargoyles are humanoids carved from living stone, enduring as the mountains and indistinguishable from stone statues until they move. In Eberron, Dhakaani artisans carved the first gargoyles during the Empire of the Dhakaan, but it was the daelkyr Orlassk who breathed living animus into the rock. Many gargoyles rested in deep torpor for millennia, awakening in recent centuries to claim their place in the nation of Droaam.
+-
+) 
+
+Made of animate rock, gargoyles require neither sustenance nor air, and they can remain perfectly still for years without physical deterioration. A fundamental question for any gargoyle is why they choose to move at all.
+
+## You might... 
+- Ponder ideas, philosophies, and ancient history for hours or days without moving.
+- Pride yourself on an unshakable, stoic demeanor that withstands any physical or emotional hardship.
+- Enjoy the tactile sensory joy of motion—dancing, running, or soaring through mountain thermals.
+
+## Others Probably... 
+- Mistake you for a decorative piece of architecture or an ancient sculpture until you shift position.
+- Assume you are inflexible, emotionless, or stubborn as the granite from which you were carved.
+- Rely on your immense durability to hold defensive lines and weather heavy punishment.
+
+## Physical Description... 
+Gargoyles are humanoids sculpted from dense rock. While the horned, winged visage familiar to Dhakaani fortresses is common, gargoyles do not inherently require wings or horns, and their physical form can be subtly re-carved over centuries. Gargoyles reproduce by imbuing a sliver of their life animus into a stone seed and burying it in mineral-rich gravel, where it gathers mass and forms a new gargoyle. Gargoyles stand between 5 and 7 feet tall and weigh between 300 and 500 pounds.
+
+## Society... 
+The gargoyles of Droaam are organized into flights and communities, often serving as scouts, sentinels, or stone carvers for the Daughters of Sora Kell. Gargoyle culture recognizes four primary philosophical callings: Seekers (exploring the world and uncovering knowledge), Guardians (devoted to protecting places or allies), Movers (reveling in physical motion and combat), and Thinkers (philosophers who deliberate for decades).
+
+## Alignment and Religion... 
+Gargoyles tend toward neutral or lawful alignments, guided by patience and contemplation. In Droaam, many gargoyles revere the Cazhaak creed of the Dark Six—especially the Shadow—while others venerate the Mountain or feel a lingering, wary fascination with Orlassk.
+
+## Names... 
+Gargoyles frequently choose names descriptive of minerals, textures, architectural roles, or Dhakaani terms.
+### Sample Names 
+Basalt, Cornerstone, Flint, Gabbro, Granite, Keystone, Monolith, Obsidian, Plinth, Quartz, Slate, Stele
+
+= 
+right(
+## Rarity
+Rare (Uncommon in Droaam)
+## Hit Points 
+8 
+## Size 
+Medium 
+## Speed 
+25 feet 
+## Attribute Boosts 
+Strength 
+Constitution 
+Free 
+## Attribute Flaw 
+Dexterity 
+## Languages 
+Common 
+Goblin 
+Additional languages equal to 1 + your Intelligence modifier (if positive). Choose from Undercommon, Orcish, Dwarven, and any other regional languages. 
+## Traits 
+Gargoyle 
+Elemental 
+Earth 
+Humanoid 
+## Special Abilities
+- **Darkvision:** You can see in darkness and dim light just as well as in bright light.
+- **Living Stone (Stoneskin):** Your skin is solid, living stone. You gain a +1 item bonus to AC, with a Dexterity cap of +3, a Check Penalty of –1, and a Speed Penalty of –5 feet (which is negated if you have Strength 14 or higher). Your stone hide can be etched with armor runes as though it were light armor. You cannot wear other suits of armor, but you can wield a shield.
+- **Elemental Fortitude:** You gain resistance to poison equal to half your level (minimum 1). You gain a +1 circumstance bonus to saves against the poisoned condition and are immune to petrification against your will.
+- **Tireless & Sentry's Rest:** You do not need to eat, drink, or breathe, and you cannot gain the fatigued condition from starvation or suffocation. You enter an inert, motionless state for 6 hours to gain the full benefits of a long rest. While resting, you appear as an ordinary stone statue but retain full sensory awareness.
+- **False Appearance:** While standing completely still, you appear identical to an inanimate stone statue. You gain a +2 circumstance bonus to Stealth checks to Hide when motionless amidst stone architecture or rocky terrain.
+) 
+
+# Gargoyle Heritages
+Choose one of the following gargoyle heritages at 1st level:
+
+## Guardian Gargoyle
+Carved to watch over shrines, strongholds, and enclaves, you possess an innate defensive resonance. When you Raise a Shield or take the Take Cover action while adjacent to an ally, that ally gains a +1 circumstance bonus to AC until the start of your next turn as you angle your stone frame to protect them.
+
+## Mover Gargoyle
+You were carved with an appetite for motion, athletics, and tactical maneuver. Your base Speed increases to 30 feet, and you gain the Quick Jump skill feat even if you are not trained in Athletics.
+
+## Seeker Gargoyle
+Driven by relentless curiosity, you explore ruins, distant lands, and the wonders of Khorvaire. You become trained in Society (or another skill if already trained) and gain a +1 circumstance bonus to Recall Knowledge checks regarding architecture, stonework, and ancient empires.
+
+## Thinker Gargoyle
+Designed for philosophical reflection, you spend centuries pondering metaphysics and the nature of stone. You gain a +2 circumstance bonus to Will saving throws against mental and emotion effects, and you become trained in your choice of Arcana, Occultism, or Religion.
+
+|
+# Gargoyle Ancestry Feats
+
+item(
+# Hewn for Battle
+## Feat 1
+-
+; Gargoyle
+You have reshaped your stone appendages into lethal bludgeons and sharp talons. Your unarmed strikes deal 1d6 slashing damage (claws) or 1d6 bludgeoning damage (stone fists) and gain the agile and finesse traits.
+)
+
+item(
+# Stone Camouflage
+## Feat 1
+-
+; Gargoyle
+You can Hide in plain sight without cover or concealment as long as you are adjacent to a stone wall, ruin, or cliff face and remain motionless until the start of your next turn.
+)
+
+item(
+# Wings of Stone
+## Feat 5
+-
+; Gargoyle
+You manifest heavy, functional stone wings carved into your back. You gain a fly Speed of 20 feet. If you fall, you can use your reaction to glide safely, taking no falling damage.
+)
+
+item(
+# Unyielding Monolith :r:
+## Feat 9
+-
+; Gargoyle
+**Trigger** An effect would forcibly move you or knock you prone.
+-
+You anchor your stone mass directly into the earth. You negate the forced movement or remain standing instead of being knocked prone.
+)

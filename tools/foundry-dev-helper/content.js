@@ -154,7 +154,7 @@
     }
   }
 
-  // 3. AUTO-NUE & TOUR SUPPRESSION ON /game
+  // 3. AUTO-NUE, TOUR SUPPRESSION & AUTO-UNPAUSE ON /game
   try {
     localStorage.setItem("core.nue.shownTips", "true");
     const progress = JSON.parse(localStorage.getItem("core.tourProgress") || "{}");
@@ -164,6 +164,39 @@
     }
     localStorage.setItem("core.tourProgress", JSON.stringify(progress));
   } catch (_) {}
+
+  // Auto-unpause state
+  let autoUnpauseDone = false;
+
+  function attemptAutoUnpause(reason = "ready") {
+    if (autoUnpauseDone) return true;
+    if (typeof game === "undefined" || !game.ready) return false;
+
+    // Only Gamemaster has permission to unpause
+    if (!game.user?.isGM) {
+      autoUnpauseDone = true;
+      return false;
+    }
+
+    if (!game.paused) {
+      console.log(`%c⚡ [Foundry Dev Helper] Game is already unpaused (${reason}).`, "color: #00cec9;");
+      autoUnpauseDone = true;
+      return true;
+    }
+
+    try {
+      console.log(`%c⚡ [Foundry Dev Helper] Game is paused. Automatically unpausing as GM after UI load (${reason})...`, "color: #00cec9; font-weight: bold;");
+      if (typeof game.togglePause === "function") {
+        game.togglePause(false, { broadcast: true });
+      }
+      autoUnpauseDone = true;
+      console.log("%c⚡ [Foundry Dev Helper] Game successfully unpaused!", "color: #2ecc71; font-weight: bold;");
+      return true;
+    } catch (err) {
+      console.warn(`[Foundry Dev Helper] Could not auto-unpause game (${reason}):`, err);
+      return false;
+    }
+  }
 
   function onGameReady() {
     try {
@@ -183,6 +216,11 @@
           }
         }
         console.log("%c⚡ [Foundry Dev Helper] First-time tours and tips suppressed.", "color: #00cec9;");
+
+        // Automatically unpause the game once UI and world are ready
+        attemptAutoUnpause("game-ready");
+        setTimeout(() => attemptAutoUnpause("post-ready-500ms"), 500);
+        setTimeout(() => attemptAutoUnpause("post-ready-1500ms"), 1500);
       }
     } catch (_) {}
   }
@@ -190,17 +228,36 @@
   // Hook into Foundry Game lifecycle
   if (typeof Hooks !== "undefined" && Hooks.once) {
     Hooks.once("ready", onGameReady);
+    Hooks.once("canvasReady", () => attemptAutoUnpause("canvas-ready"));
   } else {
     window.addEventListener("DOMContentLoaded", () => {
       if (typeof Hooks !== "undefined" && Hooks.once) {
         Hooks.once("ready", onGameReady);
+        Hooks.once("canvasReady", () => attemptAutoUnpause("canvas-ready"));
       }
     });
   }
 
+  // Fallback poller for active game tab
+  if (path.includes("/game") || path.endsWith("/game") || path === "/") {
+    const pauseCheckInterval = setInterval(() => {
+      if (autoUnpauseDone) {
+        clearInterval(pauseCheckInterval);
+        return;
+      }
+      if (typeof game !== "undefined" && game.ready && game.user?.isGM) {
+        if (attemptAutoUnpause("interval-poll")) {
+          clearInterval(pauseCheckInterval);
+        }
+      }
+    }, 400);
+
+    setTimeout(() => clearInterval(pauseCheckInterval), 20000);
+  }
+
   // 4. EXPOSE GLOBAL AUTOMATION API
   window.__FOUNDRY_DEV_HELPER__ = {
-    version: "1.0.0",
+    version: "1.1.0",
     runTests: async () => {
       if (window.EberronTests?.runAll) {
         return await window.EberronTests.runAll();
@@ -233,6 +290,20 @@
       } else {
         window.EberronErrorMonitor?.showErrorDialog();
       }
+    },
+    unpauseGame: (force = true) => {
+      if (force) autoUnpauseDone = false;
+      return attemptAutoUnpause("api-call");
+    },
+    pauseGame: () => {
+      if (typeof game !== "undefined" && game.user?.isGM && typeof game.togglePause === "function") {
+        game.togglePause(true, { broadcast: true });
+        return true;
+      }
+      return false;
+    },
+    isPaused: () => {
+      return typeof game !== "undefined" ? Boolean(game.paused) : false;
     }
   };
 })();

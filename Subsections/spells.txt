@@ -577,3 +577,145 @@ item(
 -
 You flavour up to 1 bulk or 1 cubic foot of nonliving material; this lasts for one hour.
 )
+
+item(
+# Absorb Elements
+## Spell 1
+-
+; Abjuration
+**Traditions** Arcane, Primal
+
+**Cast** :r: verbal; **Trigger** You take acid, cold, electricity, fire, or sonic damage
+
+**Range** self; **Duration** until the end of your next turn
+-
+You capture incoming elemental fury. You gain resistance 5 against the triggering damage type until the start of your next turn. Your next successful melee Strike before the spell ends deals an extra 1d6 damage of that type.
+**Heightened (+1)** The resistance increases by 5, and the extra damage increases by 1d6.
+)
+
+item(
+# Earthbind
+## Spell 2
+-
+; Transmutation
+**Traditions** Arcane, Occult, Primal
+
+**Cast** :aa: somatic, verbal
+
+**Range** 120 feet; **Targets** 1 flying creature
+
+**Saving Throw** Fortitude; **Duration** 1 minute
+-
+Ribbons of heavy amber energy wrap around the target.
+- **Critical Success** Unaffected.
+- **Success** Fly Speed reduced by 15 feet.
+- **Failure** Fly Speed reduced to 0; descends safely at 60 feet per round.
+- **Critical Failure** As failure, and knocked prone upon landing.
+)
+
+item(
+# Earth Tremor
+## Spell 1
+-
+; Evocation, Earth
+**Traditions** Arcane, Primal
+
+**Cast** :aa: somatic, verbal
+
+**Area** 10-foot emanation; **Saving Throw** Reflex
+-
+You slam the ground, cracking stone and earth. Each creature in the area takes 2d6 bludgeoning damage.
+- **Success** Half damage.
+- **Failure** Full damage, knocked prone, and the area becomes difficult terrain.
+- **Critical Failure** Double damage, knocked prone, and immobilized until it Escapes (DC equal to your spell DC).
+**Heightened (+1)** The damage increases by 1d6.
+)
+
+item(
+# Gray Gaze
+## Cantrip 1
+-
+; Cantrip, Transmutation
+**Traditions** Occult, Primal
+
+**Cast** :a: somatic, verbal
+
+**Range** 30 feet; **Targets** 1 creature
+
+**Saving Throw** Fortitude
+-
+You project a petrifying glance. The target takes 1d4 void or bludgeoning damage.
+- **Success** No damage.
+- **Failure** Full damage, and –1 circumstance penalty to Reflex saving throws and Acrobatics checks until the end of its next turn.
+- **Critical Failure** Full damage, slowed 1, and –2 circumstance penalty to Reflex saving throws for 1 round.
+**Heightened (+1)** The damage increases by 1d4.
+)
+
+item(
+# Mold Earth
+## Cantrip 1
+-
+; Cantrip, Earth, Primal
+**Traditions** Primal
+
+**Cast** :aa: somatic, verbal
+
+**Range** 30 feet; **Area** 5-foot cube of unworked dirt or stone
+-
+You excavate loose earth depositing it up to 5 feet away, create stone patterns persisting for 1 hour, or convert 5 feet of ground into or out of difficult terrain.
+)
+
+item(
+# Orien Step
+## Cantrip 1
+-
+; Cantrip, Teleportation
+**Traditions** Arcane
+**Prerequisites** Mark of Passage
+
+**Cast** :a: somatic
+
+**Range** self
+-
+You step through dimensional fabric, teleporting up to 5 feet to an unoccupied space you can see without provoking reactive strikes.
+)
+
+item(
+# Divine Wealth
+## Focus 1
+-
+; Uncommon, Cleric, Focus, Fortune
+**Domain** Commerce
+
+**Cast** :a: verbal; **Duration** 1 minute
+-
+You conjure glowing divine coins representing metaphysical leverage. Whenever you or an ally within 30 feet attempts a saving throw, you can spend a coin as a reaction to grant a +1 status bonus to the save (or roll 1d4 on a critical check). Alternatively, you can spend a coin to impose a –1 status penalty on an enemy's saving throw.
+)
+
+item(
+# Divine Bargain
+## Focus 4
+-
+; Uncommon, Cleric, Focus, Healing, Void
+**Domain** Commerce
+
+**Cast** :aa: somatic, verbal
+
+**Range** 30 feet; **Targets** 1 creature
+-
+You conduct a metaphysical trade.
+- **Buy (Heal)** You siphon vital essence from yourself or an enemy (dealing 3d8 void damage) to restore equal Hit Points to an ally within 30 feet.
+- **Sell (Harm)** You trade raw luck, granting the target 15 temporary Hit Points while inflicting enfeeblement 1 on an opposing creature.
+)
+
+item(
+# Form of Stone
+## Focus 1
+-
+; Uncommon, Witch, Focus, Transmutation
+**Patron** Stone Sovereign
+
+**Cast** :r: verbal; **Trigger** You take physical or energy damage
+-
+You calcify your skin instantly before the blow lands, gaining Hardness 5 against the triggering damage. You can immediately meld into adjacent stone and reappear up to 15 feet away.
+)

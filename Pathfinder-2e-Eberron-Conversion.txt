@@ -171,17 +171,29 @@ https://scribe.pf2.tools/v/R6QVPJql
 <!--Eberron Changelings-->
 https://scribe.pf2.tools/v/6fV45ooP
 =
+<!--Gargoyles-->
+https://scribe.pf2.tools/v/gargoyles
+=
 <!--Gnolls-->
 https://scribe.pf2.tools/v/mdpJh63j
 =
+<!--Harpies-->
+https://scribe.pf2.tools/v/harpies
+=
 <!--Kalashtar-->
 https://scribe.pf2.tools/v/ZhZBvBqQ
+=
+<!--Medusas-->
+https://scribe.pf2.tools/v/medusas
 =
 <!--Shifters-->
 https://scribe.pf2.tools/v/vBjr7BMV
 =
 <!--Warforged-->
 https://scribe.pf2.tools/v/bmXjCPvf
+=
+<!--Worgs-->
+https://scribe.pf2.tools/v/worgs
 =
 <!--# Dragonmarks-->
 https://scribe.pf2.tools/v/9OVOPLzM

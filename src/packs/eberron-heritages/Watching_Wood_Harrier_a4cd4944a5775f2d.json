@@ -1,0 +1,63 @@
+{
+  "name": "Watching Wood Harrier",
+  "type": "heritage",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_id": "a4cd4944a5775f2d",
+  "system": {
+    "description": {
+      "value": "<p>While flying, your movement does not trigger reactive strikes from creatures that have not yet acted.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "OGL",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "rules": [],
+    "slug": "watching-wood-harrier",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "traits": {
+      "value": [
+        "harpy"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "ancestry": {
+      "name": "Harpy",
+      "uuid": "Compendium.pathfinders-guide-to-eberron.eberron-ancestries.f3240e7c699950e6"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1726848000000,
+    "modifiedTime": 1726848000000,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!a4cd4944a5775f2d"
+}
