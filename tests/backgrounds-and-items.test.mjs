@@ -79,6 +79,53 @@ describe('Backgrounds and Items: Schemas, Bestowals, and AC Mechanics', () => {
         expect(actor.items.contents[0].name).toBe(name);
       });
     });
+
+    describe('Discrete 2024 Dragonmarked House Heir Backgrounds', () => {
+      const HOUSE_HEIRS = [
+        { name: 'House Cannith Heir', skill: 'cra', lore: 'House Cannith Lore', boosts: ['int', 'str'] },
+        { name: 'House Deneith Heir', skill: 'ath', lore: 'House Deneith Lore', boosts: ['str', 'cha'] },
+        { name: 'House Ghallanda Heir', skill: 'dip', lore: 'House Ghallanda Lore', boosts: ['cha', 'con'] },
+        { name: 'House Jorasco Heir', skill: 'med', lore: 'House Jorasco Lore', boosts: ['wis', 'con'] },
+        { name: 'House Kundarak Heir', skill: 'thi', lore: 'House Kundarak Lore', boosts: ['int', 'wis'] },
+        { name: 'House Lyrandar Heir', skill: 'nat', lore: 'House Lyrandar Lore', boosts: ['dex', 'cha'] },
+        { name: 'House Medani Inquisitive Heir', skill: 'dec', lore: 'House Medani Lore', boosts: ['int', 'wis'] },
+        { name: 'House Orien Heir', skill: 'sur', lore: 'House Orien Lore', boosts: ['dex', 'con'] },
+        { name: 'House Phiarlan Heir', skill: 'prf', lore: 'House Phiarlan Lore', boosts: ['dex', 'cha'] },
+        { name: 'House Sivis Scribe Heir', skill: 'soc', lore: 'House Sivis Lore', boosts: ['int', 'cha'] },
+        { name: 'House Tharashk Heir', skill: 'sur', lore: 'House Tharashk Lore', boosts: ['str', 'wis'] },
+        { name: 'House Thuranni Heir', skill: 'ste', lore: 'House Thuranni Lore', boosts: ['dex', 'int'] },
+        { name: 'House Vadalis Heir', skill: 'nat', lore: 'House Vadalis Lore', boosts: ['wis', 'str'] },
+        { name: 'Aberrant Heir', skill: 'itm', lore: 'Underworld Lore', boosts: ['con', 'cha'] }
+      ];
+
+      it('should find all 14 House Heir backgrounds in compendium', () => {
+        for (const h of HOUSE_HEIRS) {
+          expect(backgroundMap.has(h.name), `Missing background: ${h.name}`).toBe(true);
+        }
+      });
+
+      describe.each(HOUSE_HEIRS)('House Heir: $name', ({ name, skill, lore, boosts }) => {
+        it(`should have trainedSkill ${skill} and trainedLore "${lore}"`, () => {
+          const bg = backgroundMap.get(name);
+          expect(bg).toBeDefined();
+          expect(bg.system.trainedSkills.value).toContain(skill);
+          expect(bg.system.trainedLore).toBe(lore);
+        });
+
+        it(`should have attribute boost options matching [${boosts.join(', ')}]`, () => {
+          const bg = backgroundMap.get(name);
+          expect(bg.system.boosts['0'].value).toEqual(expect.arrayContaining(boosts));
+          expect(bg.system.boosts['1'].value.length).toBe(6);
+        });
+
+        it('should instantiate cleanly on an Actor', () => {
+          const bg = backgroundMap.get(name);
+          const actor = createTestActor(`PC with ${name}`, [bg]);
+          expect(() => actor.validate()).not.toThrow();
+          expect(actor.items.size).toBe(1);
+        });
+      });
+    });
   });
 
   describe('Eberron Armors: Modern PF2e Schema & AC Properties', () => {

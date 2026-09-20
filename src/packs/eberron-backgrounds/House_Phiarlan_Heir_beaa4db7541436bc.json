@@ -1,0 +1,83 @@
+{
+  "_id": "beaa4db7541436bc",
+  "name": "House Phiarlan Heir",
+  "type": "background",
+  "img": "systems/pf2e/icons/default-icons/background.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "source": {
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "rules": [],
+    "slug": "house-phiarlan-heir",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "traits": {
+      "value": [],
+      "rarity": "common",
+      "custom": ""
+    },
+    "description": {
+      "value": "<p>Raised in the Demesnes of Art, you were schooled in music, theatre, and dance—while mastering the quiet observation of the Serpentine Table. House Phiarlan weaves artistry and espionage under the Mark of Shadow.</p><p>Choose two attribute boosts. One must be to <strong>Dexterity</strong> or <strong>Charisma</strong>, and one is a free attribute boost.</p><p>You're trained in the <strong>Performance</strong> skill and the <strong>House Phiarlan Lore</strong> skill. You gain the <strong>Fascinating Performance</strong> skill feat. You have access to Mark of Shadow feats.</p>"
+    },
+    "boosts": {
+      "0": {
+        "value": [
+          "dex",
+          "cha"
+        ]
+      },
+      "1": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      }
+    },
+    "trainedSkills": {
+      "value": [
+        "prf"
+      ],
+      "custom": ""
+    },
+    "trainedLore": "House Phiarlan Lore",
+    "items": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1726848000000,
+    "modifiedTime": 1726848000000,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!beaa4db7541436bc"
+}

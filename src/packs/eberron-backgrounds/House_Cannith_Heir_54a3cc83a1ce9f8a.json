@@ -1,0 +1,83 @@
+{
+  "_id": "54a3cc83a1ce9f8a",
+  "name": "House Cannith Heir",
+  "type": "background",
+  "img": "systems/pf2e/icons/default-icons/background.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "source": {
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "rules": [],
+    "slug": "house-cannith-heir",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "traits": {
+      "value": [],
+      "rarity": "common",
+      "custom": ""
+    },
+    "description": {
+      "value": "<p>You were raised in the workshops and foundries of House Cannith, learning the secrets of metallurgy, magewright engineering, and magical artifice. Whether hailing from Cannith South in Sharn, Cannith East in Karrnath, or Cannith West in Aundair, you carry the proud lineage of the Mark of Making.</p><p>Choose two attribute boosts. One must be to <strong>Intelligence</strong> or <strong>Strength</strong>, and one is a free attribute boost.</p><p>You're trained in the <strong>Crafting</strong> skill and the <strong>House Cannith Lore</strong> skill. You gain the <strong>Specialty Crafting</strong> skill feat. You have access to Mark of Making feats.</p>"
+    },
+    "boosts": {
+      "0": {
+        "value": [
+          "int",
+          "str"
+        ]
+      },
+      "1": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      }
+    },
+    "trainedSkills": {
+      "value": [
+        "cra"
+      ],
+      "custom": ""
+    },
+    "trainedLore": "House Cannith Lore",
+    "items": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1726848000000,
+    "modifiedTime": 1726848000000,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!54a3cc83a1ce9f8a"
+}

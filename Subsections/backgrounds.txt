@@ -174,3 +174,168 @@ Choose two ability boosts. One must be to **Dexterity** or **Intelligence**; and
 
 You're trained in **Deception** and **Thunder Sea Lore**. You gain the **Underwater Marauder** skill feat. You have access to the **Aquatic Adaptation** feat.
 )
+
+=
+info(
+For the 2024 / 5.5e rules regarding Dragonmarked House backgrounds and origin feats, see Eberron: Forge of the Artificer (Ch. 2).
+)
+
+item(
+# House Cannith Heir ((+House Cannith Heir))
+## Background
+-
+You were raised in the workshops and foundries of House Cannith, learning the secrets of metallurgy, magewright engineering, and magical artifice. Whether hailing from Cannith South in Sharn, Cannith East in Karrnath, or Cannith West in Aundair, you carry the proud lineage of the Mark of Making.
+
+Choose two attribute boosts. One must be to **Intelligence** or **Strength**; and one is a free attribute boost.
+
+You're trained in **Crafting** and **House Cannith Lore**. You gain the **Specialty Crafting** skill feat. You have access to Mark of Making feats.
+)
+
+item(
+# House Deneith Heir ((+House Deneith Heir))
+## Background
+-
+You were trained in the martial academies of the Blademark Guild or Sentinel Marshals. House Deneith commands iron military discipline, bodyguard contracts, and martial excellence, holding the destiny of the Mark of Sentinel.
+
+Choose two attribute boosts. One must be to **Strength** or **Charisma**; and one is a free attribute boost.
+
+You're trained in **Athletics** and **House Deneith Lore**. You gain the **Combat Climber** skill feat. You have access to Mark of Sentinel feats.
+)
+
+|
+item(
+# House Ghallanda Heir ((+House Ghallanda Heir))
+## Background
+-
+Born into the hospitable hearths of the Hostelers Guild, you know how to make anyone feel welcome, fed, and secure. From Talenta nomad encampments to grand urban enclaves, House Ghallanda shelters all under the Mark of Hospitality.
+
+Choose two attribute boosts. One must be to **Charisma** or **Constitution**; and one is a free attribute boost.
+
+You're trained in **Diplomacy** and **House Ghallanda Lore**. You gain the **Group Impression** skill feat. You have access to Mark of Hospitality feats.
+)
+
+item(
+# House Jorasco Heir ((+House Jorasco Heir))
+## Background
+-
+Raised in the healing houses and sanitariums of House Jorasco, you learned anatomy, pharmacology, and triage. You balance the compassionate preservation of life with the sharp economic realities of the Healers Guild under the Mark of Healing.
+
+Choose two attribute boosts. One must be to **Wisdom** or **Constitution**; and one is a free attribute boost.
+
+You're trained in **Medicine** and **House Jorasco Lore**. You gain the **Battle Medicine** skill feat. You have access to Mark of Healing feats.
+)
+
+=
+item(
+# House Kundarak Heir ((+House Kundarak Heir))
+## Background
+-
+You trained in the deep vaults of the Mror Holds and Khorvaire's banking enclaves. House Kundarak masters warding runes, impenetrable lockwork, and secure banking under the Mark of Warding.
+
+Choose two attribute boosts. One must be to **Intelligence** or **Wisdom**; and one is a free attribute boost.
+
+You're trained in **Thievery** and **House Kundarak Lore**. You gain the **Subtle Theft** skill feat. You have access to Mark of Warding feats.
+)
+
+item(
+# House Lyrandar Heir ((+House Lyrandar Heir))
+## Background
+-
+You felt the call of storm and sky from childhood. Whether serving aboard a swift elemental airship or seafaring galleon of the Windwrights Guild, House Lyrandar commands the boundless skies under the Mark of Storm.
+
+Choose two attribute boosts. One must be to **Dexterity** or **Charisma**; and one is a free attribute boost.
+
+You're trained in **Nature** and **House Lyrandar Lore**. You gain the **Steady Balance** skill feat. You have access to Mark of Storm feats.
+)
+
+|
+item(
+# House Medani Inquisitive Heir ((+House Medani Inquisitive Heir))
+## Background
+-
+You were trained by the Warning Guild of House Medani to spot deception, anticipate ambush, and piece together fractured clues. You carry the prophetic vigilance of the Mark of Detection.
+
+Choose two attribute boosts. One must be to **Intelligence** or **Wisdom**; and one is a free attribute boost.
+
+You're trained in **Deception** and **House Medani Lore**. You gain the **Lie to Me** skill feat. You have access to Mark of Detection feats.
+)
+
+item(
+# House Orien Heir ((+House Orien Heir))
+## Background
+-
+You are at home on the move, having traveled the lightning rail tracks and trade routes of the Couriers Guild. House Orien bridges continents and outpaces distance through the Mark of Passage.
+
+Choose two attribute boosts. One must be to **Dexterity** or **Constitution**; and one is a free attribute boost.
+
+You're trained in **Survival** and **House Orien Lore**. You gain the **Terrain Expertise** skill feat. You have access to Mark of Passage feats.
+)
+
+=
+item(
+# House Phiarlan Heir ((+House Phiarlan Heir))
+## Background
+-
+Raised in the Demesnes of Art, you were schooled in music, theatre, and dance—while mastering the quiet observation of the Serpentine Table. House Phiarlan weaves artistry and espionage under the Mark of Shadow.
+
+Choose two attribute boosts. One must be to **Dexterity** or **Charisma**; and one is a free attribute boost.
+
+You're trained in **Performance** and **House Phiarlan Lore**. You gain the **Fascinating Performance** skill feat. You have access to Mark of Shadow feats.
+)
+
+item(
+# House Sivis Scribe Heir ((+House Sivis Scribe Heir))
+## Background
+-
+You were educated in the high libraries of Korranberg and Sivis message stations. Masters of the spoken and written word, House Sivis controls communications, legal notarization, and diplomatic translation under the Mark of Scribing.
+
+Choose two attribute boosts. One must be to **Intelligence** or **Charisma**; and one is a free attribute boost.
+
+You're trained in **Society** and **House Sivis Lore**. You gain the **Multilingual** skill feat. You have access to Mark of Scribing feats.
+)
+
+|
+item(
+# House Tharashk Heir ((+House Tharashk Heir))
+## Background
+-
+Hardened in the swamps of the Shadow Marches or prospecting boomtowns of the frontier, you track people, beasts, and dragonshards alike for the Finders Guild under the Mark of Finding.
+
+Choose two attribute boosts. One must be to **Strength** or **Wisdom**; and one is a free attribute boost.
+
+You're trained in **Survival** and **House Tharashk Lore**. You gain the **Experienced Tracker** skill feat. You have access to Mark of Finding feats.
+)
+
+item(
+# House Thuranni Heir ((+House Thuranni Heir))
+## Background
+-
+Since the Shadow Schism split your house from Phiarlan, you have walked the sharp edge of the Truecraft Guild and the Shadow Network. House Thuranni thrives on precision, silent infiltration, and dark secrets under the Mark of Shadow.
+
+Choose two attribute boosts. One must be to **Dexterity** or **Intelligence**; and one is a free attribute boost.
+
+You're trained in **Stealth** and **House Thuranni Lore**. You gain the **Terrain Stalker** skill feat. You have access to Mark of Shadow feats.
+)
+
+=
+item(
+# House Vadalis Heir ((+House Vadalis Heir))
+## Background
+-
+Raised on the sprawling ranches and breeding sanctuaries of the Eldeen Reaches, you bond with beasts and magebred monstrosities alike. House Vadalis guides biological evolution under the Mark of Handling.
+
+Choose two attribute boosts. One must be to **Wisdom** or **Strength**; and one is a free attribute boost.
+
+You're trained in **Nature** and **House Vadalis Lore**. You gain the **Train Animal** skill feat. You have access to Mark of Handling feats.
+)
+
+item(
+# Aberrant Heir ((+Aberrant Heir))
+## Background
+-
+Your dragonmark is erratic, dangerous, and feared by the Twelve. Whether recruited by House Tarkanan in the lower ruins of Sharn or hiding on the run, you wield destructive aberrant power and an uncanny survival instinct.
+
+Choose two attribute boosts. One must be to **Constitution** or **Charisma**; and one is a free attribute boost.
+
+You're trained in **Intimidation** and **Underworld Lore**. You gain the **Intimidating Glare** skill feat. You have access to Aberrant Mark feats.
+)

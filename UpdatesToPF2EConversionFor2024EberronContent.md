@@ -231,28 +231,29 @@ Following the natural character creation and dependency sequence:
 
 ```mermaid
 gantt
-    title PF2e Eberron 2024 Re-Ordered Roadmap
-    dateFormat  YYYY-MM-DD
+    title PF2e Eberron 2024 Implementation Order
+    dateFormat X
+    axisFormat %s
     section Phase 1: Ancestries & Dragonmarks
-    Ancestry Trait Modernizations        :p1a, 2026-10-01, 7d
-    Dragonmarks to Versatile Heritages   :p1b, after p1a, 14d
-    Least, Lesser, Greater Feat Ladder   :p1c, after p1b, 10d
+    Ancestry Trait Modernizations        :done, p1a, 0, 1
+    Dragonmarks to Versatile Heritages   :done, p1b, after p1a, 1
+    Least, Lesser, Greater Feat Ladder   :done, p1c, after p1b, 1
     section Phase 2: Backgrounds
-    14 House Heir Backgrounds            :p2a, after p1c, 10d
-    Frontier & Droaam Backgrounds        :p2b, after p2a, 7d
+    14 House Heir Backgrounds            :done, p2a, after p1c, 1
+    Frontier & Droaam Backgrounds        :done, p2b, after p2a, 1
     section Phase 3: Religions & Deities
-    Commerce & Mind Domains              :p3a, after p2b, 10d
-    Frontier & Dark Six Syncretisms      :p3b, after p3a, 7d
+    Commerce & Mind Domains              :active, p3a, after p2b, 1
+    Frontier & Dark Six Syncretisms      :p3b, after p3a, 1
     section Phase 4: Classes & Archetypes
-    Wandslinger Expansion                :p4a, after p3b, 10d
-    Cartographer & Dreadnaught Innov.    :p4b, after p4a, 14d
-    Dirge Singer, Forged Druid, Monk     :p4c, after p4b, 14d
+    Wandslinger Expansion                :p4a, after p3b, 1
+    Cartographer & Dreadnaught Innov.    :p4b, after p4a, 1
+    Dirge Singer, Forged Druid, Monk     :p4c, after p4b, 1
     section Phase 5: Spells & Items
-    Focus Spells & Relic Symbionts       :p5a, after p4c, 14d
-    Dhakaani Gear & Siberys Marks        :p5b, after p5a, 10d
+    Focus Spells & Relic Symbionts       :p5a, after p4c, 1
+    Dhakaani Gear & Siberys Marks        :p5b, after p5a, 1
     section Phase 6: Vehicles & Bestiary
-    Airships as PF2e Vehicles            :p6a, after p5b, 14d
-    Monster Bestiary (47 NPCs)           :p6b, after p6a, 21d
+    Airships as PF2e Vehicles            :p6a, after p5b, 1
+    Monster Bestiary (47 NPCs)           :p6b, after p6a, 1
 ```
 
 | Phase | Milestone | Target Compendium Packs |

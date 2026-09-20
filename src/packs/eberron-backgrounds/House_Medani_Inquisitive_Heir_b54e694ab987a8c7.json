@@ -1,0 +1,83 @@
+{
+  "_id": "b54e694ab987a8c7",
+  "name": "House Medani Inquisitive Heir",
+  "type": "background",
+  "img": "systems/pf2e/icons/default-icons/background.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "source": {
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "rules": [],
+    "slug": "house-medani-inquisitive-heir",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "traits": {
+      "value": [],
+      "rarity": "common",
+      "custom": ""
+    },
+    "description": {
+      "value": "<p>You were trained by the Warning Guild of House Medani to spot deception, anticipate ambush, and piece together fractured clues. You carry the prophetic vigilance of the Mark of Detection.</p><p>Choose two attribute boosts. One must be to <strong>Intelligence</strong> or <strong>Wisdom</strong>, and one is a free attribute boost.</p><p>You're trained in the <strong>Deception</strong> skill and the <strong>House Medani Lore</strong> skill. You gain the <strong>Lie to Me</strong> skill feat. You have access to Mark of Detection feats.</p>"
+    },
+    "boosts": {
+      "0": {
+        "value": [
+          "int",
+          "wis"
+        ]
+      },
+      "1": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      }
+    },
+    "trainedSkills": {
+      "value": [
+        "dec"
+      ],
+      "custom": ""
+    },
+    "trainedLore": "House Medani Lore",
+    "items": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1726848000000,
+    "modifiedTime": 1726848000000,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!b54e694ab987a8c7"
+}

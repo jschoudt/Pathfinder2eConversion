@@ -1,0 +1,83 @@
+{
+  "_id": "e325f478e42188d2",
+  "name": "House Ghallanda Heir",
+  "type": "background",
+  "img": "systems/pf2e/icons/default-icons/background.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "source": {
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "rules": [],
+    "slug": "house-ghallanda-heir",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "traits": {
+      "value": [],
+      "rarity": "common",
+      "custom": ""
+    },
+    "description": {
+      "value": "<p>Born into the hospitable hearths of the Hostelers Guild, you know how to make anyone feel welcome, fed, and secure. From Talenta nomad encampments to grand urban enclaves, House Ghallanda shelters all under the Mark of Hospitality.</p><p>Choose two attribute boosts. One must be to <strong>Charisma</strong> or <strong>Constitution</strong>, and one is a free attribute boost.</p><p>You're trained in the <strong>Diplomacy</strong> skill and the <strong>House Ghallanda Lore</strong> skill. You gain the <strong>Group Impression</strong> skill feat. You have access to Mark of Hospitality feats.</p>"
+    },
+    "boosts": {
+      "0": {
+        "value": [
+          "cha",
+          "con"
+        ]
+      },
+      "1": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      }
+    },
+    "trainedSkills": {
+      "value": [
+        "dip"
+      ],
+      "custom": ""
+    },
+    "trainedLore": "House Ghallanda Lore",
+    "items": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1726848000000,
+    "modifiedTime": 1726848000000,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!e325f478e42188d2"
+}

@@ -1,0 +1,83 @@
+{
+  "_id": "38a63ea621e14024",
+  "name": "House Thuranni Heir",
+  "type": "background",
+  "img": "systems/pf2e/icons/default-icons/background.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "source": {
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "rules": [],
+    "slug": "house-thuranni-heir",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "traits": {
+      "value": [],
+      "rarity": "common",
+      "custom": ""
+    },
+    "description": {
+      "value": "<p>Since the Shadow Schism split your house from Phiarlan, you have walked the sharp edge of the Truecraft Guild and the Shadow Network. House Thuranni thrives on precision, silent infiltration, and dark secrets under the Mark of Shadow.</p><p>Choose two attribute boosts. One must be to <strong>Dexterity</strong> or <strong>Intelligence</strong>, and one is a free attribute boost.</p><p>You're trained in the <strong>Stealth</strong> skill and the <strong>House Thuranni Lore</strong> skill. You gain the <strong>Terrain Stalker</strong> skill feat. You have access to Mark of Shadow feats.</p>"
+    },
+    "boosts": {
+      "0": {
+        "value": [
+          "dex",
+          "int"
+        ]
+      },
+      "1": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      }
+    },
+    "trainedSkills": {
+      "value": [
+        "ste"
+      ],
+      "custom": ""
+    },
+    "trainedLore": "House Thuranni Lore",
+    "items": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1726848000000,
+    "modifiedTime": 1726848000000,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!38a63ea621e14024"
+}

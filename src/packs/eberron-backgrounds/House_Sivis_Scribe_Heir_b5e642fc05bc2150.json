@@ -1,0 +1,83 @@
+{
+  "_id": "b5e642fc05bc2150",
+  "name": "House Sivis Scribe Heir",
+  "type": "background",
+  "img": "systems/pf2e/icons/default-icons/background.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "source": {
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "rules": [],
+    "slug": "house-sivis-scribe-heir",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "traits": {
+      "value": [],
+      "rarity": "common",
+      "custom": ""
+    },
+    "description": {
+      "value": "<p>You were educated in the high libraries of Korranberg and Sivis message stations. Masters of the spoken and written word, House Sivis controls communications, legal notarization, and diplomatic translation under the Mark of Scribing.</p><p>Choose two attribute boosts. One must be to <strong>Intelligence</strong> or <strong>Charisma</strong>, and one is a free attribute boost.</p><p>You're trained in the <strong>Society</strong> skill and the <strong>House Sivis Lore</strong> skill. You gain the <strong>Multilingual</strong> skill feat. You have access to Mark of Scribing feats.</p>"
+    },
+    "boosts": {
+      "0": {
+        "value": [
+          "int",
+          "cha"
+        ]
+      },
+      "1": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      }
+    },
+    "trainedSkills": {
+      "value": [
+        "soc"
+      ],
+      "custom": ""
+    },
+    "trainedLore": "House Sivis Lore",
+    "items": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1726848000000,
+    "modifiedTime": 1726848000000,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!b5e642fc05bc2150"
+}
