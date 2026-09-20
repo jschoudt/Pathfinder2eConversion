@@ -21,7 +21,6 @@
     },
     "traits": {
       "value": [
-        "enchantment",
         "magical"
       ],
       "rarity": "uncommon",
@@ -63,7 +62,6 @@
     "equipped": {
       "carryType": "worn",
       "invested": null,
-      "-=inSlot": null,
       "handsHeld": 0
     },
     "stackGroup": null,

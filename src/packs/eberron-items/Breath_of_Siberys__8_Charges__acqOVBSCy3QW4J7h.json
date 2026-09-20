@@ -56,7 +56,6 @@
     },
     "equipped": {
       "carryType": "worn",
-      "-=inSlot": null,
       "handsHeld": 0
     },
     "stackGroup": null,

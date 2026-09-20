@@ -14,7 +14,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "\n\n\n<p class=\"hang\"><strong>Frequency</strong> Once per 10 minutes</p>\n<hr />\n<p>With a rapid change, you take on a monstrous form for an instant before shifting back. Choose any creatures that you're aware of within 30 feet as your targets. Make an Intimidation check and compare the result of the check to each target's Will DCs. It’s possible to get a different degree of success for each target. Regardless of your result, all targets are temporarily immune to your Demoralize attempts for 10 minutes. <br /> <br /><strong>Critical Success</strong> The target becomes @UUID[Compendium.pf2e.conditions.TBSHQspnbcqxsmjL]{Frightened 2}. <br /> <br /><strong>Success</strong> The target becomes @UUID[Compendium.pf2e.conditions.TBSHQspnbcqxsmjL]{Frightened 1}. </p>\n"
+      "value": "\n\n\n<p class=\"hang\"><strong>Frequency</strong> Once per 10 minutes</p>\n<hr />\n<p>With a rapid change, you take on a monstrous form for an instant before shifting back. Choose any creatures that you're aware of within 30 feet as your targets. Make an Intimidation check and compare the result of the check to each target's Will DCs. It’s possible to get a different degree of success for each target. Regardless of your result, all targets are temporarily immune to your Demoralize attempts for 10 minutes. <br /> <br /><strong>Critical Success</strong> The target becomes @UUID[Compendium.pf2e.conditions.TBSHQspnbcqxsmjL]{Frightened 2}. <br /> <br /><strong>Success</strong> The target becomes @UUID[Compendium.pf2e.conditions.TBSHQspnbcqxsmjL]{Frightened 1}. </p>\n\n<p>@UUID[Compendium.pathfinders-guide-to-eberron.eberron-effects.EffUsedTerrifShf]{Effect: Used Terrifying Shift}</p>\n<p>@UUID[Compendium.pathfinders-guide-to-eberron.eberron-effects.EffDemoralizeImm]{Effect: Terrifying Shift Demoralize Immunity}</p>"
     },
     "source": {
       "value": "Pathfinder's Guide to Eberron",
@@ -39,7 +39,7 @@
     "traits": {
       "value": [
         "concentrate",
-        "hb_eberron-changelings",
+        "eberron-changelings",
         "emotion",
         "fear",
         "mental",
@@ -74,6 +74,14 @@
     "_migration": {
       "version": 0.959,
       "previous": null
+    },
+    "frequency": {
+      "max": 1,
+      "per": "PT10M"
+    },
+    "selfEffect": {
+      "name": "Effect: Used Terrifying Shift",
+      "uuid": "Compendium.pathfinders-guide-to-eberron.eberron-effects.EffUsedTerrifShf"
     }
   },
   "ownership": {

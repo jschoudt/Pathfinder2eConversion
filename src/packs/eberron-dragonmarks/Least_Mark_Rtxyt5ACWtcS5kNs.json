@@ -19,7 +19,7 @@
     "rules": [
       {
         "add": [
-          "hb_dragonmark"
+          "dragonmark"
         ],
         "key": "ActorTraits"
       }
@@ -32,7 +32,7 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "hb_dragonmarked-heritage"
+        "dragonmarked-heritage"
       ],
       "rarity": "uncommon",
       "custom": ""

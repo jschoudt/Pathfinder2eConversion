@@ -14,7 +14,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"hang\"><strong>Prerequisites</strong> Du'ulora Kalashtar heritage</p>\n<p class=\"hang\"><strong>Frequency</strong> once per hour</p>\n<hr />\n<p>As a creature succumbs to its feelings of anger and hate, your control over them grows. Choose a hostile foe within 30 feet, that creature must make a Will save against your innate occult DC. <br /><strong>Critical Success</strong> The creature resists your taunt.<br /><strong>Success</strong> On the creature's turn, it must spend 1 of its actions to attack you if it can, or in the pursuit of being able to attack you.<br /><strong>Failure</strong> The creature becomes @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied}. On the creature's turn, it must spend 2 of its actions to attack you if it can, or in the pursuit of being able to attack you.<br /><strong>Critical Failure</strong> The creature becomes @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied}. On the creature's turn, it must spend all of its actions to attack you if it can, or in the pursuit of being able to attack you.</p>"
+      "value": "<p class=\"hang\"><strong>Prerequisites</strong> Du'ulora Kalashtar heritage</p>\n<p class=\"hang\"><strong>Frequency</strong> once per hour</p>\n<hr />\n<p>As a creature succumbs to its feelings of anger and hate, your control over them grows. Choose a hostile foe within 30 feet, that creature must make a Will save against your innate occult DC. <br /><strong>Critical Success</strong> The creature resists your taunt.<br /><strong>Success</strong> On the creature's turn, it must spend 1 of its actions to attack you if it can, or in the pursuit of being able to attack you.<br /><strong>Failure</strong> The creature becomes @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied}. On the creature's turn, it must spend 2 of its actions to attack you if it can, or in the pursuit of being able to attack you.<br /><strong>Critical Failure</strong> The creature becomes @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied}. On the creature's turn, it must spend all of its actions to attack you if it can, or in the pursuit of being able to attack you.</p>\n<p>@UUID[Compendium.pathfinders-guide-to-eberron.eberron-effects.EffUsedEnrage001]{Effect: Used Enrage}</p>"
     },
     "source": {
       "value": "Pathfinder's Guide to Eberron",
@@ -39,7 +39,7 @@
     "traits": {
       "value": [
         "emotion",
-        "hb_kalashtar",
+        "kalashtar",
         "mental"
       ],
       "rarity": "common",
@@ -75,6 +75,14 @@
     "_migration": {
       "version": 0.959,
       "previous": null
+    },
+    "frequency": {
+      "max": 1,
+      "per": "PT1H"
+    },
+    "selfEffect": {
+      "name": "Effect: Used Enrage",
+      "uuid": "Compendium.pathfinders-guide-to-eberron.eberron-effects.EffUsedEnrage001"
     }
   },
   "ownership": {

@@ -32,9 +32,9 @@
     },
     "traits": {
       "value": [
-        "hb_dragonmark",
+        "dragonmark",
         "linguistic",
-        "hb_mark-of-scribing",
+        "mark-of-scribing",
         "mental"
       ],
       "rarity": "uncommon",

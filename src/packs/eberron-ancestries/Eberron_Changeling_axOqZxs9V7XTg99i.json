@@ -41,7 +41,7 @@
     },
     "traits": {
       "value": [
-        "hb_eberron-changelings",
+        "eberron-changelings",
         "humanoid"
       ],
       "rarity": "common",

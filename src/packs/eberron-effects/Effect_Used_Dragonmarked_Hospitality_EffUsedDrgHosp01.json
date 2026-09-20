@@ -1,0 +1,81 @@
+{
+  "_id": "EffUsedDrgHosp01",
+  "name": "Effect: Used Dragonmarked Hospitality",
+  "type": "effect",
+  "img": "systems/pf2e/icons/spells/discern-secrets.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pathfinders-guide-to-eberron.eberron-effects.EffUsedDrgHosp01"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You have cast @UUID[Compendium.pathfinders-guide-to-eberron.eberron-spells.ncL6PBxg6etVfMrm]{Dragonmarked Hospitality} and cannot cast it again until your next daily preparations.</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
+    },
+    "traits": {
+      "value": [],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [],
+    "slug": "effect-used-dragonmarked-hospitality",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "level": {
+      "value": 2
+    },
+    "duration": {
+      "value": 1,
+      "unit": "days",
+      "sustained": false,
+      "expiry": "turn-start"
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368"
+  },
+  "_key": "!items!EffUsedDrgHosp01"
+}

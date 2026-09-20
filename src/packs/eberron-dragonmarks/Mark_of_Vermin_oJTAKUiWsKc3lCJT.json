@@ -21,8 +21,8 @@
     },
     "traits": {
       "value": [
-        "hb_aberrant-mark",
-        "hb_dragonmark",
+        "aberrant-mark",
+        "dragonmark",
         "general"
       ],
       "rarity": "common",

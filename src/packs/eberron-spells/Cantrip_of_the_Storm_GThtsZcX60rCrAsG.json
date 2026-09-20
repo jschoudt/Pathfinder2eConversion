@@ -22,8 +22,8 @@
     "traits": {
       "value": [
         "cantrip",
-        "hb_dragonmark",
-        "hb_mark-of-storm"
+        "dragonmark",
+        "mark-of-storm"
       ],
       "rarity": "uncommon",
       "custom": ""

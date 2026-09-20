@@ -21,7 +21,7 @@
     },
     "traits": {
       "value": [
-        "gnoll"
+        "kholo"
       ],
       "rarity": "uncommon",
       "custom": "",
@@ -69,7 +69,6 @@
     "equipped": {
       "carryType": "worn",
       "invested": null,
-      "-=inSlot": null,
       "handsHeld": 0
     },
     "stackGroup": null,

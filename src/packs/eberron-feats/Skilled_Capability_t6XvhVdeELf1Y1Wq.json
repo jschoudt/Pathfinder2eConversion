@@ -14,7 +14,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "\n\n\n<p class=\"hang\"><strong>Prerequisites</strong> Skilled Warforged heritage</p>\n<p class=\"hang\"><strong>Frequency</strong> once per hour</p>\n<p class=\"hang\"><strong>Trigger</strong> You attempt a skill check in which you are at least trained requiring three actions or fewer.</p>\n<hr />\n<p>Your training allows you to rapidly adapt circumstances to give yourself the best chance of success. You gain a +2 status bonus to the triggering skill check.</p>\n<p> </p>\n\n\n\n<p class=\"hang\"><strong>Enhancement</strong> You can see mistakes as they happen and rapidly adjust to prevent them. If you use Skilled Capability on a skill check and fail, you may reroll the triggering check without the +2 status bonus from Skilled Capability. If you do so, skilled Capability gains the fortune trait. You must use the new result, even if it's worse than your first roll. </p>\n"
+      "value": "\n\n\n<p class=\"hang\"><strong>Prerequisites</strong> Skilled Warforged heritage</p>\n<p class=\"hang\"><strong>Frequency</strong> once per hour</p>\n<p class=\"hang\"><strong>Trigger</strong> You attempt a skill check in which you are at least trained requiring three actions or fewer.</p>\n<hr />\n<p>Your training allows you to rapidly adapt circumstances to give yourself the best chance of success. You gain a +2 status bonus to the triggering skill check.</p>\n<p> </p>\n\n\n\n<p class=\"hang\"><strong>Enhancement</strong> You can see mistakes as they happen and rapidly adjust to prevent them. If you use Skilled Capability on a skill check and fail, you may reroll the triggering check without the +2 status bonus from Skilled Capability. If you do so, skilled Capability gains the fortune trait. You must use the new result, even if it's worse than your first roll. </p>\n\n<p>@UUID[Compendium.pathfinders-guide-to-eberron.eberron-effects.EffUsedSkillCap1]{Effect: Used Skilled Capability}</p>"
     },
     "source": {
       "value": "Pathfinder's Guide to Eberron",
@@ -39,7 +39,7 @@
     "traits": {
       "value": [
         "concentrate",
-        "hb_warforged"
+        "warforged"
       ],
       "rarity": "common",
       "custom": ""
@@ -74,6 +74,14 @@
     "_migration": {
       "version": 0.959,
       "previous": null
+    },
+    "frequency": {
+      "max": 1,
+      "per": "PT1H"
+    },
+    "selfEffect": {
+      "name": "Effect: Used Skilled Capability",
+      "uuid": "Compendium.pathfinders-guide-to-eberron.eberron-effects.EffUsedSkillCap1"
     }
   },
   "ownership": {

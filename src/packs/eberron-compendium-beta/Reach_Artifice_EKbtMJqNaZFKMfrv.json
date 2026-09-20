@@ -28,9 +28,9 @@
     },
     "traits": {
       "value": [
-        "hb_artificer",
+        "artificer",
         "concentrate",
-        "metamagic"
+        "spellshape"
       ],
       "rarity": "common"
     },

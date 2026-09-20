@@ -19,8 +19,8 @@
     "rules": [
       {
         "add": [
-          "hb_dragonmarked-heritage",
-          "hb_mark-of-hospitality"
+          "dragonmarked-heritage",
+          "mark-of-hospitality"
         ],
         "key": "ActorTraits"
       }
@@ -33,7 +33,7 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "hb_dragonmarked-heritage"
+        "dragonmarked-heritage"
       ],
       "rarity": "uncommon",
       "custom": ""

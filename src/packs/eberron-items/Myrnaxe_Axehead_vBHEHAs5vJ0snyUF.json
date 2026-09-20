@@ -22,7 +22,7 @@
     "traits": {
       "value": [
         "forceful",
-        "gnoll",
+        "kholo",
         "sweep"
       ],
       "rarity": "common",
@@ -43,7 +43,7 @@
       }
     },
     "quantity": 1,
-    "baseItem": "hb_myrnaxe-axehead",
+    "baseItem": "myrnaxe-axehead",
     "hp": {
       "brokenThreshold": 0,
       "value": 0,
@@ -62,8 +62,7 @@
     "equipped": {
       "carryType": "worn",
       "invested": null,
-      "handsHeld": 0,
-      "-=inSlot": null
+      "handsHeld": 0
     },
     "stackGroup": null,
     "negateBulk": {

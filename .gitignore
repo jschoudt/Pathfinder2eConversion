@@ -23,6 +23,12 @@ dist/
 pathfinders-guide-to-eberron/packs/
 pathfinders-guide-to-eberron/pathfinders-guide-to-eberron.lock
 
+# Test companion module runtime bridge files
+tests/companion-module/bridge-port.json
+tests/companion-module/server-errors.json
+tests/companion-module/client-errors.json
+tests/companion-module/error-report.md
+
 # macOS
 .DS_Store
 .DS_Store?

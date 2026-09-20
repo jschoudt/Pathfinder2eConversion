@@ -184,18 +184,18 @@ describe('Character Options: Ancestries, Heritages & Backgrounds Integration', (
 
     it('should verify Versatile Dragonmarked heritages configure ActorTraits rule elements', () => {
       const dragonmarks = [
-        { name: 'Mark of Making', trait: 'hb_mark-of-making' },
-        { name: 'Mark of Sentinel', trait: 'hb_mark-of-sentinel' },
-        { name: 'Mark of Healing', trait: 'hb_mark-of-healing' },
-        { name: 'Mark of Hospitality', trait: 'hb_mark-of-hospitality' },
-        { name: 'Mark of Passage', trait: 'hb_mark-of-passage' },
-        { name: 'Mark of Scribing', trait: 'hb_mark-of-scribing' },
-        { name: 'Mark of Shadow', trait: 'hb_mark-of-shadow' },
-        { name: 'Mark of Storm', trait: 'hb_mark-of-storm' },
-        { name: 'Mark of Warding', trait: 'hb_mark-of-warding' },
-        { name: 'Mark of Detection', trait: 'hb_mark-of-detection' },
-        { name: 'Mark of Finding', trait: 'hb_mark-of-finding' },
-        { name: 'Mark of Handling', trait: 'hb_mark-of-handling' }
+        { name: 'Mark of Making', trait: 'mark-of-making' },
+        { name: 'Mark of Sentinel', trait: 'mark-of-sentinel' },
+        { name: 'Mark of Healing', trait: 'mark-of-healing' },
+        { name: 'Mark of Hospitality', trait: 'mark-of-hospitality' },
+        { name: 'Mark of Passage', trait: 'mark-of-passage' },
+        { name: 'Mark of Scribing', trait: 'mark-of-scribing' },
+        { name: 'Mark of Shadow', trait: 'mark-of-shadow' },
+        { name: 'Mark of Storm', trait: 'mark-of-storm' },
+        { name: 'Mark of Warding', trait: 'mark-of-warding' },
+        { name: 'Mark of Detection', trait: 'mark-of-detection' },
+        { name: 'Mark of Finding', trait: 'mark-of-finding' },
+        { name: 'Mark of Handling', trait: 'mark-of-handling' }
       ];
 
       for (const { name, trait } of dragonmarks) {
@@ -204,7 +204,7 @@ describe('Character Options: Ancestries, Heritages & Backgrounds Integration', (
 
         const traitRule = (heritage.system.rules || []).find(r => r.key === 'ActorTraits');
         expect(traitRule, `Heritage "${name}" must have ActorTraits rule element`).toBeDefined();
-        expect(traitRule.add).toContain('hb_dragonmarked-heritage');
+        expect(traitRule.add).toContain('dragonmarked-heritage');
         expect(traitRule.add).toContain(trait);
       }
     });
@@ -269,7 +269,7 @@ describe('Character Options: Ancestries, Heritages & Backgrounds Integration', (
       expect(actor.items.size).toBe(2);
 
       const traitRule = markOfMaking.system.rules.find(r => r.key === 'ActorTraits');
-      expect(traitRule.add).toContain('hb_mark-of-making');
+      expect(traitRule.add).toContain('mark-of-making');
       expect(houseAgent.system.trainedLore).toBe('Dragonmarked Houses');
     });
 

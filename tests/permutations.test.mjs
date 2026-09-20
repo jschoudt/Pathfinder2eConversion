@@ -144,7 +144,7 @@ describe('Ancestry & Heritage Permutations and Grants Validation', () => {
           // Find specific heritages linked to this ancestry + all versatile heritages
           const matchingHeritages = [...heritageMap.values()].filter(h => {
             const linkedAncestry = h.system.ancestry?.name;
-            const isVersatile = h.system.traits?.value?.includes('hb_dragonmarked-heritage') || !linkedAncestry;
+            const isVersatile = h.system.traits?.value?.includes('dragonmarked-heritage') || !linkedAncestry;
             return linkedAncestry === ancestryName || isVersatile;
           });
 

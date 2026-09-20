@@ -21,7 +21,7 @@
     },
     "traits": {
       "value": [
-        "gnoll"
+        "kholo"
       ],
       "rarity": "common",
       "custom": ""
@@ -46,7 +46,7 @@
       }
     },
     "ancestry": {
-      "name": "Gnoll",
+      "name": "Kholo",
       "uuid": "Compendium.pf2e.ancestries.vxbQ1Yw4qwgjTzqo"
     },
     "publication": {

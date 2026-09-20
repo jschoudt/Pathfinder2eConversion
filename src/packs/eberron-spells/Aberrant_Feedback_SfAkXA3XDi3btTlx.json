@@ -18,10 +18,10 @@
     },
     "traits": {
       "value": [
-        "hb_aberrant-feedback",
-        "hb_aberrant-mark",
+        "aberrant-feedback",
+        "aberrant-mark",
         "cantrip",
-        "hb_dragonmark"
+        "dragonmark"
       ],
       "rarity": "uncommon",
       "custom": ""

@@ -21,10 +21,10 @@
     },
     "traits": {
       "value": [
-        "hb_dragonmark",
+        "dragonmark",
         "emotion",
         "linguistic",
-        "hb_mark-of-hospitality",
+        "mark-of-hospitality",
         "mental"
       ],
       "rarity": "uncommon",

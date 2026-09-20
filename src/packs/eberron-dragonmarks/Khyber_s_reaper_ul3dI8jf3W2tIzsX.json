@@ -13,7 +13,7 @@
   "_id": "ul3dI8jf3W2tIzsX",
   "system": {
     "description": {
-      "value": "<p class=\"hang\"><strong>Frequency</strong> once per day</p>\n<p class=\"hang\"><strong>Trigger</strong> You reduce an enemy to 0 Hit Points with the powers of your mark.</p>\n<hr />\n<p>As your powers wreak havoc, your mark reaps the chaos. You instantly regain 1 focus point. </p>"
+      "value": "<p class=\"hang\"><strong>Frequency</strong> once per day</p>\n<p class=\"hang\"><strong>Trigger</strong> You reduce an enemy to 0 Hit Points with the powers of your mark.</p>\n<hr />\n<p>As your powers wreak havoc, your mark reaps the chaos. You instantly regain 1 focus point. </p>\n<p>@UUID[Compendium.pathfinders-guide-to-eberron.eberron-effects.EffUsedKhyberRea]{Effect: Used Khyber's reaper}</p>"
     },
     "source": {
       "value": "Pathfinder's Guide to Eberron",
@@ -21,8 +21,8 @@
     },
     "traits": {
       "value": [
-        "hb_aberrant-mark",
-        "hb_dragonmark",
+        "aberrant-mark",
+        "dragonmark",
         "general"
       ],
       "rarity": "common",
@@ -69,6 +69,14 @@
     "_migration": {
       "version": 0.959,
       "previous": null
+    },
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    },
+    "selfEffect": {
+      "name": "Effect: Used Khyber's reaper",
+      "uuid": "Compendium.pathfinders-guide-to-eberron.eberron-effects.EffUsedKhyberRea"
     }
   },
   "ownership": {

@@ -22,35 +22,35 @@ describe('Eberron Ancestries & Heritages Specifications', () => {
       name: 'Warforged',
       expectedHp: 8,
       expectedSpeed: 25,
-      requiredTraits: ['construct', 'hb_warforged'],
+      requiredTraits: ['construct', 'warforged'],
       expectedSize: 'med'
     },
     {
       name: 'Kalashtar',
       expectedHp: 6,
       expectedSpeed: 25,
-      requiredTraits: ['humanoid', 'hb_kalashtar'],
+      requiredTraits: ['humanoid', 'kalashtar'],
       expectedSize: 'med'
     },
     {
       name: 'Eberron Changeling',
       expectedHp: 6,
       expectedSpeed: 25,
-      requiredTraits: ['humanoid', 'hb_eberron-changelings'],
+      requiredTraits: ['humanoid', 'eberron-changelings'],
       expectedSize: 'med'
     },
     {
       name: 'Shifter',
       expectedHp: 8,
       expectedSpeed: 25,
-      requiredTraits: ['humanoid', 'hb_shifter'],
+      requiredTraits: ['humanoid', 'shifter'],
       expectedSize: 'med'
     },
     {
       name: 'Bugbear',
       expectedHp: 10,
       expectedSpeed: 25,
-      requiredTraits: ['humanoid', 'hb_bugbear'],
+      requiredTraits: ['humanoid', 'bugbear'],
       expectedSize: 'med'
     }
   ];

@@ -22,7 +22,7 @@
     "traits": {
       "value": [
         "deadly-d8",
-        "gnoll",
+        "kholo",
         "two-hand-d10"
       ],
       "rarity": "uncommon",
@@ -43,7 +43,7 @@
       }
     },
     "quantity": 1,
-    "baseItem": "hb_myrnaxe-spearhead",
+    "baseItem": "myrnaxe-spearhead",
     "hp": {
       "brokenThreshold": 0,
       "value": 0,
@@ -64,8 +64,7 @@
     "equipped": {
       "carryType": "worn",
       "invested": null,
-      "handsHeld": 0,
-      "-=inSlot": null
+      "handsHeld": 0
     },
     "stackGroup": null,
     "negateBulk": {

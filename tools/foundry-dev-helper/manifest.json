@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Foundry VTT Dev & Test Accelerator",
+  "version": "1.0.0",
+  "description": "Automates world join, auto-login as Gamemaster, tour suppression, and fast test execution for Foundry VTT.",
+  "host_permissions": [
+    "http://localhost/*",
+    "http://127.0.0.1/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "http://localhost/*",
+        "http://127.0.0.1/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_start",
+      "world": "MAIN"
+    }
+  ]
+}

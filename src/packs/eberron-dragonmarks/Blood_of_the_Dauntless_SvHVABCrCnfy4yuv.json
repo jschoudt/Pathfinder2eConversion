@@ -21,9 +21,9 @@
     },
     "traits": {
       "value": [
-        "hb_dragonmark",
+        "dragonmark",
         "general",
-        "hb_mark-of-sentinel"
+        "mark-of-sentinel"
       ],
       "rarity": "common",
       "custom": ""

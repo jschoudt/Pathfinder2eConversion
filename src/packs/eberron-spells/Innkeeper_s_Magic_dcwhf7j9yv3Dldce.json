@@ -21,8 +21,8 @@
     },
     "traits": {
       "value": [
-        "hb_dragonmark",
-        "hb_mark-of-hospitality"
+        "dragonmark",
+        "mark-of-hospitality"
       ],
       "rarity": "uncommon",
       "custom": ""

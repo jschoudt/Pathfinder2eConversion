@@ -11,7 +11,7 @@
   "_id": "Qhf72hhZjoyw5iDd",
   "system": {
     "description": {
-      "value": "<p class=\"hang\"><strong>Frequency</strong> Once per day</p>\n<p class=\"hang\"><strong>Requirements</strong> You are wielding a raised tower shield</p>\n<hr />\n<p class=\"hang\"> </p>\n<p>You are trained to hold the line against any charge. You may take cover behind the shield, gaining the higher bonus for the tower shield.</p>"
+      "value": "<p class=\"hang\"><strong>Frequency</strong> Once per day</p>\n<p class=\"hang\"><strong>Requirements</strong> You are wielding a raised tower shield</p>\n<hr />\n<p class=\"hang\"> </p>\n<p>You are trained to hold the line against any charge. You may take cover behind the shield, gaining the higher bonus for the tower shield.</p>\n<p>@UUID[Compendium.pathfinders-guide-to-eberron.eberron-effects.EffUsedRapidCvr1]{Effect: Used Rapid Cover}</p>"
     },
     "source": {
       "value": "Pathfinder's Guide to Eberron",
@@ -20,7 +20,7 @@
     "traits": {
       "value": [
         "flourish",
-        "gnoll"
+        "kholo"
       ],
       "rarity": "common",
       "custom": ""
@@ -64,6 +64,14 @@
     "_migration": {
       "version": 0.959,
       "previous": null
+    },
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    },
+    "selfEffect": {
+      "name": "Effect: Used Rapid Cover",
+      "uuid": "Compendium.pathfinders-guide-to-eberron.eberron-effects.EffUsedRapidCvr1"
     }
   },
   "_stats": {

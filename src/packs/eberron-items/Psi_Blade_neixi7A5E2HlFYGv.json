@@ -65,8 +65,7 @@
     "equipped": {
       "carryType": "worn",
       "invested": null,
-      "handsHeld": 0,
-      "-=inSlot": null
+      "handsHeld": 0
     },
     "stackGroup": null,
     "negateBulk": {

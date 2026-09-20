@@ -14,7 +14,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "\n\n\n<p class=\"hang\"><strong>Frequency</strong> Once per 10 minutes</p>\n<hr />\n<p>With a rapid change of your form, you take on a monstrous form for an instant before shifting back. When you Demoralize, you can choose to replace the auditory trait and with the visual trait. You can then attempt a demoralize check against each enemy that can see you within 30 feet.</p>\n"
+      "value": "\n\n\n<p class=\"hang\"><strong>Frequency</strong> Once per 10 minutes</p>\n<hr />\n<p>With a rapid change of your form, you take on a monstrous form for an instant before shifting back. When you Demoralize, you can choose to replace the auditory trait and with the visual trait. You can then attempt a demoralize check against each enemy that can see you within 30 feet.</p>\n\n<p>@UUID[Compendium.pathfinders-guide-to-eberron.eberron-effects.EffUsedTravlProt]{Effect: Used The Traveller's Protection}</p>"
     },
     "source": {
       "value": "Pathfinder's Guide to Eberron",
@@ -38,7 +38,7 @@
     },
     "traits": {
       "value": [
-        "hb_eberron-changelings",
+        "eberron-changelings",
         "secret"
       ],
       "rarity": "common",
@@ -70,6 +70,14 @@
     "_migration": {
       "version": 0.959,
       "previous": null
+    },
+    "frequency": {
+      "max": 1,
+      "per": "PT10M"
+    },
+    "selfEffect": {
+      "name": "Effect: Used The Traveller's Protection",
+      "uuid": "Compendium.pathfinders-guide-to-eberron.eberron-effects.EffUsedTravlProt"
     }
   },
   "ownership": {

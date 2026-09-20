@@ -21,9 +21,9 @@
     },
     "traits": {
       "value": [
-        "hb_dragonmark",
+        "dragonmark",
         "general",
-        "hb_mark-of-passage"
+        "mark-of-passage"
       ],
       "rarity": "common",
       "custom": ""

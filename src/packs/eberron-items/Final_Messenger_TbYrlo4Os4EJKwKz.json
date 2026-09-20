@@ -13,7 +13,7 @@
       "value": [
         "invested",
         "magical",
-        "hb_warforged"
+        "warforged"
       ],
       "rarity": "common",
       "custom": "",
@@ -54,7 +54,6 @@
     "equipped": {
       "carryType": "worn",
       "invested": null,
-      "-=inSlot": null,
       "handsHeld": 0
     },
     "stackGroup": null,

@@ -42,4 +42,30 @@ describe('PF2e Remaster Terminology Audit', () => {
       expect(attrs.length).toBeGreaterThan(0);
     }
   });
+
+  it('should ensure zero pre-Remaster deprecated traits in system.traits.value across all items', () => {
+    const invalidTraits = new Set(['metamagic', 'transmutation', 'conjuration', 'evocation', 'abjuration', 'divination', 'enchantment', 'illusion', 'necromancy', 'positive', 'negative']);
+    const findings = [];
+
+    for (const doc of docs) {
+      function check(name, traits) {
+        if (Array.isArray(traits?.value)) {
+          for (const t of traits.value) {
+            if (invalidTraits.has(t)) {
+              findings.push({ file: doc.relPath, item: name, trait: t });
+            }
+          }
+        }
+      }
+
+      check(doc.data.name, doc.data.system?.traits);
+      if (Array.isArray(doc.data.items)) {
+        for (const sub of doc.data.items) {
+          check(`${doc.data.name} -> ${sub.name}`, sub.system?.traits);
+        }
+      }
+    }
+
+    expect(findings).toEqual([]);
+  });
 });

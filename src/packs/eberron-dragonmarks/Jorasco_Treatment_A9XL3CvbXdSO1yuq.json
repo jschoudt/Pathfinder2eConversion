@@ -13,7 +13,7 @@
   "_id": "A9XL3CvbXdSO1yuq",
   "system": {
     "description": {
-      "value": "<p class=\"hang\"><strong>Frequency</strong> once per day</p>\n<p class=\"hang\"><strong>Trigger</strong> you fail a medicine check.</p>\n<hr />\n<p>Your training in the infirmaries of Jorasco improves your skill with medicine. If you fail a Medicine check, you can reroll the check. You may select the better of the two rolls.</p>"
+      "value": "<p class=\"hang\"><strong>Frequency</strong> once per day</p>\n<p class=\"hang\"><strong>Trigger</strong> you fail a medicine check.</p>\n<hr />\n<p>Your training in the infirmaries of Jorasco improves your skill with medicine. If you fail a Medicine check, you can reroll the check. You may select the better of the two rolls.</p>\n<p>@UUID[Compendium.pathfinders-guide-to-eberron.eberron-effects.EffUsedJorascoTr]{Effect: Used Jorasco Treatment}</p>"
     },
     "source": {
       "value": "Pathfinder's Guide to Eberron",
@@ -23,7 +23,7 @@
       "value": [
         "fortune",
         "general",
-        "hb_mark-of-healing",
+        "mark-of-healing",
         "skill"
       ],
       "rarity": "common",
@@ -74,6 +74,14 @@
     "_migration": {
       "version": 0.959,
       "previous": null
+    },
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    },
+    "selfEffect": {
+      "name": "Effect: Used Jorasco Treatment",
+      "uuid": "Compendium.pathfinders-guide-to-eberron.eberron-effects.EffUsedJorascoTr"
     }
   },
   "ownership": {

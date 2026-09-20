@@ -22,9 +22,9 @@
     "traits": {
       "value": [
         "fatal-d10",
-        "gnoll",
+        "kholo",
         "propulsive",
-        "hb_volley-45"
+        "volley-45"
       ],
       "rarity": "uncommon",
       "custom": "",
@@ -44,7 +44,7 @@
       }
     },
     "quantity": 1,
-    "baseItem": "hb_gnoll-bow",
+    "baseItem": "gnoll-bow",
     "hp": {
       "brokenThreshold": 0,
       "value": 0,
@@ -65,8 +65,7 @@
     "equipped": {
       "carryType": "worn",
       "invested": null,
-      "handsHeld": 0,
-      "-=inSlot": null
+      "handsHeld": 0
     },
     "stackGroup": null,
     "negateBulk": {

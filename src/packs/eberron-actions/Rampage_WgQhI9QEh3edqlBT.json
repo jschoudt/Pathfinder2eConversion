@@ -11,7 +11,7 @@
   "_id": "WgQhI9QEh3edqlBT",
   "system": {
     "description": {
-      "value": "<p class=\"hang\"><strong>Frequency</strong> Once per day</p>\n<p class=\"hang\"><strong>Trigger</strong> You reduce a creature to 0 hp.</p>\n<hr />\n<p class=\"hang\"> </p>\n<p>You take advantage of the opening. You may spend your reaction to step, stride half your speed, or make a strike.</p>"
+      "value": "<p class=\"hang\"><strong>Frequency</strong> Once per day</p>\n<p class=\"hang\"><strong>Trigger</strong> You reduce a creature to 0 hp.</p>\n<hr />\n<p class=\"hang\"> </p>\n<p>You take advantage of the opening. You may spend your reaction to step, stride half your speed, or make a strike.</p>\n<p>@UUID[Compendium.pathfinders-guide-to-eberron.eberron-effects.EffUsedRampage01]{Effect: Used Rampage}</p>"
     },
     "source": {
       "value": "Pathfinder's Guide to Eberron",
@@ -19,7 +19,7 @@
     },
     "traits": {
       "value": [
-        "gnoll"
+        "kholo"
       ],
       "rarity": "common",
       "custom": ""
@@ -63,6 +63,14 @@
     "_migration": {
       "version": 0.959,
       "previous": null
+    },
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    },
+    "selfEffect": {
+      "name": "Effect: Used Rampage",
+      "uuid": "Compendium.pathfinders-guide-to-eberron.eberron-effects.EffUsedRampage01"
     }
   },
   "_stats": {

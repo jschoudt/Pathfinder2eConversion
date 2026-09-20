@@ -14,7 +14,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Frequency </strong>once per hour</p>\n<p><strong>Trigger </strong>You would be reduced to 0 Hit Points but not immediately killed.</p>\n<hr />\n<p>You stand through wounds that would drop most mortals. Make a DC 10 flat check. On a success, you avoid being knocked out and remain at 1 Hit Point, and your wounded condition increases by 1.</p>"
+      "value": "<p><strong>Frequency </strong>once per hour</p>\n<p><strong>Trigger </strong>You would be reduced to 0 Hit Points but not immediately killed.</p>\n<hr />\n<p>You stand through wounds that would drop most mortals. Make a DC 10 flat check. On a success, you avoid being knocked out and remain at 1 Hit Point, and your wounded condition increases by 1.</p>\n<p>@UUID[Compendium.pathfinders-guide-to-eberron.eberron-effects.EffUsedBugbearEn]{Effect: Used Bugbear Endurance}</p>"
     },
     "source": {
       "value": "Pathfinder's Guide to Eberron",
@@ -38,7 +38,7 @@
     },
     "traits": {
       "value": [
-        "hb_bugbear"
+        "bugbear"
       ],
       "rarity": "common",
       "custom": ""
@@ -69,6 +69,14 @@
     "_migration": {
       "version": 0.959,
       "previous": null
+    },
+    "frequency": {
+      "max": 1,
+      "per": "PT1H"
+    },
+    "selfEffect": {
+      "name": "Effect: Used Bugbear Endurance",
+      "uuid": "Compendium.pathfinders-guide-to-eberron.eberron-effects.EffUsedBugbearEn"
     }
   },
   "ownership": {

@@ -11,9 +11,8 @@
     },
     "traits": {
       "value": [
-        "hb_component",
-        "consumable",
-        "hb_metamagic"
+        "catalyst",
+        "consumable"
       ],
       "rarity": "common",
       "custom": "",
@@ -52,8 +51,7 @@
       }
     },
     "equipped": {
-      "carryType": "worn",
-      "-=inSlot": null
+      "carryType": "worn"
     },
     "stackGroup": null,
     "negateBulk": {

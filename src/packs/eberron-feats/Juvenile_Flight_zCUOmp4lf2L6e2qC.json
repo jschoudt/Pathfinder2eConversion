@@ -14,7 +14,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "\n\n<p class=\"hang\"><strong>Frequency</strong> once per day</p>\n<p class=\"hang\"><strong>Requirements</strong> You can use change shape</p>\n<hr />\n<p>You shift into your hybrid form, with special focus on your wings. You can keep this form for 10 minutes. You gain a fly Speed equal to your land Speed while your wings are unfurled. If you have Fledgling Flight, you gain a +10-foot status bonus to your fly Speed with Juvenile Flight. As normal, since your fly Speed is derived from your land Speed, this status bonus isn't cumulative with a status bonus to your land Speed, if you have one. This transformation counts against the frequency of your change shape. </p>\n"
+      "value": "\n\n<p class=\"hang\"><strong>Frequency</strong> once per day</p>\n<p class=\"hang\"><strong>Requirements</strong> You can use change shape</p>\n<hr />\n<p>You shift into your hybrid form, with special focus on your wings. You can keep this form for 10 minutes. You gain a fly Speed equal to your land Speed while your wings are unfurled. If you have Fledgling Flight, you gain a +10-foot status bonus to your fly Speed with Juvenile Flight. As normal, since your fly Speed is derived from your land Speed, this status bonus isn't cumulative with a status bonus to your land Speed, if you have one. This transformation counts against the frequency of your change shape. </p>\n\n<p>@UUID[Compendium.pathfinders-guide-to-eberron.eberron-effects.EffUsedJuvenlFlt]{Effect: Used Juvenile Flight}</p>"
     },
     "source": {
       "value": "Pathfinder's Guide to Eberron",
@@ -38,7 +38,7 @@
     },
     "traits": {
       "value": [
-        "hb_shifter"
+        "shifter"
       ],
       "rarity": "common",
       "custom": ""
@@ -73,6 +73,14 @@
     "_migration": {
       "version": 0.959,
       "previous": null
+    },
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    },
+    "selfEffect": {
+      "name": "Effect: Used Juvenile Flight",
+      "uuid": "Compendium.pathfinders-guide-to-eberron.eberron-effects.EffUsedJuvenlFlt"
     }
   },
   "ownership": {

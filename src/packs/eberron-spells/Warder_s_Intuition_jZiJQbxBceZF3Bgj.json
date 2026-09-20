@@ -18,8 +18,8 @@
     },
     "traits": {
       "value": [
-        "hb_dragonmark",
-        "hb_mark-of-warding"
+        "dragonmark",
+        "mark-of-warding"
       ],
       "rarity": "uncommon",
       "custom": ""

@@ -14,7 +14,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"hang\"><strong>Frequency</strong> once per 10 minutes</p>\n<p class=\"hang\"><strong>Trigger</strong> You, or an ally you can see, are damaged by an enemy's critical hit and you are in your hybrid form.</p>\n<hr />\n<p class=\"hang\"> </p>\n<p>You dedicate yourself to destroying those who harm your companions. Until the end of your next turn, you deal an additional +1d6 damage on Strikes against the triggering enemy. The bonus increases to +2d6 if you use a striking weapon or unarmed attack and +3d6 if you use a major striking weapon or unarmed attack.</p>"
+      "value": "<p class=\"hang\"><strong>Frequency</strong> once per 10 minutes</p>\n<p class=\"hang\"><strong>Trigger</strong> You, or an ally you can see, are damaged by an enemy's critical hit and you are in your hybrid form.</p>\n<hr />\n<p class=\"hang\"> </p>\n<p>You dedicate yourself to destroying those who harm your companions. Until the end of your next turn, you deal an additional +1d6 damage on Strikes against the triggering enemy. The bonus increases to +2d6 if you use a striking weapon or unarmed attack and +3d6 if you use a major striking weapon or unarmed attack.</p>\n<p>@UUID[Compendium.pathfinders-guide-to-eberron.eberron-effects.EffUsedGorebrVng]{Effect: Used Gorebrute Vengeance}</p>"
     },
     "source": {
       "value": "Pathfinder's Guide to Eberron",
@@ -40,7 +40,7 @@
       "value": [
         "emotion",
         "mental",
-        "hb_shifter"
+        "shifter"
       ],
       "rarity": "common",
       "custom": ""
@@ -75,6 +75,14 @@
     "_migration": {
       "version": 0.959,
       "previous": null
+    },
+    "frequency": {
+      "max": 1,
+      "per": "PT10M"
+    },
+    "selfEffect": {
+      "name": "Effect: Used Gorebrute Vengeance",
+      "uuid": "Compendium.pathfinders-guide-to-eberron.eberron-effects.EffUsedGorebrVng"
     }
   },
   "ownership": {

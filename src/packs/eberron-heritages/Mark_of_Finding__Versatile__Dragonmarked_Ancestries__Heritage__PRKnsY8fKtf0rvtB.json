@@ -24,8 +24,8 @@
       },
       {
         "add": [
-          "hb_dragonmarked-heritage",
-          "hb_mark-of-finding"
+          "dragonmarked-heritage",
+          "mark-of-finding"
         ],
         "key": "ActorTraits"
       }
@@ -38,7 +38,7 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "hb_dragonmarked-heritage"
+        "dragonmarked-heritage"
       ],
       "rarity": "common",
       "custom": ""

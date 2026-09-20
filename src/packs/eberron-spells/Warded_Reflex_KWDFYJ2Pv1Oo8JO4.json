@@ -18,9 +18,9 @@
     },
     "traits": {
       "value": [
-        "hb_dragonmark",
-        "hb_mark-of-detection",
-        "hb_mark-of-passage"
+        "dragonmark",
+        "mark-of-detection",
+        "mark-of-passage"
       ],
       "rarity": "uncommon",
       "custom": ""

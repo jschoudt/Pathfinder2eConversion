@@ -24,8 +24,8 @@
       },
       {
         "add": [
-          "hb_dragonmarked-heritage",
-          "hb_mark-of-storm"
+          "dragonmarked-heritage",
+          "mark-of-storm"
         ],
         "key": "ActorTraits"
       }
@@ -38,7 +38,7 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "hb_dragonmarked-heritage"
+        "dragonmarked-heritage"
       ],
       "rarity": "common",
       "custom": ""

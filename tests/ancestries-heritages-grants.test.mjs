@@ -80,7 +80,7 @@ describe('Ancestries & Heritages: Bestowed Feats, Items, Bonuses, and Traits', (
         name: 'Warforged',
         hp: 8,
         speed: 25,
-        traits: ['hb_warforged', 'construct'],
+        traits: ['warforged', 'construct'],
         expectedBoosts: ['con'],
         flaw: 'cha',
         expectedGrants: [
@@ -94,7 +94,7 @@ describe('Ancestries & Heritages: Bestowed Feats, Items, Bonuses, and Traits', (
         name: 'Kalashtar',
         hp: 6,
         speed: 25,
-        traits: ['hb_kalashtar', 'humanoid'],
+        traits: ['kalashtar', 'humanoid'],
         expectedBoosts: ['cha'],
         expectedGrants: ['Link Mind']
       },
@@ -102,14 +102,14 @@ describe('Ancestries & Heritages: Bestowed Feats, Items, Bonuses, and Traits', (
         name: 'Shifter',
         hp: 8,
         speed: 25,
-        traits: ['hb_shifter', 'humanoid'],
+        traits: ['shifter', 'humanoid'],
         expectedBoosts: ['con']
       },
       {
         name: 'Eberron Changeling',
         hp: 6,
         speed: 25,
-        traits: ['hb_eberron-changelings', 'humanoid'],
+        traits: ['eberron-changelings', 'humanoid'],
         expectedBoosts: ['cha'],
         hasShiftShapeRule: true
       },
@@ -117,7 +117,7 @@ describe('Ancestries & Heritages: Bestowed Feats, Items, Bonuses, and Traits', (
         name: 'Bugbear',
         hp: 10,
         speed: 25,
-        traits: ['hb_bugbear', 'humanoid'],
+        traits: ['bugbear', 'humanoid'],
         expectedBoosts: ['str']
       }
     ];
@@ -587,29 +587,29 @@ describe('Ancestries & Heritages: Bestowed Feats, Items, Bonuses, and Traits', (
 
   describe('Versatile Dragonmarked Heritages: Trait Bestowal', () => {
     const DRAGONMARKS = [
-      { name: 'Mark of Detection', trait: 'hb_mark-of-detection', hasSense: true },
-      { name: 'Mark of Finding', trait: 'hb_mark-of-finding', hasSense: true },
-      { name: 'Mark of Handling', trait: 'hb_mark-of-handling' },
-      { name: 'Mark of Healing', trait: 'hb_mark-of-healing' },
-      { name: 'Mark of Hospitality', trait: 'hb_mark-of-hospitality' },
-      { name: 'Mark of Making', trait: 'hb_mark-of-making' },
-      { name: 'Mark of Passage', trait: 'hb_mark-of-passage' },
-      { name: 'Mark of Scribing', trait: 'hb_mark-of-scribing' },
-      { name: 'Mark of Sentinel', trait: 'hb_mark-of-sentinel' },
-      { name: 'Mark of Shadow', trait: 'hb_mark-of-shadow', hasSense: true },
-      { name: 'Mark of Storm', trait: 'hb_mark-of-storm', hasSense: true },
-      { name: 'Mark of Warding', trait: 'hb_mark-of-warding' },
-      { name: 'Aberrant Mark', trait: 'hb_aberrant-mark' }
+      { name: 'Mark of Detection', trait: 'mark-of-detection', hasSense: true },
+      { name: 'Mark of Finding', trait: 'mark-of-finding', hasSense: true },
+      { name: 'Mark of Handling', trait: 'mark-of-handling' },
+      { name: 'Mark of Healing', trait: 'mark-of-healing' },
+      { name: 'Mark of Hospitality', trait: 'mark-of-hospitality' },
+      { name: 'Mark of Making', trait: 'mark-of-making' },
+      { name: 'Mark of Passage', trait: 'mark-of-passage' },
+      { name: 'Mark of Scribing', trait: 'mark-of-scribing' },
+      { name: 'Mark of Sentinel', trait: 'mark-of-sentinel' },
+      { name: 'Mark of Shadow', trait: 'mark-of-shadow', hasSense: true },
+      { name: 'Mark of Storm', trait: 'mark-of-storm', hasSense: true },
+      { name: 'Mark of Warding', trait: 'mark-of-warding' },
+      { name: 'Aberrant Mark', trait: 'aberrant-mark' }
     ];
 
     describe.each(DRAGONMARKS)('Heritage: $name', ({ name, trait, hasSense }) => {
-      it(`should bestow hb_dragonmarked-heritage and ${trait} traits`, () => {
+      it(`should bestow dragonmarked-heritage and ${trait} traits`, () => {
         const heritage = [...heritageMap.values()].find(h => h.name.includes(name));
         expect(heritage, `Dragonmark heritage ${name} must exist`).toBeDefined();
 
         const traitRule = heritage.system.rules.find(r => r.key === 'ActorTraits');
         expect(traitRule, `Heritage ${name} must have ActorTraits rule element`).toBeDefined();
-        expect(traitRule.add).toContain('hb_dragonmarked-heritage');
+        expect(traitRule.add).toContain('dragonmarked-heritage');
         expect(traitRule.add).toContain(trait);
 
         if (hasSense) {
@@ -632,7 +632,7 @@ describe('Ancestries & Heritages: Bestowed Feats, Items, Bonuses, and Traits', (
 
           const compatibleHeritages = [...heritageMap.values()].filter(h => {
             const linkedAncestry = h.system.ancestry?.name;
-            const isVersatile = h.system.traits?.value?.includes('hb_dragonmarked-heritage') || !linkedAncestry;
+            const isVersatile = h.system.traits?.value?.includes('dragonmarked-heritage') || !linkedAncestry;
             return linkedAncestry === ancestryName || isVersatile;
           });
 
@@ -680,4 +680,58 @@ describe('Ancestries & Heritages: Bestowed Feats, Items, Bonuses, and Traits', (
       });
     }
   });
+
+  describe('Feats Trait Normalization & Ancestry Association', () => {
+    it('should tag Alert Scout with the Warforged trait and ancestry category', () => {
+      const alertScout = [...docMap.values()].find(d => d.name === 'Alert Scout' && d.type === 'feat');
+      expect(alertScout, 'Alert Scout feat must exist').toBeDefined();
+      expect(alertScout.system.category).toBe('ancestry');
+      expect(alertScout.system.traits.value).toContain('warforged');
+      expect(alertScout.system.traits.value).not.toContain('hb_warforged');
+    });
+
+    it('should ensure all ancestry feats are tagged with an appropriate ancestry trait', () => {
+      const ancestryFeats = [...docMap.values()].filter(d => d.type === 'feat' && d.system?.category === 'ancestry');
+      expect(ancestryFeats.length).toBeGreaterThan(150);
+
+      const validAncestryTraits = new Set([
+        'warforged',
+        'shifter',
+        'kalashtar',
+        'bugbear',
+        'eberron-changelings',
+        'kholo',
+        'gnoll',
+        'dragonmarked-heritage'
+      ]);
+
+      for (const feat of ancestryFeats) {
+        const traits = feat.system.traits?.value || [];
+        const hasAncestryTrait = traits.some(t => validAncestryTraits.has(t));
+        expect(
+          hasAncestryTrait,
+          `Ancestry feat "${feat.name}" must have an ancestry trait (traits: ${JSON.stringify(traits)})`
+        ).toBe(true);
+      }
+    });
+
+    it('should ensure no documents contain legacy hb_ prefixed traits or rule elements', () => {
+      for (const doc of docMap.values()) {
+        const traits = doc.system?.traits?.value || [];
+        for (const t of traits) {
+          expect(t.startsWith('hb_'), `Document "${doc.name}" has legacy trait: ${t}`).toBe(false);
+        }
+
+        const rules = doc.system?.rules || [];
+        for (const rule of rules) {
+          if (Array.isArray(rule.add)) {
+            for (const t of rule.add) {
+              expect(t.startsWith('hb_'), `Document "${doc.name}" rule adds legacy trait: ${t}`).toBe(false);
+            }
+          }
+        }
+      }
+    });
+  });
 });
+

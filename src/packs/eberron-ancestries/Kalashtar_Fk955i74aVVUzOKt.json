@@ -36,7 +36,7 @@
     "traits": {
       "value": [
         "humanoid",
-        "hb_kalashtar"
+        "kalashtar"
       ],
       "rarity": "uncommon",
       "custom": ""
@@ -73,7 +73,7 @@
     "languages": {
       "value": [
         "common",
-        "hb_quori"
+        "quori"
       ],
       "custom": ""
     },

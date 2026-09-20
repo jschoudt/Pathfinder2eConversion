@@ -36,7 +36,7 @@
     "traits": {
       "value": [
         "humanoid",
-        "hb_shifter"
+        "shifter"
       ],
       "rarity": "common",
       "custom": ""

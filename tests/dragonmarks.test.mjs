@@ -20,18 +20,18 @@ describe('Dragonmarks, Houses & Dragonshards Specifications', () => {
 
   describe('Dragonmarked Houses & Feats', () => {
     const HOUSE_FEATS = [
-      { house: 'Cannith (Making)', feat: 'Cannith Forgecraft', requiredTrait: 'hb_mark-of-making' },
-      { house: 'Deneith (Sentinel)', feat: 'Deneith Battle Fortitude', requiredTrait: 'hb_mark-of-sentinel' },
-      { house: 'Medani (Detection)', feat: 'Eye of Medani', requiredTrait: 'hb_mark-of-detection' },
-      { house: 'Ghallanda (Hospitality)', feat: 'Grace of Ghallanda', requiredTrait: 'hb_mark-of-hospitality' },
-      { house: 'Jorasco (Healing)', feat: 'Jorasco Treatment', requiredTrait: 'hb_mark-of-healing' },
-      { house: 'Kundarak (Warding)', feat: 'Kundarak Insight', requiredTrait: 'hb_mark-of-warding' },
-      { house: 'Lyrandar (Storm)', feat: 'Lyrandar Captain', requiredTrait: 'hb_mark-of-storm' },
-      { house: 'Orien (Passage)', feat: 'Orien Traveller', requiredTrait: 'hb_mark-of-passage' },
-      { house: 'Phiarlan (Shadow)', feat: 'Phiarlan Performer', requiredTrait: 'hb_mark-of-shadow' },
-      { house: 'Sivis (Scribing)', feat: 'Scribe of Sivis', requiredTrait: 'hb_mark-of-scribing' },
-      { house: 'Tharashk (Finding)', feat: 'Tharashk Survivalist', requiredTrait: 'hb_mark-of-finding' },
-      { house: 'Vadalis (Handling)', feat: 'Vadalis Instincts', requiredTrait: 'hb_mark-of-handling' }
+      { house: 'Cannith (Making)', feat: 'Cannith Forgecraft', requiredTrait: 'mark-of-making' },
+      { house: 'Deneith (Sentinel)', feat: 'Deneith Battle Fortitude', requiredTrait: 'mark-of-sentinel' },
+      { house: 'Medani (Detection)', feat: 'Eye of Medani', requiredTrait: 'mark-of-detection' },
+      { house: 'Ghallanda (Hospitality)', feat: 'Grace of Ghallanda', requiredTrait: 'mark-of-hospitality' },
+      { house: 'Jorasco (Healing)', feat: 'Jorasco Treatment', requiredTrait: 'mark-of-healing' },
+      { house: 'Kundarak (Warding)', feat: 'Kundarak Insight', requiredTrait: 'mark-of-warding' },
+      { house: 'Lyrandar (Storm)', feat: 'Lyrandar Captain', requiredTrait: 'mark-of-storm' },
+      { house: 'Orien (Passage)', feat: 'Orien Traveller', requiredTrait: 'mark-of-passage' },
+      { house: 'Phiarlan (Shadow)', feat: 'Phiarlan Performer', requiredTrait: 'mark-of-shadow' },
+      { house: 'Sivis (Scribing)', feat: 'Scribe of Sivis', requiredTrait: 'mark-of-scribing' },
+      { house: 'Tharashk (Finding)', feat: 'Tharashk Survivalist', requiredTrait: 'mark-of-finding' },
+      { house: 'Vadalis (Handling)', feat: 'Vadalis Instincts', requiredTrait: 'mark-of-handling' }
     ];
 
     describe.each(HOUSE_FEATS)(

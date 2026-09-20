@@ -112,7 +112,7 @@ describe('Backgrounds and Items: Schemas, Bestowals, and AC Mechanics', () => {
         expectedStrength: 18,
         expectedCategory: 'heavy',
         expectedGroup: 'plate',
-        expectedTraits: ['comfort', 'bulwark', 'hb_warforged']
+        expectedTraits: ['comfort', 'bulwark', 'warforged']
       },
       {
         name: 'Nominal Integrated Armour',
@@ -198,8 +198,8 @@ describe('Backgrounds and Items: Schemas, Bestowals, and AC Mechanics', () => {
 
   describe('Eberron Weapons: Categories, Groups, and Damage Values', () => {
     const WEAPON_CONFIGS = [
-      { name: 'Boomerang, Talenta', category: 'martial', group: 'hb_boomerang', die: 'd4', type: 'bludgeoning' },
-      { name: "Boomerang, Xen'Drik", category: 'martial', group: 'hb_boomerang', die: 'd4', type: 'slashing' },
+      { name: 'Boomerang, Talenta', category: 'martial', group: 'boomerang', die: 'd4', type: 'bludgeoning' },
+      { name: "Boomerang, Xen'Drik", category: 'martial', group: 'boomerang', die: 'd4', type: 'slashing' },
       { name: 'Double-Bladed Scimitar', category: 'martial', group: 'sword', die: 'd6', type: 'slashing' },
       { name: 'Gnoll Bow', category: 'advanced', group: 'bow', die: 'd8', type: 'piercing' },
       { name: 'Myrnaxe Axehead', category: 'advanced', group: 'axe', die: 'd12', type: 'slashing' },

@@ -408,7 +408,6 @@
         },
         "traits": {
           "value": [
-            "conjuration",
             "teleportation"
           ],
           "rarity": "common",
@@ -640,7 +639,7 @@
       "name": "Dragonmark Discharge",
       "system": {
         "description": {
-          "value": "<p>The dragonmark discharges its energy in a blast that deals [[/r 15d6[positive]]] or negative depending on the source dragonmark damage in a 40-foot cone (Dragonmark DC of the summoner basic Reflex save). The Siberys Living Dragonmark can't use Dragonmark Discharge again for 1d4 rounds.</p>"
+          "value": "<p>The dragonmark discharges its energy in a blast that deals [[/r 15d6[vitality]]] or negative depending on the source dragonmark damage in a 40-foot cone (Dragonmark DC of the summoner basic Reflex save). The Siberys Living Dragonmark can't use Dragonmark Discharge again for 1d4 rounds.</p>"
         },
         "source": {
           "value": "Pathfinder's Guide to Eberron",
@@ -649,9 +648,8 @@
         "traits": {
           "value": [
             "arcane",
-            "evocation",
-            "negative",
-            "positive"
+            "void",
+            "vitality"
           ],
           "rarity": "common",
           "custom": ""

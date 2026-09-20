@@ -44,7 +44,7 @@
       }
     },
     "quantity": 1,
-    "baseItem": "hb_sharrash",
+    "baseItem": "sharrash",
     "hp": {
       "brokenThreshold": 0,
       "value": 0,
@@ -65,8 +65,7 @@
     "equipped": {
       "carryType": "worn",
       "invested": null,
-      "handsHeld": 0,
-      "-=inSlot": null
+      "handsHeld": 0
     },
     "stackGroup": null,
     "negateBulk": {

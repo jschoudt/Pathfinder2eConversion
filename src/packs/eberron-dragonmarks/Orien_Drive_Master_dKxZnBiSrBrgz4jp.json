@@ -22,7 +22,7 @@
     "traits": {
       "value": [
         "general",
-        "hb_mark-of-passage",
+        "mark-of-passage",
         "skill"
       ],
       "rarity": "common",

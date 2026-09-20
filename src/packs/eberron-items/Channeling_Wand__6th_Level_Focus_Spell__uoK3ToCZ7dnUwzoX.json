@@ -11,7 +11,7 @@
     },
     "traits": {
       "value": [
-        "hb_dragonmark",
+        "dragonmark",
         "invested",
         "magical"
       ],
@@ -53,8 +53,7 @@
     },
     "equipped": {
       "carryType": "worn",
-      "invested": null,
-      "-=inSlot": null
+      "invested": null
     },
     "stackGroup": null,
     "negateBulk": {

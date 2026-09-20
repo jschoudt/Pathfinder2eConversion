@@ -28,7 +28,7 @@
     },
     "traits": {
       "value": [
-        "hb_artificer",
+        "artificer",
         "manipulate"
       ],
       "rarity": "uncommon"

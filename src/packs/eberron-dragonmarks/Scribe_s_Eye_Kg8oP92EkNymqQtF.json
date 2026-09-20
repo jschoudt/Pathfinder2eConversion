@@ -21,9 +21,9 @@
     },
     "traits": {
       "value": [
-        "hb_dragonmark",
+        "dragonmark",
         "general",
-        "hb_mark-of-scribing",
+        "mark-of-scribing",
         "skill"
       ],
       "rarity": "common",

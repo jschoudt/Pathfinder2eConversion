@@ -1497,7 +1497,7 @@
         },
         "traits": {
           "value": [
-            "positive",
+            "vitality",
             "healing",
             "cantrip"
           ],

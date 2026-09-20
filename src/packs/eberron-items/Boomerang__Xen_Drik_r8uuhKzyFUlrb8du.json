@@ -22,9 +22,9 @@
     "traits": {
       "value": [
         "agile",
-        "hb_drow",
+        "drow",
         "finesse",
-        "hb_returning",
+        "returning",
         "thrown-20"
       ],
       "rarity": "uncommon",
@@ -45,7 +45,7 @@
       }
     },
     "quantity": 1,
-    "baseItem": "hb_boomerang-xendrik",
+    "baseItem": "boomerang-xendrik",
     "hp": {
       "brokenThreshold": 0,
       "value": 0,
@@ -66,8 +66,7 @@
     "equipped": {
       "carryType": "worn",
       "invested": null,
-      "handsHeld": 0,
-      "-=inSlot": null
+      "handsHeld": 0
     },
     "stackGroup": null,
     "negateBulk": {
@@ -101,7 +100,7 @@
       "value": 0
     },
     "category": "martial",
-    "group": "hb_boomerang",
+    "group": "boomerang",
     "bonus": {
       "value": 0
     },

@@ -22,7 +22,7 @@
     "traits": {
       "value": [
         "general",
-        "hb_mark-of-warding",
+        "mark-of-warding",
         "skill"
       ],
       "rarity": "common",

@@ -10,7 +10,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your dragonmark pulses with potent, channeled energy. Once per day, you can cast one of your dragonmark focus spells without expending a Focus Point.</p>\n<p>In addition, you gain a +1 circumstance bonus to skill checks using the signature skill associated with your mark (such as Crafting for the Mark of Making, Medicine for the Mark of Healing, or Perception for the Mark of Detection or Finding).</p>"
+      "value": "<p>Your dragonmark pulses with potent, channeled energy. Once per day, you can cast one of your dragonmark focus spells without expending a Focus Point.</p>\n<p>In addition, you gain a +1 circumstance bonus to skill checks using the signature skill associated with your mark (such as Crafting for the Mark of Making, Medicine for the Mark of Healing, or Perception for the Mark of Detection or Finding).</p>\n<p>@UUID[Compendium.pathfinders-guide-to-eberron.eberron-effects.EffUsedPotentDrg]{Effect: Used Potent Dragonmark}</p>"
     },
     "rules": [],
     "slug": null,
@@ -21,7 +21,7 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "hb_dragonmarked-heritage"
+        "dragonmarked-heritage"
       ],
       "rarity": "uncommon",
       "custom": ""
@@ -70,6 +70,14 @@
     },
     "featType": {
       "value": "ancestry"
+    },
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    },
+    "selfEffect": {
+      "name": "Effect: Used Potent Dragonmark",
+      "uuid": "Compendium.pathfinders-guide-to-eberron.eberron-effects.EffUsedPotentDrg"
     }
   },
   "ownership": {

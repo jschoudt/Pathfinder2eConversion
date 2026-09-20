@@ -21,8 +21,8 @@
     },
     "traits": {
       "value": [
-        "hb_dragonmark",
-        "hb_mark-of-handling"
+        "dragonmark",
+        "mark-of-handling"
       ],
       "rarity": "uncommon",
       "custom": ""
