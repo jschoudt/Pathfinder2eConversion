@@ -1,0 +1,69 @@
+{
+  "name": "Bloodline: Progenitor Dragon",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/class.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_id": "bpd2024mm0000002",
+  "system": {
+    "description": {
+      "value": "<p>Your magic flows not from mere true dragons, but from the three mythical Progenitor Wyrms who sang the cosmos into being: Siberys the Dragon Above, Eberron the Dragon Between, and Khyber the Dragon Below.</p><p><strong>Spellcasting Tradition:</strong> When you gain this bloodline, choose one of the three Progenitor Wyrms:</p><ul><li><strong>Siberys (Arcane):</strong> The golden sky of magic and prophecy. Your tradition is Arcane. Your bloodline skills are Arcana and Society.</li><li><strong>Eberron (Primal):</strong> The vibrant earth, cradle of all natural life. Your tradition is Primal. Your bloodline skills are Nature and Survival.</li><li><strong>Khyber (Occult):</strong> The dark depths, prison of fiends and aberrant terrors. Your tradition is Occult. Your bloodline skills are Occultism and Intimidation.</li></ul><p><strong>Blood Magic:</strong> Cosmic power flares when you cast a bloodline spell. Either you or one ally within 30 feet gains temporary Hit Points equal to the spell's rank (minimum 1) for 1 round, or one target of the spell takes force damage equal to the spell's rank.</p><p><strong>Granted Focus Spells:</strong> Initial: @UUID[Compendium.pathfinders-guide-to-eberron.eberron-spells.soc2024mm0000017]{Shape of Creation}; Advanced: @UUID[Compendium.pathfinders-guide-to-eberron.eberron-spells.col2024mm0000018]{Cradle of Life}; Greater: @UUID[Compendium.pathfinders-guide-to-eberron.eberron-spells.pga2024mm0000019]{Progenitor's Awakening}.</p>"
+    },
+    "source": {
+      "value": "Morgrave Miscellany",
+      "page": "N/A"
+    },
+    "publication": {
+      "title": "Morgrave Miscellany",
+      "authors": "Keith Baker & Ruty Rutenberg",
+      "license": "OGL / DMs Guild",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "rules": [],
+    "slug": "bloodline-progenitor-dragon",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "level": {
+      "value": 1
+    },
+    "traits": {
+      "value": [
+        "sorcerer"
+      ],
+      "rarity": "rare",
+      "custom": ""
+    },
+    "category": "classfeature",
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1726848000000,
+    "modifiedTime": 1726848000000,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!bpd2024mm0000002"
+}

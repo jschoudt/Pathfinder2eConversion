@@ -1,0 +1,82 @@
+{
+  "name": "Master of the Ivory Banner",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_id": "mib2024mm0000006",
+  "system": {
+    "description": {
+      "value": "<p class=\"hang\"><strong>Prerequisites</strong> Bone Knight Dedication</p><hr /><p>You raise the grim banner of Karrnath, commanding supreme discipline among your ranks. You project a 30-foot commanding aura. Undead allies and living comrades who follow your lead within the emanation gain a +1 status bonus to attack rolls and a +2 status bonus to saving throws against emotion and fear effects.</p><p>In addition, when an undead ally within your aura would be destroyed by taking damage (reduced to 0 Hit Points), it attempts a DC 15 flat check. On a success, it remains at 1 Hit Point instead.</p>"
+    },
+    "source": {
+      "value": "Morgrave Miscellany",
+      "page": "N/A"
+    },
+    "traits": {
+      "value": [
+        "archetype",
+        "aura"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [],
+    "slug": "master-of-the-ivory-banner",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "level": {
+      "value": 8
+    },
+    "featType": {
+      "value": "archetype"
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Bone Knight Dedication"
+        }
+      ]
+    },
+    "publication": {
+      "title": "Morgrave Miscellany",
+      "authors": "Keith Baker & Ruty Rutenberg",
+      "license": "OGL / DMs Guild",
+      "remaster": true,
+      "page": "N/A"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1726848000000,
+    "modifiedTime": 1726848000000,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!mib2024mm0000006"
+}

@@ -273,6 +273,63 @@ item(
 Your connection to the beast within surges with primal vigor. Your shift transformation lasts for 10 minutes (instead of 1 minute), and you can Shift an additional time per day.
 )
 
+item(
+# Integrated Arcana
+## Feat 1
+-
+; Warforged ; 3rd-Party
+**Reference:** *Morgrave Miscellany* (Ch. 1), by Keith Baker & Ruty Rutenberg
+Your chassis incorporates crystalline conduits and a collapsible forearm socket. With 10 minutes of work, you can integrate one wand or light-Bulk arcane tool directly into your forearm. Drawing or retracting it is a free action when you Cast a Spell or Strike with it. You also learn one arcane cantrip of your choice, castable at will as an arcane innate spell.
+)
+
+item(
+# Warforged Colossus
+## Feat 9
+-
+; Morph ; Warforged ; 3rd-Party
+**Reference:** *Morgrave Miscellany* (Ch. 1), by Keith Baker & Ruty Rutenberg
+**Frequency:** once per 10 minutes
+[one-action] You disengage internal hydraulic limiters to expand your armored frame. For 1 minute, your size increases to Large, your reach increases by 5 feet, you gain 15 temporary Hit Points, and you gain a +2 status bonus to melee damage rolls (+4 if master in weapons).
+)
+
+item(
+# Atavist
+## Feat 5
+-
+; Kalashtar ; 3rd-Party
+**Reference:** *Morgrave Miscellany* (Ch. 1), by Keith Baker & Ruty Rutenberg
+Your bond with your bonded quori spirit echoes the ancient courage of Taratai. You gain resistance equal to half your level against mental damage. In addition, when you roll a success on a saving throw against an effect that would make you controlled, fascinated, or frightened, you get a critical success instead.
+)
+
+item(
+# Quori Nightmare
+## Feat 9
+-
+; Emotion ; Fear ; Kalashtar ; Mental ; 3rd-Party
+**Reference:** *Morgrave Miscellany* (Ch. 1), by Keith Baker & Ruty Rutenberg
+**Frequency:** once per hour
+[two-actions] You project a terrifying echo of Dal Quor into the minds of your enemies. Foes in a 30-foot emanation take 5d6 mental damage and must attempt a Will save against your class or spell DC. On a success, they take half damage and are frightened 1; on a failure, full damage, frightened 2, and fleeing for 1 round; on a critical failure, double damage, frightened 3, and fleeing for 1 round.
+)
+
+item(
+# Weretouched Master
+## Feat 5
+-
+; Morph ; Shifter ; 3rd-Party
+**Reference:** *Morgrave Miscellany* (Ch. 1), by Keith Baker & Ruty Rutenberg
+**Prerequisites:** The ability to Shift
+While shifted, your unarmed Strikes gain either the deadly d8 trait or both the agile and finesse traits. In addition, your status bonus to Speed while shifted increases by +10 feet, and you gain low-light vision (or darkvision if you already have low-light vision).
+)
+
+item(
+# Moonspeaker
+## Feat 9
+-
+; Primal ; Shifter ; 3rd-Party
+**Reference:** *Morgrave Miscellany* (Ch. 1), by Keith Baker & Ruty Rutenberg
+You attune yourself to the cosmic dance of Eberron's twelve moons. You can cast *mist* and *moonbeam* each once per day as primal innate spells, using Wisdom or Charisma as your spellcasting ability. At night under open moonlight, you gain a +1 circumstance bonus to Nature and Survival checks.
+)
+
 =
 ## Chronicles of Eberron Traditions ((+Chronicles Traditions))
 info(

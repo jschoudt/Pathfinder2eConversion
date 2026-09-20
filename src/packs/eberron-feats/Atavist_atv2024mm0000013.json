@@ -1,0 +1,74 @@
+{
+  "name": "Atavist",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_id": "atv2024mm0000013",
+  "system": {
+    "description": {
+      "value": "<p>The connection between your mortal soul and your bonded quori spirit is unusually pure, echoing the heroic rebellion of Taratai during Dal Quor's turning of the age. You gain resistance equal to half your level against mental damage. In addition, when you roll a success on a saving throw against an effect that would impose the controlled, fascinated, or frightened condition, you get a critical success instead.</p>"
+    },
+    "source": {
+      "value": "Morgrave Miscellany",
+      "page": "N/A"
+    },
+    "traits": {
+      "value": [
+        "kalashtar"
+      ],
+      "rarity": "uncommon",
+      "custom": ""
+    },
+    "rules": [],
+    "slug": "atavist",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "level": {
+      "value": 5
+    },
+    "featType": {
+      "value": "ancestry"
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "publication": {
+      "title": "Morgrave Miscellany",
+      "authors": "Keith Baker & Ruty Rutenberg",
+      "license": "OGL / DMs Guild",
+      "remaster": true,
+      "page": "N/A"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1726848000000,
+    "modifiedTime": 1726848000000,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!atv2024mm0000013"
+}

@@ -1,0 +1,77 @@
+{
+  "name": "Quori Nightmare",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_id": "qnm2024mm0000014",
+  "system": {
+    "description": {
+      "value": "<p class=\"hang\"><strong>Frequency</strong> once per hour</p><hr /><p>You tear aside the waking mind's defenses, projecting a terrifying echo of the Dreaming Dark directly into the psyches of your foes. Enemies in a 30-foot emanation take 5d6 mental damage and must attempt a Will saving throw against your class DC or spell DC (whichever is higher).</p><ul><li><strong>Critical Success</strong> The creature is unaffected.</li><li><strong>Success</strong> The creature takes half damage and is frightened 1.</li><li><strong>Failure</strong> The creature takes full damage, is frightened 2, and is fleeing for 1 round.</li><li><strong>Critical Failure</strong> The creature takes double damage, is frightened 3, and is fleeing for 1 round.</li></ul>"
+    },
+    "source": {
+      "value": "Morgrave Miscellany",
+      "page": "N/A"
+    },
+    "traits": {
+      "value": [
+        "emotion",
+        "fear",
+        "kalashtar",
+        "mental"
+      ],
+      "rarity": "uncommon",
+      "custom": ""
+    },
+    "rules": [],
+    "slug": "quori-nightmare",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "level": {
+      "value": 9
+    },
+    "featType": {
+      "value": "ancestry"
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "publication": {
+      "title": "Morgrave Miscellany",
+      "authors": "Keith Baker & Ruty Rutenberg",
+      "license": "OGL / DMs Guild",
+      "remaster": true,
+      "page": "N/A"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1726848000000,
+    "modifiedTime": 1726848000000,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!qnm2024mm0000014"
+}

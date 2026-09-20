@@ -1,0 +1,89 @@
+{
+  "_id": "col2024mm0000018",
+  "name": "Cradle of Life",
+  "type": "spell",
+  "img": "systems/pf2e/icons/spells/cradle-of-life.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "source": {
+      "value": "Morgrave Miscellany",
+      "page": "N/A"
+    },
+    "publication": {
+      "title": "Morgrave Miscellany",
+      "authors": "Keith Baker & Ruty Rutenberg",
+      "license": "OGL / DMs Guild",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "rules": [],
+    "slug": "cradle-of-life",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "traits": {
+      "value": [
+        "concentrate",
+        "focus",
+        "healing",
+        "manipulate",
+        "sorcerer",
+        "vitality"
+      ],
+      "rarity": "uncommon",
+      "custom": "",
+      "traditions": []
+    },
+    "description": {
+      "value": "<p>You wrap a creature in an aura of primordial vitality, mimicking the protective mantle of the Dragon Between. The target regains 3d8 Hit Points and gains a +1 status bonus to AC and all saving throws for 1 round. If your patron is <strong>Khyber</strong>, this spell can heal undead creatures using void energy instead of living creatures with vitality.</p><p><strong>Heightened (+1):</strong> The healing increases by 1d8.</p>"
+    },
+    "level": {
+      "value": 3
+    },
+    "category": {
+      "value": "focus"
+    },
+    "spellType": {
+      "value": "heal"
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "target": {
+      "value": "1 willing living or undead creature"
+    },
+    "time": {
+      "value": "2"
+    },
+    "damage": {
+      "0": {
+        "formula": "3d8",
+        "type": "vitality"
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1726848000000,
+    "modifiedTime": 1726848000000,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!col2024mm0000018"
+}

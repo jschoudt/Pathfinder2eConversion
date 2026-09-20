@@ -1,0 +1,81 @@
+{
+  "name": "Ivory Mount",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_id": "ivm2024mm0000005",
+  "system": {
+    "description": {
+      "value": "<p class=\"hang\"><strong>Prerequisites</strong> Bone Knight Dedication</p><hr /><p>You bind the skeletal remnants of a loyal war beast into your personal ivory mount, animated with Karrnathi necromantic craft. You gain an animal companion that serves as your loyal mount (typically a horse, wolf, or riding monitor). Your mount gains the undead trait: it is healed by void effects, harmed by vitality effects, and is immune to bleed, death effects, disease, paralyzed, poison, and unconscious conditions. It does not require food, drink, air, or sleep.</p>"
+    },
+    "source": {
+      "value": "Morgrave Miscellany",
+      "page": "N/A"
+    },
+    "traits": {
+      "value": [
+        "archetype"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [],
+    "slug": "ivory-mount",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "level": {
+      "value": 4
+    },
+    "featType": {
+      "value": "archetype"
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Bone Knight Dedication"
+        }
+      ]
+    },
+    "publication": {
+      "title": "Morgrave Miscellany",
+      "authors": "Keith Baker & Ruty Rutenberg",
+      "license": "OGL / DMs Guild",
+      "remaster": true,
+      "page": "N/A"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1726848000000,
+    "modifiedTime": 1726848000000,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!ivm2024mm0000005"
+}

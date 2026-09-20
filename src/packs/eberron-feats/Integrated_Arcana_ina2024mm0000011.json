@@ -1,0 +1,74 @@
+{
+  "name": "Integrated Arcana",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_id": "ina2024mm0000011",
+  "system": {
+    "description": {
+      "value": "<p>Your chassis was forged with specialized crystalline conduits and a collapsible forearm socket for arcane implements. With 10 minutes of work, you can integrate one wand, rod, or spellcasting tool of light Bulk or less into your arm. You can draw or retract the integrated implement as a free action as part of an action to Cast a Spell or Strike with it, and it cannot be disarmed while integrated.</p><p>In addition, you learn one cantrip from the arcane spell list of your choice. You can cast this cantrip as an arcane innate spell at will, heightened to a rank equal to half your level rounded up.</p>"
+    },
+    "source": {
+      "value": "Morgrave Miscellany",
+      "page": "N/A"
+    },
+    "traits": {
+      "value": [
+        "warforged"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [],
+    "slug": "integrated-arcana",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "level": {
+      "value": 1
+    },
+    "featType": {
+      "value": "ancestry"
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "publication": {
+      "title": "Morgrave Miscellany",
+      "authors": "Keith Baker & Ruty Rutenberg",
+      "license": "OGL / DMs Guild",
+      "remaster": true,
+      "page": "N/A"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1726848000000,
+    "modifiedTime": 1726848000000,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!ina2024mm0000011"
+}

@@ -1,0 +1,79 @@
+{
+  "_id": "psp2024mm0000021",
+  "name": "Personal Prophecy",
+  "type": "spell",
+  "img": "systems/pf2e/icons/spells/personal-prophecy.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "source": {
+      "value": "Morgrave Miscellany",
+      "page": "N/A"
+    },
+    "publication": {
+      "title": "Morgrave Miscellany",
+      "authors": "Keith Baker & Ruty Rutenberg",
+      "license": "OGL / DMs Guild",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "rules": [],
+    "slug": "personal-prophecy",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "traits": {
+      "value": [
+        "concentrate",
+        "focus",
+        "fortune",
+        "prediction",
+        "wizard"
+      ],
+      "rarity": "uncommon",
+      "custom": "",
+      "traditions": []
+    },
+    "description": {
+      "value": "<p><strong>Trigger:</strong> You or an ally within 30 feet attempts an attack roll, saving throw, or skill check, or an enemy attempts an attack roll against you or an ally within 30 feet.</p><p>You glimpse the intersecting possibilities of the Draconic Prophecy and steer fate toward your intended outcome. If the triggering creature is you or an ally, they roll the check twice and use the higher result (this is a fortune effect). If the triggering creature is an enemy attacking you or an ally, the enemy rolls twice and takes the lower result (this is a misfortune effect).</p>"
+    },
+    "level": {
+      "value": 3
+    },
+    "category": {
+      "value": "focus"
+    },
+    "spellType": {
+      "value": "utility"
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "time": {
+      "value": "reaction"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1726848000000,
+    "modifiedTime": 1726848000000,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!psp2024mm0000021"
+}

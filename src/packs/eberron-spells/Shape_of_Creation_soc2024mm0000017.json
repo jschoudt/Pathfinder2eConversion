@@ -1,0 +1,94 @@
+{
+  "_id": "soc2024mm0000017",
+  "name": "Shape of Creation",
+  "type": "spell",
+  "img": "systems/pf2e/icons/spells/shape-of-creation.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "source": {
+      "value": "Morgrave Miscellany",
+      "page": "N/A"
+    },
+    "publication": {
+      "title": "Morgrave Miscellany",
+      "authors": "Keith Baker & Ruty Rutenberg",
+      "license": "OGL / DMs Guild",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "rules": [],
+    "slug": "shape-of-creation",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "traits": {
+      "value": [
+        "concentrate",
+        "focus",
+        "manipulate",
+        "sorcerer"
+      ],
+      "rarity": "uncommon",
+      "custom": "",
+      "traditions": []
+    },
+    "description": {
+      "value": "<p>You channel the creative spark of the Progenitor Wyrms to reshape matter and energy. Choose an energy type aligned with your bloodline's patron: force or electricity for <strong>Siberys</strong>; fire or bludgeoning for <strong>Eberron</strong>; cold or void for <strong>Khyber</strong>.</p><p>Creatures in a 10-foot burst within 60 feet take 2d6 damage of the chosen type (basic Reflex save). The affected area becomes difficult terrain for 1 round as crystalline shards or earthen crags manifest before slowly dispersing.</p><p><strong>Heightened (+1):</strong> The damage increases by 2d6.</p>"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": {
+      "value": "focus"
+    },
+    "spellType": {
+      "value": "save"
+    },
+    "defense": {
+      "save": {
+        "statistic": "reflex",
+        "basic": true
+      }
+    },
+    "range": {
+      "value": "60 feet"
+    },
+    "area": {
+      "type": "burst",
+      "value": 10
+    },
+    "time": {
+      "value": "2"
+    },
+    "damage": {
+      "0": {
+        "formula": "2d6",
+        "type": "force"
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1726848000000,
+    "modifiedTime": 1726848000000,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!soc2024mm0000017"
+}

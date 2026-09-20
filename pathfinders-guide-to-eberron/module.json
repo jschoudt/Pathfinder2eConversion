@@ -189,6 +189,17 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
+    },
+    {
+      "name": "eberron-journals",
+      "label": "Eberron Journals",
+      "path": "packs/eberron-journals",
+      "type": "JournalEntry",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     }
   ],
   "packFolders": [
@@ -209,7 +220,8 @@
         "eberron-heritages",
         "eberron-items",
         "eberron-spells",
-        "eberron-creatures"
+        "eberron-creatures",
+        "eberron-journals"
       ]
     }
   ],

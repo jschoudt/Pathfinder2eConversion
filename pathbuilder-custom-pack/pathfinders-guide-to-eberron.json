@@ -5895,6 +5895,134 @@
       "traits": "bard, sorcerer, witch, spellshape, 3rd-party",
       "textDescription": "<b>Reference:</b> <em>Chronicles of Eberron</em> (p. 95), by Keith Baker.<br><br>  Reference:   Chronicles of Eberron  (p. 95, 97), by Keith Baker ( DMs Guild )  [one-action] You utter your incantations backward, weaving the disturbing and forbidden phonetic paradoxes of the Shadow into the spell’s fabric. If your next action is to Cast a Spell with verbal components that inflicts the  frightened  condition, you can choose instead for affected targets to become  off-guard  and  fascinated  by you for the duration. If the spell would instead cause a target to become  fascinated  or charmed, you can choose instead for the target to become  frightened 2 . ",
       "src": "Chronicles of Eberron, p. 95"
+    },
+    {
+      "id": "8983b728-a658-4bdc-90cc-7bc92870979c",
+      "name": "Bone Knight Dedication",
+      "level": 2,
+      "traits": "archetype, dedication, uncommon",
+      "textDescription": "<b>Reference:</b> <em>Morgrave Miscellany</em>, by Keith Baker & Ruty Rutenberg.<br><br><b>Prerequisites:</b> Trained in heavy armor; trained in Athletics, Religion, or Undead Lore.<br><br>You have sworn allegiance to the martial traditions of Karrnath and learned bonecrafting. When wearing bonecraft heavy armor you crafted, you gain resistance equal to half your level (min 1) against void and vitality damage, and +1 circumstance bonus to saves vs disease and fear.",
+      "src": "Morgrave Miscellany"
+    },
+    {
+      "id": "fbd0f452-bdcb-4f55-b7bf-4922eb91ba82",
+      "name": "Bonecraft Mastery",
+      "level": 4,
+      "traits": "archetype",
+      "textDescription": "<b>Reference:</b> <em>Morgrave Miscellany</em>, by Keith Baker & Ruty Rutenberg.<br><br><b>Prerequisites:</b> Bone Knight Dedication.<br><br>When you wield a bonecraft weapon you crafted, your Strikes deal +1d4 void or cold damage, and gain the deadly d6 trait (or increase existing deadly die by one step, max d12).",
+      "src": "Morgrave Miscellany"
+    },
+    {
+      "id": "2682adbb-ec65-49db-8621-ae4f09e4663e",
+      "name": "Ivory Mount",
+      "level": 4,
+      "traits": "archetype",
+      "textDescription": "<b>Reference:</b> <em>Morgrave Miscellany</em>, by Keith Baker & Ruty Rutenberg.<br><br><b>Prerequisites:</b> Bone Knight Dedication.<br><br>You bind a skeletal war beast into your ivory mount. You gain an animal companion mount with the undead trait (healed by void, harmed by vitality, immune to bleed, death, disease, paralyzed, poison, and unconscious).",
+      "src": "Morgrave Miscellany"
+    },
+    {
+      "id": "2adffbe4-5d42-49f6-912f-9597b9f6e1ed",
+      "name": "Master of the Ivory Banner",
+      "level": 8,
+      "traits": "archetype, aura",
+      "textDescription": "<b>Reference:</b> <em>Morgrave Miscellany</em>, by Keith Baker & Ruty Rutenberg.<br><br><b>Prerequisites:</b> Bone Knight Dedication.<br><br>[one-action] You project a 30-foot commanding aura. Undead and living allies within gain +1 status bonus to attacks and +2 status bonus to saves vs emotion/fear. Undead allies reduced to 0 HP make a DC 15 flat check to remain at 1 HP.",
+      "src": "Morgrave Miscellany"
+    },
+    {
+      "id": "b04c2eb3-163e-49d2-bddb-092baf67f0ad",
+      "name": "Marrow Death Strike",
+      "level": 12,
+      "traits": "archetype, void",
+      "textDescription": "<b>Reference:</b> <em>Morgrave Miscellany</em>, by Keith Baker & Ruty Rutenberg.<br><br><b>Prerequisites:</b> Bone Knight Dedication, Bonecraft Mastery.<br><br>[two-actions] Make a melee Strike with a bonecraft weapon dealing +3d8 void damage. On a critical hit, the target is drained 1 and enfeebled 1.",
+      "src": "Morgrave Miscellany"
+    },
+    {
+      "id": "b0042a1c-c65a-47fb-876f-deb00186c793",
+      "name": "Grim Conscription",
+      "level": 16,
+      "traits": "archetype, void",
+      "textDescription": "<b>Reference:</b> <em>Morgrave Miscellany</em>, by Keith Baker & Ruty Rutenberg.<br><br><b>Prerequisites:</b> Bone Knight Dedication.<br><br>[reaction] Trigger: A living creature within 30 feet dies. The creature immediately rises as an animated skeleton or zombie under your command for 1 minute (frequency: once per hour).",
+      "src": "Morgrave Miscellany"
+    },
+    {
+      "id": "808444a4-7c48-4ae2-9b57-434135a5939b",
+      "name": "Bloodline: Progenitor Dragon",
+      "level": 1,
+      "traits": "sorcerer, rare",
+      "textDescription": "<b>Reference:</b> <em>Morgrave Miscellany</em>, by Keith Baker & Ruty Rutenberg.<br><br>Choose Siberys (Arcane), Eberron (Primal), or Khyber (Occult). Blood magic grants temporary HP or force damage. Granted focus spells: Shape of Creation, Cradle of Life, Progenitor Awakening.",
+      "src": "Morgrave Miscellany"
+    },
+    {
+      "id": "625698c5-58bf-4a03-a846-e7ccee0fd4a7",
+      "name": "Curriculum: School of Antiquities",
+      "level": 1,
+      "traits": "wizard, uncommon",
+      "textDescription": "<b>Reference:</b> <em>Morgrave Miscellany</em>, by Keith Baker & Ruty Rutenberg.<br><br>Morgrave University curriculum. Focus spells: Surveyor of Ruin (Focus 1), Personal Prophecy (Focus 3).",
+      "src": "Morgrave Miscellany"
+    },
+    {
+      "id": "212887fb-5f1a-4c7d-a67e-2b3c154b0e6f",
+      "name": "Argent Fist Stance",
+      "level": 4,
+      "traits": "monk, stance, holy",
+      "textDescription": "<b>Reference:</b> <em>Morgrave Miscellany</em>, by Keith Baker & Ruty Rutenberg.<br><br><b>Requirements:</b> Unarmored.<br><br>[one-action] Unarmed strikes deal 1d6 bludgeoning (agile, finesse, holy, nonlethal, silver). Against fiends/undead, deal +1d4 spirit damage and count as cold iron.",
+      "src": "Morgrave Miscellany"
+    },
+    {
+      "id": "f61bc906-1988-462a-bfc8-ed60d4d197e1",
+      "name": "Wrath of the Argent Flame",
+      "level": 8,
+      "traits": "monk, fire, holy, spirit",
+      "textDescription": "<b>Reference:</b> <em>Morgrave Miscellany</em>, by Keith Baker & Ruty Rutenberg.<br><br><b>Prerequisites:</b> Argent Fist Stance.<br><br>[two-actions] 15-foot cone dealing 4d6 fire and 4d6 spirit damage (basic Reflex save). Fiends and undead are dazzled 1 min (blinded 1 rd on crit fail).",
+      "src": "Morgrave Miscellany"
+    },
+    {
+      "id": "0975c176-75c7-4fcc-a822-2d964073b521",
+      "name": "Integrated Arcana",
+      "level": 1,
+      "traits": "warforged",
+      "textDescription": "<b>Reference:</b> <em>Morgrave Miscellany</em>, by Keith Baker & Ruty Rutenberg.<br><br>Integrate a wand or light-Bulk tool into your forearm. Draw/retract it as a free action when Casting or Striking with it. Gain one arcane cantrip as an innate spell.",
+      "src": "Morgrave Miscellany"
+    },
+    {
+      "id": "68e667a1-959c-470e-91c3-f254e80b0ea2",
+      "name": "Warforged Colossus",
+      "level": 9,
+      "traits": "warforged, morph, uncommon",
+      "textDescription": "<b>Reference:</b> <em>Morgrave Miscellany</em>, by Keith Baker & Ruty Rutenberg.<br><br><b>Frequency:</b> once per 10 minutes.<br><br>[one-action] Expand to Large size for 1 minute: gain 5-foot reach, 15 temporary HP, and +2 status bonus to melee damage (+4 if master).",
+      "src": "Morgrave Miscellany"
+    },
+    {
+      "id": "764f5c65-1380-4edc-b4ce-8189e1f29308",
+      "name": "Atavist",
+      "level": 5,
+      "traits": "kalashtar, uncommon",
+      "textDescription": "<b>Reference:</b> <em>Morgrave Miscellany</em>, by Keith Baker & Ruty Rutenberg.<br><br>Gain resistance to mental damage equal to half your level. Successes on saves vs controlled, fascinated, or frightened become critical successes.",
+      "src": "Morgrave Miscellany"
+    },
+    {
+      "id": "ebe91ee2-1686-4b5c-b5ab-e7dc0b8a9183",
+      "name": "Quori Nightmare",
+      "level": 9,
+      "traits": "kalashtar, mental, emotion, fear, uncommon",
+      "textDescription": "<b>Reference:</b> <em>Morgrave Miscellany</em>, by Keith Baker & Ruty Rutenberg.<br><br><b>Frequency:</b> once per hour.<br><br>[two-actions] Enemies in 30-foot emanation take 5d6 mental damage and attempt a Will save (success: half damage and frightened 1; failure: full damage, frightened 2, fleeing 1 rd; crit fail: double damage, frightened 3, fleeing 1 rd).",
+      "src": "Morgrave Miscellany"
+    },
+    {
+      "id": "7261a0a6-c361-4e68-a488-dbcca8e0470d",
+      "name": "Weretouched Master",
+      "level": 5,
+      "traits": "shifter, morph",
+      "textDescription": "<b>Reference:</b> <em>Morgrave Miscellany</em>, by Keith Baker & Ruty Rutenberg.<br><br><b>Prerequisites:</b> The ability to Shift.<br><br>While shifted, your unarmed Strikes gain either deadly d8 or agile and finesse. Status bonus to Speed increases by +10 ft, and you gain low-light vision (or darkvision).",
+      "src": "Morgrave Miscellany"
+    },
+    {
+      "id": "d0e23ba9-ba68-40ff-9ff8-dad74f79d3dd",
+      "name": "Moonspeaker",
+      "level": 9,
+      "traits": "shifter, primal, uncommon",
+      "textDescription": "<b>Reference:</b> <em>Morgrave Miscellany</em>, by Keith Baker & Ruty Rutenberg.<br><br>Cast mist and moonbeam each once per day as primal innate spells. Under open moonlight, gain +1 circumstance bonus to Nature and Survival.",
+      "src": "Morgrave Miscellany"
     }
   ],
   "listCustomHeritages": [
@@ -8104,6 +8232,56 @@
       "cast": "verbal, somatic",
       "descriptionHeightened": "<b>Reference:</b> <em>Chronicles of Eberron</em> (p. 98), by Keith Baker.<br><br>  Reference:   Chronicles of Eberron  (p. 96, 98), by Keith Baker ( DMs Guild )   Cast:  [two-actions] verbal, somatic;  Focus:  an unlit lantern worth at least 5 gp   Range:  60 feet;  Target:  1 living creature   Defense:  Fortitude;  Duration:  Sustained up to 1 minute   You pull a fragment of the target's living soul into your focus lantern, igniting it with ghostly, pale luminescence that sheds dim light in a 20-foot radius. The target takes 2d6 void damage (basic Fortitude save). Each time you Sustain the spell, the lantern continues to siphon the tethered soul, dealing 2d6 void damage (basic Fortitude save). If the target dies while its soul is bound in the lantern, it cannot be raised from the dead by magic of equal or lower rank until the lantern is physically shattered or dispelled.   Heightened (+1):  The void damage increases by 1d6. ",
       "src": "Chronicles of Eberron, p. 98"
+    },
+    {
+      "uniqueID": "65966168-8c06-40b2-9a07-c4248868190f",
+      "name": "Shape of Creation",
+      "type": "Focus",
+      "level": 1,
+      "traits": "sorcerer, focus, concentrate, manipulate",
+      "cast": "2 actions",
+      "descriptionHeightened": "<b>Reference:</b> <em>Morgrave Miscellany</em>, by Keith Baker & Ruty Rutenberg.<br><br>Reshape matter in a 10-foot burst within 60 ft dealing 2d6 energy damage (force/electric for Siberys, fire/bludgeon for Eberron, cold/void for Khyber; basic Reflex). Area becomes difficult terrain 1 rd. Heightened (+1): +2d6 damage.",
+      "src": "Morgrave Miscellany"
+    },
+    {
+      "uniqueID": "e3ec74b3-72ae-4797-8983-685e1253c10e",
+      "name": "Cradle of Life",
+      "type": "Focus",
+      "level": 3,
+      "traits": "sorcerer, focus, healing, vitality, concentrate, manipulate",
+      "cast": "2 actions",
+      "descriptionHeightened": "<b>Reference:</b> <em>Morgrave Miscellany</em>, by Keith Baker & Ruty Rutenberg.<br><br>Target within 30 ft regains 3d8 HP and gains +1 status bonus to AC and saves for 1 round (Khyber can heal undead with void). Heightened (+1): +1d8 HP.",
+      "src": "Morgrave Miscellany"
+    },
+    {
+      "uniqueID": "42f3473d-b345-4934-bb0f-87386d79e410",
+      "name": "Progenitor's Awakening",
+      "type": "Focus",
+      "level": 6,
+      "traits": "sorcerer, focus, dragon, morph, concentrate, manipulate",
+      "cast": "2 actions",
+      "descriptionHeightened": "<b>Reference:</b> <em>Morgrave Miscellany</em>, by Keith Baker & Ruty Rutenberg.<br><br>For 1 minute, gain fly Speed, resistance 5 physical, and +2 status to Intimidation. Once during the duration, spend 1 action to unleash breath weapon in 30-ft cone dealing 8d6 damage (basic Reflex). Heightened (+1): +2d6 breath, +1 resistance.",
+      "src": "Morgrave Miscellany"
+    },
+    {
+      "uniqueID": "2632fc0c-f0b9-4d9e-81f3-baf7c059b9d1",
+      "name": "Surveyor of Ruin",
+      "type": "Focus",
+      "level": 1,
+      "traits": "wizard, focus, detection, concentrate",
+      "cast": "1 action",
+      "descriptionHeightened": "<b>Reference:</b> <em>Morgrave Miscellany</em>, by Keith Baker & Ruty Rutenberg.<br><br>Target 1 hazard, object, or creature within 30 ft. Hazard/Object: +2 status to find/disable for 1 min. Creature: Recall Knowledge with +1 status and +1 status to next attack. Heightened (4th): +3 to hazards, +2 to attack.",
+      "src": "Morgrave Miscellany"
+    },
+    {
+      "uniqueID": "90ce1f85-562a-4b89-bf01-353a3a818626",
+      "name": "Personal Prophecy",
+      "type": "Focus",
+      "level": 3,
+      "traits": "wizard, focus, fortune, prediction, concentrate",
+      "cast": "reaction",
+      "descriptionHeightened": "<b>Reference:</b> <em>Morgrave Miscellany</em>, by Keith Baker & Ruty Rutenberg.<br><br>Trigger: You or an ally within 30 ft attempts an attack, save, or skill check, or an enemy attacks an ally. Ally rolls twice and takes higher (fortune); enemy rolls twice and takes lower (misfortune).",
+      "src": "Morgrave Miscellany"
     }
   ],
   "listCustomSpecial": [

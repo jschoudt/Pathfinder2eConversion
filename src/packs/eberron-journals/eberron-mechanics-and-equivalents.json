@@ -1,0 +1,107 @@
+{
+  "_id": "EbJournalEquiv01",
+  "name": "Eberron Concepts & PF2e Equivalents",
+  "pages": [
+    {
+      "_id": "PageEquivMap0001",
+      "name": "Overview & Concept Mapping",
+      "type": "text",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Eberron is a world of wide magic, swashbuckling pulp action, and shadows of noir intrigue. While the <em>Pathfinder's Guide to Eberron</em> compendiums provide custom mechanics for dragonmarks, warforged, and iconic magic items, many classic Eberron character archetypes and setting mechanics already have exceptional representations within native Pathfinder 2e Remaster systems.</p><p>This guide serves as a practical bridge for players and Game Masters adapting characters from 3.5e, 4e, or 5e Eberron sourcebooks into Pathfinder 2e Remaster, complete with notes on reskinning and reflavoring.</p><h2>Master Concept Mapping Table</h2><table><thead><tr><th>Eberron Concept / Archetype</th><th>Primary Source</th><th>Pathfinder 2e Remaster Equivalent</th><th>Mechanical &amp; Narrative Reflavoring Notes</th></tr></thead><tbody><tr><td><strong>Artificer (General)</strong></td><td>ECS / Rising</td><td><strong>Inventor Class</strong></td><td>Weapon, Armor, or Construct Innovation; Crafting-driven gadgetry.</td></tr><tr><td><strong>Cannith Mastermaker</strong></td><td>3.5e / Dread Metrol</td><td><strong>Sterling Dynamo Archetype</strong></td><td>Mechanical prosthetic limbs, integrated weapons, and piston strikes.</td></tr><tr><td><strong>Alchemical Bomb Maker</strong></td><td>ECS / 5e</td><td><strong>Alchemist (Bomber)</strong></td><td>Powdered Siberys dragonshard flasks rather than chemical gunpowder.</td></tr><tr><td><strong>Inquisitive / Private Eye</strong></td><td>5e / Morgrave</td><td><strong>Investigator Class</strong></td><td><em>Devise a Stratagem</em>, <em>Pursue a Lead</em>, forensic and empirical methodologies.</td></tr><tr><td><strong>Extreme Explorer</strong></td><td>3.5e / Morgrave</td><td><strong>Archaeologist / Swashbuckler</strong></td><td>Trap finding, hazard lore, <em>Daring Scoundrel</em>, and panache-driven surges.</td></tr><tr><td><strong>Field Marshal / Officer</strong></td><td>Morgrave / 3.5e</td><td><strong>Marshal Archetype / Commander</strong></td><td><em>Inspiring / Dread Marshal Stance</em>, <em>To Battle!</em>, tactical movement commands.</td></tr><tr><td><strong>Vigilante / Masked Hero</strong></td><td>5e / Morgrave</td><td><strong>Vigilante Archetype</strong></td><td>Dual identities (Social &amp; Vigilante Guises), startling appearance, urban justice.</td></tr><tr><td><strong>Symbiont Host (Alien)</strong></td><td>Exploring / Morgrave</td><td><strong>Living Vessel Archetype</strong></td><td>Daelkyr symbionts (Living Breastplate, Tentacle Whip), entity boons and backlash.</td></tr><tr><td><strong>Wandslinger Duelist</strong></td><td>5e / Frontiers</td><td><strong>Gunslinger (Way of the Wandslinger)</strong></td><td>Quick-drawing staves/wands, wand dueling stances, and spell-shot conversions.</td></tr><tr><td><strong>Sovereign Host Devotee</strong></td><td>ECS / Morgrave</td><td><strong>Cleric (Sovereign Host Pantheon)</strong></td><td>Native pantheon rules: worshiping the 9 Sovereigns across multiple domains.</td></tr><tr><td><strong>Martial Monk (Silver Flame)</strong></td><td>ECS / Morgrave</td><td><strong>Monk (Way of the Argent Fist)</strong></td><td><em>Argent Fist Stance</em>, <em>Wrath of the Argent Flame</em>, Holy spirit and fire attacks vs fiends and undead.</td></tr><tr><td><strong>Karrnathi Bone Knight</strong></td><td>3.5e / Morgrave</td><td><strong>Karrnathi Bone Knight Archetype</strong></td><td>Skeletal ivory mount, bonecraft armaments, marrow death strikes, and grim conscription.</td></tr><tr><td><strong>Progenitor Sorcerer</strong></td><td>Morgrave</td><td><strong>Progenitor Dragon Sorcerer Bloodline</strong></td><td>Choice of Siberys (Arcane), Eberron (Primal), or Khyber (Occult); <em>Shape of Creation</em>, <em>Cradle of Life</em>.</td></tr><tr><td><strong>School of Antiquities</strong></td><td>Morgrave</td><td><strong>School of Antiquities Wizard Curriculum</strong></td><td>Morgrave University excavations, <em>Surveyor of Ruin</em>, <em>Personal Prophecy</em>.</td></tr><tr><td><strong>College of the Keys</strong></td><td>Morgrave</td><td><strong>Rogue (Thief/Scoundrel) / Bard Archetype</strong></td><td>Kundarak vault-cracking, harmonic lock-singing, Thievery expertise.</td></tr><tr><td><strong>College of the Shadow</strong></td><td>Morgrave</td><td><strong>Bard (Enigma/Maestro) / Shadowdancer</strong></td><td>Umbral illusions, fear manipulation, secrets of the Dark Six.</td></tr><tr><td><strong>Path of the Juggernaut</strong></td><td>Morgrave</td><td><strong>Barbarian (Fury / Ironclad reskin)</strong></td><td>Construct-like momentum, siege destruction, structure breaking.</td></tr><tr><td><strong>Alien Warlock Patrons</strong></td><td>Morgrave / ECS</td><td><strong>Witch (Curse/Baba Yaga) / Living Vessel</strong></td><td>Aberrant flesh symbiosis, undying court ancestral pacts.</td></tr><tr><td><strong>Gith Planar Strangers</strong></td><td>Morgrave / 3.5e</td><td><strong>Human / Android + Psychic Class</strong></td><td>Kythri or Astral castaways, telekinetic blade manifestations.</td></tr><tr><td><strong>Valenar Revenant Blade</strong></td><td>ECS / Chronicles</td><td><strong>Fighter / Cavalier Archetype</strong></td><td>Valenar double scimitar, ancestral bond, and mounted hit-and-run tactics.</td></tr><tr><td><strong>Talenta Dinosaur Rider</strong></td><td>ECS / Frontiers</td><td><strong>Ranger / Beastmaster Archetype</strong></td><td>Clawfoot raptor or fastieth companion, boomerang and spear mastery.</td></tr><tr><td><strong>Vadalis Magebred Handler</strong></td><td>ECS / Rising</td><td><strong>Druid (Animal Order) / Ranger</strong></td><td>Magebred animal companions with elemental traits or enhanced brawn.</td></tr><tr><td><strong>Trinket Magewright</strong></td><td>ECS / Forge</td><td><strong>Thaumaturge Class</strong></td><td>Implements re-themed as attuned dragonshard foci, tuning wands, and dowsing rods.</td></tr><tr><td><strong>Elemental Binder</strong></td><td>ECS / Exploring</td><td><strong>Kineticist Class</strong></td><td>Elemental impulses flavored as miniature bound Siberys/Khyber rings and matrices.</td></tr></tbody></table>"
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "_id": "PageEquivCls0001",
+      "name": "Class & Archetype Adaptations",
+      "type": "text",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>Artificers &amp; Magewrights</h2><p>In Pathfinder 2e, arcane engineering is distributed among several rich character options:</p><ul><li><strong>The Inventor as the Industrial Artificer:</strong> The Inventor chassis directly provides the modularity expected of House Cannith creators. An <em>Armor Innovation</em> models the 5e Armorer or the Dreadnaught frame; a <em>Weapon Innovation</em> represents prototype thunder-cannons or Dhakaani <em>Ghaal'Shaarat</em>; and a <em>Construct Innovation</em> provides an autonomous iron defender or proto-warforged companion.</li><li><strong>Prosthetic Enhancements (Mastermaker):</strong> Pair any martial class or Inventor with the <strong>Sterling Dynamo Archetype</strong>. The dynamo arm or leg becomes a weaponized, upgradeable prosthetic powered by embedded Eberron dragonshards.</li><li><strong>The Thaumaturge as a Dragonshard Magewright:</strong> Rather than hunting monsters with folklore, an Eberron Thaumaturge can be re-flavored as an eccentric magewright who understands dragonshard resonance frequencies. Their <em>Implements</em> become specialized arcane tools: a Wand implement is an overcharged tuning wand, a Chalice is an alchemical condensing flask, and a Regalia is an insignia of the Twelve.</li></ul><h2>Inquisitives &amp; Urban Crime Solvers</h2><p>The PF2e <strong>Investigator</strong> is the definitive mechanical realization of an Eberron Inquisitive. Features like <em>Devise a Stratagem</em>, <em>Pursue a Lead</em>, and <em>Clue In</em> perfectly capture the methodical deductive work of House Medani or Sharn's King's Citadel. Choosing <em>Forensic Medicine</em> reflects a battlefield coroner from the Last War; <em>Empirical Method</em> reflects a Morgrave scholar; and <em>Interrogation</em> represents a ruthless Sharn Watch inspector.</p><h2>Pulp Action Heroes (Extreme Explorers)</h2><p>Classic 3.5e <em>Extreme Explorers</em> (Indiana Jones pulp adventurers) are ideally represented in PF2e by combining the <strong>Archaeologist Archetype</strong> with a <strong>Swashbuckler</strong> (Wit or Gymnast) or <strong>Rogue</strong> (Daring Scoundrel). The Archaeologist dedication provides trap finding, scholastic lore, and hazard defenses in Xen'drik, while Panache and Bravado emulate daring last-second escapes.</p><h2>Bardic Colleges: Keys &amp; Shadow</h2><p><em>Morgrave Miscellany</em> introduced two specialized bardic traditions:</p><ul><li><strong>College of the Keys:</strong> House Kundarak safe-crackers and warders use harmonic pitch to bypass mechanisms. Built with a <strong>Rogue (Thief or Scoundrel)</strong> taking the <strong>Bard Archetype</strong> or an <strong>Enigma/Maestro Bard</strong> taking Thievery skill feats (<em>Pickpocket</em>, <em>Wary Disarmament</em>) and <em>Trap Finder</em>. Reflavor composition cantrips as ultrasonic resonance matching arcane tumblers.</li><li><strong>College of the Shadow:</strong> Minstrels who revere the Shadow or manipulate darkness in Sharn's undercity. Built with a <strong>Maestro Bard</strong> specializing in illusions and fear spells, optionally progressing into the <strong>Shadowdancer Archetype</strong>.</li></ul><h2>Barbarian: Path of the Juggernaut</h2><p>Representing living siege engines and warforged shock troopers, built with a <strong>Barbarian (Fury or Giant Instinct)</strong> re-flavored as hydraulic mass overcharging. Combine with the <strong>Warforged</strong> ancestry feats (<em>Juggernaut Plating</em>, <em>Warforged Colossus</em>) or the <strong>Automaton</strong> ancestry.</p><h2>Military Officers &amp; Field Marshals</h2><p>The Last War produced thousands of seasoned officers. The PF2e <strong>Marshal Archetype</strong> allows any martial character to project an <em>Inspiring Marshal Stance</em> (+1 to attacks and mental saves) or a <em>Dread Marshal Stance</em> (fear and bonus damage), and issue tactical commands like <em>To Battle!</em> to reposition comrades without provoking reactions.</p><h2>Masked Avengers &amp; Double Agents</h2><p>The PF2e <strong>Vigilante Archetype</strong> allows characters to seamlessly maintain a <em>Social Identity</em> (a harmless House Cannith scion, Morgrave professor, or Zil gnomish merchant) and a <em>Vigilante Identity</em> (a rooftop shadow stalker, masked revolutionary of the Swords of Liberty, or goblin freedom fighter).</p><h2>Symbionts &amp; Aberrant Hosts</h2><p>The <strong>Living Vessel Archetype</strong> (from <em>Dark Archive</em>) perfectly models characters hosting a daelkyr symbiont, a fiendish rakshasa entity, or an experimental aberrant graft. Abilities like <em>Entity's Strike</em> and <em>Warding Rift</em> represent the symbiont lashing out to defend its host.</p><h2>Sovereign Host Devotion</h2><p>Pathfinder 2e Remaster natively supports <strong>Pantheons</strong>. The <em>Sovereign Host</em> is recognized as a complete pantheon deity entry in this conversion. A cleric devoted to the entire Host can select from the pantheon's shared domains (<strong>Cities</strong>, <strong>Duty</strong>, <strong>Family</strong>, <strong>Protection</strong>, <strong>Wealth</strong>, and <strong>Zeal</strong>), using either the warhammer or heavy crossbow, without needing any awkward subclass homebrew.</p>"
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "_id": "PageEquivMor0001",
+      "name": "Morgrave Miscellany Options",
+      "type": "text",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>Converted Options from Morgrave Miscellany</h2><p>Where existing PF2e mechanics could not fully capture the distinct flavor and mechanics of <em>Morgrave Miscellany</em>, this compendium provides bespoke Remaster implementations:</p><ul><li><strong>Karrnathi Bone Knight Archetype:</strong> Complete archetype featuring @UUID[Compendium.pathfinders-guide-to-eberron.eberron-classes.bkd2024mm0000001]{Bone Knight Dedication}, @UUID[Compendium.pathfinders-guide-to-eberron.eberron-feats.bkm2024mm0000004]{Bonecraft Mastery}, @UUID[Compendium.pathfinders-guide-to-eberron.eberron-feats.ivm2024mm0000005]{Ivory Mount}, @UUID[Compendium.pathfinders-guide-to-eberron.eberron-feats.mib2024mm0000006]{Master of the Ivory Banner}, @UUID[Compendium.pathfinders-guide-to-eberron.eberron-feats.mds2024mm0000007]{Marrow Death Strike}, and @UUID[Compendium.pathfinders-guide-to-eberron.eberron-feats.gcs2024mm0000008]{Grim Conscription}.</li><li><strong>Progenitor Dragon Sorcerer Bloodline:</strong> Features @UUID[Compendium.pathfinders-guide-to-eberron.eberron-classes.bpd2024mm0000002]{Bloodline: Progenitor Dragon} with a choice of Siberys, Eberron, or Khyber patrons, and focus spells @UUID[Compendium.pathfinders-guide-to-eberron.eberron-spells.soc2024mm0000017]{Shape of Creation}, @UUID[Compendium.pathfinders-guide-to-eberron.eberron-spells.col2024mm0000018]{Cradle of Life}, and @UUID[Compendium.pathfinders-guide-to-eberron.eberron-spells.pga2024mm0000019]{Progenitor's Awakening}.</li><li><strong>School of Antiquities Wizard Curriculum:</strong> Features @UUID[Compendium.pathfinders-guide-to-eberron.eberron-classes.soa2024mm0000003]{Curriculum: School of Antiquities} with focus spells @UUID[Compendium.pathfinders-guide-to-eberron.eberron-spells.sor2024mm0000020]{Surveyor of Ruin} and @UUID[Compendium.pathfinders-guide-to-eberron.eberron-spells.psp2024mm0000021]{Personal Prophecy}.</li><li><strong>Way of the Argent Fist Monk:</strong> Sacred templar feats @UUID[Compendium.pathfinders-guide-to-eberron.eberron-feats.afs2024mm0000009]{Argent Fist Stance} and @UUID[Compendium.pathfinders-guide-to-eberron.eberron-feats.waf2024mm0000010]{Wrath of the Argent Flame}.</li><li><strong>Evolutionary Ancestry Feats:</strong> @UUID[Compendium.pathfinders-guide-to-eberron.eberron-feats.ina2024mm0000011]{Integrated Arcana}, @UUID[Compendium.pathfinders-guide-to-eberron.eberron-feats.wfc2024mm0000012]{Warforged Colossus}, @UUID[Compendium.pathfinders-guide-to-eberron.eberron-feats.atv2024mm0000013]{Atavist}, @UUID[Compendium.pathfinders-guide-to-eberron.eberron-feats.qnm2024mm0000014]{Quori Nightmare}, @UUID[Compendium.pathfinders-guide-to-eberron.eberron-feats.wtm2024mm0000015]{Weretouched Master}, and @UUID[Compendium.pathfinders-guide-to-eberron.eberron-feats.msp2024mm0000016]{Moonspeaker}.</li></ul>"
+      },
+      "sort": 250000,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "_id": "PageEquivAnc0001",
+      "name": "Ancestry & Heritage Reflavoring",
+      "type": "text",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>When players wish to explore Eberron characters using Paizo's expansive core ancestry library, several direct equivalents work with zero rule adjustment:</p><ul><li><strong>Warforged (Living Construct):</strong> While the custom Warforged ancestry is provided in this compendium, Paizo's <strong>Automaton</strong> provides exceptional mechanical support for ancient war machines with integrated energy rays (<em>Eye Beam</em> / <em>Core Beam</em>) and construct fortitude. Paizo's <strong>Poppet</strong> provides small-sized scout and domestic construct variants.</li><li><strong>Kalashtar (Quori-Bound):</strong> Use Human with <em>Natural Ambition</em> or <em>Unconventional Weaponry</em>, paired with the <strong>Psychic</strong> class or dedication. The subconscious mind represents the Quori spirit bonded to your soul.</li><li><strong>Eberron Changeling (Doppelganger):</strong> The Kitsune ancestry's <em>Change Shape</em> feature can be re-flavored as a humanoid changeling altering their facial bones, height, and skin pigments without any vulpine traits.</li><li><strong>Shifter (Weretouched):</strong> The <strong>Beastkin Versatile Heritage</strong> can be applied to any ancestry (Human, Elf, Orc, Goblin) to grant <em>Change Shape</em>, natural claws/fangs, enhanced predatory scent, and hybrid battle traits.</li><li><strong>Dragonborn (Scale-Born):</strong> Introduced in <em>Player Core 2</em>, the <strong>Dragonblood Versatile Heritage</strong> provides breath weapons, armored scales, and Draconic Prophecy senses to any humanoid ancestry.</li><li><strong>Tieflings &amp; Aasimar:</strong> The <strong>Nephilim Versatile Heritage</strong> represents mortals touched by fiendish Overlords or celestials of the Silver Flame and Irian.</li><li><strong>Githzerai &amp; Githyanki (Astral Strangers):</strong> In Keith Baker's Eberron lore, Gith are planar travelers stranded from Kythri or the Astral Plane. Represent them using Human or Android ancestries paired with the <strong>Psychic</strong> class or <strong>Mind Smith</strong> archetype.</li></ul>"
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "_id": "PageEquivTec0001",
+      "name": "Technology, Magic & Rules Reflavoring",
+      "type": "text",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>Firearms into Arcane Wandplay</h2><p>Gunpowder does not exist in traditional Eberron canon—Khorvaire instead fought the Last War with <strong>Wandslingers</strong>, dragonshard carbines, and siege magewrights. To integrate Gunslinger rules without disrupting setting aesthetics:</p><ol><li><strong>Black Powder -> Siberys Powder:</strong> Weapons utilize finely milled, volatile dragonshard powder called <em>Siberys Powder</em> or <em>Dragonshard Dust</em>. It ignites with a crackle of pure arcane light and ozone rather than chemical smoke.</li><li><strong>Pistols &amp; Carbines -> Arcane Projectors:</strong> Pistols and rifles are cosmetically described as brass-and-wood wand armatures, pistol-grip rods, or siege-slung <em>wandsocket carbines</em>.</li><li><strong>The Gunslinger as the Elite Wandslinger:</strong> A Gunslinger choosing <em>Way of the Spellshot</em> or <em>Way of the Pistolero</em> is mechanically identical to an elite frontier wandslinger or King's Citadel duelist.</li></ol><h2>The Economy of Wide Magic</h2><p>Eberron is 'wide magic, but low magic.' Magic is everywhere, but 8th- and 9th-rank spells are legendary miracles:</p><ul><li><strong>Cantrips in Everyday Life:</strong> Streetlamps use <em>Light</em> or <em>Continual Flame</em>, wealthy estates use <em>Prestidigitation</em> cleaning devices, and House Sivis relies on enchanted pens. The GM Core optional rule for <strong>Pervasive Magic</strong> can be applied so that all educated citizens possess 1–2 utility cantrips.</li><li><strong>Settlement Levels:</strong> Cities like Sharn or Fairhaven have high settlement levels (Level 12–15) for purchasing common utility magic items, wands, and scrolls up to 4th rank, but high-level permanent items (Level 15+) are strictly preserved as Cannith prototypes, artifacts of Xen'drik, or relics from the Age of Demons.</li></ul><h2>Hero Points as Pulp Action Points</h2><p>PF2e's native <strong>Hero Point</strong> system is the direct mechanical descendant of 3.5e Eberron's Action Points. Award Hero Points generously for swashbuckling stunts (swinging from chandeliers, leaping across lightning rails, dramatic monologues). Spending Hero Points to avoid death or reroll critical attacks perfectly emulates the grit and miraculous survival of pulp noir protagonists.</p>"
+      },
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368"
+  }
+}

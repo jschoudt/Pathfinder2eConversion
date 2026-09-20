@@ -1,0 +1,82 @@
+{
+  "name": "Weretouched Master",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_id": "wtm2024mm0000015",
+  "system": {
+    "description": {
+      "value": "<p class=\"hang\"><strong>Prerequisites</strong> The ability to Shift</p><hr /><p>You master the feral power of your lycanthrope forebears. While you are shifted, choose one of the following enhancements for your unarmed attacks: they gain the <em>deadly d8</em> trait, or they gain both the <em>agile</em> and <em>finesse</em> traits.</p><p>In addition, your status bonus to Speed while shifted increases by +10 feet, and you gain low-light vision (or darkvision if you already possessed low-light vision).</p>"
+    },
+    "source": {
+      "value": "Morgrave Miscellany",
+      "page": "N/A"
+    },
+    "traits": {
+      "value": [
+        "morph",
+        "shifter"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [],
+    "slug": "weretouched-master",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "level": {
+      "value": 5
+    },
+    "featType": {
+      "value": "ancestry"
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "The ability to Shift"
+        }
+      ]
+    },
+    "publication": {
+      "title": "Morgrave Miscellany",
+      "authors": "Keith Baker & Ruty Rutenberg",
+      "license": "OGL / DMs Guild",
+      "remaster": true,
+      "page": "N/A"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1726848000000,
+    "modifiedTime": 1726848000000,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!wtm2024mm0000015"
+}

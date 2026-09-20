@@ -78,7 +78,7 @@ describe('Eberron Religions & Deities Specifications', () => {
     }
   );
 
-  describe('2024 Eberron Divine Domain Integrations', () => {
+  describe('Expanded Divine Domain Integrations (Commerce & Mind Domains)', () => {
     it('Kol Korran should include commerce domain in primary domains', () => {
       const deity = deityMap.get('Kol Korran: God of Trade and Wealth');
       expect(deity?.system.domains.primary).toContain('commerce');

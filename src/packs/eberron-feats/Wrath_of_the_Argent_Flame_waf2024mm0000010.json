@@ -1,0 +1,84 @@
+{
+  "name": "Wrath of the Argent Flame",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_id": "waf2024mm0000010",
+  "system": {
+    "description": {
+      "value": "<p class=\"hang\"><strong>Prerequisites</strong> Argent Fist Stance</p><p class=\"hang\"><strong>Requirements</strong> You are in Argent Fist Stance.</p><hr /><p>You clap your glowing fists together to release an eruptive detonation of sanctified fire. Creatures in a 15-foot cone take 4d6 fire damage and 4d6 spirit damage (basic Reflex save against your class DC). Undead and fiends in the area that fail their save are also dazzled for 1 minute (or blinded for 1 round on a critical failure).</p><p>At 12th level and every 4 levels thereafter, the fire damage and spirit damage each increase by 1d6.</p>"
+    },
+    "source": {
+      "value": "Morgrave Miscellany",
+      "page": "N/A"
+    },
+    "traits": {
+      "value": [
+        "fire",
+        "holy",
+        "monk",
+        "spirit"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [],
+    "slug": "wrath-of-the-argent-flame",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "level": {
+      "value": 8
+    },
+    "featType": {
+      "value": "class"
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Argent Fist Stance"
+        }
+      ]
+    },
+    "publication": {
+      "title": "Morgrave Miscellany",
+      "authors": "Keith Baker & Ruty Rutenberg",
+      "license": "OGL / DMs Guild",
+      "remaster": true,
+      "page": "N/A"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1726848000000,
+    "modifiedTime": 1726848000000,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!waf2024mm0000010"
+}

@@ -1,0 +1,75 @@
+{
+  "name": "Warforged Colossus",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_id": "wfc2024mm0000012",
+  "system": {
+    "description": {
+      "value": "<p class=\"hang\"><strong>Frequency</strong> once per 10 minutes</p><hr /><p>You unlock hydraulic pressure seals and interlocking plates within your frame, rapidly expanding into a hulking siege construct. For 1 minute, your size increases to Large. Your reach increases by 5 feet, and you gain a +2 status bonus to melee damage rolls (or +4 status bonus if you have master proficiency in weapons). You also gain 15 temporary Hit Points that last until the transformation ends.</p>"
+    },
+    "source": {
+      "value": "Morgrave Miscellany",
+      "page": "N/A"
+    },
+    "traits": {
+      "value": [
+        "morph",
+        "warforged"
+      ],
+      "rarity": "uncommon",
+      "custom": ""
+    },
+    "rules": [],
+    "slug": "warforged-colossus",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "level": {
+      "value": 9
+    },
+    "featType": {
+      "value": "ancestry"
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "publication": {
+      "title": "Morgrave Miscellany",
+      "authors": "Keith Baker & Ruty Rutenberg",
+      "license": "OGL / DMs Guild",
+      "remaster": true,
+      "page": "N/A"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1726848000000,
+    "modifiedTime": 1726848000000,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!wfc2024mm0000012"
+}

@@ -1,0 +1,85 @@
+{
+  "name": "Bone Knight Dedication",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_id": "bkd2024mm0000001",
+  "system": {
+    "description": {
+      "value": "<p class=\"hang\"><strong>Prerequisites</strong> Trained in heavy armor; trained in Athletics, Religion, or Undead Lore</p><hr /><p>You have sworn allegiance to the martial traditions of Karrnath and learned the macabre art of bonecrafting—binding deceased bone and necromantic marrow into your arms and armor. You can craft bonecraft arms and armor using the Crafting skill without requiring specialized tools beyond a cold forge and raw skeletal material.</p><p>When wearing bonecraft heavy armor you crafted, you gain resistance equal to half your level (minimum 1) against void and vitality damage, and you gain a +1 circumstance bonus to saving throws against disease and fear effects. You become trained in Religion or Undead Lore; if you were already trained in both, you become trained in a skill of your choice.</p><p><strong>Special</strong> You cannot select another dedication feat until you have gained two other feats from the Bone Knight archetype.</p>"
+    },
+    "source": {
+      "value": "Morgrave Miscellany",
+      "page": "N/A"
+    },
+    "traits": {
+      "value": [
+        "archetype",
+        "dedication"
+      ],
+      "rarity": "uncommon",
+      "custom": ""
+    },
+    "rules": [],
+    "slug": "bone-knight-dedication",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "level": {
+      "value": 2
+    },
+    "featType": {
+      "value": "archetype"
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Trained in heavy armor"
+        },
+        {
+          "value": "Trained in Athletics, Religion, or Undead Lore"
+        }
+      ]
+    },
+    "publication": {
+      "title": "Morgrave Miscellany",
+      "authors": "Keith Baker & Ruty Rutenberg",
+      "license": "OGL / DMs Guild",
+      "remaster": true,
+      "page": "N/A"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1726848000000,
+    "modifiedTime": 1726848000000,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!bkd2024mm0000001"
+}

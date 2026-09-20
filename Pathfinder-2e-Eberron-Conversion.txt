@@ -56,6 +56,7 @@ For full protocols, see the [AI Guidelines & Verification Protocol](https://gith
 - Upgrades legal dialog to Foundry DialogV2
 - Integrates automated build, 661-test Vitest suite, companion in-VTT test module, and UPnP security enforcement tooling
 - Integrates Chronicles of Eberron Category 1 & 2 character options, spells, sentira implements, and bestiary encounters
+- Integrates Morgrave Miscellany Category 1 player options (Bone Knight Archetype, Progenitor Dragon Sorcerer, School of Antiquities Wizard, Way of the Argent Fist Monk, evolutionary ancestry feats) and complete PF2e equivalents and reflavoring guide
 - Automates standalone Scribe PDF compiler workflow and offline asset rendering
 
 |
@@ -98,34 +99,37 @@ Eberron started with a contest run by Wizards of the Coast to develop a new camp
 Eberron is a pulp-action world where morality is a shade of grey, but the call to adventure is always present. Adventure is everywhere, from the continent of Khorvaire: where arcane industry powered a hundred-year-war which now stands in an uneasy truce gone cold war; to Xen'drik where ancient ruins of the giant civilization wait to be discovered; there are many backdrops for a story in Eberron - and equally many dangers. Some of these dangers threaten nations, while others put the fate of the world at risk. Only a few legendary people can ever hope to stand against these threats, which is where the PCs come in. The need for heroes is desperate, but there is hope.
 |
 # Pathfinders' Guide to Eberron ((+Pathfinders' Guide to Eberron))
-The Pathfinder's Guide to Eberron provides Pathfinder 2e Remaster mechanics to support the rich gameplay of Eberron. It does not provide the lore or setting background required to run the world. This guide suggests the following books as references: [D&D 3.5 Eberron Campaign Setting](https://www.dmsguild.com/product/28474/Eberron-Campaign-Setting-3e), [D&D 5e Eberron: Rising from the Last War](https://www.dndbeyond.com/sources/dnd/erftlw), [Exploring Eberron (2024)](https://www.dndbeyond.com/marketplace/sourcebooks/exploring-eberron), [Frontiers of Eberron: Quickstone (2024)](https://www.dndbeyond.com/marketplace/sourcebooks/frontiers-of-eberron-quickstone), [Eberron: Forge of the Artificer (2024)](https://www.dndbeyond.com/marketplace/sourcebooks/eberron-forge-of-the-artificer), [Chronicles of Eberron](https://www.dndbeyond.com/marketplace/sourcebooks/chronicles-of-eberron), and the [Eberronicon](https://www.dmsguild.com/product/297249/Eberronicon-A-Pocket-Guide-to-the-World). All of these provide the background lore and inspiration you need to run Eberron.
+The Pathfinder's Guide to Eberron provides Pathfinder 2e Remaster mechanics to support the rich gameplay of Eberron. It does not provide the lore or setting background required to run the world. This guide suggests the following books as references: [D&D 3.5 Eberron Campaign Setting](https://www.dmsguild.com/product/28474/Eberron-Campaign-Setting-3e), [D&D 5e Eberron: Rising from the Last War](https://www.dndbeyond.com/sources/dnd/erftlw), [Exploring Eberron (2024)](https://www.dndbeyond.com/marketplace/sourcebooks/exploring-eberron), [Frontiers of Eberron: Quickstone (2024)](https://www.dndbeyond.com/marketplace/sourcebooks/frontiers-of-eberron-quickstone), [Eberron: Forge of the Artificer (2024)](https://www.dndbeyond.com/marketplace/sourcebooks/eberron-forge-of-the-artificer), [Chronicles of Eberron](https://www.dmsguild.com/product/415474/Chronicles-of-Eberron), [Morgrave Miscellany](https://www.dmsguild.com/product/270012/Morgrave-Miscellany), and the [Eberronicon](https://www.dmsguild.com/product/297249/Eberronicon-A-Pocket-Guide-to-the-World). All of these provide the background lore and inspiration you need to run Eberron.
 
 ## Using this guide
 This guide aims to be as balanced and interesting as possible while using the pathfinder 2e base rules. If something seems too good - or too bad - to be true, it likely is. Work with your GM to figure out a better solution, and if possible submit a question to the [Github](https://github.com/jschoudt/Pathfinder2eConversion/issues) for clarification or correction. All Uncommon and Rare traits should _always_ be verified with your GM.
 /
 info(
-#### Recommended Source Material
+#### Referenced Source Material
 -
 ## D&D 3.5 Eberron Campaign Setting
-The Eberron Campaign Setting (ECS) is the book that started it all. Released in 2005, this is the foundational source of setting lore, dragonmarks, and core ancestries.
+The foundational campaign setting book for lore, dragonmarks, and core ancestries (ECS, 2005).
 -
 ## D&D 5e Eberron: Rising from the Last War
-Official 5th edition campaign setting book providing comprehensive gazetteers, patron organizations, and modern setting presentation.
+Official 5e campaign setting book with gazetteers, patron organizations, and dragonmarks.
 -
 ## Eberron: Forge of the Artificer (2024 / 5.5e)
-Available on [D&D Beyond](https://www.dndbeyond.com/marketplace/sourcebooks/eberron-forge-of-the-artificer) and [DMs Guild](https://www.dmsguild.com/product/498308/Forge-of-the-Artificer). Expands the Artificer class with new specialists (such as the Cartographer), infusions, elemental airship options, and magewright innovations.
-|
-## Exploring Eberron (2024 / 5.5e Update)
-Available on [D&D Beyond](https://www.dndbeyond.com/marketplace/sourcebooks/exploring-eberron) and [DMs Guild](https://www.dmsguild.com/product/315887/Exploring-Eberron). Keith Baker's deep dive into the Thunder Sea, Kar'lassa, Dhakaani Kechs, Mind Domain, Circle of the Forged, Forge Adept & Maverick innovations, and living symbionts.
+Available on [D&D Beyond](https://www.dndbeyond.com/marketplace/sourcebooks/eberron-forge-of-the-artificer) | [DMs Guild](https://www.dmsguild.com/product/498308/Forge-of-the-Artificer). Artificer options, Cartographer, and airships.
 -
+## Exploring Eberron (2024 / 5.5e Update)
+Available on [D&D Beyond](https://www.dndbeyond.com/marketplace/sourcebooks/exploring-eberron) | [DMs Guild](https://www.dmsguild.com/product/315887/Exploring-Eberron). Kech Dhakaan, Mind Domain, Forge Adept, and living weapons.
+|
 ## Frontiers of Eberron: Quickstone (2024 / 5.5e)
-Available on [D&D Beyond](https://www.dndbeyond.com/marketplace/sourcebooks/frontiers-of-eberron-quickstone) and [DMs Guild](https://www.dmsguild.com/product/468819/Frontiers-of-Eberron-Quickstone). Explores the western frontier town of Quickstone on the Breland-Droaam border with playable Gargoyles, Harpies, Medusas, Worgs, and frontier backgrounds.
+Available on [D&D Beyond](https://www.dndbeyond.com/marketplace/sourcebooks/frontiers-of-eberron-quickstone) | [DMs Guild](https://www.dmsguild.com/product/468819/Frontiers-of-Eberron-Quickstone). Droaam ancestries, frontier backgrounds, and wandslingers.
 -
 ## Chronicles of Eberron
-Available on [D&D Beyond](https://www.dndbeyond.com/marketplace/sourcebooks/chronicles-of-eberron) and [DMs Guild](https://www.dmsguild.com/product/415474/Chronicles-of-Eberron). Keith Baker's compendium of deep-dive lore, noble lineages (Displaced, Newly Risen, Disgraced), Lorghalan Gnomes, Tairnadal traditions, Dark Six / Shadow magic, Sentira emotion weapons, and aberrant masterminds (Mordain the Fleshweaver, Avassh).
+Available on [DMs Guild](https://www.dmsguild.com/product/415474/Chronicles-of-Eberron). Noble backgrounds, Lorghalan Gnomes, sentira weapons, and Dark Six curses.
+-
+## Morgrave Miscellany
+Available on [DMs Guild](https://www.dmsguild.com/product/270012/Morgrave-Miscellany). Bone Knights, Progenitor Dragon sorcery, School of Antiquities, and species feats.
 -
 ## The Eberronicon
-The [Eberronicon](https://www.dmsguild.com/product/297249/Eberronicon-A-Pocket-Guide-to-the-World) is a community reference guide providing a master index and summaries across all editions.
+Available on [DMs Guild](https://www.dmsguild.com/product/297249/Eberronicon-A-Pocket-Guide-to-the-World). Master index and pocket reference guide to Eberron lore across all editions.
 )
 =
 ### The World
@@ -240,6 +244,9 @@ https://scribe.pf2.tools/v/s9p3sJv5
 =
 <!--# Bestiary & Creatures-->
 https://scribe.pf2.tools/v/eberron-creatures
+=
+<!--# Eberron Concepts & PF2e Equivalents-->
+https://scribe.pf2.tools/v/eberron-equivalents
 =
 head(
 # Optional Rules ((Optional Rules))

@@ -41,7 +41,12 @@ This format is optimized for both human reading and automated changelog tools (i
   - **Spells:** *Awaken Ambition* (Rank 2), *Shadow's Gifts* (Rank 4), *Fury's Chorus* (Rank 3), *Keeper's Vault* (Rank 5).
   - **Equipment & Implements:** Riedran *Sentira Hand Lens*, *Light Lens*, and *Heavy Lens*; *Sentira Shards of Anxiety, Dread, Grief*; *Cannith Spellbolt*; *Crossbow Silencer*.
   - **Bestiary Boss Encounters:** *Mordain the Fleshweaver* (Level 18 Aberrant Transmuter) and *Avassh, the Twister of Roots* (Level 22 Daelkyr Lord).
-- **Expanded Test Suite & Compendium Count:** Expanded the Vitest test suite to 661 tests across 20 test files, and expanded headless schema validation across all 850 compendium source documents.
+- **Morgrave Miscellany Content Integration:** Converted and added character options from Keith Baker & Ruty Rutenberg's *Morgrave Miscellany*:
+  - **Archetypes:** *Karrnathi Bone Knight Archetype* (6 feats: Dedication, Bonecraft Mastery, Ivory Mount, Master of the Ivory Banner, Marrow Death Strike, Grim Conscription).
+  - **Class Features & Focus Spells:** *Bloodline: Progenitor Dragon* Sorcerer with focus spells (*Shape of Creation*, *Cradle of Life*, *Progenitor's Awakening*); *Curriculum: School of Antiquities* Wizard with focus spells (*Surveyor of Ruin*, *Personal Prophecy*); *Way of the Argent Fist* Monk feats (*Argent Fist Stance*, *Wrath of the Argent Flame*).
+  - **Evolutionary Species Feats:** *Integrated Arcana* and *Warforged Colossus* (Warforged); *Atavist* and *Quori Nightmare* (Kalashtar); *Weretouched Master* and *Moonspeaker* (Shifter).
+  - **Eberron Concepts & PF2e Equivalents Guide:** Integrated comprehensive reflavoring and adaptation mappings across Scribe and the new `eberron-journals` compendium.
+- **Expanded Test Suite & Compendium Count:** Expanded the Vitest test suite to 666 tests across 20 test files, and expanded headless schema validation across all 872 compendium source documents.
 - **Companion In-VTT Test Module & Server Error Bridge:** Added `pathfinders-guide-to-eberron-tests` companion module (`tests/companion-module/`) and real-time SSE bridge (`tools/server_error_bridge.mjs`) for automated in-world verification inside test worlds (`pf2e-test`), keeping the release compendium module 100% clean of test code.
 - **Spell Action Normalization:** Standardized action cast time on `Dragonmarked Stormbringer` to `"-"` consistent with all dragonmark replication spells.
 - **Security & UPnP Enforcement:** Disabled UPnP in local server options and added automated startup/test validation guards preventing Foundry from running with UPnP enabled.

@@ -57,10 +57,12 @@ export async function initFoundryEnvironment() {
 
     const allActorTypes = Array.from(new Set([...(pf2eTemplate.Actor?.types || []), 'army', 'character', 'familiar', 'hazard', 'loot', 'npc', 'party', 'vehicle']));
     globalThis.game = {
-      system: { primaryTokenAttribute: 'attributes.hp' },
+      release: { version: '14.368' },
+      system: { id: 'pf2e', version: '8.5.1', primaryTokenAttribute: 'attributes.hp' },
       model: {
         Item: Object.fromEntries((pf2eTemplate.Item?.types || []).map(t => [t, pf2eTemplate.Item[t] || {}])),
-        Actor: Object.fromEntries(allActorTypes.map(t => [t, pf2eTemplate.Actor[t] || {}]))
+        Actor: Object.fromEntries(allActorTypes.map(t => [t, pf2eTemplate.Actor[t] || {}])),
+        JournalEntryPage: { text: {}, image: {}, pdf: {}, video: {} }
       }
     };
 
@@ -70,6 +72,7 @@ export async function initFoundryEnvironment() {
       ActorDelta: { documentClass: foundry.documents.BaseActorDelta, dataModels: {} },
       ActiveEffect: { documentClass: foundry.documents.BaseActiveEffect, dataModels: {} },
       JournalEntry: { documentClass: foundry.documents.BaseJournalEntry, dataModels: {} },
+      JournalEntryPage: { documentClass: foundry.documents.BaseJournalEntryPage, dataModels: {} },
       RollTable: { documentClass: foundry.documents.BaseRollTable, dataModels: {} },
       Token: { movement: { actions: {} } }
     };

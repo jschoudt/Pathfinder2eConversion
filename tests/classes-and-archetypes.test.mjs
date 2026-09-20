@@ -12,7 +12,7 @@ describe('Classes, Subclasses & Archetypes Integration', () => {
     }
   });
 
-  describe('Core & 2024 Eberron Class Features and Innovations', () => {
+  describe('Partner Content & Expansion Class Features and Innovations', () => {
     const CLASS_FEATURES = [
       { name: 'Leyline Cartographer Innovation', type: 'feat', traits: ['inventor', 'artificer'], level: 1 },
       { name: 'Dreadnaught Armor Model', type: 'feat', traits: ['inventor', 'artificer'], level: 1 },
@@ -43,7 +43,7 @@ describe('Classes, Subclasses & Archetypes Integration', () => {
     );
   });
 
-  describe('2024 Eberron Class Feats & Stances', () => {
+  describe('Partner Content Class Feats & Stances', () => {
     const CLASS_FEATS = [
       { name: 'Survey the Ley Lines', level: 1, traits: ['inventor', 'artificer'], actionType: 'action' },
       { name: 'Force Demolisher Strike', level: 4, traits: ['inventor', 'artificer'], actionType: 'action' },

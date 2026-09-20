@@ -1,0 +1,69 @@
+{
+  "name": "Curriculum: School of Antiquities",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/class.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_id": "soa2024mm0000003",
+  "system": {
+    "description": {
+      "value": "<p>You study the ancient relics, lost civilizations, and draconic prophecies of Eberron at Morgrave University in Sharn or the Arcanix academies in Aundair. Your curriculum focuses on excavating Xen'drik ruins, unraveling historical arcana, and deciphering magical anomalies.</p><p><strong>Curriculum Cantrips:</strong> <em>detect magic</em>, <em>guidance</em></p><p><strong>Curriculum Spells:</strong></p><ul><li><strong>1st:</strong> <em>object reading</em>, <em>sure strike</em></li><li><strong>2nd:</strong> <em>dispel magic</em>, <em>translate</em></li><li><strong>3rd:</strong> <em>hypercognition</em>, <em>locate</em></li><li><strong>4th:</strong> <em>clairaudience</em>, <em>dispelling globe</em></li><li><strong>5th:</strong> <em>retrocognition</em>, <em>telepathic bond</em></li><li><strong>6th:</strong> <em>truesight</em>, <em>dragon form</em></li><li><strong>7th:</strong> <em>contingency</em>, <em>planar seal</em></li><li><strong>8th:</strong> <em>disappearance</em>, <em>canticle of everlasting grief</em></li><li><strong>9th:</strong> <em>foresight</em></li></ul><p><strong>Curriculum Focus Spells:</strong> Initial: @UUID[Compendium.pathfinders-guide-to-eberron.eberron-spells.sor2024mm0000020]{Surveyor of Ruin}; Advanced: @UUID[Compendium.pathfinders-guide-to-eberron.eberron-spells.psp2024mm0000021]{Personal Prophecy}.</p>"
+    },
+    "source": {
+      "value": "Morgrave Miscellany",
+      "page": "N/A"
+    },
+    "publication": {
+      "title": "Morgrave Miscellany",
+      "authors": "Keith Baker & Ruty Rutenberg",
+      "license": "OGL / DMs Guild",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "rules": [],
+    "slug": "curriculum-school-of-antiquities",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "level": {
+      "value": 1
+    },
+    "traits": {
+      "value": [
+        "wizard"
+      ],
+      "rarity": "uncommon",
+      "custom": ""
+    },
+    "category": "classfeature",
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1726848000000,
+    "modifiedTime": 1726848000000,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!soa2024mm0000003"
+}

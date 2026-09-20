@@ -11,6 +11,7 @@ Class/Archetype | Details
 Artificer | A tinkerer of the arcane, able to construct magical solutions to any problem
 Dragonmarked Scion | An archetype that specializes in the perfection of their dragonmarked powers 
 Wandslinger | An archetype that specializes in slinging magic with a flourish and a bandolier of wands
+Karrnathi Bone Knight | An elite Karrnathi archetype commanding bonecraft arms, armor, and undead mounts
 /
 # Alchemist ((++Alchemist))
 Many of the advances in Eberron are done through magic, which makes the Alchemist an exception to the rule. As a result of this, much like stated in the Alchemist entry, others probably think you’re some kind of sorcerer or an eccentric wizard and don’t understand that you don’t cast spells; spellcasters who clumsily dabble in an alchemy only heighten this misconception.
@@ -146,6 +147,14 @@ info(
 For more information on the Warrior of the Living Weapon Monk, see Exploring Eberron (p. 74).
 )
 
+### Way of the Argent Fist
+Templars of the Church of the Silver Flame who fight unarmored develop martial traditions channeling sacred flame through their bare fists.
+- **Argent Fist Stance (Feat 4):** Cloak your limbs in silver radiance. Your unarmed Strikes deal 1d6 bludgeoning damage with agile, finesse, holy, nonlethal, silver, and unarmed traits, dealing an extra 1d4 spirit damage and counting as cold iron against fiends and undead.
+- **Wrath of the Argent Flame (Feat 8):** Clap your hands in a 15-foot cone dealing 4d6 fire and 4d6 spirit damage (basic Reflex save), dazzling or blinding fiends and undead.
+info(
+For more information on the Way of the Argent Fist Monk, see Morgrave Miscellany (Ch. 2).
+)
+
 # Oracle ((++Oracle))
 Oracles don't require modification to fit the setting, but you should consider how and where your mystery came from. With absent gods, you may need to think about other potential sources of your mystery. Perhaps the powers of an old relic, an arcane accident, the spirits of your ancestors, or perhaps it's a mystery!
 
@@ -168,6 +177,15 @@ Sorcerers draw their power from the magic inherent to their bloodline.
 Trained for the arcane duel, your bloodline grants you occult or arcane countermagic. You gain the *Spell Deflection* reaction to blunt incoming spell damage, and granted spells focused on dueling (*shield*, *mirror image*, *counterspell*, *resilient sphere*).
 info(
 For more information on the Nemesis Sorcerer Bloodline, see Frontiers of Eberron: Quickstone (p. 169).
+)
+
+### Progenitor Dragon Bloodline
+Your magic flows directly from the three primordial wyrms: Siberys the Dragon Above, Eberron the Dragon Between, and Khyber the Dragon Below.
+- **Patron Choice:** Choose Siberys (Arcane tradition, Arcana/Society), Eberron (Primal tradition, Nature/Survival), or Khyber (Occult tradition, Occultism/Intimidation).
+- **Blood Magic:** Gain temporary HP or inflict retributive force damage on targets.
+- **Granted Focus Spells:** *Shape of Creation* (Focus 1: reshaping matter into elemental or crystallization bursts), *Cradle of Life* (Focus 3: restorative vitality mantle or void rejuvenation), *Progenitor's Awakening* (Focus 6: dragonshard wings, fly Speed, and devastating Progenitor breath).
+info(
+For more information on the Progenitor Dragon Sorcerer, see Morgrave Miscellany (Ch. 2).
 )
 
 # Summoner ((++Summoner))
@@ -201,6 +219,27 @@ For more information on Wandslingers and wandplay, see Frontiers of Eberron: Qui
 
 # Wizard ((++Wizard))
 With the widespread arcane magic in Khorvaire, wizards can be placed nearly anywhere. There are a number of arcane schools at which you could have developed your magic, or perhaps you could have learned your magic on your own.
+
+### Curriculum: School of Antiquities
+Originating from Morgrave University in Sharn, this curriculum specializes in Xen'drik archaeology, relic excavation, and deciphering the Draconic Prophecy.
+- **Curriculum Spells:** *detect magic*, *object reading*, *sure strike*, *dispel magic*, *hypercognition*, *locate*, *clairaudience*, *retrocognition*, *truesight*, *foresight*.
+- **Surveyor of Ruin (Focus 1):** Appraise structural stress and historical lore, granting status bonuses against hazards or bonus attack rolls against analyzed foes.
+- **Personal Prophecy (Focus 3):** Glimpse unfolding threads of destiny to grant fortune to allies or misfortune to attacking enemies as a reaction.
+info(
+For more information on the School of Antiquities Wizard, see Morgrave Miscellany (Ch. 2).
+)
+
+# Karrnathi Bone Knight ((++Bone Knight))
+Originating in the grim crucible of the Last War, the Bone Knights of Karrnath combine martial mastery with necromantic craftsmanship, encasing themselves in bonecraft armor and leading skeletal legions.
+- **Bone Knight Dedication (Feat 2):** Craft bonecraft arms and armor without special tools, gaining resistance against vitality and void damage and circumstance bonuses against disease and fear.
+- **Bonecraft Mastery (Feat 4):** Bonecraft weapons deal an extra 1d4 void or cold damage and gain deadly d6.
+- **Ivory Mount (Feat 4):** Call and command a loyal skeletal steed with the undead trait, immune to poison, disease, and bleed.
+- **Master of the Ivory Banner (Feat 8):** Project a 30-foot aura granting allies status bonuses to attack and saves vs fear, and enabling undead allies to avoid destruction on a flat check.
+- **Marrow Death Strike (Feat 12):** Strike dealing +3d8 void damage; critical hits inflict drained 1 and enfeebled 1.
+- **Grim Conscription (Feat 16, Reaction):** Seize the marrow of a dying enemy to immediately reanimate them as a skeleton or zombie minion for 1 minute.
+info(
+For more information on the Karrnathi Bone Knight, see Morgrave Miscellany (Ch. 2).
+)
 
 # Animal Companions
 There are a number of wild animals species in Eberron, and a number of them have been domesticated into loyal allies. Feel free to expand your selection for your Animal Companion. Is your companion one of the Talenta planes dinosaurs? Is it one of the Valenaran Steeds? Is it perhaps a powerful magebred version of a normal animal from House Vadalis, or even an entirely new creature altogether as a result of their breeding program?

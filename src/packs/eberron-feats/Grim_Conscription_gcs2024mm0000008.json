@@ -1,0 +1,82 @@
+{
+  "name": "Grim Conscription",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_id": "gcs2024mm0000008",
+  "system": {
+    "description": {
+      "value": "<p class=\"hang\"><strong>Prerequisites</strong> Bone Knight Dedication</p><p class=\"hang\"><strong>Trigger</strong> A living creature within 30 feet of you dies.</p><hr /><p>In the armies of Karrnath, death does not relieve a soldier of duty. You seize the departing spirit and bind the corpse's marrow into service. The triggering creature immediately rises as an animated skeleton or zombie under your absolute command, functioning as an undead minion created by an <em>animate dead</em> spell heightened to half your level. The creature acts immediately on your initiative and collapses into inert bone after 1 minute.</p><p>Once you use Grim Conscription, you cannot do so again for 1 hour.</p>"
+    },
+    "source": {
+      "value": "Morgrave Miscellany",
+      "page": "N/A"
+    },
+    "traits": {
+      "value": [
+        "archetype",
+        "void"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [],
+    "slug": "grim-conscription",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "level": {
+      "value": 16
+    },
+    "featType": {
+      "value": "archetype"
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Bone Knight Dedication"
+        }
+      ]
+    },
+    "publication": {
+      "title": "Morgrave Miscellany",
+      "authors": "Keith Baker & Ruty Rutenberg",
+      "license": "OGL / DMs Guild",
+      "remaster": true,
+      "page": "N/A"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1726848000000,
+    "modifiedTime": 1726848000000,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!gcs2024mm0000008"
+}

@@ -54,27 +54,26 @@ Because this project uses Pathfinder 2nd Edition rules:
 ---
 
 ### 2. Keith Baker’s DMs Guild Books
-*Titles include: [Exploring Eberron](https://www.dmsguild.com/product/315887/Exploring-Eberron), [Chronicles of Eberron](https://www.dmsguild.com/product/415474/Chronicles-of-Eberron), [Frontiers of Eberron: Quickstone](https://www.dmsguild.com/product/468819/Frontiers-of-Eberron-Quickstone), [Eberron: Forge of the Artificer](https://www.dmsguild.com/product/498308/Forge-of-the-Artificer), etc. (KB Presents)*
+*Titles include: [Chronicles of Eberron](https://www.dmsguild.com/product/415474/Chronicles-of-Eberron), [Morgrave Miscellany](https://www.dmsguild.com/product/270012/Morgrave-Miscellany), [Exploring Eberron](https://www.dmsguild.com/product/315887/Exploring-Eberron), [Frontiers of Eberron: Quickstone](https://www.dmsguild.com/product/468819/Frontiers-of-Eberron-Quickstone), and [Eberron: Forge of the Artificer](https://www.dmsguild.com/product/498308/Forge-of-the-Artificer) (KB Presents / Twogether Studios).*
 
 * **Legal Status:**
   * DMs Guild products operate under the **DMs Guild Community Content Agreement**. That agreement permits sharing content *only among other creators publishing within DMs Guild*. It grants **no rights** for external distribution (like a public GitHub repo).
   * Keith Baker and his co-authors own the copyright to their original text, lore, artwork, and 5e mechanics.
 * **Allowed:**
-  * Designing original PF2e equivalents for concepts Keith introduced (e.g., Dhakaani weapon traditions, Malenti feats, Ruinbound versatile heritage, Sahuagin & Kalamer options, Cartographer and expanded Artificer innovations, Lorghalan Gnome heritage, Riedran sentira emotion weapons, Dark Six / Shadow spells, Tairnadal paragon feats, and Droaam warlord encounters).
+  * Designing original PF2e equivalents for concepts Keith introduced (e.g., Dhakaani weapon traditions, Malenti feats, Ruinbound versatile heritage, Sahuagin & Kalamer options, Cartographer and expanded Artificer innovations, Lorghalan Gnome heritage, Riedran sentira emotion weapons, Dark Six / Shadow spells, Tairnadal paragon feats, Karrnathi Bone Knight archetype, Progenitor Dragon sorcery, School of Antiquities wizardry, and Droaam warlord encounters).
   * Writing all ability names and descriptions in your own words.
   * **Citing book titles, page numbers, and store links** so users can read the original lore in the source book.
 * **Prohibited:**
-  * Copy-pasting text, tables, quotes, or illustrations from *Exploring Eberron*, *Chronicles of Eberron*, *Frontiers of Eberron: Quickstone*, or *Forge of the Artificer*.
+  * Copy-pasting text, tables, quotes, or illustrations from *Exploring Eberron*, *Chronicles of Eberron*, *Frontiers of Eberron: Quickstone*, *Morgrave Miscellany*, or *Forge of the Artificer*.
   * Copying 5e mechanics verbatim.
 
 ---
 
-### 3. D&D Beyond Partner Content (5.5e / 2024 Keith Baker Releases)
-*Titles adapted for D&D Beyond include:*
-* **[Eberron: Forge of the Artificer (2024 / 5.5e)](https://www.dndbeyond.com/marketplace/sourcebooks/eberron-forge-of-the-artificer)**: Expanded Artificer options, Cartographer specialist, infusions, and magewright innovations.
-* **[Exploring Eberron (2024 / 5.5e Update)](https://www.dndbeyond.com/marketplace/sourcebooks/exploring-eberron)**: Sahuagin, Kalamer Landwalker, and Ruinbound player options, Dhakaani Kechs, Mind Domain, Circle of the Forged, Forge Adept & Maverick inventor innovations, College of the Dirge Singer, Living Weapon monk, origin feats, capstones, and spells.
-* **[Frontiers of Eberron: Quickstone (2024 / 5.5e)](https://www.dndbeyond.com/marketplace/sourcebooks/frontiers-of-eberron-quickstone)**: Western Frontier setting, Gargoyle, Harpy, Medusa, and Worg playable ancestries & heritages, frontier backgrounds, Droaam lineages, druidic circles, wandslinger feats, and spells.
-* **[Chronicles of Eberron](https://www.dndbeyond.com/marketplace/sourcebooks/chronicles-of-eberron)**: Noble backgrounds (Displaced, Newly Risen, Disgraced), Lorghalan Gnome heritage, Tairnadal and Stonesinger feats, Defiled Gift and Reverse Speech spellshapes, Dark Six spells (*Awaken Ambition*, *Shadow's Gifts*, *Fury's Chorus*, *Keeper's Vault*), Riedran sentira emotion lenses & shards, and Droaam / Khyber master threats (*Mordain the Fleshweaver*, *Avassh the Twister of Roots*).
+### 3. D&D Beyond Partner Content & 5.5e Releases
+*Partner content releases published on D&D Beyond by Keith Baker (KB Presents) and Foundry Gaming LLC include:*
+* **[Eberron: Forge of the Artificer (2024 / 5.5e)](https://www.dndbeyond.com/marketplace/sourcebooks/eberron-forge-of-the-artificer)**: 2024 rules revision. Expanded Artificer options, Cartographer specialist, infusions, and magewright innovations.
+* **[Exploring Eberron (2024 / 5.5e Update)](https://www.dndbeyond.com/marketplace/sourcebooks/exploring-eberron)**: 5.5e rules modernization. Sahuagin, Kalamer Landwalker, and Ruinbound player options, Dhakaani Kechs, Mind Domain, Circle of the Forged, Forge Adept & Maverick inventor innovations, College of the Dirge Singer, Living Weapon monk, origin feats, capstones, and spells.
+* **[Frontiers of Eberron: Quickstone (2024 / 5.5e)](https://www.dndbeyond.com/marketplace/sourcebooks/frontiers-of-eberron-quickstone)**: 5.5e rules modernization. Western Frontier setting, Gargoyle, Harpy, Medusa, and Worg playable ancestries & heritages, frontier backgrounds, Droaam lineages, druidic circles, wandslinger feats, and spells.
 
 * **Allowed:**
   * Translating 2024/5.5e rule updates into PF2e Remaster mechanics in your own original phrasing.

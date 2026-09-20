@@ -1,36 +1,50 @@
-# Updates to PF2e Conversion for 2024 Eberron Content
+# Updates to PF2e Conversion for DMs Guild, D&D 2024, and D&D Beyond Partner Content
 
-**Document Version:** 1.1.0  
+**Document Version:** 1.2.0  
 **Target Systems:** Pathfinder 2e Remaster (Foundry VTT PF2e System 8.5.1+ / Foundry v14+)  
-**Analyzed Sources:**
-- [*Eberron: Forge of the Artificer* (2024 / 5.5e)](https://www.dndbeyond.com/marketplace/sourcebooks/eberron-forge-of-the-artificer) (Foundry Gaming LLC)
-- [*Exploring Eberron (2024 / 5.5e Update)*](https://www.dndbeyond.com/marketplace/sourcebooks/exploring-eberron) (Keith Baker, D&D Beyond / DMs Guild)
-- [*Frontiers of Eberron: Quickstone (2024 / 5.5e)*](https://www.dndbeyond.com/marketplace/sourcebooks/frontiers-of-eberron-quickstone) (Keith Baker, D&D Beyond / DMs Guild)
-- [*Chronicles of Eberron*](https://www.dndbeyond.com/marketplace/sourcebooks/chronicles-of-eberron) (Keith Baker, D&D Beyond / DMs Guild)
+**Analyzed & Incorporated Sources:**
+
+### 1. D&D 2024 / 5.5e Core Rules & System Architecture
+- **D&D 2024 Player's Handbook & Free Rules:** Versatile Heritages paradigm for Dragonmarks, modern Origin Background structures, standard attribute bonuses, unified spell schools/traditions, and standard action economy balancing.
+
+### 2. D&D Beyond Partner Content (KB Presents / Foundry Gaming LLC)
+- [**Eberron: Forge of the Artificer (2024 / 5.5e)**](https://www.dndbeyond.com/marketplace/sourcebooks/eberron-forge-of-the-artificer) (Foundry Gaming LLC) — Elemental Airship combat and crew vehicle rules, Leyline Cartographer archetype, Dreadnaught Armorer model, modern dragonmark feat progression, and 14 Dragonmarked House Heir backgrounds.
+- [**Exploring Eberron (2024 / 5.5e Update)**](https://www.dndbeyond.com/marketplace/sourcebooks/exploring-eberron) (Keith Baker, D&D Beyond / DMs Guild) — Kech Dhakaani lineages and masterwork relics, Mind domain, Forge Adept and Maverick artificers, Living Weapon monk, and Daelkyr symbiont grafts.
+- [**Frontiers of Eberron: Quickstone (2024 / 5.5e)**](https://www.dndbeyond.com/marketplace/sourcebooks/frontiers-of-eberron-quickstone) (Keith Baker, D&D Beyond / DMs Guild) — Droaam and frontier backgrounds, expanded Wandslinger archetype, Demonshard barbarian, Bloodhound ranger, Nemesis sorcery, and Stone Sovereign witch.
+
+### 3. DMs Guild Community Publications
+- [**Chronicles of Eberron**](https://www.dmsguild.com/product/415474/Chronicles-of-Eberron) (Keith Baker / Twogether Studios, DMs Guild) — Lorghalan gnome heritage, noble backgrounds, sentira emotion weapons and spellhearts, Dark Six spells, spellshape feats, and legendary bestiary encounters (Avassh, Mordain).
+- [**Morgrave Miscellany**](https://www.dmsguild.com/product/270012/Morgrave-Miscellany) (Keith Baker & Ruty Rutenberg, DMs Guild) — Karrnathi Bone Knight class archetype, Progenitor Dragon sorcerer bloodline, School of Antiquities wizard arcane curriculum, Way of the Argent Fist monk feats, evolutionary species feats (Warforged, Kalashtar, Shifter), and comprehensive class/archetype reflavoring mappings.
+- **Exploring Eberron (Original DMs Guild Edition)** (Keith Baker) — Deep lore of the planes, aquatic races of the Thunder Sea, and cults of the Dragon Below.
+- **Frontiers of Eberron: Quickstone (Original DMs Guild Edition)** (Keith Baker) — Frontier justice, gnolls of the Znir Pact, and the threshold between Breland and Droaam.
+
+### 4. Canonical Foundation & Lore References
+- **Eberron Campaign Setting (3.5e)** (Keith Baker, Bill Slavicsek, James Wyatt)
+- **Eberron: Rising from the Last War (5e)** (Wizards of the Coast)
+- **The Eberronicon** (DMs Guild / Concordance)
 
 ---
 
 ## Executive Summary & Design Architecture
 
-The 2024 D&D 5.5e releases and official Eberron expansions (*Forge of the Artificer*, *Exploring Eberron 5.5e*, and *Frontiers of Eberron: Quickstone*) modernize the setting's mechanics.
+This conversion synthesizes the modern **D&D 2024 (5.5e)** rules modernization, **D&D Beyond Partner Content** (*Forge of the Artificer*, *Exploring Eberron 5.5e*, *Frontiers of Eberron: Quickstone*), and classic **DMs Guild Community Publications** (*Chronicles of Eberron*, *Morgrave Miscellany*, *Exploring Eberron*) into the **Pathfinder 2e Remaster** system.
 
-To ensure our Pathfinder 2e conversion is seamless, robust, and intuitive, the implementation sequence follows the fundamental **PF2e Character Creation Architecture ("ABC")**:
-1. **Ancestries, Heritages & Ancestry Feats** (including the 2024 Dragonmark transition to Versatile Heritages)
-2. **Backgrounds & Origin Options** (14 House Heir backgrounds and Frontier backgrounds)
-3. **Religions, Deities & Divine Domains** (establishing pantheons, fonts, and domains before classes)
-4. **Classes, Subclasses & Archetypes** (Inventors/Artificers, Wandslingers, and new martial/caster archetypes)
-5. **Spells, Focus Spells & Magic Items** (Focus spells, symbionts, Dhakaani relics, and dragonmark items)
-6. **Vehicles & Subsystems** (Elemental Airships as PF2e vehicles, native Downtime for enclaves, and Noir Investigation)
-
-This dependency hierarchy ensures that when building a class or archetype, its prerequisite deities, ancestries, backgrounds, and domain spells are already registered in the system.
+Rather than forcing 5e mechanics awkwardly into PF2e, this project leverages Pathfinder 2e's native modularity:
+1. **Ancestries, Heritages & Ancestry Feats:** Modernized core Eberron ancestries; Dragonmarks function as Versatile Heritages open to any species matching 2024 D&D's open heritage design while fully utilizing PF2e ancestry feats and Remaster Focus pools.
+2. **Backgrounds & Origin Options:** 14 House Heir backgrounds and frontier backgrounds granting standardized attribute boosts, Lore skills, and skill feats.
+3. **Religions, Deities & Divine Domains:** Full pantheon fonts, edicts, anathemas, and divine domains (Commerce, Mind, Dark Six syncretisms) established prior to class options.
+4. **Classes, Subclasses & Archetypes:** Modular archetypes (Bone Knight, Way of the Wandslinger, Leyline Cartographer) and class expansions (Progenitor Dragon bloodline, School of Antiquities curriculum, Living Weapon monk stances) adhering strictly to Remaster action economy and balance.
+5. **Spells, Focus Spells & Magic Items:** Daelkyr symbionts, Dhakaani byeshk weapons, Riedran sentira implements, focus spells, and dragonmark magic modeled as native PF2e items, spellhearts, and grafts.
+6. **Vehicles & Subsystems:** Elemental Airships mapped to PF2e Vehicle stat blocks and crew actions, while strongholds and enclaves leverage PF2e's native Downtime system (`Craft`, `Earn Income`, `Retrain`) rather than bolted-on subsystems.
+7. **PF2e Concepts & Equivalents Guide:** Comprehensive cross-references and reflavoring instructions connecting 5e/DMsGuild archetypes to native PF2e classes and feats to prevent mechanical redundancy.
 
 ---
 
 ## 1. Ancestries, Heritages & Lineage Feats
 
-### 1.1 Core Ancestry Modernizations (2024 Remaster Alignment)
+### 1.1 Core Ancestry Modernizations (D&D 2024 Design & PF2e Remaster Alignment)
 
-The 2024 revisions streamline species abilities, resolving ambiguities in action economy and size mechanics:
+Modern revisions from D&D 2024 design principles and the PF2e Remaster streamline species abilities, resolving ambiguities in action economy, condition immunity, and size mechanics:
 
 - **Changeling (`eberron-ancestries/`):**
   - *Change Shape:* Explicitly adapts cosmetic clothing and gear coloration (purely aesthetic) without requiring tailoring.
@@ -239,6 +253,9 @@ Following the natural character creation and dependency sequence:
 | **Phase 6** | **Vehicles & Bestiary** | `eberron-items/` (Vehicles), `eberron-creatures/` | Completed | 2026-09-20 13:29 EDT |
 | **Post-Phase** | **Automated Scribe PDF Generation** | `tools/generate_pdf.mjs`, `pathfinders-guide-to-eberron.pdf` | Completed | 2026-09-20 13:41 EDT |
 | **Phase 7** | **Chronicles of Eberron Integration** | Foundry packs, Pathbuilder, Scribe Subsections, PDF | Completed | 2026-09-20 18:20 EDT |
+| **Phase 8** | **Eberron Concepts & PF2e Equivalents Guide** | `eberron-journals/`, Scribe `eberron-equivalents.txt`, HTML/PDF | Completed | 2026-09-20 19:10 EDT |
+| **Phase 9** | **Morgrave Miscellany Integration** | Foundry packs, Pathbuilder, Scribe Subsections, Equivalents | Completed | 2026-09-20 19:18 EDT |
+| **Phase 10** | **Multi-Source Synthesis & Legal Packaging** | Legal notices, CHANGELOG, README, Scribe HTML/PDF (7.01 MB) | Completed | 2026-09-20 19:20 EDT |
 
 ---
 
@@ -279,4 +296,60 @@ All player and DM options from *Chronicles of Eberron* categorized as **Category
 - **Pathbuilder Custom Pack:** Fully enriched `pathbuilder-custom-pack/pathfinders-guide-to-eberron.json`.
 - **Scribe Source Documents:** `Subsections/ancestries.txt`, `Subsections/backgrounds.txt`, `Subsections/feats.txt`, `Subsections/items-of-eberron.txt`, `Subsections/spells.txt`.
 - **Publication Artifacts:** Cleanly generated `pathfinders-guide-to-eberron.html` and `pathfinders-guide-to-eberron.pdf` (6.68 MB).
+
+---
+
+## 9. Eberron Concepts & Pathfinder 2e Equivalents Guide
+
+A master cross-reference and reflavoring guide connecting classic Eberron character archetypes, tropes, and mechanics across all processed sourcebooks (*Exploring Eberron*, *Frontiers of Eberron*, *Forge of the Artificer*, *Chronicles of Eberron*, *Morgrave Miscellany*, and classic 3.5e/5e ECS) to their native Pathfinder 2e Remaster equivalents.
+
+### 9.1 Publication & Delivery Channels
+- **Scribe Document Subsection:** Created `Subsections/eberron-equivalents.txt` and integrated into `Pathfinder-2e-Eberron-Conversion.txt` and `tools/generate_pdf.mjs`.
+- **Stand-Alone Publications:** Recompiled `pathfinders-guide-to-eberron.html` and `pathfinders-guide-to-eberron.pdf` (6.89 MB).
+- **Foundry VTT Compendium Pack:** Registered `eberron-journals` (`JournalEntry` pack) in `pathfinders-guide-to-eberron/module.json` and compiled `src/packs/eberron-journals/eberron-mechanics-and-equivalents.json` (4 comprehensive pages).
+- **Full Test Suite & Validation:** All 661 Vitest tests and Tier 1 headless Foundry v14 schema validators passed with 0 errors.
+
+---
+
+## 10. Morgrave Miscellany Integration & PF2e Equivalents Expansion
+
+All recommendations for *Morgrave Miscellany* (Keith Baker & Ruty Rutenberg) have been implemented. Bespoke Pathfinder 2e Remaster conversions were created for Category 1 options, while Category 2 and 3 subclasses, archetypes, and racial options were mapped into the newly created **Eberron Concepts & PF2e Equivalents** guide in both Scribe text and Foundry compendium journals.
+
+### 10.1 Converted Mechanics & Character Options (Category 1)
+
+1. **Karrnathi Bone Knight Archetype (`eberron-classes` & `eberron-feats`):**
+   - *Bone Knight Dedication (Feat 2):* Bonecraft armoring, resistance to vitality/void damage, and saves vs disease/fear.
+   - *Bonecraft Mastery (Feat 4):* Bonecraft weapons deal +1d4 void/cold damage and gain deadly d6.
+   - *Ivory Mount (Feat 4):* Skeletal undead mount immune to bleed, death, disease, paralyzed, poison, and unconscious.
+   - *Master of the Ivory Banner (Feat 8):* 30-foot aura granting +1 attack, +2 saves vs fear, and DC 15 death prevention check for undead allies.
+   - *Marrow Death Strike (Feat 12):* Melee strike dealing +3d8 void damage; critical hits inflict drained 1 and enfeebled 1.
+   - *Grim Conscription (Feat 16, Reaction):* Reanimate a slain adjacent foe as a temporary skeleton/zombie minion for 1 minute.
+2. **Progenitor Dragon Sorcerer Bloodline (`eberron-classes` & `eberron-spells`):**
+   - Choose patron: **Siberys** (Arcane), **Eberron** (Primal), or **Khyber** (Occult).
+   - Granted focus spells:
+     - *Shape of Creation (Focus 1):* Elemental matter reshaping burst dealing 2d6 damage and creating difficult terrain.
+     - *Cradle of Life (Focus 3):* Protective vitality mantle restoring 3d8 HP and +1 status to AC/saves (or void healing for Khyber).
+     - *Progenitor's Awakening (Focus 6):* Dragonshard wings, fly Speed, resistance 5 physical, and 8d6 breath weapon cone.
+3. **School of Antiquities Wizard Curriculum (`eberron-classes` & `eberron-spells`):**
+   - Morgrave University curriculum specializing in Xen'drik exploration and the Draconic Prophecy.
+   - Granted focus spells:
+     - *Surveyor of Ruin (Focus 1):* Rapid structural analysis granting +2 status against hazards or +1 status to attack analyzed foes.
+     - *Personal Prophecy (Focus 3):* Glimpse destiny as a reaction, granting fortune to allies or misfortune to enemies.
+4. **Way of the Argent Fist Monk Feats (`eberron-feats`):**
+   - *Argent Fist Stance (Feat 4):* Unarmed strikes gain agile, finesse, holy, nonlethal, silver, and deal +1d4 spirit damage and count as cold iron vs fiends/undead.
+   - *Wrath of the Argent Flame (Feat 8):* 15-foot sanctified cone dealing 4d6 fire and 4d6 spirit damage, dazzling or blinding fiends/undead.
+5. **Evolutionary Species Feats (`eberron-feats`):**
+   - *Integrated Arcana (Warforged Feat 1):* Integrated wand/focus socket and innate arcane cantrip.
+   - *Warforged Colossus (Warforged Feat 9):* 1-minute transformation to Large size (+5 ft reach, 15 temp HP, +2 melee damage).
+   - *Atavist (Kalashtar Feat 5):* Resistance to mental damage and upgraded success on saves vs mental conditions.
+   - *Quori Nightmare (Kalashtar Feat 9):* Dal Quor mental pulse dealing 5d6 damage and inflicting fear/fleeing.
+   - *Weretouched Master (Shifter Feat 5):* Shifting attacks gain deadly d8 or agile/finesse, +10 ft speed, and darkvision.
+   - *Moonspeaker (Shifter Feat 9):* Lunar attunement granting *mist* and *moonbeam* as innate primal spells.
+
+### 10.2 Equivalents & Reflavoring Integrations (Categories 2 & 3)
+- **Bardic Colleges:** Mapped *College of the Keys* to Rogue/Bard vault-crackers and *College of the Shadow* to Maestro Bard / Shadowdancer.
+- **Barbarian:** Mapped *Path of the Juggernaut* to Fury/Giant Instinct construct overcharging.
+- **Warlock Patrons:** Mapped alien daelkyr/undying court patrons to Witch (Curse/Baba Yaga) or Living Vessel Archetype.
+- **Planar Strangers:** Mapped *Githzerai / Githyanki* in Eberron to Human/Android + Psychic or Mind Smith.
+- **Compendium & Documentation Synchronizations:** Updated `Subsections/eberron-equivalents.txt`, `src/packs/eberron-journals/eberron-mechanics-and-equivalents.json` (new 5th page added), `Subsections/classes.txt`, `Subsections/feats.txt`, `pathbuilder-custom-pack/pathfinders-guide-to-eberron.json` (407 feats, 118 spells), and recompiled HTML and PDF (7.01 MB).
 

@@ -1,0 +1,84 @@
+{
+  "_id": "sor2024mm0000020",
+  "name": "Surveyor of Ruin",
+  "type": "spell",
+  "img": "systems/pf2e/icons/spells/surveyor-of-ruin.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "source": {
+      "value": "Morgrave Miscellany",
+      "page": "N/A"
+    },
+    "publication": {
+      "title": "Morgrave Miscellany",
+      "authors": "Keith Baker & Ruty Rutenberg",
+      "license": "OGL / DMs Guild",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "rules": [],
+    "slug": "surveyor-of-ruin",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "traits": {
+      "value": [
+        "concentrate",
+        "detection",
+        "focus",
+        "wizard"
+      ],
+      "rarity": "uncommon",
+      "custom": "",
+      "traditions": []
+    },
+    "description": {
+      "value": "<p>Drawing upon Morgrave University fieldwork, you instantly analyze the structural stress, magical composition, or anatomical flaws of your target. Target one hazard, mechanism, relic, or creature within 30 feet.</p><ul><li><strong>Hazard or Object:</strong> You gain a +2 status bonus to Perception checks to notice hidden components and Thievery or Crafting checks to Disable, Repair, or unlock the target for 1 minute.</li><li><strong>Creature:</strong> You instantly Recall Knowledge about the creature with a +1 status bonus. In addition, your next Strike or spell attack against that creature before the end of your current turn gains a +1 status bonus to the attack roll.</li></ul><p><strong>Heightened (4th):</strong> The bonus against hazards increases to +3, and the bonus to your next attack roll increases to +2.</p>"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": {
+      "value": "focus"
+    },
+    "spellType": {
+      "value": "utility"
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "target": {
+      "value": "1 hazard, object, or creature"
+    },
+    "time": {
+      "value": "1"
+    },
+    "duration": {
+      "value": "see text"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1726848000000,
+    "modifiedTime": 1726848000000,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!sor2024mm0000020"
+}

@@ -29,9 +29,9 @@ The Pathfinder's Guide to Eberron is a community conversion of Pathfinder 2e Rem
 
 ### Sources & Reference Material
 
-This conversion draws from the following foundational and 2024 / 5.5e sourcebooks. We strongly encourage players and Game Masters to support the creators and purchase the sourcebooks:
+This conversion draws from the following foundational setting books, D&D Beyond Partner Content, DMs Guild community releases, and D&D 2024 / 5.5e rules. We strongly encourage players and Game Masters to support the creators and purchase the sourcebooks:
 
-#### 2024 / 5.5e Partner Content & KB Presents
+#### D&D Beyond Partner Content (KB Presents / Foundry Gaming)
 * **[Eberron: Forge of the Artificer (2024 / 5.5e)](https://www.dndbeyond.com/marketplace/sourcebooks/eberron-forge-of-the-artificer)** by Keith Baker, Wayne Chang, and Laura Hirsbrunner  
   *Compendium:* [D&D Beyond](https://www.dndbeyond.com/marketplace/sourcebooks/eberron-forge-of-the-artificer) | [DMs Guild](https://www.dmsguild.com/product/498308/Forge-of-the-Artificer)  
   *Material Adapted:* Cartographer specialist and expanded Artificer innovations, new infusions, elemental airship options, and magewright equipment.
@@ -41,11 +41,19 @@ This conversion draws from the following foundational and 2024 / 5.5e sourcebook
 * **[Frontiers of Eberron: Quickstone (2024 / 5.5e)](https://www.dndbeyond.com/marketplace/sourcebooks/frontiers-of-eberron-quickstone)** by Keith Baker, Imogen Gingell, and Colin Kawakami  
   *Compendium:* [D&D Beyond](https://www.dndbeyond.com/marketplace/sourcebooks/frontiers-of-eberron-quickstone) | [DMs Guild](https://www.dmsguild.com/product/468819/Frontiers-of-Eberron-Quickstone)  
   *Material Adapted:* Gargoyle, Harpy, Medusa, and Worg playable ancestries & heritages, Western Frontier backgrounds, Droaam planar lineages, druidic circle initiate feats, wandslinger style feats, and primal spells (*Absorb Elements*, *Earth Tremor*, *Earthbind*, *Mold Earth*, etc.).
-* **[Chronicles of Eberron](https://www.dndbeyond.com/marketplace/sourcebooks/chronicles-of-eberron)** by Keith Baker  
-  *Compendium:* [D&D Beyond](https://www.dndbeyond.com/marketplace/sourcebooks/chronicles-of-eberron) | [DMs Guild](https://www.dmsguild.com/product/415474/Chronicles-of-Eberron)  
+
+#### DMs Guild Community Publications
+* **[Chronicles of Eberron](https://www.dmsguild.com/product/415474/Chronicles-of-Eberron)** by Keith Baker  
+  *Compendium:* [DMs Guild](https://www.dmsguild.com/product/415474/Chronicles-of-Eberron)  
   *Material Adapted:* Lorghalan Gnome heritage, Noble backgrounds (Displaced, Newly Risen, Disgraced Noble), character feats (*Tairnadal Revenant*, *Stonesinger*, *Defiled Gift Spellshape*, *Reverse Speech Spellshape*), Dark Six and shadow-themed spells (*Awaken Ambition*, *Shadow's Gifts*, *Fury's Chorus*, *Keeper's Vault*), Riedran *sentira* emotion implements and shards (*Sentira Hand/Light/Heavy Lens*, *Sentira Shards of Anxiety, Dread, Grief*), Cannith spellbolts, crossbow silencers, and threat bestiary stat blocks (*Mordain the Fleshweaver*, *Avassh the Twister of Roots*).
+* **[Morgrave Miscellany](https://www.dmsguild.com/product/270012/Morgrave-Miscellany)** by Keith Baker & Ruty Rutenberg  
+  *Compendium:* [DMs Guild](https://www.dmsguild.com/product/270012/Morgrave-Miscellany)  
+  *Material Adapted:* Karrnathi Bone Knight Archetype (Dedication, Bonecraft Mastery, Ivory Mount, Master of the Ivory Banner, Marrow Death Strike, Grim Conscription), Progenitor Dragon Sorcerer Bloodline & focus spells (*Shape of Creation*, *Cradle of Life*, *Progenitor's Awakening*), School of Antiquities Wizard Curriculum & focus spells (*Surveyor of Ruin*, *Personal Prophecy*), Way of the Argent Fist Monk feats (*Argent Fist Stance*, *Wrath of the Argent Flame*), Evolutionary Species Feats (*Integrated Arcana*, *Warforged Colossus*, *Atavist*, *Quori Nightmare*, *Weretouched Master*, *Moonspeaker*), and comprehensive PF2e Equivalents & Reflavoring guides for all subclasses and tropes.
+* **Original DMs Guild Editions of KB Presents Works:** *Exploring Eberron* (2020) and *Frontiers of Eberron: Quickstone* (2023) providing deep lore, planes, cultures, and regional gazetteers.
 
 #### Official Wizards of the Coast Rulebooks
+* **D&D 2024 Player's Handbook & Free Rules** (Wizards of the Coast)  
+  *Material Adapted:* Versatile Heritages paradigm for Dragonmarks, origin backgrounds, and modernized species ability structures.
 * **[D&D 3.5 Eberron Campaign Setting](https://www.dmsguild.com/product/28474/Eberron-Campaign-Setting-3e)** by Keith Baker, Bill Slavicsek, and James Wyatt  
   *Material Adapted:* Foundational world lore, dragonmarks, core ancestries (Warforged, Kalashtar, Shifter, Changeling), nations, factions, and dragonmarked houses.
 * **[D&D 3.5 Player's Guide to Eberron](https://www.dmsguild.com/product/28713/Players-Guide-to-Eberron-35)** by James Wyatt, Luke Johnson, and Stan!  
@@ -79,8 +87,11 @@ With the wide magic of Eberron, access to magic items and crafting supplies is d
 ### Spells
 With the arms race brought about by the last war, and the magic of dragonmarks, several new spells are introduced into the world. Eberron is a wide-magic, but low-level-magic setting, so the majority of these spells are low level as well.
 
+### Eberron Concepts & PF2e Equivalents Guide
+A comprehensive cross-reference guide is provided in both the Scribe document and the `eberron-journals` Foundry compendium pack. It maps classic Eberron archetypes and tropes (Artificer, Mastermaker, Inquisitive, Extreme Explorer, Field Marshal, Vigilante, Symbiont Host, Wandslinger, Bone Knight, etc.) to native Pathfinder 2e Remaster classes and archetypes, with practical guidance on reskinning, reflavoring, and rule adaptations.
+
 ### Other
-This guide also provides details about running the world of Eberron to the full extent  are some what minor guides for building NPCs and PCs that fit the rich lore of the world.
+This guide also provides details about running the world of Eberron to the full extent with minor guides for building NPCs and PCs that fit the rich lore of the world.
 
 ## Testing & Local Debugging
 

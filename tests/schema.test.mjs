@@ -28,10 +28,13 @@ describe('Foundry v14 & PF2e Schema Validation', () => {
     expect(duplicates).toEqual([]);
   });
 
-  it('should have all required core fields (_id, name, type, system)', () => {
-    const invalid = docs.filter(
-      d => !d.data._id || !d.data.name || !d.data.type || !d.data.system
-    );
+  it('should have all required core fields (_id, name, type, system for items/actors; _id, name, pages for journals)', () => {
+    const invalid = docs.filter(d => {
+      if (d.docType === 'JournalEntry') {
+        return !d.data._id || !d.data.name || !Array.isArray(d.data.pages);
+      }
+      return !d.data._id || !d.data.name || !d.data.type || !d.data.system;
+    });
     expect(invalid.map(d => d.relPath)).toEqual([]);
   });
 
@@ -67,9 +70,10 @@ describe('Foundry v14 & PF2e Schema Validation', () => {
     expect(invalid).toEqual([]);
   });
 
-  it('should have valid publication and source information with title and page across all documents', () => {
+  it('should have valid publication and source information with title and page across all items and actors', () => {
     const missing = [];
     for (const doc of docs) {
+      if (doc.docType === 'JournalEntry') continue;
       const data = doc.data;
       const isActorWithDetails = data.type === 'npc' || data.type === 'vehicle';
       const pub = isActorWithDetails ? (data.system?.details?.publication || data.system?.publication) : data.system?.publication;
@@ -104,11 +108,13 @@ describe('Foundry v14 & PF2e Schema Validation', () => {
         });
       }
 
-      if (!system || system.schema?.version !== 0.959 || system._migration?.version !== 0.959) {
-        mismatched.push({
-          file: doc.relPath,
-          issue: `schema version invalid: schema.version=${system?.schema?.version}, _migration.version=${system?._migration?.version}`
-        });
+      if (doc.docType !== 'JournalEntry') {
+        if (!system || system.schema?.version !== 0.959 || system._migration?.version !== 0.959) {
+          mismatched.push({
+            file: doc.relPath,
+            issue: `schema version invalid: schema.version=${system?.schema?.version}, _migration.version=${system?._migration?.version}`
+          });
+        }
       }
     }
     expect(mismatched).toEqual([]);

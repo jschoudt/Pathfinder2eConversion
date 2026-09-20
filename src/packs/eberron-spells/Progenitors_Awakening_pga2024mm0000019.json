@@ -1,0 +1,80 @@
+{
+  "_id": "pga2024mm0000019",
+  "name": "Progenitor's Awakening",
+  "type": "spell",
+  "img": "systems/pf2e/icons/spells/progenitors-awakening.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "source": {
+      "value": "Morgrave Miscellany",
+      "page": "N/A"
+    },
+    "publication": {
+      "title": "Morgrave Miscellany",
+      "authors": "Keith Baker & Ruty Rutenberg",
+      "license": "OGL / DMs Guild",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "rules": [],
+    "slug": "progenitors-awakening",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "traits": {
+      "value": [
+        "concentrate",
+        "dragon",
+        "focus",
+        "manipulate",
+        "morph",
+        "sorcerer"
+      ],
+      "rarity": "uncommon",
+      "custom": "",
+      "traditions": []
+    },
+    "description": {
+      "value": "<p>You evoke the terrifying majesty of the Progenitor Wyrms. Radiant dragonshard wings erupt from your back and your skin hardens into crystalline scales. You gain a fly Speed equal to your Speed, resistance 5 to physical damage, and a +2 status bonus to Intimidation checks.</p><p>Once during the spell's duration, you can spend a single action to unleash a Progenitor Breath in a 30-foot cone, dealing 8d6 damage of the type associated with your bloodline patron (force or electricity for Siberys, fire or bludgeoning for Eberron, cold or void for Khyber; basic Reflex save).</p><p><strong>Heightened (+1):</strong> The physical resistance increases by 1, and the breath weapon damage increases by 2d6.</p>"
+    },
+    "level": {
+      "value": 6
+    },
+    "category": {
+      "value": "focus"
+    },
+    "spellType": {
+      "value": "utility"
+    },
+    "duration": {
+      "value": "1 minute"
+    },
+    "time": {
+      "value": "2"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1726848000000,
+    "modifiedTime": 1726848000000,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!pga2024mm0000019"
+}
