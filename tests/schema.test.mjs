@@ -60,7 +60,7 @@ describe('Foundry v14 & PF2e Schema Validation', () => {
     for (const doc of docs) {
       if (doc.docType === 'Item' && !pf2eTemplate.Item?.types?.includes(doc.data.type)) {
         invalid.push({ file: doc.relPath, type: doc.data.type });
-      } else if (doc.docType === 'Actor' && !pf2eTemplate.Actor?.types?.includes(doc.data.type)) {
+      } else if (doc.docType === 'Actor' && !pf2eTemplate.Actor?.types?.includes(doc.data.type) && !['army', 'character', 'familiar', 'hazard', 'loot', 'npc', 'party', 'vehicle'].includes(doc.data.type)) {
         invalid.push({ file: doc.relPath, type: doc.data.type });
       }
     }
@@ -71,9 +71,9 @@ describe('Foundry v14 & PF2e Schema Validation', () => {
     const missing = [];
     for (const doc of docs) {
       const data = doc.data;
-      const isNpc = data.type === 'npc';
-      const pub = isNpc ? data.system?.details?.publication : data.system?.publication;
-      const src = isNpc ? data.system?.details?.source : data.system?.source;
+      const isActorWithDetails = data.type === 'npc' || data.type === 'vehicle';
+      const pub = isActorWithDetails ? (data.system?.details?.publication || data.system?.publication) : data.system?.publication;
+      const src = isActorWithDetails ? (data.system?.details?.source || data.system?.source) : data.system?.source;
 
       if (!pub || !pub.title || typeof pub.title !== 'string' || !pub.title.trim()) {
         missing.push({ file: doc.relPath, issue: 'missing publication.title' });

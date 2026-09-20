@@ -1424,5 +1424,113 @@ item(
 -
 A thick, rubbery daelkyr organism that attaches to the base of your spine. The leech feeds constantly on your blood, imparting the drained 1 condition while it remains invested (this condition cannot be removed until the leech is uninvested). In return, the creature absorbs devastating physical shock: you gain complete immunity to the extra damage from critical hits and precision damage, treating all critical hits against you as normal hits.
 )
+
+=
+# Elemental Airships & Upgrades ((+Elemental Airships))
+First developed through a partnership between House Cannith, House Lyrandar, and Zilargo elemental binders, the elemental airship represents the pinnacle of magical transport in Khorvaire. Bound fire or air elementals contained within Khyber dragonshard rings propel soarwood hulls through the sky.
+
+### Operating an Airship
+- **Helm:** Operated by a pilot occupying the Helm. A pilot bearing the **Mark of Storm** automatically qualifies to steer and maneuver the vessel. A creature without the dragonmark must succeed at an Arcana, Nature, or Driving Lore check against the vehicle's Piloting DC to command the bound elemental.
+- **Wind Wards:** The elemental ring generates an envelope of calm air around the deck, protecting passengers from freezing high-altitude drafts and thin atmosphere.
+- **Elemental Containment:** If the core is suppressed (such as via *dispel magic*), the airship's Fly Speed slows to 5 feet (though it continues to hover).
+
+### Vehicles of the Sky
+
+item(
+# Lyrandar Skyskiff
+## Vehicle 6
+-
+; Rare, Huge, Air, Magical, Elemental, Vehicle
+**Price** 2,000 gp
+**Space** 30 ft long, 10 ft wide, 15 ft high; **Crew** 1 pilot; **Passengers** 4
+**Piloting Check** Nature (DC 22), Arcana (DC 22), or Driving Lore (DC 20); Mark of Storm automatically qualifies without a check
+-
+**AC** 20; **Fort** +14
+**Hardness** 10; **HP** 120 (BT 60); **Immunities** object immunities
+**Collision DC** 22; **Collision Damage** 6d10 bludgeoning
+**Speed** fly 60 feet (elemental ring)
+-
+A recent innovation from House Lyrandar, the skyskiff is a nimble, compact vessel used for swift courier work, patrol, and emergency towing of larger grounded craft. Equipped with an arcane tow winch and tether-hook capable of anchoring or pulling vessels and cargo within 100 feet.
+)
+
+item(
+# Lyrandar Air Cruiser
+## Vehicle 11
+-
+; Rare, Gargantuan, Air, Magical, Elemental, Vehicle
+**Price** 6,500 gp
+**Space** 60 ft long, 20 ft wide, 25 ft high; **Crew** 1 pilot, 4 crew; **Passengers** 30
+**Piloting Check** Nature (DC 28), Arcana (DC 28), or Driving Lore (DC 26); Mark of Storm automatically qualifies without a check
+-
+**AC** 26; **Fort** +20
+**Hardness** 15; **HP** 240 (BT 120); **Immunities** object immunities
+**Collision DC** 28; **Collision Damage** 9d10 bludgeoning
+**Speed** fly 45 feet (elemental ring)
+-
+Haloed by enormous rings of elemental flame or lightning, Lyrandar Air Cruisers are the iconic vessels of transcontinental passenger travel and commerce across the Five Nations. Their soarwood hulls and protective wind wards shield travelers from high-altitude drafts. Equipped with an aft Shield Station that can be calibrated to project a +5 circumstance bonus to AC for 1 minute (usable as a free action by a crew member with the Mark of Warding).
+)
+
+item(
+# Strider War Airship
+## Vehicle 16
+-
+; Rare, Gargantuan, Air, Magical, Elemental, Vehicle
+**Price** 28,000 gp
+**Space** 120 ft long, 40 ft wide, 40 ft high; **Crew** 1 pilot, 12 crew; **Passengers** 50
+**Piloting Check** Nature (DC 35), Arcana (DC 35), or Driving Lore (DC 33); Mark of Storm automatically qualifies without a check
+-
+**AC** 34; **Fort** +28
+**Hardness** 20; **HP** 400 (BT 200); **Immunities** object immunities
+**Collision DC** 34; **Collision Damage** 12d10 bludgeoning
+**Speed** fly 40 feet (elemental ring)
+-
+Favored by privateers, explorers, and military detachments, the Strider War Airship is a heavily fortified combat cruiser engineered for deep wilderness expeditions and aerial skirmishes. Its reinforced hull and dual elemental containment pylons mount heavy arcane launchers and siege ballistas.
+)
+
+### Airship Upgrades & Siege Weapons
+
+item(
+# Cloudburst Sails
+## Item 7
+-
+; Rare, Air, Magical
+**Usage** vehicle upgrade; **Bulk** 2
+**Price** 340 gp
+-
+Woven from gossamer storm-glass fibers spun by Zil weavers and House Lyrandar artificers, these iridescent sails catch and channel volatile squalls. When installed on an elemental airship, the vessel gains a +10-foot status bonus to its Fly Speed while flying through precipitation, torrential rain, or tempestuous weather. Additionally, whenever the ship travels within clouds, heavy fog, or misty vapor, the ship and all creatures aboard gain concealment (flat DC 5) against attacks originating from outside the cloud.
+)
+
+item(
+# Elemental Thrusters
+## Item 9
+-
+; Rare, Fire, Magical
+**Usage** vehicle upgrade; **Bulk** 4
+**Price** 650 gp
+-
+A pair of heavy brass manifold cylinders mounted to an airship's stern or binding struts, tapped directly into the Khyber elemental containment matrix.
+**Activate—Boost** [one-action] (manipulate); **Frequency** once per round; **Effect** The cylinders vent pressurized elemental exhaust, granting the airship a +20-foot status bonus to its Fly Speed until the start of the operator's next turn. If the creature activating this station bears the **Mark of Passage**, the status bonus to Fly Speed increases to +40 feet instead.
+)
+
+item(
+# Arcane Harpoon Cannon
+## Item 8
+-
+; Rare, Magical, Tethered, Uncommon
+**Usage** vehicle weapon (mounted, 2 hands); **Bulk** 5
+**Price** 480 gp
+**Damage** 4d12 piercing; **Group** Bow; **Range** 120 ft
+-
+Mounted to an airship's bow or gunwale, this heavy arcane launcher fires a barbed dragonshard spear attached to a high-tensile steel tow cable.
+**Harpoon Strike:** Deals 4d12 piercing damage. On a successful strike against a vehicle or flying creature of Huge size or smaller, the target becomes harpooned. While harpooned, the target and the firing airship cannot move more than 120 feet away from each other unless the cable is severed (Hardness 12, HP 40) or the target succeeds at a DC 26 Athletics or Piloting check to tear free.
+**Reel** [one-action] (manipulate); **Effect** The crew member engages the arcane winch to reel in the cable, pulling the harpooned target up to 30 feet directly toward the firing vessel.
+)
+
+### Airship Crew Actions
+
+**Overcharge Elemental Ring** [one-action]
+; Uncommon, Air, Fire, Magical
+**Requirements** You are occupying the Helm crew station of an elemental airship.
+You push the bound elemental spirit past its containment safety governors to squeeze out maximum propulsion. The airship gains a +15-foot status bonus to its Fly Speed for the current round. You must immediately roll a DC 5 flat check. On a failure, the containment coils overheat and suffer blowback: the airship becomes slowed 1 for 1 round as the elemental ring flickers and recalibrates.
 |
 =

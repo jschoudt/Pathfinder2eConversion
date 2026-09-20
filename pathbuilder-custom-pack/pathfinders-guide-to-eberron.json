@@ -677,6 +677,19 @@
       "damageType": "S",
       "group": "Flail",
       "weaponTraits": "Agile, Finesse, Reach, Trip, Symbiont, 3rd Party"
+    },
+    {
+      "databaseID": 1,
+      "uniqueIdentiier": "gm23odo5-d6wf-gwyf-9988-776655443322",
+      "name": "Arcane Harpoon Cannon",
+      "hands": "2",
+      "description": "Mounted to an airship bow or gunwale, this heavy arcane launcher fires a barbed dragonshard spear attached to a high-tensile steel tow cable (Range 120 ft). Harpoons target vessels or Huge or smaller creatures on hit.",
+      "src": "Pathfinder's Guide to Eberron",
+      "proficiencyType": 2,
+      "damage": 12,
+      "damageType": "P",
+      "group": "Bow",
+      "weaponTraits": "Magical, Tethered, Uncommon, 3rd Party"
     }
   ],
   "listCustomFeats": [
@@ -5783,6 +5796,22 @@
       "textDescription": "A thick, rubbery daelkyr organism that attaches to the base of your spine. The leech feeds constantly on your blood, imparting the drained 1 condition while it remains invested (this condition cannot be removed until the leech is uninvested). In return, the creature absorbs devastating physical shock: you gain complete immunity to the extra damage from critical hits and precision damage, treating all critical hits against you as normal hits.",
       "src": "Pathfinder's Guide to Eberron",
       "databaseID": 1
+    },
+    {
+      "id": "bjcu17lg-sllo-r3jy-1122-334455667788",
+      "name": "Overcharge Elemental Ring",
+      "level": 1,
+      "traits": [
+        "Air",
+        "Fire",
+        "Magical",
+        "3rd Party"
+      ],
+      "actionType": "Action",
+      "actions": 1,
+      "type": "Feat",
+      "src": "Pathfinder's Guide to Eberron",
+      "description": "You push the bound elemental spirit past containment safety governors. The airship gains a +15-foot status bonus to Fly Speed for the round. Attempt a DC 5 flat check; on failure, the airship is slowed 1 for 1 round."
     }
   ],
   "listCustomHeritages": [

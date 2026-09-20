@@ -1,0 +1,125 @@
+{
+  "_id": "w5ldtu74c88oradk",
+  "img": "systems/pf2e/icons/default-icons/vehicle.svg",
+  "items": [],
+  "name": "Strider War Airship",
+  "prototypeToken": {
+    "name": "Strider War Airship",
+    "displayName": 0,
+    "actorLink": false,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/vehicle.svg"
+    },
+    "width": 8,
+    "height": 24
+  },
+  "system": {
+    "attributes": {
+      "ac": {
+        "check": 0,
+        "details": "",
+        "value": 34
+      },
+      "collisionDC": {
+        "value": 34
+      },
+      "collisionDamage": {
+        "value": "12d10"
+      },
+      "emitsSound": "encounter",
+      "hardness": 20,
+      "hp": {
+        "details": "",
+        "max": 400,
+        "temp": 0,
+        "value": 400
+      },
+      "immunities": [
+        {
+          "type": "object-immunities"
+        }
+      ]
+    },
+    "customModifiers": {},
+    "details": {
+      "AC": 0,
+      "crew": "1 pilot, 12 crew",
+      "description": "<p>Favored by privateers, explorers, and Brelish military detachments, the Strider War Airship is a heavily fortified combat cruiser engineered for deep wilderness expeditions and aerial skirmishes. Its reinforced hull and dual elemental containment pylons can mount heavy arcane launchers and siege ballistas.</p>\n<p><strong>Arcane Batteries:</strong> Equipped with reinforced gunports for siege staves and elemental ballistas along the port and starboard bulkheads.</p>",
+      "level": {
+        "value": 16
+      },
+      "passengers": "50",
+      "pilotingCheck": "Nature (DC 35), Arcana (DC 35), or Driving Lore (DC 33); Mark of Storm automatically qualifies without a check",
+      "price": 28000,
+      "publication": {
+        "title": "Pathfinder's Guide to Eberron",
+        "authors": "",
+        "license": "ORC",
+        "remaster": true,
+        "page": "N/A"
+      },
+      "source": {
+        "value": "Pathfinder's Guide to Eberron",
+        "page": "N/A"
+      },
+      "space": {
+        "high": 40,
+        "long": 120,
+        "wide": 40
+      },
+      "speed": "fly 40 feet (elemental ring)"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
+    },
+    "saves": {
+      "fortitude": {
+        "item": 0,
+        "rank": 0,
+        "saveDetail": "",
+        "value": 28
+      }
+    },
+    "traits": {
+      "rarity": "rare",
+      "size": {
+        "value": "grg"
+      },
+      "value": [
+        "air",
+        "magical"
+      ]
+    },
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    }
+  },
+  "type": "vehicle",
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "compendiumSource": null
+  },
+  "effects": []
+}

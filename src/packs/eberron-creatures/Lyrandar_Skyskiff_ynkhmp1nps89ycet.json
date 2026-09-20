@@ -1,0 +1,125 @@
+{
+  "_id": "ynkhmp1nps89ycet",
+  "img": "systems/pf2e/icons/default-icons/vehicle.svg",
+  "items": [],
+  "name": "Lyrandar Skyskiff",
+  "prototypeToken": {
+    "name": "Lyrandar Skyskiff",
+    "displayName": 0,
+    "actorLink": false,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/vehicle.svg"
+    },
+    "width": 2,
+    "height": 6
+  },
+  "system": {
+    "attributes": {
+      "ac": {
+        "check": 0,
+        "details": "",
+        "value": 20
+      },
+      "collisionDC": {
+        "value": 22
+      },
+      "collisionDamage": {
+        "value": "6d10"
+      },
+      "emitsSound": "encounter",
+      "hardness": 10,
+      "hp": {
+        "details": "",
+        "max": 120,
+        "temp": 0,
+        "value": 120
+      },
+      "immunities": [
+        {
+          "type": "object-immunities"
+        }
+      ]
+    },
+    "customModifiers": {},
+    "details": {
+      "AC": 0,
+      "crew": "1 pilot (Mark of Storm or DC 22 check)",
+      "description": "<p>A recent innovation from House Lyrandar and Zil elemental binders, the Lyrandar Skyskiff is a nimble, compact vessel used for swift courier work, patrol, and emergency towing of larger grounded craft. Ringed by a contained elemental matrix, it glides through the air with unmatched responsiveness.</p>\n<p><strong>Tow Cable &amp; Harpoon:</strong> Equipped with an arcane winch and tether-hook capable of anchoring or pulling vessels and cargo within 100 feet.</p>",
+      "level": {
+        "value": 6
+      },
+      "passengers": "4",
+      "pilotingCheck": "Nature (DC 22), Arcana (DC 22), or Driving Lore (DC 20); Mark of Storm automatically qualifies without a check",
+      "price": 2000,
+      "publication": {
+        "title": "Pathfinder's Guide to Eberron",
+        "authors": "",
+        "license": "ORC",
+        "remaster": true,
+        "page": "N/A"
+      },
+      "source": {
+        "value": "Pathfinder's Guide to Eberron",
+        "page": "N/A"
+      },
+      "space": {
+        "high": 15,
+        "long": 30,
+        "wide": 10
+      },
+      "speed": "fly 60 feet (elemental ring)"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
+    },
+    "saves": {
+      "fortitude": {
+        "item": 0,
+        "rank": 0,
+        "saveDetail": "",
+        "value": 14
+      }
+    },
+    "traits": {
+      "rarity": "rare",
+      "size": {
+        "value": "huge"
+      },
+      "value": [
+        "air",
+        "magical"
+      ]
+    },
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    }
+  },
+  "type": "vehicle",
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "compendiumSource": null
+  },
+  "effects": []
+}

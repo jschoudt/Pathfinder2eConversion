@@ -1,0 +1,81 @@
+{
+  "_id": "m8vqpfb66hysz5cl",
+  "name": "Cloudburst Sails",
+  "type": "equipment",
+  "img": "systems/pf2e/icons/default-icons/equipment.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "source": {
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "rules": [],
+    "slug": "cloudburst-sails",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "traits": {
+      "value": [
+        "magical",
+        "air"
+      ],
+      "rarity": "rare",
+      "custom": ""
+    },
+    "description": {
+      "value": "<p>Woven from gossamer storm-glass fibers spun by Zil weavers and House Lyrandar artificers, these iridescent sails catch and channel volatile squalls. When installed on an elemental airship, the vessel gains a +10-foot status bonus to its Fly Speed while flying through precipitation, torrential rain, or tempestuous weather. Additionally, whenever the ship travels within clouds, heavy fog, or misty vapor, the ship and all creatures aboard gain concealment (flat DC 5) against attacks originating from outside the cloud.</p>"
+    },
+    "level": {
+      "value": 7
+    },
+    "quantity": 1,
+    "weight": {
+      "value": "2"
+    },
+    "price": {
+      "value": {
+        "gp": 340
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "size": "med",
+    "identification": {
+      "status": "identified"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1726848000000,
+    "modifiedTime": 1726848000000,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!m8vqpfb66hysz5cl"
+}

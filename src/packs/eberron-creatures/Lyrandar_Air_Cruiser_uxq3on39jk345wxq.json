@@ -1,0 +1,125 @@
+{
+  "_id": "uxq3on39jk345wxq",
+  "img": "systems/pf2e/icons/default-icons/vehicle.svg",
+  "items": [],
+  "name": "Lyrandar Air Cruiser",
+  "prototypeToken": {
+    "name": "Lyrandar Air Cruiser",
+    "displayName": 0,
+    "actorLink": false,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/vehicle.svg"
+    },
+    "width": 4,
+    "height": 12
+  },
+  "system": {
+    "attributes": {
+      "ac": {
+        "check": 0,
+        "details": "",
+        "value": 26
+      },
+      "collisionDC": {
+        "value": 28
+      },
+      "collisionDamage": {
+        "value": "9d10"
+      },
+      "emitsSound": "encounter",
+      "hardness": 15,
+      "hp": {
+        "details": "",
+        "max": 240,
+        "temp": 0,
+        "value": 240
+      },
+      "immunities": [
+        {
+          "type": "object-immunities"
+        }
+      ]
+    },
+    "customModifiers": {},
+    "details": {
+      "AC": 0,
+      "crew": "1 pilot, 4 crew",
+      "description": "<p>Haloed by enormous rings of elemental flame or lightning, Lyrandar Air Cruisers are the iconic vessels of transcontinental passenger travel and commerce across the Five Nations. Their soarwood hulls and protective wind wards shield travelers from high-altitude drafts while cruising between House Lyrandar docking towers.</p>\n<p><strong>Shield Station:</strong> When calibrated and sustained by a crew member at the aft console, grants a +5 circumstance bonus to AC for 1 minute (or as a free action if the operator bears the Mark of Warding).</p>",
+      "level": {
+        "value": 11
+      },
+      "passengers": "30",
+      "pilotingCheck": "Nature (DC 28), Arcana (DC 28), or Driving Lore (DC 26); Mark of Storm automatically qualifies without a check",
+      "price": 6500,
+      "publication": {
+        "title": "Pathfinder's Guide to Eberron",
+        "authors": "",
+        "license": "ORC",
+        "remaster": true,
+        "page": "N/A"
+      },
+      "source": {
+        "value": "Pathfinder's Guide to Eberron",
+        "page": "N/A"
+      },
+      "space": {
+        "high": 25,
+        "long": 60,
+        "wide": 20
+      },
+      "speed": "fly 45 feet (elemental ring)"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
+    },
+    "saves": {
+      "fortitude": {
+        "item": 0,
+        "rank": 0,
+        "saveDetail": "",
+        "value": 20
+      }
+    },
+    "traits": {
+      "rarity": "rare",
+      "size": {
+        "value": "grg"
+      },
+      "value": [
+        "air",
+        "magical"
+      ]
+    },
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    }
+  },
+  "type": "vehicle",
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "compendiumSource": null
+  },
+  "effects": []
+}

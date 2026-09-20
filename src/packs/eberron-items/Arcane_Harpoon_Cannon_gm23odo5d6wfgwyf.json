@@ -1,0 +1,96 @@
+{
+  "_id": "gm23odo5d6wfgwyf",
+  "name": "Arcane Harpoon Cannon",
+  "type": "weapon",
+  "img": "systems/pf2e/icons/default-icons/equipment.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "source": {
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "rules": [],
+    "slug": "arcane-harpoon-cannon",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "traits": {
+      "value": [
+        "magical",
+        "tethered",
+        "uncommon"
+      ],
+      "rarity": "rare",
+      "custom": ""
+    },
+    "description": {
+      "value": "<p>Mounted to an airship's bow or gunwale, this heavy arcane launcher fires a barbed dragonshard spear attached to a high-tensile steel tow cable. Range increment 120 feet.</p>\n<p><strong>Harpoon Strike:</strong> Deals 4d12 piercing damage. On a successful strike against a vehicle or flying creature of Huge size or smaller, the target becomes harpooned. While harpooned, the target and the firing airship cannot move more than 120 feet away from each other unless the cable is severed (Hardness 12, HP 40) or the target succeeds at a DC 26 Athletics or Piloting check to tear free.</p>\n<p><strong>Reel</strong> [one-action] (manipulate); <strong>Effect</strong> The crew member engages the arcane winch to reel in the cable, pulling the harpooned target up to 30 feet directly toward the firing vessel.</p>"
+    },
+    "level": {
+      "value": 8
+    },
+    "quantity": 1,
+    "weight": {
+      "value": "5"
+    },
+    "price": {
+      "value": {
+        "gp": 480
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 2
+    },
+    "size": "huge",
+    "identification": {
+      "status": "identified"
+    },
+    "damage": {
+      "dice": 4,
+      "die": "d12",
+      "damageType": "piercing"
+    },
+    "category": "martial",
+    "group": "bow",
+    "range": 120,
+    "bonus": {
+      "value": 0
+    },
+    "bonusDamage": {
+      "value": 0
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1726848000000,
+    "modifiedTime": 1726848000000,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!gm23odo5d6wfgwyf"
+}

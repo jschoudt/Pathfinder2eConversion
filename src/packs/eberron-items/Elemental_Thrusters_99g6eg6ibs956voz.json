@@ -1,0 +1,81 @@
+{
+  "_id": "99g6eg6ibs956voz",
+  "name": "Elemental Thrusters",
+  "type": "equipment",
+  "img": "systems/pf2e/icons/default-icons/equipment.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "source": {
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
+    },
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "rules": [],
+    "slug": "elemental-thrusters",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "traits": {
+      "value": [
+        "magical",
+        "fire"
+      ],
+      "rarity": "rare",
+      "custom": ""
+    },
+    "description": {
+      "value": "<p>A pair of heavy brass manifold cylinders mounted to an airship's stern or binding struts, tapped directly into the Khyber elemental containment matrix. A crew member stationed at the thrusters can spend 1 action once per round to engage an elemental burn.</p>\n<p><strong>Activate—Boost</strong> [one-action] (manipulate); <strong>Frequency</strong> once per round; <strong>Effect</strong> The cylinders vent pressurized elemental exhaust, granting the airship a +20-foot status bonus to its Fly Speed until the start of the operator's next turn. If the creature activating this station bears the <strong>Mark of Passage</strong>, the status bonus to Fly Speed increases to +40 feet instead.</p>"
+    },
+    "level": {
+      "value": 9
+    },
+    "quantity": 1,
+    "weight": {
+      "value": "4"
+    },
+    "price": {
+      "value": {
+        "gp": 650
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "size": "huge",
+    "identification": {
+      "status": "identified"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1726848000000,
+    "modifiedTime": 1726848000000,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!99g6eg6ibs956voz"
+}

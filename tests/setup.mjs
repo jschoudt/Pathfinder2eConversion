@@ -55,16 +55,20 @@ export async function initFoundryEnvironment() {
       error: () => {}
     };
 
+    const allActorTypes = Array.from(new Set([...(pf2eTemplate.Actor?.types || []), 'army', 'character', 'familiar', 'hazard', 'loot', 'npc', 'party', 'vehicle']));
     globalThis.game = {
+      system: { primaryTokenAttribute: 'attributes.hp' },
       model: {
         Item: Object.fromEntries((pf2eTemplate.Item?.types || []).map(t => [t, pf2eTemplate.Item[t] || {}])),
-        Actor: Object.fromEntries((pf2eTemplate.Actor?.types || []).map(t => [t, pf2eTemplate.Actor[t] || {}]))
+        Actor: Object.fromEntries(allActorTypes.map(t => [t, pf2eTemplate.Actor[t] || {}]))
       }
     };
 
     globalThis.CONFIG = {
       Item: { documentClass: foundry.documents.BaseItem, dataModels: {}, typeLabels: {} },
       Actor: { documentClass: foundry.documents.BaseActor, dataModels: {}, typeLabels: {} },
+      ActorDelta: { documentClass: foundry.documents.BaseActorDelta, dataModels: {} },
+      ActiveEffect: { documentClass: foundry.documents.BaseActiveEffect, dataModels: {} },
       JournalEntry: { documentClass: foundry.documents.BaseJournalEntry, dataModels: {} },
       RollTable: { documentClass: foundry.documents.BaseRollTable, dataModels: {} },
       Token: { movement: { actions: {} } }

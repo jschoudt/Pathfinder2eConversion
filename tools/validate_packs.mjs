@@ -159,16 +159,20 @@ async function main() {
         error: (msg) => console.error("Foundry error:", msg)
       };
 
+      const allActorTypes = Array.from(new Set([...(pf2eTemplate.Actor?.types || []), 'army', 'character', 'familiar', 'hazard', 'loot', 'npc', 'party', 'vehicle']));
       globalThis.game = {
+        system: { primaryTokenAttribute: 'attributes.hp' },
         model: {
           Item: Object.fromEntries((pf2eTemplate.Item?.types || []).map(t => [t, pf2eTemplate.Item[t] || {}])),
-          Actor: Object.fromEntries((pf2eTemplate.Actor?.types || []).map(t => [t, pf2eTemplate.Actor[t] || {}]))
+          Actor: Object.fromEntries(allActorTypes.map(t => [t, pf2eTemplate.Actor[t] || {}]))
         }
       };
 
       globalThis.CONFIG = {
         Item: { documentClass: foundry.documents.BaseItem, dataModels: {}, typeLabels: {} },
         Actor: { documentClass: foundry.documents.BaseActor, dataModels: {}, typeLabels: {} },
+        ActorDelta: { documentClass: foundry.documents.BaseActorDelta, dataModels: {} },
+        ActiveEffect: { documentClass: foundry.documents.BaseActiveEffect, dataModels: {} },
         JournalEntry: { documentClass: foundry.documents.BaseJournalEntry, dataModels: {} },
         RollTable: { documentClass: foundry.documents.BaseRollTable, dataModels: {} },
         Token: { movement: { actions: {} } }
@@ -263,7 +267,7 @@ async function main() {
       if (docType === 'Item' && !pf2eTemplate.Item?.types?.includes(data.type)) {
         console.error(`❌ Invalid PF2e Item type '${data.type}' in ${relPath}`);
         schemaErrors++;
-      } else if (docType === 'Actor' && !pf2eTemplate.Actor?.types?.includes(data.type)) {
+      } else if (docType === 'Actor' && !pf2eTemplate.Actor?.types?.includes(data.type) && !['army', 'character', 'familiar', 'hazard', 'loot', 'npc', 'party', 'vehicle'].includes(data.type)) {
         console.error(`❌ Invalid PF2e Actor type '${data.type}' in ${relPath}`);
         schemaErrors++;
       }
