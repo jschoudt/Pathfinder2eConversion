@@ -52,7 +52,7 @@ For instance, you could use Spellfire to imbue your wand with Ray of Frost by sp
 
 **Variable Actions:** Some spells have different effects based on the number of actions you spend to cast them. You choose whether to use the effects of the 1-action, 2-action, or 3-action version of the spell when you use Spellfire. A spell has to take exactly 1, 2, or 3 actions; you can't use Spellfire with a spell that takes a free action, reaction, or 4 or more actions.
 
-**Metamagic:** You typically can't use metamagic with Spellfire because metamagic requires the next action you take to be Cast a Spell, and Spellfire is a combined activity that doesn't qualify.
+**Spellshape:** You typically can't use spellshape actions with Spellfire because spellshape requires the next action you take to be Cast a Spell, and Spellfire is a combined activity that doesn't qualify.
 )
 |
 ### Greater Deed 15th

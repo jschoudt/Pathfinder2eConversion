@@ -879,7 +879,7 @@
                 "Dragonmark"
             ],
             "textDescription": "You can quickly channel the powers of your mark. If the next spell you cast is a dragonmark focus spell, reduce the number of actions to cast it by 1 (minimum 1 action).",
-            "traits": "Dragonmark, General, 3rd Party",
+            "traits": "Dragonmark, General, Spellshape, 3rd Party",
             "src": "Pathfinder's Guide to Eberron",
             "databaseID": 1
         },
@@ -1152,7 +1152,7 @@
                 "79a34a05-142b-4701-b0cb-8141f840f0fe",
                 "8d1ee195-68ee-4e86-9b29-227cc5c0e6c2"
             ],
-            "textDescription": "Your dragonmark maintains your awareness of the world around you at all times, you gain a +1 status bonus to your perception. In addition, you are never flat-footed to hidden enemies.",
+            "textDescription": "Your dragonmark maintains your awareness of the world around you at all times, you gain a +1 status bonus to your perception. In addition, you are never off-guard to hidden enemies.",
             "traits": "Dragonmark, General, 3rd Party",
             "src": "Pathfinder's Guide to Eberron",
             "databaseID": 1,
@@ -3068,7 +3068,7 @@
             "id": "98e5017e-c86f-4602-9716-6c960254d560",
             "name": "Pack Tactics",
             "level": 9,
-            "textDescription": "You have mastered how to hunt with your pack. If an enemy is within reach of you and at least two of your allies, that enemy is flat-footed against you.",
+            "textDescription": "You have mastered how to hunt with your pack. If an enemy is within reach of you and at least two of your allies, that enemy is off-guard against you.",
             "traits": "Shifter, 3rd Party",
             "src": "Pathfinder's Guide to Eberron",
             "databaseID": 1
@@ -3255,7 +3255,7 @@
         {
             "id": "fcefb953-8373-4055-aeb6-056604691c9c",
             "name": "Replaceable Integrated Armor",
-            "textDescription": "Though it is an extremely uncomfortable process - less painful but akin to a human replacing their skin - you can replace your integrated armor. You can remove the integrated armor that you are wearing, and replace it with any other set of armor. This activity takes 1 hour, and while you replace your armor you are considered unarmored and flat-footed. When you complete the process, the new armor is incorporated into your body. You can still never wear other armor on top of this armor, and can only have one integrated armor at a time. While this armor is integrated, you don't become fatigued from sleeping in it. As before, you can etch armor runes onto your armor while you are wearing it as normal.<br><br>If you are removing the Integrated Armor from your Heritage, it is considered worthless scrap metal and can only be used as armor if you reincorporate it into your body.<br><br><b>Enhancement</b> Your armor becomes more integrated into your body. You gain the Chassis Deflection reaction.",
+            "textDescription": "Though it is an extremely uncomfortable process - less painful but akin to a human replacing their skin - you can replace your integrated armor. You can remove the integrated armor that you are wearing, and replace it with any other set of armor. This activity takes 1 hour, and while you replace your armor you are considered unarmored and off-guard. When you complete the process, the new armor is incorporated into your body. You can still never wear other armor on top of this armor, and can only have one integrated armor at a time. While this armor is integrated, you don't become fatigued from sleeping in it. As before, you can etch armor runes onto your armor while you are wearing it as normal.<br><br>If you are removing the Integrated Armor from your Heritage, it is considered worthless scrap metal and can only be used as armor if you reincorporate it into your body.<br><br><b>Enhancement</b> Your armor becomes more integrated into your body. You gain the Chassis Deflection reaction.",
             "traits": "Warforged, 3rd Party",
             "src": "Pathfinder's Guide to Eberron",
             "databaseID": 1
@@ -3849,7 +3849,7 @@
             "reqFeats": [
                 "2bbeea84-a68f-4e46-8631-93d58c2486b5"
             ],
-            "textDescription": "You can take advantage of the terrain to bypass foes’ defences. While in your hybrid form, non-shifter creatures in difficult terrain are flat-footed to you.",
+            "textDescription": "You can take advantage of the terrain to bypass foes’ defences. While in your hybrid form, non-shifter creatures in difficult terrain are off-guard to you.",
             "traits": "Shifter, 3rd Party",
             "src": "Pathfinder's Guide to Eberron",
             "databaseID": 1
@@ -5028,7 +5028,7 @@
             "traits": "dragonmark, mark of detection, divination, 3rd Party",
             "actions": 2,
             "cast": "focus, somatic",
-            "descriptionHeightened": "You call upon your dragonmark's power to forewarn your target of impending danger. When you cast the spell, the target gains a +1 status bonus to initiative rolls and isn't flat-footed against undetected creatures. This bonus remains as long as you Sustain the Spell. The target is temporarily immune to Detect Danger for 1 hour.<br><br><b>Heightened (3rd)</b> You do not need to sustain Detect Danger.<br><br><b>Heightened (5th)</b> The bonus increases to +2.<br><br><b>Heightened (7th)</b> The duration is sustained up to 1 hour.<br><br><b>Heightened (9th)</b> The bonus increases to +3.",
+            "descriptionHeightened": "You call upon your dragonmark's power to forewarn your target of impending danger. When you cast the spell, the target gains a +1 status bonus to initiative rolls and isn't off-guard against undetected creatures. This bonus remains as long as you Sustain the Spell. The target is temporarily immune to Detect Danger for 1 hour.<br><br><b>Heightened (3rd)</b> You do not need to sustain Detect Danger.<br><br><b>Heightened (5th)</b> The bonus increases to +2.<br><br><b>Heightened (7th)</b> The duration is sustained up to 1 hour.<br><br><b>Heightened (9th)</b> The bonus increases to +3.",
             "src": "Pathfinder's Guide to Eberron",
             "databaseID": 1,
             "target": "1 creature",
@@ -5267,10 +5267,10 @@
             "uniqueID": "47a123e8-d55f-484f-ba72-10783469bb5a",
             "name": "Healing Word",
             "type": "Focus",
-            "traits": "dragonmark, healing, mark of healing, positive, necromancy, 3rd Party",
+            "traits": "dragonmark, healing, mark of healing, vitality, 3rd Party",
             "actions": 1,
             "cast": "focus, somatic, verbal",
-            "descriptionHeightened": "You call upon your dragonmark's power to heal the wounded. Your dragonmark channels a burst of positive energy, healing a living creature. If you use healing word on a living target, they restore 4 Hit Points.<br><br><b>Heightened (+1)</b> The amount of healing increases by 4.",
+            "descriptionHeightened": "You call upon your dragonmark's power to heal the wounded. Your dragonmark channels a burst of vitality energy, healing a living creature. If you use healing word on a living target, they restore 4 Hit Points.<br><br><b>Heightened (+1)</b> The amount of healing increases by 4.",
             "src": "Pathfinder's Guide to Eberron",
             "databaseID": 1,
             "target": "1 living creature",
@@ -5599,10 +5599,10 @@
             "name": "Summon Living Dragonmark",
             "type": "Focus",
             "level": 7,
-            "traits": "dragonmark, conjuration, 3rd Party",
+            "traits": "dragonmark, 3rd Party",
             "actions": 3,
             "cast": "material, somatic, verbal",
-            "descriptionHeightened": "You summon a writhing mass of energy in a dragonlike form, a three-dimensional projection of your dragonmark. A living dragonmark appears where you designate within the spell's range. Aberrant mark summons gains the Negative trait, while true mark summons gains the Positive trait.<br><br>b>Heightened (+1)</b> the level of the Greater Living Dragonmark summoned increases by 2. Its AC, DCs, and Saves increase by the equivalent amount.<br><br><b>Heightened (9th)</b> If you have a Siberys mark, you summon a Siberys Living Dragonmark instead of a Greater Living Dragonmark",
+            "descriptionHeightened": "You summon a writhing mass of energy in a dragonlike form, a three-dimensional projection of your dragonmark. A living dragonmark appears where you designate within the spell's range. Aberrant mark summons gains the Void trait, while true mark summons gains the Vitality trait.<br><br><b>Heightened (+1)</b> the level of the Greater Living Dragonmark summoned increases by 2. Its AC, DCs, and Saves increase by the equivalent amount.<br><br><b>Heightened (9th)</b> If you have a Siberys mark, you summon a Siberys Living Dragonmark instead of a Greater Living Dragonmark",
             "src": "Pathfinder's Guide to Eberron",
             "databaseID": 1,
             "duration": "sustained up to 1 minute",
@@ -6211,7 +6211,7 @@
         {
             "name": "Living Body",
             "id": "dcce863e-8e75-4d1c-b6dc-52e91395531a",
-            "description": "Your body is formed of both wood and steel which by the powers of the creation forge are granted life. This life energy flows through you much like the blood of humanoids. As a result, you are a living creature. You don't have the typical construct immunities, can be affected by effects that target a living creature, and can recover Hit Points normally via positive energy. Additionally, you are not destroyed when reduced to 0 Hit Points. Instead, your life energy attempts to keep you active even in dire straits; you are knocked out and begin dying when reduced to 0 Hit Points.",
+            "description": "Your body is formed of both wood and steel which by the powers of the creation forge are granted life. This life energy flows through you much like the blood of humanoids. As a result, you are a living creature. You don't have the typical construct immunities, can be affected by effects that target a living creature, and can recover Hit Points normally via vitality. Additionally, you are not destroyed when reduced to 0 Hit Points. Instead, your life energy attempts to keep you active even in dire straits; you are knocked out and begin dying when reduced to 0 Hit Points.",
             "traits": "3rd Party",
             "src": "Pathfinder's Guide to Eberron",
             "databaseID": 1

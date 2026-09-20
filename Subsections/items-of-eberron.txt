@@ -320,160 +320,160 @@ item(
 # Cathier Spleen
 ## Item 3
 -
-; Component, Consumable, Metamagic
+; Catalyst, Consumable
 **Price** 12 gp
 
-**Usage** material component of a spell; **Bulk** -
+**Usage** catalyst of a spell; **Bulk** -
 
 **Activate** :a: interact; **Trigger** You cast a spell from the school of Illusion
 -
-When used as a material component (adding the material component to the spell if it doesn't already have it) for an illusion spell, the cathier spleen doubles the spell’s duration.
+When used as a catalyst (adding the catalyst to the spell if it doesn't already have it) for an illusion spell, the cathier spleen doubles the spell’s duration.
 )
 item(
 # Covadish leaves
 ## Item 8
 -
-; Uncommon, Component, Consumable, Metamagic
+; Uncommon, Catalyst, Consumable
 **Price** 75 gp
 
-**Usage** material component of a spell; **Bulk** -
+**Usage** catalyst of a spell; **Bulk** -
 
 **Activate** :a: interact; **Trigger** You cast a spell from the school of Necromancy
 -
-When used as a material component (adding the material component to the spell if it doesn't already have it) for a Necromancy spell, the covadish leaves heighten the spell rank by 1 up to the maximum rank you can cast.
+When used as a catalyst (adding the catalyst to the spell if it doesn't already have it) for a Necromancy spell, the covadish leaves heighten the spell rank by 1 up to the maximum rank you can cast.
 )
 |
 item(
 # Dragonseye Oak Acorn
 ## Item 4
 -
-; Component, Consumable, Metamagic
+; Catalyst, Consumable
 **Price** 13 gp
 
-**Usage** material component of a spell; **Bulk** -
+**Usage** catalyst of a spell; **Bulk** -
 
-**Activate** :a: interact; **Trigger** You cast a spell from the school of Evocation with the acid, cold, electricity, fire, or sonic trait
+**Activate** :a: interact; **Trigger** You cast a spell with the acid, cold, electricity, fire, or sonic trait
 -
-When used as a material component (adding the material component to the spell if it doesn't already have it) for an evocation spell with the acid, cold, electricity, fire, or sonic trait you gain a circumstance bonus to damage equal to twice the level of the spell as well as 1d4 persistent damage of the same type on a critical hit.
+When used as a catalyst (adding the catalyst to the spell if it doesn't already have it) for an evocation or elemental spell with the acid, cold, electricity, fire, or sonic trait you gain a circumstance bonus to damage equal to twice the rank of the spell as well as 1d4 persistent damage of the same type on a critical hit.
 )
 item(
 # Ghost Oak acorn
 ## Item 3
 -
-; Component, Consumable, Metamagic
+; Catalyst, Consumable
 **Price** 10 gp
 
-**Usage** material component of a spell; **Bulk** -
+**Usage** catalyst of a spell; **Bulk** -
 
 **Activate** :a: interact; **Trigger** You cast a spell from the school of Illusion
 -
-When used as a material component (adding the material component to the spell if it doesn't already have it) for an Illusion spell, you gain a +1 circumstance bonus to the DC of the spell.
+When used as a catalyst (adding the catalyst to the spell if it doesn't already have it) for an Illusion spell, you gain a +1 circumstance bonus to the DC of the spell.
 )
 item(
 # Hathil Root
 ## Item 3
 -
-; Component, Consumable, Metamagic
+; Catalyst, Consumable
 **Price** 9 gp
 
-**Usage** material component of a spell; **Bulk** -
+**Usage** catalyst of a spell; **Bulk** -
 
 **Activate** :a: interact; **Trigger** You cast a spell from the school of Transmutation
 -
-When used as a material component (adding the material component to the spell if it doesn't already have it) for a transmutation spell, you gain a +1 item bonus to your spell DC for this spell.
+When used as a catalyst (adding the catalyst to the spell if it doesn't already have it) for a transmutation spell, you gain a +1 item bonus to your spell DC for this spell.
 )
 =
 item(
 # Irian Crystal
 ## Item 8
 -
-; Uncommon, Component, Consumable, Metamagic
+; Uncommon, Catalyst, Consumable
 **Price** 98 gp
 
-**Usage** material component of a spell; **Bulk** -
+**Usage** catalyst of a spell; **Bulk** -
 
-**Activate** :a: interact; **Trigger** You cast a spell from the school of Necromancy that restores hit points
+**Activate** :a: interact; **Trigger** You cast a vitality spell or spell that restores hit points
 -
-When used as a material component (adding the material component to the spell if it doesn't already have it) for a Necromancy spell that restores hit points, you gain a circumstance bonus to healing equal to half the level of the spell.
+When used as a catalyst (adding the catalyst to the spell if it doesn't already have it) for a vitality spell that restores hit points, you gain a circumstance bonus to healing equal to half the rank of the spell.
 )
 item(
 # Kieros Leaves
 ## Item 7
 -
-; Uncommon, Component, Consumable, Metamagic
+; Uncommon, Catalyst, Consumable
 **Price** 51 gp
 
-**Usage** material component of a spell; **Bulk** -
+**Usage** catalyst of a spell; **Bulk** -
 
-**Activate** :a: interact; **Trigger** You cast a spell with the death trait
+**Activate** :a: interact; **Trigger** You cast a spell with the death or void trait
 -
-When used as a material component (adding the material component to the spell if it doesn't already have it) for any spell with the death trait, any creature affected by the spell increases its doomed condition by 1.
+When used as a catalyst (adding the catalyst to the spell if it doesn't already have it) for any spell with the death or void trait, any creature affected by the spell increases its doomed condition by 1.
 )
 item(
 # Laskin Horn
 ## Item 6
 -
-; Component, Consumable, Metamagic
+; Catalyst, Consumable
 **Price** 40 gp
 
-**Usage** material component of a spell; **Bulk** -
+**Usage** catalyst of a spell; **Bulk** -
 
 **Activate** :a: interact; **Trigger** You make a spell attack roll.
 -
-When used as a material component (adding the material component to the spell if it doesn't already have it) for any spell that requires a spell attack roll. You gain a +1 item bonus to your attack roll.
+When used as a catalyst (adding the catalyst to the spell if it doesn't already have it) for any spell that requires a spell attack roll. You gain a +1 item bonus to your attack roll.
 )
 item(
 # Mabar Crystal
 ## Item 2
 -
-; Component, Consumable, Metamagic
+; Catalyst, Consumable
 **Price** 5 gp
 
-**Usage** material component of a spell; **Bulk** -
+**Usage** catalyst of a spell; **Bulk** -
 
 **Activate** :a: interact; **Trigger** You cast a spell with the Darkness trait
 -
-When used as a material component (adding the material component to the spell if it doesn't already have it) for a spell with the Darkness trait, the Mabar Crystal automatically attempts to counteract any light effects in the area of the spell. This counteract effect is at the cast spell rank + 1 and uses your casting DC.
+When used as a catalyst (adding the catalyst to the spell if it doesn't already have it) for a spell with the Darkness trait, the Mabar Crystal automatically attempts to counteract any light effects in the area of the spell. This counteract effect is at the cast spell rank + 1 and uses your casting DC.
 )
 |
 item(
 # Masthin Shoots
 ## Item 2
 -
-; Component, Consumable, Metamagic
+; Catalyst, Consumable
 **Price** 6 gp
 
-**Usage** material component of a spell; **Bulk** -
+**Usage** catalyst of a spell; **Bulk** -
 
-**Activate** :a: interact; **Trigger** You cast an enchantment spell that targets at least one animal or beast
+**Activate** :a: interact; **Trigger** You cast an enchantment or mental spell that targets at least one animal or beast
 -
-When used as a material component (adding the material component to the spell if it doesn't already have it) for any enchantment spell that targets an animal or beast, the Masthin Shoots double the spell’s duration.
+When used as a catalyst (adding the catalyst to the spell if it doesn't already have it) for any enchantment or mental spell that targets an animal or beast, the Masthin Shoots double the spell’s duration.
 )
 item(
 # Narstone
 ## Item 6
 -
-; Uncommon, Component, Consumable, Metamagic
+; Uncommon, Catalyst, Consumable
 **Price** 50 gp
 
-**Usage** material component of a spell; **Bulk** -
+**Usage** catalyst of a spell; **Bulk** -
 
 **Activate** :a: interact; **Trigger** You cast a spell from the school of conjuration
 -
-When used as a material component (adding the material component to the spell if it doesn't already have it) for any conjuration spell, the Narstone heightens the spell rank by 1 up to the maximum rank you can cast.
+When used as a catalyst (adding the catalyst to the spell if it doesn't already have it) for any conjuration spell, the Narstone heightens the spell rank by 1 up to the maximum rank you can cast.
 )
 item(
 # Reath Leaves
 ## Item 4
 -
-; Component, Consumable, Metamagic
+; Catalyst, Consumable
 **Price** 13 gp
 
-**Usage** material component of a spell; **Bulk** -
+**Usage** catalyst of a spell; **Bulk** -
 
 **Activate** :a: interact; **Trigger** You cast a spell that targets at least one creature with the plant trait
 -
-When used as a material component (adding the material component to the spell if it doesn't already have it) for a spell, any creatures with the plant trait take a -1 item penalty to their saves against this spell.
+When used as a catalyst (adding the catalyst to the spell if it doesn't already have it) for a spell, any creatures with the plant trait take a -1 item penalty to their saves against this spell.
 )
 =
 head(

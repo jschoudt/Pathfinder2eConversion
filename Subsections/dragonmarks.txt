@@ -418,7 +418,7 @@ item(
 # Dragonmarked Mastery :f:
 ## Feat 11
 -
-; Dragonmark, General, Metamagic
+; Dragonmark, General, Spellshape
 **Frequency** once per day
 -
 You can quickly channel the powers of your mark. If the next spell you cast is a dragonmark focus spell, reduce the number of actions to cast it by 1 (minimum 1 action).
