@@ -1,0 +1,98 @@
+{
+  "name": "The Stone Sovereign: The Cazhaak Creed",
+  "type": "deity",
+  "img": "systems/pf2e/icons/default-icons/deity.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_id": "c1a2b3c4d5e6f7a8",
+  "system": {
+    "description": {
+      "value": "<p>The Stone Sovereign is the foundational faith of Cazhaak Draal, revered by the medusas, gargoyles, and stone-shapers of Droaam. Communing with living granite and basalt under the patronage of Queen Sheshka and ancient earth spirits, the creed views stone as sacred, permanent, and divine. Petrification is seen not as a curse, but as the ultimate preservation of mortal deeds in living rock.<br /><strong>Areas of Concern</strong> Earth, monumental masonry, petrification, sculpture, endurance, duty<br /><strong>Alignment</strong> LN<br /><strong>Divine Font</strong> Harm or Heal<br /><strong>Divine Ability</strong> Constitution or Wisdom<br /><strong>Divine Skill</strong> Crafting<br /><strong>Domains</strong> Duty, Earth, Perfection, Protection<br /><strong>Cleric Spells</strong> 1st: pummeled rubble, 4th: shape stone, 5th: form of stone<br /><strong>Edicts</strong> Create enduring monuments, preserve history in stone, study masonry and sculpture, protect petrified forms from desecration, act deliberately and with patience.<br /><strong>Anathema</strong> Desecrate sacred stone sculptures or petrified creatures, act recklessly or rashly, allow ancient monuments to crumble without effort to preserve them.<br /><strong>Favoured Weapon</strong> Pick, Heavy Pick</p>"
+    },
+    "source": {
+      "value": "Pathfinder's Guide to Eberron",
+      "page": "N/A"
+    },
+    "category": "deity",
+    "alignment": {
+      "own": "LN",
+      "follower": [
+        "LG",
+        "LN",
+        "LE",
+        "N"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "earth",
+        "duty",
+        "perfection",
+        "protection"
+      ],
+      "alternate": [
+        "confidence",
+        "toil"
+      ]
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "ability": [
+      "con",
+      "wis"
+    ],
+    "skill": "cra",
+    "weapons": [
+      "pick",
+      "heavy-pick"
+    ],
+    "spells": {
+      "1": "Compendium.pf2e.spells.Q7QQ91vQtyi1Ux36",
+      "4": "Compendium.pf2e.spells.TUj8eugNqAvB1vVR"
+    },
+    "rules": [],
+    "slug": "the-stone-sovereign-the-cazhaak-creed",
+    "schema": {
+      "version": 0.959,
+      "lastMigration": {
+        "datetime": null,
+        "version": {
+          "schema": 0.959,
+          "foundry": "14.368",
+          "system": "8.5.1"
+        }
+      }
+    },
+    "attribute": [
+      "con",
+      "wis"
+    ],
+    "publication": {
+      "title": "Pathfinder's Guide to Eberron",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "page": "N/A"
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "coreVersion": "14.368",
+    "createdTime": 1726848000000,
+    "modifiedTime": 1726848000000,
+    "lastModifiedBy": "lxzmymmFddOcN8CB"
+  },
+  "_key": "!items!c1a2b3c4d5e6f7a8"
+}

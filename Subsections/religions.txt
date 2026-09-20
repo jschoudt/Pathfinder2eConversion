@@ -95,11 +95,12 @@ Kol Korran is the neutral deity of trade.
 **Divine Font** Heal or Harm
 **Divine Ability** Wisdom or Charisma
 **Divine Skill** Society
-**Domains** Ambition, Cities, Travel, Wealth
+**Domains** Ambition, Cities, Commerce, Travel, Wealth
 **Cleric Spells** 1st: shattering gem, 4th: creation, 7th: magnificent mansion
 **Edicts** Gather new wealth, count your riches, open up new trade routes, discover and retrieve items of great worth.
 **Anathema** Allow those who steal from you to go unpunished, forgo simple opportunities to gain riches.
 **Favoured Weapon** Mace
+
   
 ### Olladra: Goddess of Feast and Good Fortune [NG]
 Olladra is the neutral good deity of luck and plenty.
@@ -145,16 +146,16 @@ The Devourer is the deity of the raw power of nature, and the destruction it can
 **Favoured Weapon** Trident
 
 ### The Fury: The Sovereign of Rage and Ruin [NE]
-The Fury is the anger the smolders within. Her domains include Anger, Freedom, and Might.
-**Areas of Concern** Anger, extremism, insanity, passion, revenge
+The Fury is the sovereign of primal passion, righteous wrath, and untamed instinct. Feared in the Five Nations as senseless madness, in Droaam and the frontier she is revered as the patron of survival—the mother defending her young, the fire that breaks chains, and the refusal to submit to oppressors.
+**Areas of Concern** Anger, primal passion, survival, revenge, extremism
 **Alignment** NE
 **Divine Font** Harm
 **Divine Ability** Strength or Dexterity
 **Divine Skill** Intimidation
 **Domains** Ambition, Delirium, Destruction, Freedom, Might, Pain, Passion, Zeal
 **Cleric Spells** 1st: true strike, 3rd: fireball, 4th: dimension door
-**Edicts** Convey yourself with regal dignity, claim what you desire and deserve, seek vengeance upon those who wrong you.
-**Anathema** Allow a slight to go unanswered, show humility or fear.
+**Edicts** Refuse to submit to tyrants or oppressors, fight fiercely to protect your kin and freedom, claim what you desire, strike back with righteous fury.
+**Anathema** Allow an insult or injustice against you or your kin to go unanswered, show weakness or fear before an enemy, submit quietly to bondage.
 **Favoured Weapon** Rapier
 |
 ### The Keeper: The Sovereign of Death and Decay [NE]
@@ -164,36 +165,36 @@ The Keeper is the deity typically associated with greeed.
 **Divine Font** Harm
 **Divine Ability** Strength or Charisma 
 **Divine Skill** Theivery
-**Domains** Death, Decay, Dust, Indulgence, Trickery, Wealth
+**Domains** Commerce, Death, Decay, Dust, Indulgence, Trickery, Wealth
 **Cleric Spells** 1st: ill omen, 2nd: shatter, 6th: phantasmal calamity
 **Edicts** Gain financial control over others, gather new wealth, count your riches.
 **Anathema** Allow honour or tradition to prevent you from taking what you want, fail to take opportunities to increase your wealth.
 **Favoured Weapon** Scythe
 
 ### The Mockery: The Sovereign of Betrayal and Bloodshed [NE]
-The mockery is the deity that encompasses the war, combat, and trickery.
-**Areas of Concern** Combat, dishonour, murder, terror, treachery.
+The Mockery is the sovereign of cunning warfare, ambush, and asymmetric victory. Feared in the Five Nations as a treacherous killer, in Droaam and the frontier the Mockery is revered as the patron of the underdog—teaching soldiers to use deception, terrain, and ruthless pragmatism to defeat physically superior forces.
+**Areas of Concern** Combat, cunning tactics, asymmetric warfare, survival, treachery
 **Alignment** NE
 **Divine Font** Harm
 **Divine Ability** Dexterity or Charisma 
 **Divine Skill** Deception
 **Domains** Confidence, Destruction, Might, Pain, Passion, Trickery, Tyranny, Zeal
 **Cleric Spells** 1st: penumbral shroud, 3rd: invisibility sphere, 6th: mislead
-**Edicts** Seize any opportunity that would benefit you, solve your problems with violence, hide your true intentions.
-**Anathema** Beg for help or mercy, let a slight go unanswered.
+**Edicts** Win by any means necessary, use terrain and stealth against stronger foes, strike from surprise, hide your true intentions.
+**Anathema** Fight fair when survival is at stake, surrender when victory could be achieved through cunning, beg for mercy.
 **Favoured Weapon** Kama
 =
 ### The Shadow: The Sovereign of Magic and Mayhem [CE]
-The Shadow is the sovereign of power and dark knowledge.
-**Areas of Concern**  Arcane magic, consequence, corruption, darkness, duality
+The Shadow is the sovereign of dark ambition, forbidden knowledge, and raw arcane evolution. In the Five Nations, the Shadow is feared as a corrupter; in Droaam and the frontier, the Shadow is openly revered as the Father of Monsters and patron of magical innovation.
+**Areas of Concern** Arcane magic, dark ambition, consequence, corruption, monstrous creation, duality
 **Alignment** CE
 **Divine Font** Harm
 **Divine Ability** Constitution or Intelligence 
 **Divine Skill** Arcana
 **Domains** Ambition, Change, Darkness, Fate, Knowledge, Magic, Secrecy, Trickery, Truth
 **Cleric Spells** 1st: share lore, 3rd: hypercognition, 7th: spell turning
-**Edicts** Learn and hoard forbidden magic, steal secrets from others.
-**Anathema** Destroy forbidden lore, reveal the entirety of a secret.
+**Edicts** Learn and innovate forbidden magic, discover hidden lore, create new forms of magical and biological power, steal secrets from rival factions.
+**Anathema** Destroy ancient lore, refuse to push magical frontiers due to fear or convention, reveal the entirety of a secret.
 **Favoured Weapon** Staff
   
 ### The Traveler: The Sovereign of Chaos and Change [CN]
@@ -248,7 +249,7 @@ The kalashtar of Adar revere a universal force of vitality. This path of worship
 **Divine Font** Heal
 **Divine Ability** Dexterity or Wisdom
 **Divine Skill** Diplomacy
-**Domains** Change, Dreams, Freedom, Knowledge, Perfection, Protection, Repose
+**Domains** Change, Dreams, Freedom, Knowledge, Mind, Perfection, Protection, Repose
 **Cleric Spells** 1st: jump, 3rd: haste, 4th: stoneskin
 **Edicts** Be humble; help others perfect themselves; hone your body, mind, and spirit to a more perfect state; practice discipline.
 **Anathema** Abandon a companion in need, dishonour yourself, repeatedly fail to maintain self-control.
@@ -293,8 +294,23 @@ The Cults of the Dragon Below are a varied set of cults that all worship a uniqu
 **Divine Font** Harm
 **Divine Ability** Strength or Constitution
 **Divine Skill** Intimidation
-**Domains** Abomination, Cold, Darkness, Death, Decay, Delirium, Destruction, Dust, Earth, Indulgence, Knowledge, Nightmares, Pain, Passion, Plague, Secrecy, Sorrow, Soul, Swarm, Time, Trickery, Tyranny, Undeath, Void, Wyrmkin
+**Domains** Abomination, Cold, Darkness, Death, Decay, Delirium, Destruction, Dust, Earth, Indulgence, Knowledge, Mind, Nightmares, Pain, Passion, Plague, Secrecy, Sorrow, Soul, Swarm, Time, Trickery, Tyranny, Undeath, Void, Wyrmkin
 **Cleric Spells** 1st: grim tendrils, 4th: nightmare, 5th: summon entity (varies)
 **Edicts** Create darkness, sow discord among allies, misuse positions of authority by steering events toward apocalyptic ends (varies)
 **Anathema** None (varies)
 **Favoured Weapon** Great Pick (varies)
+=
+# The Stone Sovereign: The Cazhaak Creed [LN] ((++The Stone Sovereign))
+-
+The Stone Sovereign is the foundational faith of Cazhaak Draal, revered by the medusas, gargoyles, and stone-shapers of Droaam. Communing with living granite and basalt under the patronage of Queen Sheshka and ancient earth spirits, the creed views stone as sacred, permanent, and divine. Petrification is seen not as a curse, but as the ultimate preservation of mortal deeds in living rock.
+
+**Areas of Concern** Earth, monumental masonry, petrification, sculpture, endurance, duty
+**Alignment** LN
+**Divine Font** Harm or Heal
+**Divine Ability** Constitution or Wisdom
+**Divine Skill** Crafting
+**Domains** Duty, Earth, Perfection, Protection
+**Cleric Spells** 1st: pummeled rubble, 4th: shape stone, 5th: form of stone
+**Edicts** Create enduring monuments, preserve history in stone, study masonry and sculpture, protect petrified forms from desecration, act deliberately and with patience.
+**Anathema** Desecrate sacred stone sculptures or petrified creatures, act recklessly or rashly, allow ancient monuments to crumble without effort to preserve them.
+**Favoured Weapon** Pick or Heavy Pick

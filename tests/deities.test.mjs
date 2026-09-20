@@ -35,12 +35,13 @@ describe('Eberron Religions & Deities Specifications', () => {
     { name: 'The Silver Flame', font: ['heal'], weapons: ['longbow', 'composite-longbow'] },
     { name: 'The Sovereign Host', font: ['harm', 'heal'], weapons: ['longsword'] },
     { name: 'The Spirits of the Past', font: ['harm', 'heal'], weapons: ['scimitar'] },
+    { name: 'The Stone Sovereign: The Cazhaak Creed', font: ['harm', 'heal'], weapons: ['pick', 'heavy-pick'] },
     { name: 'The Traveler: The Sovereign of Chaos and Change', font: ['harm', 'heal'], weapons: ['scimitar'] },
     { name: 'The Undying Court', font: ['harm', 'heal'], weapons: ['scimitar'] }
   ];
 
-  it('should have all 22 Eberron deities in the compendium', () => {
-    expect(deityMap.size).toBe(22);
+  it('should have all 23 Eberron deities in the compendium', () => {
+    expect(deityMap.size).toBe(23);
   });
 
   describe.each(EBERRON_DEITIES)(
@@ -76,4 +77,33 @@ describe('Eberron Religions & Deities Specifications', () => {
       });
     }
   );
+
+  describe('2024 Eberron Divine Domain Integrations', () => {
+    it('Kol Korran should include commerce domain in primary domains', () => {
+      const deity = deityMap.get('Kol Korran: God of Trade and Wealth');
+      expect(deity?.system.domains.primary).toContain('commerce');
+    });
+
+    it('The Keeper should include commerce domain in alternate domains', () => {
+      const deity = deityMap.get('The Keeper: The Sovereign of Death and Decay');
+      expect(deity?.system.domains.alternate).toContain('commerce');
+    });
+
+    it('The Path of Light should include mind domain in primary domains', () => {
+      const deity = deityMap.get('The Path of Light');
+      expect(deity?.system.domains.primary).toContain('mind');
+    });
+
+    it('Cults of the Dragon Below should include mind domain in alternate domains', () => {
+      const deity = deityMap.get('Cults of the Dragon Below');
+      expect(deity?.system.domains.alternate).toContain('mind');
+    });
+
+    it('The Stone Sovereign should have the Cazhaak Creed domains', () => {
+      const deity = deityMap.get('The Stone Sovereign: The Cazhaak Creed');
+      expect(deity?.system.domains.primary).toEqual(
+        expect.arrayContaining(['earth', 'duty', 'perfection', 'protection'])
+      );
+    });
+  });
 });

@@ -13,7 +13,7 @@
   "_id": "ZXMRNmfSZaBTknQ1",
   "system": {
     "description": {
-      "value": "<p>The kalashtar of Adar revere a universal force of vitality energy. This path of worship, is the path of light.<br /><strong>Areas of Concern</strong> Dreams, the path of light<br /><strong>Alignment</strong> LN<br /><strong>Divine Font</strong> Heal<br /><strong>Divine Ability</strong> Dexterity or Wisdom<br /><strong>Divine Skill</strong> Diplomacy<br /><strong>Domains</strong> Change, Dreams, Freedom, Knowledge, Perfection, Protection, Repose<br /><strong>Cleric Spells</strong> 1st: jump, 3rd: haste, 4th: stoneskin<br /><strong>Edicts</strong> Be humble; help others perfect themselves; hone your body, mind, and spirit to a more perfect state; practice discipline.<br /><strong>Anathema</strong> Abandon a companion in need, dishonour yourself, repeatedly fail to maintain self-control.<br /><strong>Favoured Weapon</strong> Fist</p>"
+      "value": "<p>The kalashtar of Adar revere a universal force of vitality energy. This path of worship, is the path of light.<br /><strong>Areas of Concern</strong> Dreams, the path of light, psionics<br /><strong>Alignment</strong> LN<br /><strong>Divine Font</strong> Heal<br /><strong>Divine Ability</strong> Dexterity or Wisdom<br /><strong>Divine Skill</strong> Diplomacy<br /><strong>Domains</strong> Change, Dreams, Freedom, Knowledge, Mind, Perfection, Protection, Repose<br /><strong>Cleric Spells</strong> 1st: jump, 3rd: haste, 4th: stoneskin<br /><strong>Edicts</strong> Be humble; help others perfect themselves; hone your body, mind, and spirit to a more perfect state; practice discipline.<br /><strong>Anathema</strong> Abandon a companion in need, dishonour yourself, repeatedly fail to maintain self-control.<br /><strong>Favoured Weapon</strong> Fist</p>"
     },
     "source": {
       "value": "Pathfinder's Guide to Eberron",
@@ -35,6 +35,7 @@
       "primary": [
         "dreams",
         "freedom",
+        "mind",
         "perfection",
         "change"
       ],

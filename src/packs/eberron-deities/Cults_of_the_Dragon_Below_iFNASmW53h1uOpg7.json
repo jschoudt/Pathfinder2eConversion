@@ -13,7 +13,7 @@
   "_id": "iFNASmW53h1uOpg7",
   "system": {
     "description": {
-      "value": "\n\n\n\n\n<p>The Cults of the Dragon Below are a varied set of cults that all worship a unique aspect of madness or evil.<br /><strong>Areas of Concern</strong> Various<br /><strong>Alignment</strong> LE, NE, CE<br /><strong>Divine Font</strong> Harm<br /><strong>Divine Ability</strong> Strength or Constitution<br /><strong>Divine Skill</strong> Intimidation<br /><strong>Domains</strong> Abomination, Cold, Darkness, Death, Decay, Delirium, Destruction, Dust, Earth, Indulgence, Knowledge, Nightmares, Pain, Passion, Plague, Secrecy, Sorrow, Soul, Swarm, Time, Trickery, Tyranny, Undeath, Void, Wyrmkin<br /><strong>Cleric Spells</strong> 1st: grim tendrils, 4th: nightmare, 5th: summon entity (varies)<br /><strong>Edicts</strong> Create darkness, sow discord among allies, misuse positions of authority by steering events toward apocalyptic ends (varies)<br /><strong>Anathema</strong> None (varies)<br /><strong>Favoured Weapon</strong> Great Pick (varies)</p>\n"
+      "value": "\n\n\n\n\n<p>The Cults of the Dragon Below are a varied set of cults that all worship a unique aspect of madness, psionic dissonance, or aberration.<br /><strong>Areas of Concern</strong> Various (Daelkyr, Khyber horrors, psionic madness)<br /><strong>Alignment</strong> LE, NE, CE<br /><strong>Divine Font</strong> Harm<br /><strong>Divine Ability</strong> Strength or Constitution<br /><strong>Divine Skill</strong> Intimidation<br /><strong>Domains</strong> Abomination, Cold, Darkness, Death, Decay, Delirium, Destruction, Dust, Earth, Indulgence, Knowledge, Mind, Nightmares, Pain, Passion, Plague, Secrecy, Sorrow, Soul, Swarm, Time, Trickery, Tyranny, Undeath, Void, Wyrmkin<br /><strong>Cleric Spells</strong> 1st: grim tendrils, 4th: nightmare, 5th: summon entity (varies)<br /><strong>Edicts</strong> Create darkness, sow discord among allies, misuse positions of authority by steering events toward apocalyptic ends (varies)<br /><strong>Anathema</strong> None (varies)<br /><strong>Favoured Weapon</strong> Great Pick (varies)</p>\n"
     },
     "source": {
       "value": "Pathfinder's Guide to Eberron",
@@ -39,6 +39,7 @@
         "plague"
       ],
       "alternate": [
+        "mind",
         "void",
         "pain",
         "passion",
