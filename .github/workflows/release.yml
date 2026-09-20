@@ -1,0 +1,96 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+    inputs:
+      tag_name:
+        description: 'Tag name (e.g. v2.4.0) - leave blank to use version in module.json'
+        required: false
+        default: ''
+      draft:
+        description: 'Create as draft release'
+        type: boolean
+        required: false
+        default: false
+      prerelease:
+        description: 'Mark as pre-release'
+        type: boolean
+        required: false
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-release:
+    name: Build, Package & Release
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Validate compendium schemas
+        run: npm run validate
+
+      - name: Run test suite
+        run: npm test
+
+      - name: Ensure Google Chrome is available for PDF compilation
+        run: |
+          if ! command -v google-chrome &> /dev/null; then
+            echo "Installing Google Chrome..."
+            wget -q https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+            sudo dpkg -i google-chrome-stable_current_amd64.deb || sudo apt-get install -f -y
+          fi
+          google-chrome --version
+
+      - name: Package all release deliverables
+        run: npm run package
+
+      - name: Determine release version and tag
+        id: release_info
+        run: |
+          MODULE_VERSION=$(node -e "console.log(JSON.parse(require('fs').readFileSync('pathfinders-guide-to-eberron/module.json')).version)")
+          if [ -n "${{ github.event.inputs.tag_name }}" ]; then
+            TAG="${{ github.event.inputs.tag_name }}"
+          elif [[ "${{ github.ref }}" == refs/tags/* ]]; then
+            TAG="${GITHUB_REF#refs/tags/}"
+          else
+            TAG="v${MODULE_VERSION}"
+          fi
+          echo "tag=${TAG}" >> "$GITHUB_OUTPUT"
+          echo "version=${MODULE_VERSION}" >> "$GITHUB_OUTPUT"
+          echo "Release tag: ${TAG} (Module v${MODULE_VERSION})"
+
+      - name: Create or update GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.release_info.outputs.tag }}
+          name: "Pathfinder's Guide to Eberron ${{ steps.release_info.outputs.tag }}"
+          body_path: dist/RELEASE_NOTES.md
+          draft: ${{ github.event.inputs.draft || false }}
+          prerelease: ${{ github.event.inputs.prerelease || false }}
+          files: |
+            dist/pathfinders-guide-to-eberron.zip
+            dist/module.json
+            dist/pathfinders-guide-to-eberron-tests.zip
+            dist/pathfinders-guide-to-eberron.json
+            dist/pathfinders-guide-to-eberron.pdf
+            dist/pathfinders-guide-to-eberron-text.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

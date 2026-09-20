@@ -333,20 +333,81 @@ ${unified.replace(/<\/script>/gi, "<\\/script>")}
   return htmlPath;
 }
 
+export function findChromePath() {
+  if (process.env.CHROME_BIN && fs.existsSync(process.env.CHROME_BIN)) {
+    return process.env.CHROME_BIN;
+  }
+  if (process.platform === "darwin") {
+    const macPaths = [
+      "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+      "/Applications/Chromium.app/Contents/MacOS/Chromium",
+      "/Applications/Google Chrome Canary.app/Contents/MacOS/Google Chrome Canary"
+    ];
+    for (const p of macPaths) {
+      if (fs.existsSync(p)) return p;
+    }
+  } else if (process.platform === "win32") {
+    const winPaths = [
+      process.env["PROGRAMFILES"] + "\\Google\\Chrome\\Application\\chrome.exe",
+      process.env["PROGRAMFILES(X86)"] + "\\Google\\Chrome\\Application\\chrome.exe",
+      process.env["LOCALAPPDATA"] + "\\Google\\Chrome\\Application\\chrome.exe"
+    ];
+    for (const p of winPaths) {
+      if (p && fs.existsSync(p)) return p;
+    }
+  } else {
+    // Linux / CI runners
+    const linuxPaths = [
+      "/usr/bin/google-chrome",
+      "/usr/bin/google-chrome-stable",
+      "/usr/bin/chromium-browser",
+      "/usr/bin/chromium"
+    ];
+    for (const p of linuxPaths) {
+      if (fs.existsSync(p)) return p;
+    }
+  }
+
+  // Fallback to checking PATH
+  try {
+    const which = execSync(
+      process.platform === "win32"
+        ? "where chrome"
+        : "which google-chrome || which google-chrome-stable || which chromium-browser || which chromium || which chrome",
+      { encoding: "utf8" }
+    ).trim().split("\n")[0].trim();
+    if (which && fs.existsSync(which)) return which;
+  } catch {}
+
+  return null;
+}
+
 export function generatePdf() {
   const htmlPath = compileDocument();
   const pdfPath = path.join(ROOT_DIR, "pathfinders-guide-to-eberron.pdf");
-  const chromePath = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome";
+  const chromePath = findChromePath();
 
-  if (!fs.existsSync(chromePath)) {
-    throw new Error(`Google Chrome not found at ${chromePath}`);
+  if (!chromePath) {
+    throw new Error(`Google Chrome or Chromium was not found on this system.`);
   }
 
-  console.log(`Generating PDF via Chrome headless...`);
+  console.log(`Generating PDF via Chrome headless (${chromePath})...`);
   console.log(`Output: ${pdfPath}`);
 
-  // Virtual time budget allows showdown, fonts, and images to complete layout
-  const cmd = `"${chromePath}" --headless=new --no-pdf-header-footer --print-to-pdf="${pdfPath}" --run-all-compositor-stages-before-draw --virtual-time-budget=25000 "file://${htmlPath}"`;
+  // Headless flags including Linux CI container sandbox accommodations
+  const flags = [
+    '--headless=new',
+    '--no-pdf-header-footer',
+    `--print-to-pdf="${pdfPath}"`,
+    '--run-all-compositor-stages-before-draw',
+    '--virtual-time-budget=25000',
+    '--no-sandbox',
+    '--disable-setuid-sandbox',
+    '--disable-dev-shm-usage',
+    '--disable-gpu'
+  ].join(' ');
+
+  const cmd = `"${chromePath}" ${flags} "file://${htmlPath}"`;
   
   execSync(cmd, { stdio: "inherit" });
 
