@@ -229,38 +229,11 @@ In D&D 2024, the "Bastion" subsystem introduced automated facility orders and tu
 
 Following the natural character creation and dependency sequence:
 
-```mermaid
-gantt
-    title PF2e Eberron 2024 Implementation Order
-    dateFormat X
-    axisFormat %s
-    section Phase 1: Ancestries & Dragonmarks
-    Ancestry Trait Modernizations        :done, p1a, 0, 1
-    Dragonmarks to Versatile Heritages   :done, p1b, after p1a, 1
-    Least, Lesser, Greater Feat Ladder   :done, p1c, after p1b, 1
-    section Phase 2: Backgrounds
-    14 House Heir Backgrounds            :done, p2a, after p1c, 1
-    Frontier & Droaam Backgrounds        :done, p2b, after p2a, 1
-    section Phase 3: Religions & Deities
-    Commerce & Mind Domains              :active, p3a, after p2b, 1
-    Frontier & Dark Six Syncretisms      :p3b, after p3a, 1
-    section Phase 4: Classes & Archetypes
-    Wandslinger Expansion                :p4a, after p3b, 1
-    Cartographer & Dreadnaught Innov.    :p4b, after p4a, 1
-    Dirge Singer, Forged Druid, Monk     :p4c, after p4b, 1
-    section Phase 5: Spells & Items
-    Focus Spells & Relic Symbionts       :p5a, after p4c, 1
-    Dhakaani Gear & Siberys Marks        :p5b, after p5a, 1
-    section Phase 6: Vehicles & Bestiary
-    Airships as PF2e Vehicles            :p6a, after p5b, 1
-    Monster Bestiary (47 NPCs)           :p6b, after p6a, 1
-```
-
-| Phase | Milestone | Target Compendium Packs |
-| :--- | :--- | :--- |
-| **Phase 1** | **Ancestries & Dragonmarks** | `eberron-ancestries/`, `eberron-heritages/`, `eberron-dragonmarks/` |
-| **Phase 2** | **Backgrounds & Origins** | `eberron-backgrounds/` |
-| **Phase 3** | **Religions & Deities** | `eberron-deities/`, `eberron-spells/` |
-| **Phase 4** | **Classes & Archetypes** | `eberron-classes/`, `eberron-feats/` |
-| **Phase 5** | **Spells & Magic Items** | `eberron-spells/`, `eberron-items/` |
-| **Phase 6** | **Vehicles & Bestiary** | `eberron-items/` (Vehicles), `eberron-creatures/` |
+| Phase | Milestone | Target Compendium Packs | Status | Date/Time Completed |
+| :--- | :--- | :--- | :--- | :--- |
+| **Phase 1** | **Ancestries & Dragonmarks** | `eberron-ancestries/`, `eberron-heritages/`, `eberron-dragonmarks/` | Completed | 2026-09-20 12:35 EDT |
+| **Phase 2** | **Backgrounds & Origins** | `eberron-backgrounds/` | Completed | 2026-09-20 12:49 EDT |
+| **Phase 3** | **Religions & Deities** | `eberron-deities/`, `eberron-spells/` | In Progress | — |
+| **Phase 4** | **Classes & Archetypes** | `eberron-classes/`, `eberron-feats/` | Planned | — |
+| **Phase 5** | **Spells & Magic Items** | `eberron-spells/`, `eberron-items/` | Planned | — |
+| **Phase 6** | **Vehicles & Bestiary** | `eberron-items/` (Vehicles), `eberron-creatures/` | Planned | — |
