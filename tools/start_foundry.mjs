@@ -180,29 +180,26 @@ async function main() {
   child.on('exit', async (code, signal) => {
     clearTimeout(chromeTimer);
     if (collector) collector.flush();
-    if (bridge) await bridge.close();
+    if (bridge) {
+      try { await bridge.close(); } catch (_) {}
+    }
     if (existsSync(portPath)) {
       try { await unlink(portPath); } catch (e) {}
     }
 
-    if (signal) {
-      process.kill(process.pid, signal);
-    } else {
-      process.exit(code ?? 0);
-    }
+    const exitCode = signal ? (signal === 'SIGINT' ? 130 : 143) : (code ?? 0);
+    process.exit(exitCode);
   });
 
   // Forward signals to child process
-  process.on('SIGINT', async () => {
+  process.on('SIGINT', () => {
     clearTimeout(chromeTimer);
     if (collector) collector.flush();
-    if (bridge) await bridge.close();
     child.kill('SIGINT');
   });
-  process.on('SIGTERM', async () => {
+  process.on('SIGTERM', () => {
     clearTimeout(chromeTimer);
     if (collector) collector.flush();
-    if (bridge) await bridge.close();
     child.kill('SIGTERM');
   });
 }

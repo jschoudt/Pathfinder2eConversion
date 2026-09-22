@@ -277,7 +277,16 @@ export function startServerErrorBridge({
         recordError,
         clearErrors,
         getErrors: () => [...errors],
-        close: () => new Promise(res => server.close(res))
+        close: () => {
+          for (const client of sseClients) {
+            try { client.end(); } catch (_) {}
+          }
+          sseClients.clear();
+          if (typeof server.closeAllConnections === 'function') {
+            server.closeAllConnections();
+          }
+          return new Promise(res => server.close(res));
+        }
       });
     });
   });

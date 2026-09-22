@@ -208,6 +208,7 @@ class EberronErrorMonitor {
     if (/The V1 Application framework is deprecated/i.test(combined)) return false;
     if (/ApplicationV1/i.test(combined) && !/pathfinders-guide-to-eberron/i.test(stack)) return false;
     if (/EberronErrorMonitor|test-runner\.js/i.test(message)) return false;
+    if (/Eberron Test Suite (?:PASSED|FAILED)/i.test(message)) return false;
 
     const pattern = /pathfinders-guide-to-eberron|eberron|Compendium\.pathfinders-guide-to-eberron/i;
     return pattern.test(combined);
@@ -2119,18 +2120,32 @@ if (typeof Hooks !== "undefined" && Hooks.once) {
 
   // Add an Error Monitor button to scene controls for easy 1-click access
   Hooks.on("getSceneControlButtons", (controls) => {
-    const tokenControl = controls.find(c => c.name === "token");
-    if (tokenControl) {
-      tokenControl.tools.push({
-        name: "eberron-errors",
-        title: "Eberron Module Error Monitor",
-        icon: "fas fa-bug",
-        visible: true,
-        onClick: () => {
-          EberronErrorMonitor.showErrorDialog();
-        },
-        button: true
-      });
+    try {
+      const isArray = Array.isArray(controls);
+      const tokenControl = isArray
+        ? controls.find(c => c?.name === "token")
+        : (controls?.token || controls?.tokens);
+
+      if (tokenControl) {
+        const toolDef = {
+          name: "eberron-errors",
+          title: "Eberron Module Error Monitor",
+          icon: "fas fa-bug",
+          visible: true,
+          onClick: () => {
+            EberronErrorMonitor.showErrorDialog();
+          },
+          button: true
+        };
+
+        if (Array.isArray(tokenControl.tools)) {
+          tokenControl.tools.push(toolDef);
+        } else if (typeof tokenControl.tools === "object" && tokenControl.tools !== null) {
+          tokenControl.tools["eberron-errors"] = toolDef;
+        }
+      }
+    } catch (err) {
+      console.warn("Eberron Error Monitor: Failed to attach scene control button", err);
     }
   });
 }
